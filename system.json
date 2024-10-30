@@ -15,8 +15,8 @@
   "media": [
     {
       "type": "setup",
-      "url": "systems/neon-lords/assets/anvil-impact.png",
-      "thumbnail": "systems/neon-lords/assets/anvil-impact.png"
+      "url": "systems/neon-lords/assets/Neon-Lords-logo-circle_4-1024x1024.png",
+      "thumbnail": "systems/neon-lords/assets/Neon-Lords-logo-circle_4-1024x1024.png"
     }
   ],
   "version": "0.0.1",
@@ -38,13 +38,13 @@
   "socket": false,
   "manifest": "https://github.com/andrewbeard/foundry-neon-lords/releases/latest/download/system.json",
   "download": "https://github.com/andrewbeard/foundry-neon-lords/download/0.0.1/foundry-neon-lords.zip",
-  "background": "systems/neon-lords/assets/anvil-impact.png",
+  "background": "systems/neon-lords/assets/Neon-Lords-logo-circle_4-1024x1024.png",
   "grid": {
     "distance": 5,
     "units": "ft"
   },
   "gridDistance": 5,
   "gridUnits": "ft",
-  "primaryTokenAttribute": "health",
+  "primaryTokenAttribute": "hp",
   "secondaryTokenAttribute": "power"
 }
