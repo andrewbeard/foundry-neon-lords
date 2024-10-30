@@ -23,11 +23,23 @@
         </div>
 
         <div class="resource flex-group-center">
-          <label for="system.cr" class="resource-label">CR / XP</label>
+          <label for="system.ac.value" class="resource-label">Armor Class</label>
           <div class="resource-content flexrow flex-center flex-between">
-            <input type="text" name="system.cr" value="{{system.cr}}" data-dtype="Number"/>
-            <span> / </span>
-            <input type="text" disabled="true" name="system.xp" value="{{system.xp}}" data-dtype="Number"/>
+          <input type="text" name="system.ac.value" value="{{system.ac.value}}" data-dtype="Number"/>
+          </div>
+        </div>
+
+        <div class="resource flex-group-center">
+          <label for="system.hd" class="resource-label">Hit Dice</label>
+          <div class="resource-content flexrow flex-center flex-between">
+            <input type="text" name="system.hd" value="{{system.hd}}" data-dtype="Number"/>
+          </div>
+        </div>
+
+        <div class="resource flex-group-center">
+          <label for="system.alignment" class="resource-label">Alignment</label>
+          <div class="resource-content flexrow flex-center flex-between">
+            <input type="text" name="system.alignment" value="{{system.alignment}}" data-dtype="String"/>
           </div>
         </div>
 

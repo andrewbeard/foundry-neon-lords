@@ -31,8 +31,8 @@ Hooks.once('init', function () {
    * @type {String}
    */
   CONFIG.Combat.initiative = {
-    formula: '1d20 + @abilities.dex.mod',
-    decimals: 2,
+    formula: '1d6',
+    decimals: 1,
   };
 
   // Define custom Document and DataModel classes

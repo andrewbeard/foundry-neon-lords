@@ -10,13 +10,6 @@ const abilities_list = [
   "fortune"
 ]
 
-const saves_list = [
-  "grit",
-  "agility",
-  "resolve",
-  "death"
-]
-
 export default class NeonLordsCharacter extends NeonLordsActorBase {
 
   static defineSchema() {
@@ -33,13 +26,6 @@ export default class NeonLordsCharacter extends NeonLordsActorBase {
     // Iterate over ability names and create a new SchemaField for each.
     schema.abilities = new fields.SchemaField(abilities_list.reduce((obj, ability) => {
       obj[ability] = new fields.SchemaField({
-        value: new fields.NumberField({ ...requiredInteger, initial: 10, min: 0 }),
-      });
-      return obj;
-    }, {}));
-
-    schema.saves = new fields.SchemaField(saves_list.reduce((obj, save) => {
-      obj[save] = new fields.SchemaField({
         value: new fields.NumberField({ ...requiredInteger, initial: 10, min: 0 }),
       });
       return obj;

@@ -1,5 +1,12 @@
 import NeonLordsDataModel from "./base-model.mjs";
 
+const saves_list = [
+  "grit",
+  "agility",
+  "resolve",
+  "death"
+]
+
 export default class NeonLordsActorBase extends NeonLordsDataModel {
 
   static defineSchema() {
@@ -14,6 +21,15 @@ export default class NeonLordsActorBase extends NeonLordsDataModel {
     schema.ac = new fields.SchemaField({
       value: new fields.NumberField({ ...requiredInteger, initial: 9, min: 0 }),
     });
+    schema.movement = new fields.SchemaField({
+        value: new fields.NumberField({ ...requiredInteger, initial: 30, min: 0 }),
+    });
+    schema.saves = new fields.SchemaField(saves_list.reduce((obj, save) => {
+      obj[save] = new fields.SchemaField({
+        value: new fields.NumberField({ ...requiredInteger, initial: 10, min: 0 }),
+      });
+      return obj;
+    }, {}));
     schema.biography = new fields.StringField({ required: true, blank: true }); // equivalent to passing ({initial: ""}) for StringFields
 
     return schema;
