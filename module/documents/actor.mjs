@@ -38,6 +38,25 @@ export class NeonLordsActor extends Actor {
     this._prepareNpcData(actorData);
   }
 
+  static _calculateMod(abilityScore) {
+    // Yes, this is the dumb way of calculating. Fix this later when my brain is fully engaged
+    let mod = -3;
+    if (abilityScore >= 18) {
+      mod = 3;
+    } else if (abilityScore >= 16) {
+      mod = 2;
+    } else if (abilityScore >= 13) {
+      mod = 1;
+    } else if (abilityScore >= 9) {
+      mod = 0;
+    } else if (abilityScore >= 6) {
+      mod = -1;
+    } else if (abilityScore >= 4) {
+      mod = -2;
+    }
+    return mod;
+  }
+
   /**
    * Prepare Character type specific data
    */
@@ -49,8 +68,8 @@ export class NeonLordsActor extends Actor {
 
     // Loop through ability scores, and add their modifiers to our sheet output.
     for (let [key, ability] of Object.entries(systemData.abilities)) {
-      // Calculate the modifier using d20 rules.
-      ability.mod = Math.floor((ability.value - 10) / 2);
+      // Calculate the modifier from the base ability score
+      ability.mod = this._calculateMod(ability.value)
     }
   }
 

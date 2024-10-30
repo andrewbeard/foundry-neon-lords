@@ -3,17 +3,30 @@
     "types": ["character", "npc"],
     "templates": {
       "base": {
-        "health": {
-          "value": 10,
-          "min": 0,
-          "max": 10
+        "ac": {
+          "value" : 9        
         },
-        "power": {
-          "value": 5,
-          "min": 0,
-          "max": 5
+        "hp": {
+          "value": 0,
+          "max": 0
         },
-        "biography": ""
+        "move": {
+          "value": 30
+        },
+        "saves": {
+          "grit": {
+            "value": 10
+          },
+          "agility": {
+            "value": 10
+          },
+          "resolve": {
+            "value": 10
+          },
+          "death": {
+            "value": 10
+          }
+        }
       }
     },
     "character": {
@@ -21,36 +34,47 @@
       "attributes": {
         "level": {
           "value": 1
+        },
+        "class": {
+        },
+        "xp": {
+          "value": 0
         }
       },
       "abilities": {
-        "str": {
+        "burliness": {
           "value": 10
         },
-        "dex": {
+        "prowess": {
           "value": 10
         },
-        "con": {
+        "endurance": {
           "value": 10
         },
-        "int": {
+        "brains": {
           "value": 10
         },
-        "wis": {
+        "attitude": {
           "value": 10
         },
-        "cha": {
+        "sleaze": {
+          "value": 10
+        },
+        "fortune": {
           "value": 10
         }
+      },
+      "class_ability": {
+        "value": 10
       }
     },
     "npc": {
       "templates": ["base"],
-      "cr": 0
+      "hd": 0
     }
   },
   "Item": {
-    "types": ["item", "feature", "spell"],
+    "types": ["item", "feature", "spell", "hairstyle"],
     "templates": {
       "base": {
         "description": ""
@@ -68,6 +92,9 @@
     "spell": {
       "templates": ["base"],
       "spellLevel": 1
+    },
+    "hairstyle": {
+      "templates": ["base"]
     }
   }
 }

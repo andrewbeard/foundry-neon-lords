@@ -67,6 +67,10 @@ Handlebars.registerHelper('toLowerCase', function (str) {
   return str.toLowerCase();
 });
 
+Handlebars.registerHelper('capitalizeFirstLetter', function (str) {
+    return String(str).charAt(0).toUpperCase() + String(str).slice(1);
+});
+
 /* -------------------------------------------- */
 /*  Ready Hook                                  */
 /* -------------------------------------------- */
