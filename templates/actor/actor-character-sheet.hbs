@@ -70,6 +70,16 @@
             </div>
             {{/each}}
           </div>
+
+          <div class="saves flexcol" style="padding-top: 15px;">
+            {{#each system.saves as |save key|}}
+            <div class="save flexrow flex-group-center">
+              <label for="system.saves.{{key}}.value" class="resource-label rollable flexlarge align-left" data-roll="d20" data-label="{{capitalizeFirstLetter key}}">{{capitalizeFirstLetter key}}</label>
+              <input type="text" name="system.saves.{{key}}.value" value="{{save.value}}" data-dtype="Number"/>
+              <span class="blank rollable" data-roll="d20" data-label="{{capitalizeFirstLetter key}}"></span>
+            </div>
+            {{/each}}
+          </div>
         </aside>
 
         {{!-- For the main features list, span the right two columns --}}
