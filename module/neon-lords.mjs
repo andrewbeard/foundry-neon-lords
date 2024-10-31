@@ -88,6 +88,10 @@ Handlebars.registerHelper('capitalizeFirstLetter', function (str) {
     return String(str).charAt(0).toUpperCase() + String(str).slice(1);
 });
 
+Handlebars.registerHelper('showSign', function (num) {
+    return new Intl.NumberFormat("en-US", { signDisplay: "exceptZero"}).format(num);
+});
+
 /* -------------------------------------------- */
 /*  Ready Hook                                  */
 /* -------------------------------------------- */
