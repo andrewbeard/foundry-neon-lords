@@ -43,8 +43,7 @@
   {{!-- Sheet Tab Navigation --}}
   <nav class="sheet-tabs tabs" data-group="primary">
     {{!-- Default tab is specified in actor-sheet.mjs --}}
-    <a class="item" data-tab="features">Features</a>
-    <a class="item" data-tab="attacks">Attacks</a>
+    <a class="item" data-tab="attributes">Attributes</a>
     <a class="item" data-tab="description">Description</a>
     <a class="item" data-tab="items">Items</a>
     <a class="item" data-tab="spells">Spells</a>
@@ -55,7 +54,7 @@
   <section class="sheet-body">
 
     {{!-- Owned Features Tab --}}
-    <div class="tab features" data-group="primary" data-tab="features">
+    <div class="tab features" data-group="primary" data-tab="attributes">
       <section class="grid grid-3col">
         <aside class="sidebar">
 
@@ -86,15 +85,14 @@
         {{!-- For the main features list, span the right two columns --}}
         <section class="main grid-span-2">
           {{!-- This is a Handlebars partial. They're stored in the `/parts` folder next to this sheet, and defined in module/helpers/templates.mjs --}}
-          {{> "systems/neon-lords/templates/actor/parts/actor-features.hbs"}}
+          <div class="attacks flexcol">
+            {{> "systems/neon-lords/templates/actor/parts/actor-attacks.hbs"}}
+          </div>
+          <div class="features flexcol" style="padding-top: 15px;">
+            {{> "systems/neon-lords/templates/actor/parts/actor-features.hbs"}}
+          </div>
         </section>
-
       </section>
-    </div>
-
-    {{!-- Attacks Tab --}}
-    <div class="tab attacks" data-group="primary" data-tab="attacks">
-       {{> "systems/neon-lords/templates/actor/parts/actor-attacks.hbs"}}
     </div>
 
     {{!-- Biography Tab --}}
