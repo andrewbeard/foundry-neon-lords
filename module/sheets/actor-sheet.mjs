@@ -103,6 +103,7 @@ export class NeonLordsActorSheet extends ActorSheet {
    */
   _prepareItems(context) {
     // Initialize containers.
+    const attacks = [];
     const gear = [];
     const features = [];
     const spells = {
@@ -129,6 +130,9 @@ export class NeonLordsActorSheet extends ActorSheet {
       else if (i.type === 'feature') {
         features.push(i);
       }
+      else if (i.type === 'attack') {
+        attacks.push(i);
+      }
       // Append to spells.
       else if (i.type === 'spell') {
         if (i.system.spellLevel != undefined) {
@@ -138,6 +142,7 @@ export class NeonLordsActorSheet extends ActorSheet {
     }
 
     // Assign and return
+    context.attacks = attacks;
     context.gear = gear;
     context.features = features;
     context.spells = spells;
@@ -243,7 +248,7 @@ export class NeonLordsActorSheet extends ActorSheet {
 
     // Handle rolls that supply the formula directly.
     if (dataset.roll) {
-      let label = dataset.label ? `[ability] ${dataset.label}` : '';
+      let label = dataset.label ? `[Ability] ${dataset.label}` : '';
       let roll = new Roll(dataset.roll, this.actor.getRollData());
       roll.toMessage({
         speaker: ChatMessage.getSpeaker({ actor: this.actor }),

@@ -9,3 +9,4 @@ export {default as NeonLordsItem} from "./item-item.mjs";
 export {default as NeonLordsFeature} from "./item-feature.mjs";
 export {default as NeonLordsSpell} from "./item-spell.mjs";
 export {default as NeonLordsHairstyle} from "./item-hairstyle.mjs";
+export {default as NeonLordsAttack} from "./item-attack.mjs";

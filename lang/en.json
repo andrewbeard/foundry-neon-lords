@@ -36,7 +36,8 @@
       "item": "Item",
       "feature": "Feature",
       "spell": "Spell",
-      "hairstyle": "Hairstyle"
+      "hairstyle": "Hairstyle",
+      "attack": "Attack"
     }
   }
 }

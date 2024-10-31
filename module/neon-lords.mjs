@@ -49,7 +49,9 @@ Hooks.once('init', function () {
   CONFIG.Item.dataModels = {
     item: models.NeonLordsItem,
     feature: models.NeonLordsFeature,
-    spell: models.NeonLordsSpell
+    spell: models.NeonLordsSpell,
+    hairstyle: models.NeonLordsHairstyle,
+    attack: models.NeonLordsAttack
   }
 
   // Active Effects are never copied to the Actor,

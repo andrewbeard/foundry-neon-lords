@@ -39,7 +39,12 @@
         <div class="resource flex-group-center">
           <label for="system.alignment" class="resource-label">Alignment</label>
           <div class="resource-content flexrow flex-center flex-between">
-            <input type="text" name="system.alignment" value="{{system.alignment}}" data-dtype="String"/>
+            <input type="text" name="system.alignment" value="{{system.alignment}}" data-dtype="String" list="alignmentlist"/>
+            <datalist id="alignmentlist">
+              <option value="Chaotic">Chaotic</option>
+              <option value="Neutral">Neutral</option>
+              <option value="Lawful">Lawful</option>
+            </datalist>
           </div>
         </div>
 
@@ -50,6 +55,7 @@
   {{!-- Sheet Tab Navigation --}}
   <nav class="sheet-tabs tabs" data-group="primary">
     {{!-- Default tab is specified in actor-sheet.mjs --}}
+    <a class="item" data-tab="attacks">Attacks</a>
     <a class="item" data-tab="description">Description</a>
     <a class="item" data-tab="items">Items</a>
     <a class="item" data-tab="effects">Effects</a>
@@ -58,7 +64,12 @@
   {{!-- Sheet Body --}}
   <section class="sheet-body">
 
-    {{!-- Biography Tab --}}
+    {{!-- Attacks Tab --}}
+    <div class="tab attacks" data-group="primary" data-tab="attacks">
+       {{> "systems/neon-lords/templates/actor/parts/actor-attacks.hbs"}}
+    </div>
+
+    {{!-- Description Tab --}}
     <div class="tab biography" data-group="primary" data-tab="description">
       {{!-- Editors must receive enriched text data from getData to properly handle rolls --}}
       {{editor enrichedBiography target="system.biography" engine="prosemirror" button=true editable=editable}}
