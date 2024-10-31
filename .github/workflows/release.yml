@@ -27,7 +27,7 @@ jobs:
           release_name: ${{ github.ref }}
       - name: Upload system.json
         uses: actions/upload-release-asset@v1
-        id: upload-release-asset 
+        id: upload-release-asset-json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
@@ -37,7 +37,7 @@ jobs:
           asset_content_type: application/json
       - name: Upload neon-lords.zip
         uses: actions/upload-release-asset@v1
-        id: upload-release-asset 
+        id: upload-release-asset-zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
