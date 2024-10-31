@@ -3,20 +3,47 @@ on:
     tags:
       - 'v[0-9]+.[0-9]+.[0-9]+'
 
-permissions:
-  contents: write
+name: Create Release
 
 jobs:
   release:
-    name: Release pushed tag
-    runs-on: ubuntu
+    name: Build release artifacts and create a release
+    runs-on: ubuntu-24.04
     steps:
-      - name: Create release
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Create zip archive
+        run: |
+          git archive --format=zip --prefix=neon-lords/ -o neon-lords.zip ${{ github.ref }}
+      - name: Create release draft
+        uses: actions/create-release@1
+        id: create_release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          tag: ${{ github.ref_name }}
-        run: |
-          gh release create "$tag" \
-              --repo="$GITHUB_REPOSITORY" \
-              --title="${tag#v}" \
-              --generate-notes
+        with: 
+          draft: true
+          prerelease: false
+          tag_name: ${{ github.ref }}
+          release_name: ${{ github.ref }}
+      - name: Upload system.json
+        uses: actions/upload-release-asset@v1
+        id: upload-release-asset 
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./system.json
+          asset_name: system.json
+          asset_content_type: application/json
+      - name: Upload neon-lords.zip
+        uses: actions/upload-release-asset@v1
+        id: upload-release-asset 
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./neon-lords.zip
+          asset_name: neon-lords.zip
+          asset_content_type: application/zip
+
+
