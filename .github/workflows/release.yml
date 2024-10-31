@@ -9,6 +9,8 @@ jobs:
   release:
     name: Build release artifacts and create a release
     runs-on: ubuntu-24.04
+    permissions:
+      contents: write
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
