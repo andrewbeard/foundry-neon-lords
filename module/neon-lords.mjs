@@ -89,7 +89,7 @@ Handlebars.registerHelper('capitalizeFirstLetter', function (str) {
 });
 
 Handlebars.registerHelper('showSign', function (num) {
-    return new Intl.NumberFormat("en-US", { signDisplay: "exceptZero"}).format(num);
+    return new Intl.NumberFormat("en-US", { signDisplay: "always"}).format(num);
 });
 
 /* -------------------------------------------- */
