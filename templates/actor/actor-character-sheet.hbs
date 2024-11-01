@@ -14,6 +14,32 @@
         and it will add a small amount of padding, a border, and will
         center all of its child elements content and text. --}}
         <div class="resource flex-group-center">
+          <label for="system.class" class="resource-label">Class</label>
+          <div class="resource-content flexrow flex-center flex-between">
+            <input type="text" name="system.class" value="{{system.class}}" data-dtype="String"/>
+          </div>
+        </div>
+
+        <div class="resource flex-group-center">
+          <label for="system.alignment" class="resource-label">Alignment</label>
+          <div class="resource-content flexrow flex-center flex-between">
+            <input type="text" name="system.alignment" value="{{system.alignment}}" data-dtype="String" list="alignmentlist"/>
+            <datalist id="alignmentlist">
+              <option value="Chaotic">Chaotic</option>
+              <option value="Neutral">Neutral</option>
+              <option value="Lawful">Lawful</option>
+            </datalist>
+          </div>
+        </div>
+
+        <div class="resource flex-group-center">
+          <label for="system.hairstyle" class="resource-label">Hairstyle</label>
+          <div class="resource-content flexrow flex-center flex-between">
+            <input type="text" name="system.hairstyle" value="{{system.hairstyle}}" data-dtype="String"/>
+          </div>
+        </div>
+
+        <div class="resource flex-group-center">
           <label for="system.hp.value" class="resource-label">Hit Points</label>
           <div class="resource-content flexrow flex-center flex-between">
           <input type="text" name="system.hp.value" value="{{system.hp.value}}" data-dtype="Number"/>

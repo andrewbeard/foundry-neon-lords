@@ -7,6 +7,12 @@ const saves_list = [
   "death"
 ]
 
+const alignments_list = [
+    "Chaotic",
+    "Neutral",
+    "Lawful"
+]
+
 export default class NeonLordsActorBase extends NeonLordsDataModel {
 
   static defineSchema() {
@@ -31,6 +37,8 @@ export default class NeonLordsActorBase extends NeonLordsDataModel {
       return obj;
     }, {}));
     schema.biography = new fields.StringField({ required: true, blank: true }); // equivalent to passing ({initial: ""}) for StringFields
+    schema.alignment = new fields.StringField({ required: true, nullable: false, blank: true, choices: alignments_list });
+
 
     return schema;
   }
