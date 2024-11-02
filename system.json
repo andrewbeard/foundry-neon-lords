@@ -45,5 +45,5 @@
   },
   "initiative": "1d6",
   "primaryTokenAttribute": "hp",
-  "secondaryTokenAttribute": "power"
+  "secondaryTokenAttribute": "cp"
 }

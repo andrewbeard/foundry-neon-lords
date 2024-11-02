@@ -33,7 +33,11 @@ export default class NeonLordsCharacter extends NeonLordsActorBase {
 
     schema.class = new fields.StringField({ required: true, nullable: false, trim: true, blank: true });
     schema.hairstyle = new fields.StringField({ required: true, nullable: false, trim: true, blank: true });
-
+    schema.cp = new fields.SchemaField({
+      value: new fields.NumberField({ ...requiredInteger, initial: 10, min: 0 }),
+      max: new fields.NumberField({ ...requiredInteger, initial: 10 }),
+      label: new fields.StringField({ required: true, nullable: false, trim: true, initial: "Class Points" })
+    });
     return schema;
   }
 
