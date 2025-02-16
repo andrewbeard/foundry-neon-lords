@@ -49,6 +49,33 @@
           data-dtype='Number'
         />
       </div>
+      <div class='resource'>
+        <label class='resource-label'>Duration</label>
+        <input
+          type='text'
+          name='system.duration'
+          value='{{system.duration}}'
+          data-dtype='String'
+        />
+      </div>
+      <div class='resource'>
+        <label class='resource-label'>Range</label>
+        <input
+          type='text'
+          name='system.range'
+          value='{{system.range}}'
+          data-dtype='String'
+        />
+      </div>
+      <div class='resource'>
+        <label class='resource-label'>Spell Check</label>
+        <input
+          type='checkbox'
+          name='system.spellCheck'
+          {{isChecked system.spellCheck}}
+          data-dtype='Boolean'
+        />
+      </div>
     </div>
   </section>
 </form>

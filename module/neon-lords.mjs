@@ -92,6 +92,10 @@ Handlebars.registerHelper('showSign', function (num) {
     return new Intl.NumberFormat("en-US", { signDisplay: "always"}).format(num);
 });
 
+Handlebars.registerHelper('isChecked', function (value) {
+    return value ? 'checked' : '';
+});
+
 /* -------------------------------------------- */
 /*  Ready Hook                                  */
 /* -------------------------------------------- */
