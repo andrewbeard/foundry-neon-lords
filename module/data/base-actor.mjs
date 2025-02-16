@@ -8,7 +8,7 @@ const saves_list = [
 ]
 
 const alignments_list = [
-    "Chaotic",
+    "Khaotic",
     "Neutral",
     "Lawful"
 ]
@@ -28,7 +28,7 @@ export default class NeonLordsActorBase extends NeonLordsDataModel {
       value: new fields.NumberField({ ...requiredInteger, initial: 9, min: 0 }),
     });
     schema.movement = new fields.SchemaField({
-        value: new fields.NumberField({ ...requiredInteger, initial: 30, min: 0 }),
+      value: new fields.NumberField({ ...requiredInteger, initial: 30, min: 0 }),
     });
     schema.saves = new fields.SchemaField(saves_list.reduce((obj, save) => {
       obj[save] = new fields.SchemaField({
