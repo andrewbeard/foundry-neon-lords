@@ -247,7 +247,8 @@ export class NeonLordsActorSheet extends ActorSheet {
 
     // Handle rolls that supply the formula directly.
     if (dataset.roll) {
-      let label = dataset.label ? `[Ability] ${dataset.label}` : '';
+      let type = dataset.rollCategory ? `[${dataset.rollCategory}] ` : '';
+      let label = dataset.label ? `${type}${dataset.label}` : '';
       let roll = new Roll(dataset.roll, this.actor.getRollData());
       roll.toMessage({
         speaker: ChatMessage.getSpeaker({ actor: this.actor }),
