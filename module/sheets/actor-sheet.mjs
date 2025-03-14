@@ -249,13 +249,74 @@ export class NeonLordsActorSheet extends ActorSheet {
     if (dataset.roll) {
       let type = dataset.rollCategory ? `[${dataset.rollCategory}] ` : '';
       let label = dataset.label ? `${type}${dataset.label}` : '';
-      let roll = new Roll(dataset.roll, this.actor.getRollData());
-      roll.toMessage({
-        speaker: ChatMessage.getSpeaker({ actor: this.actor }),
-        flavor: label,
-        rollMode: game.settings.get('core', 'rollMode'),
-      });
-      return roll;
+      
+      // For ability score rolls, roll directly against the ability value (roll under)
+      if (dataset.rollCategory === 'STATS' && dataset.label) {
+        const abilityName = dataset.label.toLowerCase();
+        const targetNumber = this.actor.system.abilities[abilityName]?.value;
+        
+        if (targetNumber !== undefined) {
+          this._handleDirectRoll(dataset.roll, label, targetNumber, true);
+          return;
+        }
+      }
+      
+      // For saving throws, roll directly against the save value (roll over)
+      if (dataset.rollCategory === 'Saving Throw' && dataset.label) {
+        const saveName = dataset.label.toLowerCase();
+        const targetNumber = this.actor.system.saves[saveName]?.value;
+        
+        if (targetNumber !== undefined) {
+          this._handleDirectRoll(dataset.roll, label, targetNumber, false);
+          return;
+        }
+      }
+
+      // For all other rolls (including attacks), just show the result
+      this._handleSimpleRoll(dataset.roll, label);
+      return;
     }
+  }
+
+  /**
+   * Handle a direct roll against a target number without showing a dialog
+   * @param {string} formula The roll formula
+   * @param {string} label The roll label
+   * @param {number} targetNumber The target number to roll against
+   * @param {boolean} rollUnder Whether success is determined by rolling under the target (true) or over (false)
+   * @private
+   */
+  async _handleDirectRoll(formula, label, targetNumber, rollUnder = false) {
+    const roll = new Roll(formula, this.actor.getRollData());
+    const result = await roll.evaluate();
+    
+    const total = result.total;
+    const isSuccess = rollUnder ? total <= targetNumber : total >= targetNumber;
+    const successText = isSuccess 
+      ? `<span style="color: #009900; font-weight: bold;">✓ Success!</span> (${total} ${rollUnder ? '≤' : '≥'} ${targetNumber})`
+      : `<span style="color: #990000; font-weight: bold;">✗ Failure!</span> (${total} ${rollUnder ? '>' : '<'} ${targetNumber})`;
+    
+    roll.toMessage({
+      speaker: ChatMessage.getSpeaker({ actor: this.actor }),
+      flavor: `${label}<br>${successText}`,
+      rollMode: game.settings.get('core', 'rollMode')
+    });
+  }
+
+  /**
+   * Handle a simple roll without target number
+   * @param {string} formula The roll formula
+   * @param {string} label The roll label
+   * @private
+   */
+  async _handleSimpleRoll(formula, label) {
+    const roll = new Roll(formula, this.actor.getRollData());
+    const result = await roll.evaluate();
+    
+    roll.toMessage({
+      speaker: ChatMessage.getSpeaker({ actor: this.actor }),
+      flavor: `${label}<br>Roll: ${result.total}`,
+      rollMode: game.settings.get('core', 'rollMode')
+    });
   }
 }
