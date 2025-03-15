@@ -313,9 +313,21 @@ export class NeonLordsActorSheet extends ActorSheet {
     const roll = new Roll(formula, this.actor.getRollData());
     const result = await roll.evaluate();
     
+    // Check for fumble on attack rolls (natural 1)
+    const isAttack = label.includes('[Attack]');
+    const isFumble = isAttack && result.terms[0].results[0].result === 1;
+    const isToTheMax = isAttack && result.terms[0].results[0].result === 20;
+
+    
+    const resultText = isFumble 
+      ? `<span style="color: #990000; font-weight: bold;">Fumble!</span> (${result.total})`
+      : isToTheMax
+      ? `<span style="color: #009900; font-weight: bold;">TO THE MAX!!</span> (${result.total})`
+      : `Roll: ${result.total}`;
+    
     roll.toMessage({
       speaker: ChatMessage.getSpeaker({ actor: this.actor }),
-      flavor: `${label}<br>Roll: ${result.total}`,
+      flavor: `${label}<br>${resultText}`,
       rollMode: game.settings.get('core', 'rollMode')
     });
   }
