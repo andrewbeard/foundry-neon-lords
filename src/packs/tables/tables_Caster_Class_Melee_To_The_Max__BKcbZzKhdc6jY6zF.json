@@ -118,11 +118,28 @@
       ],
       "drawn": false,
       "_id": "EE4lTaAxCQNnkV31",
-      "text": "Slash to the foe’s face, splitting them open and leaving them Bleeding profusely. 1D4 determines the location of the slash.",
+      "text": "Slash to the foe’s face, splitting them open and leaving them bleeding profusely.",
       "img": "icons/svg/d20-black.svg",
       "documentId": null,
       "flags": {},
+      "documentCollection": "RollTable",
       "_key": "!tables.results!BKcbZzKhdc6jY6zF.EE4lTaAxCQNnkV31"
+    },
+    {
+      "type": "pack",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "XcgkMUPoFj6sr7zY",
+      "text": "Subtable - Caster Class Melee To The Max! - Face Slash",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": "iMr6DQDgKvju7jKi",
+      "flags": {},
+      "documentCollection": "neon-lords.tables",
+      "_key": "!tables.results!BKcbZzKhdc6jY6zF.XcgkMUPoFj6sr7zY"
     },
     {
       "type": "text",
@@ -132,23 +149,8 @@
         9
       ],
       "drawn": false,
-      "_id": "XcgkMUPoFj6sr7zY",
-      "text": "Kick Him In The Nards! Blow to nards, dealing an additional 1D6 damage and leaving them howling in pain.",
-      "img": "icons/svg/d20-black.svg",
-      "documentId": null,
-      "flags": {},
-      "_key": "!tables.results!BKcbZzKhdc6jY6zF.XcgkMUPoFj6sr7zY"
-    },
-    {
-      "type": "text",
-      "weight": 1,
-      "range": [
-        10,
-        10
-      ],
-      "drawn": false,
       "_id": "R9DTPD7UUYFoWKfi",
-      "text": "Perfect strike! Your blow manages to hit in just the right spot, dealing an additional 2D4 damage.",
+      "text": "Kick Him In The Nards! Blow to nards, dealing an additional 1D6 damage and leaving them howling in pain.",
       "img": "icons/svg/d20-black.svg",
       "documentId": null,
       "flags": {},
@@ -158,16 +160,31 @@
       "type": "text",
       "weight": 1,
       "range": [
-        11,
-        20
+        10,
+        10
       ],
       "drawn": false,
       "_id": "r5XV2gTIM05ybck9",
-      "text": "SUPREME STRIKE! The attack sinks deep or smashes extra-hard, dealing an additional 2D10 Bleeding damage.",
+      "text": "Perfect strike! Your blow manages to hit in just the right spot, dealing an additional 2D4 damage.",
       "img": "icons/svg/d20-black.svg",
       "documentId": null,
       "flags": {},
       "_key": "!tables.results!BKcbZzKhdc6jY6zF.r5XV2gTIM05ybck9"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        20
+      ],
+      "drawn": false,
+      "_id": "SMLdzewU9DhPYRmb",
+      "text": "SUPREME STRIKE! The attack sinks deep or smashes extra-hard, dealing an additional 2D10 Bleeding damage.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!BKcbZzKhdc6jY6zF.SMLdzewU9DhPYRmb"
     }
   ],
   "replacement": true,
@@ -186,7 +203,7 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742091913234,
-    "modifiedTime": 1742092416749,
+    "modifiedTime": 1742095914547,
     "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
   "formula": "1D10",

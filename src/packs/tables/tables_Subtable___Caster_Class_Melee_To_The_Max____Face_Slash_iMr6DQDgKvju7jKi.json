@@ -1,0 +1,89 @@
+{
+  "name": "Subtable - Caster Class Melee To The Max! - Face Slash",
+  "_id": "iMr6DQDgKvju7jKi",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "2bpsBRkCwwLUWBPZ",
+      "text": "Across eye, leaves them Blind for 1D4 turns",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!iMr6DQDgKvju7jKi.2bpsBRkCwwLUWBPZ"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "lltA414gFpBvYYxu",
+      "text": "Right cheek, deals normal damage +3",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!iMr6DQDgKvju7jKi.lltA414gFpBvYYxu"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "9ji59IiHnXyYxUxM",
+      "text": "Left cheek, deals normal damage +3",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!iMr6DQDgKvju7jKi.9ji59IiHnXyYxUxM"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "HuljYSpoLCJHqlLg",
+      "text": "Slash takes off an ear, dealing an additional 1D6 damage and leaving them horribly scarred",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!iMr6DQDgKvju7jKi.HuljYSpoLCJHqlLg"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.2",
+    "createdTime": 1742094949043,
+    "modifiedTime": 1742095139740,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "formula": "1D4",
+  "_key": "!tables!iMr6DQDgKvju7jKi"
+}

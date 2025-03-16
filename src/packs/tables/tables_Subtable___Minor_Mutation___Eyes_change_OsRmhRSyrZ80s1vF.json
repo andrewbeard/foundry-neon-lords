@@ -1,0 +1,89 @@
+{
+  "name": "Subtable - Minor Mutation - Eyes change",
+  "_id": "OsRmhRSyrZ80s1vF",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "rSUZOjc04Q6vVyQG",
+      "text": "Milked Over. (Blind)",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!OsRmhRSyrZ80s1vF.rSUZOjc04Q6vVyQG"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "oBIQpiVVssTN1i4W",
+      "text": "All Pupil. (+1 Attitude)",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!OsRmhRSyrZ80s1vF.oBIQpiVVssTN1i4W"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "JUszlEl8BqqncjwU",
+      "text": "No Pupil. (+1 Sleaze)",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!OsRmhRSyrZ80s1vF.JUszlEl8BqqncjwU"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "Bx97rh6sBC2L4xpr",
+      "text": "Meat-Vision.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!OsRmhRSyrZ80s1vF.Bx97rh6sBC2L4xpr"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.2",
+    "createdTime": 1742094056760,
+    "modifiedTime": 1742094760546,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "formula": "",
+  "_key": "!tables!OsRmhRSyrZ80s1vF"
+}

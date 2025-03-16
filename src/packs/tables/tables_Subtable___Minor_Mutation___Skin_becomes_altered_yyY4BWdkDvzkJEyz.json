@@ -1,0 +1,89 @@
+{
+  "name": "Subtable - Minor Mutation - Skin becomes altered",
+  "_id": "yyY4BWdkDvzkJEyz",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "0S6Bybz0ArIXusR5",
+      "text": "Reptilian. (HP regen, +1D4 additional Hit Points every long rest.)",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!yyY4BWdkDvzkJEyz.0S6Bybz0ArIXusR5"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "oUfVjeQfQxJXCGcU",
+      "text": "Clear. Skin is still there but you can see all your vital organs and bones. (Sludge on all Reaction rolls.)",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!yyY4BWdkDvzkJEyz.oUfVjeQfQxJXCGcU"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "WX9QVQKrpBDjg8JA",
+      "text": "Crystal. (Hard to hit, +1 to AC.)",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!yyY4BWdkDvzkJEyz.WX9QVQKrpBDjg8JA"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "G9vHS3aC6dta2LXF",
+      "text": "Holographic. (+5GP/week as advertisers run ads across your forehead, +1 Sleaze.)",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!yyY4BWdkDvzkJEyz.G9vHS3aC6dta2LXF"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.2",
+    "createdTime": 1742093963064,
+    "modifiedTime": 1742094777459,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "formula": "1D4",
+  "_key": "!tables!yyY4BWdkDvzkJEyz"
+}
