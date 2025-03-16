@@ -1,0 +1,336 @@
+{
+  "name": "Spell Misfire",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "GAaEajMrr8VAttON",
+      "text": "Catastrophic failure!: The caster drops to 1 HP and casts a spell at random, hitting a random target.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!XYuWgOc7nYJ0LubY.GAaEajMrr8VAttON"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "lq3Vd0RQSOyxlePG",
+      "text": "Fireworks dazzle from the caster's fingertips, blinding him for 1D4 turns.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!XYuWgOc7nYJ0LubY.lq3Vd0RQSOyxlePG"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "ev409D2Qoy4cHUB4",
+      "text": "Instead of the intended spell, green and yellow slime spews from the caster covering everything in a 30ft cone. If a scumdog is within the cone they gain +1 to their Sleaze S.T.A.T.S. score.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!XYuWgOc7nYJ0LubY.ev409D2Qoy4cHUB4"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "Rsnn1ZqmArW396qG",
+      "text": "The target is healed by 1D10 HP.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!XYuWgOc7nYJ0LubY.Rsnn1ZqmArW396qG"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "QXsLxK2jl3UhcMlV",
+      "text": "Radioactive backfire! Roll on the Minor Mutation table.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!XYuWgOc7nYJ0LubY.QXsLxK2jl3UhcMlV"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "Day3KRoBcSPRTNF9",
+      "text": "Misfire turns you into a chicken for 1D4 turns. Your AC is now 9 with 1 HP.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!XYuWgOc7nYJ0LubY.Day3KRoBcSPRTNF9"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "6zXguVoE5D1X39L3",
+      "text": "Toxic fumes engulfs a 30ft radius with the caster in the center for 1D4 turns. Each creature in the area suffers from Asphyxiation damage.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!XYuWgOc7nYJ0LubY.6zXguVoE5D1X39L3"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "7Ie7WAf6LYGubVq3",
+      "text": "Nothing happens",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!XYuWgOc7nYJ0LubY.7Ie7WAf6LYGubVq3"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "lNdr6HY3tCeZfwZX",
+      "text": "Turns the caster inside out exposing his vital organs until his next turn. If the caster takes damage it will kill him.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!XYuWgOc7nYJ0LubY.lNdr6HY3tCeZfwZX"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "6aVujU5XHed3WtR2",
+      "text": "Cast as intended just hits a random target within eyesight of the caster.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!XYuWgOc7nYJ0LubY.6aVujU5XHed3WtR2"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_id": "THHGuWcJVy7cylbP",
+      "text": "Brain fart: forget the spell until the caster's next long rest.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!XYuWgOc7nYJ0LubY.THHGuWcJVy7cylbP"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_id": "18YxCLns07sdV6M9",
+      "text": "Ignore the misfire and re-roll the Spell Check. If another misfire is rolled the caster takes 2D10 damage.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!XYuWgOc7nYJ0LubY.18YxCLns07sdV6M9"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "_id": "RbVfQTkph3Rp1hEb",
+      "text": "Transmogrify into your target. Each creature must make a save vs Resolve to tell the difference between you and the real creep. This effects last for 1D8 turns.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!XYuWgOc7nYJ0LubY.RbVfQTkph3Rp1hEb"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "_id": "XYokGooul12HFNkn",
+      "text": "Radiation wave deals 1D6 damage to everyone in a 15ft radius from the caster.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!XYuWgOc7nYJ0LubY.XYokGooul12HFNkn"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "_id": "2f8VRPUkUs7qvvcn",
+      "text": "Lasers shoot out of the caster's eyes hitting 1D4 random targets up to 120ft for 2D6! damage divided among all the targets.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!XYuWgOc7nYJ0LubY.2f8VRPUkUs7qvvcn"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "_id": "RNrnxDpBbF6zp3Js",
+      "text": "Spell clones target for 1D4+caster's level turns.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!XYuWgOc7nYJ0LubY.RNrnxDpBbF6zp3Js"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "_id": "oh2GeoPi0YJn2NTv",
+      "text": "Temporal disruption: a rift opens letting out an Otherworldly Spawn which is hostile to everyone around.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!XYuWgOc7nYJ0LubY.oh2GeoPi0YJn2NTv"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "_id": "YeqKEsrPgWNjQb35",
+      "text": "Major meltdown! Roll 2 times on the Minor Mutation table.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!XYuWgOc7nYJ0LubY.YeqKEsrPgWNjQb35"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "_id": "63vUOjfBIR8zQH3l",
+      "text": "Cast as intended, just hits the caster himself.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!XYuWgOc7nYJ0LubY.63vUOjfBIR8zQH3l"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "_id": "BEjyoyddaDdDsjyr",
+      "text": "Mind wipe: the caster forgets the spell permanently.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!XYuWgOc7nYJ0LubY.BEjyoyddaDdDsjyr"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "flags": {
+    "exportSource": {
+      "world": "test",
+      "system": "neon-lords",
+      "coreVersion": "12.331",
+      "systemVersion": "0.0.2"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.2",
+    "createdTime": 1742090821210,
+    "modifiedTime": 1742091337319,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "formula": "1D20",
+  "_id": "XYuWgOc7nYJ0LubY",
+  "sort": 0,
+  "_key": "!tables!XYuWgOc7nYJ0LubY"
+}
