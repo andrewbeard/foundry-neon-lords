@@ -1,0 +1,134 @@
+{
+  "name": "Firearms Total Bummer!",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "_id": "bAP6RKJe1cij7BzF",
+      "text": "Ignore the fumble, just a miss.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!9N25i404x0PPQc6S.bAP6RKJe1cij7BzF"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "r8Vo7NohgGLhUEnB",
+      "text": "Drop weapon.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!9N25i404x0PPQc6S.r8Vo7NohgGLhUEnB"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "ltxGyWCykDy6QmTX",
+      "text": "Jams, spend next round unjamming.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!9N25i404x0PPQc6S.ltxGyWCykDy6QmTX"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false,
+      "_id": "xfbveCkglm3Zf8yg",
+      "text": "Near-miss. Roll to hit random target.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!9N25i404x0PPQc6S.xfbveCkglm3Zf8yg"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "30PgWd218dsRE6JV",
+      "text": "Recoil knocks weapon out of your hands in a random direction 15ft.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!9N25i404x0PPQc6S.30PgWd218dsRE6JV"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        9
+      ],
+      "drawn": false,
+      "_id": "XUjikXSG5Y8YrDY4",
+      "text": "Auto-hits a random target.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!9N25i404x0PPQc6S.XUjikXSG5Y8YrDY4"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "lztBVqA2uMxsG4RC",
+      "text": "You shoot yourself for normal damage.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!9N25i404x0PPQc6S.lztBVqA2uMxsG4RC"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.2",
+    "createdTime": 1742085713712,
+    "modifiedTime": 1742085713712,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "formula": "1D10",
+  "ownership": {
+    "default": 0,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "_id": "9N25i404x0PPQc6S",
+  "sort": 0,
+  "_key": "!tables!9N25i404x0PPQc6S"
+}
