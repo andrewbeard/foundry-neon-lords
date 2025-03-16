@@ -1,0 +1,194 @@
+{
+  "name": "Caster Class Melee To The Max!",
+  "_id": "BKcbZzKhdc6jY6zF",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "qkyRTUqSQrnlrXO5",
+      "text": "Kneecap bashed/slashed, dealing an additional 1D4 damage.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!BKcbZzKhdc6jY6zF.qkyRTUqSQrnlrXO5"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "qkJfk3F41JsoIaDg",
+      "text": "Solid strike to the body, dealing an additional 1D4+1 damage.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!BKcbZzKhdc6jY6zF.qkJfk3F41JsoIaDg"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "K1XXuoCuhHVVAxXA",
+      "text": "Eyes poked, causing temporary blindness for 2 turns.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!BKcbZzKhdc6jY6zF.K1XXuoCuhHVVAxXA"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "GEZPhlI3HhxX1XrU",
+      "text": "Knuckles smashed/slashed, foe drops weapon.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!BKcbZzKhdc6jY6zF.GEZPhlI3HhxX1XrU"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "aKosRFUYHY5vcF41",
+      "text": "Sweep the leg, Johnny!: Your strike manages to trip your opponent, knocking them Prone. They must spend their next turn getting up.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!BKcbZzKhdc6jY6zF.aKosRFUYHY5vcF41"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "6zSsaZVV4zdQPX7n",
+      "text": "Throat punch: You strike your foe square in the throat, dealing an additional 2 damage. Also, the target can’t speak or cast spells on their next turn.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!BKcbZzKhdc6jY6zF.6zSsaZVV4zdQPX7n"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "DxtozEx820HRSjfJ",
+      "text": "Strike to the side of the foe’s head, dealing normal damage. They must make a Save vs. Resolve or gain the Dazed condition.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!BKcbZzKhdc6jY6zF.DxtozEx820HRSjfJ"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "EE4lTaAxCQNnkV31",
+      "text": "Slash to the foe’s face, splitting them open and leaving them Bleeding profusely. 1D4 determines the location of the slash.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!BKcbZzKhdc6jY6zF.EE4lTaAxCQNnkV31"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "XcgkMUPoFj6sr7zY",
+      "text": "Kick Him In The Nards! Blow to nards, dealing an additional 1D6 damage and leaving them howling in pain.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!BKcbZzKhdc6jY6zF.XcgkMUPoFj6sr7zY"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "R9DTPD7UUYFoWKfi",
+      "text": "Perfect strike! Your blow manages to hit in just the right spot, dealing an additional 2D4 damage.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!BKcbZzKhdc6jY6zF.R9DTPD7UUYFoWKfi"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        20
+      ],
+      "drawn": false,
+      "_id": "r5XV2gTIM05ybck9",
+      "text": "SUPREME STRIKE! The attack sinks deep or smashes extra-hard, dealing an additional 2D10 Bleeding damage.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!BKcbZzKhdc6jY6zF.r5XV2gTIM05ybck9"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.2",
+    "createdTime": 1742091913234,
+    "modifiedTime": 1742092416749,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "formula": "1D10",
+  "_key": "!tables!BKcbZzKhdc6jY6zF"
+}
