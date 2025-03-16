@@ -19,7 +19,7 @@
       "thumbnail": "systems/neon-lords/assets/Neon-Lords-logo-circle_4-1024x1024.png"
     }
   ],
-  "version": "0.0.2",
+  "version": "0.0.3",
   "compatibility": {
     "minimum": 12,
     "verified": "12.331"
@@ -33,11 +33,38 @@
       "path": "lang/en.json"
     }
   ],
-  "packs": [],
-  "packFolders": [],
+  "packs": [
+    {
+      "name": "items",
+      "label": "Core Rulez Items",
+      "system": "neon-lords",
+      "path": "packs/items",
+      "type": "Item",
+      "private": false
+    },
+    {
+      "name": "tables",
+      "label": "Core Rulez Tables",
+      "system": "neon-lords",
+      "path": "packs/tables",
+      "type": "RollTable",
+      "private": false
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Neon Lords Core Rulez",
+      "sorting": "m",
+      "color": "#b8d153",
+      "packs": [
+          "items",
+          "tables"
+      ]
+    }
+  ],
   "socket": false,
   "manifest": "https://github.com/andrewbeard/foundry-neon-lords/releases/latest/download/system.json",
-  "download": "https://github.com/andrewbeard/foundry-neon-lords/releases/download/v0.0.2/neon-lords.zip",
+  "download": "https://github.com/andrewbeard/foundry-neon-lords/releases/download/v0.0.3/neon-lords.zip",
   "background": "systems/neon-lords/assets/Neon-Lords-logo-circle_4-1024x1024.png",
   "grid": {
     "distance": 5,
