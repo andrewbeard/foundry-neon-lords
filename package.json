@@ -4,15 +4,18 @@
   "description": "CSS compiler for the NeonLords system",
   "scripts": {
     "build": "sass src/scss/neon-lords.scss css/neon-lords.css --style=expanded --no-source-map",
-    "watch": "sass src/scss/neon-lords.scss css/neon-lords.css --style=expanded --source-map --watch"
+    "watch": "sass src/scss/neon-lords.scss css/neon-lords.css --style=expanded --source-map --watch",
+    "pullJSONtoLDB": "node ./tools/pullJSONtoLDB.mjs",
+    "pushLDBtoJSON": "node ./tools/pushLDBtoJSON.mjs"
   },
   "browserslist": [
     "last 3 versions"
   ],
-  "author": "Asacolips",
+  "author": "Andrew Beard",
   "license": "MIT",
   "private": true,
   "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.0.4",
     "sass": "^1.53.0"
   }
 }
