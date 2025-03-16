@@ -1,0 +1,22 @@
+{
+  "name": "To the MAX!",
+  "sorting": "a",
+  "folder": null,
+  "type": "RollTable",
+  "_id": "6x26CQk5Eov1g1fc",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.2",
+    "createdTime": 1742156178377,
+    "modifiedTime": 1742156188339,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "_key": "!folders!6x26CQk5Eov1g1fc"
+}

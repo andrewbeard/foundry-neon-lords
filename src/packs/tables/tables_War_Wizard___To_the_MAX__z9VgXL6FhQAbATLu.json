@@ -1,0 +1,330 @@
+{
+  "folder": "6x26CQk5Eov1g1fc",
+  "name": "War Wizard - To the MAX!",
+  "img": "icons/svg/d20-black.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "text": "The spell’s potency is stronger than anticipated, adding an additional 1D8 damage.",
+      "range": [
+        1,
+        1
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "XaWXsG60x6HXdxIG",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!z9VgXL6FhQAbATLu.XaWXsG60x6HXdxIG"
+    },
+    {
+      "type": "text",
+      "text": "Power Word Chill: The spell deals normal damage or regular effect. Also, the target is turned into ice. Their movement speed drops to zero, AC becomes 5, and they drop to 1 HP. The next successful melee attack against the target will shatter them in an icy bloodbath.",
+      "range": [
+        2,
+        2
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "8umXEtBU5MNgFgrq",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!z9VgXL6FhQAbATLu.8umXEtBU5MNgFgrq"
+    },
+    {
+      "type": "text",
+      "text": "The spell deals normal damage and you regain HP equal to the damage dealt. (If no damage is dealt, HP equal to the Spell Check roll is gained instead).",
+      "range": [
+        3,
+        3
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "I01TRYY3P0V9ciNC",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!z9VgXL6FhQAbATLu.I01TRYY3P0V9ciNC"
+    },
+    {
+      "type": "text",
+      "text": "The spell tears away at the veil between worlds, causing the winds of Khaos to blow on the target. They must roll on the Fear table with a +5 bonus to the roll against the War Wizard.",
+      "range": [
+        4,
+        4
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "0IZxIng3TAFI84MR",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!z9VgXL6FhQAbATLu.0IZxIng3TAFI84MR"
+    },
+    {
+      "type": "text",
+      "text": "Amplified by cosmic rays, the spell does an additional 1D6 damage and sends a magical beacon deep into space. There is a 10% chance an old god notices and responds.",
+      "range": [
+        5,
+        5
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "5wzfvBJNypJccZNc",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!z9VgXL6FhQAbATLu.5wzfvBJNypJccZNc"
+    },
+    {
+      "type": "text",
+      "text": "This one goes to 11. The spell cracks out of the War Wizard with a thunderous boom, dealing an additional 1D10+1 damage.",
+      "range": [
+        6,
+        6
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "1Zrgo1uHyjRF7dFS",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!z9VgXL6FhQAbATLu.1Zrgo1uHyjRF7dFS"
+    },
+    {
+      "type": "text",
+      "text": "A bloody mess. The spell does normal damage, plus an additional 1D6. If the target dies, it explodes while an obscene amount of blood, like more blood than should be contained in a human body, erupts forth, soaking everyone in a 15ft radius of the target. Anyone within this area must make an Agility Saving Throw or fall Prone in the gore.",
+      "range": [
+        7,
+        7
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "BOu38tHJUaASOpGH",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!z9VgXL6FhQAbATLu.BOu38tHJUaASOpGH"
+    },
+    {
+      "type": "text",
+      "text": "The spell conjures butterflies… of death. Summon 1D4+War Wizard Level in butterflies. The insects dive-bomb and explode on impact, each dealing an additional 1D4 damage to targets of the War Wizard’s choosing.",
+      "range": [
+        8,
+        8
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "wknolgCJ4OeBwqZf",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!z9VgXL6FhQAbATLu.wknolgCJ4OeBwqZf"
+    },
+    {
+      "type": "text",
+      "text": "Now with added lightning! The spell goes off as planned with a twist! A Level 2 Lightning Bolt comes hurtling out of the War Wizard just behind the intended spell. (Lightning bolt info can be found on pg. 115.)",
+      "range": [
+        9,
+        9
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "6yVv0SXVbqB8n6uT",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!z9VgXL6FhQAbATLu.6yVv0SXVbqB8n6uT"
+    },
+    {
+      "type": "text",
+      "text": "Rainbow Death Ray. The spell gets twisted and corrupted by the Radiation and a sickly rainbow spews from the War Wizard, hitting their intended target. The target must make a Death Saving Throw or explode in gore glitter.",
+      "range": [
+        10,
+        10
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "lo6GdlAUOWn3pNLb",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!z9VgXL6FhQAbATLu.lo6GdlAUOWn3pNLb"
+    },
+    {
+      "type": "text",
+      "text": "Face Putty. The spell is so intense, it melts the target’s face clean off their body, dealing an additional 1D10 damage in the process.",
+      "range": [
+        11,
+        11
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "w7oupAazGm7Y0shk",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!z9VgXL6FhQAbATLu.w7oupAazGm7Y0shk"
+    },
+    {
+      "type": "text",
+      "text": "Sorcerer Supreme. Time and space unravel as the War Wizard begins to cast the spell. The last spell cast before this one manifests in the opposite hand and both spells hit the same target simultaneously.",
+      "range": [
+        12,
+        12
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "JCCbcP10Yzvl53AZ",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!z9VgXL6FhQAbATLu.JCCbcP10Yzvl53AZ"
+    },
+    {
+      "type": "text",
+      "text": "The intensity of the spell impacting the target knocks their eyes out of their sockets. The target is blinded and takes an additional 1D10 damage.",
+      "range": [
+        13,
+        13
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "OvsoCbPFJcFGaPen",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!z9VgXL6FhQAbATLu.OvsoCbPFJcFGaPen"
+    },
+    {
+      "type": "text",
+      "text": "The spell rips through the target with an extra 1D10 Vile damage. Each creature within 5ft must roll on the Minor Mutation table. The creep crumbles into glow-in-the-dark dust at the end of the encounter.",
+      "range": [
+        14,
+        14
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "zkzuRAeB1TQGDHZm",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!z9VgXL6FhQAbATLu.zkzuRAeB1TQGDHZm"
+    },
+    {
+      "type": "text",
+      "text": "Some supernatural phenomena spew forth from your manifested spell. The spell deals normal damage, plus an additional 1D6, and summons 1D4 Spooky Ghosts that are (roll 1D4): 1 - hostile to everyone, 2 - hostile to War Wizard’s enemies, 3 - merchants with fantastical goods for sale, 4 - Casper.",
+      "range": [
+        15,
+        15
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "hAUx7A6PuoDF4iHi",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!z9VgXL6FhQAbATLu.hAUx7A6PuoDF4iHi"
+    },
+    {
+      "type": "text",
+      "text": "Double vision. A planar portal opens and out of it steps a mirror copy of the War Wizard but with different facial hair. With a nod to each other, they look at the foe and cast the exact same spell, hitting the target and doubling the damage and effects of the original spell.",
+      "range": [
+        16,
+        16
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "kFOdfXiuWHZWMi8S",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!z9VgXL6FhQAbATLu.kFOdfXiuWHZWMi8S"
+    },
+    {
+      "type": "text",
+      "text": "Your brain on drugs. The spell has a radioactive side effect. Everyone in a 10ft radius of the target must make a Resolve Saving Throw or roll on the Fear table. The target, on the other hand, gets to experience their Brains being fried like an egg, causing immediate death. No Death Save.",
+      "range": [
+        17,
+        17
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "gqDVovSFWF25dNkl",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!z9VgXL6FhQAbATLu.gqDVovSFWF25dNkl"
+    },
+    {
+      "type": "text",
+      "text": "The spell deals no damage. Instead, it kills the target turning them inside-out in an explosion that sends bone shrapnel flying into foes within a 10ft radius. Each enemy takes 1D4+1 damage.",
+      "range": [
+        18,
+        18
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "CMnPRuD1gZwb9Rfq",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!z9VgXL6FhQAbATLu.CMnPRuD1gZwb9Rfq"
+    },
+    {
+      "type": "text",
+      "text": "Khaos Winds of Change. A shift in the Khaos Winds causes a chain reaction in the spell. It hits each enemy within eyesight of the initial target and deals normal damage plus an additional 1D6 to all targets.",
+      "range": [
+        19,
+        19
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "3bZF1EM7TXNNcFyH",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!z9VgXL6FhQAbATLu.3bZF1EM7TXNNcFyH"
+    },
+    {
+      "type": "text",
+      "text": "Master of the universe. The War Wizard’s eyes glow bright white as the inner workings of the cosmos are revealed. Transcending mortal life, the knowledge elevates the caster to a godlike status. The spell’s magic manifests effortlessly 2D10 times. If the target is destroyed, the remaining magic moves to other targets.",
+      "range": [
+        20,
+        20
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "FOwM1RN51ahAzdEW",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!z9VgXL6FhQAbATLu.FOwM1RN51ahAzdEW"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.2",
+    "createdTime": 1742155872501,
+    "modifiedTime": 1742156307396,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "formula": "1d20",
+  "ownership": {
+    "default": 0,
+    "5Y97f44EpJZ1WrAi": 3,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "_id": "z9VgXL6FhQAbATLu",
+  "sort": 800000,
+  "_key": "!tables!z9VgXL6FhQAbATLu"
+}

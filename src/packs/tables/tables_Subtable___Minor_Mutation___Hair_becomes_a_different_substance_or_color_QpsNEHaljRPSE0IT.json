@@ -68,7 +68,7 @@
   "replacement": true,
   "displayRoll": true,
   "folder": null,
-  "sort": 0,
+  "sort": 800000,
   "ownership": {
     "default": 0,
     "l18XFo7VCP3jkSA6": 3
@@ -81,7 +81,7 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742094188751,
-    "modifiedTime": 1742094768974,
+    "modifiedTime": 1742156161388,
     "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
   "formula": "",

@@ -1,0 +1,330 @@
+{
+  "folder": "6x26CQk5Eov1g1fc",
+  "name": "Dwarfling - To the MAX!",
+  "img": "icons/svg/d20-black.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "text": "BOWELS EMPTIED! The blow deals normal damage +1D4 and causes the fiend to soil its loins.",
+      "range": [
+        0,
+        1
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "MltcUKJjq5vY6Wvb",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!XrndIE0E3sq4i8gW.MltcUKJjq5vY6Wvb"
+    },
+    {
+      "type": "text",
+      "text": "Hit ‘em low! Your mighty weapon comes crashing down on your foes toes, dealing an additional 1D4 damage and severing 1D4 toes. Their movement is cut in half.",
+      "range": [
+        2,
+        2
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "XN40GXZbtda444b6",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!XrndIE0E3sq4i8gW.XN40GXZbtda444b6"
+    },
+    {
+      "type": "text",
+      "text": "Five Finger Discount. Attack takes 1D4 fingers with it and deals an additional 1D4 damage. Does the opponent have no fingers? No problem! If they lack the body parts, deal an additional 2 damage for your troubles.",
+      "range": [
+        3,
+        3
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "NOxfBjRQqdBeiUvS",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!XrndIE0E3sq4i8gW.NOxfBjRQqdBeiUvS"
+    },
+    {
+      "type": "text",
+      "text": "Raw force. A little extra umph to the swing pays off, dealing an additional 1D6+1 damage.",
+      "range": [
+        4,
+        4
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "3yAuA0ozF0YFWWhN",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!XrndIE0E3sq4i8gW.3yAuA0ozF0YFWWhN"
+    },
+    {
+      "type": "text",
+      "text": "Hard knock. Attack deals an additional +2 damage. The foe is knocked back 10ft. If this movement knocks the target into a wall, it takes an additional 1D4 damage.",
+      "range": [
+        5,
+        5
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "fIBlzbFwWcNNncsM",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!XrndIE0E3sq4i8gW.fIBlzbFwWcNNncsM"
+    },
+    {
+      "type": "text",
+      "text": "Eye gouged out. The Dwarfling reaches out and plucks out the opponent’s eye, giving the fiend a -3 to attack rolls.",
+      "range": [
+        6,
+        6
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "V93rhMi4m7rLwGUY",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!XrndIE0E3sq4i8gW.V93rhMi4m7rLwGUY"
+    },
+    {
+      "type": "text",
+      "text": "Kneecap destruction. Blows to the knees deal an additional 1D4 damage and knock the fiend Prone, rendering them unable to stand.",
+      "range": [
+        7,
+        7
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "8l7zuSm9U51X6ABf",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!XrndIE0E3sq4i8gW.8l7zuSm9U51X6ABf"
+    },
+    {
+      "type": "text",
+      "text": "Can you give me a hand? Attack deals normal damage and crushes the opponent’s hand. Roll 1D2: 1 - left hand, 2 - right hand. It is no longer usable.",
+      "range": [
+        8,
+        8
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "S0m84Ifz56PD0yoa",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!XrndIE0E3sq4i8gW.S0m84Ifz56PD0yoa"
+    },
+    {
+      "type": "text",
+      "text": "Clobberin’ time! The Dwarfling grabs their enemy by the head and smashes it into the head of another enemy within 5ft. If no other enemy is close, the wall, floor, pillar, etc. will make an acceptable substitute. The attack deals an additional 1D8 damage and the target is knocked Unconscious. If their buddy got smashed, too, the second target must succeed on a Resolve save or fall unconscious as well.",
+      "range": [
+        9,
+        9
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "P8qclC0jWgKeGbt6",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!XrndIE0E3sq4i8gW.P8qclC0jWgKeGbt6"
+    },
+    {
+      "type": "text",
+      "text": "Hammer-smashed face. The blow comes down right on the monster’s face, breaking its nose and knocking out all its teeth. The attack deals double damage.",
+      "range": [
+        10,
+        10
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "PW6s0PX2gZKnkyxV",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!XrndIE0E3sq4i8gW.PW6s0PX2gZKnkyxV"
+    },
+    {
+      "type": "text",
+      "text": "Bring it on! The Dwarfling rushes at their opponent and tackles them to the ground. While on top, the Dwarfling hits for normal damage, plus an additional 1D10.",
+      "range": [
+        10,
+        11
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "lQE5spjEje7s4pE3",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!XrndIE0E3sq4i8gW.lQE5spjEje7s4pE3"
+    },
+    {
+      "type": "text",
+      "text": "I fear no man, beast or evil, brother! The Dwarfling is unrelenting and pushes back against the foe. Damage rolled for this attack becomes Neon Blast and the Dwarfling is immune to fear until the end of a long rest.",
+      "range": [
+        12,
+        12
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "roYzvBvoj0ymXpRn",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!XrndIE0E3sq4i8gW.roYzvBvoj0ymXpRn"
+    },
+    {
+      "type": "text",
+      "text": "Blood storm. Through the frenzy of battle, the Dwarfling becomes murder-crazed and gains the abilities granted by Combat Enhancement Drugs for 1D6 turns. Also, the attack deals an extra 1D6 damage. (Combat Enhancement Drugs are found on pg. 170.)",
+      "range": [
+        13,
+        13
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "BHxLvBzNKdkcxbQ6",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!XrndIE0E3sq4i8gW.BHxLvBzNKdkcxbQ6"
+    },
+    {
+      "type": "text",
+      "text": "Into the danger zone. Pushing deeper into the fray, the Dwarfling hits for an additional 1D8 damage and takes a defensive stance, gaining a 1D8 AC bonus as well.",
+      "range": [
+        14,
+        14
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "rcrvkBAh8O2baQuE",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!XrndIE0E3sq4i8gW.rcrvkBAh8O2baQuE"
+    },
+    {
+      "type": "text",
+      "text": "KISS MY AXE! The wild swing pays off, hitting two opponents with normal damage and dealing an additional 1D8 damage to each.",
+      "range": [
+        15,
+        15
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "CtdgJbeZcaSEF0Nu",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!XrndIE0E3sq4i8gW.CtdgJbeZcaSEF0Nu"
+    },
+    {
+      "type": "text",
+      "text": "Lucky strike. Attack deals normal damage, but the Dwarfling’s next fumble becomes a critical success.",
+      "range": [
+        16,
+        16
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "Rqfb2luqOkN16icu",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!XrndIE0E3sq4i8gW.Rqfb2luqOkN16icu"
+    },
+    {
+      "type": "text",
+      "text": "Imploding innards. The attack gains an additional 2D6 damage and causes the enemy’s intestines to explode in a dazzling display of bile and gore.",
+      "range": [
+        17,
+        17
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "p7B3oBLzpR7iY5tl",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!XrndIE0E3sq4i8gW.p7B3oBLzpR7iY5tl"
+    },
+    {
+      "type": "text",
+      "text": "Bloody dismemberment! Astounding tenacity shines forth from the 4 ft frenzied fighter. The target’s arm is ripped off, dealing an additional 1D10 damage from blood loss.",
+      "range": [
+        18,
+        18
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "UkukBjdPcJEANYas",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!XrndIE0E3sq4i8gW.UkukBjdPcJEANYas"
+    },
+    {
+      "type": "text",
+      "text": "Big things come in small packages. Being of just the right height, your attack castrates your enemy and hits a major artery, effectively making them bleed out in 1 turn.",
+      "range": [
+        19,
+        19
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "SLcGdWU1uv3IK06q",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!XrndIE0E3sq4i8gW.SLcGdWU1uv3IK06q"
+    },
+    {
+      "type": "text",
+      "text": "Fortune favors the bold. Fate herself sways the outcome of the battle. For every Fortune Point you have, you may add 1D6 Spillover damage to the attack.",
+      "range": [
+        20,
+        20
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "g0F4pXnZPem18lbj",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!XrndIE0E3sq4i8gW.g0F4pXnZPem18lbj"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.2",
+    "createdTime": 1742156307362,
+    "modifiedTime": 1742156307396,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "formula": "1d20",
+  "ownership": {
+    "default": 0,
+    "5Y97f44EpJZ1WrAi": 3,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "_id": "XrndIE0E3sq4i8gW",
+  "sort": 200000,
+  "_key": "!tables!XrndIE0E3sq4i8gW"
+}

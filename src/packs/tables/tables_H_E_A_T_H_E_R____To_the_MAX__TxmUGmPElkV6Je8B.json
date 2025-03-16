@@ -1,0 +1,330 @@
+{
+  "folder": "6x26CQk5Eov1g1fc",
+  "name": "H.E.A.T.H.E.R. - To the MAX!",
+  "img": "icons/svg/d20-black.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "text": "Picked up a thing or two in the trenches. Heals 1 team mate for 1D6+Brains Mod HP.",
+      "range": [
+        1,
+        1
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "QtuJN2akIwT88Y4B",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!TxmUGmPElkV6Je8B.QtuJN2akIwT88Y4B"
+    },
+    {
+      "type": "text",
+      "text": "‘Tis only a flesh wound: The attack deals an additional 1D4 damage.",
+      "range": [
+        2,
+        2
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "yTfznPG8oq3LQnPw",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!TxmUGmPElkV6Je8B.yTfznPG8oq3LQnPw"
+    },
+    {
+      "type": "text",
+      "text": "Pack a Punch! Flechette rounds cause all foes that were hit to gain the Bleeding condition for the next 1D3 rounds.",
+      "range": [
+        3,
+        3
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "FNnoUgMWnk0v0htt",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!TxmUGmPElkV6Je8B.FNnoUgMWnk0v0htt"
+    },
+    {
+      "type": "text",
+      "text": "If you can’t accessorize, pulverize! The attack deals some totally lush damage, dealing an additional 1D4 damage.",
+      "range": [
+        4,
+        4
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "ByHsvbSXOOR6AFPO",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!TxmUGmPElkV6Je8B.ByHsvbSXOOR6AFPO"
+    },
+    {
+      "type": "text",
+      "text": "Great. My secret weapon is PMS! Internal rage adds an additional 1D6 damage to the attack! TOTAL RAGER!",
+      "range": [
+        5,
+        5
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "adILepvd4HBE8Tik",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!TxmUGmPElkV6Je8B.adILepvd4HBE8Tik"
+    },
+    {
+      "type": "text",
+      "text": "Are we going to prom or to hell? Loading Incendiary rounds your bullets deal an extra 1D6 damage and targets hit gain the Burning condition for the next 3 turns.",
+      "range": [
+        6,
+        6
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "gM1pfzwzvvGcsZ0L",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!TxmUGmPElkV6Je8B.gM1pfzwzvvGcsZ0L"
+    },
+    {
+      "type": "text",
+      "text": "Football season is over! If shooting, the damage is dealt normally, but you throw your BFK, simultaneously dealing the BFK damage as well.",
+      "range": [
+        7,
+        7
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "hZ5W6pAyX9fxQFre",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!TxmUGmPElkV6Je8B.hZ5W6pAyX9fxQFre"
+    },
+    {
+      "type": "text",
+      "text": "Didn’t even break a nail! (Missile attack) The missile attack goes without a hitch, then you close the gap and stick ‘em with the ole BFK for good measure. Dealing normal BFK damage. (Melee attack) If you are already in melee, you stick ‘em one more time, dealing BFK damage twice.",
+      "range": [
+        8,
+        8
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "rglOSFUFEFH3eeP1",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!TxmUGmPElkV6Je8B.rglOSFUFEFH3eeP1"
+    },
+    {
+      "type": "text",
+      "text": "Use your Cyber eyes HEATHER! Using them bionic eyes, the attack deals normal damage, but your next attack on this target auto-hits.",
+      "range": [
+        9,
+        9
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "o0I4jfM51FJA8Yte",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!TxmUGmPElkV6Je8B.o0I4jfM51FJA8Yte"
+    },
+    {
+      "type": "text",
+      "text": "The extreme always seems to make an impression. The attack deals an additional 1D6 damage. If the target dies, all THEIR buddies must roll on the Fear table.",
+      "range": [
+        10,
+        10
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "rhA7xj3528hwPo6j",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!TxmUGmPElkV6Je8B.rhA7xj3528hwPo6j"
+    },
+    {
+      "type": "text",
+      "text": "Girls just wanna have fun! With a sadistic glee, you deal 1D8 additional damage. Taking joy from the carnage, you gain back 1D8 Hella Points.",
+      "range": [
+        11,
+        11
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "uXooGCvgequLqMGZ",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!TxmUGmPElkV6Je8B.uXooGCvgequLqMGZ"
+    },
+    {
+      "type": "text",
+      "text": "The attack is light work for you! In addition to the attack, you can make an additional action with the remainder of the turn, so you don’t get bored.",
+      "range": [
+        12,
+        12
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "NNg2wjRIZTBsMJjV",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!TxmUGmPElkV6Je8B.NNg2wjRIZTBsMJjV"
+    },
+    {
+      "type": "text",
+      "text": "Excuse much! Rude or anything? The attack deals an additional 1D6 damage and during the next missile phase of combat the HEATHER goes first, no matter who wins the initiative roll.",
+      "range": [
+        13,
+        13
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "85Q145aTyMx8R6Vy",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!TxmUGmPElkV6Je8B.85Q145aTyMx8R6Vy"
+    },
+    {
+      "type": "text",
+      "text": "Totally Nuclear! What a wallop of a hit, gaining an additional 1D10 Spillover damage!!",
+      "range": [
+        14,
+        14
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "rQmbIU9tX4okVugJ",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!TxmUGmPElkV6Je8B.rQmbIU9tX4okVugJ"
+    },
+    {
+      "type": "text",
+      "text": "Kiss me Deadly! For the next 1D4 turns, your firearms deal Deathtouch damage. Give ‘em hell, darling. Deathtouch: All Attacks ignore normal damage and are now Save vs. Death.",
+      "range": [
+        15,
+        15
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "RMGdMjzVEn0naWdQ",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!TxmUGmPElkV6Je8B.RMGdMjzVEn0naWdQ"
+    },
+    {
+      "type": "text",
+      "text": "Caution! Flammable! Hidden deep in a fanny pack or backpack, you find a can of Sprayed Stiff Unisex Hairspray and a lighter. Your normal attack deals normal damage then you take an additional attack against the closest enemy with your newfound weapon, setting their head on fire like they were in a soda commercial dealing 1D6 Burning damage. Flame on!",
+      "range": [
+        16,
+        16
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "V4XK4Jii4mkdEmNy",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!TxmUGmPElkV6Je8B.V4XK4Jii4mkdEmNy"
+    },
+    {
+      "type": "text",
+      "text": "Khaos is what killed the dinosaurs, darling. It’s as if the gods of Khaos have plans for you. The attack deals normal damage, but is infused with Khaos Radiation, dealing an additional 1D10 damage.",
+      "range": [
+        17,
+        17
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "ozlevaKmdiHe7p9k",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!TxmUGmPElkV6Je8B.ozlevaKmdiHe7p9k"
+    },
+    {
+      "type": "text",
+      "text": "Did you have a brain tumor for breakfast? Either way, it’s up to you to extract that bad boy for ‘em with a bullet or your BFK. Deals double damage to the head.",
+      "range": [
+        18,
+        18
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "VZec30X7UUKx7Kqg",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!TxmUGmPElkV6Je8B.VZec30X7UUKx7Kqg"
+    },
+    {
+      "type": "text",
+      "text": "It’s in the trees! Expend all your ammo to instantly land 1D6 head-shots on any number of targets. Deals double damage for each head-shot.",
+      "range": [
+        19,
+        19
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "dNUWE2JlD3XaHSgS",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!TxmUGmPElkV6Je8B.dNUWE2JlD3XaHSgS"
+    },
+    {
+      "type": "text",
+      "text": "DEAR DIARY, MY TEEN ANGST HAS A BODY COUNT. No one is safe from your wrath as you systematically deal double damage to the target, and the next closest enemy to him, and the next one as well, and you guessed it! The next one after that, until all enemies within 20ft of the first target have been dealt that DD (double damage).",
+      "range": [
+        20,
+        20
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "PXlFcZnEjvh9yC9b",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!TxmUGmPElkV6Je8B.PXlFcZnEjvh9yC9b"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.2",
+    "createdTime": 1742156292354,
+    "modifiedTime": 1742156307396,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "formula": "1d20",
+  "ownership": {
+    "default": 0,
+    "5Y97f44EpJZ1WrAi": 3,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "_id": "TxmUGmPElkV6Je8B",
+  "sort": 400000,
+  "_key": "!tables!TxmUGmPElkV6Je8B"
+}

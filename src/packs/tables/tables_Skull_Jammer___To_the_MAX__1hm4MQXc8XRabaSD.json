@@ -1,0 +1,330 @@
+{
+  "folder": "6x26CQk5Eov1g1fc",
+  "name": "Skull Jammer - To the MAX!",
+  "img": "icons/svg/d20-black.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "text": "GET GOOD, SCRUB. The Hack deals 1D4 damage to any target the Skull Jammer sees fit.",
+      "range": [
+        1,
+        1
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "d7EuDid1lWgMMMb3",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1hm4MQXc8XRabaSD.d7EuDid1lWgMMMb3"
+    },
+    {
+      "type": "text",
+      "text": "Hacking made easy! The Hack also granted the Skull Jammer access to all electronic doors until their next long rest.",
+      "range": [
+        2,
+        2
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "OTqGdkP2gyi3k4b7",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1hm4MQXc8XRabaSD.OTqGdkP2gyi3k4b7"
+    },
+    {
+      "type": "text",
+      "text": "The Sword of 1000 Truths manifests itself as the Hack is cast. The blade can be wielded by the Skull Jammer for 1D4 turns or handed off to an ally who can wield it for 1 turn. (The sword’s info is found on pg. 186. Noob.)",
+      "range": [
+        3,
+        3
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "7ZZy1U1bTywi1JJF",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1hm4MQXc8XRabaSD.7ZZy1U1bTywi1JJF"
+    },
+    {
+      "type": "text",
+      "text": "Converting bytes to health, the Hack heals the Skull Jammer for 1D6 HP.",
+      "range": [
+        4,
+        4
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "0OqmXqlwGr6ZQhTn",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1hm4MQXc8XRabaSD.0OqmXqlwGr6ZQhTn"
+    },
+    {
+      "type": "text",
+      "text": "Digitize This! The Hack bursts out a projectile of pure digital energy, dealing 1D6 damage to any target the Skull Jammer chooses.",
+      "range": [
+        5,
+        5
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "2yF0FnKn8I1Yf4T6",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1hm4MQXc8XRabaSD.2yF0FnKn8I1Yf4T6"
+    },
+    {
+      "type": "text",
+      "text": "Spray and pray! Digital bullets shoot out of the Skull Jammer’s deck in a 15ft cone, hitting any enemies in the 30ft range for 1D8 damage.",
+      "range": [
+        6,
+        6
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "1TnFKTMUC9B2bGWQ",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1hm4MQXc8XRabaSD.1TnFKTMUC9B2bGWQ"
+    },
+    {
+      "type": "text",
+      "text": "Hacking the meat-frame grants Meat Vision to the Skull Jammer for 1D6 turns.",
+      "range": [
+        7,
+        7
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "Ys7pC3xTbReMkd3u",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1hm4MQXc8XRabaSD.Ys7pC3xTbReMkd3u"
+    },
+    {
+      "type": "text",
+      "text": "Keytar Solo! Sick tunes spew forth from the Skull Jammer’s deck, granting allies a +3 to hit and to damage their next turn.",
+      "range": [
+        8,
+        8
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "KiFBs17PLr7GGtth",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1hm4MQXc8XRabaSD.KiFBs17PLr7GGtth"
+    },
+    {
+      "type": "text",
+      "text": "Cut the feed. Target the Skull Jammer can see goes blind for the next 1D6 turns.",
+      "range": [
+        9,
+        9
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "Dvwz9dwSnNZom4M3",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1hm4MQXc8XRabaSD.Dvwz9dwSnNZom4M3"
+    },
+    {
+      "type": "text",
+      "text": "Computer waves equal Brainwaves. The Hack enables the Skull Jammer to take over the action of a target they can see during that target’s next turn.",
+      "range": [
+        10,
+        10
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "D0F78MVXu0vpxBXy",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1hm4MQXc8XRabaSD.D0F78MVXu0vpxBXy"
+    },
+    {
+      "type": "text",
+      "text": "GOOD GAME! Complete win for the Skull Jammer dealing an additional 1D8 damage and regaining 1D8 Hack Points.",
+      "range": [
+        11,
+        11
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "GxfS4kHJbLY0rQJv",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1hm4MQXc8XRabaSD.GxfS4kHJbLY0rQJv"
+    },
+    {
+      "type": "text",
+      "text": "Days of Thunder! A sound screeches on the tape deck. It’s loud and annoying and all enemies within earshot (100ft) must roll on the Fear Table against the Skull Jammer.",
+      "range": [
+        12,
+        12
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "U32CZRf97FfOedEl",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1hm4MQXc8XRabaSD.U32CZRf97FfOedEl"
+    },
+    {
+      "type": "text",
+      "text": "An upload of the media virus turns a target the Skull Jammer can see to stone. On a failed Resolve Saving Throw, the target is turned completely to stone. They take 1D6 damage fighting off the cold, creeping stone on a successful save.",
+      "range": [
+        13,
+        13
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "mzriXhdeaYEefd5u",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1hm4MQXc8XRabaSD.mzriXhdeaYEefd5u"
+    },
+    {
+      "type": "text",
+      "text": "Pwned! The Hack emits a digital buzzsaw flying at an enemy of the Skull Jammer’s choice, dealing 1D8+2 damage. If the target would die, it is sawed in half by the digital blade.",
+      "range": [
+        14,
+        14
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "wTDXgg2C7JNP8eXi",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1hm4MQXc8XRabaSD.wTDXgg2C7JNP8eXi"
+    },
+    {
+      "type": "text",
+      "text": "Microwave insanity. The toxic nature of the computer waves blast out of the Skull Jammer’s deck right into the face of an adjacent enemy dealing 1D10+2 damage and melting their face off.",
+      "range": [
+        15,
+        15
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "cM22V42ailVnGZRb",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1hm4MQXc8XRabaSD.cM22V42ailVnGZRb"
+    },
+    {
+      "type": "text",
+      "text": "Double Whammy. The Hack makes a copy of itself, and you can choose a new target for the copy! (Or send ‘em both straight at the first target).",
+      "range": [
+        16,
+        16
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "veKa6j7yS6Wjl0qz",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1hm4MQXc8XRabaSD.veKa6j7yS6Wjl0qz"
+    },
+    {
+      "type": "text",
+      "text": "Computer Waves come to life. The Hack held deep within the code to unlock life itself creating a digital avatar to fight alongside the party. (Treat them as a Meat Shield).",
+      "range": [
+        17,
+        17
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "DOGo5Os6uYDzG0fd",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1hm4MQXc8XRabaSD.DOGo5Os6uYDzG0fd"
+    },
+    {
+      "type": "text",
+      "text": "NOOB ANNIHILATOR. The Hack overcharges your Tape Deck and shoots an additional beam of pure computer waves, sizzling them in a beam of neon light and dealing 1D12 damage!",
+      "range": [
+        18,
+        18
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "Ow1OfCCY8uNuZdPV",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1hm4MQXc8XRabaSD.Ow1OfCCY8uNuZdPV"
+    },
+    {
+      "type": "text",
+      "text": "One with the Machine. The computer waves are visible and you can manipulate them in ways you could only have dreamed of! For 1D6+Brains Mod turns, you can cast any Hacks without making Hack Checks.",
+      "range": [
+        19,
+        19
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "dEo8iTUWZcBBzICz",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1hm4MQXc8XRabaSD.dEo8iTUWZcBBzICz"
+    },
+    {
+      "type": "text",
+      "text": "GET REKT!!! The Hack was hardwired with some real serious stuff! Choose 1D4 additional Hacks and cast them without making Hack Checks.",
+      "range": [
+        20,
+        20
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "WyFOY7jO1YmlJg7n",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1hm4MQXc8XRabaSD.WyFOY7jO1YmlJg7n"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.2",
+    "createdTime": 1742156139049,
+    "modifiedTime": 1742156307396,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "formula": "1d20",
+  "ownership": {
+    "default": 0,
+    "5Y97f44EpJZ1WrAi": 3,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "_id": "1hm4MQXc8XRabaSD",
+  "sort": 900000,
+  "_key": "!tables!1hm4MQXc8XRabaSD"
+}

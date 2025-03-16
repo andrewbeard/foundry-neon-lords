@@ -326,11 +326,11 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742090821210,
-    "modifiedTime": 1742091337319,
+    "modifiedTime": 1742156161388,
     "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
   "formula": "1D20",
   "_id": "XYuWgOc7nYJ0LubY",
-  "sort": 0,
+  "sort": 900000,
   "_key": "!tables!XYuWgOc7nYJ0LubY"
 }

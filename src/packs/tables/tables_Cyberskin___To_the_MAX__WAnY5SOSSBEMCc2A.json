@@ -1,0 +1,330 @@
+{
+  "folder": "6x26CQk5Eov1g1fc",
+  "name": "Cyberskin - To the MAX!",
+  "img": "icons/svg/d20-black.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "text": "Shatter hand. A little extra knuckle goes into the attack, dealing an additional 1D4 damage and giving the target a bloody nose.",
+      "range": [
+        1,
+        1
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "9wzFXZaZkJ3g3ymJ",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!WAnY5SOSSBEMCc2A.9wzFXZaZkJ3g3ymJ"
+    },
+    {
+      "type": "text",
+      "text": "More human than human. Cyberskins’ uncanny metal-alloy skeletal system grants them the ability to add a bit more gusto to the attack, dealing an additional +4 damage.",
+      "range": [
+        2,
+        2
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "xJbk0ULXosxND0fc",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!WAnY5SOSSBEMCc2A.xJbk0ULXosxND0fc"
+    },
+    {
+      "type": "text",
+      "text": "Red Dawn. The Cyberskin sees their target as a threat to Democracy that must be stopped! The freedom behind the attack deals an additional 1D6+2 damage.",
+      "range": [
+        3,
+        3
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "L1rv5OVeZLe9yfDx",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!WAnY5SOSSBEMCc2A.L1rv5OVeZLe9yfDx"
+    },
+    {
+      "type": "text",
+      "text": "Recharge them batteries! The kinetic energy of the attack deals an additional 1D8 damage and the Cyberskin regains 1D8 to the S.T.A.T.S. score of their choice.",
+      "range": [
+        4,
+        4
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "TOvyIu7wd32I65lt",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!WAnY5SOSSBEMCc2A.TOvyIu7wd32I65lt"
+    },
+    {
+      "type": "text",
+      "text": "King of cool! Sick moves don’t go unnoticed. The Cyberskin deals an additional XD4 damage to the attack where X is equal to their Attitude Score Modifier.",
+      "range": [
+        5,
+        5
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "cLlDiTIpZmNHvSUj",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!WAnY5SOSSBEMCc2A.cLlDiTIpZmNHvSUj"
+    },
+    {
+      "type": "text",
+      "text": "Cold as Ice. To the touch and action-wise the Cyberskin is dripping with cool. The cold, calculated attack deals an additional +4 damage and the Cyberskin gains +4 to their Attitude Score.",
+      "range": [
+        6,
+        6
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "5CgjcU3FxRFVlPXh",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!WAnY5SOSSBEMCc2A.5CgjcU3FxRFVlPXh"
+    },
+    {
+      "type": "text",
+      "text": "Unstoppable machine. The Cyberskin’s metal body ignores the next 1D8 damage dealt to them. A very rugged design—if only all the models were built this good.",
+      "range": [
+        7,
+        7
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "ja6Quxw3adW4vWUA",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!WAnY5SOSSBEMCc2A.ja6Quxw3adW4vWUA"
+    },
+    {
+      "type": "text",
+      "text": "Patriotic Punch. Seeing red, the Cyberskin punches as a Meka Fist in addition to the normal attack. Meka Fist deals 3D6 damage.",
+      "range": [
+        8,
+        8
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "CfEe3efN1VE9KPhY",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!WAnY5SOSSBEMCc2A.CfEe3efN1VE9KPhY"
+    },
+    {
+      "type": "text",
+      "text": "Fight the powers that be! Raging against the enemy, the Cyberskin takes an additional attack, dealing normal damage.",
+      "range": [
+        9,
+        9
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "qsNsYvARCGjQEMEJ",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!WAnY5SOSSBEMCc2A.qsNsYvARCGjQEMEJ"
+    },
+    {
+      "type": "text",
+      "text": "Executive Order. The attack boosts all allies that can see the Cyberskin, granting them a +5 to their next roll.",
+      "range": [
+        10,
+        10
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "xy9w9LpT0KKmrwVD",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!WAnY5SOSSBEMCc2A.xy9w9LpT0KKmrwVD"
+    },
+    {
+      "type": "text",
+      "text": "A quick message from our corporate sponsors. A can of High Octane Freedom potion manifests in the hand of the Cyberskin as they say a few good words about the product. You can chug it as a bonus action. (The freedom potion can be found on pg. 96.)",
+      "range": [
+        10,
+        11
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "qyWjkGMylGu8HqEZ",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!WAnY5SOSSBEMCc2A.qyWjkGMylGu8HqEZ"
+    },
+    {
+      "type": "text",
+      "text": "Keen-eyed. Cybernetic sight has its advantages! For the next 1D4 turns, the Cyberskin gains an additional +2 to attack and damage rolls.",
+      "range": [
+        12,
+        12
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "Ou2CaG7S9KBPRl3u",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!WAnY5SOSSBEMCc2A.Ou2CaG7S9KBPRl3u"
+    },
+    {
+      "type": "text",
+      "text": "Freedom Beam! The Data tape in the Cyberskin’s chest shoots out a massive beam that hits their enemy for an additional 1D10+Attitude Mod of Patriotic damage.",
+      "range": [
+        13,
+        13
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "IWYjgHR1GxuFVV5Y",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!WAnY5SOSSBEMCc2A.IWYjgHR1GxuFVV5Y"
+    },
+    {
+      "type": "text",
+      "text": "Too Cool for Skool. Describe the gnarly Cyberskin attack and add damage equal to their Attitude S.T.A.T.S. to the attack.",
+      "range": [
+        14,
+        14
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "1gTzS2inK9lROFaq",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!WAnY5SOSSBEMCc2A.1gTzS2inK9lROFaq"
+    },
+    {
+      "type": "text",
+      "text": "I am the program! Computer waves and Radiation cause the attack to be packed with a random level 2 Hack that hits a target of the Cyberskin’s choice.",
+      "range": [
+        15,
+        15
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "sGnIbtg8iqHccz99",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!WAnY5SOSSBEMCc2A.sGnIbtg8iqHccz99"
+    },
+    {
+      "type": "text",
+      "text": "Major Upgrade! Awesome - the attack not only deals an additional 1D10 damage, but the Cyberskin regains 1D10 RAM Points! Talk about a lucky strike!",
+      "range": [
+        16,
+        16
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "w0LlZ8otxcsoFvPG",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!WAnY5SOSSBEMCc2A.w0LlZ8otxcsoFvPG"
+    },
+    {
+      "type": "text",
+      "text": "Unleash the Beast! Complete psycho mode on the target the Cyberskin deals 1D10 Spillover damage. Completely savage!",
+      "range": [
+        17,
+        17
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "BAUGDIV5OkGeWGhT",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!WAnY5SOSSBEMCc2A.BAUGDIV5OkGeWGhT"
+    },
+    {
+      "type": "text",
+      "text": "Metal Storm Protocol Activated, Shooting 1D10+Cyberskin’s level of ninja stars in all directions, hitting only hostile threats.",
+      "range": [
+        18,
+        18
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "ixn9kYAHApzXyK2i",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!WAnY5SOSSBEMCc2A.ixn9kYAHApzXyK2i"
+    },
+    {
+      "type": "text",
+      "text": "Texas is the reason! From a compartment in the Cyberskin’s right thigh, out pops a fully loaded Texas Rattlesnake Hand Cannon, ready to dispense some frontier justice! The Cyberskin makes an additional attack with the Rattlesnake. Texas Rattlesnake stats are found on pg. 186.",
+      "range": [
+        19,
+        19
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "B9ozVVSw6MRk7cpy",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!WAnY5SOSSBEMCc2A.B9ozVVSw6MRk7cpy"
+    },
+    {
+      "type": "text",
+      "text": "RED, WHITE, AND SPEW! Commies detected as far as the eye can see. Using their robot grip, the Cyberskin rips the target’s arms off, causing them to bleed out, then they do the same to the next target. Then the target after that, and the one after that, until all the commies are dead.",
+      "range": [
+        20,
+        20
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "WELrv9lCFO42Ez6m",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!WAnY5SOSSBEMCc2A.WELrv9lCFO42Ez6m"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.2",
+    "createdTime": 1742156446243,
+    "modifiedTime": 1742156446243,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "formula": "1d20",
+  "ownership": {
+    "default": 0,
+    "5Y97f44EpJZ1WrAi": 3,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "_id": "WAnY5SOSSBEMCc2A",
+  "sort": 0,
+  "_key": "!tables!WAnY5SOSSBEMCc2A"
+}

@@ -1,0 +1,330 @@
+{
+  "folder": "6x26CQk5Eov1g1fc",
+  "name": "Holy Smiter - To the MAX!",
+  "img": "icons/svg/d20-black.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "text": "A mighty smash hits the chest of the foe, knocking the wind out of them and dealing an additional 1D4 damage.",
+      "range": [
+        1,
+        1
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "XDW3walSn668uldN",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!llyDilPBUxkxVdPg.XDW3walSn668uldN"
+    },
+    {
+      "type": "text",
+      "text": "Helmet bash. In addition to the normal attack, the Holy Smiter headbutts the enemy with their helm, dealing an additional 1D6 damage.",
+      "range": [
+        2,
+        2
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "A8OqYWp4Bvpl3xA1",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!llyDilPBUxkxVdPg.A8OqYWp4Bvpl3xA1"
+    },
+    {
+      "type": "text",
+      "text": "One life for another. The Holy Smiter channels divine power into the strike, dealing an additional 1D4 damage. An ally the Smiter can see is healed for the same amount of HP that the enemy loses from the attack.",
+      "range": [
+        3,
+        3
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "lnXEFQ2KeYBp6wTg",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!llyDilPBUxkxVdPg.lnXEFQ2KeYBp6wTg"
+    },
+    {
+      "type": "text",
+      "text": "Mystic Flail of Righteousness! The Holy Smiter’s weapon turns into a 2-headed flail for the next 1D4 Attacks made by the Holy Smiter.",
+      "range": [
+        4,
+        4
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "GM30pAF4IwFErKX7",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!llyDilPBUxkxVdPg.GM30pAF4IwFErKX7"
+    },
+    {
+      "type": "text",
+      "text": "Xeno scum must die! The Holy Smiter deals normal damage plus an additional 1D8, thinking the target is a nasty Xeno.",
+      "range": [
+        5,
+        5
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "ap3zHXjoUhMNfcrV",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!llyDilPBUxkxVdPg.ap3zHXjoUhMNfcrV"
+    },
+    {
+      "type": "text",
+      "text": "Holy silver. The attack deals normal damage to the target and the Holy Smiter throws a dagger of holy energy at an enemy they can see, including the original target dealing normal damage and 1D4+2 holy dagger damage.",
+      "range": [
+        6,
+        6
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "qs9Q6mGgQNtRqEwE",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!llyDilPBUxkxVdPg.qs9Q6mGgQNtRqEwE"
+    },
+    {
+      "type": "text",
+      "text": "Penance through war. The attack deals normal damage and removes an equal amount of Sleaze from the Holy Smiter.",
+      "range": [
+        7,
+        7
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "X0jpn0oDbURXHUTb",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!llyDilPBUxkxVdPg.X0jpn0oDbURXHUTb"
+    },
+    {
+      "type": "text",
+      "text": "Holy presence! Striking fear into the hearts of the wicked, the Holy Smiter deals normal damage plus an additional 1D4. If the target survives, they must roll on the FearTable.",
+      "range": [
+        8,
+        8
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "gHaHfiwZypVPXd7y",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!llyDilPBUxkxVdPg.gHaHfiwZypVPXd7y"
+    },
+    {
+      "type": "text",
+      "text": "Crackdown! The attack hits the opponent’s weapon hand, breaking 1D4 fingers and preventing that hand from being used for Attacks.",
+      "range": [
+        9,
+        9
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "BqP8DeAT0oxqii7C",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!llyDilPBUxkxVdPg.BqP8DeAT0oxqii7C"
+    },
+    {
+      "type": "text",
+      "text": "Divine justice. Attack deals an additional 1D6 damage and heals a party member the Holy Smiter can see for the same amount.",
+      "range": [
+        10,
+        10
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "q7agaF6yrE6M7y5J",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!llyDilPBUxkxVdPg.q7agaF6yrE6M7y5J"
+    },
+    {
+      "type": "text",
+      "text": "Hate thy mutant! Thinking the target is a filthy mutie, the Holy Smiter deals an additional 2D4 damage.",
+      "range": [
+        11,
+        11
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "dQ8J0opbmvVclYem",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!llyDilPBUxkxVdPg.dQ8J0opbmvVclYem"
+    },
+    {
+      "type": "text",
+      "text": "Holy light beams down from the sky, imbuing the Holy Smiter’s weapon with divine light as it comes crashing down on the fiend, dealing an extra 1D6+2 damage.",
+      "range": [
+        12,
+        12
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "BZCnfzxhV6HxJBbf",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!llyDilPBUxkxVdPg.BZCnfzxhV6HxJBbf"
+    },
+    {
+      "type": "text",
+      "text": "Nose breaker. The Smiter lunges out and bites the face of the enemy, ripping off the flesh of what used to be a nose and dealing an additional 2D6 Bleeding damage.",
+      "range": [
+        13,
+        13
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "qeZoupl4hfWy0oFD",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!llyDilPBUxkxVdPg.qeZoupl4hfWy0oFD"
+    },
+    {
+      "type": "text",
+      "text": "Cleanse the body and mind! Granting the DAWN Star’s favor, the Smiter blesses the party! The attack deals normal damage and each party member loses one condition or mutation at random, including Paranoia or Fear.",
+      "range": [
+        14,
+        14
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "BeBgqhQ4B6g9yOjt",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!llyDilPBUxkxVdPg.BeBgqhQ4B6g9yOjt"
+    },
+    {
+      "type": "text",
+      "text": "Destroy all mutants! The Holy Smiter gains the Bloodlust condition, becoming convinced the enemies are mutants.",
+      "range": [
+        15,
+        15
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "Q5ffkxvBKXp5yGpK",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!llyDilPBUxkxVdPg.Q5ffkxvBKXp5yGpK"
+    },
+    {
+      "type": "text",
+      "text": "Justice beam! Holy energy spews from the Holy Smiter, hitting the target for 1D10 Spillover damage.",
+      "range": [
+        16,
+        16
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "dTVqe20R3gQ23bby",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!llyDilPBUxkxVdPg.dTVqe20R3gQ23bby"
+    },
+    {
+      "type": "text",
+      "text": "Total Party Heal. The faith of the Holy Smiter shines through, dealing an additional 1D10 damage to the target and healing the entire party for the same amount.",
+      "range": [
+        17,
+        17
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "Y9LXKJeKuy66Kygh",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!llyDilPBUxkxVdPg.Y9LXKJeKuy66Kygh"
+    },
+    {
+      "type": "text",
+      "text": "By the grace of the DAWN Star! The Holy Smiter Attacks in their deity’s name with a massive thunderous blow, dealing 1D10! additional damage and healing the entire party for the amount dealt.",
+      "range": [
+        18,
+        18
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "WtAT4cIpZHMEmUkK",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!llyDilPBUxkxVdPg.WtAT4cIpZHMEmUkK"
+    },
+    {
+      "type": "text",
+      "text": "DAWN Star is aligned in the sky and answers your prayer, shooting down a beam of pure energy that hits the target for an additional 2D12 Spillover damage.",
+      "range": [
+        19,
+        19
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "tRGF0OlS4NRhbGeU",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!llyDilPBUxkxVdPg.tRGF0OlS4NRhbGeU"
+    },
+    {
+      "type": "text",
+      "text": "The Legion’s aid. Teleporting to this realm 1D4+2 Holy Smiters from regions beyond the galaxy and other dimensions come to the Smiter’s call, launching Attacks that are automatic critical hits. When rolling on this chart for their hits, re-roll any further results of 20. After their Attacks the other Smiters teleport away.",
+      "range": [
+        20,
+        20
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "IwW2vDYKqfqBQrpy",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!llyDilPBUxkxVdPg.IwW2vDYKqfqBQrpy"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.2",
+    "createdTime": 1742156271049,
+    "modifiedTime": 1742156307396,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "formula": "1d20",
+  "ownership": {
+    "default": 0,
+    "5Y97f44EpJZ1WrAi": 3,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "_id": "llyDilPBUxkxVdPg",
+  "sort": 300000,
+  "_key": "!tables!llyDilPBUxkxVdPg"
+}

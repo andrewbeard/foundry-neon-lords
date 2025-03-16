@@ -120,7 +120,7 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742085713712,
-    "modifiedTime": 1742085713712,
+    "modifiedTime": 1742156161388,
     "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
   "formula": "1D10",
@@ -129,6 +129,6 @@
     "l18XFo7VCP3jkSA6": 3
   },
   "_id": "9N25i404x0PPQc6S",
-  "sort": 0,
+  "sort": 400000,
   "_key": "!tables!9N25i404x0PPQc6S"
 }

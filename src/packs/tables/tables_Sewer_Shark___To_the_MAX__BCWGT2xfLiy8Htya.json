@@ -1,0 +1,330 @@
+{
+  "folder": "6x26CQk5Eov1g1fc",
+  "name": "Sewer Shark - To the MAX!",
+  "img": "icons/svg/d20-black.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "text": "The Sewer Shark’s attack deals a devastating blow dealing normal damage and causing the target to be Dazed on their next turn.",
+      "range": [
+        1,
+        1
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "yz2wklmmDlAA8Clb",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!BCWGT2xfLiy8Htya.yz2wklmmDlAA8Clb"
+    },
+    {
+      "type": "text",
+      "text": "Vile Bile. The Sewer Shark’s septic lifestyle causes the attack to deal an additional 1D6 Vile damage.",
+      "range": [
+        2,
+        2
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "uPcHl9J6NYvDN4Qx",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!BCWGT2xfLiy8Htya.uPcHl9J6NYvDN4Qx"
+    },
+    {
+      "type": "text",
+      "text": "Resilient! The attack deals normal damage but the Sewer Shark gains back 1D4 Frenzy Points.",
+      "range": [
+        3,
+        3
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "eOWSwzzKP8zU3n2u",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!BCWGT2xfLiy8Htya.eOWSwzzKP8zU3n2u"
+    },
+    {
+      "type": "text",
+      "text": "A QUICK SNACK! The attack deals normal damage as the Sewer Shark takes a quick bite dealing 1D4 additional damage. The real quick bite regains them back 1HP.",
+      "range": [
+        4,
+        4
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "kJav1UxYtqj4fVJj",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!BCWGT2xfLiy8Htya.kJav1UxYtqj4fVJj"
+    },
+    {
+      "type": "text",
+      "text": "Sweep the leg. Dealing normal damage, the Sewer Shark is able to sweep the legs from the target causing them to fall Prone. They must make an Agility Saving throw in order to get back up.",
+      "range": [
+        5,
+        5
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "sNnb6X0FbUsEazKN",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!BCWGT2xfLiy8Htya.sNnb6X0FbUsEazKN"
+    },
+    {
+      "type": "text",
+      "text": "The Sewer Shark has been working out! The attack deals an extra 1D6 damage due to the sheer size of the swole muscles of the Sewer Shark.",
+      "range": [
+        6,
+        6
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "6mYUXzRQB8SRfBE4",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!BCWGT2xfLiy8Htya.6mYUXzRQB8SRfBE4"
+    },
+    {
+      "type": "text",
+      "text": "SLAP ME SOME FIN! Showing off the Sewer Shark deals normal damage and high fives the closest ally. The grandstanding gains them back 1D6 lost Frenzy Points.",
+      "range": [
+        7,
+        7
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "bFQH0RQH2SZrMbrD",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!BCWGT2xfLiy8Htya.bFQH0RQH2SZrMbrD"
+    },
+    {
+      "type": "text",
+      "text": "BLINDED. The Sewer Shark deals normal damage as they gouge out the target’s eyes then shows ‘em to the target gaining +1 to their Attitude. The target gains the Blind condition.",
+      "range": [
+        8,
+        8
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "GnLj5W8Rul37Ij1D",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!BCWGT2xfLiy8Htya.GnLj5W8Rul37Ij1D"
+    },
+    {
+      "type": "text",
+      "text": "SHARK ATTACK! The Sewer Shark makes additional attacks equal to their Attitude mod.",
+      "range": [
+        9,
+        9
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "MVK5IHda4Qe9d8Wy",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!BCWGT2xfLiy8Htya.MVK5IHda4Qe9d8Wy"
+    },
+    {
+      "type": "text",
+      "text": "JAWS OF LIFE. Taking a big bite outta the target, in addition to their normal attack, dealing 1D8 damage and healing 1D4 HP.",
+      "range": [
+        10,
+        10
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "X9LPSm5MGiuslVcV",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!BCWGT2xfLiy8Htya.X9LPSm5MGiuslVcV"
+    },
+    {
+      "type": "text",
+      "text": "Dealing some serious additional damage (1D8) crushing the target’s windpipe. In addition to the massive strike they regain 1D8 Frenzy Points.",
+      "range": [
+        11,
+        11
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "7r2PEQMidMkXKbab",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!BCWGT2xfLiy8Htya.7r2PEQMidMkXKbab"
+    },
+    {
+      "type": "text",
+      "text": "FINTASTIC! The attack is brutal dealing an additional 1D10 Bleeding damage as the Sewer Shark furiously bites the target.",
+      "range": [
+        12,
+        12
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "kK43SznUzcPLPZQq",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!BCWGT2xfLiy8Htya.kK43SznUzcPLPZQq"
+    },
+    {
+      "type": "text",
+      "text": "NO SWEAT! The Sewer Shark deals an explosive attack crushing bones, dealing an additional 1D10 damage. The Sewer Shark gains back 1D10 Frenzy Points. The sound of bones crunching is very inspirational.",
+      "range": [
+        13,
+        13
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "3JUj3bb3xRfi0dnp",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!BCWGT2xfLiy8Htya.3JUj3bb3xRfi0dnp"
+    },
+    {
+      "type": "text",
+      "text": "THE ROYAL FLUSH. The Sewer Shark tosses the target into the closest manhole dealing a fintastic 1D12 additional damage. The target must spend their next turn crawling out of the manhole, if alive.",
+      "range": [
+        14,
+        14
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "BI24mARCS5O4pm2U",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!BCWGT2xfLiy8Htya.BI24mARCS5O4pm2U"
+    },
+    {
+      "type": "text",
+      "text": "HELP ME OUT BRO! A Sewer Shark busts out from underneath the target making a bite attack in addition to the PC Sewer Shark’s attack. The other Sewer Shark sticks around for 1D4 turns holding the target in a full-nelson, leaving them immobilized.",
+      "range": [
+        15,
+        15
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "dgdS9i6xWNMPao8d",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!BCWGT2xfLiy8Htya.dgdS9i6xWNMPao8d"
+    },
+    {
+      "type": "text",
+      "text": "KICK SOME SERIOUS FIN! The Sewer Shark eviscerates the target disemboweling them. Their innards spill all over the floor causing them to bleed out in 1D4 turns.",
+      "range": [
+        16,
+        16
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "Lyb73qka82dS40lM",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!BCWGT2xfLiy8Htya.Lyb73qka82dS40lM"
+    },
+    {
+      "type": "text",
+      "text": "SKULLCRACK. The Sewer Shark deals a devastating blow to the target, causing an additional 1D6 damage. The next time the target gets hit, it’s an auto crit.",
+      "range": [
+        17,
+        17
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "qYuR4wlLtIkapW4N",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!BCWGT2xfLiy8Htya.qYuR4wlLtIkapW4N"
+    },
+    {
+      "type": "text",
+      "text": "FEEDING FRENZY! In addition to the regular attack, the Sewer Shark takes an additional 2 bite attacks that deal normal damage. The Sewer Shark re-gains HP equal to the TOTAL damage dealt.",
+      "range": [
+        18,
+        18
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "JGPxu23nRYkhcCGU",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!BCWGT2xfLiy8Htya.JGPxu23nRYkhcCGU"
+    },
+    {
+      "type": "text",
+      "text": "SHARK DIVE! Breaking the floor and diving underneath their target the Sewer Shark is able to attack from below opening a sinkhole. The target falls to their death and anything within 5ft must make an Agility Saving Throw or fall in to their deaths as well.",
+      "range": [
+        19,
+        19
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "aTPhXUSCz39gRH1s",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!BCWGT2xfLiy8Htya.aTPhXUSCz39gRH1s"
+    },
+    {
+      "type": "text",
+      "text": "JAWSOME! The Sewer Shark bites the head off the target killing them instantly and causing a geyser of blood and gore. The Shark may then spit the head at another target near by dealing 1D6 damage.",
+      "range": [
+        20,
+        20
+      ],
+      "img": "icons/svg/d20-black.svg",
+      "_id": "ax5aijaMTjWJMtTw",
+      "documentId": null,
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!BCWGT2xfLiy8Htya.ax5aijaMTjWJMtTw"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.2",
+    "createdTime": 1742156161319,
+    "modifiedTime": 1742156307396,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "formula": "1d20",
+  "ownership": {
+    "default": 0,
+    "5Y97f44EpJZ1WrAi": 3,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "_id": "BCWGT2xfLiy8Htya",
+  "sort": 700000,
+  "_key": "!tables!BCWGT2xfLiy8Htya"
+}

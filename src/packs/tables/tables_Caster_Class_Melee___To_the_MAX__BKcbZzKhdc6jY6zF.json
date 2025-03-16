@@ -1,5 +1,5 @@
 {
-  "name": "Caster Class Melee To The Max!",
+  "name": "Caster Class Melee - To the MAX!",
   "_id": "BKcbZzKhdc6jY6zF",
   "img": "icons/svg/d20-grey.svg",
   "description": "",
@@ -135,7 +135,7 @@
       "drawn": false,
       "_id": "XcgkMUPoFj6sr7zY",
       "text": "Subtable - Caster Class Melee To The Max! - Face Slash",
-      "img": "icons/svg/d20-black.svg",
+      "img": "icons/svg/d20-grey.svg",
       "documentId": "iMr6DQDgKvju7jKi",
       "flags": {},
       "documentCollection": "neon-lords.tables",
@@ -189,8 +189,8 @@
   ],
   "replacement": true,
   "displayRoll": true,
-  "folder": null,
-  "sort": 0,
+  "folder": "6x26CQk5Eov1g1fc",
+  "sort": 500000,
   "ownership": {
     "default": 0,
     "l18XFo7VCP3jkSA6": 3
@@ -203,9 +203,9 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742091913234,
-    "modifiedTime": 1742095914547,
+    "modifiedTime": 1742156307396,
     "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
-  "formula": "1D10",
+  "formula": "8",
   "_key": "!tables!BKcbZzKhdc6jY6zF"
 }
