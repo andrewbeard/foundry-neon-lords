@@ -1,0 +1,22 @@
+{
+  "name": "Mutations",
+  "sorting": "a",
+  "folder": null,
+  "type": "RollTable",
+  "_id": "hDrYqq038CrCLuYe",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.2",
+    "createdTime": 1742156918070,
+    "modifiedTime": 1742156918070,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "_key": "!folders!hDrYqq038CrCLuYe"
+}

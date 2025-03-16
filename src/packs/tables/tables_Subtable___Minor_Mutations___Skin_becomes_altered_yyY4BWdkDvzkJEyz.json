@@ -1,5 +1,5 @@
 {
-  "name": "Subtable - Minor Mutation - Skin becomes altered",
+  "name": "Subtable - Minor Mutations - Skin becomes altered",
   "_id": "yyY4BWdkDvzkJEyz",
   "img": "icons/svg/d20-grey.svg",
   "description": "",
@@ -67,8 +67,8 @@
   ],
   "replacement": true,
   "displayRoll": true,
-  "folder": null,
-  "sort": 1200000,
+  "folder": "hDrYqq038CrCLuYe",
+  "sort": 300000,
   "ownership": {
     "default": 0,
     "l18XFo7VCP3jkSA6": 3
@@ -81,7 +81,7 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742093963064,
-    "modifiedTime": 1742156161388,
+    "modifiedTime": 1742156982855,
     "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
   "formula": "1D4",

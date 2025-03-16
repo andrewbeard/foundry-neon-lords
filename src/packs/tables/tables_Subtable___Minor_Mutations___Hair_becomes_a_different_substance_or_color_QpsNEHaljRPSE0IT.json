@@ -1,5 +1,5 @@
 {
-  "name": "Subtable - Minor Mutation - Hair becomes a different substance or color",
+  "name": "Subtable - Minor Mutations - Hair becomes a different substance or color",
   "_id": "QpsNEHaljRPSE0IT",
   "img": "icons/svg/d20-grey.svg",
   "description": "",
@@ -67,8 +67,8 @@
   ],
   "replacement": true,
   "displayRoll": true,
-  "folder": null,
-  "sort": 800000,
+  "folder": "hDrYqq038CrCLuYe",
+  "sort": 200000,
   "ownership": {
     "default": 0,
     "l18XFo7VCP3jkSA6": 3
@@ -81,7 +81,7 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742094188751,
-    "modifiedTime": 1742156161388,
+    "modifiedTime": 1742156988940,
     "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
   "formula": "",

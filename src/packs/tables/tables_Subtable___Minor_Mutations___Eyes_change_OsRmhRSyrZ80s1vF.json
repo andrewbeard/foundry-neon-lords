@@ -1,5 +1,5 @@
 {
-  "name": "Subtable - Minor Mutation - Eyes change",
+  "name": "Subtable - Minor Mutations - Eyes change",
   "_id": "OsRmhRSyrZ80s1vF",
   "img": "icons/svg/d20-grey.svg",
   "description": "",
@@ -67,8 +67,8 @@
   ],
   "replacement": true,
   "displayRoll": true,
-  "folder": null,
-  "sort": 700000,
+  "folder": "hDrYqq038CrCLuYe",
+  "sort": 100000,
   "ownership": {
     "default": 0,
     "l18XFo7VCP3jkSA6": 3
@@ -81,7 +81,7 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742094056760,
-    "modifiedTime": 1742156161388,
+    "modifiedTime": 1742156975406,
     "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
   "formula": "",
