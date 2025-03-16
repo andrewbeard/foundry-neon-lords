@@ -42,22 +42,21 @@ export default class NeonLordsCharacter extends NeonLordsActorBase {
   }
 
   #calculateMod(abilityScore) {
-    // Yes, this is the dumb way of calculating. Fix this later when my brain is fully engaged
-    let mod = -3;
-    if (abilityScore >= 18) {
-      mod = 3;
-    } else if (abilityScore >= 16) {
-      mod = 2;
-    } else if (abilityScore >= 13) {
-      mod = 1;
-    } else if (abilityScore >= 9) {
-      mod = 0;
-    } else if (abilityScore >= 6) {
-      mod = -1;
-    } else if (abilityScore >= 4) {
-      mod = -2;
+    const modThresholds = [
+      [18, 3],
+      [16, 2], 
+      [13, 1],
+      [9, 0],
+      [6, -1],
+      [4, -2]
+    ];
+    
+    for (const [threshold, value] of modThresholds) {
+      if (abilityScore >= threshold) {
+        return value;
+      }
     }
-    return mod;
+    return -3;
   }
 
   prepareDerivedData() {
