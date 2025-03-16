@@ -1,0 +1,119 @@
+{
+  "name": "Reading Out Loud In Neo-Terraxx",
+  "_id": "wWlK2fOLN8A6FakM",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        7
+      ],
+      "drawn": false,
+      "_id": "x5fCedJ8hWizwPAr",
+      "text": "Nothing Happens.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!wWlK2fOLN8A6FakM.x5fCedJ8hWizwPAr"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "I3cyK7IaegG1SsfK",
+      "text": "Out of the reader’s fingers Madballz Missile is cast hitting a random target.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!wWlK2fOLN8A6FakM.I3cyK7IaegG1SsfK"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "zsQSafqg2dwHhjH6",
+      "text": "Reader rolls on the Minor Mutation Table.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!wWlK2fOLN8A6FakM.zsQSafqg2dwHhjH6"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "bO7QoveGcZioJY3v",
+      "text": "Reader gains a Madness Point.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!wWlK2fOLN8A6FakM.bO7QoveGcZioJY3v"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_id": "NGQjFMjJ6b2HV05z",
+      "text": "1D4+Reader's Brain Mod Other Worldly Spawns are summoned.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!wWlK2fOLN8A6FakM.NGQjFMjJ6b2HV05z"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_id": "K0BbjYrbheo95SbK",
+      "text": "A Mammoth Space God is summoned. Appease the god or they will devour the planet.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!wWlK2fOLN8A6FakM.K0BbjYrbheo95SbK"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.2",
+    "createdTime": 1742093222099,
+    "modifiedTime": 1742093387549,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "formula": "1D12",
+  "_key": "!tables!wWlK2fOLN8A6FakM"
+}
