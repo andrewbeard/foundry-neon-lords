@@ -14,9 +14,14 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+      - name: Install Dependencies
+        run: npm ci
+      - name: Build Packs
+        run: npm run pullJSONtoLDB --if-present
       - name: Create zip archive
-        run: |
-          git archive --format=zip --prefix=neon-lords/ -o neon-lords.zip ${{ github.ref }}
+        run: git archive --format=zip --prefix=neon-lords/ -o neon-lords.zip ${{ github.ref }}
+      - name: Add pack files to zip
+        run: zip -ur neon-lords.zip packs
       - name: Create release draft
         uses: actions/create-release@v1
         id: create_release
