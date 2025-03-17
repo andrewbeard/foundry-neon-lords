@@ -1,0 +1,40 @@
+<ol class='items-list'>
+  <li class='item flexrow items-header'>
+    <div class='item-name'>Mutation</div>
+    <div class='item-controls'>
+      <a
+        class='item-control item-create'
+        title='Create item'
+        data-type='mutation'
+      >
+        <i class='fas fa-plus'></i>
+        New
+      </a>
+    </div>
+  </li>
+  {{#each mutations as |item id|}}
+    <li class='item flexrow' data-item-id='{{item._id}}'>
+      <div class='item-name'>
+        <div class='item-image'>
+          <img
+            src='{{item.img}}'
+            title='{{item.name}}'
+            width='24'
+            height='24'
+          />
+        </div>
+        <a class='item-name item-edit' title='Edit'>
+          <h4>{{item.name}}</h4>
+        </a>
+      </div>
+      <div class='item-controls'>
+        <a
+          class='item-control item-delete'
+          title='Delete'
+        >
+          <i class='fas fa-trash'></i>
+        </a>
+      </div>
+    </li>
+  {{/each}}
+</ol>

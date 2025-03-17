@@ -146,8 +146,9 @@ export class NeonLordsActorSheet extends ActorSheet {
 
     // Assign and return
     context.attacks = attacks;
-    context.gear = gear;
     context.features = features;
+    context.gear = gear;
+    context.mutations = mutations;
     context.spells = spells;
   }
 
