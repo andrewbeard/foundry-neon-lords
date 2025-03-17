@@ -1,0 +1,28 @@
+{
+  "folder": "K4au9Kxpy6gfGLdo",
+  "name": "Hair becomes Rainbow",
+  "type": "mutation",
+  "_id": "8YViysLFQHoZZx5w",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Hair becomes a different substance or color:</p><p>Rainbow (+1 to Spell Checks if Brutacorn or War Wizard)</p>"
+  },
+  "effects": [],
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742233912251,
+    "modifiedTime": 1742234204063,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!8YViysLFQHoZZx5w"
+}

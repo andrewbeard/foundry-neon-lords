@@ -1,0 +1,28 @@
+{
+  "folder": "K4au9Kxpy6gfGLdo",
+  "name": "Hair becomes Metal",
+  "type": "mutation",
+  "_id": "4jmYC5bAe12TFgbF",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Hair becomes a different substance or color:</p><p>Metal (Glam-Lords charge you 50 tokens now, +1 Attitude, Noise Thrashers get +2 to Sound check)</p>"
+  },
+  "effects": [],
+  "sort": 1100000,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742234010936,
+    "modifiedTime": 1742234224246,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!4jmYC5bAe12TFgbF"
+}

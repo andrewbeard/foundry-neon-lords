@@ -1,0 +1,28 @@
+{
+  "folder": "K4au9Kxpy6gfGLdo",
+  "name": "Painful open sores",
+  "type": "mutation",
+  "_id": "ADxlMF3ZGyWdfaDz",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Painful open sores all over body. Take 1 damage when attempting to do anything.</p>"
+  },
+  "effects": [],
+  "sort": 1400000,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742235029534,
+    "modifiedTime": 1742235099549,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!ADxlMF3ZGyWdfaDz"
+}

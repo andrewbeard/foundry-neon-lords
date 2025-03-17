@@ -1,0 +1,349 @@
+{
+  "folder": "hDrYqq038CrCLuYe",
+  "name": "Minor Mutations",
+  "_id": "HyBQa4FGfKxwNOaw",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "pack",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "zJx9au7jWszqbdIv",
+      "text": "See? A little radiation never hurt anyone!",
+      "img": "icons/svg/item-bag.svg",
+      "documentId": "4wK1jWEYZahrmfzR",
+      "flags": {},
+      "documentCollection": "neon-lords.items",
+      "_key": "!tables.results!HyBQa4FGfKxwNOaw.zJx9au7jWszqbdIv"
+    },
+    {
+      "type": "pack",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "WwF7IWo8LfdAnr3k",
+      "text": "Everything tastes like Meat Treet Brand Jellied Meat in a Can.",
+      "img": "icons/svg/item-bag.svg",
+      "documentId": "svQcQbXy93KbIQz7",
+      "flags": {},
+      "documentCollection": "neon-lords.items",
+      "_key": "!tables.results!HyBQa4FGfKxwNOaw.WwF7IWo8LfdAnr3k"
+    },
+    {
+      "type": "pack",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "2OSgnAhYpoEgPI6g",
+      "text": "Yellow slime oozes from your pores.",
+      "img": "icons/svg/item-bag.svg",
+      "documentId": "cLQ3Jagfb3d4EhUs",
+      "flags": {},
+      "documentCollection": "neon-lords.items",
+      "_key": "!tables.results!HyBQa4FGfKxwNOaw.2OSgnAhYpoEgPI6g"
+    },
+    {
+      "type": "pack",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "gaekbt11xmBCrSz5",
+      "text": "No hair anywhere",
+      "img": "icons/svg/item-bag.svg",
+      "documentId": "rbvJeTRz6K5hKrea",
+      "flags": {},
+      "documentCollection": "neon-lords.items",
+      "_key": "!tables.results!HyBQa4FGfKxwNOaw.gaekbt11xmBCrSz5"
+    },
+    {
+      "type": "pack",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "Zn4jdGBeA4c0lB1D",
+      "text": "Subtable - Minor Mutations - Skin becomes altered",
+      "img": "icons/svg/d20-grey.svg",
+      "documentId": "yyY4BWdkDvzkJEyz",
+      "flags": {},
+      "documentCollection": "neon-lords.tables",
+      "_key": "!tables.results!HyBQa4FGfKxwNOaw.Zn4jdGBeA4c0lB1D"
+    },
+    {
+      "type": "pack",
+      "documentCollection": "neon-lords.tables",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "Ud92cygNCu5rHaZ9",
+      "text": "Subtable - Minor Mutations - Eyes change",
+      "img": "icons/svg/d20-grey.svg",
+      "documentId": "OsRmhRSyrZ80s1vF",
+      "flags": {},
+      "_key": "!tables.results!HyBQa4FGfKxwNOaw.Ud92cygNCu5rHaZ9"
+    },
+    {
+      "type": "pack",
+      "documentCollection": "neon-lords.tables",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "hJU6BsGJt9DuCIzz",
+      "text": "Subtable - Minor Mutations - Hair becomes a different substance or color",
+      "img": "icons/svg/d20-grey.svg",
+      "documentId": "QpsNEHaljRPSE0IT",
+      "flags": {},
+      "_key": "!tables.results!HyBQa4FGfKxwNOaw.hJU6BsGJt9DuCIzz"
+    },
+    {
+      "type": "pack",
+      "documentCollection": "neon-lords.items",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "Ebuty9SKBhZBsRRs",
+      "text": "Aged",
+      "img": "icons/svg/item-bag.svg",
+      "documentId": "o75xSVWbu5RKqbWI",
+      "flags": {},
+      "_key": "!tables.results!HyBQa4FGfKxwNOaw.Ebuty9SKBhZBsRRs"
+    },
+    {
+      "type": "pack",
+      "documentCollection": "neon-lords.items",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "FPedzP7advlH2wIa",
+      "text": "Rad-glow",
+      "img": "icons/svg/item-bag.svg",
+      "documentId": "yfAYZiEALsssrR78",
+      "flags": {},
+      "_key": "!tables.results!HyBQa4FGfKxwNOaw.FPedzP7advlH2wIa"
+    },
+    {
+      "type": "pack",
+      "documentCollection": "neon-lords.items",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "1tuPseaDoU7HQHQH",
+      "text": "Painful open sores",
+      "img": "icons/svg/item-bag.svg",
+      "documentId": "ADxlMF3ZGyWdfaDz",
+      "flags": {},
+      "_key": "!tables.results!HyBQa4FGfKxwNOaw.1tuPseaDoU7HQHQH"
+    },
+    {
+      "type": "pack",
+      "documentCollection": "neon-lords.items",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_id": "GM7jwz4uEHM4beoB",
+      "text": "Rat faced",
+      "img": "icons/svg/item-bag.svg",
+      "documentId": "FtbRyaohAXAm5fl1",
+      "flags": {},
+      "_key": "!tables.results!HyBQa4FGfKxwNOaw.GM7jwz4uEHM4beoB"
+    },
+    {
+      "type": "pack",
+      "documentCollection": "neon-lords.items",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_id": "0njAvSunJh14FXTz",
+      "text": "Extra eye on your shoulder blade",
+      "img": "icons/svg/item-bag.svg",
+      "documentId": "VwK8cJhKCI1ypy8c",
+      "flags": {},
+      "_key": "!tables.results!HyBQa4FGfKxwNOaw.0njAvSunJh14FXTz"
+    },
+    {
+      "type": "pack",
+      "documentCollection": "neon-lords.items",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "_id": "4goIX1hYprpgXSef",
+      "text": "Allergic to metal",
+      "img": "icons/svg/item-bag.svg",
+      "documentId": "UAFLmwcnxZyXjWOx",
+      "flags": {},
+      "_key": "!tables.results!HyBQa4FGfKxwNOaw.4goIX1hYprpgXSef"
+    },
+    {
+      "type": "pack",
+      "documentCollection": "neon-lords.items",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "_id": "HDsuuwkooKZuwhTc",
+      "text": "Mechanical voice",
+      "img": "icons/svg/item-bag.svg",
+      "documentId": "NAV6zBvoOGreji2o",
+      "flags": {},
+      "_key": "!tables.results!HyBQa4FGfKxwNOaw.HDsuuwkooKZuwhTc"
+    },
+    {
+      "type": "pack",
+      "documentCollection": "neon-lords.items",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "_id": "bwEPLuUTPFL6bwZU",
+      "text": "Dragon's sense",
+      "img": "icons/svg/item-bag.svg",
+      "documentId": "eCXMJyxn5hXW5ESe",
+      "flags": {},
+      "_key": "!tables.results!HyBQa4FGfKxwNOaw.bwEPLuUTPFL6bwZU"
+    },
+    {
+      "type": "pack",
+      "documentCollection": "neon-lords.items",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "_id": "dr5EwfJQGIQ89ttN",
+      "text": "Lose an arm, gain a tentacle",
+      "img": "icons/svg/item-bag.svg",
+      "documentId": "wke4yFdovf8JdAZD",
+      "flags": {},
+      "_key": "!tables.results!HyBQa4FGfKxwNOaw.dr5EwfJQGIQ89ttN"
+    },
+    {
+      "type": "pack",
+      "documentCollection": "neon-lords.items",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "_id": "DnwOr0i0GJnZclCl",
+      "text": "Heightened senses",
+      "img": "icons/svg/item-bag.svg",
+      "documentId": "ZCtgG0ccGXpMPpC1",
+      "flags": {},
+      "_key": "!tables.results!HyBQa4FGfKxwNOaw.DnwOr0i0GJnZclCl"
+    },
+    {
+      "type": "pack",
+      "documentCollection": "neon-lords.items",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "_id": "9JwtHC6Bi1X78S0P",
+      "text": "Psychic",
+      "img": "icons/svg/item-bag.svg",
+      "documentId": "WTttfIfewM5QUijX",
+      "flags": {},
+      "_key": "!tables.results!HyBQa4FGfKxwNOaw.9JwtHC6Bi1X78S0P"
+    },
+    {
+      "type": "pack",
+      "documentCollection": "neon-lords.items",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "_id": "6yVqOvd9WyCSEBml",
+      "text": "Nacho-blood",
+      "img": "icons/svg/item-bag.svg",
+      "documentId": "acBfLMKOE5GLTdpK",
+      "flags": {},
+      "_key": "!tables.results!HyBQa4FGfKxwNOaw.6yVqOvd9WyCSEBml"
+    },
+    {
+      "type": "pack",
+      "documentCollection": "neon-lords.tables",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "_id": "yDcCPmc7tkzPv5mQ",
+      "text": "Major Mutations",
+      "img": "icons/svg/d20-grey.svg",
+      "documentId": "dxroduQNRO4YNCPD",
+      "flags": {},
+      "_key": "!tables.results!HyBQa4FGfKxwNOaw.yDcCPmc7tkzPv5mQ"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742234409997,
+    "modifiedTime": 1742236899077,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "formula": "1D20",
+  "_key": "!tables!HyBQa4FGfKxwNOaw"
+}

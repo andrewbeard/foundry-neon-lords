@@ -1,0 +1,28 @@
+{
+  "folder": "K4au9Kxpy6gfGLdo",
+  "name": "Eyes change to Meat-Vision",
+  "type": "mutation",
+  "_id": "WO3x7Ngpu6nlBUhG",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Eyes change:</p><p>Meat-Vision</p>"
+  },
+  "effects": [],
+  "sort": 787500,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742234709791,
+    "modifiedTime": 1742234758822,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!WO3x7Ngpu6nlBUhG"
+}

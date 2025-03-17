@@ -5,7 +5,7 @@
   "description": "",
   "results": [
     {
-      "type": "text",
+      "type": "pack",
       "weight": 1,
       "range": [
         1,
@@ -13,14 +13,15 @@
       ],
       "drawn": false,
       "_id": "rSUZOjc04Q6vVyQG",
-      "text": "Milked Over. (Blind)",
-      "img": "icons/svg/d20-black.svg",
-      "documentId": null,
+      "text": "Eyes change to Milked Over",
+      "img": "icons/svg/item-bag.svg",
+      "documentId": "i1psNfmVdFefjHF4",
       "flags": {},
+      "documentCollection": "neon-lords.items",
       "_key": "!tables.results!OsRmhRSyrZ80s1vF.rSUZOjc04Q6vVyQG"
     },
     {
-      "type": "text",
+      "type": "pack",
       "weight": 1,
       "range": [
         2,
@@ -28,14 +29,15 @@
       ],
       "drawn": false,
       "_id": "oBIQpiVVssTN1i4W",
-      "text": "All Pupil. (+1 Attitude)",
-      "img": "icons/svg/d20-black.svg",
-      "documentId": null,
+      "text": "Eyes change to All Pupil",
+      "img": "icons/svg/item-bag.svg",
+      "documentId": "GL0tdGjQb8t2rJVz",
       "flags": {},
+      "documentCollection": "neon-lords.items",
       "_key": "!tables.results!OsRmhRSyrZ80s1vF.oBIQpiVVssTN1i4W"
     },
     {
-      "type": "text",
+      "type": "pack",
       "weight": 1,
       "range": [
         3,
@@ -43,14 +45,15 @@
       ],
       "drawn": false,
       "_id": "JUszlEl8BqqncjwU",
-      "text": "No Pupil. (+1 Sleaze)",
-      "img": "icons/svg/d20-black.svg",
-      "documentId": null,
+      "text": "Eyes change to No Pupil",
+      "img": "icons/svg/item-bag.svg",
+      "documentId": "4au6RiOc260s0HSB",
       "flags": {},
+      "documentCollection": "neon-lords.items",
       "_key": "!tables.results!OsRmhRSyrZ80s1vF.JUszlEl8BqqncjwU"
     },
     {
-      "type": "text",
+      "type": "pack",
       "weight": 1,
       "range": [
         4,
@@ -58,10 +61,11 @@
       ],
       "drawn": false,
       "_id": "Bx97rh6sBC2L4xpr",
-      "text": "Meat-Vision.",
-      "img": "icons/svg/d20-black.svg",
-      "documentId": null,
+      "text": "Eyes change to Meat-Vision",
+      "img": "icons/svg/item-bag.svg",
+      "documentId": "WO3x7Ngpu6nlBUhG",
       "flags": {},
+      "documentCollection": "neon-lords.items",
       "_key": "!tables.results!OsRmhRSyrZ80s1vF.Bx97rh6sBC2L4xpr"
     }
   ],
@@ -81,9 +85,9 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742094056760,
-    "modifiedTime": 1742156975406,
-    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+    "modifiedTime": 1742234882705,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
-  "formula": "",
+  "formula": "1d4",
   "_key": "!tables!OsRmhRSyrZ80s1vF"
 }

@@ -1,0 +1,27 @@
+{
+  "folder": "hDrYqq038CrCLuYe",
+  "name": "Major Mutations",
+  "_id": "dxroduQNRO4YNCPD",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [],
+  "replacement": true,
+  "displayRoll": true,
+  "sort": 150000,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742236823034,
+    "modifiedTime": 1742236828297,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!tables!dxroduQNRO4YNCPD"
+}

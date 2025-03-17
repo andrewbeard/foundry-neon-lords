@@ -1,0 +1,28 @@
+{
+  "folder": "K4au9Kxpy6gfGLdo",
+  "name": "Allergic to metal",
+  "type": "mutation",
+  "_id": "UAFLmwcnxZyXjWOx",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Allergic to metal. (Cannot wear or hold any metal without taking 1D4 damage per turn.)</p>"
+  },
+  "effects": [],
+  "sort": 1700000,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742235284623,
+    "modifiedTime": 1742235310541,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!UAFLmwcnxZyXjWOx"
+}

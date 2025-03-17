@@ -1,0 +1,22 @@
+{
+  "name": "Mutations",
+  "sorting": "m",
+  "folder": null,
+  "type": "Item",
+  "_id": "tcpY9cfmo1YIXPgA",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742223457599,
+    "modifiedTime": 1742223590026,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!folders!tcpY9cfmo1YIXPgA"
+}

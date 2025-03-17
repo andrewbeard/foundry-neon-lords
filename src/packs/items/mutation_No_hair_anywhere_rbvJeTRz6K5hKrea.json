@@ -1,0 +1,28 @@
+{
+  "folder": "K4au9Kxpy6gfGLdo",
+  "name": "No hair anywhere",
+  "type": "mutation",
+  "_id": "rbvJeTRz6K5hKrea",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>No hair anywhere, super bald. Permanently gain the Skull hairstyle.</p>"
+  },
+  "effects": [],
+  "sort": 350000,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742223799690,
+    "modifiedTime": 1742223829732,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!rbvJeTRz6K5hKrea"
+}

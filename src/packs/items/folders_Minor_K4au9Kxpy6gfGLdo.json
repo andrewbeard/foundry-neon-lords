@@ -1,0 +1,22 @@
+{
+  "name": "Minor",
+  "sorting": "m",
+  "folder": "tcpY9cfmo1YIXPgA",
+  "type": "Item",
+  "_id": "K4au9Kxpy6gfGLdo",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!K4au9Kxpy6gfGLdo"
+}

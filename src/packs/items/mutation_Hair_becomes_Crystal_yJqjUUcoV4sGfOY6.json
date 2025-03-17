@@ -1,0 +1,28 @@
+{
+  "folder": "K4au9Kxpy6gfGLdo",
+  "name": "Hair becomes Crystal",
+  "type": "mutation",
+  "_id": "yJqjUUcoV4sGfOY6",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Hair becomes a different substance or color:</p><p>Crystal (Crits against have a 10% of failing)</p>"
+  },
+  "effects": [],
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742233854025,
+    "modifiedTime": 1742234195275,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!yJqjUUcoV4sGfOY6"
+}

@@ -1,0 +1,28 @@
+{
+  "folder": "K4au9Kxpy6gfGLdo",
+  "name": "Dragon's sense",
+  "type": "mutation",
+  "_id": "eCXMJyxn5hXW5ESe",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Dragon’s sense. Can detect gold or treasure within 30ft of location.</p>"
+  },
+  "effects": [],
+  "sort": 1900000,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742235367566,
+    "modifiedTime": 1742235387039,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!eCXMJyxn5hXW5ESe"
+}

@@ -1,0 +1,28 @@
+{
+  "folder": "K4au9Kxpy6gfGLdo",
+  "name": "Heightened senses",
+  "type": "mutation",
+  "_id": "ZCtgG0ccGXpMPpC1",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Heightened senses. Able to “feel” the whereabouts of enemies up to 25ft away.</p>"
+  },
+  "effects": [],
+  "sort": 2100000,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742235496961,
+    "modifiedTime": 1742235519805,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!ZCtgG0ccGXpMPpC1"
+}

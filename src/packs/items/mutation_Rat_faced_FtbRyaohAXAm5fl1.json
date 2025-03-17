@@ -1,0 +1,28 @@
+{
+  "folder": "K4au9Kxpy6gfGLdo",
+  "name": "Rat faced",
+  "type": "mutation",
+  "_id": "FtbRyaohAXAm5fl1",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Rat faced: -2 to Attitude +2 to Sleaze keen sense of smell, able to smell enemies up to 50ft away.</p>"
+  },
+  "effects": [],
+  "sort": 1500000,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742235138017,
+    "modifiedTime": 1742235162539,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!FtbRyaohAXAm5fl1"
+}

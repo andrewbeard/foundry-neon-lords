@@ -5,7 +5,7 @@
   "description": "",
   "results": [
     {
-      "type": "text",
+      "type": "pack",
       "weight": 1,
       "range": [
         1,
@@ -13,14 +13,15 @@
       ],
       "drawn": false,
       "_id": "E6KKOQzSTRug0S9V",
-      "text": "Crystal (Crits against have a 10% of failing)",
-      "img": "icons/svg/d20-black.svg",
-      "documentId": null,
+      "text": "Hair becomes Crystal",
+      "img": "icons/svg/item-bag.svg",
+      "documentId": "yJqjUUcoV4sGfOY6",
       "flags": {},
+      "documentCollection": "neon-lords.items",
       "_key": "!tables.results!QpsNEHaljRPSE0IT.E6KKOQzSTRug0S9V"
     },
     {
-      "type": "text",
+      "type": "pack",
       "weight": 1,
       "range": [
         2,
@@ -28,14 +29,15 @@
       ],
       "drawn": false,
       "_id": "3AnwV4UWii2eL3gv",
-      "text": "Rainbow (+1 to Spell Checks if Brutacorn or War Wizard)",
-      "img": "icons/svg/d20-black.svg",
-      "documentId": null,
+      "text": "Hair becomes Rainbow",
+      "img": "icons/svg/item-bag.svg",
+      "documentId": "8YViysLFQHoZZx5w",
       "flags": {},
+      "documentCollection": "neon-lords.items",
       "_key": "!tables.results!QpsNEHaljRPSE0IT.3AnwV4UWii2eL3gv"
     },
     {
-      "type": "text",
+      "type": "pack",
       "weight": 1,
       "range": [
         3,
@@ -43,14 +45,15 @@
       ],
       "drawn": false,
       "_id": "dXLS6Qx0Sdaw8wXD",
-      "text": "Glitter (Melee attack do Dazzling damage)",
-      "img": "icons/svg/d20-black.svg",
-      "documentId": null,
+      "text": "Hair becomes Glitter",
+      "img": "icons/svg/item-bag.svg",
+      "documentId": "ChWQLKmpo19t4HIp",
       "flags": {},
+      "documentCollection": "neon-lords.items",
       "_key": "!tables.results!QpsNEHaljRPSE0IT.dXLS6Qx0Sdaw8wXD"
     },
     {
-      "type": "text",
+      "type": "pack",
       "weight": 1,
       "range": [
         4,
@@ -58,10 +61,11 @@
       ],
       "drawn": false,
       "_id": "82hvy53cWADJIAEr",
-      "text": "Metal (Glam-Lords charge you 50 tokens now, +1 Attitude, Noise Thrashers get +2 to Sound Checks)",
-      "img": "icons/svg/d20-black.svg",
-      "documentId": null,
+      "text": "Hair becomes Metal",
+      "img": "icons/svg/item-bag.svg",
+      "documentId": "4jmYC5bAe12TFgbF",
       "flags": {},
+      "documentCollection": "neon-lords.items",
       "_key": "!tables.results!QpsNEHaljRPSE0IT.82hvy53cWADJIAEr"
     }
   ],
@@ -81,9 +85,9 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742094188751,
-    "modifiedTime": 1742156988940,
-    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+    "modifiedTime": 1742234381997,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
-  "formula": "",
+  "formula": "1d4",
   "_key": "!tables!QpsNEHaljRPSE0IT"
 }

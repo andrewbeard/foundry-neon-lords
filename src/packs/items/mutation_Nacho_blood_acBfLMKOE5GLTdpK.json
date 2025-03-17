@@ -1,0 +1,28 @@
+{
+  "folder": "K4au9Kxpy6gfGLdo",
+  "name": "Nacho-blood",
+  "type": "mutation",
+  "_id": "acBfLMKOE5GLTdpK",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Nacho-blood. Hot and gooey. All damage dealt to you by non-magical means is halved, due to the thickness of your blood and wounds are immune to the Bleeding condition.</p>"
+  },
+  "effects": [],
+  "sort": 2300000,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742235642848,
+    "modifiedTime": 1742235675715,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!acBfLMKOE5GLTdpK"
+}

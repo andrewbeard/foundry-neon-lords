@@ -1,0 +1,28 @@
+{
+  "folder": "K4au9Kxpy6gfGLdo",
+  "name": "Extra eye on your shoulder blade",
+  "type": "mutation",
+  "_id": "VwK8cJhKCI1ypy8c",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Grow an extra eye on your shoulder blade, granting you immunity to surprises.</p>"
+  },
+  "effects": [],
+  "sort": 1600000,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742235239993,
+    "modifiedTime": 1742235268428,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!VwK8cJhKCI1ypy8c"
+}

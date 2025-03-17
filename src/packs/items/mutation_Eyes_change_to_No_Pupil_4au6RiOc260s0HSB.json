@@ -1,0 +1,28 @@
+{
+  "folder": "K4au9Kxpy6gfGLdo",
+  "name": "Eyes change to No Pupil",
+  "type": "mutation",
+  "_id": "4au6RiOc260s0HSB",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Eyes change:</p><p>No Pupil. (+1 Sleaze)</p>"
+  },
+  "effects": [],
+  "sort": 775000,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742234675824,
+    "modifiedTime": 1742234740267,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!4au6RiOc260s0HSB"
+}

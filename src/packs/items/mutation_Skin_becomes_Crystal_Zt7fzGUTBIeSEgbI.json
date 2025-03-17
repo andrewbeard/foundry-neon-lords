@@ -1,0 +1,28 @@
+{
+  "folder": "K4au9Kxpy6gfGLdo",
+  "name": "Skin becomes Crystal",
+  "type": "mutation",
+  "_id": "Zt7fzGUTBIeSEgbI",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p class=\"p1\">Skin becomes altered:</p><p>Crystal. (Hard to hit, +1 to AC.)</p>"
+  },
+  "effects": [],
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742233136544,
+    "modifiedTime": 1742234245808,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!Zt7fzGUTBIeSEgbI"
+}

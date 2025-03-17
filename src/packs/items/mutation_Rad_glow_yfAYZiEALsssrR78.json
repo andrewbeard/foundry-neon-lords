@@ -1,0 +1,28 @@
+{
+  "folder": "K4au9Kxpy6gfGLdo",
+  "name": "Rad-glow",
+  "type": "mutation",
+  "_id": "yfAYZiEALsssrR78",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Gain rad-glow. (Can never surprise anyone or anything.)</p>"
+  },
+  "effects": [],
+  "sort": 1300000,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742234980777,
+    "modifiedTime": 1742234999869,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!yfAYZiEALsssrR78"
+}

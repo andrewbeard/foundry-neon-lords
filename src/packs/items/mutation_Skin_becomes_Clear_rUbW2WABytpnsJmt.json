@@ -1,0 +1,28 @@
+{
+  "folder": "K4au9Kxpy6gfGLdo",
+  "name": "Skin becomes Clear",
+  "type": "mutation",
+  "_id": "rUbW2WABytpnsJmt",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p class=\"p1\">Skin becomes altered:</p><p>Clear. Skin is still there but you can see all your vital organs and bones. (Sludge on all Reaction rolls.)</p>"
+  },
+  "effects": [],
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742223748121,
+    "modifiedTime": 1742234237413,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!rUbW2WABytpnsJmt"
+}
