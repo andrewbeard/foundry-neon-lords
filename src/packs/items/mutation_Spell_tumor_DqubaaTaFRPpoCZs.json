@@ -1,0 +1,28 @@
+{
+  "folder": "01NH1a38dCUFG50S",
+  "name": "Spell tumor",
+  "type": "mutation",
+  "_id": "DqubaaTaFRPpoCZs",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Can be cut open to cast a 1st level War Wizard spell once per day, 1D4 damage to cut it out. The tumor grows back at the end of each long rest. (You may choose what spell to cast.)</p>"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742239073398,
+    "modifiedTime": 1742239090603,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!DqubaaTaFRPpoCZs"
+}

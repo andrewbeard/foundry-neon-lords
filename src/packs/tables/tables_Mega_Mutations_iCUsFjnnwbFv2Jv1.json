@@ -1,0 +1,28 @@
+{
+  "folder": "hDrYqq038CrCLuYe",
+  "name": "Mega Mutations",
+  "_id": "iCUsFjnnwbFv2Jv1",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>All the really bloodthirsty, hateful, and most of all sleazy mutated wasteoid scum got their start on this</p><p class=\"p1\">table. Hopefully, you don’t end up a big puddle of toxic goo!</p>",
+  "results": [],
+  "replacement": true,
+  "displayRoll": true,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742238642885,
+    "modifiedTime": 1742238673934,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "formula": "1D20",
+  "_key": "!tables!iCUsFjnnwbFv2Jv1"
+}

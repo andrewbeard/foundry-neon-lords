@@ -1,0 +1,28 @@
+{
+  "folder": "01NH1a38dCUFG50S",
+  "name": "Pointy ears with elf-like appearance",
+  "type": "mutation",
+  "_id": "TOzjs6Aje80gJFqw",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Pointy ears with elf-like appearance. -4 to Burliness. Cry yourself to sleep at night.</p>"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742237493918,
+    "modifiedTime": 1742237508708,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!TOzjs6Aje80gJFqw"
+}

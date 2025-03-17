@@ -1,0 +1,28 @@
+{
+  "folder": "01NH1a38dCUFG50S",
+  "name": "Cyclops with Smell-o-vision",
+  "type": "mutation",
+  "_id": "h3hwlz5xakDtVzTA",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p><span style=\"font-family: Roboto, sans-serif\">Cyclops, zero depth perception -2 to attack rolls.</span></p><p style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); margin: 0.5em 0px; color: rgb(25, 24, 19); font-family: Roboto, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: start\">Smell-o-vision</p>"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742237692618,
+    "modifiedTime": 1742237709431,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!h3hwlz5xakDtVzTA"
+}

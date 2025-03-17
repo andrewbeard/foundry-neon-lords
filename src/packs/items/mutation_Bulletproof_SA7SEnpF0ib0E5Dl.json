@@ -1,0 +1,28 @@
+{
+  "folder": "01NH1a38dCUFG50S",
+  "name": "Bulletproof",
+  "type": "mutation",
+  "_id": "SA7SEnpF0ib0E5Dl",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Tough skin that takes a few whacks with a sword or bullets to penetrate. Grants +3 to AC.</p>"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742237781550,
+    "modifiedTime": 1742238228455,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!SA7SEnpF0ib0E5Dl"
+}

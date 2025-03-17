@@ -3,7 +3,7 @@
   "name": "Minor Mutations",
   "_id": "HyBQa4FGfKxwNOaw",
   "img": "icons/svg/d20-grey.svg",
-  "description": "",
+  "description": "<p>These radioactive bumps in the road don’t alter you too much.</p><p class=\"p1\">Pray, they don’t get altered further!</p>",
   "results": [
     {
       "type": "pack",
@@ -310,7 +310,7 @@
       "_key": "!tables.results!HyBQa4FGfKxwNOaw.6yVqOvd9WyCSEBml"
     },
     {
-      "type": "pack",
+      "type": "text",
       "documentCollection": "neon-lords.tables",
       "weight": 1,
       "range": [
@@ -319,11 +319,27 @@
       ],
       "drawn": false,
       "_id": "yDcCPmc7tkzPv5mQ",
+      "text": "It’s so bad you have to roll on the Major Mutations Table!",
+      "img": "icons/svg/d20-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!HyBQa4FGfKxwNOaw.yDcCPmc7tkzPv5mQ"
+    },
+    {
+      "type": "pack",
+      "documentCollection": "neon-lords.tables",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "_id": "Lae79PcmJhZpjVuG",
       "text": "Major Mutations",
       "img": "icons/svg/d20-grey.svg",
       "documentId": "dxroduQNRO4YNCPD",
       "flags": {},
-      "_key": "!tables.results!HyBQa4FGfKxwNOaw.yDcCPmc7tkzPv5mQ"
+      "_key": "!tables.results!HyBQa4FGfKxwNOaw.Lae79PcmJhZpjVuG"
     }
   ],
   "replacement": true,
@@ -341,7 +357,7 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.3",
     "createdTime": 1742234409997,
-    "modifiedTime": 1742236899077,
+    "modifiedTime": 1742238754186,
     "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "formula": "1D20",

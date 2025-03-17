@@ -1,0 +1,28 @@
+{
+  "folder": "01NH1a38dCUFG50S",
+  "name": "Baby arm",
+  "type": "mutation",
+  "_id": "wjg8MJKDp6QGiSxJ",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Can’t use two handed weapons or carry a shield.</p>"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742237731237,
+    "modifiedTime": 1742238248583,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!wjg8MJKDp6QGiSxJ"
+}

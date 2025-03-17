@@ -1,0 +1,28 @@
+{
+  "folder": "01NH1a38dCUFG50S",
+  "name": "Brainiac",
+  "type": "mutation",
+  "_id": "O31Ldar3d5R2ET3D",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>+4 to Brains -4 to Burliness. Head is massive, baby-like strength.</p>"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742238062067,
+    "modifiedTime": 1742238204941,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!O31Ldar3d5R2ET3D"
+}

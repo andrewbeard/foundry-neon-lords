@@ -1,0 +1,31 @@
+{
+  "folder": "01NH1a38dCUFG50S",
+  "name": "Adolescent mutated frog with attitude",
+  "type": "attack",
+  "_id": "1uE5iKeaUSzJ47Ck",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Adolescent mutated amphibians with attitude</p><p>Frog. (Tongue Attack. +5 Attack, dealing 1D6 damage.)</p>",
+    "bonus": 0,
+    "damage": "",
+    "special": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742237938041,
+    "modifiedTime": 1742237998945,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!1uE5iKeaUSzJ47Ck"
+}

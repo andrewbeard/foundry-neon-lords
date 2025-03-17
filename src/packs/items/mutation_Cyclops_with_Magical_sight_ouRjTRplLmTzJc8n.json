@@ -1,0 +1,28 @@
+{
+  "folder": "01NH1a38dCUFG50S",
+  "name": "Cyclops with Magical sight",
+  "type": "mutation",
+  "_id": "ouRjTRplLmTzJc8n",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Cyclops, zero depth perception -2 to attack rolls.</p><p>Magical sight. (Can detect magic, read magic at will.)</p>"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742237655964,
+    "modifiedTime": 1742237672537,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!ouRjTRplLmTzJc8n"
+}

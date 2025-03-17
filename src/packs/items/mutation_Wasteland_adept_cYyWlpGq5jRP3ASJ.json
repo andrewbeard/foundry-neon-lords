@@ -1,0 +1,28 @@
+{
+  "folder": "01NH1a38dCUFG50S",
+  "name": "Wasteland adept",
+  "type": "mutation",
+  "_id": "cYyWlpGq5jRP3ASJ",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Gain +2 to any one S.T.A.T.S. score of your choice. (Minus Class and Fortune.)</p>"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742237809247,
+    "modifiedTime": 1742238217962,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!cYyWlpGq5jRP3ASJ"
+}

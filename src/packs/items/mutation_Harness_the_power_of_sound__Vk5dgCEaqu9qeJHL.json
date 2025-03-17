@@ -1,0 +1,28 @@
+{
+  "folder": "01NH1a38dCUFG50S",
+  "name": "Harness the power of sound!",
+  "type": "mutation",
+  "_id": "Vk5dgCEaqu9qeJHL",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>The sound waves around you now become a lethal weapon. Using your mutated mind you now can transform them into pure energy and throw it at your foes like a bolt of lightning! When you gain this ability and at the end of a long rest roll 1d6, this is how many times you can hurl your sound bolt per day. The sound bolt deals 1d6! to any target within eyesight of you. </p><p>Max Range: 120ft.</p>"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742238974941,
+    "modifiedTime": 1742239013542,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!Vk5dgCEaqu9qeJHL"
+}

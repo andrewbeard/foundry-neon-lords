@@ -1,0 +1,28 @@
+{
+  "folder": "01NH1a38dCUFG50S",
+  "name": "Literally a caveman",
+  "type": "mutation",
+  "_id": "K8Q6JeGtL3UkuCK2",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>-4 To Brains +2 to Burliness.</p>"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742237754361,
+    "modifiedTime": 1742238240350,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!K8Q6JeGtL3UkuCK2"
+}
