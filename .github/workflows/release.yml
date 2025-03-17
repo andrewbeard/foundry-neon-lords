@@ -22,10 +22,10 @@ jobs:
         run: git archive --format=zip --prefix=neon-lords/ -o neon-lords.zip ${{ github.ref }}
       - name: Add pack files to zip
         run: |
-        mkdir neon-lords
-        mv packs neon-lords/
-        zip -ur neon-lords.zip neon-lords/packs
-        rm -rf neon-lords
+          mkdir neon-lords
+          mv packs neon-lords/
+          zip -ur neon-lords.zip neon-lords/packs
+          rm -rf neon-lords
       - name: Create release draft
         uses: softprops/action-gh-release@v2
         with:
