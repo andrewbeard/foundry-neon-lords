@@ -104,8 +104,9 @@ export class NeonLordsActorSheet extends ActorSheet {
   _prepareItems(context) {
     // Initialize containers.
     const attacks = [];
-    const gear = [];
     const features = [];
+    const gear = [];
+    const mutations = [];
     const spells = {
       1: [],
       2: [],
@@ -131,6 +132,9 @@ export class NeonLordsActorSheet extends ActorSheet {
       }
       else if (i.type === 'attack') {
         attacks.push(i);
+      }
+      else if (i.type === 'mutation') {
+        mutations.push(i);
       }
       // Append to spells.
       else if (i.type === 'spell') {

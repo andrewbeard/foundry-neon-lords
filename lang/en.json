@@ -33,11 +33,12 @@
       "npc": "NPC"
     },
     "Item": {
-      "item": "Item",
+      "attack": "Attack",
       "feature": "Feature",
-      "spell": "Spell",
       "hairstyle": "Hairstyle",
-      "attack": "Attack"
+      "item": "Item", 
+      "mutation": "Mutation",
+      "spell": "Spell"
     }
   }
 }
