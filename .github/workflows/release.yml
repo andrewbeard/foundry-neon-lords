@@ -21,36 +21,16 @@ jobs:
       - name: Create zip archive
         run: git archive --format=zip --prefix=neon-lords/ -o neon-lords.zip ${{ github.ref }}
       - name: Add pack files to zip
-        run: zip -ur neon-lords.zip -p neon-lords packs
+        run: zip -ur neon-lords.zip packs -p neon-lords/
       - name: Create release draft
-        uses: actions/create-release@v1
-        id: create_release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with: 
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            neon-lords.zip
+            system.json
+          overwrite: true
           draft: true
           prerelease: false
-          tag_name: ${{ github.ref }}
-          release_name: ${{ github.ref }}
-      - name: Upload system.json
-        uses: actions/upload-release-asset@v1
-        id: upload-release-asset-json
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./system.json
-          asset_name: system.json
-          asset_content_type: application/json
-      - name: Upload neon-lords.zip
-        uses: actions/upload-release-asset@v1
-        id: upload-release-asset-zip
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./neon-lords.zip
-          asset_name: neon-lords.zip
-          asset_content_type: application/zip
+          token: ${{ secrets.GITHUB_TOKEN }}
 
 
