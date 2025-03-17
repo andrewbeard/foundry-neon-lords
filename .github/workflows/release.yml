@@ -32,7 +32,6 @@ jobs:
           files: |
             neon-lords.zip
             system.json
-          overwrite: true
           draft: true
           prerelease: false
           token: ${{ secrets.GITHUB_TOKEN }}
