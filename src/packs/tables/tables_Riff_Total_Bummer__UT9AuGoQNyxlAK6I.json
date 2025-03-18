@@ -1,6 +1,6 @@
 {
   "folder": "rF8MHXzhHgBf1UC1",
-  "name": "Riff Fumble",
+  "name": "Riff Total Bummer!",
   "_id": "UT9AuGoQNyxlAK6I",
   "img": "icons/svg/d20-grey.svg",
   "description": "",
@@ -219,8 +219,8 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.3",
     "createdTime": 1742312924010,
-    "modifiedTime": 1742313128094,
-    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+    "modifiedTime": 1742339378953,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
   "formula": "1D10",
   "_key": "!tables!UT9AuGoQNyxlAK6I"
