@@ -47,7 +47,6 @@
             </datalist>
           </div>
         </div>
-
       </div>
     </div>
   </header>
@@ -55,6 +54,7 @@
   {{!-- Sheet Tab Navigation --}}
   <nav class="sheet-tabs tabs" data-group="primary">
     {{!-- Default tab is specified in actor-sheet.mjs --}}
+    <a class="item" data-tab="attributes">Attributes</a>
     <a class="item" data-tab="attacks">Attacks</a>
     <a class="item" data-tab="description">Description</a>
     <a class="item" data-tab="items">Items</a>
@@ -63,6 +63,30 @@
 
   {{!-- Sheet Body --}}
   <section class="sheet-body">
+    {{!-- Attributes Tab --}}
+    <div class="tab attributes" data-group="primary" data-tab="attributes">
+      <section class="grid grid-3col">
+        <aside class="sidebar">
+          <div class="saves flexcol" style="padding-top: 15px;">
+            {{#each system.saves as |save key|}}
+            <div class="save flexrow flex-group-center">
+              <label for="system.saves.{{key}}.value" class="resource-label rollable flexlarge align-left" data-roll-category="Saving Throw" data-roll="d20" data-label="{{capitalizeFirstLetter key}}">{{capitalizeFirstLetter key}}</label>
+              <input type="text" name="system.saves.{{key}}.value" value="{{save.value}}" data-dtype="Number"/>
+              <span class="blank" data-label="{{capitalizeFirstLetter key}}"></span>
+            </div>
+            {{/each}}
+          </div>
+        </aside>
+        <section class="main grid-span-2">
+          <div class="attacks flexcol">
+            {{> "systems/neon-lords/templates/actor/parts/actor-attacks.hbs"}}
+          </div>
+          <div class="mutations flexcol" style="padding-top: 15px;">
+            {{> "systems/neon-lords/templates/actor/parts/actor-mutations.hbs"}}
+          </div>
+        </section>
+      </section>
+    </div>
 
     {{!-- Attacks Tab --}}
     <div class="tab attacks" data-group="primary" data-tab="attacks">
