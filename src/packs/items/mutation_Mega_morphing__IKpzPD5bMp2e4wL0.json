@@ -1,0 +1,28 @@
+{
+  "folder": "Hzyeg5ZJGYKtAJeP",
+  "name": "Mega morphing!",
+  "type": "mutation",
+  "_id": "IKpzPD5bMp2e4wL0",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Your body feels strange, as if you could transform yourself into anyone you can see. In fact you can! You can morph into any creature of like size you can see for as long as you concentrate on it. This effect can only be done once per long rest.</p>"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742314384754,
+    "modifiedTime": 1742314400450,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!IKpzPD5bMp2e4wL0"
+}

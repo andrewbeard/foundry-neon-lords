@@ -1,0 +1,28 @@
+{
+  "folder": "Hzyeg5ZJGYKtAJeP",
+  "name": "King of the Wastelands",
+  "type": "mutation",
+  "_id": "rlfqDccZiyVxPgKy",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>The meltdown causes your body to grow and become stronger, turning you into a Mutant Brute. Your Burliness Score gains an additional +5 to a max of 18, while your Brains Score gets a -5 to a min of 3<span class=\"s1\">. </span><span class=\"s2\">You no longer have a class. </span>Discard any Class Points you have.</p>"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742314645700,
+    "modifiedTime": 1742314677775,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!rlfqDccZiyVxPgKy"
+}

@@ -1,0 +1,227 @@
+{
+  "folder": "rF8MHXzhHgBf1UC1",
+  "name": "Riff Fumble",
+  "_id": "UT9AuGoQNyxlAK6I",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "ZVAxVAokW9CW4YOi",
+      "text": "Very underwhelming. Nothing happens, at all.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!UT9AuGoQNyxlAK6I.ZVAxVAokW9CW4YOi"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "nFf1uP2uxFqdoxih",
+      "text": "The Riff is played successfully but hits a random target (including yourself).",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!UT9AuGoQNyxlAK6I.nFf1uP2uxFqdoxih"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "vYyvzd6C5YVguhhU",
+      "text": "The Riff fails and casts Brown Noise on yourself and gain 3 Sleaze Points.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!UT9AuGoQNyxlAK6I.vYyvzd6C5YVguhhU"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "7ptisJBF7aIQRSKG",
+      "text": "Broke a string! The Riff fails, spend the next turn fixing the string.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!UT9AuGoQNyxlAK6I.7ptisJBF7aIQRSKG"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "drkLYdZBUJGQ3qc9",
+      "text": "Major meltdown! Roll 2 times on the minor mutation chart.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!UT9AuGoQNyxlAK6I.drkLYdZBUJGQ3qc9"
+    },
+    {
+      "type": "pack",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "w3QSXcEMo65pBcdX",
+      "text": "Minor Mutations",
+      "img": "icons/svg/d20-grey.svg",
+      "documentId": "HyBQa4FGfKxwNOaw",
+      "flags": {},
+      "documentCollection": "neon-lords.tables",
+      "_key": "!tables.results!UT9AuGoQNyxlAK6I.w3QSXcEMo65pBcdX"
+    },
+    {
+      "type": "pack",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "Fl5rzmfc1RbaJBwG",
+      "text": "Minor Mutations",
+      "img": "icons/svg/d20-grey.svg",
+      "documentId": "HyBQa4FGfKxwNOaw",
+      "flags": {},
+      "documentCollection": "neon-lords.tables",
+      "_key": "!tables.results!UT9AuGoQNyxlAK6I.Fl5rzmfc1RbaJBwG"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "UIfOfenNB4FsUKZH",
+      "text": "Killer feedback! The subsonic weapon echoes into the caster’s skull. The Riff fails and deals 1D4 damage to the caster.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!UT9AuGoQNyxlAK6I.UIfOfenNB4FsUKZH"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "obfF6ATg7zyx1s9e",
+      "text": "The 7th Son of the 7th Son ignores the fumble and turns it to a To The MAX!",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!UT9AuGoQNyxlAK6I.obfF6ATg7zyx1s9e"
+    },
+    {
+      "type": "pack",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "Rcg0UGj6HIg0eOJC",
+      "text": "",
+      "img": null,
+      "documentId": null,
+      "flags": {},
+      "documentCollection": "neon-lords.tables",
+      "_key": "!tables.results!UT9AuGoQNyxlAK6I.Rcg0UGj6HIg0eOJC"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "oRA0hMkqhLxfq26j",
+      "text": "Lazer Light Show Madness! Lazers shoot out of the instrument hitting 1D4 random targets for 2D6! Damage to all the targets.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!UT9AuGoQNyxlAK6I.oRA0hMkqhLxfq26j"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "oASoPOqGU6Q2t04v",
+      "text": "The Riff goes off but hits a random Ally.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!UT9AuGoQNyxlAK6I.oASoPOqGU6Q2t04v"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "Yv7FRnHCORMbavu5",
+      "text": "Thrash ‘Til Death! The Riff is so intense it burns through the instrument, requiring it to cool down for 1D6 turns.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!UT9AuGoQNyxlAK6I.Yv7FRnHCORMbavu5"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742312924010,
+    "modifiedTime": 1742313128094,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "formula": "1D10",
+  "_key": "!tables!UT9AuGoQNyxlAK6I"
+}

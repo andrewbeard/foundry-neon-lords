@@ -1,0 +1,28 @@
+{
+  "folder": "Hzyeg5ZJGYKtAJeP",
+  "name": "You're a goblin",
+  "type": "mutation",
+  "_id": "tmREErp527D9YzI9",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Refer to the “So You Want To Be A Goblin” section found on pg. 257 of the third printing</p>"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742313715842,
+    "modifiedTime": 1742313740051,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!tmREErp527D9YzI9"
+}

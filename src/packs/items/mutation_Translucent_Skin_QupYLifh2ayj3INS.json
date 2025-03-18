@@ -1,0 +1,28 @@
+{
+  "folder": "Hzyeg5ZJGYKtAJeP",
+  "name": "Translucent Skin",
+  "type": "mutation",
+  "_id": "QupYLifh2ayj3INS",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>In daylight all rolls suffer a -1 penalty. Adept In spell-casting, Can cast 1 random level 1 War Wizard spell once per day.</p>"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742314002682,
+    "modifiedTime": 1742314032782,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!QupYLifh2ayj3INS"
+}

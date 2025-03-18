@@ -1,0 +1,28 @@
+{
+  "folder": "Hzyeg5ZJGYKtAJeP",
+  "name": "OUTCAST!",
+  "type": "mutation",
+  "_id": "D02YL2WQpvl6v3fJ",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Horribly transformed into a putrid pile of rotted meat, looking like every other mutie in the wasteland. Your Attitude is 0 while your Sleaze gains an additional +5. You are not welcome in the Humanoid sectors and must be disguised to enter civilization again. If captured the punishment is death.</p>"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742313899197,
+    "modifiedTime": 1742313930700,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!D02YL2WQpvl6v3fJ"
+}

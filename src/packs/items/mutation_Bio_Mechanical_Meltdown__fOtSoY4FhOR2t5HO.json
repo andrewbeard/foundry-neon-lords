@@ -1,0 +1,28 @@
+{
+  "folder": "Hzyeg5ZJGYKtAJeP",
+  "name": "Bio-Mechanical Meltdown!",
+  "type": "mutation",
+  "_id": "fOtSoY4FhOR2t5HO",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Your squishy warm Humanoid parts are rapidly becoming cold and mechanical. By the end of the turn, you are a fully operational Cyberskin.</p>"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742313764496,
+    "modifiedTime": 1742313788333,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!fOtSoY4FhOR2t5HO"
+}

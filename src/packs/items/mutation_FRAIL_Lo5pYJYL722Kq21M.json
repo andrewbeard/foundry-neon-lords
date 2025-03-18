@@ -1,0 +1,28 @@
+{
+  "folder": "Hzyeg5ZJGYKtAJeP",
+  "name": "FRAIL",
+  "type": "mutation",
+  "_id": "Lo5pYJYL722Kq21M",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Roll a 1D6 for each S.T.A.T.S. after each long rest and subtract that much from them for the day, but gain double XP and an additional 1D6 HP every level. You must have drunk a lot of overly caffeinated citrus-flavored soda as a kid.</p>"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742313802885,
+    "modifiedTime": 1742313829034,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!Lo5pYJYL722Kq21M"
+}

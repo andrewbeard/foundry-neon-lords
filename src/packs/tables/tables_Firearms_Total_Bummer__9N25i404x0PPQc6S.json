@@ -111,7 +111,7 @@
   ],
   "replacement": true,
   "displayRoll": true,
-  "folder": null,
+  "folder": "rF8MHXzhHgBf1UC1",
   "flags": {},
   "_stats": {
     "compendiumSource": null,
@@ -120,8 +120,8 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742085713712,
-    "modifiedTime": 1742156161388,
-    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+    "modifiedTime": 1742312588092,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "formula": "1D10",
   "ownership": {
@@ -129,6 +129,6 @@
     "l18XFo7VCP3jkSA6": 3
   },
   "_id": "9N25i404x0PPQc6S",
-  "sort": 400000,
+  "sort": 100000,
   "_key": "!tables!9N25i404x0PPQc6S"
 }

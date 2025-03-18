@@ -1,0 +1,119 @@
+{
+  "folder": "rF8MHXzhHgBf1UC1",
+  "name": "Prayers Total Bummer!",
+  "_id": "zzd6myV8sKQ30o8d",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "diAdrDqk2Yjdv9JT",
+      "text": "Your god is gracious toward your incompetence. Must be your lucky day! Ignore the fumble and lose -5 Sleaze.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!zzd6myV8sKQ30o8d.diAdrDqk2Yjdv9JT"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "bdP5CNfewyXEEHn2",
+      "text": "Divine backlash! The failure of the prayer deals 1D4 damage to you.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!zzd6myV8sKQ30o8d.bdP5CNfewyXEEHn2"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "KSiPCKeq4LvT22wV",
+      "text": "Not today! Your God must be on vacation, ‘cause no one answered. You gain +1 to your Sleaze score.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!zzd6myV8sKQ30o8d.KSiPCKeq4LvT22wV"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "qEWAO85yHbXbZiGD",
+      "text": "How dare you! Failure means punishment, dealing 1D6 damage to you.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!zzd6myV8sKQ30o8d.qEWAO85yHbXbZiGD"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "P3PgGkDq2vKmHfvz",
+      "text": "Unholy Favors go unnoticed. Your god is unimpressed, gaining you +2 to your Sleaze score.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!zzd6myV8sKQ30o8d.P3PgGkDq2vKmHfvz"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "PLn3wGS2gLEAAx14",
+      "text": "Loss of devotion, gain +3 to your Sleaze Score and start the process on becoming a Fallen Smiter",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!zzd6myV8sKQ30o8d.PLn3wGS2gLEAAx14"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742312830476,
+    "modifiedTime": 1742312892368,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "formula": "1D6",
+  "_key": "!tables!zzd6myV8sKQ30o8d"
+}

@@ -1,0 +1,28 @@
+{
+  "folder": "Hzyeg5ZJGYKtAJeP",
+  "name": "Insect master",
+  "type": "mutation",
+  "_id": "6ygutIAZfqjfOSf1",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>You gain the ability to call upon a swarm of insects to aid you in whatever you may need. The swarm can attack a target dealing 1D8 damage in stings. The swarm can cover your body as well granting you an additional +2 to your AC.</p>"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742314104034,
+    "modifiedTime": 1742314125127,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!6ygutIAZfqjfOSf1"
+}

@@ -1,0 +1,28 @@
+{
+  "folder": "Hzyeg5ZJGYKtAJeP",
+  "name": "Cannibalistic Wasteoid Scum!",
+  "type": "mutation",
+  "_id": "V8f9Ukkbc53fuRql",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Outside you look normal, as normal as can be. The Mega Mutation altered your insides and the only way you now can heal is by eating HUMANOID flesh.</p>"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742314256840,
+    "modifiedTime": 1742314282813,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!V8f9Ukkbc53fuRql"
+}

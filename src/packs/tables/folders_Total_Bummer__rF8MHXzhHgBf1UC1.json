@@ -1,0 +1,22 @@
+{
+  "name": "Total Bummer!",
+  "sorting": "a",
+  "folder": null,
+  "type": "RollTable",
+  "_id": "rF8MHXzhHgBf1UC1",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742312585706,
+    "modifiedTime": 1742312585706,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!folders!rF8MHXzhHgBf1UC1"
+}

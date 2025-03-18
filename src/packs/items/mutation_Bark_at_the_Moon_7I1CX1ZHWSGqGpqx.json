@@ -1,0 +1,28 @@
+{
+  "folder": "Hzyeg5ZJGYKtAJeP",
+  "name": "Bark at the Moon",
+  "type": "mutation",
+  "_id": "7I1CX1ZHWSGqGpqx",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>You begin to rapidly de-age as your body grows black fur, sharp teeth, and claws. You have transformed into a Werewolf Teenager (pg 234 of the third printing).</p>"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742314574446,
+    "modifiedTime": 1742314602402,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!7I1CX1ZHWSGqGpqx"
+}

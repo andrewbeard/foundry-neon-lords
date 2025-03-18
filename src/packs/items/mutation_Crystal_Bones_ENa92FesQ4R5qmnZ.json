@@ -1,0 +1,28 @@
+{
+  "folder": "Hzyeg5ZJGYKtAJeP",
+  "name": "Crystal Bones",
+  "type": "mutation",
+  "_id": "ENa92FesQ4R5qmnZ",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Your bones crystallize inside of your body. One solid hit and they shatter splintering your body dealing 3D6 internal damage. If you survive this attack you become nothing but a pile of gooey flesh.</p>"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742314472573,
+    "modifiedTime": 1742314502424,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!ENa92FesQ4R5qmnZ"
+}

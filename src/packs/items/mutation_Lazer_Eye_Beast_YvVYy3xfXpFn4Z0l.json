@@ -1,0 +1,28 @@
+{
+  "folder": "Hzyeg5ZJGYKtAJeP",
+  "name": "Lazer Eye Beast",
+  "type": "mutation",
+  "_id": "YvVYy3xfXpFn4Z0l",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Your body bloats into a giant sphere as your arms and legs begins to sink into your torso as your eyes fuse together and begin to grow. After the agony of the transformation you are turned into a Lazer Eye Beast (pg. 228).</p>"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742314422287,
+    "modifiedTime": 1742314448838,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!YvVYy3xfXpFn4Z0l"
+}

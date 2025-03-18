@@ -1,0 +1,28 @@
+{
+  "folder": "Hzyeg5ZJGYKtAJeP",
+  "name": "Garbage disposal",
+  "type": "mutation",
+  "_id": "CDaPnGYYUneWpanD",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>You have an obsession with eating only trash. Anytime you see some, you HAVE to eat it. It takes an entire turn to fully eat the trash in a 5 cubic foot pile. You cannot act while eating the trash. You gain 1D6 HP every time you eat trash, but you cannot go over your base HP.</p>"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.3",
+    "createdTime": 1742314140761,
+    "modifiedTime": 1742314166773,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!CDaPnGYYUneWpanD"
+}
