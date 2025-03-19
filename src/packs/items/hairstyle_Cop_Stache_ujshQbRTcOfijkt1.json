@@ -1,0 +1,28 @@
+{
+  "folder": "t09UaTrMVwyIafde",
+  "name": "Cop Stache",
+  "type": "hairstyle",
+  "_id": "ujshQbRTcOfijkt1",
+  "img": "systems/neon-lords/assets/hairstyles/copstache.png",
+  "system": {
+    "description": "<p>You have the right to remain awesome. This bad boy doubles the round capacity on any firearm, but adds +2 more to your Sleaze.</p>"
+  },
+  "effects": [],
+  "sort": 1000000,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.4",
+    "createdTime": 1742392056042,
+    "modifiedTime": 1742395842099,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!ujshQbRTcOfijkt1"
+}

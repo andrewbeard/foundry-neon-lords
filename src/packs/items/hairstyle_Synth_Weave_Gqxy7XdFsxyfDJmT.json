@@ -1,0 +1,28 @@
+{
+  "folder": "t09UaTrMVwyIafde",
+  "name": "Synth-Weave",
+  "type": "hairstyle",
+  "_id": "Gqxy7XdFsxyfDJmT",
+  "img": "systems/neon-lords/assets/hairstyles/synthweave.png",
+  "system": {
+    "description": "<p>Bald on one side hair flopped over the eye on the other side. Some issues with depth perception, but gives you SURGE when rolling a Brains check dealing with your homeworld’s tech.</p>"
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.4",
+    "createdTime": 1742391967264,
+    "modifiedTime": 1742395638458,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!Gqxy7XdFsxyfDJmT"
+}

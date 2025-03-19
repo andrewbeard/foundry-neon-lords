@@ -1,0 +1,28 @@
+{
+  "folder": "t09UaTrMVwyIafde",
+  "name": "Huckleberry",
+  "type": "hairstyle",
+  "_id": "77EymwPYKdIea2ll",
+  "img": "systems/neon-lords/assets/hairstyles/huckleberry.png",
+  "system": {
+    "description": "<p>Stylish handlebar mustache complete with a small triangle goatee. Gains the ability to reload as a Bonus action.</p>"
+  },
+  "effects": [],
+  "sort": 950000,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.4",
+    "createdTime": 1742392047731,
+    "modifiedTime": 1742395821634,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!77EymwPYKdIea2ll"
+}

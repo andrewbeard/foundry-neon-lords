@@ -1,0 +1,22 @@
+{
+  "name": "Hairstyles",
+  "sorting": "m",
+  "folder": null,
+  "type": "Item",
+  "_id": "t09UaTrMVwyIafde",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.4",
+    "createdTime": 1742391891355,
+    "modifiedTime": 1742391899568,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!folders!t09UaTrMVwyIafde"
+}

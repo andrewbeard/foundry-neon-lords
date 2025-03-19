@@ -1,0 +1,28 @@
+{
+  "folder": "t09UaTrMVwyIafde",
+  "name": "Mountain Man",
+  "type": "hairstyle",
+  "_id": "oB5OeeHjl1t6NO1G",
+  "img": "systems/neon-lords/assets/hairstyles/mountainman.png",
+  "system": {
+    "description": "<p>Can hide a small object in the beard, but is always dirty and full of crumbs, gaining a +2 to Sleaze. You look like a Hobo.</p>"
+  },
+  "effects": [],
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.4",
+    "createdTime": 1742392016760,
+    "modifiedTime": 1742395761903,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!oB5OeeHjl1t6NO1G"
+}

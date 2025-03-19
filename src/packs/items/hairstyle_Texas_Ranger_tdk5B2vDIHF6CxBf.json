@@ -1,0 +1,28 @@
+{
+  "folder": "t09UaTrMVwyIafde",
+  "name": "Texas Ranger",
+  "type": "hairstyle",
+  "_id": "tdk5B2vDIHF6CxBf",
+  "img": "systems/neon-lords/assets/hairstyles/texasranger.png",
+  "system": {
+    "description": "<p>With this beastly beard you fear no mutant. In fact, you relish in the idea of kicking them square in the chest. The T.R. grants you the Round House attack (1D4 push damage, 5ft) Also, once a day you can spout off a cheesy T.R.-inspired line to round house kick as a bonus action.</p>"
+  },
+  "effects": [],
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.4",
+    "createdTime": 1742392037251,
+    "modifiedTime": 1742395803445,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!tdk5B2vDIHF6CxBf"
+}

@@ -1,0 +1,28 @@
+{
+  "folder": "t09UaTrMVwyIafde",
+  "name": "Motley-Doo",
+  "type": "hairstyle",
+  "_id": "KSEiHIZNjlAt6IX2",
+  "img": "systems/neon-lords/assets/hairstyles/motleydoo.png",
+  "system": {
+    "description": "<p>Big Hair, bigger Attitude. Fashioned after the classical bands of the neon wars, it lets you gain a +2 to Attitude.</p>"
+  },
+  "effects": [],
+  "sort": 350000,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.4",
+    "createdTime": 1742391979020,
+    "modifiedTime": 1742395658221,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!KSEiHIZNjlAt6IX2"
+}

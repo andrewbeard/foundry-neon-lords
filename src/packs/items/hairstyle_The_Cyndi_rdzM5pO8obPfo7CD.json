@@ -1,0 +1,28 @@
+{
+  "folder": "t09UaTrMVwyIafde",
+  "name": "The Cyndi",
+  "type": "hairstyle",
+  "_id": "rdzM5pO8obPfo7CD",
+  "img": "systems/neon-lords/assets/hairstyles/cyndi.png",
+  "system": {
+    "description": "<p>This neon-colored “messy” mohawk grants all the abilities of the regular mohawk but adds an additional +2 to Attitude.</p>"
+  },
+  "effects": [],
+  "sort": 375000,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.4",
+    "createdTime": 1742391995580,
+    "modifiedTime": 1742395723727,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!rdzM5pO8obPfo7CD"
+}

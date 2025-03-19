@@ -1,0 +1,28 @@
+{
+  "folder": "t09UaTrMVwyIafde",
+  "name": "Pompadour",
+  "type": "hairstyle",
+  "_id": "JrKygXVwjLOjAV2O",
+  "img": "systems/neon-lords/assets/hairstyles/pompadour.png",
+  "system": {
+    "description": "<p>+2 Attitude, can use hair to find true north.</p>"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.4",
+    "createdTime": 1742391954511,
+    "modifiedTime": 1742395609495,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!JrKygXVwjLOjAV2O"
+}

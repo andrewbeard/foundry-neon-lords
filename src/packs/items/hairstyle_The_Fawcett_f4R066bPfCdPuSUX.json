@@ -1,0 +1,28 @@
+{
+  "folder": "t09UaTrMVwyIafde",
+  "name": "The Fawcett",
+  "type": "hairstyle",
+  "_id": "f4R066bPfCdPuSUX",
+  "img": "systems/neon-lords/assets/hairstyles/fawcett.png",
+  "system": {
+    "description": "<p>This anti-gravity hairstyle defies science and is a spectacle to behold, granting you +3 to Attitude and a 60% chance to barter down shop prices.</p>"
+  },
+  "effects": [],
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.4",
+    "createdTime": 1742392027352,
+    "modifiedTime": 1742395780947,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!f4R066bPfCdPuSUX"
+}
