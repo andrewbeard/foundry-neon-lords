@@ -1,0 +1,209 @@
+{
+  "name": "Fear",
+  "_id": "491tj4A15EvuxWX9",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "3hMRypZsOeK4GKQS",
+      "text": "You laugh off the feeble attempt to scare you. Regaining 1 Fortune Point in the process",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!491tj4A15EvuxWX9.3hMRypZsOeK4GKQS"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "57COfySqUgaPDf28",
+      "text": "You are shaken but still in the fight. If another frightened roll is needed add a +4 to the roll.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!491tj4A15EvuxWX9.57COfySqUgaPDf28"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "rbkrlRSAGxrn5i0X",
+      "text": "Fight or flight, but no one told your legs. You cannot move until your next turn.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!491tj4A15EvuxWX9.rbkrlRSAGxrn5i0X"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "jCQsJRuZDVIN5qCA",
+      "text": "You back away from what’s causing the fear up to 120ft.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!491tj4A15EvuxWX9.jCQsJRuZDVIN5qCA"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false,
+      "_id": "tI2D5jCB8BFK80Hw",
+      "text": "Catatonic shock sets in. Spend the remainder of your next turn taking no actions. Just standing, staring, and drooling.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!491tj4A15EvuxWX9.tI2D5jCB8BFK80Hw"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "_id": "l0AxjBdluH6FjUIE",
+      "text": "Bowels erupt prematurely, making you the butt of everyone’s jokes for the next 1D6 days. Take a -1 penalty to your Attitude S.T.A.T.S. and lose 2 Fortune Points.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!491tj4A15EvuxWX9.l0AxjBdluH6FjUIE"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        10
+      ],
+      "drawn": false,
+      "_id": "slF2PUmkVWesl3CP",
+      "text": "The fear is so intense it causes you to instantly vomit bright green pea soup. Spend the next 1D4 turns taking no action but to puke.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!491tj4A15EvuxWX9.slF2PUmkVWesl3CP"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        14
+      ],
+      "drawn": false,
+      "_id": "JSa44BNT9j8RnJ5z",
+      "text": "Flee you fools - time to GTFO. You flee the room as fast as possible (straight line to the nearest door/exit) taking attacks from enemies you come within 5ft of.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!491tj4A15EvuxWX9.JSa44BNT9j8RnJ5z"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        15,
+        17
+      ],
+      "drawn": false,
+      "_id": "ZZNkj9dysckauuzF",
+      "text": "The source of your fright causes you to skip your next 1D6 turns as you become more paralyzed by fear. Gazing at the unknown also gains you 1 Madness point.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!491tj4A15EvuxWX9.ZZNkj9dysckauuzF"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "_id": "0fAjsv1XJ7vLszqF",
+      "text": "Self flagellation. Dealing normal damage to yourself the pain snaps you out of the fear, but you gain 2 Madness points.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!491tj4A15EvuxWX9.0fAjsv1XJ7vLszqF"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "_id": "EVup3uTaN8jORCo9",
+      "text": "The fear drives you to attack the enemies of the thing that is causing you the scare. On a failed Resolve Saving Throw you attack your allies. In addition to the saving throw you gain 3 Madness Points.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!491tj4A15EvuxWX9.EVup3uTaN8jORCo9"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        20,
+        30
+      ],
+      "drawn": false,
+      "_id": "bglJbtk0nurEx5d1",
+      "text": "The horror you witness can no longer be. You gouge your eyes from your sockets, permanently blinding yourself. Gain 2d6 Madness points.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!491tj4A15EvuxWX9.bglJbtk0nurEx5d1"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.4",
+    "createdTime": 1742408126699,
+    "modifiedTime": 1742408553638,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "formula": "1d20",
+  "_key": "!tables!491tj4A15EvuxWX9"
+}

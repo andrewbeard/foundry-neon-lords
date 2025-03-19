@@ -1,0 +1,135 @@
+{
+  "name": "Bad Trip",
+  "_id": "CB8GTZFkVzVbRpKs",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "01m7wcrXx4HPqvPY",
+      "text": "Roll on the Fear Table against a random target.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!CB8GTZFkVzVbRpKs.01m7wcrXx4HPqvPY"
+    },
+    {
+      "type": "pack",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "Ca65lDtnmREyAfjL",
+      "text": "",
+      "img": null,
+      "documentId": null,
+      "flags": {},
+      "documentCollection": "neon-lords.tables",
+      "_key": "!tables.results!CB8GTZFkVzVbRpKs.Ca65lDtnmREyAfjL"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "8qb3qaWTbyR8BfJm",
+      "text": "Attack a random Ally who the skumdog thinks is a mutant.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!CB8GTZFkVzVbRpKs.8qb3qaWTbyR8BfJm"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "Gkdxxm0c4tRz2P4e",
+      "text": "Everything looks like melted ice cream. All rolls get a -3 penalty. This effect lasts until the drug wears off.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!CB8GTZFkVzVbRpKs.Gkdxxm0c4tRz2P4e"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "9DcHokLYRdIrULGZ",
+      "text": "You gain one Paranoia condition.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!CB8GTZFkVzVbRpKs.9DcHokLYRdIrULGZ"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "MGJlqrooc9bXxzD6",
+      "text": "You are a sentient glass of orange juice, don’t spill. This effect lasts until the drug wears off. If this is your second time rolling on the OJ glass, you never snap out of it.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!CB8GTZFkVzVbRpKs.MGJlqrooc9bXxzD6"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "P2cLYmS59q0fcJrA",
+      "text": "You think you transform into a creep that must be slayed. Deal normal damage to yourself every turn until the drug wears off.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!CB8GTZFkVzVbRpKs.P2cLYmS59q0fcJrA"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.4",
+    "createdTime": 1742407869774,
+    "modifiedTime": 1742408089133,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "formula": "1D6",
+  "_key": "!tables!CB8GTZFkVzVbRpKs"
+}
