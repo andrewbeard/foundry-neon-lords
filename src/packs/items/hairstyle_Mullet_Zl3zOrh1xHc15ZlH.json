@@ -3,7 +3,7 @@
   "name": "Mullet",
   "type": "hairstyle",
   "_id": "Zl3zOrh1xHc15ZlH",
-  "img": "systems/neon-lords/assets/hairstyles/mullet.png",
+  "img": "systems/neon-lords/assets/hairstyles/mullet.webp",
   "system": {
     "description": "<p>Gains an additional +1 to Attitude. Naming your mullet and talking about it grants an additional +1 to Attitude.</p>"
   },

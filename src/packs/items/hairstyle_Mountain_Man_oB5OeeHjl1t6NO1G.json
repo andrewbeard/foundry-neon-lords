@@ -3,7 +3,7 @@
   "name": "Mountain Man",
   "type": "hairstyle",
   "_id": "oB5OeeHjl1t6NO1G",
-  "img": "systems/neon-lords/assets/hairstyles/mountainman.png",
+  "img": "systems/neon-lords/assets/hairstyles/mountainman.webp",
   "system": {
     "description": "<p>Can hide a small object in the beard, but is always dirty and full of crumbs, gaining a +2 to Sleaze. You look like a Hobo.</p>"
   },

@@ -3,7 +3,7 @@
   "name": "Mohawk",
   "type": "hairstyle",
   "_id": "KGwMxXivFGQVNA2M",
-  "img": "systems/neon-lords/assets/hairstyles/mohawk.png",
+  "img": "systems/neon-lords/assets/hairstyles/mohawk.webp",
   "system": {
     "description": "<p>Strikes fear into the hearts of the weak. When no helmet or headgear is worn, it gains you an additional +1 to hit, but enemies crit on you on a 19 or 20.</p>"
   },
