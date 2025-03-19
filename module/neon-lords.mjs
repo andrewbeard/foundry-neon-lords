@@ -98,6 +98,30 @@ Handlebars.registerHelper('isChecked', function (value) {
 });
 
 /* -------------------------------------------- */
+/*  Item Hooks                                  */
+/* -------------------------------------------- */
+
+Hooks.on("preCreateItem", (item, data, options, userId) => {
+    // Only process if this is a hairstyle item
+    if (item.type !== "hairstyle") return true;
+  
+    // Check if this is being added to an actor
+    const actor = item.parent;
+    if (!actor) return true;
+  
+    // Find existing hairstyle items
+    const existingHairstyle = actor.items.find(i => i.type === "hairstyle");
+    
+    if (existingHairstyle) {
+      // Delete the existing hairstyle before adding the new one
+      actor.deleteEmbeddedDocuments("Item", [existingHairstyle.id]);
+      ui.notifications.info(`Replaced hairstyle ${existingHairstyle.name} with ${item.name}`);
+    }
+  
+    return true;
+  });
+
+/* -------------------------------------------- */
 /*  Ready Hook                                  */
 /* -------------------------------------------- */
 

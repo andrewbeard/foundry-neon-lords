@@ -118,6 +118,7 @@ export class NeonLordsActorSheet extends ActorSheet {
       8: [],
       9: [],
     };
+    let hairstyle;
 
     // Iterate through items, allocating to containers
     for (let i of context.items) {
@@ -126,7 +127,6 @@ export class NeonLordsActorSheet extends ActorSheet {
       if (i.type === 'item') {
         gear.push(i);
       }
-      // Append to features.
       else if (i.type === 'feature') {
         features.push(i);
       }
@@ -135,6 +135,9 @@ export class NeonLordsActorSheet extends ActorSheet {
       }
       else if (i.type === 'mutation') {
         mutations.push(i);
+      }
+      else if (i.type === 'hairstyle') {
+        hairstyle = i;
       }
       // Append to spells.
       else if (i.type === 'spell') {
@@ -148,6 +151,7 @@ export class NeonLordsActorSheet extends ActorSheet {
     context.attacks = attacks;
     context.features = features;
     context.gear = gear;
+    context.hairstyle = hairstyle;
     context.mutations = mutations;
     context.spells = spells;
   }

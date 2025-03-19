@@ -33,9 +33,17 @@
         </div>
 
         <div class="resource flex-group-center">
-          <label for="system.hairstyle" class="resource-label">Hairstyle</label>
+          <label for="hairstyle.name" class="resource-label">Hairstyle</label>
           <div class="resource-content flexrow flex-center flex-between">
-            <input type="text" name="system.hairstyle" value="{{system.hairstyle}}" data-dtype="String"/>
+            <li class="item flexrow" data-item-id="{{hairstyle._id}}">
+              <div class="item-name">
+                {{#if hairstyle}}
+                  <div class="rollable item-edit">{{hairstyle.name}}</div>
+                {{else}}
+                  None
+                {{/if}}
+              </div>
+            </li>
           </div>
         </div>
 
