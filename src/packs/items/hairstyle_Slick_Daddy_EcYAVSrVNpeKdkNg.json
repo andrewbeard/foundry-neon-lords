@@ -1,0 +1,28 @@
+{
+  "folder": "t09UaTrMVwyIafde",
+  "name": "Slick Daddy",
+  "type": "hairstyle",
+  "_id": "EcYAVSrVNpeKdkNg",
+  "img": "systems/neon-lords/assets/hairstyles/slickdaddy.png",
+  "system": {
+    "description": "<p>Hair so greasy and slicked back, 80’s Wall Street is calling. All items for sale have a 20% discount, but it adds +5 to your Sleaze. Them cheap prices come at a cost.</p>"
+  },
+  "effects": [],
+  "sort": 1268750,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.4",
+    "createdTime": 1742396167456,
+    "modifiedTime": 1742400368752,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!EcYAVSrVNpeKdkNg"
+}

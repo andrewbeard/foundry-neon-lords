@@ -1,0 +1,28 @@
+{
+  "folder": "t09UaTrMVwyIafde",
+  "name": "Skull",
+  "type": "hairstyle",
+  "_id": "kjgQ8hsNkAEKL5zn",
+  "img": "systems/neon-lords/assets/hairstyles/skull.png",
+  "system": {
+    "description": "<p>Clean off, hair is a disease. At the end of every long rest you lose 1D4 Sleaze Points.</p>"
+  },
+  "effects": [],
+  "sort": 1200000,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.4",
+    "createdTime": 1742396045550,
+    "modifiedTime": 1742400289531,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!kjgQ8hsNkAEKL5zn"
+}

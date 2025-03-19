@@ -1,0 +1,28 @@
+{
+  "folder": "t09UaTrMVwyIafde",
+  "name": "Glorious Mane",
+  "type": "hairstyle",
+  "_id": "AOmJoCiVfRyOwl8D",
+  "img": "systems/neon-lords/assets/hairstyles/gloriousmane.png",
+  "system": {
+    "description": "<p>Long, epic hair flowing like hot lava down your back. Adds +2 to your starting Class Points score, but if not of equestrian descent, the Mane cannot be tamed and deals 1 damage to you every time you make an attack.</p>"
+  },
+  "effects": [],
+  "sort": 1267188,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.4",
+    "createdTime": 1742396158359,
+    "modifiedTime": 1742400361253,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!AOmJoCiVfRyOwl8D"
+}

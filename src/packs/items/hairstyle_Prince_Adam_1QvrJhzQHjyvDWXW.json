@@ -1,0 +1,28 @@
+{
+  "folder": "t09UaTrMVwyIafde",
+  "name": "Prince Adam",
+  "type": "hairstyle",
+  "_id": "1QvrJhzQHjyvDWXW",
+  "img": "systems/neon-lords/assets/hairstyles/princeadam.png",
+  "system": {
+    "description": "<p>The style thought to be worn by nobility. A hybrid mullet bowl cut. Gain an additional 1D4 Hit Points when rolling for each level. If you change your style, you lose this ability. (Keeping all previously gained HP.)</p>"
+  },
+  "effects": [],
+  "sort": 1262500,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.4",
+    "createdTime": 1742396131274,
+    "modifiedTime": 1742400345135,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!1QvrJhzQHjyvDWXW"
+}

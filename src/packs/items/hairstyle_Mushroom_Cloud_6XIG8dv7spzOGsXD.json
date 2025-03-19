@@ -1,0 +1,28 @@
+{
+  "folder": "t09UaTrMVwyIafde",
+  "name": "Mushroom Cloud",
+  "type": "hairstyle",
+  "_id": "6XIG8dv7spzOGsXD",
+  "img": "systems/neon-lords/assets/hairstyles/mushroomcloud.png",
+  "system": {
+    "description": "<p>Looks as if someone placed a bowl over your head and cut. The preferred hairstyle of a recent cult. Adds +3 to Sleaze and a lackey from the cult.</p>"
+  },
+  "effects": [],
+  "sort": 1218750,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.4",
+    "createdTime": 1742396084854,
+    "modifiedTime": 1742400308006,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!6XIG8dv7spzOGsXD"
+}

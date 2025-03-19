@@ -1,0 +1,28 @@
+{
+  "folder": "t09UaTrMVwyIafde",
+  "name": "The Politician",
+  "type": "hairstyle",
+  "_id": "Azow4fORpH5boPLn",
+  "img": "systems/neon-lords/assets/hairstyles/politican.png",
+  "system": {
+    "description": "<p>Perfect down to the last hair. Everything in place and camera-ready. It almost looks synthetic. Adds +2 to all reaction rolls.</p>"
+  },
+  "effects": [],
+  "sort": 1265625,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.4",
+    "createdTime": 1742396144792,
+    "modifiedTime": 1742400353981,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!Azow4fORpH5boPLn"
+}

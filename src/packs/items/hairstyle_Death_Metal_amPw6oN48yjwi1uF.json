@@ -1,0 +1,28 @@
+{
+  "folder": "t09UaTrMVwyIafde",
+  "name": "Death Metal",
+  "type": "hairstyle",
+  "_id": "amPw6oN48yjwi1uF",
+  "img": "systems/neon-lords/assets/hairstyles/deathmetal.png",
+  "system": {
+    "description": "<p>Long and shaggy, hiding one’s face from the cruel, ugly world. When rolling a spell pool for the day you gain an additional dice. Also, it gains you +2 to Sleaze.</p>"
+  },
+  "effects": [],
+  "sort": 1223438,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.4",
+    "createdTime": 1742396110878,
+    "modifiedTime": 1742400320511,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!amPw6oN48yjwi1uF"
+}

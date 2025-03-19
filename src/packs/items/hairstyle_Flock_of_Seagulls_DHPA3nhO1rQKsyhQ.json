@@ -1,0 +1,28 @@
+{
+  "folder": "t09UaTrMVwyIafde",
+  "name": "Flock of Seagulls",
+  "type": "hairstyle",
+  "_id": "DHPA3nhO1rQKsyhQ",
+  "img": "systems/neon-lords/assets/hairstyles/flockofseagulls.png",
+  "system": {
+    "description": "<p>Like a winged creature atop your head. Lets you add or subtract 1 on the drug effects table.</p>"
+  },
+  "effects": [],
+  "sort": 1221875,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.4",
+    "createdTime": 1742396100253,
+    "modifiedTime": 1742400314344,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!DHPA3nhO1rQKsyhQ"
+}

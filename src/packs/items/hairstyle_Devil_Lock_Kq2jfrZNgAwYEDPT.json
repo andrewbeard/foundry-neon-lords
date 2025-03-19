@@ -1,0 +1,28 @@
+{
+  "folder": "t09UaTrMVwyIafde",
+  "name": "Devil Lock",
+  "type": "hairstyle",
+  "_id": "Kq2jfrZNgAwYEDPT",
+  "img": "systems/neon-lords/assets/hairstyles/devillock.png",
+  "system": {
+    "description": "<p>The reverse mullet. Adds +1 when rolling for Class Points at every long rest, including skumdog creation.</p>"
+  },
+  "effects": [],
+  "sort": 1300000,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.4",
+    "createdTime": 1742396176075,
+    "modifiedTime": 1742400376046,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!Kq2jfrZNgAwYEDPT"
+}
