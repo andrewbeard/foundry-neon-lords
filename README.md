@@ -18,4 +18,4 @@ These are also implemented as Items. You can find all of them in the Items compe
 
 ## Fear
 
-The Fear table in Neon Lords is a little more complex than the other tables, as the die you use to roll on it is dependent on your level. There's no way to do that directly in a Rollable Table, so the system includes a macro (creatively named "Roll Fear") that will take the currently selected character's level (or hit dice) into account and roll the correct die size. You can roll on the table directly, but it will always use 1D20 unless you manually change it (which is no fun).
+The Fear table in Neon Lords is a little more complex than the other tables, as the die you use to roll on it is dependent on your level. There's no way to do that directly in a Rollable Table, so the system includes a macro (creatively named "Fear Roll") that will take the currently selected character's level (or hit dice) into account and roll the correct die size. You can roll on the table directly, but it will always use 1D20 unless you manually change it (which is no fun).
