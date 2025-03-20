@@ -20,6 +20,8 @@ jobs:
         run: npm run pullJSONtoLDB --if-present
       - name: Create zip archive
         run: git archive --format=zip --prefix=neon-lords/ -o neon-lords.zip ${{ github.ref }}
+      - name: Remove unused src files
+        run: zip -d neon-lords.zip "neon-lords/src/packs/*"
       - name: Add pack files to zip
         run: |
           mkdir neon-lords
