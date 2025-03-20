@@ -178,7 +178,7 @@
       ],
       "drawn": false,
       "_id": "bglJbtk0nurEx5d1",
-      "text": "The horror you witness can no longer be. You gouge your eyes from your sockets, permanently blinding yourself. Gain 2d6 Madness points.",
+      "text": "The horror you witness can no longer be. You gouge your eyes from your sockets, permanently blinding yourself. Gain [[2d6]] Madness points.",
       "img": "icons/svg/d20-black.svg",
       "documentId": null,
       "flags": {},
@@ -201,9 +201,9 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.4",
     "createdTime": 1742408126699,
-    "modifiedTime": 1742408553638,
-    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+    "modifiedTime": 1742435854919,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
-  "formula": "1d20",
+  "formula": "1D20",
   "_key": "!tables!491tj4A15EvuxWX9"
 }
