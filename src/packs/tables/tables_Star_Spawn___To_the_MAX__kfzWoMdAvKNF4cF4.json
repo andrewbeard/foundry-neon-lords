@@ -1,8 +1,8 @@
 {
   "folder": "6x26CQk5Eov1g1fc",
   "name": "Star Spawn - To the MAX!",
-  "img": "icons/svg/d20-black.svg",
-  "description": "Critical Hit Table for the Star Spawn",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Critical Hit Table for the Star Spawn</p>",
   "results": [
     {
       "type": "text",
@@ -11,7 +11,7 @@
         1,
         1
       ],
-      "img": null,
+      "img": "icons/svg/d20-black.svg",
       "_id": "r72zGOiCebtuBKoP",
       "documentId": null,
       "weight": 1,
@@ -26,7 +26,7 @@
         2,
         2
       ],
-      "img": null,
+      "img": "icons/svg/d20-black.svg",
       "_id": "LCvT1KWOxYJa180D",
       "documentId": null,
       "weight": 1,
@@ -41,7 +41,7 @@
         3,
         3
       ],
-      "img": null,
+      "img": "icons/svg/d20-black.svg",
       "_id": "JRbGgLCVeYJ8ZJNK",
       "documentId": null,
       "weight": 1,
@@ -56,7 +56,7 @@
         4,
         4
       ],
-      "img": null,
+      "img": "icons/svg/d20-black.svg",
       "_id": "dRzGsStf0qKBELiq",
       "documentId": null,
       "weight": 1,
@@ -71,7 +71,7 @@
         5,
         5
       ],
-      "img": null,
+      "img": "icons/svg/d20-black.svg",
       "_id": "wswTXKRrNlLn6Ls6",
       "documentId": null,
       "weight": 1,
@@ -86,7 +86,7 @@
         6,
         6
       ],
-      "img": null,
+      "img": "icons/svg/d20-black.svg",
       "_id": "bOYI2KaAo0rl6qpo",
       "documentId": null,
       "weight": 1,
@@ -101,7 +101,7 @@
         7,
         7
       ],
-      "img": null,
+      "img": "icons/svg/d20-black.svg",
       "_id": "dFNAKdctMRcE5gWF",
       "documentId": null,
       "weight": 1,
@@ -116,7 +116,7 @@
         8,
         8
       ],
-      "img": null,
+      "img": "icons/svg/d20-black.svg",
       "_id": "aXcHNO6LWtgcZn93",
       "documentId": null,
       "weight": 1,
@@ -131,7 +131,7 @@
         9,
         9
       ],
-      "img": null,
+      "img": "icons/svg/d20-black.svg",
       "_id": "2mf2AB700Psu2dr9",
       "documentId": null,
       "weight": 1,
@@ -146,7 +146,7 @@
         10,
         10
       ],
-      "img": null,
+      "img": "icons/svg/d20-black.svg",
       "_id": "ip14uhW2toSthPXF",
       "documentId": null,
       "weight": 1,
@@ -161,7 +161,7 @@
         11,
         11
       ],
-      "img": null,
+      "img": "icons/svg/d20-black.svg",
       "_id": "URaUnZzoAe8dc8If",
       "documentId": null,
       "weight": 1,
@@ -176,7 +176,7 @@
         12,
         12
       ],
-      "img": null,
+      "img": "icons/svg/d20-black.svg",
       "_id": "ZA4UcgQ1QpwRz43F",
       "documentId": null,
       "weight": 1,
@@ -191,7 +191,7 @@
         13,
         13
       ],
-      "img": null,
+      "img": "icons/svg/d20-black.svg",
       "_id": "fjXE7YpZGftMKrm8",
       "documentId": null,
       "weight": 1,
@@ -206,7 +206,7 @@
         14,
         14
       ],
-      "img": null,
+      "img": "icons/svg/d20-black.svg",
       "_id": "b4BxdvV1Q4nJwwar",
       "documentId": null,
       "weight": 1,
@@ -221,7 +221,7 @@
         15,
         15
       ],
-      "img": null,
+      "img": "icons/svg/d20-black.svg",
       "_id": "7vOargmde9Ts0ktI",
       "documentId": null,
       "weight": 1,
@@ -236,7 +236,7 @@
         16,
         16
       ],
-      "img": null,
+      "img": "icons/svg/d20-black.svg",
       "_id": "IyJfmIIVM2GbOTiM",
       "documentId": null,
       "weight": 1,
@@ -251,7 +251,7 @@
         17,
         17
       ],
-      "img": null,
+      "img": "icons/svg/d20-black.svg",
       "_id": "FIPcE9uiuzs5l6PH",
       "documentId": null,
       "weight": 1,
@@ -266,7 +266,7 @@
         18,
         18
       ],
-      "img": null,
+      "img": "icons/svg/d20-black.svg",
       "_id": "egnSOcr4qBocvZS4",
       "documentId": null,
       "weight": 1,
@@ -281,7 +281,7 @@
         19,
         19
       ],
-      "img": null,
+      "img": "icons/svg/d20-black.svg",
       "_id": "bhT1EAShfTaMvP1H",
       "documentId": null,
       "weight": 1,
@@ -296,7 +296,7 @@
         20,
         20
       ],
-      "img": null,
+      "img": "icons/svg/d20-black.svg",
       "_id": "N3vpkhTmRZhr5maZ",
       "documentId": null,
       "weight": 1,
@@ -315,7 +315,7 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742155927675,
-    "modifiedTime": 1742156307396,
+    "modifiedTime": 1742433603241,
     "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
   "formula": "1d20",

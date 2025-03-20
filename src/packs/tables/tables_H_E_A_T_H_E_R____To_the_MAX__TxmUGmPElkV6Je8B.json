@@ -1,7 +1,7 @@
 {
   "folder": "6x26CQk5Eov1g1fc",
   "name": "H.E.A.T.H.E.R. - To the MAX!",
-  "img": "icons/svg/d20-black.svg",
+  "img": "icons/svg/d20-grey.svg",
   "description": "",
   "results": [
     {
@@ -315,7 +315,7 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742156292354,
-    "modifiedTime": 1742156307396,
+    "modifiedTime": 1742433522648,
     "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
   "formula": "1d20",
