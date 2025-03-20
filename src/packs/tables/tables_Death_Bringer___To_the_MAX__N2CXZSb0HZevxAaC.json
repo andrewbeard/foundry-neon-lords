@@ -6,7 +6,7 @@
   "results": [
     {
       "type": "text",
-      "text": "Your enemy’s weapon is turned to dust with this mighty blow. If the foe has no weapon, inflict an additional 1D6 damage instead.",
+      "text": "Your enemy's weapon is turned to dust with this mighty blow. If the foe has no weapon, inflict an additional 6 damage instead.",
       "range": [
         0,
         1
@@ -21,7 +21,7 @@
     },
     {
       "type": "text",
-      "text": "Gargantuan attack deals an additional 2D6 damage.",
+      "text": "Gargantuan attack deals an additional [[2D6]] damage.",
       "range": [
         2,
         2
@@ -51,7 +51,7 @@
     },
     {
       "type": "text",
-      "text": "A devastating strike shatters the skull and deals an additional 1D12 damage. Brain ruptures; lose 1D6 Brains.",
+      "text": "A devastating strike shatters the skull and deals an additional [[1D12]] damage. Brain ruptures; lose [[1D6]] Brains.",
       "range": [
         4,
         4
@@ -66,7 +66,7 @@
     },
     {
       "type": "text",
-      "text": "Savage strike that would make Lord Randy proud! Deal normal damage, but foe suffers a -4 penalty to attack rolls for 1D4 turns.",
+      "text": "Savage strike that would make Lord Randy proud! Deal normal damage, but foe suffers a -4 penalty to attack rolls for [[1D4]] turns.",
       "range": [
         5,
         5
@@ -96,7 +96,7 @@
     },
     {
       "type": "text",
-      "text": "An immaculate uppercut sends your foe to the ground, leaving them Prone. Deal normal damage plus an additional 1D4. Enemy must make an Agility Save to get up on their next turn.",
+      "text": "An immaculate uppercut sends your foe to the ground, leaving them Prone. Deal normal damage plus an additional [[1D4]]. Enemy must make an Agility Save to get up on their next turn.",
       "range": [
         7,
         7
@@ -126,7 +126,7 @@
     },
     {
       "type": "text",
-      "text": "Slash to the face splits open the wretched fiend from ear to ear, spilling blood down their neck and dealing an additional 2D6 damage.",
+      "text": "Slash to the face splits open the wretched fiend from ear to ear, spilling blood down their neck and dealing an additional [[2D6]] damage.",
       "range": [
         9,
         9
@@ -141,7 +141,7 @@
     },
     {
       "type": "text",
-      "text": "Your mighty blow hits as intended. As you clash with your adversary, you seize an opportunity and gouge out their eye. Deal an additional 1D6 damage as you leave your foe screaming in pain.",
+      "text": "Your mighty blow hits as intended. As you clash with your adversary, you seize an opportunity and gouge out their eye. Deal an additional [[1D6]] damage as you leave your foe screaming in pain.",
       "range": [
         10,
         10
@@ -156,7 +156,7 @@
     },
     {
       "type": "text",
-      "text": "Blow to the head leaves the creep seeing stars. You deal normal damage and the fiend becomes Dazed for the next 1D4 turns.",
+      "text": "Blow to the head leaves the creep seeing stars. You deal normal damage and the fiend becomes Dazed for the next [[1D4]] turns.",
       "range": [
         10,
         11
@@ -171,7 +171,7 @@
     },
     {
       "type": "text",
-      "text": "Ancient forefathers call forth your name from the cosmos. Millions of years and galaxy-spanning battles unfold in your mind’s eye in a brief moment that feels like an eternity. Using the knowledge gained from this glimpse into the past, you gain the ability to spend Brains Ability Points to deal more damage to your foes. For every Brains Point spent, add an additional 1D12 damage to this Attack.",
+      "text": "Ancient forefathers call forth your name from the cosmos. Millions of years and galaxy-spanning battles unfold in your mind's eye in a brief moment that feels like an eternity. Using the knowledge gained from this glimpse into the past, you gain the ability to spend Brains Ability Points to deal more damage to your foes. For every Brains Point spent, add an additional 1D12 damage to this Attack.",
       "range": [
         12,
         12
@@ -186,7 +186,7 @@
     },
     {
       "type": "text",
-      "text": "Attack shatters ribcage. Broken ribs puncture lungs and vital organs, dealing an additional 2D8 damage and causing the foe to vomit blood and bile.",
+      "text": "Attack shatters ribcage. Broken ribs puncture lungs and vital organs, dealing an additional [[2D8]] damage and causing the foe to vomit blood and bile.",
       "range": [
         13,
         13
@@ -201,7 +201,7 @@
     },
     {
       "type": "text",
-      "text": "Swift swing of your weapon makes quick work of the foe’s exposed throat, opening it wide and spraying blood everywhere as the foe emits a death rattle and takes an additional 2D12 damage.",
+      "text": "Swift swing of your weapon makes quick work of the foe's exposed throat, opening it wide and spraying blood everywhere as the foe emits a death rattle and takes an additional [[2D12]] damage.",
       "range": [
         14,
         14
@@ -216,7 +216,7 @@
     },
     {
       "type": "text",
-      "text": "Strike leaves your foe FUBAR, dealing an additional 3D12 damage. If the opponent survives this attack, they talk with a stutter, permanently.",
+      "text": "Strike leaves your foe FUBAR, dealing an additional [[3D12]] damage. If the opponent survives this attack, they talk with a stutter, permanently.",
       "range": [
         15,
         15
@@ -231,7 +231,7 @@
     },
     {
       "type": "text",
-      "text": "Clean strike severs your foe’s spinal cord, dropping them to the ground paralyzed. You grab the exposed spinal cord, pull it out, and hold it over your head. Each enemy that can see the carnage must make a Resolve Saving Throw or roll on the Fear Table. Add the spinal cord trophy to your equipment.",
+      "text": "Clean strike severs your foe's spinal cord, dropping them to the ground paralyzed. You grab the exposed spinal cord, pull it out, and hold it over your head. Each enemy that can see the carnage must make a Resolve Saving Throw or roll on the Fear Table. Add the spinal cord trophy to your equipment.",
       "range": [
         16,
         16
@@ -246,7 +246,7 @@
     },
     {
       "type": "text",
-      "text": "You slide your weapon deep into the innards of your enemy, spilling their intestines all over the ground and dealing an additional 4D12 damage in the process.",
+      "text": "You slide your weapon deep into the innards of your enemy, spilling their intestines all over the ground and dealing an additional [[4D12]] damage in the process.",
       "range": [
         17,
         17
@@ -261,7 +261,7 @@
     },
     {
       "type": "text",
-      "text": "Condemned to death! The Death Bringer underestimates their own strength, crushing their opponent’s head and causing the fiend to make a Death Saving Throw or fall dead.",
+      "text": "Condemned to death! The Death Bringer underestimates their own strength, crushing their opponent's head and causing the fiend to make a Death Saving Throw or fall dead.",
       "range": [
         18,
         18
@@ -291,7 +291,7 @@
     },
     {
       "type": "text",
-      "text": "Lord Randy’s judgment. Your foe grovels at your feet for forgiveness. You look to the heavens and ask WWLRD? The clouds part and Lord Randy himself is revealed standing with arms crossed and looking back at you. With a raised arm and extended thumb down, you know the answer. Looking back at your foe, you put your foot on their feeble shoulder. Spout a cheesy line from a 90’s action movie as you lodge your weapon into their skull, killing them immediately.",
+      "text": "Lord Randy's judgment. Your foe grovels at your feet for forgiveness. You look to the heavens and ask WWLRD? The clouds part and Lord Randy himself is revealed standing with arms crossed and looking back at you. With a raised arm and extended thumb down, you know the answer. Looking back at your foe, you put your foot on their feeble shoulder. Spout a cheesy line from a 90's action movie as you lodge your weapon into their skull, killing them immediately.",
       "range": [
         20,
         20

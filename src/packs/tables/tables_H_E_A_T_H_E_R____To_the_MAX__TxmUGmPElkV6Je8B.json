@@ -6,7 +6,7 @@
   "results": [
     {
       "type": "text",
-      "text": "Picked up a thing or two in the trenches. Heals 1 team mate for 1D6+Brains Mod HP.",
+      "text": "Picked up a thing or two in the trenches. Heals 1 team mate for [[1D6]]+Brains Mod HP.",
       "range": [
         1,
         1
@@ -21,7 +21,7 @@
     },
     {
       "type": "text",
-      "text": "‘Tis only a flesh wound: The attack deals an additional 1D4 damage.",
+      "text": "'Tis only a flesh wound: The attack deals an additional [[1D4]] damage.",
       "range": [
         2,
         2
@@ -36,7 +36,7 @@
     },
     {
       "type": "text",
-      "text": "Pack a Punch! Flechette rounds cause all foes that were hit to gain the Bleeding condition for the next 1D3 rounds.",
+      "text": "Pack a Punch! Flechette rounds cause all foes that were hit to gain the Bleeding condition for the next [[1D3]] rounds.",
       "range": [
         3,
         3
@@ -51,7 +51,7 @@
     },
     {
       "type": "text",
-      "text": "If you can’t accessorize, pulverize! The attack deals some totally lush damage, dealing an additional 1D4 damage.",
+      "text": "If you can't accessorize, pulverize! The attack deals some totally lush damage, dealing an additional [[1D4]] damage.",
       "range": [
         4,
         4
@@ -66,7 +66,7 @@
     },
     {
       "type": "text",
-      "text": "Great. My secret weapon is PMS! Internal rage adds an additional 1D6 damage to the attack! TOTAL RAGER!",
+      "text": "Great. My secret weapon is PMS! Internal rage adds an additional [[1D6]] damage to the attack! TOTAL RAGER!",
       "range": [
         5,
         5
@@ -111,7 +111,7 @@
     },
     {
       "type": "text",
-      "text": "Didn’t even break a nail! (Missile attack) The missile attack goes without a hitch, then you close the gap and stick ‘em with the ole BFK for good measure. Dealing normal BFK damage. (Melee attack) If you are already in melee, you stick ‘em one more time, dealing BFK damage twice.",
+      "text": "Didn't even break a nail! (Missile attack) The missile attack goes without a hitch, then you close the gap and stick 'em with the ole BFK for good measure. Dealing normal BFK damage. (Melee attack) If you are already in melee, you stick 'em one more time, dealing BFK damage twice.",
       "range": [
         8,
         8
@@ -141,7 +141,7 @@
     },
     {
       "type": "text",
-      "text": "The extreme always seems to make an impression. The attack deals an additional 1D6 damage. If the target dies, all THEIR buddies must roll on the Fear table.",
+      "text": "The extreme always seems to make an impression. The attack deals an additional [[1D6]] damage. If the target dies, all THEIR buddies must roll on the Fear table.",
       "range": [
         10,
         10
@@ -156,7 +156,7 @@
     },
     {
       "type": "text",
-      "text": "Girls just wanna have fun! With a sadistic glee, you deal 1D8 additional damage. Taking joy from the carnage, you gain back 1D8 Hella Points.",
+      "text": "Girls just wanna have fun! With a sadistic glee, you deal [[1D8]] additional damage. Taking joy from the carnage, you gain back [[1D8]] Hella Points.",
       "range": [
         11,
         11
@@ -171,7 +171,7 @@
     },
     {
       "type": "text",
-      "text": "The attack is light work for you! In addition to the attack, you can make an additional action with the remainder of the turn, so you don’t get bored.",
+      "text": "The attack is light work for you! In addition to the attack, you can make an additional action with the remainder of the turn, so you don't get bored.",
       "range": [
         12,
         12
@@ -186,7 +186,7 @@
     },
     {
       "type": "text",
-      "text": "Excuse much! Rude or anything? The attack deals an additional 1D6 damage and during the next missile phase of combat the HEATHER goes first, no matter who wins the initiative roll.",
+      "text": "Excuse much! Rude or anything? The attack deals an additional [[1D6]] damage and during the next missile phase of combat the HEATHER goes first, no matter who wins the initiative roll.",
       "range": [
         13,
         13
@@ -201,7 +201,7 @@
     },
     {
       "type": "text",
-      "text": "Totally Nuclear! What a wallop of a hit, gaining an additional 1D10 Spillover damage!!",
+      "text": "Totally Nuclear! What a wallop of a hit, gaining an additional [[1D10]] Spillover damage!!",
       "range": [
         14,
         14
@@ -216,7 +216,7 @@
     },
     {
       "type": "text",
-      "text": "Kiss me Deadly! For the next 1D4 turns, your firearms deal Deathtouch damage. Give ‘em hell, darling. Deathtouch: All Attacks ignore normal damage and are now Save vs. Death.",
+      "text": "Kiss me Deadly! For the next [[1D4]] turns, your firearms deal Deathtouch damage. Give 'em hell, darling. Deathtouch: All attacks ignore normal damage and are now Save vs. Death.",
       "range": [
         15,
         15
@@ -246,7 +246,7 @@
     },
     {
       "type": "text",
-      "text": "Khaos is what killed the dinosaurs, darling. It’s as if the gods of Khaos have plans for you. The attack deals normal damage, but is infused with Khaos Radiation, dealing an additional 1D10 damage.",
+      "text": "Khaos is what killed the dinosaurs, darling. It's as if the gods of Khaos have plans for you. The attack deals normal damage, but is infused with Khaos Radiation, dealing an additional [[1D10]] damage.",
       "range": [
         17,
         17
@@ -261,7 +261,7 @@
     },
     {
       "type": "text",
-      "text": "Did you have a brain tumor for breakfast? Either way, it’s up to you to extract that bad boy for ‘em with a bullet or your BFK. Deals double damage to the head.",
+      "text": "Did you have a brain tumor for breakfast? Either way, it's up to you to extract that bad boy for 'em with a bullet or your BFK. Deals double damage to the head.",
       "range": [
         18,
         18
@@ -276,7 +276,7 @@
     },
     {
       "type": "text",
-      "text": "It’s in the trees! Expend all your ammo to instantly land 1D6 head-shots on any number of targets. Deals double damage for each head-shot.",
+      "text": "It's in the trees! Expend all your ammo to instantly land [[1D6]] head-shots on any number of targets. Deals double damage for each head-shot.",
       "range": [
         19,
         19

@@ -6,7 +6,7 @@
   "results": [
     {
       "type": "text",
-      "text": "Shatter hand. A little extra knuckle goes into the attack, dealing an additional 1D4 damage and giving the target a bloody nose.",
+      "text": "Shatter hand. A little extra knuckle goes into the attack, dealing an additional [[1D4]] damage and giving the target a bloody nose.",
       "range": [
         1,
         1
@@ -21,7 +21,7 @@
     },
     {
       "type": "text",
-      "text": "More human than human. Cyberskins’ uncanny metal-alloy skeletal system grants them the ability to add a bit more gusto to the attack, dealing an additional +4 damage.",
+      "text": "More human than human. Cyberskins' uncanny metal-alloy skeletal system grants them the ability to add a bit more gusto to the attack, dealing an additional +4 damage.",
       "range": [
         2,
         2
@@ -36,7 +36,7 @@
     },
     {
       "type": "text",
-      "text": "Red Dawn. The Cyberskin sees their target as a threat to Democracy that must be stopped! The freedom behind the attack deals an additional 1D6+2 damage.",
+      "text": "Red Dawn. The Cyberskin sees their target as a threat to Democracy that must be stopped! The freedom behind the attack deals an additional [[1D6+2]] damage.",
       "range": [
         3,
         3
@@ -51,7 +51,7 @@
     },
     {
       "type": "text",
-      "text": "Recharge them batteries! The kinetic energy of the attack deals an additional 1D8 damage and the Cyberskin regains 1D8 to the S.T.A.T.S. score of their choice.",
+      "text": "Recharge them batteries! The kinetic energy of the attack deals an additional [[1D8]] damage and the Cyberskin regains [[1D8]] to the S.T.A.T.S. score of their choice.",
       "range": [
         4,
         4
@@ -66,7 +66,7 @@
     },
     {
       "type": "text",
-      "text": "King of cool! Sick moves don’t go unnoticed. The Cyberskin deals an additional XD4 damage to the attack where X is equal to their Attitude Score Modifier.",
+      "text": "King of cool! Sick moves don't go unnoticed. The Cyberskin deals an additional XD4 damage to the attack where X is equal to their Attitude Score Modifier.",
       "range": [
         5,
         5
@@ -96,7 +96,7 @@
     },
     {
       "type": "text",
-      "text": "Unstoppable machine. The Cyberskin’s metal body ignores the next 1D8 damage dealt to them. A very rugged design—if only all the models were built this good.",
+      "text": "Unstoppable machine. The Cyberskin's metal body ignores the next [[1D8]] damage dealt to them. A very rugged design—if only all the models were built this good.",
       "range": [
         7,
         7
@@ -171,7 +171,7 @@
     },
     {
       "type": "text",
-      "text": "Keen-eyed. Cybernetic sight has its advantages! For the next 1D4 turns, the Cyberskin gains an additional +2 to attack and damage rolls.",
+      "text": "Keen-eyed. Cybernetic sight has its advantages! For the next [[1D4]] turns, the Cyberskin gains an additional +2 to attack and damage rolls.",
       "range": [
         12,
         12
@@ -186,7 +186,7 @@
     },
     {
       "type": "text",
-      "text": "Freedom Beam! The Data tape in the Cyberskin’s chest shoots out a massive beam that hits their enemy for an additional 1D10+Attitude Mod of Patriotic damage.",
+      "text": "Freedom Beam! The Data tape in the Cyberskin's chest shoots out a massive beam that hits their enemy for an additional [[1D10]]+Attitude Mod of Patriotic damage.",
       "range": [
         13,
         13
@@ -216,7 +216,7 @@
     },
     {
       "type": "text",
-      "text": "I am the program! Computer waves and Radiation cause the attack to be packed with a random level 2 Hack that hits a target of the Cyberskin’s choice.",
+      "text": "I am the program! Computer waves and Radiation cause the attack to be packed with a random level 2 Hack that hits a target of the Cyberskin's choice.",
       "range": [
         15,
         15
@@ -231,7 +231,7 @@
     },
     {
       "type": "text",
-      "text": "Major Upgrade! Awesome - the attack not only deals an additional 1D10 damage, but the Cyberskin regains 1D10 RAM Points! Talk about a lucky strike!",
+      "text": "Major Upgrade! Awesome - the attack not only deals an additional [[1D10]] damage, but the Cyberskin regains [[1D10]] RAM Points! Talk about a lucky strike!",
       "range": [
         16,
         16
@@ -246,7 +246,7 @@
     },
     {
       "type": "text",
-      "text": "Unleash the Beast! Complete psycho mode on the target the Cyberskin deals 1D10 Spillover damage. Completely savage!",
+      "text": "Unleash the Beast! Complete psycho mode on the target the Cyberskin deals [[1D10]] Spillover damage. Completely savage!",
       "range": [
         17,
         17
@@ -261,7 +261,7 @@
     },
     {
       "type": "text",
-      "text": "Metal Storm Protocol Activated, Shooting 1D10+Cyberskin’s level of ninja stars in all directions, hitting only hostile threats.",
+      "text": "Metal Storm Protocol Activated, Shooting [[1D10]]+Cyberskin's level of ninja stars in all directions, hitting only hostile threats.",
       "range": [
         18,
         18
@@ -276,7 +276,7 @@
     },
     {
       "type": "text",
-      "text": "Texas is the reason! From a compartment in the Cyberskin’s right thigh, out pops a fully loaded Texas Rattlesnake Hand Cannon, ready to dispense some frontier justice! The Cyberskin makes an additional attack with the Rattlesnake. Texas Rattlesnake stats are found on pg. 186.",
+      "text": "Texas is the reason! From a compartment in the Cyberskin's right thigh, out pops a fully loaded Texas Rattlesnake Hand Cannon, ready to dispense some frontier justice! The Cyberskin makes an additional attack with the Rattlesnake. Texas Rattlesnake stats are found on pg. 186.",
       "range": [
         19,
         19
@@ -291,7 +291,7 @@
     },
     {
       "type": "text",
-      "text": "RED, WHITE, AND SPEW! Commies detected as far as the eye can see. Using their robot grip, the Cyberskin rips the target’s arms off, causing them to bleed out, then they do the same to the next target. Then the target after that, and the one after that, until all the commies are dead.",
+      "text": "RED, WHITE, AND SPEW! Commies detected as far as the eye can see. Using their robot grip, the Cyberskin rips the target's arms off, causing them to bleed out, then they do the same to the next target. Then the target after that, and the one after that, until all the commies are dead.",
       "range": [
         20,
         20
@@ -315,7 +315,7 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742156446243,
-    "modifiedTime": 1742156446243,
+    "modifiedTime": 1742429393686,
     "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
   "formula": "1d20",

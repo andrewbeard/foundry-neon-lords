@@ -6,7 +6,7 @@
   "results": [
     {
       "type": "text",
-      "text": "A karate kick to the head. A swift kick after a normal attack dealing an additional 1D6 damage.",
+      "text": "A karate kick to the head. A swift kick after a normal attack dealing an additional [[1D6]] damage.",
       "range": [
         1,
         1
@@ -21,7 +21,7 @@
     },
     {
       "type": "text",
-      "text": "The Judo Chop from Hell. After the normal attack, the Night Stalker follows up with a blow to the neck region of his target dealing 1D6 damage and knocking them unconscious.",
+      "text": "The Judo Chop from Hell. After the normal attack, the Night Stalker follows up with a blow to the neck region of his target dealing [[1D6]] damage and knocking them unconscious.",
       "range": [
         2,
         2
@@ -96,7 +96,7 @@
     },
     {
       "type": "text",
-      "text": "Flying Dragon Punch. A blue spectral fist hits the target, dealing 1D8 damage on top of the normal attack.",
+      "text": "Flying Dragon Punch. A blue spectral fist hits the target, dealing [[1D8]] damage on top of the normal attack.",
       "range": [
         7,
         7
@@ -141,7 +141,7 @@
     },
     {
       "type": "text",
-      "text": "Fingers for Spears. In addition to the normal attack, the Night Stalker makes an unarmed strike with two fingers extended that deals 2D6 damage to the target.",
+      "text": "Fingers for Spears. In addition to the normal attack, the Night Stalker makes an unarmed strike with two fingers extended that deals [[2D6]] damage to the target.",
       "range": [
         10,
         10
@@ -171,7 +171,7 @@
     },
     {
       "type": "text",
-      "text": "Ghost Assassin. Deep meditation in the art of Chuck causes the Night Stalker to become a vapor-walker (able to walk through walls and be undetected by normal vision) for 1D4 turns; each attack gains an additional +4 damage.",
+      "text": "Ghost Assassin. Deep meditation in the art of Chuck causes the Night Stalker to become a vapor-walker (able to walk through walls and be undetected by normal vision) for [[1D4]] turns; each attack gains an additional +4 damage.",
       "range": [
         12,
         12
@@ -201,7 +201,7 @@
     },
     {
       "type": "text",
-      "text": "A barrage of kicks and punches follow up the attack, making the Night Stalker a true karate commando! 1D10 Attacks hit for 1D4 damage each.",
+      "text": "A barrage of kicks and punches follow up the attack, making the Night Stalker a true karate commando! [[1D10]] Attacks hit for 1D4 damage each.",
       "range": [
         14,
         14
@@ -246,7 +246,7 @@
     },
     {
       "type": "text",
-      "text": "Ninja Storm! Allies from the Night Stalker’s Chuck Dojo come to aid them in the battle! 1D6 Night Stalkers attack from the shadows, each dealing 1D6 damage to the target.",
+      "text": "Ninja Storm! Allies from the Night Stalker's Chuck Dojo come to aid them in the battle! [[1D6]] Night Stalkers attack from the shadows, each dealing 1D6 damage to the target.",
       "range": [
         17,
         17
@@ -291,7 +291,7 @@
     },
     {
       "type": "text",
-      "text": "Shuriken Storm. In a flurry of attack, the Night Stalker throws an absurd amount of ninja stars in addition to the attack. 1D20x5 Stars are tossed at the target at lightning-fast speed.",
+      "text": "Shuriken Storm. In a flurry of attack, the Night Stalker throws an absurd amount of ninja stars in addition to the attack. [[5D20]]] Stars are tossed at the target at lightning-fast speed.",
       "range": [
         20,
         20

@@ -6,7 +6,7 @@
   "results": [
     {
       "type": "text",
-      "text": "The spell’s potency is stronger than anticipated, adding an additional 1D8 damage.",
+      "text": "The spell's potency is stronger than anticipated, adding an additional [[1D8]] damage.",
       "range": [
         1,
         1
@@ -66,7 +66,7 @@
     },
     {
       "type": "text",
-      "text": "Amplified by cosmic rays, the spell does an additional 1D6 damage and sends a magical beacon deep into space. There is a 10% chance an old god notices and responds.",
+      "text": "Amplified by cosmic rays, the spell does an additional [[1D6]] damage and sends a magical beacon deep into space. There is a 10% chance an old god notices and responds.",
       "range": [
         5,
         5
@@ -81,7 +81,7 @@
     },
     {
       "type": "text",
-      "text": "This one goes to 11. The spell cracks out of the War Wizard with a thunderous boom, dealing an additional 1D10+1 damage.",
+      "text": "This one goes to 11. The spell cracks out of the War Wizard with a thunderous boom, dealing an additional [[1D10+1]] damage.",
       "range": [
         6,
         6
@@ -96,7 +96,7 @@
     },
     {
       "type": "text",
-      "text": "A bloody mess. The spell does normal damage, plus an additional 1D6. If the target dies, it explodes while an obscene amount of blood, like more blood than should be contained in a human body, erupts forth, soaking everyone in a 15ft radius of the target. Anyone within this area must make an Agility Saving Throw or fall Prone in the gore.",
+      "text": "A bloody mess. The spell does normal damage, plus an additional [[1D6]]. If the target dies, it explodes while an obscene amount of blood, like more blood than should be contained in a human body, erupts forth, soaking everyone in a 15ft radius of the target. Anyone within this area must make an Agility Saving Throw or fall Prone in the gore.",
       "range": [
         7,
         7
@@ -111,7 +111,7 @@
     },
     {
       "type": "text",
-      "text": "The spell conjures butterflies… of death. Summon 1D4+War Wizard Level in butterflies. The insects dive-bomb and explode on impact, each dealing an additional 1D4 damage to targets of the War Wizard’s choosing.",
+      "text": "The spell conjures butterflies... of death. Summon [[1D4]]+War Wizard Level in butterflies. The insects dive-bomb and explode on impact, each dealing an additional 1D4 damage to targets of the War Wizard's choosing.",
       "range": [
         8,
         8
@@ -156,7 +156,7 @@
     },
     {
       "type": "text",
-      "text": "Face Putty. The spell is so intense, it melts the target’s face clean off their body, dealing an additional 1D10 damage in the process.",
+      "text": "Face Putty. The spell is so intense, it melts the target's face clean off their body, dealing an additional [[1D10]] damage in the process.",
       "range": [
         11,
         11
@@ -186,7 +186,7 @@
     },
     {
       "type": "text",
-      "text": "The intensity of the spell impacting the target knocks their eyes out of their sockets. The target is blinded and takes an additional 1D10 damage.",
+      "text": "The intensity of the spell impacting the target knocks their eyes out of their sockets. The target is Blinded and takes an additional [[1D10]] damage.",
       "range": [
         13,
         13
@@ -201,7 +201,7 @@
     },
     {
       "type": "text",
-      "text": "The spell rips through the target with an extra 1D10 Vile damage. Each creature within 5ft must roll on the Minor Mutation table. The creep crumbles into glow-in-the-dark dust at the end of the encounter.",
+      "text": "The spell rips through the target with an extra [[1D10]] Vile damage. Each creature within 5ft must roll on the Minor Mutation table. The creep crumbles into glow-in-the-dark dust at the end of the encounter.",
       "range": [
         14,
         14
@@ -216,7 +216,7 @@
     },
     {
       "type": "text",
-      "text": "Some supernatural phenomena spew forth from your manifested spell. The spell deals normal damage, plus an additional 1D6, and summons 1D4 Spooky Ghosts that are (roll 1D4): 1 - hostile to everyone, 2 - hostile to War Wizard’s enemies, 3 - merchants with fantastical goods for sale, 4 - Casper.",
+      "text": "Some supernatural phenomena spew forth from your manifested spell. The spell deals normal damage, plus an additional [[1D6]], and summons [[1D4]] Spooky Ghosts that are (roll [[1D4]]): 1 - hostile to everyone, 2 - hostile to War Wizard's enemies, 3 - merchants with fantastical goods for sale, 4 - Casper.",
       "range": [
         15,
         15
@@ -291,7 +291,7 @@
     },
     {
       "type": "text",
-      "text": "Master of the universe. The War Wizard’s eyes glow bright white as the inner workings of the cosmos are revealed. Transcending mortal life, the knowledge elevates the caster to a godlike status. The spell’s magic manifests effortlessly 2D10 times. If the target is destroyed, the remaining magic moves to other targets.",
+      "text": "Master of the universe. The War Wizard's eyes glow bright white as the inner workings of the cosmos are revealed. Transcending mortal life, the knowledge elevates the caster to a godlike status. The spell's magic manifests effortlessly [[2D10]] times. If the target is destroyed, the remaining magic moves to other targets.",
       "range": [
         20,
         20

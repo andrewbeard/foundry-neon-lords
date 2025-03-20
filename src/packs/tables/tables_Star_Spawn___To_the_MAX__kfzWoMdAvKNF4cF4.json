@@ -21,7 +21,7 @@
     },
     {
       "type": "text",
-      "text": "Eardrums smashed. The target’s eardrums rupture from the intense Manifestation, causing them to become permanently deaf.",
+      "text": "Eardrums smashed. The target's eardrums rupture from the intense Manifestation, causing them to become permanently deaf.",
       "range": [
         2,
         2
@@ -36,7 +36,7 @@
     },
     {
       "type": "text",
-      "text": "Bloody tears. The Manifestation was too strong, dealing an additional 1D6 damage and causing the target to begin crying blood.",
+      "text": "Bloody tears. The Manifestation was too strong, dealing an additional [[1D6]] damage and causing the target to begin crying blood.",
       "range": [
         3,
         3
@@ -51,7 +51,7 @@
     },
     {
       "type": "text",
-      "text": "Freaky Friday! Along with the Manifestation, the consciousness of two separate targets switch bodies for 1D4 turns.",
+      "text": "Freaky Friday! Along with the Manifestation, the consciousness of two separate targets switch bodies for [[1D4]] turns.",
       "range": [
         4,
         4
@@ -66,7 +66,7 @@
     },
     {
       "type": "text",
-      "text": "Weak wills make easy targets. In addition to the Manifestation, the Star Spawn causes a target they can see to receive -2 to all their rolls for the next 1D4 turns.",
+      "text": "Weak wills make easy targets. In addition to the Manifestation, the Star Spawn causes a target they can see to receive -2 to all their rolls for the next [[1D4]] turns.",
       "range": [
         5,
         5
@@ -81,7 +81,7 @@
     },
     {
       "type": "text",
-      "text": "Super Rad energy leaks out of the Star Spawn’s mind and finds its way to any target. This Radness grants the target an additional 1D6 to their next roll.",
+      "text": "Super Rad energy leaks out of the Star Spawn's mind and finds its way to any target. This Radness grants the target an additional [[1D6]] to their next roll.",
       "range": [
         6,
         6
@@ -111,7 +111,7 @@
     },
     {
       "type": "text",
-      "text": "Explosive feedback. The last damage dealt to the Star Spawn is retroactively dealt back to the target that hit ‘em. The Manifestation goes off without a hitch, too.",
+      "text": "Explosive feedback. The last damage dealt to the Star Spawn is retroactively dealt back to the target that hit 'em. The Manifestation goes off without a hitch, too.",
       "range": [
         8,
         8
@@ -126,7 +126,7 @@
     },
     {
       "type": "text",
-      "text": "Advice from the cosmos. The Manifestation acts as a beacon to some distant hive mind who, collectively, sends back some insight to the Star Spawn gaining a pool of 3D6. These dice can be rolled to aid any rolls the Star Spawn wishes. This insight lasts until the Star Spawn’s next long rest.",
+      "text": "Advice from the cosmos. The Manifestation acts as a beacon to some distant hive mind who, collectively, sends back some insight to the Star Spawn gaining a pool of 3D6. These dice can be rolled to aid any rolls the Star Spawn wishes. This insight lasts until the Star Spawn's next long rest.",
       "range": [
         9,
         9
@@ -156,7 +156,7 @@
     },
     {
       "type": "text",
-      "text": "Lazer eyes! Every psychic needs to shoot lazers out of their eyes, right? The Star Spawn deals 1D6 damage to a target they can see. (Obviously.)",
+      "text": "Lazer eyes! Every psychic needs to shoot lazers out of their eyes, right? The Star Spawn deals [[1D6]] damage to a target they can see. (Obviously.)",
       "range": [
         11,
         11
@@ -171,7 +171,7 @@
     },
     {
       "type": "text",
-      "text": "Humanoids are such easy prey. The Manifestation deals 1D6 additional damage to the target and the same amount to another target Humanoid. On a failed Resolve Saving Throw, the new target takes the full damage, and half on a success.",
+      "text": "Humanoids are such easy prey. The Manifestation deals [[1D6]] additional damage to the target and the same amount to another target Humanoid. On a failed Resolve Saving Throw, the new target takes the full damage, and half on a success.",
       "range": [
         12,
         12
@@ -201,7 +201,7 @@
     },
     {
       "type": "text",
-      "text": "The Flesh is weaker than the mind! The Manifestation causes the target to mutate! Roll on the Major Mutation table and deal an additional 1D6 damage.",
+      "text": "The Flesh is weaker than the mind! The Manifestation causes the target to mutate! Roll on the Major Mutation table and deal an additional [[1D6]] damage.",
       "range": [
         14,
         14
@@ -231,7 +231,7 @@
     },
     {
       "type": "text",
-      "text": "Do what THEY say! The Star Spawn’s mental prowess is too powerful for their foe, giving them complete mind domination for 1D4+Star Spawn Level of turns.",
+      "text": "Do what THEY say! The Star Spawn's mental prowess is too powerful for their foe, giving them complete mind domination for [[1D4]]+Star Spawn Level of turns.",
       "range": [
         16,
         16
@@ -246,7 +246,7 @@
     },
     {
       "type": "text",
-      "text": "Mind Bullets!! A side effect of the successful Manifestation! It’s as if you are holding a Mac-Daddy in your Xeno grip, spitting ammo at a target within range, auto-hitting and dealing 3D6 damage.",
+      "text": "Mind Bullets!! A side effect of the successful Manifestation! It's as if you are holding a Mac-Daddy in your Xeno grip, spitting ammo at a target within range, auto-hitting and dealing [[3D6]] damage.",
       "range": [
         17,
         17

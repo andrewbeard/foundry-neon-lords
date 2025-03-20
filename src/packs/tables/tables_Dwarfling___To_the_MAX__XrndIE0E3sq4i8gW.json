@@ -6,7 +6,7 @@
   "results": [
     {
       "type": "text",
-      "text": "BOWELS EMPTIED! The blow deals normal damage +1D4 and causes the fiend to soil its loins.",
+      "text": "BOWELS EMPTIED! The blow deals normal damage +[[1D4]] and causes the fiend to soil its loins.",
       "range": [
         0,
         1
@@ -21,7 +21,7 @@
     },
     {
       "type": "text",
-      "text": "Hit ‘em low! Your mighty weapon comes crashing down on your foes toes, dealing an additional 1D4 damage and severing 1D4 toes. Their movement is cut in half.",
+      "text": "Hit 'em low! Your mighty weapon comes crashing down on your foes toes, dealing an additional [[1D4]] damage and severing [[1D4]] toes. Their movement is cut in half.",
       "range": [
         2,
         2
@@ -36,7 +36,7 @@
     },
     {
       "type": "text",
-      "text": "Five Finger Discount. Attack takes 1D4 fingers with it and deals an additional 1D4 damage. Does the opponent have no fingers? No problem! If they lack the body parts, deal an additional 2 damage for your troubles.",
+      "text": "Five Finger Discount. Attack takes [[1D4]] fingers with it and deals an additional [[1D4]] damage. Does the opponent have no fingers? No problem! If they lack the body parts, deal an additional 2 damage for your troubles.",
       "range": [
         3,
         3
@@ -51,7 +51,7 @@
     },
     {
       "type": "text",
-      "text": "Raw force. A little extra umph to the swing pays off, dealing an additional 1D6+1 damage.",
+      "text": "Raw force. A little extra umph to the swing pays off, dealing an additional [[1D6+1]] damage.",
       "range": [
         4,
         4
@@ -66,7 +66,7 @@
     },
     {
       "type": "text",
-      "text": "Hard knock. Attack deals an additional +2 damage. The foe is knocked back 10ft. If this movement knocks the target into a wall, it takes an additional 1D4 damage.",
+      "text": "Hard knock. Attack deals an additional +2 damage. The foe is knocked back 10ft. If this movement knocks the target into a wall, it takes an additional [[1D4]] damage.",
       "range": [
         5,
         5
@@ -81,7 +81,7 @@
     },
     {
       "type": "text",
-      "text": "Eye gouged out. The Dwarfling reaches out and plucks out the opponent’s eye, giving the fiend a -3 to attack rolls.",
+      "text": "Eye gouged out. The Dwarfling reaches out and plucks out the opponent's eye, giving the fiend a -3 to attack rolls.",
       "range": [
         6,
         6
@@ -96,7 +96,7 @@
     },
     {
       "type": "text",
-      "text": "Kneecap destruction. Blows to the knees deal an additional 1D4 damage and knock the fiend Prone, rendering them unable to stand.",
+      "text": "Kneecap destruction. Blows to the knees deal an additional [[1D4]] damage and knock the fiend Prone, rendering them unable to stand.",
       "range": [
         7,
         7
@@ -111,7 +111,7 @@
     },
     {
       "type": "text",
-      "text": "Can you give me a hand? Attack deals normal damage and crushes the opponent’s hand. Roll 1D2: 1 - left hand, 2 - right hand. It is no longer usable.",
+      "text": "Can you give me a hand? Attack deals normal damage and crushes the opponent's hand. Roll 1D2: 1 - left hand, 2 - right hand. It is no longer usable.",
       "range": [
         8,
         8
@@ -126,7 +126,7 @@
     },
     {
       "type": "text",
-      "text": "Clobberin’ time! The Dwarfling grabs their enemy by the head and smashes it into the head of another enemy within 5ft. If no other enemy is close, the wall, floor, pillar, etc. will make an acceptable substitute. The attack deals an additional 1D8 damage and the target is knocked Unconscious. If their buddy got smashed, too, the second target must succeed on a Resolve save or fall unconscious as well.",
+      "text": "Clobberin' time! The Dwarfling grabs their enemy by the head and smashes it into the head of another enemy within 5ft. If no other enemy is close, the wall, floor, pillar, etc. will make an acceptable substitute. The attack deals an additional [[1D8]] damage and the target is knocked Unconscious. If their buddy got smashed, too, the second target must succeed on a Resolve save or fall unconscious as well.",
       "range": [
         9,
         9
@@ -141,7 +141,7 @@
     },
     {
       "type": "text",
-      "text": "Hammer-smashed face. The blow comes down right on the monster’s face, breaking its nose and knocking out all its teeth. The attack deals double damage.",
+      "text": "Hammer-smashed face. The blow comes down right on the monster's face, breaking its nose and knocking out all its teeth. The attack deals double damage.",
       "range": [
         10,
         10
@@ -156,7 +156,7 @@
     },
     {
       "type": "text",
-      "text": "Bring it on! The Dwarfling rushes at their opponent and tackles them to the ground. While on top, the Dwarfling hits for normal damage, plus an additional 1D10.",
+      "text": "Bring it on! The Dwarfling rushes at their opponent and tackles them to the ground. While on top, the Dwarfling hits for normal damage, plus an additional [[1D10]].",
       "range": [
         10,
         11
@@ -186,7 +186,7 @@
     },
     {
       "type": "text",
-      "text": "Blood storm. Through the frenzy of battle, the Dwarfling becomes murder-crazed and gains the abilities granted by Combat Enhancement Drugs for 1D6 turns. Also, the attack deals an extra 1D6 damage. (Combat Enhancement Drugs are found on pg. 170.)",
+      "text": "Blood storm. Through the frenzy of battle, the Dwarfling becomes murder-crazed and gains the abilities granted by Combat Enhancement Drugs for [[1D6]] turns. Also, the attack deals an extra [[1D6]] damage. (Combat Enhancement Drugs are found on pg. 170.)",
       "range": [
         13,
         13
@@ -201,7 +201,7 @@
     },
     {
       "type": "text",
-      "text": "Into the danger zone. Pushing deeper into the fray, the Dwarfling hits for an additional 1D8 damage and takes a defensive stance, gaining a 1D8 AC bonus as well.",
+      "text": "Into the danger zone. Pushing deeper into the fray, the Dwarfling hits for an additional [[1D8]] damage and takes a defensive stance, gaining a [[1D8]] AC bonus as well.",
       "range": [
         14,
         14
@@ -231,7 +231,7 @@
     },
     {
       "type": "text",
-      "text": "Lucky strike. Attack deals normal damage, but the Dwarfling’s next fumble becomes a critical success.",
+      "text": "Lucky strike. Attack deals normal damage, but the Dwarfling's next fumble becomes a critical success.",
       "range": [
         16,
         16
@@ -246,7 +246,7 @@
     },
     {
       "type": "text",
-      "text": "Imploding innards. The attack gains an additional 2D6 damage and causes the enemy’s intestines to explode in a dazzling display of bile and gore.",
+      "text": "Imploding innards. The attack gains an additional [[2D6]] damage and causes the enemy's intestines to explode in a dazzling display of bile and gore.",
       "range": [
         17,
         17
@@ -261,7 +261,7 @@
     },
     {
       "type": "text",
-      "text": "Bloody dismemberment! Astounding tenacity shines forth from the 4 ft frenzied fighter. The target’s arm is ripped off, dealing an additional 1D10 damage from blood loss.",
+      "text": "Bloody dismemberment! Astounding tenacity shines forth from the 4 ft frenzied fighter. The target's arm is ripped off, dealing an additional [[1D10]] damage from blood loss.",
       "range": [
         18,
         18

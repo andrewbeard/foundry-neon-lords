@@ -6,7 +6,7 @@
   "results": [
     {
       "type": "text",
-      "text": "The Sewer Shark’s attack deals a devastating blow dealing normal damage and causing the target to be Dazed on their next turn.",
+      "text": "The Sewer Shark's attack deals a devastating blow dealing normal damage and causing the target to be Dazed on their next turn.",
       "range": [
         1,
         1
@@ -21,7 +21,7 @@
     },
     {
       "type": "text",
-      "text": "Vile Bile. The Sewer Shark’s septic lifestyle causes the attack to deal an additional 1D6 Vile damage.",
+      "text": "Vile Bile. The Sewer Shark's septic lifestyle causes the attack to deal an additional [[1D6]] Vile damage.",
       "range": [
         2,
         2
@@ -36,7 +36,7 @@
     },
     {
       "type": "text",
-      "text": "Resilient! The attack deals normal damage but the Sewer Shark gains back 1D4 Frenzy Points.",
+      "text": "Resilient! The attack deals normal damage but the Sewer Shark gains back [[1D4]] Frenzy Points.",
       "range": [
         3,
         3
@@ -51,7 +51,7 @@
     },
     {
       "type": "text",
-      "text": "A QUICK SNACK! The attack deals normal damage as the Sewer Shark takes a quick bite dealing 1D4 additional damage. The real quick bite regains them back 1HP.",
+      "text": "A QUICK SNACK! The attack deals normal damage as the Sewer Shark takes a quick bite dealing [[1D4]] additional damage. The real quick bite regains them back 1 HP.",
       "range": [
         4,
         4
@@ -81,7 +81,7 @@
     },
     {
       "type": "text",
-      "text": "The Sewer Shark has been working out! The attack deals an extra 1D6 damage due to the sheer size of the swole muscles of the Sewer Shark.",
+      "text": "The Sewer Shark has been working out! The attack deals an extra [[1D6]] damage due to the sheer size of the swole muscles of the Sewer Shark.",
       "range": [
         6,
         6
@@ -96,7 +96,7 @@
     },
     {
       "type": "text",
-      "text": "SLAP ME SOME FIN! Showing off the Sewer Shark deals normal damage and high fives the closest ally. The grandstanding gains them back 1D6 lost Frenzy Points.",
+      "text": "SLAP ME SOME FIN! Showing off the Sewer Shark deals normal damage and high fives the closest ally. The grandstanding gains them back [[1D6]] lost Frenzy Points.",
       "range": [
         7,
         7
@@ -111,7 +111,7 @@
     },
     {
       "type": "text",
-      "text": "BLINDED. The Sewer Shark deals normal damage as they gouge out the target’s eyes then shows ‘em to the target gaining +1 to their Attitude. The target gains the Blind condition.",
+      "text": "BLINDED. The Sewer Shark deals normal damage as they gouge out the target's eyes then shows 'em to the target gaining +1 to their Attitude. The target gains the Blind condition.",
       "range": [
         8,
         8
@@ -141,7 +141,7 @@
     },
     {
       "type": "text",
-      "text": "JAWS OF LIFE. Taking a big bite outta the target, in addition to their normal attack, dealing 1D8 damage and healing 1D4 HP.",
+      "text": "JAWS OF LIFE. Taking a big bite outta the target, in addition to their normal attack, dealing [[1D8]] damage and healing [[1D4]] HP.",
       "range": [
         10,
         10
@@ -156,7 +156,7 @@
     },
     {
       "type": "text",
-      "text": "Dealing some serious additional damage (1D8) crushing the target’s windpipe. In addition to the massive strike they regain 1D8 Frenzy Points.",
+      "text": "Dealing some serious additional damage ([[1D8]]) crushing the target's windpipe. In addition to the massive strike they regain [[1D8]] Frenzy Points.",
       "range": [
         11,
         11
@@ -171,7 +171,7 @@
     },
     {
       "type": "text",
-      "text": "FINTASTIC! The attack is brutal dealing an additional 1D10 Bleeding damage as the Sewer Shark furiously bites the target.",
+      "text": "FINTASTIC! The attack is brutal dealing an additional [[1D10]] Bleeding damage as the Sewer Shark furiously bites the target.",
       "range": [
         12,
         12
@@ -186,7 +186,7 @@
     },
     {
       "type": "text",
-      "text": "NO SWEAT! The Sewer Shark deals an explosive attack crushing bones, dealing an additional 1D10 damage. The Sewer Shark gains back 1D10 Frenzy Points. The sound of bones crunching is very inspirational.",
+      "text": "NO SWEAT! The Sewer Shark deals an explosive attack crushing bones, dealing an additional [[1D10]] damage. The Sewer Shark gains back [[1D10]] Frenzy Points. The sound of bones crunching is very inspirational.",
       "range": [
         13,
         13
@@ -201,7 +201,7 @@
     },
     {
       "type": "text",
-      "text": "THE ROYAL FLUSH. The Sewer Shark tosses the target into the closest manhole dealing a fintastic 1D12 additional damage. The target must spend their next turn crawling out of the manhole, if alive.",
+      "text": "THE ROYAL FLUSH. The Sewer Shark tosses the target into the closest manhole dealing a fintastic [[1D12]] additional damage. The target must spend their next turn crawling out of the manhole, if alive.",
       "range": [
         14,
         14
@@ -216,7 +216,7 @@
     },
     {
       "type": "text",
-      "text": "HELP ME OUT BRO! A Sewer Shark busts out from underneath the target making a bite attack in addition to the PC Sewer Shark’s attack. The other Sewer Shark sticks around for 1D4 turns holding the target in a full-nelson, leaving them immobilized.",
+      "text": "HELP ME OUT BRO! A Sewer Shark busts out from underneath the target making a bite attack in addition to the PC Sewer Shark's attack. The other Sewer Shark sticks around for [[1D4]] turns holding the target in a full-nelson, leaving them immobilized.",
       "range": [
         15,
         15
@@ -231,7 +231,7 @@
     },
     {
       "type": "text",
-      "text": "KICK SOME SERIOUS FIN! The Sewer Shark eviscerates the target disemboweling them. Their innards spill all over the floor causing them to bleed out in 1D4 turns.",
+      "text": "KICK SOME SERIOUS FIN! The Sewer Shark eviscerates the target disemboweling them. Their innards spill all over the floor causing them to bleed out in [[1D4]] turns.",
       "range": [
         16,
         16
@@ -246,7 +246,7 @@
     },
     {
       "type": "text",
-      "text": "SKULLCRACK. The Sewer Shark deals a devastating blow to the target, causing an additional 1D6 damage. The next time the target gets hit, it’s an auto crit.",
+      "text": "SKULLCRACK. The Sewer Shark deals a devastating blow to the target, causing an additional [[1D6]] damage. The next time the target gets hit, it's an auto crit.",
       "range": [
         17,
         17
@@ -291,7 +291,7 @@
     },
     {
       "type": "text",
-      "text": "JAWSOME! The Sewer Shark bites the head off the target killing them instantly and causing a geyser of blood and gore. The Shark may then spit the head at another target near by dealing 1D6 damage.",
+      "text": "JAWSOME! The Sewer Shark bites the head off the target killing them instantly and causing a geyser of blood and gore. The Shark may then spit the head at another target near by dealing [[1D6]] damage.",
       "range": [
         20,
         20

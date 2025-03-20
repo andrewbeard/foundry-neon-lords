@@ -6,7 +6,7 @@
   "results": [
     {
       "type": "text",
-      "text": "A mighty smash hits the chest of the foe, knocking the wind out of them and dealing an additional 1D4 damage.",
+      "text": "A mighty smash hits the chest of the foe, knocking the wind out of them and dealing an additional [[1D4]] damage.",
       "range": [
         1,
         1
@@ -21,7 +21,7 @@
     },
     {
       "type": "text",
-      "text": "Helmet bash. In addition to the normal attack, the Holy Smiter headbutts the enemy with their helm, dealing an additional 1D6 damage.",
+      "text": "Helmet bash. In addition to the normal attack, the Holy Smiter headbutts the enemy with their helm, dealing an additional [[1D6]] damage.",
       "range": [
         2,
         2
@@ -36,7 +36,7 @@
     },
     {
       "type": "text",
-      "text": "One life for another. The Holy Smiter channels divine power into the strike, dealing an additional 1D4 damage. An ally the Smiter can see is healed for the same amount of HP that the enemy loses from the attack.",
+      "text": "One life for another. The Holy Smiter channels divine power into the strike, dealing an additional [[1D4]] damage. An ally the Smiter can see is healed for the same amount of HP that the enemy loses from the attack.",
       "range": [
         3,
         3
@@ -51,7 +51,7 @@
     },
     {
       "type": "text",
-      "text": "Mystic Flail of Righteousness! The Holy Smiter’s weapon turns into a 2-headed flail for the next 1D4 Attacks made by the Holy Smiter.",
+      "text": "Mystic Flail of Righteousness! The Holy Smiter's weapon turns into a 2-headed flail for the next [[1D4]] attacks made by the Holy Smiter.",
       "range": [
         4,
         4
@@ -66,7 +66,7 @@
     },
     {
       "type": "text",
-      "text": "Xeno scum must die! The Holy Smiter deals normal damage plus an additional 1D8, thinking the target is a nasty Xeno.",
+      "text": "Xeno scum must die! The Holy Smiter deals normal damage plus an additional [[1D8]], thinking the target is a nasty Xeno.",
       "range": [
         5,
         5
@@ -81,7 +81,7 @@
     },
     {
       "type": "text",
-      "text": "Holy silver. The attack deals normal damage to the target and the Holy Smiter throws a dagger of holy energy at an enemy they can see, including the original target dealing normal damage and 1D4+2 holy dagger damage.",
+      "text": "Holy silver. The attack deals normal damage to the target and the Holy Smiter throws a dagger of holy energy at an enemy they can see, including the original target dealing normal damage and [[1D4+2]] holy dagger damage.",
       "range": [
         6,
         6
@@ -111,7 +111,7 @@
     },
     {
       "type": "text",
-      "text": "Holy presence! Striking fear into the hearts of the wicked, the Holy Smiter deals normal damage plus an additional 1D4. If the target survives, they must roll on the FearTable.",
+      "text": "Holy presence! Striking fear into the hearts of the wicked, the Holy Smiter deals normal damage plus an additional [[1D4]]. If the target survives, they must roll on the Fear Table.",
       "range": [
         8,
         8
@@ -126,7 +126,7 @@
     },
     {
       "type": "text",
-      "text": "Crackdown! The attack hits the opponent’s weapon hand, breaking 1D4 fingers and preventing that hand from being used for Attacks.",
+      "text": "Crackdown! The attack hits the opponents weapon hand, breaking [[1D4]] fingers and preventing that hand from being used for attacks.",
       "range": [
         9,
         9
@@ -141,7 +141,7 @@
     },
     {
       "type": "text",
-      "text": "Divine justice. Attack deals an additional 1D6 damage and heals a party member the Holy Smiter can see for the same amount.",
+      "text": "Divine justice. Attack deals an additional [[1D6]] damage and heals a party member the Holy Smiter can see for the same amount.",
       "range": [
         10,
         10
@@ -156,7 +156,7 @@
     },
     {
       "type": "text",
-      "text": "Hate thy mutant! Thinking the target is a filthy mutie, the Holy Smiter deals an additional 2D4 damage.",
+      "text": "Hate thy mutant! Thinking the target is a filthy mutie, the Holy Smiter deals an additional [[2D4]] damage.",
       "range": [
         11,
         11
@@ -171,7 +171,7 @@
     },
     {
       "type": "text",
-      "text": "Holy light beams down from the sky, imbuing the Holy Smiter’s weapon with divine light as it comes crashing down on the fiend, dealing an extra 1D6+2 damage.",
+      "text": "Holy light beams down from the sky, imbuing the Holy Smiter's weapon with divine light as it comes crashing down on the fiend, dealing an extra [[1D6+2]] damage.",
       "range": [
         12,
         12
@@ -186,7 +186,7 @@
     },
     {
       "type": "text",
-      "text": "Nose breaker. The Smiter lunges out and bites the face of the enemy, ripping off the flesh of what used to be a nose and dealing an additional 2D6 Bleeding damage.",
+      "text": "Nose breaker. The Smiter lunges out and bites the face of the enemy, ripping off the flesh of what used to be a nose and dealing an additional [[2D6]] Bleeding damage.",
       "range": [
         13,
         13
@@ -201,7 +201,7 @@
     },
     {
       "type": "text",
-      "text": "Cleanse the body and mind! Granting the DAWN Star’s favor, the Smiter blesses the party! The attack deals normal damage and each party member loses one condition or mutation at random, including Paranoia or Fear.",
+      "text": "Cleanse the body and mind! Granting the DAWN Star's favor, the Smiter blesses the party! The attack deals normal damage and each party member loses one condition or mutation at random, including Paranoia or Fear.",
       "range": [
         14,
         14
@@ -231,7 +231,7 @@
     },
     {
       "type": "text",
-      "text": "Justice beam! Holy energy spews from the Holy Smiter, hitting the target for 1D10 Spillover damage.",
+      "text": "Justice beam! Holy energy spews from the Holy Smiter, hitting the target for [[1D10]] Spillover damage.",
       "range": [
         16,
         16
@@ -246,7 +246,7 @@
     },
     {
       "type": "text",
-      "text": "Total Party Heal. The faith of the Holy Smiter shines through, dealing an additional 1D10 damage to the target and healing the entire party for the same amount.",
+      "text": "Total Party Heal. The faith of the Holy Smiter shines through, dealing an additional [[1D10]] damage to the target and healing the entire party for the same amount.",
       "range": [
         17,
         17
@@ -261,7 +261,7 @@
     },
     {
       "type": "text",
-      "text": "By the grace of the DAWN Star! The Holy Smiter Attacks in their deity’s name with a massive thunderous blow, dealing 1D10! additional damage and healing the entire party for the amount dealt.",
+      "text": "By the grace of the DAWN Star! The Holy Smiter attacks in their deity's name with a massive thunderous blow, dealing [[1D10x10]] additional damage and healing the entire party for the amount dealt.",
       "range": [
         18,
         18
@@ -276,7 +276,7 @@
     },
     {
       "type": "text",
-      "text": "DAWN Star is aligned in the sky and answers your prayer, shooting down a beam of pure energy that hits the target for an additional 2D12 Spillover damage.",
+      "text": "DAWN Star is aligned in the sky and answers your prayer, shooting down a beam of pure energy that hits the target for an additional [[2D12]] Spillover damage.",
       "range": [
         19,
         19
@@ -291,7 +291,7 @@
     },
     {
       "type": "text",
-      "text": "The Legion’s aid. Teleporting to this realm 1D4+2 Holy Smiters from regions beyond the galaxy and other dimensions come to the Smiter’s call, launching Attacks that are automatic critical hits. When rolling on this chart for their hits, re-roll any further results of 20. After their Attacks the other Smiters teleport away.",
+      "text": "The Legion's aid. Teleporting to this realm [[1D4+2]] Holy Smiters from regions beyond the galaxy and other dimensions come to the Smiter's call, launching attacks that are automatic critical hits. When rolling on this chart for their hits, re-roll any further results of 20. After their attacks the other Smiters teleport away.",
       "range": [
         20,
         20

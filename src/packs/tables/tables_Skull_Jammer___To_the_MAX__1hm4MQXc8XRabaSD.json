@@ -6,7 +6,7 @@
   "results": [
     {
       "type": "text",
-      "text": "GET GOOD, SCRUB. The Hack deals 1D4 damage to any target the Skull Jammer sees fit.",
+      "text": "GET GOOD, SCRUB. The Hack deals [[1D4]] damage to any target the Skull Jammer sees fit.",
       "range": [
         1,
         1
@@ -36,7 +36,7 @@
     },
     {
       "type": "text",
-      "text": "The Sword of 1000 Truths manifests itself as the Hack is cast. The blade can be wielded by the Skull Jammer for 1D4 turns or handed off to an ally who can wield it for 1 turn. (The sword’s info is found on pg. 186. Noob.)",
+      "text": "The Sword of 1000 Truths manifests itself as the Hack is cast. The blade can be wielded by the Skull Jammer for [[1D4]] turns or handed off to an ally who can wield it for 1 turn. (The sword's info is found on pg. 186. Noob.)",
       "range": [
         3,
         3
@@ -51,7 +51,7 @@
     },
     {
       "type": "text",
-      "text": "Converting bytes to health, the Hack heals the Skull Jammer for 1D6 HP.",
+      "text": "Converting bytes to health, the Hack heals the Skull Jammer for [[1D6]] HP.",
       "range": [
         4,
         4
@@ -66,7 +66,7 @@
     },
     {
       "type": "text",
-      "text": "Digitize This! The Hack bursts out a projectile of pure digital energy, dealing 1D6 damage to any target the Skull Jammer chooses.",
+      "text": "Digitize This! The Hack bursts out a projectile of pure digital energy, dealing [[1D6]] damage to any target the Skull Jammer chooses.",
       "range": [
         5,
         5
@@ -81,7 +81,7 @@
     },
     {
       "type": "text",
-      "text": "Spray and pray! Digital bullets shoot out of the Skull Jammer’s deck in a 15ft cone, hitting any enemies in the 30ft range for 1D8 damage.",
+      "text": "Spray and pray! Digital bullets shoot out of the Skull Jammer's deck in a 15ft cone, hitting any enemies in the 30ft range for 1D8 damage.",
       "range": [
         6,
         6
@@ -96,7 +96,7 @@
     },
     {
       "type": "text",
-      "text": "Hacking the meat-frame grants Meat Vision to the Skull Jammer for 1D6 turns.",
+      "text": "Hacking the meat-frame grants Meat Vision to the Skull Jammer for [[1D6]] turns.",
       "range": [
         7,
         7
@@ -111,7 +111,7 @@
     },
     {
       "type": "text",
-      "text": "Keytar Solo! Sick tunes spew forth from the Skull Jammer’s deck, granting allies a +3 to hit and to damage their next turn.",
+      "text": "Keytar Solo! Sick tunes spew forth from the Skull Jammer's deck, granting allies a +3 to hit and to damage their next turn.",
       "range": [
         8,
         8
@@ -126,7 +126,7 @@
     },
     {
       "type": "text",
-      "text": "Cut the feed. Target the Skull Jammer can see goes blind for the next 1D6 turns.",
+      "text": "Cut the feed. Target the Skull Jammer can see goes Blind for the next [[1D6]] turns.",
       "range": [
         9,
         9
@@ -141,7 +141,7 @@
     },
     {
       "type": "text",
-      "text": "Computer waves equal Brainwaves. The Hack enables the Skull Jammer to take over the action of a target they can see during that target’s next turn.",
+      "text": "Computer waves equal Brainwaves. The Hack enables the Skull Jammer to take over the action of a target they can see during that target's next turn.",
       "range": [
         10,
         10
@@ -156,7 +156,7 @@
     },
     {
       "type": "text",
-      "text": "GOOD GAME! Complete win for the Skull Jammer dealing an additional 1D8 damage and regaining 1D8 Hack Points.",
+      "text": "GOOD GAME! Complete win for the Skull Jammer dealing an additional [[1D8]] damage and regaining [[1D8]] Hack Points.",
       "range": [
         11,
         11
@@ -171,7 +171,7 @@
     },
     {
       "type": "text",
-      "text": "Days of Thunder! A sound screeches on the tape deck. It’s loud and annoying and all enemies within earshot (100ft) must roll on the Fear Table against the Skull Jammer.",
+      "text": "Days of Thunder! A sound screeches on the tape deck. It's loud and annoying and all enemies within earshot (100ft) must roll on the Fear Table against the Skull Jammer.",
       "range": [
         12,
         12
@@ -186,7 +186,7 @@
     },
     {
       "type": "text",
-      "text": "An upload of the media virus turns a target the Skull Jammer can see to stone. On a failed Resolve Saving Throw, the target is turned completely to stone. They take 1D6 damage fighting off the cold, creeping stone on a successful save.",
+      "text": "An upload of the media virus turns a target the Skull Jammer can see to stone. On a failed Resolve Saving Throw, the target is turned completely to stone. They take [[1D6]] damage fighting off the cold, creeping stone on a successful save.",
       "range": [
         13,
         13
@@ -201,7 +201,7 @@
     },
     {
       "type": "text",
-      "text": "Pwned! The Hack emits a digital buzzsaw flying at an enemy of the Skull Jammer’s choice, dealing 1D8+2 damage. If the target would die, it is sawed in half by the digital blade.",
+      "text": "Pwned! The Hack emits a digital buzzsaw flying at an enemy of the Skull Jammer's choice, dealing [[1D8+2]] damage. If the target would die, it is sawed in half by the digital blade.",
       "range": [
         14,
         14
@@ -216,7 +216,7 @@
     },
     {
       "type": "text",
-      "text": "Microwave insanity. The toxic nature of the computer waves blast out of the Skull Jammer’s deck right into the face of an adjacent enemy dealing 1D10+2 damage and melting their face off.",
+      "text": "Microwave insanity. The toxic nature of the computer waves blast out of the Skull Jammer's deck right into the face of an adjacent enemy dealing [[1D10+2]] damage and melting their face off.",
       "range": [
         15,
         15
@@ -231,7 +231,7 @@
     },
     {
       "type": "text",
-      "text": "Double Whammy. The Hack makes a copy of itself, and you can choose a new target for the copy! (Or send ‘em both straight at the first target).",
+      "text": "Double Whammy. The Hack makes a copy of itself, and you can choose a new target for the copy! (Or send 'em both straight at the first target).",
       "range": [
         16,
         16
@@ -261,7 +261,7 @@
     },
     {
       "type": "text",
-      "text": "NOOB ANNIHILATOR. The Hack overcharges your Tape Deck and shoots an additional beam of pure computer waves, sizzling them in a beam of neon light and dealing 1D12 damage!",
+      "text": "NOOB ANNIHILATOR. The Hack overcharges your Tape Deck and shoots an additional beam of pure computer waves, sizzling them in a beam of neon light and dealing [[1D12]] damage!",
       "range": [
         18,
         18
@@ -276,7 +276,7 @@
     },
     {
       "type": "text",
-      "text": "One with the Machine. The computer waves are visible and you can manipulate them in ways you could only have dreamed of! For 1D6+Brains Mod turns, you can cast any Hacks without making Hack Checks.",
+      "text": "One with the Machine. The computer waves are visible and you can manipulate them in ways you could only have dreamed of! For [[1D6]]+Brains Mod turns, you can cast any Hacks without making Hack Checks.",
       "range": [
         19,
         19
@@ -291,7 +291,7 @@
     },
     {
       "type": "text",
-      "text": "GET REKT!!! The Hack was hardwired with some real serious stuff! Choose 1D4 additional Hacks and cast them without making Hack Checks.",
+      "text": "GET REKT!!! The Hack was hardwired with some real serious stuff! Choose [[1D4]] additional Hacks and cast them without making Hack Checks.",
       "range": [
         20,
         20
