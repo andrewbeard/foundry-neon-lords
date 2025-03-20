@@ -1,0 +1,27 @@
+{
+  "name": "Fear Roll",
+  "type": "script",
+  "command": "const actor = game.user.character;\nif (!actor) {\n  ui.notifications.warn(\"No character selected!\");\n  return;\n}\nconst die_type = [\n  \"d20\",\n  \"d20\",\n  \"d12\",\n  \"d12\",\n  \"d10\",\n  \"d8\",\n  \"d6\",\n  \"d6\",\n  \"d4\"\n]\n\nconsole.log(actor);\n\nif (actor.system.level.value > 9) {\n  ChatMessage.create({content: \"[Fear] FEARLESS!\", speaker: {actor: actor._id}});\n} else {\n  const pack = game.packs.get(\"neon-lords.tables\");\n  if (!pack) {\n    ui.notifications.warn(\"Pack table not found!\");\n    return;\n  }\n  pack.getIndex();\n  tableID = pack.index.find(t => t.name === 'Fear')._id;\n  if (!tableID) {\n    ui.notifications.warn(\"Fear table not found!\");\n    return;\n  }\n  const roll = new Roll(die_type[actor.system.level.value - 1], actor.getRollData());\n  pack.getDocument(tableID).then(table => table.draw({roll}));\n}",
+  "img": "icons/svg/dice-target.svg",
+  "author": "l18XFo7VCP3jkSA6",
+  "scope": "global",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.6",
+    "createdTime": 1742438363766,
+    "modifiedTime": 1742438363766,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "_id": "aQLdqG8uo97mODsu",
+  "sort": 0,
+  "_key": "!macros!aQLdqG8uo97mODsu"
+}
