@@ -35,9 +35,9 @@
     "Item": {
       "attack": "Attack",
       "feature": "Feature",
+      "gear": "Gear",
       "hairstyle": "Hairstyle",
-      "item": "Item", 
-      "mutation": "Mutation",
+      "mutation": "Mutation", 
       "spell": "Spell"
     }
   }

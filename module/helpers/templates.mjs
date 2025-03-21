@@ -9,7 +9,7 @@ export const preloadHandlebarsTemplates = async function () {
     'systems/neon-lords/templates/actor/parts/actor-attacks.hbs',
     'systems/neon-lords/templates/actor/parts/actor-effects.hbs',
     'systems/neon-lords/templates/actor/parts/actor-features.hbs',
-    'systems/neon-lords/templates/actor/parts/actor-items.hbs',
+    'systems/neon-lords/templates/actor/parts/actor-gear.hbs',
     'systems/neon-lords/templates/actor/parts/actor-mutations.hbs',
     'systems/neon-lords/templates/actor/parts/actor-spells.hbs',
     // Item partials

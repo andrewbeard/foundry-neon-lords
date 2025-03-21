@@ -1,6 +1,6 @@
 import NeonLordsItemBase from "./base-item.mjs";
 
-export default class NeonLordsItem extends NeonLordsItemBase {
+export default class NeonLordsGear extends NeonLordsItemBase {
 
   static defineSchema() {
     const fields = foundry.data.fields;

@@ -49,8 +49,8 @@ Hooks.once('init', function () {
   CONFIG.Item.dataModels = {
     attack: models.NeonLordsAttack,
     feature: models.NeonLordsFeature,
+    gear: models.NeonLordsGear,
     hairstyle: models.NeonLordsHairstyle,
-    item: models.NeonLordsItem,
     mutation: models.NeonLordsMutation,
     spell: models.NeonLordsSpell
   }

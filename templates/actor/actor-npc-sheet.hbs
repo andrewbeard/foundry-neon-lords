@@ -56,7 +56,7 @@
     {{!-- Default tab is specified in actor-sheet.mjs --}}
     <a class="item" data-tab="attributes">Attributes</a>
     <a class="item" data-tab="description">Description</a>
-    <a class="item" data-tab="items">Items</a>
+    <a class="item" data-tab="gear">Gear</a>
     <a class="item" data-tab="effects">Effects</a>
   </nav>
 
@@ -93,9 +93,9 @@
       {{editor enrichedBiography target="system.biography" engine="prosemirror" button=true editable=editable}}
     </div>
 
-    {{!-- Owned Items Tab --}}
-    <div class="tab items" data-group="primary" data-tab="items">
-       {{> "systems/neon-lords/templates/actor/parts/actor-items.hbs"}}
+    {{!-- Owned Gear Tab --}}
+    <div class="tab gear" data-group="primary" data-tab="gear">
+       {{> "systems/neon-lords/templates/actor/parts/actor-gear.hbs"}}
     </div>
 
     {{!-- Active Effects Tab --}}
