@@ -65,6 +65,7 @@
     <a class="item" data-tab="attributes">Attributes</a>
     <a class="item" data-tab="description">Description</a>
     <a class="item" data-tab="gear">Gear</a>
+    <a class="item" data-tab="spells">Spells</a>
     <a class="item" data-tab="effects">Effects</a>
   </nav>
 
@@ -88,6 +89,9 @@
           <div class="attacks flexcol">
             {{> "systems/neon-lords/templates/actor/parts/actor-attacks.hbs"}}
           </div>
+          <div class="features flexcol" style="padding-top: 15px;">
+            {{> "systems/neon-lords/templates/actor/parts/actor-features.hbs"}}
+          </div>
           <div class="mutations flexcol" style="padding-top: 15px;">
             {{> "systems/neon-lords/templates/actor/parts/actor-mutations.hbs"}}
           </div>
@@ -104,6 +108,11 @@
     {{!-- Owned Gear Tab --}}
     <div class="tab gear" data-group="primary" data-tab="gear">
        {{> "systems/neon-lords/templates/actor/parts/actor-gear.hbs"}}
+    </div>
+
+    {{!-- Owned Spells Tab --}}
+    <div class="tab spells" data-group="primary" data-tab="spells">
+      {{> "systems/neon-lords/templates/actor/parts/actor-spells.hbs"}}
     </div>
 
     {{!-- Active Effects Tab --}}
