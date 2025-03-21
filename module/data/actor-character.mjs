@@ -21,6 +21,10 @@ export default class NeonLordsCharacter extends NeonLordsActorBase {
       value: new fields.NumberField({ ...requiredInteger, initial: 1 })
     });
 
+    schema.xp = new fields.SchemaField({
+      value: new fields.NumberField({ ...requiredInteger, initial: 0 })
+    });
+
     // Iterate over ability names and create a new SchemaField for each.
     schema.abilities = new fields.SchemaField(abilities_list.reduce((obj, ability) => {
       obj[ability] = new fields.SchemaField({
