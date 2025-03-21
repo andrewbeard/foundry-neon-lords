@@ -1,0 +1,329 @@
+{
+  "folder": "rF8MHXzhHgBf1UC1",
+  "name": "Creeps Total Bummer!",
+  "_id": "NuMJFMnEhDcEQNns",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "XhSYLmTdi1X2RZmy",
+      "text": "The creep’s attack brushes by the target’s neck scratching an itch that has been bothering them for a while. Gain 1 Fortune Point.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!NuMJFMnEhDcEQNns.XhSYLmTdi1X2RZmy"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "2bd5T6l79VptgyKZ",
+      "text": "The bumbling creep steps on their own foot, tail, slithers onto a rock, etc, letting out a howl, yell, hiss, dealing [[1D2]] damage to itself.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!NuMJFMnEhDcEQNns.2bd5T6l79VptgyKZ"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "exs3jyIHfzfQWgyj",
+      "text": "The creep’s wild swing leaves them off balance. Not only do they miss, they fall hard taking [[1D4]] damage and spend their next turn getting up.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!NuMJFMnEhDcEQNns.exs3jyIHfzfQWgyj"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "Q8cQohpyLOZ8kcpo",
+      "text": "The brave skumdog manages to evade the creep’s attack, leaving them open for a counterstrike. The creep receives a -4 penalty to their AC until the end of the next turn.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!NuMJFMnEhDcEQNns.Q8cQohpyLOZ8kcpo"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "mTVHpOk2vNPsa6Hm",
+      "text": "A mighty parry by the skumdog! They swing back dealing normal damage to the creep.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!NuMJFMnEhDcEQNns.mTVHpOk2vNPsa6Hm"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "8PFn4uOCTuBGniDT",
+      "text": "The creep breaks a nail, tooth, weapon, etc taking [[1D4]] damage and is no longer able to use that attack.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!NuMJFMnEhDcEQNns.8PFn4uOCTuBGniDT"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "QrCCORrTvkR07uf8",
+      "text": "A bullheaded rush attack, the skumdog evades leaving the creep running past them by up to 15ft. If a wall is hit the creep suffers [[1D6]] damage.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!NuMJFMnEhDcEQNns.QrCCORrTvkR07uf8"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "MQJ5hIr6sCMjjrEr",
+      "text": "The blood and gore is thick on the floor. The creep has a hard time not slipping and falling. For [[1D4]] turns the creep must make an Agility Saving Throw or go Prone.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!NuMJFMnEhDcEQNns.MQJ5hIr6sCMjjrEr"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "COg5RFrXGHLZ7z9a",
+      "text": "The creep’s attack misses it’s intended target and hits one of their allies dealing normal damage.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!NuMJFMnEhDcEQNns.COg5RFrXGHLZ7z9a"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "QxZLuUqdjTV2JWx2",
+      "text": "This creep is out for blood! Ignore the fumble and re-roll the attack.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!NuMJFMnEhDcEQNns.QxZLuUqdjTV2JWx2"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_id": "uijwz4He4kIcNZYu",
+      "text": "Raising their weapon over their head the creep gets a whiff of their own decrepit body odor. Snarls in dis- gust and drops their weapon and must use their next action to pick it up or draw a new one.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!NuMJFMnEhDcEQNns.uijwz4He4kIcNZYu"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_id": "qsqajgRFmwYBgV0D",
+      "text": "By sheer luck the torchlight or sunlight bounces off armor and weapons right into the creep’s eyes. Temporarily blinded the creep makes all attacks with a -4 penalty until the end of the next turn.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!NuMJFMnEhDcEQNns.qsqajgRFmwYBgV0D"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "_id": "mr9e56EFOUlVIn5t",
+      "text": "Luck is not on the creep’s side. Until the end of combat the creep fumbles on a 1 or 2.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!NuMJFMnEhDcEQNns.mr9e56EFOUlVIn5t"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "_id": "BHCrjUHQJneGszJT",
+      "text": "The sight of the skumdogz frightens the creep. Roll on the Fear Table against the Warparty.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!NuMJFMnEhDcEQNns.BHCrjUHQJneGszJT"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "_id": "aPuOOUUfKiN1khZ0",
+      "text": "Their utter lack of combat knowledge leaves them wide open letting the skumdogz gain an additional +6 attack and damage until the end of the next turn.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!NuMJFMnEhDcEQNns.aPuOOUUfKiN1khZ0"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "_id": "hCsM3HwSNk5hJpn7",
+      "text": "A wild swing comes right back around and the creep strikes themselves for normal damage.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!NuMJFMnEhDcEQNns.hCsM3HwSNk5hJpn7"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "_id": "2fdLiG20TYcQc5Ff",
+      "text": "Creeps don’t not play well with others. All allies around him take a swing at the creep.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!NuMJFMnEhDcEQNns.2fdLiG20TYcQc5Ff"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "_id": "qQGTbyFmW3U6MGn7",
+      "text": "The creep strikes themselves dealing normal damage with an additional +4.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!NuMJFMnEhDcEQNns.qQGTbyFmW3U6MGn7"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "_id": "uyI8oOcnddomu6Mk",
+      "text": "Another creep steps in their way and receives a roll on the creep’s To The Max! chart.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!NuMJFMnEhDcEQNns.uyI8oOcnddomu6Mk"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "_id": "aRHZCZIZIKkMdqKB",
+      "text": "The creep falls on a scumdog’s weapon and is impaled or shot, killing them instantly.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!NuMJFMnEhDcEQNns.aRHZCZIZIKkMdqKB"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.6",
+    "createdTime": 1742577625050,
+    "modifiedTime": 1742577902294,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "formula": "1D20",
+  "_key": "!tables!NuMJFMnEhDcEQNns"
+}
