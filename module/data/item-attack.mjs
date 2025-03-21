@@ -7,7 +7,8 @@ export default class NeonLordsAttack extends NeonLordsItemBase {
     const schema = super.defineSchema();
 
     schema.bonus = new fields.NumberField({ required: true, nullable: false, integer: true, initial: 0 });
-    schema.damage = new fields.StringField({ required: true, nullable: false, blank: true, trim: true });
+    schema.damage_roll = new fields.StringField({ required: true, nullable: false, blank: true, trim: true });
+    schema.damage_type = new fields.StringField({ required: true, nullable: false, blank: true, trim: true });
     schema.special = new fields.StringField({ required: true, nullable: false, blank: true, trim: true });
 
     return schema;
