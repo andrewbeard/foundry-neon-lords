@@ -64,6 +64,7 @@
     {{!-- Default tab is specified in actor-sheet.mjs --}}
     <a class="item" data-tab="attributes">Attributes</a>
     <a class="item" data-tab="description">Description</a>
+    <a class="item" data-tab="tothemax">To the MAX!</a>
     <a class="item" data-tab="gear">Gear</a>
     <a class="item" data-tab="spells">Spells</a>
     <a class="item" data-tab="effects">Effects</a>
@@ -103,6 +104,22 @@
     <div class="tab biography" data-group="primary" data-tab="description">
       {{!-- Editors must receive enriched text data from getData to properly handle rolls --}}
       {{editor enrichedBiography target="system.biography" engine="prosemirror" button=true editable=editable}}
+    </div>
+
+    {{!-- To the MAX! Tab --}}
+    <div class="tab tothemax" data-group="primary" data-tab="tothemax">
+      <div class="flexrow flex-group-center">
+        <label for="system.to_the_max_normal" class="resource-label flex-shrink">1-19</label>
+        <div class="resource-content flex-grow">
+          <textarea name="system.to_the_max_normal" rows="3">{{system.to_the_max_normal}}</textarea>
+        </div>
+      </div>
+      <div class="flexrow flex-group-center">
+        <label for="system.to_the_max_ouch" class="resource-label flex-shrink">20</label>
+        <div class="resource-content flex-grow">
+          <textarea name="system.to_the_max_ouch" rows="3">{{system.to_the_max_ouch}}</textarea>
+        </div>
+      </div>
     </div>
 
     {{!-- Owned Gear Tab --}}

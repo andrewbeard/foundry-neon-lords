@@ -364,3 +364,36 @@
 .neon-lords .effects .item .effect-controls {
   border: none;
 }
+
+.neon-lords .tab.tothemax .flex-shrink {
+  flex: 0 0 80px;  /* Don't grow, don't shrink, fixed width of 80px */
+  margin-right: 10px;
+  padding-top: 15px;  /* Add padding to vertically center with textarea */
+}
+
+.neon-lords .tab.tothemax .flex-grow {
+  flex: 1;  /* Grow to take up remaining space */
+}
+
+.neon-lords .tab.tothemax .flexrow {
+  margin-bottom: 10px;
+  align-items: flex-start;  /* Keep items aligned to top */
+}
+
+.neon-lords .tab.tothemax textarea {
+  width: 100%;
+  min-height: 60px;
+  resize: vertical;
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid #7a7971;
+  border-radius: 3px;
+  padding: 5px;
+  font-family: inherit;
+  line-height: 1.4;  /* Add consistent line height */
+}
+
+.neon-lords .tab.tothemax textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px #ff6400;
+  border-color: #ff6400;
+}

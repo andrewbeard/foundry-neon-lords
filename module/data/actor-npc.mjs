@@ -9,8 +9,10 @@ export default class NeonLordsNPC extends NeonLordsActorBase {
 
     schema.hd = new fields.NumberField({ ...requiredInteger, initial: 1, min: 0 });
     schema.xp = new fields.NumberField({ ...requiredInteger, initial: 0, min: 0 });
-    
-    return schema
+    schema.to_the_max_normal = new fields.StringField({ required: true, nullable: false, blank: true});
+    schema.to_the_max_ouch = new fields.StringField({ required: true, nullable: false, blank: true});
+
+    return schema;
   }
 
   prepareDerivedData() {
@@ -40,7 +42,13 @@ export default class NeonLordsNPC extends NeonLordsActorBase {
   }
 
   async #toTheMax() {
-    // FIXME: Implement this
+    const roll = new Roll("d20");
+    const result = await roll.evaluate();
+    if (result.total >= this.critRange) {
+      return this.to_the_max_ouch;
+    } else {
+      return this.to_the_max_normal;
+    }
   }
 
   async firearmToTheMax() {
