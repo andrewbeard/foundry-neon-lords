@@ -14,9 +14,9 @@
         and it will add a small amount of padding, a border, and will
         center all of its child elements content and text. --}}
         <div class="resource flex-group-center">
-          <label for="system.class" class="resource-label">Class</label>
+          <label for="system.className" class="resource-label">Class</label>
           <div class="resource-content flexrow flex-center flex-between">
-            <input type="text" name="system.class" value="{{system.class}}" data-dtype="String"/>
+            <input type="text" name="system.className" value="{{system.className}}" data-dtype="String"/>
           </div>
         </div>
 
@@ -71,7 +71,7 @@
         </div>
 
         <div class="resource flex-group-center">
-          <label for="system.cp.value" class="resource-label">{{system.cp.label}}</label>
+          <label for="system.cp.value" class="resource-label">{{system.class.classPointsLabel}}</label>
           <div class="resource-content flexrow flex-center flex-between">
             <input type="text" name="system.cp.value" value="{{system.cp.value}}" data-dtype="Number"/>
             <span> / </span>

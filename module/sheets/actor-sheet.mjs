@@ -282,7 +282,7 @@ export class NeonLordsActorSheet extends ActorSheet {
       }
 
       // For all other rolls (including attacks), just show the result
-      this._handleSimpleRoll(dataset.roll, label);
+      this._handleSimpleRoll(dataset, label);
       return;
     }
   }
@@ -314,30 +314,43 @@ export class NeonLordsActorSheet extends ActorSheet {
 
   /**
    * Handle a simple roll without target number
-   * @param {string} formula The roll formula
-   * @param {string} label The roll label
+   * @param {object} dataset The dataset of the roll
+   * @param {string} label The label of the roll
    * @private
    */
-  async _handleSimpleRoll(formula, label) {
-    const roll = new Roll(formula, this.actor.getRollData());
+  async _handleSimpleRoll(dataset, label) {
+    const roll = new Roll(dataset.roll, this.actor.getRollData());
     const result = await roll.evaluate();
     
     // Check for fumble on attack rolls (natural 1)
     const isAttack = label.includes('[Attack]');
     const isFumble = isAttack && result.terms[0].results[0].result === 1;
     const isToTheMax = isAttack && result.terms[0].results[0].result === 20;
-
     
     const resultText = isFumble 
       ? `<span style="color: #990000; font-weight: bold;">Fumble!</span> (${result.total})`
       : isToTheMax
       ? `<span style="color: #009900; font-weight: bold;">TO THE MAX!!</span> (${result.total})`
       : `Roll: ${result.total}`;
-    
+
     roll.toMessage({
       speaker: ChatMessage.getSpeaker({ actor: this.actor }),
       flavor: `${label}<br>${resultText}`,
       rollMode: game.settings.get('core', 'rollMode')
     });
+    if (isFumble) {
+      if (dataset.firearm === "true") {
+        this.actor.system.firearmTotalBummer();
+      } else {
+        this.actor.system.meleeTotalBummer();
+      }
+    }
+    if (isToTheMax) {
+      if (dataset.firearm === "true") {
+        this.actor.system.firearmToTheMax();
+      } else {
+        this.actor.system.meleeToTheMax();
+      }
+    }
   }
 }

@@ -46,4 +46,18 @@ export default class NeonLordsActorBase extends NeonLordsDataModel {
     return schema;
   }
 
+  getTable(tableName) {
+    const pack = game.packs.get("neon-lords.tables");
+    if (!pack) {
+      console.error("Pack table not found!");
+      return;
+    }
+    pack.getIndex();
+    const tableObj = pack.index.find(t => t.name === tableName);
+    if (!tableObj) {
+      console.error("Table " + tableName + " not found!");
+      return;
+    }
+    return pack.getDocument(tableObj._id);
+  }
 }

@@ -1,4 +1,5 @@
 import NeonLordsActorBase from "./base-actor.mjs";
+import NeonLordsClassFactory from "../classes/class-factory.mjs";
 
 const abilities_list = [
   "burliness",
@@ -34,11 +35,10 @@ export default class NeonLordsCharacter extends NeonLordsActorBase {
     }, {}));
 
     schema.castAbility = new fields.StringField({ required: true, nullable: false, trim: true, initial: "brains" })
-    schema.class = new fields.StringField({ required: true, nullable: false, trim: true, blank: true });
+    schema.className = new fields.StringField({ required: true, nullable: false, trim: true, blank: true });
     schema.cp = new fields.SchemaField({
       value: new fields.NumberField({ ...requiredInteger, initial: 10, min: 0 }),
       max: new fields.NumberField({ ...requiredInteger, initial: 10, min:0 }),
-      label: new fields.StringField({ required: true, nullable: false, trim: true, initial: "Class Points" })
     });
     return schema;
   }
@@ -66,6 +66,7 @@ export default class NeonLordsCharacter extends NeonLordsActorBase {
     for (const key in this.abilities) {
       this.abilities[key].mod = this.#calculateMod(this.abilities[key].value);
     }
+    this.class = NeonLordsClassFactory.getClass(this.className);
   }
 
   getRollData() {
@@ -82,5 +83,43 @@ export default class NeonLordsCharacter extends NeonLordsActorBase {
     data.lvl = this.level.value;
 
     return data
+  }
+
+  firearmTotalBummer() {
+    const rollTable = this.getTable("Firearms Total Bummer!");
+    rollTable.then(table => table.draw());
+  }
+
+  meleeTotalBummer() {
+    const rollTable = this.getTable("Total Bummer!");
+    rollTable.then(table => table.draw());
+  }
+
+  spellcastingTotalBummer() {
+    const rollTable = this.getTable(this.class.spellcastingTotalBummerTable);
+    rollTable.then(table => table.draw());
+  }
+
+  firearmToTheMax() {
+    if (!this.class.firearmToTheMaxTable) {
+      // Might want to stick a double damage message here
+      return;
+    }
+    const rollTable = this.getTable(this.class.firearmToTheMaxTable);
+    rollTable.then(table => table.draw());
+  }
+
+  meleeToTheMax() {
+    const rollTable = this.getTable(this.class.meleeToTheMaxTable);
+    const roll = new Roll(this.class.meleeToTheMaxDie, this.getRollData());
+    rollTable.then(table => table.draw({roll}));
+  }
+
+  spellcastingToTheMax() {
+    if (!this.class.spellcastingToTheMaxTable) {
+      return;
+    }
+    const rollTable = this.getTable(this.class.spellcastingToTheMaxTable);
+    rollTable.then(table => table.draw());
   }
 }
