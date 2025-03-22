@@ -102,8 +102,18 @@ export default class NeonLordsCharacter extends NeonLordsActorBase {
 
   firearmToTheMax() {
     if (!this.class.firearmToTheMaxTable) {
-      // Might want to stick a double damage message here
-      return;
+      const speaker = ChatMessage.getSpeaker({ actor: this.actor });
+      const rollMode = game.settings.get('core', 'rollMode');
+  
+      // If there's no roll data, send a chat message.
+      if (!this.system.formula) {
+        ChatMessage.create({
+          speaker: speaker,
+          rollMode: rollMode,
+          content: "Head shot, double damage!"
+        });
+        return;
+      }
     }
     const rollTable = this.getTable(this.class.firearmToTheMaxTable);
     rollTable.then(table => table.draw());
