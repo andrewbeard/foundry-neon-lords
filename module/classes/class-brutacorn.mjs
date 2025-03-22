@@ -9,7 +9,7 @@ export default class NeonLordsBrutacornClass extends NeonLordsClassBase {
     return "Mythical";
   }
 
-  get classPointsTablee() {
+  get classPointsTable() {
     return this.name + " - Class Points";
   }
 
