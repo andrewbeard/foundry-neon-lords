@@ -30,6 +30,9 @@ export default class NeonLordsActorBase extends NeonLordsDataModel {
     schema.movement = new fields.SchemaField({
       value: new fields.NumberField({ ...requiredInteger, initial: 30, min: 0 }),
     });
+    schema.spellCheck = new fields.SchemaField({
+      value: new fields.NumberField({ ...requiredInteger, initial: 18, min: 1 }),
+    });
     schema.saves = new fields.SchemaField(saves_list.reduce((obj, save) => {
       obj[save] = new fields.SchemaField({
         value: new fields.NumberField({ ...requiredInteger, initial: 10, min: 0 }),
