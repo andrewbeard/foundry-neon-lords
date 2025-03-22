@@ -14,7 +14,7 @@ export default class NeonLordsStarSpawnClass extends NeonLordsClassBase {
   }
 
   get gearSlots() {
-    return 2;
+    return 4;
   }
 
   get meleeToTheMaxTable() {
