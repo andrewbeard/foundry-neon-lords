@@ -85,51 +85,47 @@ export default class NeonLordsCharacter extends NeonLordsActorBase {
     return data
   }
 
-  firearmTotalBummer() {
-    const rollTable = this.getTable("Firearms Total Bummer!");
-    rollTable.then(table => table.draw());
+  async firearmTotalBummer() {
+    const rollTable = await this.getTable("Firearms Total Bummer!");
+    const result = await rollTable.draw({displayChat: false});
+    return result.results[0].text;
   }
 
-  meleeTotalBummer() {
-    const rollTable = this.getTable("Total Bummer!");
-    rollTable.then(table => table.draw());
+  async meleeTotalBummer() {
+    const rollTable = await this.getTable("Total Bummer!");
+    const result = await rollTable.draw({displayChat: false});
+    return result.results[0].text;
   }
 
-  spellcastingTotalBummer() {
-    const rollTable = this.getTable(this.class.spellcastingTotalBummerTable);
-    rollTable.then(table => table.draw());
+  async spellcastingTotalBummer() {
+    const rollTable = await this.getTable(this.class.spellcastingTotalBummerTable);
+    const result = await rollTable.draw({displayChat: false});
+    return result.results[0].text;
   }
 
-  firearmToTheMax() {
+  async firearmToTheMax() {
     if (!this.class.firearmToTheMaxTable) {
-      const speaker = ChatMessage.getSpeaker({ actor: this.actor });
-      const rollMode = game.settings.get('core', 'rollMode');
-  
-      // If there's no roll data, send a chat message.
-      if (!this.system.formula) {
-        ChatMessage.create({
-          speaker: speaker,
-          rollMode: rollMode,
-          content: "Head shot, double damage!"
-        });
-        return;
-      }
+      // If there's firearms table just send a generic message
+        return "Head shot, double damage!";
     }
-    const rollTable = this.getTable(this.class.firearmToTheMaxTable);
-    rollTable.then(table => table.draw());
+    const rollTable = await this.getTable(this.class.firearmToTheMaxTable);
+    const result = await rollTable.draw({displayChat: false});
+    return result.results[0].text;
   }
 
-  meleeToTheMax() {
-    const rollTable = this.getTable(this.class.meleeToTheMaxTable);
+  async meleeToTheMax() {
+    const rollTable = await this.getTable(this.class.meleeToTheMaxTable);
     const roll = new Roll(this.class.meleeToTheMaxDie, this.getRollData());
-    rollTable.then(table => table.draw({roll}));
+    const result = await rollTable.draw({roll: roll, displayChat: false});
+    return result.results[0].text;
   }
 
-  spellcastingToTheMax() {
+  async spellcastingToTheMax() {
     if (!this.class.spellcastingToTheMaxTable) {
       return;
     }
-    const rollTable = this.getTable(this.class.spellcastingToTheMaxTable);
-    rollTable.then(table => table.draw());
+    const rollTable = await this.getTable(this.class.spellcastingToTheMaxTable);
+    const result = await rollTable.draw({displayChat: false});
+    return result.results[0].text;
   }
 }

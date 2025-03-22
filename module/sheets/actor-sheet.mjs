@@ -327,30 +327,36 @@ export class NeonLordsActorSheet extends ActorSheet {
     const isFumble = isAttack && result.terms[0].results[0].result === 1;
     const isToTheMax = isAttack && result.terms[0].results[0].result === 20;
     
-    const resultText = isFumble 
-      ? `<span style="color: #990000; font-weight: bold;">Fumble!</span> (${result.total})`
-      : isToTheMax
-      ? `<span style="color: #009900; font-weight: bold;">TO THE MAX!!</span> (${result.total})`
-      : `Roll: ${result.total}`;
+    let resultText;
+    if (isFumble) {
+      resultText = `<span style="color: #990000; font-weight: bold;">Fumble!</span> (${result.total})<br><br>`;
+      if (dataset.firearm === "true") {
+        resultText += await this.actor.system.firearmTotalBummer();
+      } else {
+        resultText += await this.actor.system.meleeTotalBummer();
+      }
+    } else if (isToTheMax) {
+      resultText = `<span style="color: #009900; font-weight: bold;">TO THE MAX!!</span> (${result.total})<br><br>`;
+      if (dataset.firearm === "true") {
+        resultText += await this.actor.system.firearmToTheMax();
+      } else {
+        resultText += await this.actor.system.meleeToTheMax();
+      }
+    } else {
+      resultText = `Roll: ${result.total}`;
+    }
+    const enrichedResultText = await TextEditor.enrichHTML(resultText, {
+      secrets: this.actor.isOwner,
+      async: true,
+      rollData: this.actor.getRollData(),
+      relativeTo: this.actor,
+    });
 
     roll.toMessage({
       speaker: ChatMessage.getSpeaker({ actor: this.actor }),
-      flavor: `${label}<br>${resultText}`,
+      flavor: `${label}<br>${enrichedResultText}`,
       rollMode: game.settings.get('core', 'rollMode')
     });
-    if (isFumble) {
-      if (dataset.firearm === "true") {
-        this.actor.system.firearmTotalBummer();
-      } else {
-        this.actor.system.meleeTotalBummer();
-      }
-    }
-    if (isToTheMax) {
-      if (dataset.firearm === "true") {
-        this.actor.system.firearmToTheMax();
-      } else {
-        this.actor.system.meleeToTheMax();
-      }
-    }
+
   }
 }

@@ -17,36 +17,37 @@ export default class NeonLordsNPC extends NeonLordsActorBase {
     this.xp = this.hd * 10;
   }
 
-  #totalBummer() {
-    const rollTable = this.getTable("Creeps Total Bummer!");
-    rollTable.then(table => table.draw());
+  async #totalBummer() {
+    const rollTable = await this.getTable("Creeps Total Bummer!");
+    const result = await rollTable.draw({displayChat: false});
+    return result.results[0].text;
   }
 
-  firearmTotalBummer() {
-    this.#totalBummer();
+  async firearmTotalBummer() {
+    return this.#totalBummer();
   }
 
-  meleeTotalBummer() {
-    this.#totalBummer();
+  async meleeTotalBummer() {
+    return this.#totalBummer();
   }
 
-  spellcastingTotalBummer() {
-    this.#totalBummer();
+  async spellcastingTotalBummer() {
+    return this.#totalBummer();
   }
 
-  #toTheMax() {
+  async #toTheMax() {
     // FIXME: Implement this
   }
 
-  firearmToTheMax() {
-    this.#toTheMax();
+  async firearmToTheMax() {
+    return this.#toTheMax();
   }
 
-  meleeToTheMax() {
-    this.#toTheMax();
+  async meleeToTheMax() {
+    return this.#toTheMax();
   }
 
-  spellcastingToTheMax() {
-    this.#toTheMax();
+  async spellcastingToTheMax() {
+    return this.#toTheMax();
   }
 }
