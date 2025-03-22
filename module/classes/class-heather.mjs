@@ -1,20 +1,24 @@
 import NeonLordsClassBase from "./base-class.mjs";
 
-export default class NeonLordsCosmicBarbarianClass extends NeonLordsClassBase {
+export default class NeonLordsHEATHERClass extends NeonLordsClassBase {
   get name() {
-    return "Cosmic Barbarian";
+    return "H.E.A.T.H.E.R.";
   }
 
   get classPointName() {
-    return "Cosmic";
+    return "Hella";
   }
 
   get classPointsTable() {
     return this.name + " - Class Points";
   }
 
+  get firearmToTheMaxTable() {
+    return this.name + " - To the MAX!";
+  }
+
   get gearSlots() {
-    return 2;
+    return 3;
   }
 
   get meleeToTheMaxTable() {

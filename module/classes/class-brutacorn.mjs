@@ -24,20 +24,4 @@ export default class NeonLordsBrutacornClass extends NeonLordsClassBase {
   get meleeToTheMaxTable() {
     return this.name + " - To the MAX!";
   }
-
-  get meleeToTheMaxDie() {
-    return "d20"
-  }
-
-  get spellcastingAbility() {
-    return "brains";
-  }
-
-  get spellcastingBummerTable() {
-    return "Spell Misfire";
-  }
-
-  get spellcastingToTheMaxTable() {
-    return null;
-  }
 }

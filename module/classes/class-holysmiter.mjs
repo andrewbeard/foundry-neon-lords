@@ -1,12 +1,12 @@
 import NeonLordsClassBase from "./base-class.mjs";
 
-export default class NeonLordsCosmicBarbarianClass extends NeonLordsClassBase {
+export default class NeonLordsHolySmiterClass extends NeonLordsClassBase {
   get name() {
-    return "Cosmic Barbarian";
+    return "Holy Smiter";
   }
 
   get classPointName() {
-    return "Cosmic";
+    return "Faith";
   }
 
   get classPointsTable() {
@@ -19,5 +19,9 @@ export default class NeonLordsCosmicBarbarianClass extends NeonLordsClassBase {
 
   get meleeToTheMaxTable() {
     return this.name + " - To the MAX!";
+  }
+
+  get spellcastingBummerTable() {
+    return "Prayers Total Bummer!";
   }
 }

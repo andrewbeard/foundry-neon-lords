@@ -1,16 +1,20 @@
 import NeonLordsClassBase from "./base-class.mjs";
 
-export default class NeonLordsCosmicBarbarianClass extends NeonLordsClassBase {
+export default class NeonLordsDeathBringerClass extends NeonLordsClassBase {
   get name() {
-    return "Cosmic Barbarian";
+    return "Death Bringer";
   }
 
   get classPointName() {
-    return "Cosmic";
+    return "Fury";
   }
 
   get classPointsTable() {
     return this.name + " - Class Points";
+  }
+
+  get critRange() {
+    return 19;
   }
 
   get gearSlots() {

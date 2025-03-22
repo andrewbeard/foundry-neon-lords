@@ -1,26 +1,20 @@
-export default class NeonLordsClassBase {
+import NeonLordsClassBase from "./base-class.mjs";
+
+export default class NeonLordsWarWizardClass extends NeonLordsClassBase {
   get name() {
-    return "None";
+    return "War Wizard";
   }
 
   get classPointName() {
-    return "Class";
+    return "Khaos";
   }
 
   get classPointsTable() {
-    return null;
-  }
-
-  get critRange() {
-    return 20;
-  }
-
-  get firearmToTheMaxTable() {
-    return null;
+    return this.name + " - Class Points";
   }
 
   get gearSlots() {
-    return 2;
+    return 6;
   }
 
   get meleeToTheMaxTable() {
@@ -28,7 +22,7 @@ export default class NeonLordsClassBase {
   }
 
   get meleeToTheMaxDie() {
-    return "d20";
+    return "d6";
   }
 
   get spellcastingAbility() {
@@ -40,6 +34,6 @@ export default class NeonLordsClassBase {
   }
 
   get spellcastingToTheMaxTable() {
-    return null;
+    return this.name + " - To the MAX!";  
   }
 }

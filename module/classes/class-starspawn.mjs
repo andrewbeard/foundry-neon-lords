@@ -1,22 +1,16 @@
-export default class NeonLordsClassBase {
+import NeonLordsClassBase from "./base-class.mjs";
+
+export default class NeonLordsStarSpawnClass extends NeonLordsClassBase {
   get name() {
-    return "None";
+    return "Star Spawn";
   }
 
   get classPointName() {
-    return "Class";
+    return "Psychic";
   }
 
   get classPointsTable() {
-    return null;
-  }
-
-  get critRange() {
-    return 20;
-  }
-
-  get firearmToTheMaxTable() {
-    return null;
+    return this.name + " - Class Points";
   }
 
   get gearSlots() {
@@ -28,7 +22,7 @@ export default class NeonLordsClassBase {
   }
 
   get meleeToTheMaxDie() {
-    return "d20";
+    return "d8";
   }
 
   get spellcastingAbility() {
@@ -36,10 +30,10 @@ export default class NeonLordsClassBase {
   }
 
   get spellcastingBummerTable() {
-    return "Spell Misfire";
+    return "Hacking Total Bummer!";
   }
 
   get spellcastingToTheMaxTable() {
-    return null;
+    return this.name + " - To the MAX!";  
   }
 }
