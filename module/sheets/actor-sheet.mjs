@@ -325,7 +325,7 @@ export class NeonLordsActorSheet extends ActorSheet {
     // Check for fumble on attack rolls (natural 1)
     const isAttack = label.includes('[Attack]');
     const isFumble = isAttack && result.terms[0].results[0].result === 1;
-    const isToTheMax = isAttack && result.terms[0].results[0].result === 20;
+    const isToTheMax = isAttack && result.terms[0].results[0].result >= this.actor.system.class.critRange;
     
     let resultText;
     if (isFumble) {
@@ -346,7 +346,6 @@ export class NeonLordsActorSheet extends ActorSheet {
       resultText = `Roll: ${result.total}`;
     }
     const enrichedResultText = await TextEditor.enrichHTML(resultText, {
-      secrets: this.actor.isOwner,
       async: true,
       rollData: this.actor.getRollData(),
       relativeTo: this.actor,
