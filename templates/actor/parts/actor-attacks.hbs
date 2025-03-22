@@ -25,13 +25,17 @@
               height='24'
           />
         </div>
-        <a class='item-name item-edit' title='Edit'>
-          <h4>{{item.name}}</h4>
-        </a>
+        <h4>{{item.name}}</h4>
       </div>
       <div class='item-bonus item-prop rollable' data-roll-category="Attack" data-roll="d20 + {{item.system.bonus}}" data-label="{{item.name}}">{{showSign item.system.bonus}}</div>
       <div class='item-damage item-prop rollable' data-roll-category="Damage" data-roll="{{item.system.damage_roll}}" data-label="{{item.name}}">{{item.system.damage_roll}} {{item.system.damage_type}}</div>
       <div class='item-controls'>
+        <a
+          class='item-control item-edit'
+          title='Edit'
+        >
+          <i class='fas fa-edit'></i>
+        </a>
         <a
           class='item-control item-delete'
           title='Delete'
