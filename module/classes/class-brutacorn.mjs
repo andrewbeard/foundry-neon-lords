@@ -13,7 +13,7 @@ export default class NeonLordsBrutacornClass extends NeonLordsClassBase {
     return this.name + " - Class Points";
   }
 
-  get firearmsToTheMaxTable() {
+  get firearmToTheMaxTable() {
     return this.name + " - To the MAX!";
   }
 

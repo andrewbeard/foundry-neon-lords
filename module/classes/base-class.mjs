@@ -11,7 +11,11 @@ export default class NeonLordsClassBase {
     return null;
   }
 
-  get firearmsToTheMaxTable() {
+  get critRange() {
+    return 20;
+  }
+
+  get firearmToTheMaxTable() {
     return null;
   }
 
