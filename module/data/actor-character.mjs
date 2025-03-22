@@ -109,8 +109,8 @@ export default class NeonLordsCharacter extends NeonLordsActorBase {
 
   async firearmToTheMax() {
     if (!this.class.firearmToTheMaxTable) {
-      // If there's firearms table just send a generic message
-        return "Head shot, double damage!";
+      // If there's firearm table just send a generic message
+      return "Head shot, double damage!";
     }
     const rollTable = await this.getTable(this.class.firearmToTheMaxTable);
     const result = await rollTable.draw({displayChat: false});
