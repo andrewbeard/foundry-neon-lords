@@ -63,18 +63,7 @@ export class NeonLordsItem extends Item {
     const rollMode = game.settings.get('core', 'rollMode');
     const label = `[${item.type}] ${item.name}`;
 
-    // For features, always send a chat message with the description
-    if (item.type === 'feature') {
-      ChatMessage.create({
-        speaker: speaker,
-        rollMode: rollMode,
-        flavor: label,
-        content: item.system.description ?? '',
-      });
-      return;
-    }
-
-    // For other items, handle as before
+    // If there's no roll data, send a chat message.
     if (!this.system.formula) {
       ChatMessage.create({
         speaker: speaker,
