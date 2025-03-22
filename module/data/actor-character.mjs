@@ -85,6 +85,10 @@ export default class NeonLordsCharacter extends NeonLordsActorBase {
     return data
   }
 
+  get critRange() {
+    return this.class.critRange;
+  }
+
   async firearmTotalBummer() {
     const rollTable = await this.getTable("Firearms Total Bummer!");
     const result = await rollTable.draw({displayChat: false});

@@ -17,6 +17,10 @@ export default class NeonLordsNPC extends NeonLordsActorBase {
     this.xp = this.hd * 10;
   }
 
+  get critRange() {
+    return 20;
+  }
+
   async #totalBummer() {
     const rollTable = await this.getTable("Creeps Total Bummer!");
     const result = await rollTable.draw({displayChat: false});
