@@ -93,6 +93,22 @@
       "documentId": null,
       "flags": {},
       "_key": "!tables.results!wWlK2fOLN8A6FakM.K0BbjYrbheo95SbK"
+    },
+    {
+      "type": "pack",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "1myrza2Zm0XeNrla",
+      "text": "Minor Mutations",
+      "img": "icons/svg/d20-grey.svg",
+      "documentId": "HyBQa4FGfKxwNOaw",
+      "flags": {},
+      "documentCollection": "neon-lords.tables",
+      "_key": "!tables.results!wWlK2fOLN8A6FakM.1myrza2Zm0XeNrla"
     }
   ],
   "replacement": true,
@@ -111,7 +127,7 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742093222099,
-    "modifiedTime": 1742156161388,
+    "modifiedTime": 1742690889652,
     "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
   "formula": "1D12",

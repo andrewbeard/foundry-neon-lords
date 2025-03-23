@@ -274,6 +274,38 @@
       "_key": "!tables.results!XYuWgOc7nYJ0LubY.YeqKEsrPgWNjQb35"
     },
     {
+      "type": "pack",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "_id": "63vUOjfBIR8zQH3l",
+      "text": "Minor Mutations",
+      "img": "icons/svg/d20-grey.svg",
+      "documentId": "HyBQa4FGfKxwNOaw",
+      "flags": {},
+      "documentCollection": "neon-lords.tables",
+      "_key": "!tables.results!XYuWgOc7nYJ0LubY.63vUOjfBIR8zQH3l"
+    },
+    {
+      "type": "pack",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "_id": "BEjyoyddaDdDsjyr",
+      "text": "Minor Mutations",
+      "img": "icons/svg/d20-grey.svg",
+      "documentId": "HyBQa4FGfKxwNOaw",
+      "flags": {},
+      "documentCollection": "neon-lords.tables",
+      "_key": "!tables.results!XYuWgOc7nYJ0LubY.BEjyoyddaDdDsjyr"
+    },
+    {
       "type": "text",
       "weight": 1,
       "range": [
@@ -281,12 +313,12 @@
         19
       ],
       "drawn": false,
-      "_id": "63vUOjfBIR8zQH3l",
+      "_id": "UKxjjqgyJbgJmi3v",
       "text": "Cast as intended, just hits the caster himself.",
       "img": "icons/svg/d20-black.svg",
       "documentId": null,
       "flags": {},
-      "_key": "!tables.results!XYuWgOc7nYJ0LubY.63vUOjfBIR8zQH3l"
+      "_key": "!tables.results!XYuWgOc7nYJ0LubY.UKxjjqgyJbgJmi3v"
     },
     {
       "type": "text",
@@ -296,12 +328,28 @@
         20
       ],
       "drawn": false,
-      "_id": "BEjyoyddaDdDsjyr",
+      "_id": "UnCSSNCS5CyM3lMb",
       "text": "Mind wipe: the caster forgets the spell permanently.",
       "img": "icons/svg/d20-black.svg",
       "documentId": null,
       "flags": {},
-      "_key": "!tables.results!XYuWgOc7nYJ0LubY.BEjyoyddaDdDsjyr"
+      "_key": "!tables.results!XYuWgOc7nYJ0LubY.UnCSSNCS5CyM3lMb"
+    },
+    {
+      "type": "pack",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "9vyZ6NRDYwRpaWBh",
+      "text": "Minor Mutations",
+      "img": "icons/svg/d20-grey.svg",
+      "documentId": "HyBQa4FGfKxwNOaw",
+      "flags": {},
+      "documentCollection": "neon-lords.tables",
+      "_key": "!tables.results!XYuWgOc7nYJ0LubY.9vyZ6NRDYwRpaWBh"
     }
   ],
   "replacement": true,
@@ -326,8 +374,8 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742090821210,
-    "modifiedTime": 1742312592140,
-    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+    "modifiedTime": 1742690757159,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
   "formula": "1D20",
   "_id": "XYuWgOc7nYJ0LubY",
