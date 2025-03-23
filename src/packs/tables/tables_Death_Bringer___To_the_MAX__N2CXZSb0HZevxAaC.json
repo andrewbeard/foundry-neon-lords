@@ -111,7 +111,7 @@
     },
     {
       "type": "text",
-      "text": "The Combat Enhancement Drugs finally kick in. Gain +3 attack and +3 AC bonus. Your muscles begin to swell to enormous size, gaining you an additional 1D12 damage die. The effect wears off in 4 turns.",
+      "text": "The Combat Enhancement Drugs finally kick in. Gain +3 attack and +3 AC bonus. Your muscles begin to swell to enormous size, gaining you an additional [[/roll 1D12]] damage die. The effect wears off in 4 turns.",
       "range": [
         8,
         8
@@ -171,7 +171,7 @@
     },
     {
       "type": "text",
-      "text": "Ancient forefathers call forth your name from the cosmos. Millions of years and galaxy-spanning battles unfold in your mind's eye in a brief moment that feels like an eternity. Using the knowledge gained from this glimpse into the past, you gain the ability to spend Brains Ability Points to deal more damage to your foes. For every Brains Point spent, add an additional 1D12 damage to this Attack.",
+      "text": "Ancient forefathers call forth your name from the cosmos. Millions of years and galaxy-spanning battles unfold in your mind's eye in a brief moment that feels like an eternity. Using the knowledge gained from this glimpse into the past, you gain the ability to spend Brains Ability Points to deal more damage to your foes. For every Brains Point spent, add an additional [[/roll 1D12]] damage to this Attack.",
       "range": [
         12,
         12

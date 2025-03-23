@@ -81,7 +81,7 @@
     },
     {
       "type": "text",
-      "text": "Are we going to prom or to hell? Loading Incendiary rounds your bullets deal an extra 1D6 damage and targets hit gain the Burning condition for the next 3 turns.",
+      "text": "Are we going to prom or to hell? Loading Incendiary rounds your bullets deal an extra [[/roll 1D6]] damage and targets hit gain the Burning condition for the next 3 turns.",
       "range": [
         6,
         6
@@ -231,7 +231,7 @@
     },
     {
       "type": "text",
-      "text": "Caution! Flammable! Hidden deep in a fanny pack or backpack, you find a can of Sprayed Stiff Unisex Hairspray and a lighter. Your normal attack deals normal damage then you take an additional attack against the closest enemy with your newfound weapon, setting their head on fire like they were in a soda commercial dealing 1D6 Burning damage. Flame on!",
+      "text": "Caution! Flammable! Hidden deep in a fanny pack or backpack, you find a can of Sprayed Stiff Unisex Hairspray and a lighter. Your normal attack deals normal damage then you take an additional attack against the closest enemy with your newfound weapon, setting their head on fire like they were in a soda commercial dealing [[/roll 1D6]] Burning damage. Flame on!",
       "range": [
         16,
         16

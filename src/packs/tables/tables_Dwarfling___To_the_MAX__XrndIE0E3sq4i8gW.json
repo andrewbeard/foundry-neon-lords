@@ -111,7 +111,7 @@
     },
     {
       "type": "text",
-      "text": "Can you give me a hand? Attack deals normal damage and crushes the opponent's hand. Roll 1D2: 1 - left hand, 2 - right hand. It is no longer usable.",
+      "text": "Can you give me a hand? Attack deals normal damage and crushes the opponent's hand. Roll [[1D2]]: 1 - left hand, 2 - right hand. It is no longer usable.",
       "range": [
         8,
         8
@@ -216,7 +216,7 @@
     },
     {
       "type": "text",
-      "text": "KISS MY AXE! The wild swing pays off, hitting two opponents with normal damage and dealing an additional 1D8 damage to each.",
+      "text": "KISS MY AXE! The wild swing pays off, hitting two opponents with normal damage and dealing an additional [[/roll 1D8]] damage to each.",
       "range": [
         15,
         15
@@ -291,7 +291,7 @@
     },
     {
       "type": "text",
-      "text": "Fortune favors the bold. Fate herself sways the outcome of the battle. For every Fortune Point you have, you may add 1D6 Spillover damage to the attack.",
+      "text": "Fortune favors the bold. Fate herself sways the outcome of the battle. For every Fortune Point you have, you may add [[/roll 1D6]] Spillover damage to the attack.",
       "range": [
         20,
         20

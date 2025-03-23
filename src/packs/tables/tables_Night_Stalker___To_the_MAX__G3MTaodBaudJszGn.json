@@ -81,7 +81,7 @@
     },
     {
       "type": "text",
-      "text": "Lightning-fast reflexes enable the Night Stalker to deal additional damage with the weapon they are using. Roll a number of D6s equal to the Night Stalker’s Prowess S.T.A.T.S. Modifier and add the total to the damage.",
+      "text": "Lightning-fast reflexes enable the Night Stalker to deal additional damage with the weapon they are using. Roll a number of D6s equal to the Night Stalker's Prowess S.T.A.T.S. Modifier and add the total to the damage.",
       "range": [
         6,
         6
@@ -186,7 +186,7 @@
     },
     {
       "type": "text",
-      "text": "The true art of Chuck comes to the mind’s eye of the Night Stalker, granting them an additional attack this turn.",
+      "text": "The true art of Chuck comes to the mind's eye of the Night Stalker, granting them an additional attack this turn.",
       "range": [
         13,
         13
@@ -201,7 +201,7 @@
     },
     {
       "type": "text",
-      "text": "A barrage of kicks and punches follow up the attack, making the Night Stalker a true karate commando! [[1D10]] Attacks hit for 1D4 damage each.",
+      "text": "A barrage of kicks and punches follow up the attack, making the Night Stalker a true karate commando! [[1D10]] attacks hit for [[/roll 1D4]] damage each.",
       "range": [
         14,
         14
@@ -231,7 +231,7 @@
     },
     {
       "type": "text",
-      "text": "Dragon blade technique. Art of an ancient dragon appears on your weapon of choice, granting the ability to deal an additional 1D6 damage with the said weapon until the Night Stalker takes damage.",
+      "text": "Dragon blade technique. Art of an ancient dragon appears on your weapon of choice, granting the ability to deal an additional [[/roll 1D6]] damage with the said weapon until the Night Stalker takes damage.",
       "range": [
         16,
         16
@@ -246,7 +246,7 @@
     },
     {
       "type": "text",
-      "text": "Ninja Storm! Allies from the Night Stalker's Chuck Dojo come to aid them in the battle! [[1D6]] Night Stalkers attack from the shadows, each dealing 1D6 damage to the target.",
+      "text": "Ninja Storm! Allies from the Night Stalker's Chuck Dojo come to aid them in the battle! [[1D6]] Night Stalkers attack from the shadows, each dealing [[/roll 1D6]] damage to the target.",
       "range": [
         17,
         17

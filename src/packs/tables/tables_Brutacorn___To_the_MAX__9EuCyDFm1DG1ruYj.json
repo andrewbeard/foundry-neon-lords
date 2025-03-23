@@ -35,7 +35,7 @@
     },
     {
       "type": "text",
-      "text": "Whatever you say, Daddy-O! A stylish trick shot, dealing an additional +[[1D4]] damage and gaining you that +[[1D4]] to your Attitude.",
+      "text": "Whatever you say, Daddy-O! A stylish trick shot, dealing an additional +[[1D4]] damage and gaining you +[[1D4]] to your Attitude.",
       "range": [
         3,
         3
@@ -215,7 +215,7 @@
     },
     {
       "type": "text",
-      "text": "Mega Lock! They can't hide from your super vision, granting you the ability to auto-hit the target until the end of your next turn. Deals an additional 1D8 this turn and the next.",
+      "text": "Mega Lock! They can't hide from your super vision, granting you the ability to auto-hit the target until the end of your next turn. Deals an additional [[/roll 1D8]] this turn and the next.",
       "range": [
         15,
         15
@@ -245,7 +245,7 @@
     },
     {
       "type": "text",
-      "text": "NAPALM ROUNDS! Load that bad boy up with some napalm, dealing an additional [[1D6]] damage and [[1D4]] damage at the conditions check phase for 2 turns.",
+      "text": "NAPALM ROUNDS! Load that bad boy up with some napalm, dealing an additional [[1D6]] damage and [[/roll 1D4]] damage at the conditions check phase for 2 turns.",
       "range": [
         17,
         17
@@ -260,7 +260,7 @@
     },
     {
       "type": "text",
-      "text": "Ancestors, heed my cries! [[1D4]] celestial unicorns come to your aid, charging at the target, each dealing [[1D8]] damage. If a target dies, the next unicorn moves onto the next available target.",
+      "text": "Ancestors, heed my cries! [[1D4]] celestial unicorns come to your aid, charging at the target, each dealing [[/roll1D8]] damage. If a target dies, the next unicorn moves onto the next available target.",
       "range": [
         18,
         18

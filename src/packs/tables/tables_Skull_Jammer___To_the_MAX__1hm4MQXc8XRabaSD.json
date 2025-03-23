@@ -81,7 +81,7 @@
     },
     {
       "type": "text",
-      "text": "Spray and pray! Digital bullets shoot out of the Skull Jammer's deck in a 15ft cone, hitting any enemies in the 30ft range for 1D8 damage.",
+      "text": "Spray and pray! Digital bullets shoot out of the Skull Jammer's deck in a 15ft cone, hitting any enemies in the 30ft range for [[/roll 1D8]] damage.",
       "range": [
         6,
         6

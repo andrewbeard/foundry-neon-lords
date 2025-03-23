@@ -66,7 +66,7 @@
     },
     {
       "type": "text",
-      "text": "Amplified by cosmic rays, the spell does an additional [[1D6]] damage and sends a magical beacon deep into space. There is a 10% chance an old god notices and responds.",
+      "text": "Amplified by cosmic rays, the spell does an additional [[1D6]] damage and sends a magical beacon deep into space. There is a 10% ([[1D100]]) chance an old god notices and responds.",
       "range": [
         5,
         5
@@ -111,7 +111,7 @@
     },
     {
       "type": "text",
-      "text": "The spell conjures butterflies... of death. Summon [[1D4]]+War Wizard Level in butterflies. The insects dive-bomb and explode on impact, each dealing an additional 1D4 damage to targets of the War Wizard's choosing.",
+      "text": "The spell conjures butterflies... of death. Summon [[1D4]]+War Wizard Level in butterflies. The insects dive-bomb and explode on impact, each dealing an additional [[/roll 1D4]] damage to targets of the War Wizard's choosing.",
       "range": [
         8,
         8
@@ -261,7 +261,7 @@
     },
     {
       "type": "text",
-      "text": "The spell deals no damage. Instead, it kills the target turning them inside-out in an explosion that sends bone shrapnel flying into foes within a 10ft radius. Each enemy takes 1D4+1 damage.",
+      "text": "The spell deals no damage. Instead, it kills the target turning them inside-out in an explosion that sends bone shrapnel flying into foes within a 10ft radius. Each enemy takes [[/roll 1D4+1]] damage.",
       "range": [
         18,
         18
@@ -276,7 +276,7 @@
     },
     {
       "type": "text",
-      "text": "Khaos Winds of Change. A shift in the Khaos Winds causes a chain reaction in the spell. It hits each enemy within eyesight of the initial target and deals normal damage plus an additional 1D6 to all targets.",
+      "text": "Khaos Winds of Change. A shift in the Khaos Winds causes a chain reaction in the spell. It hits each enemy within eyesight of the initial target and deals normal damage plus an additional [[/roll 1D6]] to all targets.",
       "range": [
         19,
         19
