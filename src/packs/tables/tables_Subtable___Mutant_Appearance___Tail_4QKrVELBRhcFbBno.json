@@ -1,0 +1,89 @@
+{
+  "folder": "hDrYqq038CrCLuYe",
+  "name": "Subtable - Mutant Appearance - Tail",
+  "_id": "4QKrVELBRhcFbBno",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "1Ij0yXad0A5cs51U",
+      "text": "Lizard Tail",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!4QKrVELBRhcFbBno.1Ij0yXad0A5cs51U"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "BzXJQIzsv8zKdm88",
+      "text": "Scorpion Tail ([[/roll 1D6]] tail attack)",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!4QKrVELBRhcFbBno.BzXJQIzsv8zKdm88"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "mIRvFqh9WaW738LP",
+      "text": "Monkey Tail",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!4QKrVELBRhcFbBno.mIRvFqh9WaW738LP"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "Efv8KR2GiUrIDSEO",
+      "text": "Rat Tail",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!4QKrVELBRhcFbBno.Efv8KR2GiUrIDSEO"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.8",
+    "createdTime": 1742824698984,
+    "modifiedTime": 1742825148538,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "formula": "1D4",
+  "_key": "!tables!4QKrVELBRhcFbBno"
+}

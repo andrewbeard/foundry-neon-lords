@@ -1,0 +1,221 @@
+{
+  "folder": "hDrYqq038CrCLuYe",
+  "name": "Mutant Appearance",
+  "_id": "wWzmjUlTi9EUMRvR",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "pack",
+      "documentCollection": "neon-lords.tables",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "text": "Subtable - Mutant Appearance - Bug Head",
+      "documentId": "vpVNsDT4HasNANkE",
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "PvXXTm8HXqaPoJRY",
+      "flags": {},
+      "_key": "!tables.results!wWzmjUlTi9EUMRvR.PvXXTm8HXqaPoJRY"
+    },
+    {
+      "type": "text",
+      "documentCollection": "neon-lords.tables",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "ub4bwkoqbRmXj5yA",
+      "text": "Pig Faced",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!wWzmjUlTi9EUMRvR.ub4bwkoqbRmXj5yA"
+    },
+    {
+      "type": "text",
+      "documentCollection": "neon-lords.tables",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "zcUkvmHVVArsRBIU",
+      "text": "Melted Skin",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!wWzmjUlTi9EUMRvR.zcUkvmHVVArsRBIU"
+    },
+    {
+      "type": "text",
+      "documentCollection": "neon-lords.tables",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "tnSMyI1Ghx2U6Hr3",
+      "text": "Green Skinned and Full of Pimples and Pus",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!wWzmjUlTi9EUMRvR.tnSMyI1Ghx2U6Hr3"
+    },
+    {
+      "type": "text",
+      "documentCollection": "neon-lords.tables",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "Z7PIiKsLRITHCZCv",
+      "text": "Fish-folk looking",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!wWzmjUlTi9EUMRvR.Z7PIiKsLRITHCZCv"
+    },
+    {
+      "type": "text",
+      "documentCollection": "neon-lords.tables",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "WWLwLIALMCFenyit",
+      "text": "4 Arms",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!wWzmjUlTi9EUMRvR.WWLwLIALMCFenyit"
+    },
+    {
+      "type": "text",
+      "documentCollection": "neon-lords.tables",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "MlECJJItNDmH4u8x",
+      "text": "Gnar Beast Humanoid Hybrid",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!wWzmjUlTi9EUMRvR.MlECJJItNDmH4u8x"
+    },
+    {
+      "type": "text",
+      "documentCollection": "neon-lords.tables",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "ZItMNw28wqYuR2Wd",
+      "text": "Monstrous mass of flesh with arms and a head",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!wWzmjUlTi9EUMRvR.ZItMNw28wqYuR2Wd"
+    },
+    {
+      "type": "text",
+      "documentCollection": "neon-lords.tables",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "Z8SdmFFKMwNxSTT5",
+      "text": "Skull-faced. The bone is a yellowish-green color.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!wWzmjUlTi9EUMRvR.Z8SdmFFKMwNxSTT5"
+    },
+    {
+      "type": "pack",
+      "documentCollection": "neon-lords.tables",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "text": "Subtable - Mutant Appearance - Tail",
+      "documentId": "4QKrVELBRhcFbBno",
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "mn1plNwAmyQ11DG3",
+      "flags": {},
+      "_key": "!tables.results!wWzmjUlTi9EUMRvR.mn1plNwAmyQ11DG3"
+    },
+    {
+      "type": "text",
+      "documentCollection": "neon-lords.tables",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_id": "oR0wzkXFXBh99Cg2",
+      "text": "Snake-like eyes and forked tongue",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!wWzmjUlTi9EUMRvR.oR0wzkXFXBh99Cg2"
+    },
+    {
+      "type": "pack",
+      "documentCollection": "neon-lords.tables",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "text": "Major Mutations",
+      "documentId": "dxroduQNRO4YNCPD",
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "B2oi9FUmfFHbariK",
+      "flags": {},
+      "_key": "!tables.results!wWzmjUlTi9EUMRvR.B2oi9FUmfFHbariK"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.8",
+    "createdTime": 1742824779611,
+    "modifiedTime": 1742825162212,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "formula": "1D12",
+  "_key": "!tables!wWzmjUlTi9EUMRvR"
+}
