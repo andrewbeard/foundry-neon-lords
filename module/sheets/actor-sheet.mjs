@@ -254,6 +254,19 @@ export class NeonLordsActorSheet extends ActorSheet {
       }
     }
 
+    // Handle HP reroll
+    if (dataset.label === 'NPC HP') {
+      const roll = new Roll(dataset.roll);
+      roll.evaluate().then(result => {
+        // Update the HP value with the roll result
+        this.actor.update({
+          'system.hp.value': result.total,
+          'system.hp.max': result.total
+        });
+      });
+      return;
+    }
+
     // Handle rolls that supply the formula directly.
     if (dataset.roll) {
       let type = dataset.rollCategory ? `[${dataset.rollCategory}] ` : '';
@@ -282,7 +295,7 @@ export class NeonLordsActorSheet extends ActorSheet {
       }
 
       // For all other rolls (including attacks), just show the result
-      this._handleSimpleRoll(dataset, label);
+      this._handleSimpleRoll(dataset.roll, label);
       return;
     }
   }

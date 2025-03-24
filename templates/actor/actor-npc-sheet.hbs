@@ -14,7 +14,12 @@
         and it will add a small amount of padding, a border, and will
         center all of its child elements content and text. --}}
         <div class="resource flex-group-center">
-          <label for="system.hp.value" class="resource-label">Hit Points</label>
+          <div class="flexrow flex-center">
+            <label for="system.hp.value" class="resource-label">HP</label>
+            <a class="rollable" data-roll="{{system.hd}}d6" data-label="NPC HP" title="Roll HP">
+              <i class="fas fa-dice"></i>
+            </a>
+          </div>
           <div class="resource-content flexrow flex-center flex-between">
             <input type="text" name="system.hp.value" value="{{system.hp.value}}" data-dtype="Number"/>
             <span> / </span>
