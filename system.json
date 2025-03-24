@@ -57,6 +57,14 @@
       "path": "packs/macros",
       "type": "Macro",
       "private": false
+    },
+    {
+      "name": "actors",
+      "label": "Core Rulez Actors",
+      "system": "neon-lords",
+      "path": "packs/actors",
+      "type": "Actor",
+      "private": false
     }
   ],
   "packFolders": [
@@ -67,7 +75,8 @@
       "packs": [
           "items",
           "tables",
-          "macros"
+          "macros",
+          "actors"
       ]
     }
   ],
