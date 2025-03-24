@@ -295,7 +295,7 @@ export class NeonLordsActorSheet extends ActorSheet {
       }
 
       // For all other rolls (including attacks), just show the result
-      this._handleSimpleRoll(dataset.roll, label);
+      this._handleSimpleRoll(dataset, label);
       return;
     }
   }
