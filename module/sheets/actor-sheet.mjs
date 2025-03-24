@@ -206,6 +206,46 @@ export class NeonLordsActorSheet extends ActorSheet {
         li.addEventListener('dragstart', handler, false);
       });
     }
+
+    // Add context menu for rollable links
+    html.find('.rollable').contextmenu(ev => {
+      ev.preventDefault();
+      const rollable = ev.currentTarget;
+      const roll = rollable.dataset.roll;
+      const label = rollable.dataset.label || 'Roll';
+      
+      // Create and show dialog
+      new Dialog({
+        title: `Add Modifier to ${label}`,
+        content: `
+          <form>
+            <div class="form-group">
+              <label>Modifier:</label>
+              <input type="number" name="modifier" value="0" step="1">
+            </div>
+          </form>
+        `,
+        buttons: {
+          roll: {
+            icon: '<i class="fas fa-dice"></i>',
+            label: 'Roll',
+            callback: (html) => {
+              const modifier = parseInt(html.find('input[name="modifier"]').val()) || 0;
+              // Update the dataset with the modified roll
+              rollable.dataset.roll = `${roll}${modifier >= 0 ? '+' : ''}${modifier}`;
+              rollable.dataset.label = `${label}${modifier >= 0 ? '+' : ''}${modifier}`;
+              // Trigger the roll using the existing _onRoll method
+              this._onRoll({ currentTarget: rollable, preventDefault: () => {} });
+            }
+          },
+          cancel: {
+            icon: '<i class="fas fa-times"></i>',
+            label: 'Cancel'
+          }
+        },
+        default: 'roll'
+      }).render(true);
+    });
   }
 
   /**
