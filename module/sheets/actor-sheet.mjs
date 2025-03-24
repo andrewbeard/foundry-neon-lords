@@ -231,11 +231,19 @@ export class NeonLordsActorSheet extends ActorSheet {
             label: 'Roll',
             callback: (html) => {
               const modifier = parseInt(html.find('input[name="modifier"]').val()) || 0;
-              // Update the dataset with the modified roll
-              rollable.dataset.roll = `${roll}${modifier >= 0 ? '+' : ''}${modifier}`;
-              rollable.dataset.label = `${label}${modifier >= 0 ? '+' : ''}${modifier}`;
+              // Create a synthetic event with the modified roll
+              const modifiedEvent = {
+                currentTarget: {
+                  dataset: {
+                    ...rollable.dataset,
+                    roll: `${roll}${modifier >= 0 ? '+' : ''}${modifier}`,
+                    label: `${label}${modifier >= 0 ? '+' : ''}${modifier}`
+                  }
+                },
+                preventDefault: () => {}
+              };
               // Trigger the roll using the existing _onRoll method
-              this._onRoll({ currentTarget: rollable, preventDefault: () => {} });
+              this._onRoll(modifiedEvent);
             }
           },
           cancel: {
