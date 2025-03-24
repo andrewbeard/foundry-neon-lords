@@ -1,0 +1,239 @@
+{
+  "name": "Drool-Aid Man",
+  "type": "npc",
+  "_id": "Lf1kVxdLWAU9mq1F",
+  "img": "systems/neon-lords/assets/creeps/droolaidman.webp",
+  "system": {
+    "hp": {
+      "value": 19,
+      "max": 19
+    },
+    "ac": {
+      "value": 13
+    },
+    "movement": {
+      "value": 30
+    },
+    "spellCheck": {
+      "value": 18
+    },
+    "saves": {
+      "grit": {
+        "value": 13
+      },
+      "agility": {
+        "value": 13
+      },
+      "resolve": {
+        "value": 13
+      },
+      "death": {
+        "value": 13
+      }
+    },
+    "biography": "<p>A sentient walking and killing crystal pitcher of Drool-Aid brand sugar-tastic drink mix. The Drool-Aid People are summoned to Terra-Realm from their home dimension of Burgerworld. Once summoned through ritual and incantation, the Drool-Aid Man can be enslaved by the caster and made to do their biddings.</p><p></p><p class=\"p1\">When at half of their starting life total the Drool-Aid Man begins to crack and spill toxic liquid. Anyone in melee combat with them takes 1D4 damage anytime their attack is successful. When the Drool-Aid Man dies it shatters and anyone within 10ft makes an Agility Saving Throw or be hit by shrapnel and toxic liquid. On a failed save they take 2D6 damage. A 10ft radius where the drool-aid man died becomes caustic and if any creature moves in the radius takes 1D6 damage per 5ft of travel.</p>",
+    "alignment": "Khaotic",
+    "hd": 5,
+    "xp": 0,
+    "to_the_max_normal": "Punch right to the face knocking out [[1D4]] Teeth, and dealing an additional [[1D6]] damage.",
+    "to_the_max_ouch": "FLAVOR BLAST! The Drool-Aid man vomits his insides on the target dissolving skin and intestines leaving nothing but a skeleton. Instant death."
+  },
+  "prototypeToken": {
+    "name": "Drool-Aid Man",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/neon-lords/assets/creeps/droolaidman.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": "cp"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "Fist",
+      "type": "attack",
+      "system": {
+        "description": "<p>Goes Dead Last</p>",
+        "bonus": 2,
+        "damage_roll": "2D6+2",
+        "damage_type": "",
+        "firearm": false,
+        "special": ""
+      },
+      "_id": "VMSHG4gAqbTF2pMn",
+      "img": "systems/neon-lords/assets/creeps/droolaidman.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "x53CwYXR1zhkCDCY": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "neon-lords",
+        "systemVersion": "0.0.8",
+        "createdTime": 1742830424870,
+        "modifiedTime": 1742830575361,
+        "lastModifiedBy": "x53CwYXR1zhkCDCY"
+      },
+      "_key": "!actors.items!Lf1kVxdLWAU9mq1F.VMSHG4gAqbTF2pMn"
+    },
+    {
+      "name": "Toxic",
+      "type": "feature",
+      "system": {
+        "description": "<p>When at half of their starting life total the Drool-Aid Man begins to crack and spill toxic liquid. Anyone in melee combat with them takes [[/roll 1D4]] damage anytime their attack is successful.</p>"
+      },
+      "_id": "zBeDBO90EpdJMnv2",
+      "img": "systems/neon-lords/assets/creeps/droolaidman.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "x53CwYXR1zhkCDCY": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "neon-lords",
+        "systemVersion": "0.0.8",
+        "createdTime": 1742830460728,
+        "modifiedTime": 1742830517698,
+        "lastModifiedBy": "x53CwYXR1zhkCDCY"
+      },
+      "_key": "!actors.items!Lf1kVxdLWAU9mq1F.zBeDBO90EpdJMnv2"
+    },
+    {
+      "name": "REALLY Toxic",
+      "type": "feature",
+      "system": {
+        "description": "<p>When the Drool-Aid Man dies it shatters and anyone within 10ft makes an Agility Saving Throw or be hit by shrapnel and toxic liquid. On a failed save they take [[/roll 2D6]] damage. A 10ft radius where the Drool-Aid Man died becomes caustic and if any creature moves in the radius takes [[/roll 1D6]] damage per 5ft of travel.</p>"
+      },
+      "_id": "nfG1f0IDgyWk6FOR",
+      "img": "systems/neon-lords/assets/creeps/droolaidman.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "x53CwYXR1zhkCDCY": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Actor.6vHDGtxnIeYaaUiD.Item.dpF65Rzvn4Xvkelj",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "neon-lords",
+        "systemVersion": "0.0.8",
+        "createdTime": 1742830541250,
+        "modifiedTime": 1742830541250,
+        "lastModifiedBy": "x53CwYXR1zhkCDCY"
+      },
+      "_key": "!actors.items!Lf1kVxdLWAU9mq1F.nfG1f0IDgyWk6FOR"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.8",
+    "createdTime": 1742830349084,
+    "modifiedTime": 1742830583931,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!actors!Lf1kVxdLWAU9mq1F"
+}
