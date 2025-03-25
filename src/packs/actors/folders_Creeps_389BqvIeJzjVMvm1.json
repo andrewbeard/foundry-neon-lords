@@ -1,0 +1,22 @@
+{
+  "name": "Creeps",
+  "sorting": "a",
+  "folder": null,
+  "type": "Actor",
+  "_id": "389BqvIeJzjVMvm1",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.8",
+    "createdTime": 1742862215734,
+    "modifiedTime": 1742862215734,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "_key": "!folders!389BqvIeJzjVMvm1"
+}

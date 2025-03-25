@@ -1,0 +1,22 @@
+{
+  "name": "Bros 4 Hire",
+  "sorting": "a",
+  "folder": null,
+  "type": "Actor",
+  "_id": "XDyjPQbMx8Mgo7Oo",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.8",
+    "createdTime": 1742862246204,
+    "modifiedTime": 1742862246204,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "_key": "!folders!XDyjPQbMx8Mgo7Oo"
+}

@@ -1,0 +1,183 @@
+{
+  "folder": "XDyjPQbMx8Mgo7Oo",
+  "name": "Lackey",
+  "type": "npc",
+  "_id": "v6A9Ccdlx404Fpk3",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hp": {
+      "value": 1,
+      "max": 1
+    },
+    "ac": {
+      "value": 9
+    },
+    "movement": {
+      "value": 30
+    },
+    "spellCheck": {
+      "value": 18
+    },
+    "saves": {
+      "grit": {
+        "value": 16
+      },
+      "agility": {
+        "value": 16
+      },
+      "resolve": {
+        "value": 16
+      },
+      "death": {
+        "value": 16
+      }
+    },
+    "biography": "<p>Paid help, more versatile than a Meat Shield. Will fight alongside the party.</p><p></p><p>Roll [[/roll 1D6]] to determine weapon:</p><ol><li><p>Dagger</p></li><li><p>Ripper</p></li><li><p>Slasher</p></li><li><p>Nailed Club</p></li><li><p>Hammer</p></li><li><p>Thrasher</p></li></ol>",
+    "alignment": "Neutral",
+    "hd": 1,
+    "xp": 0,
+    "to_the_max_normal": "",
+    "to_the_max_ouch": ""
+  },
+  "prototypeToken": {
+    "name": "Lackey",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": "cp"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "Weapon",
+      "type": "attack",
+      "system": {
+        "description": "",
+        "bonus": 0,
+        "damage_roll": "",
+        "damage_type": "",
+        "firearm": false,
+        "special": ""
+      },
+      "_id": "LBHOTirAYUwLWU4i",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "neon-lords",
+        "systemVersion": "0.0.8",
+        "createdTime": 1742863927413,
+        "modifiedTime": 1742863934521,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!actors.items!v6A9Ccdlx404Fpk3.LBHOTirAYUwLWU4i"
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.8",
+    "createdTime": 1742863640342,
+    "modifiedTime": 1742863777654,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "_key": "!actors!v6A9Ccdlx404Fpk3"
+}
