@@ -10,7 +10,7 @@ If you just want to start a Neon Lords game in Foundry VTT you're probably in th
 
 ## Mutations
 
-Mutations are implemented as Items internally (Foundry Items, which are more generic than just pieces of gear). You can roll on the Mutations tables included in the Core Rulez Tables Compendium and the result will be an Item that can be clicked on for additional details and then dragged and dropped onto a character sheet. It should then show upo as one of that character's mutations from then on.
+Mutations are implemented as Items internally (Foundry Items, which are more generic than just pieces of gear). You can roll on the Mutations tables included in the Core Rulez Tables Compendium and the result will be an Item that can be clicked on for additional details and then dragged and dropped onto a character sheet. It should then show up as one of that character's mutations from then on.
 
 ## Hairstyles
 
@@ -19,3 +19,6 @@ These are also implemented as Items. You can find all of them in the Items compe
 ## Fear
 
 The Fear table in Neon Lords is a little more complex than the other tables, as the die you use to roll on it is dependent on your level. There's no way to do that directly in a Rollable Table, so the system includes a macro (creatively named "Fear Roll") that will take the currently selected character's level (or hit dice) into account and roll the correct die size. You can roll on the table directly, but it will always use 1D20 unless you manually change it (which is no fun).
+
+## Roll Modifiers
+Right-click on any element on a character sheet that causes a die roll to pop up a dialog allowing you to add additional modifiers. Use this for applying things like range penalties/bonuses, modifiers from previous To The MAX! results, accounting for relevant mutations, or anything else where you need to change a specific roll. 
