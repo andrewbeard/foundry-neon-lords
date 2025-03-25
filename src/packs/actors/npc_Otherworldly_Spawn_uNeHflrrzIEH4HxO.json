@@ -1,5 +1,5 @@
 {
-  "folder": null,
+  "folder": "389BqvIeJzjVMvm1",
   "name": "Otherworldly Spawn",
   "type": "npc",
   "img": "systems/neon-lords/assets/creeps/otherworldlyspawn.webp",
@@ -170,11 +170,11 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.8",
     "createdTime": 1742830312899,
-    "modifiedTime": 1742830312899,
-    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+    "modifiedTime": 1742862230110,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
   "_id": "uNeHflrrzIEH4HxO",
-  "sort": 0,
+  "sort": 103125,
   "ownership": {
     "default": 0,
     "x53CwYXR1zhkCDCY": 3

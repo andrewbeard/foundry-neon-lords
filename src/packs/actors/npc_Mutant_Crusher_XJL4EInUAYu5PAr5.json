@@ -1,5 +1,5 @@
 {
-  "folder": null,
+  "folder": "389BqvIeJzjVMvm1",
   "name": "Mutant Crusher",
   "type": "npc",
   "img": "systems/neon-lords/assets/creeps/mutantcrusher.webp",
@@ -226,11 +226,11 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.8",
     "createdTime": 1742830305360,
-    "modifiedTime": 1742830305360,
-    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+    "modifiedTime": 1742862224283,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
   "_id": "XJL4EInUAYu5PAr5",
-  "sort": 0,
+  "sort": 150000,
   "ownership": {
     "default": 0,
     "x53CwYXR1zhkCDCY": 3

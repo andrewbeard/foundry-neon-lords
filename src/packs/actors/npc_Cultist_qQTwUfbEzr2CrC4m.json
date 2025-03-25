@@ -1,5 +1,5 @@
 {
-  "folder": null,
+  "folder": "389BqvIeJzjVMvm1",
   "name": "Cultist",
   "type": "npc",
   "img": "systems/neon-lords/assets/creeps/cultist.webp",
@@ -198,11 +198,11 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.8",
     "createdTime": 1742830288248,
-    "modifiedTime": 1742830288248,
-    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+    "modifiedTime": 1742862221008,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
   "_id": "qQTwUfbEzr2CrC4m",
-  "sort": 0,
+  "sort": 100000,
   "ownership": {
     "default": 0,
     "x53CwYXR1zhkCDCY": 3
