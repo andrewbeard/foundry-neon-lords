@@ -19,7 +19,7 @@
       "thumbnail": "systems/neon-lords/assets/Neon-Lords-logo-circle_4-1024x1024.png"
     }
   ],
-  "version": "0.0.8",
+  "version": "0.0.9",
   "compatibility": {
     "minimum": 12,
     "verified": "12.331"
@@ -82,7 +82,7 @@
   ],
   "socket": false,
   "manifest": "https://github.com/andrewbeard/foundry-neon-lords/releases/latest/download/system.json",
-  "download": "https://github.com/andrewbeard/foundry-neon-lords/releases/download/v0.0.8/neon-lords.zip",
+  "download": "https://github.com/andrewbeard/foundry-neon-lords/releases/download/v0.0.9/neon-lords.zip",
   "background": "systems/neon-lords/assets/Neon-Lords-logo-circle_4-1024x1024.png",
   "grid": {
     "distance": 5,
