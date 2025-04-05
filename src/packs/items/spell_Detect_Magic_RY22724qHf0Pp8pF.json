@@ -1,0 +1,32 @@
+{
+  "folder": "py3FX06HSFnYpFOd",
+  "name": "Detect Magic",
+  "type": "spell",
+  "_id": "RY22724qHf0Pp8pF",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>The radioactive nature of the Khaos Winds enables the War Wizard to detect their presence. Once cast, the War Wizard’s eyes begin to itch and bleed as they turn neon green. While the spell lasts, the War Wizard can see magic radiating from objects or creatures as a visible aura.</p>",
+    "spellLevel": 1,
+    "duration": "2 Turns",
+    "range": "30 ft",
+    "spellCheck": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.9",
+    "createdTime": 1743551441862,
+    "modifiedTime": 1743551497033,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "_key": "!items!RY22724qHf0Pp8pF"
+}

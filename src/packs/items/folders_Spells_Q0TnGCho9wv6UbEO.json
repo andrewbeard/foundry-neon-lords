@@ -1,11 +1,11 @@
 {
-  "name": "Hairstyles",
-  "sorting": "m",
+  "name": "Spells",
+  "sorting": "a",
   "folder": null,
   "type": "Item",
-  "_id": "t09UaTrMVwyIafde",
+  "_id": "Q0TnGCho9wv6UbEO",
   "description": "",
-  "sort": 100000,
+  "sort": 400000,
   "color": null,
   "flags": {},
   "_stats": {
@@ -13,10 +13,10 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "neon-lords",
-    "systemVersion": "0.0.4",
-    "createdTime": 1742391891355,
+    "systemVersion": "0.0.9",
+    "createdTime": 1743550641799,
     "modifiedTime": 1743550658678,
     "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
-  "_key": "!folders!t09UaTrMVwyIafde"
+  "_key": "!folders!Q0TnGCho9wv6UbEO"
 }

@@ -65,6 +65,14 @@
       "path": "packs/actors",
       "type": "Actor",
       "private": false
+    },
+    {
+      "name": "journal",
+      "label": "Core Rulez Journal",
+      "system": "neon-lords",
+      "path": "packs/journal",
+      "type": "JournalEntry",
+      "private": false
     }
   ],
   "packFolders": [
@@ -73,10 +81,11 @@
       "sorting": "m",
       "color": "#b8d153",
       "packs": [
+          "actors",
           "items",
-          "tables",
+          "journal",
           "macros",
-          "actors"
+          "tables"
       ]
     }
   ],

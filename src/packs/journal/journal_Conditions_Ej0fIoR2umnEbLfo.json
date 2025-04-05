@@ -1,0 +1,506 @@
+{
+  "name": "Conditions",
+  "_id": "Ej0fIoR2umnEbLfo",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Bleeding",
+      "type": "text",
+      "_id": "sk1A640XsLbv0SfC",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>The wound inflicted by a weapon or spell with Bleeding damage is too deep and the target keeps taking an additional [[/roll 1D4]] damage per Bleeding condition during the Check Conditions Phase. A bandage or gauze can end the Bleeding condition.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "neon-lords",
+        "systemVersion": "0.0.9",
+        "createdTime": 1743549549009,
+        "modifiedTime": 1743549651398,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!journal.pages!Ej0fIoR2umnEbLfo.sk1A640XsLbv0SfC"
+    },
+    {
+      "sort": 200000,
+      "name": "Blind",
+      "type": "text",
+      "_id": "LegKo00gEYfyNEJi",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Temporary or otherwise, blindness can occur. If blinded a skumdog suffers a -4 penalty to all attack rolls and a -2 penalty to AC. In addition he causes the party to suffer a -2 penalty on any initiative rolls.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "neon-lords",
+        "systemVersion": "0.0.9",
+        "createdTime": 1743549669582,
+        "modifiedTime": 1743549704495,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!journal.pages!Ej0fIoR2umnEbLfo.LegKo00gEYfyNEJi"
+    },
+    {
+      "sort": 300000,
+      "name": "Bloodlust",
+      "type": "text",
+      "_id": "iHjm9GxHYgA4lg9s",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>When a skumdog or creep gains the Bloodlust condition they have zero regard for their own life and the lives of their companions. Everyone is a target and they will fight to the death. While having the Bloodlust condition, the skumdog will never retreat combat and will kill or be killed. This effect lasts 1D6-Brains mod or until he sheds 10HP worth of blood.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "neon-lords",
+        "systemVersion": "0.0.9",
+        "createdTime": 1743549743993,
+        "modifiedTime": 1743549804136,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!journal.pages!Ej0fIoR2umnEbLfo.iHjm9GxHYgA4lg9s"
+    },
+    {
+      "sort": 400000,
+      "name": "Cursed!",
+      "type": "text",
+      "_id": "yp7GDlpDVO91cOCt",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>The Cursed! condition is found mainly on weapons, armor, and items. When something has the Cursed! condition the last creature who picks it up AND uses it or equips it, or tries to determine what it does cannot drop it. Some cursed things fuse with the body and the user is physically unable to drop it, while others deceive the mind of the user in thinking they cannot drop it. If a creature is cured the cursed item they are holding dissolves into black sand.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "neon-lords",
+        "systemVersion": "0.0.9",
+        "createdTime": 1743549834646,
+        "modifiedTime": 1743549834646,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!journal.pages!Ej0fIoR2umnEbLfo.yp7GDlpDVO91cOCt"
+    },
+    {
+      "sort": 500000,
+      "name": "Dazed",
+      "type": "text",
+      "_id": "7rsMS8SopLGXIITx",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>A dazed skumdog rolls a Resolve Saving Throw during the next Check Conditions Phase. <span class=\"s1\">If successful, they are no </span>longer dazed and they take their turn as normal.<span class=\"s2\"> If failed they </span>spend the turn seeing stars. This effect only lasts the one turn unless otherwise stated.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "neon-lords",
+        "systemVersion": "0.0.9",
+        "createdTime": 1743549947999,
+        "modifiedTime": 1743549965957,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!journal.pages!Ej0fIoR2umnEbLfo.7rsMS8SopLGXIITx"
+    },
+    {
+      "sort": 600000,
+      "name": "Deaf",
+      "type": "text",
+      "_id": "k5Bdf1Gp1fB9hHNl",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Temporary or otherwise, deafness can occur. If Deafened the skumdog auto-fails any roll involving hearing and is automatically surprised if the enemy comes from anywhere other than directly in front of them.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "neon-lords",
+        "systemVersion": "0.0.9",
+        "createdTime": 1743550002269,
+        "modifiedTime": 1743550018665,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!journal.pages!Ej0fIoR2umnEbLfo.k5Bdf1Gp1fB9hHNl"
+    },
+    {
+      "sort": 700000,
+      "name": "Drunk",
+      "type": "text",
+      "_id": "tqf12qu9KwS1NONv",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Drinking the fermented blood of a mummy or reveling in the latest victory comes with a price. Intoxication hinders the ability to dodge attacks or land attacks. While drunk skumdogz suffer a -2 penalty to all Prowess checks, Agility saving throws, and attack rolls. In addition skumdogz gain a <span class=\"s1\">+1 bonus to Attitude, a 20% </span>chance to gain the following: +4 bonus to Burliness and immunity to Fear and Madness.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "neon-lords",
+        "systemVersion": "0.0.9",
+        "createdTime": 1743550067517,
+        "modifiedTime": 1743550116638,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!journal.pages!Ej0fIoR2umnEbLfo.tqf12qu9KwS1NONv"
+    },
+    {
+      "sort": 800000,
+      "name": "Madness",
+      "type": "text",
+      "_id": "MP8G8pm2rVgrwPf3",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Many things can cause Madness. It can incur in many ways, from the gaze of an otherworldly being or the foul breath of a long-forgotten Lich king or even attempting to read a cursed scroll. It is the breaking of a man’s mind. Throughout their adventuring career a skumdog will gain Madness points. If a skumdog reaches a total of 10 Madness points they become insane and must retire from adventuring.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "neon-lords",
+        "systemVersion": "0.0.9",
+        "createdTime": 1743550142558,
+        "modifiedTime": 1743550170255,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!journal.pages!Ej0fIoR2umnEbLfo.MP8G8pm2rVgrwPf3"
+    },
+    {
+      "sort": 900000,
+      "name": "Paranoia",
+      "type": "text",
+      "_id": "RL4T0Eth5NKK05eJ",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>A skumdog who suffers from paranoia auto-fails any reaction rolls they make to aid another ally, and they cannot help another ally in any capacity. If a skumdog incurs 2 Paranoia condition points they can no longer trust anyone and must retire from adventuring. (NOTE: Paranoia condition points are permanent, but a skumdog can be “cured”)</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "neon-lords",
+        "systemVersion": "0.0.9",
+        "createdTime": 1743550195218,
+        "modifiedTime": 1743550228044,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!journal.pages!Ej0fIoR2umnEbLfo.RL4T0Eth5NKK05eJ"
+    },
+    {
+      "sort": 1000000,
+      "name": "Petrified",
+      "type": "text",
+      "_id": "wk79mILlDzXEqAEr",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>A skumdog is turned to stone. They cannot move or do any sort of action, ever. This can only be cured by a Remove Curse prayer, Wish spell, or drinking a cold refreshing can of Glug-Chug Brand Energy Drink (O.G. Recipe).</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "neon-lords",
+        "systemVersion": "0.0.9",
+        "createdTime": 1743550252939,
+        "modifiedTime": 1743550278095,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!journal.pages!Ej0fIoR2umnEbLfo.wk79mILlDzXEqAEr"
+    },
+    {
+      "sort": 1100000,
+      "name": "Prone",
+      "type": "text",
+      "_id": "Ub7F3RDnX9gdMr8O",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>A skumdog falls and can’t get up. The condition Prone differs from the missile attack prone in that it is not intentional. As a penalty, they must use an action to get back up. (Sometimes vs an Agility Saving Throw) In addition, the prone skumdog gets a -4 penalty to their AC. This differs from the missile attack prone as that does not cost an action to get back up.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "neon-lords",
+        "systemVersion": "0.0.9",
+        "createdTime": 1743550296248,
+        "modifiedTime": 1743550403085,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!journal.pages!Ej0fIoR2umnEbLfo.Ub7F3RDnX9gdMr8O"
+    },
+    {
+      "sort": 1200000,
+      "name": "Sugar Rush",
+      "type": "text",
+      "_id": "h0qGxbscphm6gfV8",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>While on a sugar rush the skumdog gains an additional +5ft to movement speed and an additional +1 to attack and a +1 to AC. These bonuses last for one turn. Then comes the CRASH. The turn after a SUGAR RUSH the skumdog suffers a -5ft to movement speed a -1 to attack and a -1 to their AC. They may offset the CRASH by taking more items granting the SUGAR RUSH condition. However, the CRASH will catch up and the skumdog suffers turns of CRASH equal to the amount of turns they had with the SUGAR RUSH.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "neon-lords",
+        "systemVersion": "0.0.9",
+        "createdTime": 1743550415053,
+        "modifiedTime": 1743550472072,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!journal.pages!Ej0fIoR2umnEbLfo.h0qGxbscphm6gfV8"
+    },
+    {
+      "sort": 1300000,
+      "name": "Unconscious",
+      "type": "text",
+      "_id": "6sDpAU4V5ND4DCaf",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Whether it be from a spell or 0 hit points, an unconscious skumdog falls prone. Since they are lifeless on the ground and can do nothing to defend themselves, any creature can approach them and make a Coup de Grace Attack. An ally can heal them using spells, potions, vitality sticks, etc to bring them to 1HP. If they do, then the skumdog is no longer unconscious and may perform actions and move on their next turn. (NOTE: At the beginning of the next turn, they are @UUID[.Ub7F3RDnX9gdMr8O]{Prone} according to the description above.)</p><p></p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "neon-lords",
+        "systemVersion": "0.0.9",
+        "createdTime": 1743550494249,
+        "modifiedTime": 1743550592776,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!journal.pages!Ej0fIoR2umnEbLfo.6sDpAU4V5ND4DCaf"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.9",
+    "createdTime": 1743549539872,
+    "modifiedTime": 1743549539872,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "_key": "!journal!Ej0fIoR2umnEbLfo",
+  "categories": []
+}

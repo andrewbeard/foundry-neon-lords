@@ -1,0 +1,136 @@
+{
+  "name": "Types of Damage",
+  "_id": "GolSNvsGoLOK5zXR",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Acid",
+      "type": "text",
+      "_id": "7x2QLxry2uojeMJt",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Acid damage ignores the target’s AC and stays on them until it is washed off. Acid damage deals the same amount of damage each turn during the Conditions Check Phase until washed off by any liquid.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "neon-lords",
+        "systemVersion": "0.0.9",
+        "createdTime": 1743551723251,
+        "modifiedTime": 1743551783905,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!journal.pages!GolSNvsGoLOK5zXR.7x2QLxry2uojeMJt"
+    },
+    {
+      "sort": 200000,
+      "name": "Bleeding",
+      "type": "text",
+      "_id": "5jpPWVVtjusPhEyZ",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Any attack with the Bleeding type damage inflicts a @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.sk1A640XsLbv0SfC]{Bleeding} condition on the target.</p><p></p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "neon-lords",
+        "systemVersion": "0.0.9",
+        "createdTime": 1743551808031,
+        "modifiedTime": 1743551902150,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!journal.pages!GolSNvsGoLOK5zXR.5jpPWVVtjusPhEyZ"
+    },
+    {
+      "sort": 300000,
+      "name": "Blowback",
+      "type": "text",
+      "_id": "EsSamxdIc90gsyVw",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>When a spell is cast by a user who isn’t the best at casting, or when a non-magic user casts a spell, there is a potential for them to take damage, as well. The volatile radioactive nature of the Khaos Winds can be harsh on someone not trained in the Black Arts. If Blowback occurs then the caster takes half the damage that was dealt.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "neon-lords",
+        "systemVersion": "0.0.9",
+        "createdTime": 1743551942119,
+        "modifiedTime": 1743551970904,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!journal.pages!GolSNvsGoLOK5zXR.EsSamxdIc90gsyVw"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.9",
+    "createdTime": 1743551711727,
+    "modifiedTime": 1743551711727,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "_key": "!journal!GolSNvsGoLOK5zXR",
+  "categories": []
+}
