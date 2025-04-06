@@ -1,7 +1,7 @@
 {
   "name": "Fear Roll",
   "type": "script",
-  "command": "const actor = game.user.character;\nif (!actor) {\n  ui.notifications.warn(\"No character selected!\");\n  return;\n}\nconst die_type = [\n  \"d20\",\n  \"d20\",\n  \"d12\",\n  \"d12\",\n  \"d10\",\n  \"d8\",\n  \"d6\",\n  \"d6\",\n  \"d4\"\n]\n\nconsole.log(actor);\nif (actor.type == \"character\") {\n  level = actor.system.level.value;\n} else {\n  level = actor.system.hd;\n}\n\nif (level > 9) {\n  ChatMessage.create({content: \"[Fear] FEARLESS!\", speaker: {actor: actor._id}});\n} else {\n  const pack = game.packs.get(\"neon-lords.tables\");\n  if (!pack) {\n    ui.notifications.warn(\"Pack table not found!\");\n    return;\n  }\n  pack.getIndex();\n  tableID = pack.index.find(t => t.name === 'Fear')._id;\n  if (!tableID) {\n    ui.notifications.warn(\"Fear table not found!\");\n    return;\n  }\n  const roll = new Roll(die_type[level - 1], actor.getRollData());\n  pack.getDocument(tableID).then(table => table.draw({roll}));\n}",
+  "command": "let actor = game.user.character;\nif (!actor) {\n  // If we don't have our own character check what token is controlled on the canvas\n  const selectedTokens = canvas.tokens.controlled;\n  if (!selectedTokens || selectedTokens.length === 0) {\n    ui.notifications.warn(\"No token selected!\");\n    return;\n  }\n  actor = selectedTokens[0].actor;\n}\nconst die_type = [\n  \"d20\",\n  \"d20\",\n  \"d12\",\n  \"d12\",\n  \"d10\",\n  \"d8\",\n  \"d6\",\n  \"d6\",\n  \"d4\"\n]\n\nif (actor.system.effective_level > 9) {\n  ChatMessage.create({content: \"[Fear] FEARLESS!\", speaker: {actor: actor._id}});\n} else {\n  const pack = game.packs.get(\"neon-lords.tables\");\n  if (!pack) {\n    ui.notifications.warn(\"Pack table not found!\");\n    return;\n  }\n  pack.getIndex();\n  tableID = pack.index.find(t => t.name === 'Fear')._id;\n  if (!tableID) {\n    ui.notifications.warn(\"Fear table not found!\");\n    return;\n  }\n  const roll = new Roll(die_type[actor.system.effective_level - 1], {});\n  pack.getDocument(tableID).then(table => table.draw({roll}));\n}",
   "img": "icons/svg/dice-target.svg",
   "author": "l18XFo7VCP3jkSA6",
   "scope": "global",
@@ -18,7 +18,7 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.6",
     "createdTime": 1742438363766,
-    "modifiedTime": 1742439319491,
+    "modifiedTime": 1743905465364,
     "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
   "_id": "aQLdqG8uo97mODsu",

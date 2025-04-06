@@ -67,6 +67,7 @@ export default class NeonLordsCharacter extends NeonLordsActorBase {
       this.abilities[key].mod = this.#calculateMod(this.abilities[key].value);
     }
     this.class = NeonLordsClassFactory.getClass(this.className);
+    this.effective_level = this.level.value;
   }
 
   getRollData() {

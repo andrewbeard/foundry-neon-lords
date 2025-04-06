@@ -16,6 +16,7 @@ export default class NeonLordsNPC extends NeonLordsActorBase {
   }
 
   prepareDerivedData() {
+    this.effective_level = this.hd;
     this.xp = this.hd * 10;
   }
 
