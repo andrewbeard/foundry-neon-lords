@@ -8,9 +8,9 @@ const saves_list = [
 ]
 
 const alignments_list = [
-    "Khaotic",
-    "Neutral",
-    "Lawful"
+  "Khaotic",
+  "Neutral",
+  "Lawful"
 ]
 
 export default class NeonLordsActorBase extends NeonLordsDataModel {
