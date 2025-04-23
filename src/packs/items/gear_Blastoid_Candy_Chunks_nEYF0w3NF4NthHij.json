@@ -5,7 +5,7 @@
   "_id": "nEYF0w3NF4NthHij",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "<p>Need a burst of sugar rush but don’t want the action to stop? Grab a bag of Blastoid™ brand candy chunks! Choke down a bag of these patent-pending shards of pure energy! As a Bonus action, you can down a bag and gain the SUGAR RUSH condition until the next turn.</p>",
+    "description": "<p>Need a burst of sugar rush but don’t want the action to stop? Grab a bag of Blastoid™ brand candy chunks! Choke down a bag of these patent-pending shards of pure energy! As a Bonus action, you can down a bag and gain the @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.h0qGxbscphm6gfV8]{Sugar Rush} condition until the next turn.</p>",
     "quantity": 1,
     "slots": 1,
     "value": 1
@@ -24,7 +24,7 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.9",
     "createdTime": 1745425534805,
-    "modifiedTime": 1745426308221,
+    "modifiedTime": 1745436515246,
     "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "_key": "!items!nEYF0w3NF4NthHij"

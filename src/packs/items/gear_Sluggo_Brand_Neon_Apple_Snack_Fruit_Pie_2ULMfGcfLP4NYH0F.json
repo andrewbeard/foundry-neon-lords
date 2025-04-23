@@ -5,7 +5,7 @@
   "_id": "2ULMfGcfLP4NYH0F",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "<p>These snack pies come in a wide variety of flavors, but the most popular, by far, is the Neon Apple. When eaten, the skumdog gains an additional 2 HP. The radioactive properties of the pie leave the mouth glowing neon green for an hour afterwards. The 2 HP is permanent and added to the scumdog’s Base HP.</p><p></p><p><strong>The Sluggo Curse</strong>: If a skumdog eats more than 3 Pies, they become addicted and roll on the @UUID[Compendium.neon-lords.tables.RollTable.HyBQa4FGfKxwNOaw]{Minor Mutations Table}.</p>",
+    "description": "<p>These snack pies come in a wide variety of flavors, but the most popular, by far, is the Neon Apple. When eaten, the skumdog gains an additional 2 HP. The radioactive properties of the pie leave the mouth glowing neon green for an hour afterwards. The 2 HP is permanent and added to the scumdog’s Base HP.</p><p><strong>The Sluggo Curse</strong>: If a skumdog eats more than 3 Pies, they become addicted and roll on the @UUID[Compendium.neon-lords.tables.RollTable.HyBQa4FGfKxwNOaw]{Minor Mutations Table}.</p>",
     "quantity": 1,
     "slots": 1,
     "value": 1
@@ -24,7 +24,7 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.9",
     "createdTime": 1745428208938,
-    "modifiedTime": 1745428473073,
+    "modifiedTime": 1745436591355,
     "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "_key": "!items!2ULMfGcfLP4NYH0F"

@@ -5,7 +5,7 @@
   "_id": "HERjzAfL3k3davBz",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "<p>Commonly referred to “Vit Stick” on the mean streets.Fixes all them boo-boos, regaining [[/roll 1D4+2]] Hit Points, but every dose has a 5% cumulative chance of addiction (1ST DOSE 5%, 2ND DOSE 10%, 3RD DOES 15%. ETC). If addicted, you can only be healed by vitality sticks. No long rest or magic can help you.</p>",
+    "description": "<p>Commonly referred to “Vit Stick” on the mean streets. Fixes all them boo-boos, regaining [[/roll 1D4+2]] Hit Points, but every dose has a 5% cumulative chance of addiction (1ST DOSE 5%, 2ND DOSE 10%, 3RD DOES 15%. ETC). If addicted, you can only be healed by vitality sticks. No long rest or magic can help you.</p>",
     "quantity": 1,
     "slots": 1,
     "value": 5
@@ -24,7 +24,7 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.9",
     "createdTime": 1745425994213,
-    "modifiedTime": 1745426312179,
+    "modifiedTime": 1745436615876,
     "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "_key": "!items!HERjzAfL3k3davBz"
