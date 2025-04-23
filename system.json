@@ -73,6 +73,14 @@
       "path": "packs/journal",
       "type": "JournalEntry",
       "private": false
+    },
+    {
+      "name": "lastoutpost",
+      "label": "Last Outpost on the Left",
+      "system": "neon-lords",
+      "path": "packs/lastoutpost",
+      "type": "Adventure",
+      "private": false
     }
   ],
   "packFolders": [
