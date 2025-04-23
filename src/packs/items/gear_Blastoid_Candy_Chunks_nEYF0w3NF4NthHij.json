@@ -1,0 +1,31 @@
+{
+  "folder": "VjjaDzv8Ml9XS56m",
+  "name": "Blastoid Candy Chunks",
+  "type": "gear",
+  "_id": "nEYF0w3NF4NthHij",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Need a burst of sugar rush but don’t want the action to stop? Grab a bag of Blastoid™ brand candy chunks! Choke down a bag of these patent-pending shards of pure energy! As a Bonus action, you can down a bag and gain the SUGAR RUSH condition until the next turn.</p>",
+    "quantity": 1,
+    "slots": 1,
+    "value": 1
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.9",
+    "createdTime": 1745425534805,
+    "modifiedTime": 1745426308221,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!nEYF0w3NF4NthHij"
+}

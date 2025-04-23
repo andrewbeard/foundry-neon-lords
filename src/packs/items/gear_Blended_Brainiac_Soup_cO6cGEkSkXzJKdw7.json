@@ -1,0 +1,31 @@
+{
+  "folder": "VjjaDzv8Ml9XS56m",
+  "name": "Blended Brainiac Soup",
+  "type": "gear",
+  "_id": "cO6cGEkSkXzJKdw7",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>This “refreshing” soup of the brain matter of a brainiac mutant adds an additional +3 to the Brains Ability Score for [[/roll 1D3]] turns. There is however, a side effect: There is a [[/roll 1d100]]{50%} chance the user gains the personality of the brainiac until their next long rest.</p>",
+    "quantity": 1,
+    "slots": 1,
+    "value": 5
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.9",
+    "createdTime": 1745427914446,
+    "modifiedTime": 1745427985382,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!cO6cGEkSkXzJKdw7"
+}

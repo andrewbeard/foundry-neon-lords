@@ -1,0 +1,31 @@
+{
+  "folder": "RfndsUz2eVnp6h4w",
+  "name": "Mega-Pump Kicks",
+  "type": "gear",
+  "_id": "y4N7HLS72CQKAq1T",
+  "img": "systems/neon-lords/assets/gear/megapumps.webp",
+  "system": {
+    "description": "<p>Be the envy of all the kids on your street with the all-new MEGA-PUMPS! Just a quick bonus action is all it takes to pump ‘em up and get you in the fight faster. The pump of air into these kicks enables the user to move an additional 10ft of movement during their next turn.</p>",
+    "quantity": 1,
+    "slots": 1,
+    "value": 100
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.9",
+    "createdTime": 1745429836800,
+    "modifiedTime": 1745430035180,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!y4N7HLS72CQKAq1T"
+}

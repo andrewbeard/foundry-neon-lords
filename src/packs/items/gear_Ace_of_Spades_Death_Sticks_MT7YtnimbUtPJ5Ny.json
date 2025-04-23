@@ -1,0 +1,31 @@
+{
+  "folder": "RfndsUz2eVnp6h4w",
+  "name": "Ace of Spades Death Sticks",
+  "type": "gear",
+  "_id": "MT7YtnimbUtPJ5Ny",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>For the real cowboy in all of us. These ain’t ya daddy’s death sticks - they’re full-bodied and come with quite a kick. They deal [[/roll 1D4]] damage per puff, but cause the user to roll on the @UUID[Compendium.neon-lords.tables.RollTable.BIDFFaLxG6ywrUF8]{Drug Effects} Table. Being super-expensive, with the signature Ace of Spades logo on each stick, they grant the user a +2 to their Attitude S.T.A.T.S.</p>",
+    "quantity": 1,
+    "slots": 1,
+    "value": 50
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.9",
+    "createdTime": 1745430258758,
+    "modifiedTime": 1745430376407,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!MT7YtnimbUtPJ5Ny"
+}

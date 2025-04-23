@@ -1,0 +1,22 @@
+{
+  "name": "Hyper-Lux",
+  "sorting": "a",
+  "folder": "c6ViwXUlbjpOmzhk",
+  "type": "Item",
+  "_id": "RfndsUz2eVnp6h4w",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.9",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!RfndsUz2eVnp6h4w"
+}

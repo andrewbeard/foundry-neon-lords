@@ -1,0 +1,31 @@
+{
+  "folder": "VjjaDzv8Ml9XS56m",
+  "name": "High Octane Freedom Potion",
+  "type": "gear",
+  "_id": "lXVH9dy3CfdA96zu",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>One swig of this epic brew and you’ll know why it’s Glug-Chug’s biggest competition! Not to mention, it’s endorsed by the President himself! Grants SURGE on the next roll when chugged. (SURGE is rolling two of the same dice for ANY roll and taking the higher result.)</p>",
+    "quantity": 1,
+    "slots": 1,
+    "value": 10
+  },
+  "effects": [],
+  "sort": 125000,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.9",
+    "createdTime": 1745426019424,
+    "modifiedTime": 1745426311196,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!lXVH9dy3CfdA96zu"
+}

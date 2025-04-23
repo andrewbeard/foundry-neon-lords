@@ -1,0 +1,89 @@
+{
+  "folder": "Wtjf1hUlJIEwPMRI",
+  "name": "Phantasmal Blade Type",
+  "_id": "yjWloGuZdxPij942",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "0BxlqhvkWE0hyHUW",
+      "text": "Dagger",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!yjWloGuZdxPij942.0BxlqhvkWE0hyHUW"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "8dtIqC5uijEVxdPX",
+      "text": "Ripper",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!yjWloGuZdxPij942.8dtIqC5uijEVxdPX"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "32m2p6EVDiMkvdSQ",
+      "text": "Slasher",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!yjWloGuZdxPij942.32m2p6EVDiMkvdSQ"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "yeavvLwTJG9Qs7BE",
+      "text": "Thrasher",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!yjWloGuZdxPij942.yeavvLwTJG9Qs7BE"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.9",
+    "createdTime": 1745434879449,
+    "modifiedTime": 1745434913082,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "formula": "1D4",
+  "_key": "!tables!yjWloGuZdxPij942"
+}

@@ -1,0 +1,31 @@
+{
+  "folder": "VjjaDzv8Ml9XS56m",
+  "name": "Meat Treet Brand Jellied Meat In A Can",
+  "type": "gear",
+  "_id": "GwBD327g9DFBe7D4",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Accept no substitutes. Now with 30% more jelly flavor! Primarily Goblinoid bait, but it can be consumed. If eaten, there is a [[/roll 1d100]]{50%} chance it will heal [[/roll 1D4]] Hit Points. If failed, it deals 2 points of damage.</p>",
+    "quantity": 1,
+    "slots": 1,
+    "value": 1
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.9",
+    "createdTime": 1745427752596,
+    "modifiedTime": 1745427884232,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!GwBD327g9DFBe7D4"
+}

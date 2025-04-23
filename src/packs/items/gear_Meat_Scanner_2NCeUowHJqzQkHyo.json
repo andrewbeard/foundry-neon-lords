@@ -1,0 +1,31 @@
+{
+  "folder": "RfndsUz2eVnp6h4w",
+  "name": "Meat Scanner",
+  "type": "gear",
+  "_id": "2NCeUowHJqzQkHyo",
+  "img": "systems/neon-lords/assets/gear/meatscanner.webp",
+  "system": {
+    "description": "<p>Small personal deck-sized scanner that can detect anything made of meat within a 30ft radius. Can scan through walls. Meat appears as a red dot on the green vector screen, making a “Meat Signature”. Powered by nuke-batteries.</p>",
+    "quantity": 1,
+    "slots": 1,
+    "value": 250
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.9",
+    "createdTime": 1745429598889,
+    "modifiedTime": 1745429746527,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!2NCeUowHJqzQkHyo"
+}

@@ -1,0 +1,31 @@
+{
+  "folder": "RfndsUz2eVnp6h4w",
+  "name": "Glug-Chug Black",
+  "type": "gear",
+  "_id": "vf4lc7sGiuvsnEJj",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>The elite designer line of the world's most popular energy drink brand. Once chugged, not only is your thirst nuked, but you gain a +2 to the stat of your choice. This is permanent.</p>",
+    "quantity": 1,
+    "slots": 1,
+    "value": 200
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.9",
+    "createdTime": 1745429548923,
+    "modifiedTime": 1745429579233,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!vf4lc7sGiuvsnEJj"
+}

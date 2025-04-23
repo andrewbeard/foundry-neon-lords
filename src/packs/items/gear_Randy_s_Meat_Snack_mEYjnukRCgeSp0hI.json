@@ -1,0 +1,31 @@
+{
+  "folder": "VjjaDzv8Ml9XS56m",
+  "name": "Randy's Meat Snack",
+  "type": "gear",
+  "_id": "mEYjnukRCgeSp0hI",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Mechanically separated Gnar Beast meat, pressed into a stick. These babies are spiced just right and restore 1 HP per stick.</p>",
+    "quantity": 3,
+    "slots": 1,
+    "value": 1
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.9",
+    "createdTime": 1745426473669,
+    "modifiedTime": 1745426505952,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!mEYjnukRCgeSp0hI"
+}

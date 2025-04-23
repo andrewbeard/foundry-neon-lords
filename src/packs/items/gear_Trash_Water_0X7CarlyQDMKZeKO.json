@@ -1,0 +1,31 @@
+{
+  "folder": "VjjaDzv8Ml9XS56m",
+  "name": "Trash Water",
+  "type": "gear",
+  "_id": "0X7CarlyQDMKZeKO",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Booze made by Street Trash and other nefarious groups out there. Word to the wise: If it’s glowing bright green, you probably shouldn’t drink it. When a shot is taken, the skumdog must make a Grit Save or become drunk. If a skumdog has the Addiction condition for Trash Water, they must consume it once a day.</p>",
+    "quantity": 5,
+    "slots": 1,
+    "value": 3
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.9",
+    "createdTime": 1745429271911,
+    "modifiedTime": 1745429327202,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!0X7CarlyQDMKZeKO"
+}

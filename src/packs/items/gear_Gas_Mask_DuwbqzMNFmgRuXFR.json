@@ -1,0 +1,31 @@
+{
+  "folder": "VjjaDzv8Ml9XS56m",
+  "name": "Gas Mask",
+  "type": "gear",
+  "_id": "DuwbqzMNFmgRuXFR",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A relic used to combat the minions of the ,atulence pits during the Scratch-and-Sniff Wars centuries ago. Fortunately, it still has uses in these modern times. When worn, the gas mask negates any effects from smells or gases.</p>",
+    "quantity": 1,
+    "slots": 1,
+    "value": 10
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.9",
+    "createdTime": 1745426330277,
+    "modifiedTime": 1745426384316,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!DuwbqzMNFmgRuXFR"
+}

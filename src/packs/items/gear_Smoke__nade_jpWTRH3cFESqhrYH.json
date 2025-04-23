@@ -1,0 +1,31 @@
+{
+  "folder": "VjjaDzv8Ml9XS56m",
+  "name": "Smoke 'nade",
+  "type": "gear",
+  "_id": "jpWTRH3cFESqhrYH",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Always good to have one of these puppies stuffed away in your fanny pack for an emergency. Tossing it will cover a 50ft square in white smoke, causing all attacks in it or through it a -5 to the attack roll. Also movement through the smoke is halved. The smoke lasts for [[/roll 1D8]] turns.</p>",
+    "quantity": 1,
+    "slots": 1,
+    "value": 0
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.9",
+    "createdTime": 1745429364317,
+    "modifiedTime": 1745429399815,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!jpWTRH3cFESqhrYH"
+}

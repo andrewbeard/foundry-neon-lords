@@ -1,0 +1,31 @@
+{
+  "folder": "VjjaDzv8Ml9XS56m",
+  "name": "Glug-Chug Zero",
+  "type": "gear",
+  "_id": "n2JzZJAZMyfhFSq1",
+  "img": "systems/neon-lords/assets/gear/glugchug.webp",
+  "system": {
+    "description": "<p>Same great taste you love! Synthetic Glug-Chug gives you the boost you need without all that dying stuff! Grants a +1 for all rolls and an additional 10ft movement speed for 2 turns.</p>",
+    "quantity": 1,
+    "slots": 1,
+    "value": 3
+  },
+  "effects": [],
+  "sort": 150000,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.9",
+    "createdTime": 1745425203666,
+    "modifiedTime": 1745426310288,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!n2JzZJAZMyfhFSq1"
+}

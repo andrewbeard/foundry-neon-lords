@@ -1,0 +1,31 @@
+{
+  "folder": "RfndsUz2eVnp6h4w",
+  "name": "Meat Scope",
+  "type": "gear",
+  "_id": "XCOHFu27akf0lEQd",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Adds an additional [[/roll 1D4]] to the attack roll when attached to firearms that would be considered rifles or machine guns. A meat scope cannot be attached to handguns or pistols (unless otherwise specified). NOTE: The target must be made of meat to get the bonus!</p>",
+    "quantity": 1,
+    "slots": 1,
+    "value": 400
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.9",
+    "createdTime": 1745429778645,
+    "modifiedTime": 1745429819326,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!XCOHFu27akf0lEQd"
+}

@@ -1,0 +1,31 @@
+{
+  "folder": "VjjaDzv8Ml9XS56m",
+  "name": "Chem-Light",
+  "type": "gear",
+  "_id": "lHYWnuDBT14mFBes",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>8 Hour Burn, 10ft radius Light</p>",
+    "quantity": 1,
+    "slots": 1,
+    "value": 1
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.9",
+    "createdTime": 1745427358059,
+    "modifiedTime": 1745427389537,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!lHYWnuDBT14mFBes"
+}

@@ -1,0 +1,31 @@
+{
+  "folder": "VjjaDzv8Ml9XS56m",
+  "name": "Extreme Nacho-Flavored Mega Fizz 2-Liter",
+  "type": "gear",
+  "_id": "GfGQ1L8IoSAaSJD7",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Maybe it’s the insane amount of the sweet nacho blast of corn syrup, or maybe it’s the 1000mg of caffeine. Either way, smashing this 2 liter down your gullet grants a +2 to all rolls for [[/roll 1D6]] turns before you crash for the same amount of turns, receiving a -2 penalty to all rolls.</p>",
+    "quantity": 1,
+    "slots": 1,
+    "value": 5
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.9",
+    "createdTime": 1745428775577,
+    "modifiedTime": 1745428839285,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!GfGQ1L8IoSAaSJD7"
+}

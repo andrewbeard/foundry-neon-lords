@@ -1,0 +1,31 @@
+{
+  "folder": "RfndsUz2eVnp6h4w",
+  "name": "Mutant Energy M.O.A.E.D. Flavor",
+  "type": "gear",
+  "_id": "78W1KZ6qaLraPlTf",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>The mother of all energy drinks, this beast grants an additional action per turn for [[/roll 2D4]] turns (Cumulative). All the power with no bogus side-effects doesn’t come cheap by any stretch of the imagination.</p>",
+    "quantity": 1,
+    "slots": 1,
+    "value": 500
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.9",
+    "createdTime": 1745430153777,
+    "modifiedTime": 1745430207877,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!78W1KZ6qaLraPlTf"
+}

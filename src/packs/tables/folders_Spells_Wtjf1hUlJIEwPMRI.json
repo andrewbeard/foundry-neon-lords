@@ -1,0 +1,22 @@
+{
+  "name": "Spells",
+  "sorting": "a",
+  "folder": null,
+  "type": "RollTable",
+  "_id": "Wtjf1hUlJIEwPMRI",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.9",
+    "createdTime": 1745434858617,
+    "modifiedTime": 1745434858617,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!folders!Wtjf1hUlJIEwPMRI"
+}

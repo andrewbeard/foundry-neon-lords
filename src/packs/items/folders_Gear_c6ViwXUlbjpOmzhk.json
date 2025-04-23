@@ -1,0 +1,22 @@
+{
+  "name": "Gear",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "c6ViwXUlbjpOmzhk",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.9",
+    "createdTime": 1745425100778,
+    "modifiedTime": 1745425100778,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!folders!c6ViwXUlbjpOmzhk"
+}

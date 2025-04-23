@@ -1,0 +1,31 @@
+{
+  "folder": "VjjaDzv8Ml9XS56m",
+  "name": "Sprayed Stuff Unisex Hairspray For Men",
+  "type": "gear",
+  "_id": "zdPgEzqeRMx6qFrE",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Dump a can of this stuff on your dome to change your hairstyle until your next long rest. In a pinch, combined with an open flame, Sprayed Stiff can be used as a makeshift light flamer for 1 turn</p>",
+    "quantity": 1,
+    "slots": 1,
+    "value": 5
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.9",
+    "createdTime": 1745429443871,
+    "modifiedTime": 1745429485012,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!zdPgEzqeRMx6qFrE"
+}

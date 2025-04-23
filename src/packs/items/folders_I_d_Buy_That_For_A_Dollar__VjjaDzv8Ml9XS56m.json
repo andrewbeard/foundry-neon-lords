@@ -1,0 +1,22 @@
+{
+  "name": "I'd Buy That For A Dollar!",
+  "sorting": "a",
+  "folder": "c6ViwXUlbjpOmzhk",
+  "type": "Item",
+  "_id": "VjjaDzv8Ml9XS56m",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.9",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!VjjaDzv8Ml9XS56m"
+}

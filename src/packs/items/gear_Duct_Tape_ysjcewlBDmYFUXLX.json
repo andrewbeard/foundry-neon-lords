@@ -1,0 +1,31 @@
+{
+  "folder": "VjjaDzv8Ml9XS56m",
+  "name": "Duct Tape",
+  "type": "gear",
+  "_id": "ysjcewlBDmYFUXLX",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Can be used for a million and one different things. If you can think it, give it a shot!!!</p>",
+    "quantity": 1,
+    "slots": 1,
+    "value": 1
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.9",
+    "createdTime": 1745427514195,
+    "modifiedTime": 1745427538794,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!ysjcewlBDmYFUXLX"
+}

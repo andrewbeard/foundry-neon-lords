@@ -1,0 +1,32 @@
+{
+  "folder": "py3FX06HSFnYpFOd",
+  "name": "Mimic",
+  "type": "spell",
+  "_id": "H6dqWXQuwStx5U90",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>The War Wizard can mimic any sound, from crumbling rocks to a wounded goblin. The only limit to the sound is the caster’s imagination. The sound can be heard up to 120 ft away and lasts for a single round.</p>",
+    "spellLevel": 1,
+    "duration": "1 Round",
+    "range": "120 ft",
+    "spellCheck": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.9",
+    "createdTime": 1745434703972,
+    "modifiedTime": 1745434776381,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!H6dqWXQuwStx5U90"
+}

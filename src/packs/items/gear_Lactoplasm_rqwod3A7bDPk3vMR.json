@@ -1,0 +1,31 @@
+{
+  "folder": "VjjaDzv8Ml9XS56m",
+  "name": "Lactoplasm",
+  "type": "gear",
+  "_id": "rqwod3A7bDPk3vMR",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Not part of a balanced breakfast—it IS the balanced breakfast. This synthetic milk’s beige-blue color may be off-putting, but it gets the job done. Gulping down some pseudo moo-juice will boost your confidence, granting you an additional +5 to your Attitude until your next long rest.</p>",
+    "quantity": 1,
+    "slots": 1,
+    "value": 1
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.9",
+    "createdTime": 1745427664730,
+    "modifiedTime": 1745427725650,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_key": "!items!rqwod3A7bDPk3vMR"
+}
