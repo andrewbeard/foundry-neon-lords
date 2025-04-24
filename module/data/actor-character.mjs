@@ -1,7 +1,7 @@
 import NeonLordsActorBase from "./base-actor.mjs";
 import NeonLordsClassFactory from "../classes/class-factory.mjs";
 
-const abilities_list = [
+const stats_list = [
   "burliness",
   "prowess",
   "endurance",
@@ -27,7 +27,7 @@ export default class NeonLordsCharacter extends NeonLordsActorBase {
     });
 
     // Iterate over ability names and create a new SchemaField for each.
-    schema.abilities = new fields.SchemaField(abilities_list.reduce((obj, ability) => {
+    schema.abilities = new fields.SchemaField(stats_list.reduce((obj, ability) => {
       obj[ability] = new fields.SchemaField({
         value: new fields.NumberField({ ...requiredInteger, initial: 10, min: 0 }),
       });
@@ -132,5 +132,27 @@ export default class NeonLordsCharacter extends NeonLordsActorBase {
     const rollTable = await this.getTable(this.class.spellcastingToTheMaxTable);
     const result = await rollTable.draw({displayChat: false});
     return result.results[0].text;
+  }
+
+  async rollSkillCheck(stats) {
+    const roll = new Roll(`d20`);
+    const result = await roll.evaluate();
+
+    const statsName = stats.toLowerCase();
+    const targetNumber = this.abilities[statsName]?.value;
+    if (!targetNumber) {
+      console.error(statsName + " S.T.A.T.S. not found!");
+      return;
+    }
+
+    const resultText = result.total <= targetNumber 
+      ? `<span style="color: #009900; font-weight: bold;">✓ Success!</span> (${result.total} ≤ ${targetNumber})`
+      : `<span style="color: #990000; font-weight: bold;">✗ Failure!</span> (${result.total} > ${targetNumber})`;
+    
+    roll.toMessage({
+      speaker: ChatMessage.getSpeaker({ actor: this }),
+      flavor: `${stats} Skill Check<br>${resultText}`,
+      rollMode: game.settings.get('core', 'rollMode')
+    });
   }
 }

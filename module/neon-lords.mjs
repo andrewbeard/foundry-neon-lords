@@ -77,14 +77,21 @@ Hooks.once('init', function () {
 });  
 
 Hooks.on('init', function () {
-    const rgx = /\[\[\s*\/save\s+(\w+)\]\]?/gi;
+    const saveRgx = /\[\[\s*\/save\s+(\w+)\]\]?/gi;
     CONFIG.TextEditor.enrichers.push({
-        pattern: rgx,
+        pattern: saveRgx,
         enricher: saveRollEnricher,
+    });
+
+    const skillRgx = /\[\[\s*\/skill\s+(\w+)\]\]?/gi;
+    CONFIG.TextEditor.enrichers.push({
+        pattern: skillRgx,
+        enricher: skillRollEnricher,
     });
 
     const body = $("body");
     body.on("click", "a.inline-save-roll", onRollSaveClick);
+    body.on("click", "a.inline-skill-roll", onRollSkillClick);
 });
 
 /* -------------------------------------------- */
@@ -231,6 +238,40 @@ async function onRollSaveClick(event) {
   }
 }
 
+function skillRollEnricher(match, options) {
+  const stats = capitalizeFirstLetter(match[1].toLowerCase());
+
+  const a = document.createElement("a");
+  a.classList.add("inline-skill-roll");
+  a.dataset.statsType = stats;
+  a.innerHTML = `<i class="fas fa-dice-d20"></i>${stats} Skill Check`;
+  return a;
+}
+
+async function onRollSkillClick(event) {
+  const stats = event.target.dataset.statsType;
+
+  const actors = getCharacterOrTokens();
+  actors.forEach(async (actor) => {
+    if (typeof actor.rollSkillCheck === 'function') {
+      await actor.rollSkillCheck(stats);
+    } else {
+      ui.notifications.warn(`${actor.parent.name} doesn't have S.T.A.T.S.`);
+    }
+  });
+}
+
 function capitalizeFirstLetter(val) {
   return String(val).charAt(0).toUpperCase() + String(val).slice(1);
+}
+
+function getCharacterOrTokens() {
+  let actors = game.user.character;
+  if (!actors) {
+    actors = canvas.tokens.controlled.map(t => t.actor.system);
+  }
+  if (!actors) {
+    ui.notifications.warn("No character or token selected!");
+  }
+  return actors;
 }

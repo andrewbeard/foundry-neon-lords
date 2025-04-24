@@ -82,4 +82,22 @@ export default class NeonLordsActorBase extends NeonLordsDataModel {
       rollMode: game.settings.get('core', 'rollMode')
     });
   }
+
+  async rollSpellCheck() {
+    const roll = new Roll(`d20`);
+    const result = await roll.evaluate();
+    const targetNumber = this.spellCheck.value;
+
+    const success = result.total >= targetNumber;
+    const resultText = success
+      ? `<span style="color: #009900; font-weight: bold;">✓ Success!</span> (${result.total} ≥ ${targetNumber})`
+      : `<span style="color: #990000; font-weight: bold;">✗ Failure!</span> (${result.total} < ${targetNumber})`;
+
+    roll.toMessage({
+      speaker: ChatMessage.getSpeaker({ actor: this }),
+      flavor: `Spell Check<br>${resultText}`,
+      rollMode: game.settings.get('core', 'rollMode')
+    });
+    return success;
+  }
 }
