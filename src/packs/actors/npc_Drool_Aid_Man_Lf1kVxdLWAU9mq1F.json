@@ -31,7 +31,7 @@
         "value": 13
       }
     },
-    "biography": "<p>A sentient walking and killing crystal pitcher of Drool-Aid brand sugar-tastic drink mix. The Drool-Aid People are summoned to Terra-Realm from their home dimension of Burgerworld. Once summoned through ritual and incantation, the Drool-Aid Man can be enslaved by the caster and made to do their biddings.</p><p></p><p class=\"p1\">When at half of their starting life total the Drool-Aid Man begins to crack and spill toxic liquid. Anyone in melee combat with them takes 1D4 damage anytime their attack is successful. When the Drool-Aid Man dies it shatters and anyone within 10ft makes an Agility Saving Throw or be hit by shrapnel and toxic liquid. On a failed save they take 2D6 damage. A 10ft radius where the drool-aid man died becomes caustic and if any creature moves in the radius takes 1D6 damage per 5ft of travel.</p>",
+    "biography": "<p>A sentient walking and killing crystal pitcher of Drool-Aid brand sugar-tastic drink mix. The Drool-Aid People are summoned to Terra-Realm from their home dimension of Burgerworld. Once summoned through ritual and incantation, the Drool-Aid Man can be enslaved by the caster and made to do their biddings.</p><p></p><p class=\"p1\">When at half of their starting life total the Drool-Aid Man begins to crack and spill toxic liquid. Anyone in melee combat with them takes [[/roll 1D4]] damage anytime their attack is successful. When the Drool-Aid Man dies it shatters and anyone within 10ft makes an [[/save agility]] or be hit by shrapnel and toxic liquid. On a failed save they take [[/roll 2D6]] damage. A 10ft radius where the drool-aid man died becomes caustic and if any creature moves in the radius takes [[/roll 1D6]] damage per 5ft of travel.</p>",
     "alignment": "Khaotic",
     "hd": 5,
     "xp": 0,
@@ -192,7 +192,7 @@
       "name": "REALLY Toxic",
       "type": "feature",
       "system": {
-        "description": "<p>When the Drool-Aid Man dies it shatters and anyone within 10ft makes an Agility Saving Throw or be hit by shrapnel and toxic liquid. On a failed save they take [[/roll 2D6]] damage. A 10ft radius where the Drool-Aid Man died becomes caustic and if any creature moves in the radius takes [[/roll 1D6]] damage per 5ft of travel.</p>"
+        "description": "<p>When the Drool-Aid Man dies it shatters and anyone within 10ft makes an [[/save agility]] or be hit by shrapnel and toxic liquid. On a failed save they take [[/roll 2D6]] damage. A 10ft radius where the Drool-Aid Man died becomes caustic and if any creature moves in the radius takes [[/roll 1D6]] damage per 5ft of travel.</p>"
       },
       "_id": "nfG1f0IDgyWk6FOR",
       "img": "systems/neon-lords/assets/creeps/droolaidman.webp",
@@ -209,9 +209,9 @@
         "duplicateSource": null,
         "coreVersion": "12.331",
         "systemId": "neon-lords",
-        "systemVersion": "0.0.8",
+        "systemVersion": "0.0.10",
         "createdTime": 1742830541250,
-        "modifiedTime": 1742830541250,
+        "modifiedTime": 1745507244125,
         "lastModifiedBy": "x53CwYXR1zhkCDCY"
       },
       "_key": "!actors.items!Lf1kVxdLWAU9mq1F.nfG1f0IDgyWk6FOR"
@@ -230,10 +230,10 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "neon-lords",
-    "systemVersion": "0.0.8",
+    "systemVersion": "0.0.10",
     "createdTime": 1742830349084,
-    "modifiedTime": 1742862222522,
-    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+    "modifiedTime": 1745507269023,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "_key": "!actors!Lf1kVxdLWAU9mq1F"
 }

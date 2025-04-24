@@ -5,7 +5,7 @@
   "_id": "rbvJeTRz6K5hKrea",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "<p>No hair anywhere, super bald. Permanently gain the Skull hairstyle.</p>"
+    "description": "<p>No hair anywhere, super bald. Permanently gain the @UUID[Compendium.neon-lords.items.Item.kjgQ8hsNkAEKL5zn]{Skull} hairstyle.</p>"
   },
   "effects": [],
   "sort": 350000,
@@ -19,9 +19,9 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "neon-lords",
-    "systemVersion": "0.0.3",
+    "systemVersion": "0.0.10",
     "createdTime": 1742223799690,
-    "modifiedTime": 1742223829732,
+    "modifiedTime": 1745521905409,
     "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "_key": "!items!rbvJeTRz6K5hKrea"

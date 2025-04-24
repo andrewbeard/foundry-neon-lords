@@ -5,7 +5,7 @@
   "_id": "fC4430w8K3qljy3Y",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "<p><span style=\"font-family: Roboto, sans-serif\">Adolescent mutated amphibians with attitude</span></p><p>Frog. (Tongue Attack. +5 Attack, dealing 1D6 damage.)</p>"
+    "description": "<p><span style=\"font-family: Roboto, sans-serif\">Adolescent mutated amphibians with attitude</span></p><p>Frog. (Tongue Attack. +5 Attack, dealing [[/roll 1D6]] damage.)</p>"
   },
   "effects": [],
   "sort": 0,
@@ -19,9 +19,9 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "neon-lords",
-    "systemVersion": "0.0.3",
+    "systemVersion": "0.0.10",
     "createdTime": 1742239482822,
-    "modifiedTime": 1742239523485,
+    "modifiedTime": 1745521624564,
     "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "_key": "!items!fC4430w8K3qljy3Y"

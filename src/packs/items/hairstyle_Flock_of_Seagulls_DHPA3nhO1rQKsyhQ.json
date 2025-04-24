@@ -5,7 +5,7 @@
   "_id": "DHPA3nhO1rQKsyhQ",
   "img": "systems/neon-lords/assets/hairstyles/flockofseagulls.webp",
   "system": {
-    "description": "<p>Like a winged creature atop your head. Lets you add or subtract 1 on the drug effects table.</p>"
+    "description": "<p>Like a winged creature atop your head. Lets you add or subtract 1 on the @UUID[Compendium.neon-lords.tables.RollTable.BIDFFaLxG6ywrUF8]{Drug Effects} table.</p>"
   },
   "effects": [],
   "sort": 1221875,
@@ -19,9 +19,9 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "neon-lords",
-    "systemVersion": "0.0.4",
+    "systemVersion": "0.0.10",
     "createdTime": 1742396100253,
-    "modifiedTime": 1742400314344,
+    "modifiedTime": 1745521300116,
     "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "_key": "!items!DHPA3nhO1rQKsyhQ"

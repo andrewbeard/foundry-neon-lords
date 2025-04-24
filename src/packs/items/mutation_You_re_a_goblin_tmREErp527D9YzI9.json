@@ -1,6 +1,6 @@
 {
   "folder": "Hzyeg5ZJGYKtAJeP",
-  "name": "You're a goblin",
+  "name": "You're a Goblin",
   "type": "mutation",
   "_id": "tmREErp527D9YzI9",
   "img": "icons/svg/item-bag.svg",
@@ -21,7 +21,7 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.3",
     "createdTime": 1742313715842,
-    "modifiedTime": 1742313740051,
+    "modifiedTime": 1745521843478,
     "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "_key": "!items!tmREErp527D9YzI9"

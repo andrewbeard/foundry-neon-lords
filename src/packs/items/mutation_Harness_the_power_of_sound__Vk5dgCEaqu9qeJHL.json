@@ -5,7 +5,7 @@
   "_id": "Vk5dgCEaqu9qeJHL",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "<p>The sound waves around you now become a lethal weapon. Using your mutated mind you now can transform them into pure energy and throw it at your foes like a bolt of lightning! When you gain this ability and at the end of a long rest roll 1d6, this is how many times you can hurl your sound bolt per day. The sound bolt deals 1d6! to any target within eyesight of you. </p><p>Max Range: 120ft.</p>"
+    "description": "<p>The sound waves around you now become a lethal weapon. Using your mutated mind you now can transform them into pure energy and throw it at your foes like a bolt of lightning! When you gain this ability and at the end of a long rest roll [[/roll 1D6]], this is how many times you can hurl your sound bolt per day. The sound bolt deals [[/roll 1d6x6]]{1D6!} to any target within eyesight of you.</p><p>Max Range: 120ft.</p>"
   },
   "effects": [],
   "sort": 0,
@@ -19,9 +19,9 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "neon-lords",
-    "systemVersion": "0.0.3",
+    "systemVersion": "0.0.10",
     "createdTime": 1742238974941,
-    "modifiedTime": 1742239013542,
+    "modifiedTime": 1745521573906,
     "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "_key": "!items!Vk5dgCEaqu9qeJHL"

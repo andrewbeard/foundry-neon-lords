@@ -5,7 +5,7 @@
   "_id": "9QWq1jHauNCUkcbS",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "<p>Metal-like claws for fingers dealing 1D6 Bleeding damage and the ability to create a tunnel that is 5 cubic feet an hour.</p>"
+    "description": "<p>Metal-like claws for fingers dealing [[/roll 1D6]] @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.sk1A640XsLbv0SfC]{Bleeding} damage and the ability to create a tunnel that is 5 cubic feet an hour.</p>"
   },
   "effects": [],
   "sort": 0,
@@ -19,9 +19,9 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "neon-lords",
-    "systemVersion": "0.0.3",
+    "systemVersion": "0.0.10",
     "createdTime": 1742238149421,
-    "modifiedTime": 1742238171435,
+    "modifiedTime": 1745521417835,
     "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "_key": "!items!9QWq1jHauNCUkcbS"

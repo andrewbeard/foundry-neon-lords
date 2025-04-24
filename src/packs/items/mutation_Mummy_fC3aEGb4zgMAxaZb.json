@@ -5,7 +5,7 @@
   "_id": "fC3aEGb4zgMAxaZb",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "<p>Your body withers into nothing more than that of a skeleton wrapped in white wraps, turning you into a mummy.</p><p class=\"p1\">While in the frail mummy stage you have a base HP of 1 and a movement speed of 10ft. You lose your class but can spend Class Points to cast War Wizard spells (All level 1 and level 2.) </p><p class=\"p1\">In addition, you can spend a Class Point to transform into an Avatar of Doom for 1D6 turns. While in the Avatar form your base HP is 10 and your movement speed is changed to 45ft. The Avatar makes Attacks with the Fist of Doom dealing 1D8+2 damage. When the Avatar reaches 0 HP, you are transformed again into the frail mummy.</p>"
+    "description": "<p>Your body withers into nothing more than that of a skeleton wrapped in white wraps, turning you into a mummy.</p><p class=\"p1\">While in the frail mummy stage you have a base HP of 1 and a movement speed of 10ft. You lose your class but can spend Class Points to cast War Wizard spells (All level 1 and level 2.)</p><p class=\"p1\">In addition, you can spend a Class Point to transform into an Avatar of Doom for [[/roll 1D6]] turns. While in the Avatar form your base HP is 10 and your movement speed is changed to 45ft. The Avatar makes Attacks with the Fist of Doom dealing [[/roll 1D8+2]] damage. When the Avatar reaches 0 HP, you are transformed again into the frail mummy.</p>"
   },
   "effects": [],
   "sort": 0,
@@ -19,9 +19,9 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "neon-lords",
-    "systemVersion": "0.0.3",
+    "systemVersion": "0.0.10",
     "createdTime": 1742314301750,
-    "modifiedTime": 1742314356849,
+    "modifiedTime": 1745521818781,
     "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "_key": "!items!fC3aEGb4zgMAxaZb"

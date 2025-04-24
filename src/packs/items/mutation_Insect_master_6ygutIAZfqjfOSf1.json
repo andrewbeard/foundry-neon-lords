@@ -5,7 +5,7 @@
   "_id": "6ygutIAZfqjfOSf1",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "<p>You gain the ability to call upon a swarm of insects to aid you in whatever you may need. The swarm can attack a target dealing 1D8 damage in stings. The swarm can cover your body as well granting you an additional +2 to your AC.</p>"
+    "description": "<p>You gain the ability to call upon a swarm of insects to aid you in whatever you may need. The swarm can attack a target dealing [[/roll 1D8]] damage in stings. The swarm can cover your body as well granting you an additional +2 to your AC.</p>"
   },
   "effects": [],
   "sort": 0,
@@ -19,9 +19,9 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "neon-lords",
-    "systemVersion": "0.0.3",
+    "systemVersion": "0.0.10",
     "createdTime": 1742314104034,
-    "modifiedTime": 1742314125127,
+    "modifiedTime": 1745521661057,
     "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "_key": "!items!6ygutIAZfqjfOSf1"

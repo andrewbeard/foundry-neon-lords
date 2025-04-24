@@ -5,7 +5,7 @@
   "_id": "VPL6UDmP5yEWq6Hr",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "<p>Arms are completely invisible and they (your arms) know one random level 1 War Wizard spell. 20% chance each turn they cast it. (You have no control over the spell.)</p>"
+    "description": "<p>Arms are completely invisible and they (your arms) know one random level 1 War Wizard spell. [[/roll 1d100]]{20%} chance each turn they cast it. (You have no control over the spell.)</p>"
   },
   "effects": [],
   "sort": 0,
@@ -19,9 +19,9 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "neon-lords",
-    "systemVersion": "0.0.3",
+    "systemVersion": "0.0.10",
     "createdTime": 1742238113797,
-    "modifiedTime": 1742238184794,
+    "modifiedTime": 1745521522294,
     "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "_key": "!items!VPL6UDmP5yEWq6Hr"

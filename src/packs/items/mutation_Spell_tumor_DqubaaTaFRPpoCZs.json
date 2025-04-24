@@ -5,7 +5,7 @@
   "_id": "DqubaaTaFRPpoCZs",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "<p>Can be cut open to cast a 1st level War Wizard spell once per day, 1D4 damage to cut it out. The tumor grows back at the end of each long rest. (You may choose what spell to cast.)</p>"
+    "description": "<p>Can be cut open to cast a 1st level War Wizard spell once per day, [[/roll 1D4]] damage to cut it out. The tumor grows back at the end of each long rest. (You may choose what spell to cast.)</p>"
   },
   "effects": [],
   "sort": 0,
@@ -19,9 +19,9 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "neon-lords",
-    "systemVersion": "0.0.3",
+    "systemVersion": "0.0.10",
     "createdTime": 1742239073398,
-    "modifiedTime": 1742239090603,
+    "modifiedTime": 1745521442708,
     "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "_key": "!items!DqubaaTaFRPpoCZs"

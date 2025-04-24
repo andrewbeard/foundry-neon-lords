@@ -5,7 +5,7 @@
   "_id": "S6viWMFvYbiQMdm7",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "<p>Spending 1 Class Point you now can heal 1D6 HP as an action, and if a body part is severed or lost it will grow back by the end of the next long rest.</p>"
+    "description": "<p>Spending 1 Class Point you now can heal [[/roll 1D6]] HP as an action, and if a body part is severed or lost it will grow back by the end of the next long rest.</p>"
   },
   "effects": [],
   "sort": 0,
@@ -19,9 +19,9 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "neon-lords",
-    "systemVersion": "0.0.3",
+    "systemVersion": "0.0.10",
     "createdTime": 1742314224301,
-    "modifiedTime": 1742314241159,
+    "modifiedTime": 1745521769370,
     "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "_key": "!items!S6viWMFvYbiQMdm7"

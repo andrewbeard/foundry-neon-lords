@@ -5,7 +5,7 @@
   "_id": "i1psNfmVdFefjHF4",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "<p>Eyes change:</p><p>Milked Over. (Blind)</p>"
+    "description": "<p>Eyes change:</p><p>Milked Over. (@UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.LegKo00gEYfyNEJi]{Blind})</p>"
   },
   "effects": [],
   "sort": 725000,
@@ -19,9 +19,9 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "neon-lords",
-    "systemVersion": "0.0.3",
+    "systemVersion": "0.0.10",
     "createdTime": 1742234610219,
-    "modifiedTime": 1742234756158,
+    "modifiedTime": 1745521957801,
     "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "_key": "!items!i1psNfmVdFefjHF4"

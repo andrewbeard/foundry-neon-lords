@@ -1,6 +1,6 @@
 {
   "folder": "K4au9Kxpy6gfGLdo",
-  "name": "Yellow slime oozes from your pores.",
+  "name": "Yellow slime oozes from your pores",
   "type": "mutation",
   "_id": "cLQ3Jagfb3d4EhUs",
   "img": "icons/svg/item-bag.svg",
@@ -21,7 +21,7 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.3",
     "createdTime": 1742223617847,
-    "modifiedTime": 1742223642818,
+    "modifiedTime": 1745521869132,
     "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "_key": "!items!cLQ3Jagfb3d4EhUs"

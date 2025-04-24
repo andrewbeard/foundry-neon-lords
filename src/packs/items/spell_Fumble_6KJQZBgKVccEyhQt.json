@@ -5,7 +5,7 @@
   "_id": "6KJQZBgKVccEyhQt",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "<p>The War Wizard can cause a visible target to make a Resolve save. On a failure, the affected creature’s next attack roll is a Fumble. The target must roll on the Total Bummer table.</p>",
+    "description": "<p>The War Wizard can cause a visible target to make a [[/save resolve]]. On a failure, the affected creature’s next attack roll is a Fumble. The target must roll on the Total Bummer table.</p>",
     "spellLevel": 1,
     "duration": "Instant",
     "range": "Sight",
@@ -23,10 +23,10 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "neon-lords",
-    "systemVersion": "0.0.9",
+    "systemVersion": "0.0.10",
     "createdTime": 1743551241037,
-    "modifiedTime": 1743551360150,
-    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+    "modifiedTime": 1745507210968,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "_key": "!items!6KJQZBgKVccEyhQt"
 }
