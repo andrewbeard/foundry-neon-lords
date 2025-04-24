@@ -135,7 +135,7 @@ export default class NeonLordsCharacter extends NeonLordsActorBase {
   }
 
   async rollSkillCheck(stats) {
-    const roll = new Roll(`d20`);
+    const roll = new Roll("d20");
     const result = await roll.evaluate();
 
     const statsName = stats.toLowerCase();
@@ -152,7 +152,11 @@ export default class NeonLordsCharacter extends NeonLordsActorBase {
     roll.toMessage({
       speaker: ChatMessage.getSpeaker({ actor: this }),
       flavor: `${stats} Skill Check<br>${resultText}`,
-      rollMode: game.settings.get('core', 'rollMode')
+      rollMode: game.settings.get("core", "rollMode")
     });
+  }
+
+  get spellCheckMod() {
+    return this.abilities[this.castAbility]?.mod;
   }
 }

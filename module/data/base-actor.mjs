@@ -62,7 +62,7 @@ export default class NeonLordsActorBase extends NeonLordsDataModel {
   }
 
   async rollSave(saveType) {
-    const roll = new Roll(`d20`);
+    const roll = new Roll("d20");
     const result = await roll.evaluate();
 
     const saveName = saveType.toLowerCase();
@@ -79,12 +79,20 @@ export default class NeonLordsActorBase extends NeonLordsDataModel {
     roll.toMessage({
       speaker: ChatMessage.getSpeaker({ actor: this }),
       flavor: `${saveType} Saving Throw<br>${resultText}`,
-      rollMode: game.settings.get('core', 'rollMode')
+      rollMode: game.settings.get("core", "rollMode")
     });
   }
 
+  get spellCheckMod() {
+    return 0;
+  }
+
   async rollSpellCheck() {
-    const roll = new Roll(`d20`);
+    let rollMod = "";
+    if (this.spellCheckMod) {
+        rollMod = ` +$ {this.spellCheckMod}`;
+    }
+    const roll = new Roll("d20" + rollMod);
     const result = await roll.evaluate();
     const targetNumber = this.spellCheck.value;
 
@@ -96,7 +104,7 @@ export default class NeonLordsActorBase extends NeonLordsDataModel {
     roll.toMessage({
       speaker: ChatMessage.getSpeaker({ actor: this }),
       flavor: `Spell Check<br>${resultText}`,
-      rollMode: game.settings.get('core', 'rollMode')
+      rollMode: game.settings.get("core", "rollMode")
     });
     return success;
   }
