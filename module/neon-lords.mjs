@@ -74,6 +74,17 @@ Hooks.once('init', function () {
 
   // Preload Handlebars templates.
   return preloadHandlebarsTemplates();
+});  
+
+Hooks.on('init', function () {
+    const rgx = /\[\[\s*\/save\s+(\w+)\]\]?/gi;
+    CONFIG.TextEditor.enrichers.push({
+        pattern: rgx,
+        enricher: saveRollEnricher,
+    });
+
+    const body = $("body");
+    body.on("click", "a.inline-save-roll", onRollSaveClick);
 });
 
 /* -------------------------------------------- */
@@ -194,4 +205,32 @@ function rollItemMacro(itemUuid) {
     // Trigger the item roll
     item.roll();
   });
+}
+
+function saveRollEnricher(match, options) {
+  const saveType = capitalizeFirstLetter(match[1].toLowerCase());
+
+  const a = document.createElement("a");
+  a.classList.add("inline-save-roll");
+  a.dataset.saveType = saveType;
+  a.innerHTML = `<i class="fas fa-dice-d20"></i>${saveType} Saving Throw`;
+  return a;
+}
+
+async function onRollSaveClick(event) {
+  const saveType = event.target.dataset.saveType;
+
+  if (game.user.character) {
+    await game.user.character.rollSave(saveType);
+  } else if (canvas.tokens.controlled.length > 0) {
+    canvas.tokens.controlled.forEach(async (token) => {
+      await token.actor.system.rollSave(saveType);
+    });
+  } else {
+    ui.notifications.warn("No character or token selected!");
+  }
+}
+
+function capitalizeFirstLetter(val) {
+  return String(val).charAt(0).toUpperCase() + String(val).slice(1);
 }

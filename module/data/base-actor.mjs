@@ -60,4 +60,26 @@ export default class NeonLordsActorBase extends NeonLordsDataModel {
     }
     return pack.getDocument(tableObj._id);
   }
+
+  async rollSave(saveType) {
+    const roll = new Roll(`d20`);
+    const result = await roll.evaluate();
+
+    const saveName = saveType.toLowerCase();
+    const targetNumber = this.saves[saveName]?.value;
+    if (!targetNumber) {
+      console.error(saveType + " Saving Throw not found!");
+      return;
+    }
+
+    const resultText = result.total >= targetNumber 
+      ? `<span style="color: #009900; font-weight: bold;">✓ Success!</span> (${result.total} ≥ ${targetNumber})`
+      : `<span style="color: #990000; font-weight: bold;">✗ Failure!</span> (${result.total} < ${targetNumber})`;
+    
+    roll.toMessage({
+      speaker: ChatMessage.getSpeaker({ actor: this }),
+      flavor: `${saveType} Saving Throw<br>${resultText}`,
+      rollMode: game.settings.get('core', 'rollMode')
+    });
+  }
 }
