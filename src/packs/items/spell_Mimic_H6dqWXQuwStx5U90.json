@@ -5,7 +5,7 @@
   "_id": "H6dqWXQuwStx5U90",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "<p>The War Wizard can mimic any sound, from crumbling rocks to a wounded goblin. The only limit to the sound is the caster’s imagination. The sound can be heard up to 120 ft away and lasts for a single round.</p>",
+    "description": "<p>The War Wizard can mimic any sound, from crumbling rocks to a wounded goblin. The only limit to the sound is the caster's imagination. The sound can be heard up to 120 ft away and lasts for a single round.</p>",
     "spellLevel": 1,
     "duration": "1 Round",
     "range": "120 ft",
