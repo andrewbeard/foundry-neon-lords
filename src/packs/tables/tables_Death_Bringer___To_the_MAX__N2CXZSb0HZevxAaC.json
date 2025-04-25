@@ -96,7 +96,7 @@
     },
     {
       "type": "text",
-      "text": "An immaculate uppercut sends your foe to the ground, leaving them Prone. Deal normal damage plus an additional [[1D4]]. Enemy must make an Agility Save to get up on their next turn.",
+      "text": "An immaculate uppercut sends your foe to the ground, leaving them @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.Ub7F3RDnX9gdMr8O]{Prone}. Deal normal damage plus an additional [[1D4]]. Enemy must make an Agility Save to get up on their next turn.",
       "range": [
         7,
         7
@@ -315,7 +315,7 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742156334099,
-    "modifiedTime": 1745591938924,
+    "modifiedTime": 1745618876524,
     "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "formula": "1d20",

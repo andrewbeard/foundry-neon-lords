@@ -2166,7 +2166,7 @@
         "hd": 2,
         "xp": 0,
         "to_the_max_normal": "Hits the target with the hilt in the mouth knocking out [[1D4]] teeth dealing normal damage.",
-        "to_the_max_ouch": "Mutated Strike slices open the target’s stomach exposing vital organs to the grime of the wastelands. Target goes Prone and death is imminent in [[1D4]]\nturns.",
+        "to_the_max_ouch": "Mutated Strike slices open the target’s stomach exposing vital organs to the grime of the wastelands. Target goes @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.Ub7F3RDnX9gdMr8O]{Prone} and death is imminent in [[1D4]]\nturns.",
         "spellCheck": {
           "value": 18
         }
@@ -2362,7 +2362,7 @@
         "systemId": "neon-lords",
         "systemVersion": "0.0.10",
         "createdTime": 1745590097123,
-        "modifiedTime": 1745590149418,
+        "modifiedTime": 1745618365664,
         "lastModifiedBy": "x53CwYXR1zhkCDCY"
       },
       "ownership": {
@@ -11303,7 +11303,7 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.9",
     "createdTime": 1743473885701,
-    "modifiedTime": 1745595354783,
+    "modifiedTime": 1745618900097,
     "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "_key": "!adventures!4bOIzuYHWHG3yDf0"

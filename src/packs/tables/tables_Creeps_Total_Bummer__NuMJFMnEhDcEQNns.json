@@ -119,7 +119,7 @@
       ],
       "drawn": false,
       "_id": "MQJ5hIr6sCMjjrEr",
-      "text": "The blood and gore is thick on the floor. The creep has a hard time not slipping and falling. For [[1D4]] turns the creep must make an [[/save agility]] or go Prone.",
+      "text": "The blood and gore is thick on the floor. The creep has a hard time not slipping and falling. For [[1D4]] turns the creep must make an [[/save agility]] or go @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.Ub7F3RDnX9gdMr8O]{Prone}.",
       "img": "icons/svg/d20-black.svg",
       "documentId": null,
       "flags": {},
@@ -321,7 +321,7 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.6",
     "createdTime": 1742577625050,
-    "modifiedTime": 1745592420221,
+    "modifiedTime": 1745618794368,
     "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "formula": "1D20",

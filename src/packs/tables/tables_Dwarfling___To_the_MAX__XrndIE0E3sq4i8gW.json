@@ -96,7 +96,7 @@
     },
     {
       "type": "text",
-      "text": "Kneecap destruction. Blows to the knees deal an additional [[1D4]] damage and knock the fiend Prone, rendering them unable to stand.",
+      "text": "Kneecap destruction. Blows to the knees deal an additional [[1D4]] damage and knock the fiend @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.Ub7F3RDnX9gdMr8O]{Prone}, rendering them unable to stand.",
       "range": [
         7,
         7
@@ -315,8 +315,8 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742156307362,
-    "modifiedTime": 1742433503042,
-    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+    "modifiedTime": 1745618752553,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "formula": "1d20",
   "ownership": {

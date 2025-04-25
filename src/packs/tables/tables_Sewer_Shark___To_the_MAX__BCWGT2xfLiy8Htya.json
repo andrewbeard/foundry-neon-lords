@@ -66,7 +66,7 @@
     },
     {
       "type": "text",
-      "text": "Sweep the leg. Dealing normal damage, the Sewer Shark is able to sweep the legs from the target causing them to fall Prone. They must make an [[/save agility]] in order to get back up.",
+      "text": "Sweep the leg. Dealing normal damage, the Sewer Shark is able to sweep the legs from the target causing them to fall @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.Ub7F3RDnX9gdMr8O]{Prone}. They must make an [[/save agility]] in order to get back up.",
       "range": [
         5,
         5
@@ -315,7 +315,7 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742156161319,
-    "modifiedTime": 1745595173507,
+    "modifiedTime": 1745618843425,
     "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "formula": "1d20",
