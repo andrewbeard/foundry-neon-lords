@@ -40,11 +40,11 @@
         "alignment": "Khaotic",
         "hd": 3,
         "xp": 0,
+        "to_the_max_normal": "The cultist stabs you in the side dealing an additional [[1D4]] Bleeding damage",
+        "to_the_max_ouch": "BLOOD FOR THE OLD GODS!: Stabs you with a ceremonial Dagger as part of a Summoning spell. The attack deals normal damage but opens a portal in an\nopen space next to the cultist. An @Actor[Otherworldly Spawn]  crawls out and attacks as well.",
         "spellCheck": {
           "value": 18
-        },
-        "to_the_max_normal": "The cultist stabs you in the side dealing an additional [[1D4]] Bleeding damage",
-        "to_the_max_ouch": "BLOOD FOR THE OLD GODS!: Stabs you with a ceremonial Dagger as part of a Summoning spell. The attack deals normal damage but opens a portal in an\nopen space next to the cultist. An @Actor[Otherworldly Spawn]  crawls out and attacks as well."
+        }
       },
       "prototypeToken": {
         "name": "Drool-Aid Cult Leader",
@@ -262,20 +262,20 @@
         }
       ],
       "effects": [],
-      "sort": 500000,
+      "sort": 1000000,
       "ownership": {
         "default": 0,
         "x53CwYXR1zhkCDCY": 3
       },
       "flags": {},
       "_stats": {
-        "compendiumSource": null,
+        "compendiumSource": "Actor.HhN9fvciFV7IyeTB",
         "duplicateSource": null,
         "coreVersion": "12.331",
         "systemId": "neon-lords",
         "systemVersion": "0.0.9",
         "createdTime": 1742575354208,
-        "modifiedTime": 1745436081539,
+        "modifiedTime": 1745590148576,
         "lastModifiedBy": "x53CwYXR1zhkCDCY"
       }
     },
@@ -314,11 +314,11 @@
         "alignment": "Neutral",
         "hd": 3,
         "xp": 0,
+        "to_the_max_normal": "The claw hits a tender spot dealing an additional [[1D4]] damage",
+        "to_the_max_ouch": "CLAW-SOME! Giant Lobster Claw Cuts your head clean off. Instant death!!",
         "spellCheck": {
           "value": 18
-        },
-        "to_the_max_normal": "The claw hits a tender spot dealing an additional [[1D4]] damage",
-        "to_the_max_ouch": "CLAW-SOME! Giant Lobster Claw Cuts your head clean off. Instant death!!"
+        }
       },
       "prototypeToken": {
         "name": "Gene-Slammed Lobster Man",
@@ -529,20 +529,20 @@
         }
       ],
       "effects": [],
-      "sort": 300000,
+      "sort": 700000,
       "ownership": {
         "default": 0,
         "x53CwYXR1zhkCDCY": 3
       },
       "flags": {},
       "_stats": {
-        "compendiumSource": null,
+        "compendiumSource": "Actor.hiMBdciWDCN0KgUu",
         "duplicateSource": null,
         "coreVersion": "12.331",
         "systemId": "neon-lords",
         "systemVersion": "0.0.9",
         "createdTime": 1742574954141,
-        "modifiedTime": 1745435949506,
+        "modifiedTime": 1745590148576,
         "lastModifiedBy": "x53CwYXR1zhkCDCY"
       }
     },
@@ -581,11 +581,11 @@
         "alignment": "Khaotic",
         "hd": 5,
         "xp": 0,
+        "to_the_max_normal": "Big Basher hits for an addiotional [[1D4]] damage.",
+        "to_the_max_ouch": "BASH! SMASH! The Big Basher hits for an additional [[1D6]] damage and gains Spillover.",
         "spellCheck": {
           "value": 18
-        },
-        "to_the_max_normal": "Big Basher hits for an addiotional [[1D4]] damage.",
-        "to_the_max_ouch": "BASH! SMASH! The Big Basher hits for an additional [[1D6]] damage and gains Spillover."
+        }
       },
       "prototypeToken": {
         "name": "Mutant Brute",
@@ -710,20 +710,20 @@
         }
       ],
       "effects": [],
-      "sort": 0,
+      "sort": 300000,
       "ownership": {
         "default": 0,
         "x53CwYXR1zhkCDCY": 3
       },
       "flags": {},
       "_stats": {
-        "compendiumSource": null,
+        "compendiumSource": "Actor.9EjNegTz3a54IrzR",
         "duplicateSource": null,
         "coreVersion": "12.331",
         "systemId": "neon-lords",
         "systemVersion": "0.0.9",
         "createdTime": 1742580423289,
-        "modifiedTime": 1745435759890,
+        "modifiedTime": 1745590148576,
         "lastModifiedBy": "x53CwYXR1zhkCDCY"
       }
     },
@@ -891,7 +891,7 @@
         }
       ],
       "effects": [],
-      "sort": 400000,
+      "sort": 800000,
       "ownership": {
         "default": 0,
         "x53CwYXR1zhkCDCY": 3
@@ -904,7 +904,7 @@
         "systemId": "neon-lords",
         "systemVersion": "0.0.6",
         "createdTime": 1742575219673,
-        "modifiedTime": 1745422853626,
+        "modifiedTime": 1745590148576,
         "lastModifiedBy": "x53CwYXR1zhkCDCY"
       }
     },
@@ -1072,7 +1072,7 @@
         }
       ],
       "effects": [],
-      "sort": 0,
+      "sort": 500000,
       "ownership": {
         "default": 0,
         "x53CwYXR1zhkCDCY": 3
@@ -1085,7 +1085,7 @@
         "systemId": "neon-lords",
         "systemVersion": "0.0.6",
         "createdTime": 1742583194747,
-        "modifiedTime": 1743472883344,
+        "modifiedTime": 1745590148576,
         "lastModifiedBy": "x53CwYXR1zhkCDCY"
       }
     },
@@ -1253,7 +1253,7 @@
         }
       ],
       "effects": [],
-      "sort": 0,
+      "sort": 100000,
       "ownership": {
         "default": 0,
         "x53CwYXR1zhkCDCY": 3
@@ -1266,7 +1266,7 @@
         "systemId": "neon-lords",
         "systemVersion": "0.0.9",
         "createdTime": 1745422274000,
-        "modifiedTime": 1745424456296,
+        "modifiedTime": 1745590148576,
         "lastModifiedBy": "x53CwYXR1zhkCDCY"
       }
     },
@@ -1464,7 +1464,7 @@
         }
       ],
       "effects": [],
-      "sort": 0,
+      "sort": 200000,
       "ownership": {
         "default": 0,
         "x53CwYXR1zhkCDCY": 3
@@ -1477,9 +1477,1108 @@
         "systemId": "neon-lords",
         "systemVersion": "0.0.9",
         "createdTime": 1745422226545,
-        "modifiedTime": 1745422513520,
+        "modifiedTime": 1745590148576,
         "lastModifiedBy": "x53CwYXR1zhkCDCY"
       }
+    },
+    {
+      "folder": "kRA4YHRvSLbhQZS0",
+      "name": "Cultist",
+      "type": "npc",
+      "img": "systems/neon-lords/assets/creeps/cultist.webp",
+      "system": {
+        "hp": {
+          "value": 2,
+          "max": 2
+        },
+        "ac": {
+          "value": 9
+        },
+        "movement": {
+          "value": 30
+        },
+        "saves": {
+          "grit": {
+            "value": 16
+          },
+          "agility": {
+            "value": 16
+          },
+          "resolve": {
+            "value": 16
+          },
+          "death": {
+            "value": 18
+          }
+        },
+        "biography": "<p>Weak men in robes who want to usher in another end-times. Every Khaos god or Demi-bro has a cult, good luck keeping up with them all.</p>",
+        "alignment": "Khaotic",
+        "hd": 1,
+        "xp": 0,
+        "to_the_max_normal": "The cultist stabs you in the side dealing an additional [[1D4]] @UUID[Compendium.neon-lords.journal.JournalEntry.GolSNvsGoLOK5zXR.JournalEntryPage.5jpPWVVtjusPhEyZ] damage",
+        "to_the_max_ouch": "Blood for the old gods!: Stabs you with a ceremonial dagger as part of a summoning spell. The attack deals normal damage but opens a portal in an open space next to the cultist. An @Actor[Otherworldly Spawn] crawls out and attacks as well.",
+        "spellCheck": {
+          "value": 18
+        }
+      },
+      "prototypeToken": {
+        "name": "Drool-Aid Cultist",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "width": 1,
+        "height": 1,
+        "texture": {
+          "src": "systems/neon-lords/assets/creeps/cultist.webp",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "offsetX": 0,
+          "offsetY": 0,
+          "fit": "contain",
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotation": 0,
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "hexagonalShape": 0,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": "hp"
+        },
+        "bar2": {
+          "attribute": "cp"
+        },
+        "light": {
+          "negative": false,
+          "priority": 0,
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        },
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [
+        {
+          "name": "Dagger",
+          "type": "attack",
+          "system": {
+            "description": "",
+            "bonus": 0,
+            "special": "",
+            "damage_roll": "1D4",
+            "damage_type": "",
+            "firearm": false
+          },
+          "_id": "jAFNJqeNLHxvukfD",
+          "img": "systems/neon-lords/assets/creeps/cultist.webp",
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0,
+            "x53CwYXR1zhkCDCY": 3
+          },
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "neon-lords",
+            "systemVersion": "0.0.10",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          }
+        },
+        {
+          "name": "Zurg Rush!",
+          "type": "feature",
+          "system": {
+            "description": "<p>A group of 3+ cultist can rush an opponent ignoring initiative and hitting the target 1st in the melee phase of combat. (They can only perform this one time per encounter.)</p>"
+          },
+          "_id": "QHNoSkSElJ5jGo8P",
+          "img": "systems/neon-lords/assets/creeps/cultist.webp",
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0,
+            "x53CwYXR1zhkCDCY": 3
+          },
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "neon-lords",
+            "systemVersion": "0.0.10",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          }
+        }
+      ],
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.neon-lords.actors.Actor.qQTwUfbEzr2CrC4m",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "neon-lords",
+        "systemVersion": "0.0.10",
+        "createdTime": 1745589709867,
+        "modifiedTime": 1745590148576,
+        "lastModifiedBy": "x53CwYXR1zhkCDCY"
+      },
+      "ownership": {
+        "default": 0,
+        "x53CwYXR1zhkCDCY": 3
+      },
+      "_id": "dvdCzxYQQeYtUerr",
+      "sort": 600000
+    },
+    {
+      "name": "Drool-Aid Man",
+      "type": "npc",
+      "img": "systems/neon-lords/assets/creeps/droolaidman.webp",
+      "system": {
+        "hp": {
+          "value": 19,
+          "max": 19
+        },
+        "ac": {
+          "value": 13
+        },
+        "movement": {
+          "value": 30
+        },
+        "spellCheck": {
+          "value": 18
+        },
+        "saves": {
+          "grit": {
+            "value": 13
+          },
+          "agility": {
+            "value": 13
+          },
+          "resolve": {
+            "value": 13
+          },
+          "death": {
+            "value": 13
+          }
+        },
+        "biography": "<p>A sentient walking and killing crystal pitcher of Drool-Aid brand sugar-tastic drink mix. The Drool-Aid People are summoned to Terra-Realm from their home dimension of Burgerworld. Once summoned through ritual and incantation, the Drool-Aid Man can be enslaved by the caster and made to do their biddings.</p><p></p><p class=\"p1\">When at half of their starting life total the Drool-Aid Man begins to crack and spill toxic liquid. Anyone in melee combat with them takes [[/roll 1D4]] damage anytime their attack is successful. When the Drool-Aid Man dies it shatters and anyone within 10ft makes an [[/save agility]] or be hit by shrapnel and toxic liquid. On a failed save they take [[/roll 2D6]] damage. A 10ft radius where the drool-aid man died becomes caustic and if any creature moves in the radius takes [[/roll 1D6]] damage per 5ft of travel.</p>",
+        "alignment": "Khaotic",
+        "hd": 5,
+        "xp": 0,
+        "to_the_max_normal": "Punch right to the face knocking out [[1D4]] Teeth, and dealing an additional [[1D6]] damage.",
+        "to_the_max_ouch": "FLAVOR BLAST! The Drool-Aid man vomits his insides on the target dissolving skin and intestines leaving nothing but a skeleton. Instant death."
+      },
+      "prototypeToken": {
+        "name": "Drool-Aid Man",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "width": 1,
+        "height": 1,
+        "texture": {
+          "src": "systems/neon-lords/assets/creeps/droolaidman.webp",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "offsetX": 0,
+          "offsetY": 0,
+          "fit": "contain",
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotation": 0,
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "hexagonalShape": 0,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": "hp"
+        },
+        "bar2": {
+          "attribute": "cp"
+        },
+        "light": {
+          "negative": false,
+          "priority": 0,
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        },
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [
+        {
+          "name": "Fist",
+          "type": "attack",
+          "system": {
+            "description": "<p>Goes Dead Last</p>",
+            "bonus": 2,
+            "damage_roll": "2D6+2",
+            "damage_type": "",
+            "firearm": false,
+            "special": ""
+          },
+          "_id": "VMSHG4gAqbTF2pMn",
+          "img": "systems/neon-lords/assets/creeps/droolaidman.webp",
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0,
+            "x53CwYXR1zhkCDCY": 3
+          },
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "neon-lords",
+            "systemVersion": "0.0.10",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          }
+        },
+        {
+          "name": "Toxic",
+          "type": "feature",
+          "system": {
+            "description": "<p>When at half of their starting life total the Drool-Aid Man begins to crack and spill toxic liquid. Anyone in melee combat with them takes [[/roll 1D4]] damage anytime their attack is successful.</p>"
+          },
+          "_id": "zBeDBO90EpdJMnv2",
+          "img": "systems/neon-lords/assets/creeps/droolaidman.webp",
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0,
+            "x53CwYXR1zhkCDCY": 3
+          },
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "neon-lords",
+            "systemVersion": "0.0.10",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          }
+        },
+        {
+          "name": "REALLY Toxic",
+          "type": "feature",
+          "system": {
+            "description": "<p>When the Drool-Aid Man dies it shatters and anyone within 10ft makes an [[/save agility]] or be hit by shrapnel and toxic liquid. On a failed save they take [[/roll 2D6]] damage. A 10ft radius where the Drool-Aid Man died becomes caustic and if any creature moves in the radius takes [[/roll 1D6]] damage per 5ft of travel.</p>"
+          },
+          "_id": "nfG1f0IDgyWk6FOR",
+          "img": "systems/neon-lords/assets/creeps/droolaidman.webp",
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0,
+            "x53CwYXR1zhkCDCY": 3
+          },
+          "flags": {},
+          "_stats": {
+            "compendiumSource": "Actor.6vHDGtxnIeYaaUiD.Item.dpF65Rzvn4Xvkelj",
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "neon-lords",
+            "systemVersion": "0.0.10",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          }
+        }
+      ],
+      "effects": [],
+      "folder": "kRA4YHRvSLbhQZS0",
+      "ownership": {
+        "default": 0,
+        "x53CwYXR1zhkCDCY": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.neon-lords.actors.Actor.Lf1kVxdLWAU9mq1F",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "neon-lords",
+        "systemVersion": "0.0.10",
+        "createdTime": 1745589558766,
+        "modifiedTime": 1745590148576,
+        "lastModifiedBy": "x53CwYXR1zhkCDCY"
+      },
+      "_id": "BAV2NrPlVZeOKnnd",
+      "sort": 900000
+    },
+    {
+      "name": "Mutant Gunner",
+      "type": "npc",
+      "img": "systems/neon-lords/assets/creeps/mutantgunner.webp",
+      "system": {
+        "hp": {
+          "value": 10,
+          "max": 10
+        },
+        "ac": {
+          "value": 13
+        },
+        "movement": {
+          "value": 30
+        },
+        "saves": {
+          "grit": {
+            "value": 12
+          },
+          "agility": {
+            "value": 16
+          },
+          "resolve": {
+            "value": 14
+          },
+          "death": {
+            "value": 12
+          }
+        },
+        "biography": "<p>Run-of-the-mill average ugly mutie. This one just so happens to be handy with a blaster rifle.</p>",
+        "alignment": "Khaotic",
+        "hd": 2,
+        "xp": 0,
+        "to_the_max_normal": "The shot hits the target in the shoulder dealing an additional [[1D4]] damage and forcing them to drop whatever they may be holding in that hand. 50%\nLeft side.",
+        "to_the_max_ouch": "HEAD SHOT! Target’s brains are splattered all over the closest Party Member. covered in blood and brains must roll on the Fear table.",
+        "spellCheck": {
+          "value": 18
+        }
+      },
+      "prototypeToken": {
+        "name": "Mutant Raider",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "width": 1,
+        "height": 1,
+        "texture": {
+          "src": "systems/neon-lords/assets/creeps/mutantgunner.webp",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "offsetX": 0,
+          "offsetY": 0,
+          "fit": "contain",
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotation": 0,
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "hexagonalShape": 0,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": "hp"
+        },
+        "bar2": {
+          "attribute": "cp"
+        },
+        "light": {
+          "negative": false,
+          "priority": 0,
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        },
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [
+        {
+          "name": "Blaster Rifle",
+          "type": "attack",
+          "system": {
+            "description": "",
+            "bonus": 2,
+            "special": "",
+            "damage_roll": "2D4x4+2",
+            "firearm": true,
+            "damage_type": ""
+          },
+          "_id": "zWgdkCK5iQDXiDDU",
+          "img": "icons/svg/item-bag.svg",
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0,
+            "x53CwYXR1zhkCDCY": 3
+          },
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "neon-lords",
+            "systemVersion": "0.0.10",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          }
+        },
+        {
+          "name": "Mutoid",
+          "type": "feature",
+          "system": {
+            "description": "<p>All creeps that would be considered a Mutant gain the Mutoid special ability. No two mutants are the same, appearance and abilities vary so greatly among them. Each mutant rolls on the @UUID[Compendium.neon-lords.tables.RollTable.HyBQa4FGfKxwNOaw]{Minor Mutations} table, unless otherwise stated, or they can forgo and roll on the @UUID[Compendium.neon-lords.tables.RollTable.wWzmjUlTi9EUMRvR]{Mutant Appearance} table.</p><p></p><p></p>"
+          },
+          "_id": "qFfggQMyhEly1ibW",
+          "img": "icons/svg/item-bag.svg",
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0,
+            "x53CwYXR1zhkCDCY": 3
+          },
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "neon-lords",
+            "systemVersion": "0.0.10",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          }
+        }
+      ],
+      "effects": [],
+      "folder": "kRA4YHRvSLbhQZS0",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.neon-lords.actors.Actor.0ZTQCHyNCMmiSWdv",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "neon-lords",
+        "systemVersion": "0.0.10",
+        "createdTime": 1745589896276,
+        "modifiedTime": 1745590148576,
+        "lastModifiedBy": "x53CwYXR1zhkCDCY"
+      },
+      "ownership": {
+        "default": 0,
+        "x53CwYXR1zhkCDCY": 3
+      },
+      "_id": "RKVcuPkqTW3dddOw",
+      "sort": 400000
+    },
+    {
+      "name": "Mutant Raider",
+      "type": "npc",
+      "img": "systems/neon-lords/assets/creeps/mutantraider.webp",
+      "system": {
+        "hp": {
+          "value": 10,
+          "max": 10
+        },
+        "ac": {
+          "value": 15
+        },
+        "movement": {
+          "value": 30
+        },
+        "saves": {
+          "grit": {
+            "value": 12
+          },
+          "agility": {
+            "value": 14
+          },
+          "resolve": {
+            "value": 16
+          },
+          "death": {
+            "value": 13
+          }
+        },
+        "biography": "<p>Mutated cannibal creeps that want to eat your flesh and harvest your teeth. Has either a Ripper OR a Slasher.</p>",
+        "alignment": "Khaotic",
+        "hd": 2,
+        "xp": 0,
+        "to_the_max_normal": "Hits the target with the hilt in the mouth knocking out [[1D4]] teeth dealing normal damage.",
+        "to_the_max_ouch": "Mutated Strike slices open the target’s stomach exposing vital organs to the grime of the wastelands. Target goes Prone and death is imminent in [[1D4]]\nturns.",
+        "spellCheck": {
+          "value": 18
+        }
+      },
+      "prototypeToken": {
+        "name": "Mutant Raider",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "width": 1,
+        "height": 1,
+        "texture": {
+          "src": "systems/neon-lords/assets/creeps/mutantraider.webp",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "offsetX": 0,
+          "offsetY": 0,
+          "fit": "contain",
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotation": 0,
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "hexagonalShape": 0,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": "hp"
+        },
+        "bar2": {
+          "attribute": "cp"
+        },
+        "light": {
+          "negative": false,
+          "priority": 0,
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        },
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [
+        {
+          "name": "Ripper",
+          "type": "attack",
+          "system": {
+            "description": "",
+            "bonus": 1,
+            "special": "",
+            "damage_roll": "1D6",
+            "damage_type": "",
+            "firearm": false
+          },
+          "_id": "0kAABNvRjKW24vXc",
+          "img": "icons/svg/item-bag.svg",
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0,
+            "x53CwYXR1zhkCDCY": 3
+          },
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "neon-lords",
+            "systemVersion": "0.0.10",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          }
+        },
+        {
+          "name": "Mutoid",
+          "type": "feature",
+          "system": {
+            "description": "<p>All creeps that would be considered a Mutant gain the Mutoid special ability. No two mutants are the same, appearance and abilities vary so greatly among them. Each mutant rolls on the @UUID[Compendium.neon-lords.tables.RollTable.HyBQa4FGfKxwNOaw]{Minor Mutations} table, unless otherwise stated, or they can forgo and roll on the @UUID[Compendium.neon-lords.tables.RollTable.wWzmjUlTi9EUMRvR]{Mutant Appearance} table.</p><p></p><p></p>"
+          },
+          "_id": "jYhyx9QDsG190vdv",
+          "img": "icons/svg/item-bag.svg",
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0,
+            "x53CwYXR1zhkCDCY": 3
+          },
+          "flags": {},
+          "_stats": {
+            "compendiumSource": "Actor.NGrD9qq3zOhNhwJM.Item.qFfggQMyhEly1ibW",
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "neon-lords",
+            "systemVersion": "0.0.10",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          }
+        },
+        {
+          "name": "Slasher",
+          "type": "attack",
+          "system": {
+            "description": "",
+            "bonus": 1,
+            "damage_roll": "1D8",
+            "damage_type": "",
+            "firearm": false,
+            "special": ""
+          },
+          "_id": "e66fkqoeAvCTssAO",
+          "img": "icons/svg/item-bag.svg",
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0,
+            "x53CwYXR1zhkCDCY": 3
+          },
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "neon-lords",
+            "systemVersion": "0.0.10",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          }
+        }
+      ],
+      "effects": [],
+      "folder": "kRA4YHRvSLbhQZS0",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.neon-lords.actors.Actor.IBEke4njGAbl5Vlo",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "neon-lords",
+        "systemVersion": "0.0.10",
+        "createdTime": 1745590097123,
+        "modifiedTime": 1745590149418,
+        "lastModifiedBy": "x53CwYXR1zhkCDCY"
+      },
+      "ownership": {
+        "default": 0,
+        "x53CwYXR1zhkCDCY": 3
+      },
+      "_id": "PgJp4s3zdIFhLrYC",
+      "sort": 350000
+    },
+    {
+      "name": "Zombie",
+      "type": "npc",
+      "img": "systems/neon-lords/assets/creeps/zombie.webp",
+      "system": {
+        "hp": {
+          "value": 3,
+          "max": 3
+        },
+        "ac": {
+          "value": 9
+        },
+        "movement": {
+          "value": 20
+        },
+        "saves": {
+          "grit": {
+            "value": 18
+          },
+          "agility": {
+            "value": 18
+          },
+          "resolve": {
+            "value": 18
+          },
+          "death": {
+            "value": 18
+          }
+        },
+        "biography": "<p>Shambling shells that were once Humanoid, these decaying animated corpses roam the wastelands in search of brains to devour. Oftentimes brought back to life by a Nekromancer to become his servants after death.</p>",
+        "alignment": "Neutral",
+        "hd": 1,
+        "xp": 0,
+        "to_the_max_normal": "The zombie’s teeth sink in a bit deep dealing an additional [[1D4]] damage.",
+        "to_the_max_ouch": "The bite has a bit of toxic saliva in it. The target must make a Resolve Saving throw or become a Zombie.",
+        "spellCheck": {
+          "value": 18
+        }
+      },
+      "prototypeToken": {
+        "name": "Zombie",
+        "displayName": 0,
+        "actorLink": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "width": 1,
+        "height": 1,
+        "texture": {
+          "src": "systems/neon-lords/assets/creeps/zombie.webp",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "offsetX": 0,
+          "offsetY": 0,
+          "fit": "contain",
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotation": 0,
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "hexagonalShape": 0,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": "hp"
+        },
+        "bar2": {
+          "attribute": "cp"
+        },
+        "light": {
+          "negative": false,
+          "priority": 0,
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        },
+        "flags": {},
+        "randomImg": false
+      },
+      "items": [
+        {
+          "name": "Bite",
+          "type": "attack",
+          "system": {
+            "description": "",
+            "bonus": 0,
+            "special": "",
+            "damage_roll": "1D4",
+            "damage_type": "",
+            "firearm": false
+          },
+          "_id": "iCPeybjQOAFqnLu6",
+          "img": "icons/svg/item-bag.svg",
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0,
+            "x53CwYXR1zhkCDCY": 3
+          },
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "neon-lords",
+            "systemVersion": "0.0.10",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          }
+        },
+        {
+          "name": "Resilient!",
+          "type": "feature",
+          "system": {
+            "description": "<p>These bastards just won’t die! Destroying the head is the only way, head shots with guns works the best. When attacking a zombie roll a [[/roll 1D6]] in addition to the 1D20 attack roll. A roll of a 6 on the 1D6 is considered a head blow.</p>"
+          },
+          "_id": "f4d7lb1s4Atw1eVY",
+          "img": "icons/svg/item-bag.svg",
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0,
+            "x53CwYXR1zhkCDCY": 3
+          },
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "neon-lords",
+            "systemVersion": "0.0.10",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          }
+        }
+      ],
+      "effects": [],
+      "folder": "kRA4YHRvSLbhQZS0",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.neon-lords.actors.Actor.Jl8B7jbkA0voPPiO",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "neon-lords",
+        "systemVersion": "0.0.10",
+        "createdTime": 1745589507542,
+        "modifiedTime": 1745590150647,
+        "lastModifiedBy": "x53CwYXR1zhkCDCY"
+      },
+      "ownership": {
+        "default": 0,
+        "x53CwYXR1zhkCDCY": 3
+      },
+      "_id": "pJBToyyCBYXqnqiM",
+      "sort": 450000
     }
   ],
   "combats": [],
@@ -1543,6 +2642,36 @@
         "modifiedTime": 1745423397938,
         "lastModifiedBy": "x53CwYXR1zhkCDCY"
       }
+    },
+    {
+      "folder": "ODrTi0cD3BnEEfcB",
+      "name": "Skeleton Key",
+      "type": "gear",
+      "_id": "4yoBYoUCS6PLw3yC",
+      "img": "systems/neon-lords/assets/lastoutpost/blinkingkey.webp",
+      "system": {
+        "description": "<p>A skeleton key extracted from inside the @UUID[Compendium.neon-lords.actors.Actor.Lf1kVxdLWAU9mq1F]{Drool-Aid Man}. Has a strange, blinking eye on the handle. I wonder what it opens…</p>",
+        "quantity": 1,
+        "slots": 0,
+        "value": 0
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "x53CwYXR1zhkCDCY": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Item.4yoBYoUCS6PLw3yC",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "neon-lords",
+        "systemVersion": "0.0.10",
+        "createdTime": 1745588874754,
+        "modifiedTime": 1745589172769,
+        "lastModifiedBy": "x53CwYXR1zhkCDCY"
+      }
     }
   ],
   "journal": [
@@ -1563,7 +2692,7 @@
           "image": {},
           "text": {
             "format": 1,
-            "content": "<p>Dimly lit, the fresh smell of gore is overwhelming</p><ul><li><p class=\"p1\">3 Corpses of Guardsmen litter the floor, they have been disemboweled, and one has had his brain scooped clean out the back</p></li><li><p class=\"p1\">Half way up the room is a trip wire attached to a “Death Box” (see below). If triggered the 3 corpses will rise as @UUID[Actor.DPy8Ury3C6C7w3IQ]{Zombies}.</p></li></ul><p class=\"p1\"></p><p class=\"p1\"><strong>NORTH</strong>: Two sliding synthetic doors are shut.</p><p class=\"p1\"><strong>SOUTH</strong>: Door leading outside</p><p class=\"p1\"></p><p class=\"p1\">”Death Box” - A devious trap constructed of a smoke grenade laced with reanimation serum, which was made airborne. Any dead flesh within the cloud is brought back to the world of the living for a brief period of time before turning to jet black sludge. ([[/roll 1D6+1]] turns)</p>"
+            "content": "<p>Dimly lit, the fresh smell of gore is overwhelming</p><ul><li><p class=\"p1\">3 Corpses of Guardsmen litter the floor, they have been disemboweled, and one has had his brain scooped clean out the back</p></li><li><p class=\"p1\">Half way up the room is a trip wire attached to a “Death Box” (see below). If triggered the 3 corpses will rise as @UUID[Compendium.neon-lords.actors.Actor.Jl8B7jbkA0voPPiO]{Zombies}.</p></li></ul><p class=\"p1\"></p><p class=\"p1\"><strong>NORTH</strong>: Two sliding synthetic doors are shut.</p><p class=\"p1\"><strong>SOUTH</strong>: Door leading outside</p><p class=\"p1\"></p><p class=\"p1\">”Death Box” - A devious trap constructed of a smoke grenade laced with reanimation serum, which was made airborne. Any dead flesh within the cloud is brought back to the world of the living for a brief period of time before turning to jet black sludge. ([[/roll 1D6+1]] turns)</p>"
           },
           "video": {
             "controls": true,
@@ -1582,7 +2711,7 @@
             "systemId": "neon-lords",
             "systemVersion": "0.0.9",
             "createdTime": 1745420035439,
-            "modifiedTime": 1745431434397,
+            "modifiedTime": 1745588484492,
             "lastModifiedBy": "x53CwYXR1zhkCDCY"
           }
         },
@@ -1635,7 +2764,7 @@
           "image": {},
           "text": {
             "format": 1,
-            "content": "<p>Pitch black except for the blue light coming from behind the glass wall on the east. The room is outfitted with clunky scanning machines, that the @UUID[Actor.NGrD9qq3zOhNhwJM]{Gunners} are hiding behind.</p><p></p><p class=\"p1\">As the door slides open the, 2 Gunners shoot in the directions of the open door.</p><ul><li><p class=\"p1\">Nothing Of Note In The Room.</p></li></ul><p class=\"p1\"></p><p class=\"p1\"><strong>North</strong>: Normal Wooden Door. (Unlocked)</p><p class=\"p1\"><strong>East</strong>: Glass Wall Where @UUID[.9CrP5vswLqKQ5kiL]{Guard Room} Looks Into Security Checkpoint (this room).</p><p class=\"p1\"><strong>South</strong>: Door Leading To The @UUID[.2r0LVd05zWNnMQ7t]{Entrance}</p>"
+            "content": "<p>Pitch black except for the blue light coming from behind the glass wall on the east. The room is outfitted with clunky scanning machines, that the @UUID[Compendium.neon-lords.actors.Actor.0ZTQCHyNCMmiSWdv]{Gunners} are hiding behind.</p><p></p><p class=\"p1\">As the door slides open the, 2 Gunners shoot in the directions of the open door.</p><ul><li><p class=\"p1\">Nothing Of Note In The Room.</p></li></ul><p class=\"p1\"></p><p class=\"p1\"><strong>North</strong>: Normal Wooden Door. (Unlocked)</p><p class=\"p1\"><strong>East</strong>: Glass Wall Where @UUID[.9CrP5vswLqKQ5kiL]{Guard Room} Looks Into Security Checkpoint (this room).</p><p class=\"p1\"><strong>South</strong>: Door Leading To The @UUID[.2r0LVd05zWNnMQ7t]{Entrance}</p>"
           },
           "video": {
             "controls": true,
@@ -1654,7 +2783,7 @@
             "systemId": "neon-lords",
             "systemVersion": "0.0.9",
             "createdTime": 1745421513922,
-            "modifiedTime": 1745424646078,
+            "modifiedTime": 1745588507405,
             "lastModifiedBy": "x53CwYXR1zhkCDCY"
           }
         },
@@ -1707,7 +2836,7 @@
           "image": {},
           "text": {
             "format": 1,
-            "content": "<p>Smells musty, but well lit. Dead Bodies litter the cells<span class=\"Apple-converted-space\">.</span></p><ul><li><p>2 Humanoids are locked in the cell furthest from the door on the <strong>NORTHERN</strong> wall of cells</p></li><li><p>[[/roll 1D4]] Mutant Raiders and 1 @UUID[Actor.9EjNegTz3a54IrzR]{Mutant Brute} are guarding the cell with the Humanoids in it.<span class=\"Apple-converted-space\"> </span></p></li><li><p>The Humanoids are both Guardsmen (@UUID[Actor.HR6GWU1dzXBTJnJ2]{Doug}, @UUID[Actor.f06R5OrHCdCvSGU0]{Cliff}). Doug has the @UUID[Item.93ifydR5IIuy6bjV]{Yellow Keycard} and instructs the party on how to enter the main lab. They can join the party and fight back against the mutant assault<span class=\"Apple-converted-space\">.</span></p></li></ul><p><span class=\"Apple-converted-space\"> </span><strong>WEST</strong>: Door leading to the @UUID[.1D9M1fjApmPU5468]{Hall Corridor}</p>"
+            "content": "<p>Smells musty, but well lit. Dead Bodies litter the cells<span class=\"Apple-converted-space\">.</span></p><ul><li><p>2 Humanoids are locked in the cell furthest from the door on the <strong>NORTHERN</strong> wall of cells</p></li><li><p>[[/roll 1D4]] @UUID[Compendium.neon-lords.actors.Actor.IBEke4njGAbl5Vlo]{Mutant Raiders} and 1 @UUID[Actor.9EjNegTz3a54IrzR]{Mutant Brute} are guarding the cell with the Humanoids in it.<span class=\"Apple-converted-space\"> </span></p></li><li><p>The Humanoids are both Guardsmen (@UUID[Actor.HR6GWU1dzXBTJnJ2]{Doug}, @UUID[Actor.f06R5OrHCdCvSGU0]{Cliff}). Doug has the @UUID[Item.93ifydR5IIuy6bjV]{Yellow Keycard} and instructs the party on how to enter the main lab. They can join the party and fight back against the mutant assault<span class=\"Apple-converted-space\">.</span></p></li></ul><p><span class=\"Apple-converted-space\"> </span><strong>WEST</strong>: Door leading to the @UUID[.1D9M1fjApmPU5468]{Hall Corridor}</p>"
           },
           "video": {
             "controls": true,
@@ -1726,7 +2855,7 @@
             "systemId": "neon-lords",
             "systemVersion": "0.0.9",
             "createdTime": 1745421848484,
-            "modifiedTime": 1745431411634,
+            "modifiedTime": 1745588685035,
             "lastModifiedBy": "x53CwYXR1zhkCDCY"
           }
         },
@@ -1851,7 +2980,7 @@
           "image": {},
           "text": {
             "format": 1,
-            "content": "<p class=\"p1\"></p><p class=\"p2\">The caustic smell of burnt chemicals but a well lit room. The walls are lined with various science machines and gizmos with an operating table in the center.<span class=\"Apple-converted-space\"> </span></p><ul><li><p class=\"p3\">2 Mutant Raiders are ransacking the drawers as books and flpapers are flying everywhere<span class=\"Apple-converted-space\"> </span></p></li><li><p class=\"p3\">1 Mutant @UUID[Actor.2mc3MO4aZ53bZrws]{cultist} with a chain around his neck being held by one of the raiders is keeping watch on the door.<span class=\"Apple-converted-space\"> </span></p></li><li><p class=\"p3\">There is a dead body on an operating table its chest cavity is wide open as flies are buzzing around it. Upon inspection there is a bag hidden deep in the cadaver. Inside the bag are a few baggies of rainbow powder.<span class=\"Apple-converted-space\"> </span></p></li></ul><p class=\"p4\"></p><p class=\"p2\"><span class=\"s1\"><strong>WEST</strong></span>: Door leading to the @UUID[.1D9M1fjApmPU5468]{Hall Corridor}</p><p class=\"p2\"><span class=\"s1\"><strong>SOUTH</strong></span>: Door leading to the @UUID[.0WWtklYFfUv1CTUl]{Bio-Flesh Regenerator}<span class=\"Apple-converted-space\"> </span></p>"
+            "content": "<p class=\"p1\"></p><p class=\"p2\">The caustic smell of burnt chemicals but a well lit room. The walls are lined with various science machines and gizmos with an operating table in the center.<span class=\"Apple-converted-space\"> </span></p><ul><li><p class=\"p3\">2 @UUID[Compendium.neon-lords.actors.Actor.IBEke4njGAbl5Vlo]{Mutant Raiders} are ransacking the drawers as books and flpapers are flying everywhere<span class=\"Apple-converted-space\"> </span></p></li><li><p class=\"p3\">1 Mutant @UUID[Compendium.neon-lords.actors.Actor.qQTwUfbEzr2CrC4m]{Cultist} with a chain around his neck being held by one of the raiders is keeping watch on the door.<span class=\"Apple-converted-space\"> </span></p></li><li><p class=\"p3\">There is a dead body on an operating table its chest cavity is wide open as flies are buzzing around it. Upon inspection there is a bag hidden deep in the cadaver. Inside the bag are a few baggies of rainbow powder.<span class=\"Apple-converted-space\"> </span></p></li></ul><p class=\"p4\"></p><p class=\"p2\"><span class=\"s1\"><strong>WEST</strong></span>: Door leading to the @UUID[.1D9M1fjApmPU5468]{Hall Corridor}</p><p class=\"p2\"><span class=\"s1\"><strong>SOUTH</strong></span>: Door leading to the @UUID[.0WWtklYFfUv1CTUl]{Bio-Flesh Regenerator}<span class=\"Apple-converted-space\"> </span></p>"
           },
           "video": {
             "controls": true,
@@ -1870,7 +2999,7 @@
             "systemId": "neon-lords",
             "systemVersion": "0.0.9",
             "createdTime": 1745424769756,
-            "modifiedTime": 1745431626623,
+            "modifiedTime": 1745588774558,
             "lastModifiedBy": "x53CwYXR1zhkCDCY"
           }
         },
@@ -1959,7 +3088,7 @@
           "image": {},
           "text": {
             "format": 1,
-            "content": "<p class=\"p1\"></p><p class=\"p2\">The room smells like synthetic purple, the only illumination is the torches held by the cultists who are standing in a circle, next to the south wall. 6 cultists and 1 cult leader are preforming a ritual of some sort. The symbol on the wall Thbegins to glow in a purple-ish light. The ground rumbles a bit as the chanting of “oh yeah, oh yeah, oh yeah.” Gets louder and louder. Until the wall explodes killing some of the cultist as a resounding “OOOOOOOOOOHHHH ThYEAHHHHHHH!” is bellowed out. The Drool-Aid man is standing on the rubble of the wall and the bodies of his followers.<span class=\"Apple-converted-space\"> </span></p><ul><li><p class=\"p3\">After the Summoning there are 3 @UUID[Actor.2mc3MO4aZ53bZrws]{Cultists} and the @UUID[Actor.HhN9fvciFV7IyeTB]{Cult Leader}, along with a giant pitcher of drool-aid animated called @UUID[Actor.6vHDGtxnIeYaaUiD]{The Drool-Aid Man} (grape variant)<span class=\"Apple-converted-space\"> </span></p></li><li><p class=\"p3\">If an attempt is made to drink his purple insides, the drinker must make a Resolve Saving Throw or his insides are turned into glittery dust. On a success he rolls on the @UUID[Compendium.neon-lords.tables.RollTable.BIDFFaLxG6ywrUF8]{Drug Effects} table.<span class=\"Apple-converted-space\"> </span></p></li><li><p class=\"p3\">When the fiend is finally slain, and someone searches the dead dude you will find floating around inside of him a skeleton key with a blinking eye on the handle.<span class=\"Apple-converted-space\"> </span></p></li><li><p class=\"p3\">The Cult leader was carrying a scroll with a random level 1 War Wizard spell on it.</p></li></ul>"
+            "content": "<p class=\"p1\"></p><p class=\"p2\">The room smells like synthetic purple, the only illumination is the torches held by the cultists who are standing in a circle, next to the south wall. 6 cultists and 1 cult leader are preforming a ritual of some sort. The symbol on the wall Thbegins to glow in a purple-ish light. The ground rumbles a bit as the chanting of “oh yeah, oh yeah, oh yeah.” Gets louder and louder. Until the wall explodes killing some of the cultist as a resounding “OOOOOOOOOOHHHH ThYEAHHHHHHH!” is bellowed out. The Drool-Aid man is standing on the rubble of the wall and the bodies of his followers.<span class=\"Apple-converted-space\"> </span></p><ul><li><p class=\"p3\">After the Summoning there are 3 @UUID[Compendium.neon-lords.actors.Actor.qQTwUfbEzr2CrC4m]{Cultists} and the @UUID[Actor.HhN9fvciFV7IyeTB]{Cult Leader}, along with a giant pitcher of drool-aid animated called @UUID[Compendium.neon-lords.actors.Actor.Lf1kVxdLWAU9mq1F]{The Drool-Aid Man} (grape variant)<span class=\"Apple-converted-space\"> </span></p></li><li><p class=\"p3\">If an attempt is made to drink his purple insides, the drinker must make a Resolve Saving Throw or his insides are turned into glittery dust. On a success he rolls on the @UUID[Compendium.neon-lords.tables.RollTable.BIDFFaLxG6ywrUF8]{Drug Effects} table.<span class=\"Apple-converted-space\"> </span></p></li><li><p class=\"p3\">When the fiend is finally slain, and someone searches the dead dude you will find floating around inside of him a skeleton key with a blinking eye on the handle.<span class=\"Apple-converted-space\"> </span></p></li><li><p class=\"p3\">The Cult leader was carrying a scroll with a random level 1 War Wizard spell on it.</p></li></ul>"
           },
           "video": {
             "controls": true,
@@ -1978,7 +3107,7 @@
             "systemId": "neon-lords",
             "systemVersion": "0.0.9",
             "createdTime": 1745424803714,
-            "modifiedTime": 1745432339169,
+            "modifiedTime": 1745588830612,
             "lastModifiedBy": "x53CwYXR1zhkCDCY"
           }
         },
@@ -2127,1278 +3256,6 @@
       "drawings": [],
       "tokens": [
         {
-          "name": "Drool-Aid Man",
-          "displayName": 10,
-          "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
-          "width": 1,
-          "height": 1,
-          "texture": {
-            "src": "systems/neon-lords/assets/creeps/droolaidman.webp",
-            "anchorX": 0.5,
-            "anchorY": 0.5,
-            "offsetX": 0,
-            "offsetY": 0,
-            "fit": "contain",
-            "scaleX": 1,
-            "scaleY": 1,
-            "rotation": 0,
-            "tint": "#ffffff",
-            "alphaThreshold": 0.75
-          },
-          "hexagonalShape": 0,
-          "lockRotation": false,
-          "rotation": 0,
-          "alpha": 1,
-          "disposition": -1,
-          "displayBars": 0,
-          "bar1": {
-            "attribute": "hp"
-          },
-          "bar2": {
-            "attribute": null
-          },
-          "light": {
-            "negative": false,
-            "priority": 0,
-            "alpha": 0.5,
-            "angle": 360,
-            "bright": 0,
-            "color": null,
-            "coloration": 1,
-            "dim": 0,
-            "attenuation": 0.5,
-            "luminosity": 0.5,
-            "saturation": 0,
-            "contrast": 0,
-            "shadows": 0,
-            "animation": {
-              "type": null,
-              "speed": 5,
-              "intensity": 5,
-              "reverse": false
-            },
-            "darkness": {
-              "min": 0,
-              "max": 1
-            }
-          },
-          "sight": {
-            "enabled": false,
-            "range": 0,
-            "angle": 360,
-            "visionMode": "basic",
-            "color": null,
-            "attenuation": 0.1,
-            "brightness": 0,
-            "saturation": 0,
-            "contrast": 0
-          },
-          "detectionModes": [],
-          "occludable": {
-            "radius": 0
-          },
-          "ring": {
-            "enabled": false,
-            "colors": {
-              "ring": null,
-              "background": null
-            },
-            "effects": 0,
-            "subject": {
-              "scale": 1,
-              "texture": null
-            }
-          },
-          "flags": {},
-          "actorId": "6vHDGtxnIeYaaUiD",
-          "hidden": true,
-          "sort": 0,
-          "_id": "QKrDRiA7VVicrUGY",
-          "delta": {
-            "_id": "jCxw3erXLP0LRc8M",
-            "system": {},
-            "items": [],
-            "effects": [],
-            "flags": {},
-            "name": null,
-            "type": null,
-            "img": null
-          },
-          "x": 2800,
-          "y": 7200,
-          "elevation": 0,
-          "locked": false,
-          "_regions": []
-        },
-        {
-          "name": "Drool-Aid Cultist",
-          "displayName": 10,
-          "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
-          "width": 1,
-          "height": 1,
-          "texture": {
-            "src": "systems/neon-lords/assets/creeps/cultist.webp",
-            "anchorX": 0.5,
-            "anchorY": 0.5,
-            "offsetX": 0,
-            "offsetY": 0,
-            "fit": "contain",
-            "scaleX": 1,
-            "scaleY": 1,
-            "rotation": 0,
-            "tint": "#ffffff",
-            "alphaThreshold": 0.75
-          },
-          "hexagonalShape": 0,
-          "lockRotation": false,
-          "rotation": 0,
-          "alpha": 1,
-          "disposition": -1,
-          "displayBars": 0,
-          "bar1": {
-            "attribute": "hp"
-          },
-          "bar2": {
-            "attribute": null
-          },
-          "light": {
-            "negative": false,
-            "priority": 0,
-            "alpha": 0.3,
-            "angle": 360,
-            "bright": 0,
-            "color": "#f0aa33",
-            "coloration": 1,
-            "dim": 2,
-            "attenuation": 0.5,
-            "luminosity": 0.5,
-            "saturation": 0,
-            "contrast": 0,
-            "shadows": 0,
-            "animation": {
-              "type": null,
-              "speed": 5,
-              "intensity": 5,
-              "reverse": false
-            },
-            "darkness": {
-              "min": 0,
-              "max": 1
-            }
-          },
-          "sight": {
-            "enabled": false,
-            "range": 0,
-            "angle": 360,
-            "visionMode": "basic",
-            "color": null,
-            "attenuation": 0.1,
-            "brightness": 0,
-            "saturation": 0,
-            "contrast": 0
-          },
-          "detectionModes": [],
-          "occludable": {
-            "radius": 0
-          },
-          "ring": {
-            "enabled": false,
-            "colors": {
-              "ring": null,
-              "background": null
-            },
-            "effects": 0,
-            "subject": {
-              "scale": 1,
-              "texture": null
-            }
-          },
-          "flags": {},
-          "actorId": "2mc3MO4aZ53bZrws",
-          "hidden": false,
-          "sort": 2,
-          "_id": "9cWh8nBEiZTyNr99",
-          "delta": {
-            "_id": "SrFGLd6ggccLaa9t",
-            "system": {},
-            "items": [],
-            "effects": [],
-            "flags": {},
-            "name": null,
-            "type": null,
-            "img": null
-          },
-          "x": 2400,
-          "y": 7200,
-          "elevation": 0,
-          "locked": false,
-          "_regions": []
-        },
-        {
-          "name": "Drool-Aid Cultist",
-          "displayName": 10,
-          "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
-          "width": 1,
-          "height": 1,
-          "texture": {
-            "src": "systems/neon-lords/assets/creeps/cultist.webp",
-            "anchorX": 0.5,
-            "anchorY": 0.5,
-            "offsetX": 0,
-            "offsetY": 0,
-            "fit": "contain",
-            "scaleX": 1,
-            "scaleY": 1,
-            "rotation": 0,
-            "tint": "#ffffff",
-            "alphaThreshold": 0.75
-          },
-          "hexagonalShape": 0,
-          "lockRotation": false,
-          "rotation": 0,
-          "alpha": 1,
-          "disposition": -1,
-          "displayBars": 0,
-          "bar1": {
-            "attribute": "hp"
-          },
-          "bar2": {
-            "attribute": null
-          },
-          "light": {
-            "negative": false,
-            "priority": 0,
-            "alpha": 0.3,
-            "angle": 360,
-            "bright": 0,
-            "color": "#f0aa33",
-            "coloration": 1,
-            "dim": 2,
-            "attenuation": 0.5,
-            "luminosity": 0.5,
-            "saturation": 0,
-            "contrast": 0,
-            "shadows": 0,
-            "animation": {
-              "type": null,
-              "speed": 5,
-              "intensity": 5,
-              "reverse": false
-            },
-            "darkness": {
-              "min": 0,
-              "max": 1
-            }
-          },
-          "sight": {
-            "enabled": false,
-            "range": 0,
-            "angle": 360,
-            "visionMode": "basic",
-            "color": null,
-            "attenuation": 0.1,
-            "brightness": 0,
-            "saturation": 0,
-            "contrast": 0
-          },
-          "detectionModes": [],
-          "occludable": {
-            "radius": 0
-          },
-          "ring": {
-            "enabled": false,
-            "colors": {
-              "ring": null,
-              "background": null
-            },
-            "effects": 0,
-            "subject": {
-              "scale": 1,
-              "texture": null
-            }
-          },
-          "flags": {},
-          "actorId": "2mc3MO4aZ53bZrws",
-          "hidden": false,
-          "sort": 2,
-          "delta": {
-            "_id": "SrFGLd6ggccLaa9t",
-            "system": {},
-            "items": [],
-            "effects": [],
-            "flags": {},
-            "name": null,
-            "type": null,
-            "img": null
-          },
-          "x": 2400,
-          "y": 7000,
-          "elevation": 0,
-          "locked": false,
-          "_regions": [],
-          "_id": "AErzbZkpHetdwaa5"
-        },
-        {
-          "name": "Drool-Aid Cultist",
-          "displayName": 10,
-          "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
-          "width": 1,
-          "height": 1,
-          "texture": {
-            "src": "systems/neon-lords/assets/creeps/cultist.webp",
-            "anchorX": 0.5,
-            "anchorY": 0.5,
-            "offsetX": 0,
-            "offsetY": 0,
-            "fit": "contain",
-            "scaleX": 1,
-            "scaleY": 1,
-            "rotation": 0,
-            "tint": "#ffffff",
-            "alphaThreshold": 0.75
-          },
-          "hexagonalShape": 0,
-          "lockRotation": false,
-          "rotation": 0,
-          "alpha": 1,
-          "disposition": -1,
-          "displayBars": 0,
-          "bar1": {
-            "attribute": "hp"
-          },
-          "bar2": {
-            "attribute": null
-          },
-          "light": {
-            "negative": false,
-            "priority": 0,
-            "alpha": 0.3,
-            "angle": 360,
-            "bright": 0,
-            "color": "#f0aa33",
-            "coloration": 1,
-            "dim": 2,
-            "attenuation": 0.5,
-            "luminosity": 0.5,
-            "saturation": 0,
-            "contrast": 0,
-            "shadows": 0,
-            "animation": {
-              "type": null,
-              "speed": 5,
-              "intensity": 5,
-              "reverse": false
-            },
-            "darkness": {
-              "min": 0,
-              "max": 1
-            }
-          },
-          "sight": {
-            "enabled": false,
-            "range": 0,
-            "angle": 360,
-            "visionMode": "basic",
-            "color": null,
-            "attenuation": 0.1,
-            "brightness": 0,
-            "saturation": 0,
-            "contrast": 0
-          },
-          "detectionModes": [],
-          "occludable": {
-            "radius": 0
-          },
-          "ring": {
-            "enabled": false,
-            "colors": {
-              "ring": null,
-              "background": null
-            },
-            "effects": 0,
-            "subject": {
-              "scale": 1,
-              "texture": null
-            }
-          },
-          "flags": {},
-          "actorId": "2mc3MO4aZ53bZrws",
-          "hidden": false,
-          "sort": 2,
-          "delta": {
-            "_id": "SrFGLd6ggccLaa9t",
-            "system": {},
-            "items": [],
-            "effects": [],
-            "flags": {},
-            "name": null,
-            "type": null,
-            "img": null
-          },
-          "x": 2600,
-          "y": 6800,
-          "elevation": 0,
-          "locked": false,
-          "_regions": [],
-          "_id": "kvoBORoUxamPGrpR"
-        },
-        {
-          "name": "Drool-Aid Cultist",
-          "displayName": 10,
-          "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
-          "width": 1,
-          "height": 1,
-          "texture": {
-            "src": "systems/neon-lords/assets/creeps/cultist.webp",
-            "anchorX": 0.5,
-            "anchorY": 0.5,
-            "offsetX": 0,
-            "offsetY": 0,
-            "fit": "contain",
-            "scaleX": 1,
-            "scaleY": 1,
-            "rotation": 0,
-            "tint": "#ffffff",
-            "alphaThreshold": 0.75
-          },
-          "hexagonalShape": 0,
-          "lockRotation": false,
-          "rotation": 0,
-          "alpha": 1,
-          "disposition": -1,
-          "displayBars": 0,
-          "bar1": {
-            "attribute": "hp"
-          },
-          "bar2": {
-            "attribute": null
-          },
-          "light": {
-            "negative": false,
-            "priority": 0,
-            "alpha": 0.3,
-            "angle": 360,
-            "bright": 0,
-            "color": "#f0aa33",
-            "coloration": 1,
-            "dim": 2,
-            "attenuation": 0.5,
-            "luminosity": 0.5,
-            "saturation": 0,
-            "contrast": 0,
-            "shadows": 0,
-            "animation": {
-              "type": null,
-              "speed": 5,
-              "intensity": 5,
-              "reverse": false
-            },
-            "darkness": {
-              "min": 0,
-              "max": 1
-            }
-          },
-          "sight": {
-            "enabled": false,
-            "range": 0,
-            "angle": 360,
-            "visionMode": "basic",
-            "color": null,
-            "attenuation": 0.1,
-            "brightness": 0,
-            "saturation": 0,
-            "contrast": 0
-          },
-          "detectionModes": [],
-          "occludable": {
-            "radius": 0
-          },
-          "ring": {
-            "enabled": false,
-            "colors": {
-              "ring": null,
-              "background": null
-            },
-            "effects": 0,
-            "subject": {
-              "scale": 1,
-              "texture": null
-            }
-          },
-          "flags": {},
-          "actorId": "2mc3MO4aZ53bZrws",
-          "hidden": false,
-          "sort": 2,
-          "delta": {
-            "_id": "SrFGLd6ggccLaa9t",
-            "system": {},
-            "items": [],
-            "effects": [],
-            "flags": {},
-            "name": null,
-            "type": null,
-            "img": null
-          },
-          "x": 3000,
-          "y": 6800,
-          "elevation": 0,
-          "locked": false,
-          "_regions": [],
-          "_id": "hBfCJqN5ufeN1Nh4"
-        },
-        {
-          "name": "Drool-Aid Cultist",
-          "displayName": 10,
-          "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
-          "width": 1,
-          "height": 1,
-          "texture": {
-            "src": "systems/neon-lords/assets/creeps/cultist.webp",
-            "anchorX": 0.5,
-            "anchorY": 0.5,
-            "offsetX": 0,
-            "offsetY": 0,
-            "fit": "contain",
-            "scaleX": 1,
-            "scaleY": 1,
-            "rotation": 0,
-            "tint": "#ffffff",
-            "alphaThreshold": 0.75
-          },
-          "hexagonalShape": 0,
-          "lockRotation": false,
-          "rotation": 0,
-          "alpha": 1,
-          "disposition": -1,
-          "displayBars": 0,
-          "bar1": {
-            "attribute": "hp"
-          },
-          "bar2": {
-            "attribute": null
-          },
-          "light": {
-            "negative": false,
-            "priority": 0,
-            "alpha": 0.3,
-            "angle": 360,
-            "bright": 0,
-            "color": "#f0aa33",
-            "coloration": 1,
-            "dim": 2,
-            "attenuation": 0.5,
-            "luminosity": 0.5,
-            "saturation": 0,
-            "contrast": 0,
-            "shadows": 0,
-            "animation": {
-              "type": null,
-              "speed": 5,
-              "intensity": 5,
-              "reverse": false
-            },
-            "darkness": {
-              "min": 0,
-              "max": 1
-            }
-          },
-          "sight": {
-            "enabled": false,
-            "range": 0,
-            "angle": 360,
-            "visionMode": "basic",
-            "color": null,
-            "attenuation": 0.1,
-            "brightness": 0,
-            "saturation": 0,
-            "contrast": 0
-          },
-          "detectionModes": [],
-          "occludable": {
-            "radius": 0
-          },
-          "ring": {
-            "enabled": false,
-            "colors": {
-              "ring": null,
-              "background": null
-            },
-            "effects": 0,
-            "subject": {
-              "scale": 1,
-              "texture": null
-            }
-          },
-          "flags": {},
-          "actorId": "2mc3MO4aZ53bZrws",
-          "hidden": false,
-          "sort": 2,
-          "delta": {
-            "_id": "SrFGLd6ggccLaa9t",
-            "system": {},
-            "items": [],
-            "effects": [],
-            "flags": {},
-            "name": null,
-            "type": null,
-            "img": null
-          },
-          "x": 3200,
-          "y": 7000,
-          "elevation": 0,
-          "locked": false,
-          "_regions": [],
-          "_id": "oHV6xJllZFcJqAJ7"
-        },
-        {
-          "name": "Drool-Aid Cultist",
-          "displayName": 10,
-          "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
-          "width": 1,
-          "height": 1,
-          "texture": {
-            "src": "systems/neon-lords/assets/creeps/cultist.webp",
-            "anchorX": 0.5,
-            "anchorY": 0.5,
-            "offsetX": 0,
-            "offsetY": 0,
-            "fit": "contain",
-            "scaleX": 1,
-            "scaleY": 1,
-            "rotation": 0,
-            "tint": "#ffffff",
-            "alphaThreshold": 0.75
-          },
-          "hexagonalShape": 0,
-          "lockRotation": false,
-          "rotation": 0,
-          "alpha": 1,
-          "disposition": -1,
-          "displayBars": 0,
-          "bar1": {
-            "attribute": "hp"
-          },
-          "bar2": {
-            "attribute": null
-          },
-          "light": {
-            "negative": false,
-            "priority": 0,
-            "alpha": 0.3,
-            "angle": 360,
-            "bright": 0,
-            "color": "#f0aa33",
-            "coloration": 1,
-            "dim": 2,
-            "attenuation": 0.5,
-            "luminosity": 0.5,
-            "saturation": 0,
-            "contrast": 0,
-            "shadows": 0,
-            "animation": {
-              "type": null,
-              "speed": 5,
-              "intensity": 5,
-              "reverse": false
-            },
-            "darkness": {
-              "min": 0,
-              "max": 1
-            }
-          },
-          "sight": {
-            "enabled": false,
-            "range": 0,
-            "angle": 360,
-            "visionMode": "basic",
-            "color": null,
-            "attenuation": 0.1,
-            "brightness": 0,
-            "saturation": 0,
-            "contrast": 0
-          },
-          "detectionModes": [],
-          "occludable": {
-            "radius": 0
-          },
-          "ring": {
-            "enabled": false,
-            "colors": {
-              "ring": null,
-              "background": null
-            },
-            "effects": 0,
-            "subject": {
-              "scale": 1,
-              "texture": null
-            }
-          },
-          "flags": {},
-          "actorId": "2mc3MO4aZ53bZrws",
-          "hidden": false,
-          "sort": 2,
-          "delta": {
-            "_id": "SrFGLd6ggccLaa9t",
-            "system": {},
-            "items": [],
-            "effects": [],
-            "flags": {},
-            "name": null,
-            "type": null,
-            "img": null
-          },
-          "x": 3200,
-          "y": 7200,
-          "elevation": 0,
-          "locked": false,
-          "_regions": [],
-          "_id": "TAqUz3TMAx4NVRIT"
-        },
-        {
-          "name": "Zombie",
-          "displayName": 10,
-          "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
-          "width": 1,
-          "height": 1,
-          "texture": {
-            "src": "systems/neon-lords/assets/creeps/zombie.webp",
-            "anchorX": 0.5,
-            "anchorY": 0.5,
-            "offsetX": 0,
-            "offsetY": 0,
-            "fit": "contain",
-            "scaleX": 1,
-            "scaleY": 1,
-            "rotation": 0,
-            "tint": "#ffffff",
-            "alphaThreshold": 0.75
-          },
-          "hexagonalShape": 0,
-          "lockRotation": false,
-          "rotation": 0,
-          "alpha": 1,
-          "disposition": -1,
-          "displayBars": 0,
-          "bar1": {
-            "attribute": "hp"
-          },
-          "bar2": {
-            "attribute": null
-          },
-          "light": {
-            "negative": false,
-            "priority": 0,
-            "alpha": 0.5,
-            "angle": 360,
-            "bright": 0,
-            "color": null,
-            "coloration": 1,
-            "dim": 0,
-            "attenuation": 0.5,
-            "luminosity": 0.5,
-            "saturation": 0,
-            "contrast": 0,
-            "shadows": 0,
-            "animation": {
-              "type": null,
-              "speed": 5,
-              "intensity": 5,
-              "reverse": false
-            },
-            "darkness": {
-              "min": 0,
-              "max": 1
-            }
-          },
-          "sight": {
-            "enabled": false,
-            "range": 0,
-            "angle": 360,
-            "visionMode": "basic",
-            "color": null,
-            "attenuation": 0.1,
-            "brightness": 0,
-            "saturation": 0,
-            "contrast": 0
-          },
-          "detectionModes": [],
-          "occludable": {
-            "radius": 0
-          },
-          "ring": {
-            "enabled": false,
-            "colors": {
-              "ring": null,
-              "background": null
-            },
-            "effects": 0,
-            "subject": {
-              "scale": 1,
-              "texture": null
-            }
-          },
-          "flags": {},
-          "actorId": "DPy8Ury3C6C7w3IQ",
-          "hidden": true,
-          "sort": 3,
-          "_id": "lxu9n1OEM8AybY1G",
-          "delta": {
-            "_id": "u9SgVLduJGpLArVR",
-            "system": {},
-            "items": [],
-            "effects": [],
-            "flags": {},
-            "name": null,
-            "type": null,
-            "img": null
-          },
-          "x": 400,
-          "y": 6800,
-          "elevation": 0,
-          "locked": false,
-          "_regions": []
-        },
-        {
-          "name": "Zombie",
-          "displayName": 10,
-          "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
-          "width": 1,
-          "height": 1,
-          "texture": {
-            "src": "systems/neon-lords/assets/creeps/zombie.webp",
-            "anchorX": 0.5,
-            "anchorY": 0.5,
-            "offsetX": 0,
-            "offsetY": 0,
-            "fit": "contain",
-            "scaleX": 1,
-            "scaleY": 1,
-            "rotation": 0,
-            "tint": "#ffffff",
-            "alphaThreshold": 0.75
-          },
-          "hexagonalShape": 0,
-          "lockRotation": false,
-          "rotation": 0,
-          "alpha": 1,
-          "disposition": -1,
-          "displayBars": 0,
-          "bar1": {
-            "attribute": "hp"
-          },
-          "bar2": {
-            "attribute": null
-          },
-          "light": {
-            "negative": false,
-            "priority": 0,
-            "alpha": 0.5,
-            "angle": 360,
-            "bright": 0,
-            "color": null,
-            "coloration": 1,
-            "dim": 0,
-            "attenuation": 0.5,
-            "luminosity": 0.5,
-            "saturation": 0,
-            "contrast": 0,
-            "shadows": 0,
-            "animation": {
-              "type": null,
-              "speed": 5,
-              "intensity": 5,
-              "reverse": false
-            },
-            "darkness": {
-              "min": 0,
-              "max": 1
-            }
-          },
-          "sight": {
-            "enabled": false,
-            "range": 0,
-            "angle": 360,
-            "visionMode": "basic",
-            "color": null,
-            "attenuation": 0.1,
-            "brightness": 0,
-            "saturation": 0,
-            "contrast": 0
-          },
-          "detectionModes": [],
-          "occludable": {
-            "radius": 0
-          },
-          "ring": {
-            "enabled": false,
-            "colors": {
-              "ring": null,
-              "background": null
-            },
-            "effects": 0,
-            "subject": {
-              "scale": 1,
-              "texture": null
-            }
-          },
-          "flags": {},
-          "actorId": "DPy8Ury3C6C7w3IQ",
-          "hidden": true,
-          "sort": 3,
-          "delta": {
-            "_id": "u9SgVLduJGpLArVR",
-            "system": {},
-            "items": [],
-            "effects": [],
-            "flags": {},
-            "name": null,
-            "type": null,
-            "img": null
-          },
-          "x": 1200,
-          "y": 6800,
-          "elevation": 0,
-          "locked": false,
-          "_regions": [],
-          "_id": "lPwCEbqQTdFxOzn1"
-        },
-        {
-          "name": "Zombie",
-          "displayName": 10,
-          "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
-          "width": 1,
-          "height": 1,
-          "texture": {
-            "src": "systems/neon-lords/assets/creeps/zombie.webp",
-            "anchorX": 0.5,
-            "anchorY": 0.5,
-            "offsetX": 0,
-            "offsetY": 0,
-            "fit": "contain",
-            "scaleX": 1,
-            "scaleY": 1,
-            "rotation": 0,
-            "tint": "#ffffff",
-            "alphaThreshold": 0.75
-          },
-          "hexagonalShape": 0,
-          "lockRotation": false,
-          "rotation": 0,
-          "alpha": 1,
-          "disposition": -1,
-          "displayBars": 0,
-          "bar1": {
-            "attribute": "hp"
-          },
-          "bar2": {
-            "attribute": null
-          },
-          "light": {
-            "negative": false,
-            "priority": 0,
-            "alpha": 0.5,
-            "angle": 360,
-            "bright": 0,
-            "color": null,
-            "coloration": 1,
-            "dim": 0,
-            "attenuation": 0.5,
-            "luminosity": 0.5,
-            "saturation": 0,
-            "contrast": 0,
-            "shadows": 0,
-            "animation": {
-              "type": null,
-              "speed": 5,
-              "intensity": 5,
-              "reverse": false
-            },
-            "darkness": {
-              "min": 0,
-              "max": 1
-            }
-          },
-          "sight": {
-            "enabled": false,
-            "range": 0,
-            "angle": 360,
-            "visionMode": "basic",
-            "color": null,
-            "attenuation": 0.1,
-            "brightness": 0,
-            "saturation": 0,
-            "contrast": 0
-          },
-          "detectionModes": [],
-          "occludable": {
-            "radius": 0
-          },
-          "ring": {
-            "enabled": false,
-            "colors": {
-              "ring": null,
-              "background": null
-            },
-            "effects": 0,
-            "subject": {
-              "scale": 1,
-              "texture": null
-            }
-          },
-          "flags": {},
-          "actorId": "DPy8Ury3C6C7w3IQ",
-          "hidden": true,
-          "sort": 3,
-          "delta": {
-            "_id": "u9SgVLduJGpLArVR",
-            "system": {},
-            "items": [],
-            "effects": [],
-            "flags": {},
-            "name": null,
-            "type": null,
-            "img": null
-          },
-          "x": 800,
-          "y": 7000,
-          "elevation": 0,
-          "locked": false,
-          "_regions": [],
-          "_id": "MDZ0Yqb1MHm407gh"
-        },
-        {
-          "name": "Mutant Raider",
-          "displayName": 0,
-          "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
-          "width": 1,
-          "height": 1,
-          "texture": {
-            "src": "systems/neon-lords/assets/creeps/mutantgunner.webp",
-            "anchorX": 0.5,
-            "anchorY": 0.5,
-            "offsetX": 0,
-            "offsetY": 0,
-            "fit": "contain",
-            "scaleX": 1,
-            "scaleY": 1,
-            "rotation": 0,
-            "tint": "#ffffff",
-            "alphaThreshold": 0.75
-          },
-          "hexagonalShape": 0,
-          "lockRotation": false,
-          "rotation": 0,
-          "alpha": 1,
-          "disposition": -1,
-          "displayBars": 0,
-          "bar1": {
-            "attribute": "hp"
-          },
-          "bar2": {
-            "attribute": "cp"
-          },
-          "light": {
-            "negative": false,
-            "priority": 0,
-            "alpha": 0.5,
-            "angle": 360,
-            "bright": 0,
-            "color": null,
-            "coloration": 1,
-            "dim": 0,
-            "attenuation": 0.5,
-            "luminosity": 0.5,
-            "saturation": 0,
-            "contrast": 0,
-            "shadows": 0,
-            "animation": {
-              "type": null,
-              "speed": 5,
-              "intensity": 5,
-              "reverse": false
-            },
-            "darkness": {
-              "min": 0,
-              "max": 1
-            }
-          },
-          "sight": {
-            "enabled": false,
-            "range": 0,
-            "angle": 360,
-            "visionMode": "basic",
-            "color": null,
-            "attenuation": 0.1,
-            "brightness": 0,
-            "saturation": 0,
-            "contrast": 0
-          },
-          "detectionModes": [],
-          "occludable": {
-            "radius": 0
-          },
-          "ring": {
-            "enabled": false,
-            "colors": {
-              "ring": null,
-              "background": null
-            },
-            "effects": 1,
-            "subject": {
-              "scale": 1,
-              "texture": null
-            }
-          },
-          "flags": {},
-          "actorId": "NGrD9qq3zOhNhwJM",
-          "hidden": true,
-          "sort": 4,
-          "_id": "NUe9NPSFP1SG6lXY",
-          "delta": {
-            "_id": "ehr5Cp5TzqyJpDPz",
-            "system": {},
-            "items": [],
-            "effects": [],
-            "flags": {},
-            "name": null,
-            "type": null,
-            "img": null
-          },
-          "x": 200,
-          "y": 5600,
-          "elevation": 0,
-          "locked": false,
-          "_regions": []
-        },
-        {
-          "name": "Mutant Raider",
-          "displayName": 0,
-          "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
-          "width": 1,
-          "height": 1,
-          "texture": {
-            "src": "systems/neon-lords/assets/creeps/mutantgunner.webp",
-            "anchorX": 0.5,
-            "anchorY": 0.5,
-            "offsetX": 0,
-            "offsetY": 0,
-            "fit": "contain",
-            "scaleX": 1,
-            "scaleY": 1,
-            "rotation": 0,
-            "tint": "#ffffff",
-            "alphaThreshold": 0.75
-          },
-          "hexagonalShape": 0,
-          "lockRotation": false,
-          "rotation": 0,
-          "alpha": 1,
-          "disposition": -1,
-          "displayBars": 0,
-          "bar1": {
-            "attribute": "hp"
-          },
-          "bar2": {
-            "attribute": "cp"
-          },
-          "light": {
-            "negative": false,
-            "priority": 0,
-            "alpha": 0.5,
-            "angle": 360,
-            "bright": 0,
-            "color": null,
-            "coloration": 1,
-            "dim": 0,
-            "attenuation": 0.5,
-            "luminosity": 0.5,
-            "saturation": 0,
-            "contrast": 0,
-            "shadows": 0,
-            "animation": {
-              "type": null,
-              "speed": 5,
-              "intensity": 5,
-              "reverse": false
-            },
-            "darkness": {
-              "min": 0,
-              "max": 1
-            }
-          },
-          "sight": {
-            "enabled": false,
-            "range": 0,
-            "angle": 360,
-            "visionMode": "basic",
-            "color": null,
-            "attenuation": 0.1,
-            "brightness": 0,
-            "saturation": 0,
-            "contrast": 0
-          },
-          "detectionModes": [],
-          "occludable": {
-            "radius": 0
-          },
-          "ring": {
-            "enabled": false,
-            "colors": {
-              "ring": null,
-              "background": null
-            },
-            "effects": 1,
-            "subject": {
-              "scale": 1,
-              "texture": null
-            }
-          },
-          "flags": {},
-          "actorId": "NGrD9qq3zOhNhwJM",
-          "hidden": true,
-          "sort": 4,
-          "delta": {
-            "_id": "ehr5Cp5TzqyJpDPz",
-            "system": {},
-            "items": [],
-            "effects": [],
-            "flags": {},
-            "name": null,
-            "type": null,
-            "img": null
-          },
-          "x": 600,
-          "y": 5600,
-          "elevation": 0,
-          "locked": false,
-          "_regions": [],
-          "_id": "wgfcCZTRSe8GOMcO"
-        },
-        {
           "name": "Mutant Brute",
           "displayName": 10,
           "actorLink": false,
@@ -3505,328 +3362,6 @@
           "_regions": []
         },
         {
-          "name": "Mutant Raider",
-          "displayName": 10,
-          "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
-          "width": 1,
-          "height": 1,
-          "texture": {
-            "src": "systems/neon-lords/assets/creeps/mutantraider.webp",
-            "anchorX": 0.5,
-            "anchorY": 0.5,
-            "offsetX": 0,
-            "offsetY": 0,
-            "fit": "contain",
-            "scaleX": 1,
-            "scaleY": 1,
-            "rotation": 0,
-            "tint": "#ffffff",
-            "alphaThreshold": 0.75
-          },
-          "hexagonalShape": 0,
-          "lockRotation": false,
-          "rotation": 0,
-          "alpha": 1,
-          "disposition": -1,
-          "displayBars": 0,
-          "bar1": {
-            "attribute": "hp"
-          },
-          "bar2": {
-            "attribute": null
-          },
-          "light": {
-            "negative": false,
-            "priority": 0,
-            "alpha": 0.5,
-            "angle": 360,
-            "bright": 0,
-            "color": null,
-            "coloration": 1,
-            "dim": 0,
-            "attenuation": 0.5,
-            "luminosity": 0.5,
-            "saturation": 0,
-            "contrast": 0,
-            "shadows": 0,
-            "animation": {
-              "type": null,
-              "speed": 5,
-              "intensity": 5,
-              "reverse": false
-            },
-            "darkness": {
-              "min": 0,
-              "max": 1
-            }
-          },
-          "sight": {
-            "enabled": false,
-            "range": 0,
-            "angle": 360,
-            "visionMode": "basic",
-            "color": null,
-            "attenuation": 0.1,
-            "brightness": 0,
-            "saturation": 0,
-            "contrast": 0
-          },
-          "detectionModes": [],
-          "occludable": {
-            "radius": 0
-          },
-          "ring": {
-            "enabled": false,
-            "colors": {
-              "ring": null,
-              "background": null
-            },
-            "effects": 0,
-            "subject": {
-              "scale": 1,
-              "texture": null
-            }
-          },
-          "flags": {},
-          "actorId": "XS1XGfg5lIafHIcG",
-          "hidden": false,
-          "sort": 6,
-          "_id": "BnXCjgbUeVBXwsgO",
-          "delta": {
-            "_id": "4nT0nZ70SuLPkPrz",
-            "system": {},
-            "items": [],
-            "effects": [],
-            "flags": {},
-            "name": null,
-            "type": null,
-            "img": null
-          },
-          "x": 800,
-          "y": 4200,
-          "elevation": 0,
-          "locked": false,
-          "_regions": []
-        },
-        {
-          "name": "Mutant Raider",
-          "displayName": 10,
-          "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
-          "width": 1,
-          "height": 1,
-          "texture": {
-            "src": "systems/neon-lords/assets/creeps/mutantraider.webp",
-            "anchorX": 0.5,
-            "anchorY": 0.5,
-            "offsetX": 0,
-            "offsetY": 0,
-            "fit": "contain",
-            "scaleX": 1,
-            "scaleY": 1,
-            "rotation": 0,
-            "tint": "#ffffff",
-            "alphaThreshold": 0.75
-          },
-          "hexagonalShape": 0,
-          "lockRotation": false,
-          "rotation": 0,
-          "alpha": 1,
-          "disposition": -1,
-          "displayBars": 0,
-          "bar1": {
-            "attribute": "hp"
-          },
-          "bar2": {
-            "attribute": null
-          },
-          "light": {
-            "negative": false,
-            "priority": 0,
-            "alpha": 0.5,
-            "angle": 360,
-            "bright": 0,
-            "color": null,
-            "coloration": 1,
-            "dim": 0,
-            "attenuation": 0.5,
-            "luminosity": 0.5,
-            "saturation": 0,
-            "contrast": 0,
-            "shadows": 0,
-            "animation": {
-              "type": null,
-              "speed": 5,
-              "intensity": 5,
-              "reverse": false
-            },
-            "darkness": {
-              "min": 0,
-              "max": 1
-            }
-          },
-          "sight": {
-            "enabled": false,
-            "range": 0,
-            "angle": 360,
-            "visionMode": "basic",
-            "color": null,
-            "attenuation": 0.1,
-            "brightness": 0,
-            "saturation": 0,
-            "contrast": 0
-          },
-          "detectionModes": [],
-          "occludable": {
-            "radius": 0
-          },
-          "ring": {
-            "enabled": false,
-            "colors": {
-              "ring": null,
-              "background": null
-            },
-            "effects": 0,
-            "subject": {
-              "scale": 1,
-              "texture": null
-            }
-          },
-          "flags": {},
-          "actorId": "UkWUl0OmVws5jajA",
-          "hidden": false,
-          "sort": 7,
-          "_id": "37sHlR2vnPj2M8yO",
-          "delta": {
-            "_id": "mLunV3iqKAwwZPmI",
-            "system": {
-              "hp": {
-                "value": 10
-              }
-            },
-            "items": [],
-            "effects": [],
-            "flags": {},
-            "name": null,
-            "type": null,
-            "img": null
-          },
-          "x": 800,
-          "y": 3400,
-          "elevation": 0,
-          "locked": false,
-          "_regions": []
-        },
-        {
-          "name": "Mutant Raider",
-          "displayName": 10,
-          "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
-          "width": 1,
-          "height": 1,
-          "texture": {
-            "src": "systems/neon-lords/assets/creeps/mutantraider.webp",
-            "anchorX": 0.5,
-            "anchorY": 0.5,
-            "offsetX": 0,
-            "offsetY": 0,
-            "fit": "contain",
-            "scaleX": 1,
-            "scaleY": 1,
-            "rotation": 0,
-            "tint": "#ffffff",
-            "alphaThreshold": 0.75
-          },
-          "hexagonalShape": 0,
-          "lockRotation": false,
-          "rotation": 0,
-          "alpha": 1,
-          "disposition": -1,
-          "displayBars": 0,
-          "bar1": {
-            "attribute": "hp"
-          },
-          "bar2": {
-            "attribute": null
-          },
-          "light": {
-            "negative": false,
-            "priority": 0,
-            "alpha": 0.5,
-            "angle": 360,
-            "bright": 0,
-            "color": null,
-            "coloration": 1,
-            "dim": 0,
-            "attenuation": 0.5,
-            "luminosity": 0.5,
-            "saturation": 0,
-            "contrast": 0,
-            "shadows": 0,
-            "animation": {
-              "type": null,
-              "speed": 5,
-              "intensity": 5,
-              "reverse": false
-            },
-            "darkness": {
-              "min": 0,
-              "max": 1
-            }
-          },
-          "sight": {
-            "enabled": false,
-            "range": 0,
-            "angle": 360,
-            "visionMode": "basic",
-            "color": null,
-            "attenuation": 0.1,
-            "brightness": 0,
-            "saturation": 0,
-            "contrast": 0
-          },
-          "detectionModes": [],
-          "occludable": {
-            "radius": 0
-          },
-          "ring": {
-            "enabled": false,
-            "colors": {
-              "ring": null,
-              "background": null
-            },
-            "effects": 0,
-            "subject": {
-              "scale": 1,
-              "texture": null
-            }
-          },
-          "flags": {},
-          "actorId": "UkWUl0OmVws5jajA",
-          "hidden": false,
-          "sort": 8,
-          "_id": "YTAtSqsTbxxgiMJ4",
-          "delta": {
-            "_id": "fGOh5TfZwyAww0io",
-            "system": {},
-            "items": [],
-            "effects": [],
-            "flags": {},
-            "name": null,
-            "type": null,
-            "img": null
-          },
-          "x": 1000,
-          "y": 3600,
-          "elevation": 0,
-          "locked": false,
-          "_regions": []
-        },
-        {
           "name": "Drool-Aid Cultist",
           "displayName": 10,
           "actorLink": false,
@@ -3928,218 +3463,6 @@
           },
           "x": 2800,
           "y": 600,
-          "elevation": 0,
-          "locked": false,
-          "_regions": []
-        },
-        {
-          "name": "Mutant Raider",
-          "displayName": 10,
-          "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
-          "width": 1,
-          "height": 1,
-          "texture": {
-            "src": "systems/neon-lords/assets/creeps/mutantraider.webp",
-            "anchorX": 0.5,
-            "anchorY": 0.5,
-            "offsetX": 0,
-            "offsetY": 0,
-            "fit": "contain",
-            "scaleX": 1,
-            "scaleY": 1,
-            "rotation": 0,
-            "tint": "#ffffff",
-            "alphaThreshold": 0.75
-          },
-          "hexagonalShape": 0,
-          "lockRotation": false,
-          "rotation": 0,
-          "alpha": 1,
-          "disposition": -1,
-          "displayBars": 0,
-          "bar1": {
-            "attribute": "hp"
-          },
-          "bar2": {
-            "attribute": null
-          },
-          "light": {
-            "negative": false,
-            "priority": 0,
-            "alpha": 0.5,
-            "angle": 360,
-            "bright": 0,
-            "color": null,
-            "coloration": 1,
-            "dim": 0,
-            "attenuation": 0.5,
-            "luminosity": 0.5,
-            "saturation": 0,
-            "contrast": 0,
-            "shadows": 0,
-            "animation": {
-              "type": null,
-              "speed": 5,
-              "intensity": 5,
-              "reverse": false
-            },
-            "darkness": {
-              "min": 0,
-              "max": 1
-            }
-          },
-          "sight": {
-            "enabled": false,
-            "range": 0,
-            "angle": 360,
-            "visionMode": "basic",
-            "color": null,
-            "attenuation": 0.1,
-            "brightness": 0,
-            "saturation": 0,
-            "contrast": 0
-          },
-          "detectionModes": [],
-          "occludable": {
-            "radius": 0
-          },
-          "ring": {
-            "enabled": false,
-            "colors": {
-              "ring": null,
-              "background": null
-            },
-            "effects": 0,
-            "subject": {
-              "scale": 1,
-              "texture": null
-            }
-          },
-          "flags": {},
-          "actorId": "UkWUl0OmVws5jajA",
-          "hidden": false,
-          "sort": 10,
-          "_id": "NK15Y43x3ZTcuqkY",
-          "delta": {
-            "_id": "rrCtTBuUMzqE1Cq4",
-            "system": {},
-            "items": [],
-            "effects": [],
-            "flags": {},
-            "name": null,
-            "type": null,
-            "img": null
-          },
-          "x": 3400,
-          "y": 400,
-          "elevation": 0,
-          "locked": false,
-          "_regions": []
-        },
-        {
-          "name": "Mutant Raider",
-          "displayName": 10,
-          "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
-          "width": 1,
-          "height": 1,
-          "texture": {
-            "src": "systems/neon-lords/assets/creeps/mutantraider.webp",
-            "anchorX": 0.5,
-            "anchorY": 0.5,
-            "offsetX": 0,
-            "offsetY": 0,
-            "fit": "contain",
-            "scaleX": 1,
-            "scaleY": 1,
-            "rotation": 0,
-            "tint": "#ffffff",
-            "alphaThreshold": 0.75
-          },
-          "hexagonalShape": 0,
-          "lockRotation": false,
-          "rotation": 0,
-          "alpha": 1,
-          "disposition": -1,
-          "displayBars": 0,
-          "bar1": {
-            "attribute": "hp"
-          },
-          "bar2": {
-            "attribute": null
-          },
-          "light": {
-            "negative": false,
-            "priority": 0,
-            "alpha": 0.5,
-            "angle": 360,
-            "bright": 0,
-            "color": null,
-            "coloration": 1,
-            "dim": 0,
-            "attenuation": 0.5,
-            "luminosity": 0.5,
-            "saturation": 0,
-            "contrast": 0,
-            "shadows": 0,
-            "animation": {
-              "type": null,
-              "speed": 5,
-              "intensity": 5,
-              "reverse": false
-            },
-            "darkness": {
-              "min": 0,
-              "max": 1
-            }
-          },
-          "sight": {
-            "enabled": false,
-            "range": 0,
-            "angle": 360,
-            "visionMode": "basic",
-            "color": null,
-            "attenuation": 0.1,
-            "brightness": 0,
-            "saturation": 0,
-            "contrast": 0
-          },
-          "detectionModes": [],
-          "occludable": {
-            "radius": 0
-          },
-          "ring": {
-            "enabled": false,
-            "colors": {
-              "ring": null,
-              "background": null
-            },
-            "effects": 0,
-            "subject": {
-              "scale": 1,
-              "texture": null
-            }
-          },
-          "flags": {},
-          "actorId": "XS1XGfg5lIafHIcG",
-          "hidden": false,
-          "sort": 11,
-          "_id": "dETs7qw01Wbf6z4f",
-          "delta": {
-            "_id": "riMIEcU7WGMis1AE",
-            "system": {},
-            "items": [],
-            "effects": [],
-            "flags": {},
-            "name": null,
-            "type": null,
-            "img": null
-          },
-          "x": 3600,
-          "y": 1600,
           "elevation": 0,
           "locked": false,
           "_regions": []
@@ -4570,7 +3893,7 @@
         },
         {
           "name": "Doug",
-          "displayName": 0,
+          "displayName": 10,
           "actorLink": false,
           "appendNumber": false,
           "prependAdjective": false,
@@ -4599,7 +3922,7 @@
             "attribute": "hp"
           },
           "bar2": {
-            "attribute": "cp"
+            "attribute": null
           },
           "light": {
             "negative": false,
@@ -4647,7 +3970,7 @@
               "ring": null,
               "background": null
             },
-            "effects": 1,
+            "effects": 0,
             "subject": {
               "scale": 1,
               "texture": null
@@ -4676,7 +3999,7 @@
         },
         {
           "name": "Greg",
-          "displayName": 0,
+          "displayName": 10,
           "actorLink": false,
           "appendNumber": false,
           "prependAdjective": false,
@@ -4782,7 +4105,7 @@
         },
         {
           "name": "Drool-Aid Cult Leader",
-          "displayName": 0,
+          "displayName": 10,
           "actorLink": false,
           "appendNumber": false,
           "prependAdjective": false,
@@ -4816,7 +4139,7 @@
           "light": {
             "negative": false,
             "priority": 0,
-            "alpha": 0.35,
+            "alpha": 0.5,
             "angle": 360,
             "bright": 0,
             "color": "#f0aa33",
@@ -5029,6 +4352,1808 @@
           "elevation": 0,
           "locked": false,
           "_regions": []
+        },
+        {
+          "name": "Zombie",
+          "displayName": 10,
+          "actorLink": false,
+          "appendNumber": false,
+          "prependAdjective": false,
+          "width": 1,
+          "height": 1,
+          "texture": {
+            "src": "systems/neon-lords/assets/creeps/zombie.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "offsetX": 0,
+            "offsetY": 0,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "hexagonalShape": 0,
+          "lockRotation": false,
+          "rotation": 0,
+          "alpha": 1,
+          "disposition": -1,
+          "displayBars": 0,
+          "bar1": {
+            "attribute": "hp"
+          },
+          "bar2": {
+            "attribute": null
+          },
+          "light": {
+            "negative": false,
+            "priority": 0,
+            "alpha": 0.5,
+            "angle": 360,
+            "bright": 0,
+            "color": null,
+            "coloration": 1,
+            "dim": 0,
+            "attenuation": 0.5,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": null,
+              "speed": 5,
+              "intensity": 5,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          "sight": {
+            "enabled": false,
+            "range": 0,
+            "angle": 360,
+            "visionMode": "basic",
+            "color": null,
+            "attenuation": 0.1,
+            "brightness": 0,
+            "saturation": 0,
+            "contrast": 0
+          },
+          "detectionModes": [],
+          "occludable": {
+            "radius": 0
+          },
+          "ring": {
+            "enabled": false,
+            "colors": {
+              "ring": null,
+              "background": null
+            },
+            "effects": 0,
+            "subject": {
+              "scale": 1,
+              "texture": null
+            }
+          },
+          "flags": {},
+          "actorId": "pJBToyyCBYXqnqiM",
+          "hidden": true,
+          "sort": 29,
+          "_id": "GUG1AJQtSvOY5QYC",
+          "delta": {
+            "_id": "VdZDveS243QHjyhD",
+            "system": {},
+            "items": [],
+            "effects": [],
+            "flags": {},
+            "name": null,
+            "type": null,
+            "img": null
+          },
+          "x": 400,
+          "y": 6800,
+          "elevation": 0,
+          "locked": false,
+          "_regions": []
+        },
+        {
+          "name": "Drool-Aid Man",
+          "displayName": 10,
+          "actorLink": false,
+          "appendNumber": false,
+          "prependAdjective": false,
+          "width": 1,
+          "height": 1,
+          "texture": {
+            "src": "systems/neon-lords/assets/creeps/droolaidman.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "offsetX": 0,
+            "offsetY": 0,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "hexagonalShape": 0,
+          "lockRotation": false,
+          "rotation": 0,
+          "alpha": 1,
+          "disposition": -1,
+          "displayBars": 0,
+          "bar1": {
+            "attribute": "hp"
+          },
+          "bar2": {
+            "attribute": null
+          },
+          "light": {
+            "negative": false,
+            "priority": 0,
+            "alpha": 0.5,
+            "angle": 360,
+            "bright": 0,
+            "color": null,
+            "coloration": 1,
+            "dim": 0,
+            "attenuation": 0.5,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": null,
+              "speed": 5,
+              "intensity": 5,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          "sight": {
+            "enabled": false,
+            "range": 0,
+            "angle": 360,
+            "visionMode": "basic",
+            "color": null,
+            "attenuation": 0.1,
+            "brightness": 0,
+            "saturation": 0,
+            "contrast": 0
+          },
+          "detectionModes": [],
+          "occludable": {
+            "radius": 0
+          },
+          "ring": {
+            "enabled": false,
+            "colors": {
+              "ring": null,
+              "background": null
+            },
+            "effects": 0,
+            "subject": {
+              "scale": 1,
+              "texture": null
+            }
+          },
+          "flags": {},
+          "actorId": "BAV2NrPlVZeOKnnd",
+          "hidden": true,
+          "sort": 30,
+          "_id": "AZV331GxfEGJ75uJ",
+          "delta": {
+            "_id": "mLoa5KvRyuDvCYoF",
+            "system": {},
+            "items": [],
+            "effects": [],
+            "flags": {},
+            "name": null,
+            "type": null,
+            "img": null
+          },
+          "x": 2800,
+          "y": 7200,
+          "elevation": 0,
+          "locked": false,
+          "_regions": []
+        },
+        {
+          "name": "Drool-Aid Cultist",
+          "displayName": 10,
+          "actorLink": false,
+          "appendNumber": false,
+          "prependAdjective": false,
+          "width": 1,
+          "height": 1,
+          "texture": {
+            "src": "systems/neon-lords/assets/creeps/cultist.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "offsetX": 0,
+            "offsetY": 0,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "hexagonalShape": 0,
+          "lockRotation": false,
+          "rotation": 0,
+          "alpha": 1,
+          "disposition": -1,
+          "displayBars": 0,
+          "bar1": {
+            "attribute": "hp"
+          },
+          "bar2": {
+            "attribute": null
+          },
+          "light": {
+            "negative": false,
+            "priority": 0,
+            "alpha": 0.5,
+            "angle": 360,
+            "bright": 0,
+            "color": "#f0aa33",
+            "coloration": 1,
+            "dim": 2,
+            "attenuation": 0.5,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": null,
+              "speed": 5,
+              "intensity": 5,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          "sight": {
+            "enabled": false,
+            "range": 0,
+            "angle": 360,
+            "visionMode": "basic",
+            "color": null,
+            "attenuation": 0.1,
+            "brightness": 0,
+            "saturation": 0,
+            "contrast": 0
+          },
+          "detectionModes": [],
+          "occludable": {
+            "radius": 0
+          },
+          "ring": {
+            "enabled": false,
+            "colors": {
+              "ring": null,
+              "background": null
+            },
+            "effects": 0,
+            "subject": {
+              "scale": 1,
+              "texture": null
+            }
+          },
+          "flags": {},
+          "actorId": "dvdCzxYQQeYtUerr",
+          "hidden": false,
+          "sort": 31,
+          "_id": "okiB1D4dvBXq9ZLp",
+          "delta": {
+            "_id": "TXR5467iJWKyZfZf",
+            "system": {},
+            "items": [],
+            "effects": [],
+            "flags": {},
+            "name": null,
+            "type": null,
+            "img": null
+          },
+          "x": 2400,
+          "y": 7200,
+          "elevation": 0,
+          "locked": false,
+          "_regions": []
+        },
+        {
+          "name": "Drool-Aid Cultist",
+          "displayName": 10,
+          "actorLink": false,
+          "appendNumber": false,
+          "prependAdjective": false,
+          "width": 1,
+          "height": 1,
+          "texture": {
+            "src": "systems/neon-lords/assets/creeps/cultist.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "offsetX": 0,
+            "offsetY": 0,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "hexagonalShape": 0,
+          "lockRotation": false,
+          "rotation": 0,
+          "alpha": 1,
+          "disposition": -1,
+          "displayBars": 0,
+          "bar1": {
+            "attribute": "hp"
+          },
+          "bar2": {
+            "attribute": null
+          },
+          "light": {
+            "negative": false,
+            "priority": 0,
+            "alpha": 0.5,
+            "angle": 360,
+            "bright": 0,
+            "color": "#f0aa33",
+            "coloration": 1,
+            "dim": 2,
+            "attenuation": 0.5,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": null,
+              "speed": 5,
+              "intensity": 5,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          "sight": {
+            "enabled": false,
+            "range": 0,
+            "angle": 360,
+            "visionMode": "basic",
+            "color": null,
+            "attenuation": 0.1,
+            "brightness": 0,
+            "saturation": 0,
+            "contrast": 0
+          },
+          "detectionModes": [],
+          "occludable": {
+            "radius": 0
+          },
+          "ring": {
+            "enabled": false,
+            "colors": {
+              "ring": null,
+              "background": null
+            },
+            "effects": 0,
+            "subject": {
+              "scale": 1,
+              "texture": null
+            }
+          },
+          "flags": {},
+          "actorId": "dvdCzxYQQeYtUerr",
+          "hidden": false,
+          "sort": 31,
+          "delta": {
+            "_id": "TXR5467iJWKyZfZf",
+            "system": {},
+            "items": [],
+            "effects": [],
+            "flags": {},
+            "name": null,
+            "type": null,
+            "img": null
+          },
+          "x": 2600,
+          "y": 6800,
+          "elevation": 0,
+          "locked": false,
+          "_regions": [],
+          "_id": "Hz0fnvYkM12tNDMH"
+        },
+        {
+          "name": "Drool-Aid Cultist",
+          "displayName": 10,
+          "actorLink": false,
+          "appendNumber": false,
+          "prependAdjective": false,
+          "width": 1,
+          "height": 1,
+          "texture": {
+            "src": "systems/neon-lords/assets/creeps/cultist.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "offsetX": 0,
+            "offsetY": 0,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "hexagonalShape": 0,
+          "lockRotation": false,
+          "rotation": 0,
+          "alpha": 1,
+          "disposition": -1,
+          "displayBars": 0,
+          "bar1": {
+            "attribute": "hp"
+          },
+          "bar2": {
+            "attribute": null
+          },
+          "light": {
+            "negative": false,
+            "priority": 0,
+            "alpha": 0.5,
+            "angle": 360,
+            "bright": 0,
+            "color": "#f0aa33",
+            "coloration": 1,
+            "dim": 2,
+            "attenuation": 0.5,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": null,
+              "speed": 5,
+              "intensity": 5,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          "sight": {
+            "enabled": false,
+            "range": 0,
+            "angle": 360,
+            "visionMode": "basic",
+            "color": null,
+            "attenuation": 0.1,
+            "brightness": 0,
+            "saturation": 0,
+            "contrast": 0
+          },
+          "detectionModes": [],
+          "occludable": {
+            "radius": 0
+          },
+          "ring": {
+            "enabled": false,
+            "colors": {
+              "ring": null,
+              "background": null
+            },
+            "effects": 0,
+            "subject": {
+              "scale": 1,
+              "texture": null
+            }
+          },
+          "flags": {},
+          "actorId": "dvdCzxYQQeYtUerr",
+          "hidden": false,
+          "sort": 31,
+          "delta": {
+            "_id": "TXR5467iJWKyZfZf",
+            "system": {},
+            "items": [],
+            "effects": [],
+            "flags": {},
+            "name": null,
+            "type": null,
+            "img": null
+          },
+          "x": 2400,
+          "y": 7000,
+          "elevation": 0,
+          "locked": false,
+          "_regions": [],
+          "_id": "bPgSthVvTIK4rEwK"
+        },
+        {
+          "name": "Drool-Aid Cultist",
+          "displayName": 10,
+          "actorLink": false,
+          "appendNumber": false,
+          "prependAdjective": false,
+          "width": 1,
+          "height": 1,
+          "texture": {
+            "src": "systems/neon-lords/assets/creeps/cultist.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "offsetX": 0,
+            "offsetY": 0,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "hexagonalShape": 0,
+          "lockRotation": false,
+          "rotation": 0,
+          "alpha": 1,
+          "disposition": -1,
+          "displayBars": 0,
+          "bar1": {
+            "attribute": "hp"
+          },
+          "bar2": {
+            "attribute": null
+          },
+          "light": {
+            "negative": false,
+            "priority": 0,
+            "alpha": 0.5,
+            "angle": 360,
+            "bright": 0,
+            "color": "#f0aa33",
+            "coloration": 1,
+            "dim": 2,
+            "attenuation": 0.5,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": null,
+              "speed": 5,
+              "intensity": 5,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          "sight": {
+            "enabled": false,
+            "range": 0,
+            "angle": 360,
+            "visionMode": "basic",
+            "color": null,
+            "attenuation": 0.1,
+            "brightness": 0,
+            "saturation": 0,
+            "contrast": 0
+          },
+          "detectionModes": [],
+          "occludable": {
+            "radius": 0
+          },
+          "ring": {
+            "enabled": false,
+            "colors": {
+              "ring": null,
+              "background": null
+            },
+            "effects": 0,
+            "subject": {
+              "scale": 1,
+              "texture": null
+            }
+          },
+          "flags": {},
+          "actorId": "dvdCzxYQQeYtUerr",
+          "hidden": false,
+          "sort": 31,
+          "delta": {
+            "_id": "TXR5467iJWKyZfZf",
+            "system": {},
+            "items": [],
+            "effects": [],
+            "flags": {},
+            "name": null,
+            "type": null,
+            "img": null
+          },
+          "x": 3000,
+          "y": 6800,
+          "elevation": 0,
+          "locked": false,
+          "_regions": [],
+          "_id": "8uKmfWxpxk92576h"
+        },
+        {
+          "name": "Drool-Aid Cultist",
+          "displayName": 10,
+          "actorLink": false,
+          "appendNumber": false,
+          "prependAdjective": false,
+          "width": 1,
+          "height": 1,
+          "texture": {
+            "src": "systems/neon-lords/assets/creeps/cultist.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "offsetX": 0,
+            "offsetY": 0,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "hexagonalShape": 0,
+          "lockRotation": false,
+          "rotation": 0,
+          "alpha": 1,
+          "disposition": -1,
+          "displayBars": 0,
+          "bar1": {
+            "attribute": "hp"
+          },
+          "bar2": {
+            "attribute": null
+          },
+          "light": {
+            "negative": false,
+            "priority": 0,
+            "alpha": 0.5,
+            "angle": 360,
+            "bright": 0,
+            "color": "#f0aa33",
+            "coloration": 1,
+            "dim": 2,
+            "attenuation": 0.5,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": null,
+              "speed": 5,
+              "intensity": 5,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          "sight": {
+            "enabled": false,
+            "range": 0,
+            "angle": 360,
+            "visionMode": "basic",
+            "color": null,
+            "attenuation": 0.1,
+            "brightness": 0,
+            "saturation": 0,
+            "contrast": 0
+          },
+          "detectionModes": [],
+          "occludable": {
+            "radius": 0
+          },
+          "ring": {
+            "enabled": false,
+            "colors": {
+              "ring": null,
+              "background": null
+            },
+            "effects": 0,
+            "subject": {
+              "scale": 1,
+              "texture": null
+            }
+          },
+          "flags": {},
+          "actorId": "dvdCzxYQQeYtUerr",
+          "hidden": false,
+          "sort": 31,
+          "delta": {
+            "_id": "TXR5467iJWKyZfZf",
+            "system": {},
+            "items": [],
+            "effects": [],
+            "flags": {},
+            "name": null,
+            "type": null,
+            "img": null
+          },
+          "x": 3200,
+          "y": 7200,
+          "elevation": 0,
+          "locked": false,
+          "_regions": [],
+          "_id": "ywTFh8DSzYIjuChk"
+        },
+        {
+          "name": "Drool-Aid Cultist",
+          "displayName": 10,
+          "actorLink": false,
+          "appendNumber": false,
+          "prependAdjective": false,
+          "width": 1,
+          "height": 1,
+          "texture": {
+            "src": "systems/neon-lords/assets/creeps/cultist.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "offsetX": 0,
+            "offsetY": 0,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "hexagonalShape": 0,
+          "lockRotation": false,
+          "rotation": 0,
+          "alpha": 1,
+          "disposition": -1,
+          "displayBars": 0,
+          "bar1": {
+            "attribute": "hp"
+          },
+          "bar2": {
+            "attribute": null
+          },
+          "light": {
+            "negative": false,
+            "priority": 0,
+            "alpha": 0.5,
+            "angle": 360,
+            "bright": 0,
+            "color": "#f0aa33",
+            "coloration": 1,
+            "dim": 2,
+            "attenuation": 0.5,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": null,
+              "speed": 5,
+              "intensity": 5,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          "sight": {
+            "enabled": false,
+            "range": 0,
+            "angle": 360,
+            "visionMode": "basic",
+            "color": null,
+            "attenuation": 0.1,
+            "brightness": 0,
+            "saturation": 0,
+            "contrast": 0
+          },
+          "detectionModes": [],
+          "occludable": {
+            "radius": 0
+          },
+          "ring": {
+            "enabled": false,
+            "colors": {
+              "ring": null,
+              "background": null
+            },
+            "effects": 0,
+            "subject": {
+              "scale": 1,
+              "texture": null
+            }
+          },
+          "flags": {},
+          "actorId": "dvdCzxYQQeYtUerr",
+          "hidden": false,
+          "sort": 31,
+          "delta": {
+            "_id": "TXR5467iJWKyZfZf",
+            "system": {},
+            "items": [],
+            "effects": [],
+            "flags": {},
+            "name": null,
+            "type": null,
+            "img": null
+          },
+          "x": 3200,
+          "y": 7000,
+          "elevation": 0,
+          "locked": false,
+          "_regions": [],
+          "_id": "prkB2ErObwPZ9dzH"
+        },
+        {
+          "name": "Zombie",
+          "displayName": 10,
+          "actorLink": false,
+          "appendNumber": false,
+          "prependAdjective": false,
+          "width": 1,
+          "height": 1,
+          "texture": {
+            "src": "systems/neon-lords/assets/creeps/zombie.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "offsetX": 0,
+            "offsetY": 0,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "hexagonalShape": 0,
+          "lockRotation": false,
+          "rotation": 0,
+          "alpha": 1,
+          "disposition": -1,
+          "displayBars": 0,
+          "bar1": {
+            "attribute": "hp"
+          },
+          "bar2": {
+            "attribute": null
+          },
+          "light": {
+            "negative": false,
+            "priority": 0,
+            "alpha": 0.5,
+            "angle": 360,
+            "bright": 0,
+            "color": null,
+            "coloration": 1,
+            "dim": 0,
+            "attenuation": 0.5,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": null,
+              "speed": 5,
+              "intensity": 5,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          "sight": {
+            "enabled": false,
+            "range": 0,
+            "angle": 360,
+            "visionMode": "basic",
+            "color": null,
+            "attenuation": 0.1,
+            "brightness": 0,
+            "saturation": 0,
+            "contrast": 0
+          },
+          "detectionModes": [],
+          "occludable": {
+            "radius": 0
+          },
+          "ring": {
+            "enabled": false,
+            "colors": {
+              "ring": null,
+              "background": null
+            },
+            "effects": 0,
+            "subject": {
+              "scale": 1,
+              "texture": null
+            }
+          },
+          "flags": {},
+          "actorId": "pJBToyyCBYXqnqiM",
+          "hidden": true,
+          "sort": 29,
+          "delta": {
+            "_id": "VdZDveS243QHjyhD",
+            "system": {},
+            "items": [],
+            "effects": [],
+            "flags": {},
+            "name": null,
+            "type": null,
+            "img": null
+          },
+          "x": 1200,
+          "y": 6600,
+          "elevation": 0,
+          "locked": false,
+          "_regions": [],
+          "_id": "gfflTLWx4KkOTDCY"
+        },
+        {
+          "name": "Zombie",
+          "displayName": 10,
+          "actorLink": false,
+          "appendNumber": false,
+          "prependAdjective": false,
+          "width": 1,
+          "height": 1,
+          "texture": {
+            "src": "systems/neon-lords/assets/creeps/zombie.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "offsetX": 0,
+            "offsetY": 0,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "hexagonalShape": 0,
+          "lockRotation": false,
+          "rotation": 0,
+          "alpha": 1,
+          "disposition": -1,
+          "displayBars": 0,
+          "bar1": {
+            "attribute": "hp"
+          },
+          "bar2": {
+            "attribute": null
+          },
+          "light": {
+            "negative": false,
+            "priority": 0,
+            "alpha": 0.5,
+            "angle": 360,
+            "bright": 0,
+            "color": null,
+            "coloration": 1,
+            "dim": 0,
+            "attenuation": 0.5,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": null,
+              "speed": 5,
+              "intensity": 5,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          "sight": {
+            "enabled": false,
+            "range": 0,
+            "angle": 360,
+            "visionMode": "basic",
+            "color": null,
+            "attenuation": 0.1,
+            "brightness": 0,
+            "saturation": 0,
+            "contrast": 0
+          },
+          "detectionModes": [],
+          "occludable": {
+            "radius": 0
+          },
+          "ring": {
+            "enabled": false,
+            "colors": {
+              "ring": null,
+              "background": null
+            },
+            "effects": 0,
+            "subject": {
+              "scale": 1,
+              "texture": null
+            }
+          },
+          "flags": {},
+          "actorId": "pJBToyyCBYXqnqiM",
+          "hidden": true,
+          "sort": 29,
+          "delta": {
+            "_id": "VdZDveS243QHjyhD",
+            "system": {},
+            "items": [],
+            "effects": [],
+            "flags": {},
+            "name": null,
+            "type": null,
+            "img": null
+          },
+          "x": 800,
+          "y": 7000,
+          "elevation": 0,
+          "locked": false,
+          "_regions": [],
+          "_id": "6YOSk9XmlDBosDSM"
+        },
+        {
+          "name": "Mutant Gunner",
+          "displayName": 10,
+          "actorLink": false,
+          "appendNumber": false,
+          "prependAdjective": false,
+          "width": 1,
+          "height": 1,
+          "texture": {
+            "src": "systems/neon-lords/assets/creeps/mutantgunner.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "offsetX": 0,
+            "offsetY": 0,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "hexagonalShape": 0,
+          "lockRotation": false,
+          "rotation": 0,
+          "alpha": 1,
+          "disposition": -1,
+          "displayBars": 0,
+          "bar1": {
+            "attribute": "hp"
+          },
+          "bar2": {
+            "attribute": null
+          },
+          "light": {
+            "negative": false,
+            "priority": 0,
+            "alpha": 0.5,
+            "angle": 360,
+            "bright": 0,
+            "color": null,
+            "coloration": 1,
+            "dim": 0,
+            "attenuation": 0.5,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": null,
+              "speed": 5,
+              "intensity": 5,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          "sight": {
+            "enabled": false,
+            "range": 0,
+            "angle": 360,
+            "visionMode": "basic",
+            "color": null,
+            "attenuation": 0.1,
+            "brightness": 0,
+            "saturation": 0,
+            "contrast": 0
+          },
+          "detectionModes": [],
+          "occludable": {
+            "radius": 0
+          },
+          "ring": {
+            "enabled": false,
+            "colors": {
+              "ring": null,
+              "background": null
+            },
+            "effects": 0,
+            "subject": {
+              "scale": 1,
+              "texture": null
+            }
+          },
+          "flags": {},
+          "actorId": "RKVcuPkqTW3dddOw",
+          "hidden": true,
+          "sort": 32,
+          "_id": "me5DQTR1DYQadDUK",
+          "delta": {
+            "_id": "JQdaOTPq2HgsGtOu",
+            "system": {},
+            "items": [],
+            "effects": [],
+            "flags": {},
+            "name": null,
+            "type": null,
+            "img": null
+          },
+          "x": 200,
+          "y": 5600,
+          "elevation": 0,
+          "locked": false,
+          "_regions": []
+        },
+        {
+          "name": "Mutant Gunner",
+          "displayName": 10,
+          "actorLink": false,
+          "appendNumber": false,
+          "prependAdjective": false,
+          "width": 1,
+          "height": 1,
+          "texture": {
+            "src": "systems/neon-lords/assets/creeps/mutantgunner.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "offsetX": 0,
+            "offsetY": 0,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "hexagonalShape": 0,
+          "lockRotation": false,
+          "rotation": 0,
+          "alpha": 1,
+          "disposition": -1,
+          "displayBars": 0,
+          "bar1": {
+            "attribute": "hp"
+          },
+          "bar2": {
+            "attribute": null
+          },
+          "light": {
+            "negative": false,
+            "priority": 0,
+            "alpha": 0.5,
+            "angle": 360,
+            "bright": 0,
+            "color": null,
+            "coloration": 1,
+            "dim": 0,
+            "attenuation": 0.5,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": null,
+              "speed": 5,
+              "intensity": 5,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          "sight": {
+            "enabled": false,
+            "range": 0,
+            "angle": 360,
+            "visionMode": "basic",
+            "color": null,
+            "attenuation": 0.1,
+            "brightness": 0,
+            "saturation": 0,
+            "contrast": 0
+          },
+          "detectionModes": [],
+          "occludable": {
+            "radius": 0
+          },
+          "ring": {
+            "enabled": false,
+            "colors": {
+              "ring": null,
+              "background": null
+            },
+            "effects": 0,
+            "subject": {
+              "scale": 1,
+              "texture": null
+            }
+          },
+          "flags": {},
+          "actorId": "RKVcuPkqTW3dddOw",
+          "hidden": true,
+          "sort": 32,
+          "delta": {
+            "_id": "JQdaOTPq2HgsGtOu",
+            "system": {},
+            "items": [],
+            "effects": [],
+            "flags": {},
+            "name": null,
+            "type": null,
+            "img": null
+          },
+          "x": 600,
+          "y": 5600,
+          "elevation": 0,
+          "locked": false,
+          "_regions": [],
+          "_id": "DA4A0lgszRzl0N2w"
+        },
+        {
+          "name": "Mutant Raider",
+          "displayName": 10,
+          "actorLink": false,
+          "appendNumber": false,
+          "prependAdjective": false,
+          "width": 1,
+          "height": 1,
+          "texture": {
+            "src": "systems/neon-lords/assets/creeps/mutantraider.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "offsetX": 0,
+            "offsetY": 0,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "hexagonalShape": 0,
+          "lockRotation": false,
+          "rotation": 0,
+          "alpha": 1,
+          "disposition": -1,
+          "displayBars": 0,
+          "bar1": {
+            "attribute": "hp"
+          },
+          "bar2": {
+            "attribute": null
+          },
+          "light": {
+            "negative": false,
+            "priority": 0,
+            "alpha": 0.5,
+            "angle": 360,
+            "bright": 0,
+            "color": null,
+            "coloration": 1,
+            "dim": 0,
+            "attenuation": 0.5,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": null,
+              "speed": 5,
+              "intensity": 5,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          "sight": {
+            "enabled": false,
+            "range": 0,
+            "angle": 360,
+            "visionMode": "basic",
+            "color": null,
+            "attenuation": 0.1,
+            "brightness": 0,
+            "saturation": 0,
+            "contrast": 0
+          },
+          "detectionModes": [],
+          "occludable": {
+            "radius": 0
+          },
+          "ring": {
+            "enabled": false,
+            "colors": {
+              "ring": null,
+              "background": null
+            },
+            "effects": 0,
+            "subject": {
+              "scale": 1,
+              "texture": null
+            }
+          },
+          "flags": {},
+          "actorId": "PgJp4s3zdIFhLrYC",
+          "hidden": false,
+          "sort": 33,
+          "_id": "TtoPL6M5kbRTlUVc",
+          "delta": {
+            "_id": "4w7gDtlPRGignyYG",
+            "system": {},
+            "items": [],
+            "effects": [],
+            "flags": {},
+            "name": null,
+            "type": null,
+            "img": null
+          },
+          "x": 3400,
+          "y": 400,
+          "elevation": 0,
+          "locked": false,
+          "_regions": []
+        },
+        {
+          "name": "Mutant Raider",
+          "displayName": 10,
+          "actorLink": false,
+          "appendNumber": false,
+          "prependAdjective": false,
+          "width": 1,
+          "height": 1,
+          "texture": {
+            "src": "systems/neon-lords/assets/creeps/mutantraider.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "offsetX": 0,
+            "offsetY": 0,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "hexagonalShape": 0,
+          "lockRotation": false,
+          "rotation": 0,
+          "alpha": 1,
+          "disposition": -1,
+          "displayBars": 0,
+          "bar1": {
+            "attribute": "hp"
+          },
+          "bar2": {
+            "attribute": null
+          },
+          "light": {
+            "negative": false,
+            "priority": 0,
+            "alpha": 0.5,
+            "angle": 360,
+            "bright": 0,
+            "color": null,
+            "coloration": 1,
+            "dim": 0,
+            "attenuation": 0.5,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": null,
+              "speed": 5,
+              "intensity": 5,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          "sight": {
+            "enabled": false,
+            "range": 0,
+            "angle": 360,
+            "visionMode": "basic",
+            "color": null,
+            "attenuation": 0.1,
+            "brightness": 0,
+            "saturation": 0,
+            "contrast": 0
+          },
+          "detectionModes": [],
+          "occludable": {
+            "radius": 0
+          },
+          "ring": {
+            "enabled": false,
+            "colors": {
+              "ring": null,
+              "background": null
+            },
+            "effects": 0,
+            "subject": {
+              "scale": 1,
+              "texture": null
+            }
+          },
+          "flags": {},
+          "actorId": "PgJp4s3zdIFhLrYC",
+          "hidden": false,
+          "sort": 33,
+          "delta": {
+            "_id": "4w7gDtlPRGignyYG",
+            "system": {},
+            "items": [],
+            "effects": [],
+            "flags": {},
+            "name": null,
+            "type": null,
+            "img": null
+          },
+          "x": 3600,
+          "y": 1200,
+          "elevation": 0,
+          "locked": false,
+          "_regions": [],
+          "_id": "sy0oJFCPgzmEIB7g"
+        },
+        {
+          "name": "Mutant Raider",
+          "displayName": 10,
+          "actorLink": false,
+          "appendNumber": false,
+          "prependAdjective": false,
+          "width": 1,
+          "height": 1,
+          "texture": {
+            "src": "systems/neon-lords/assets/creeps/mutantraider.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "offsetX": 0,
+            "offsetY": 0,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "hexagonalShape": 0,
+          "lockRotation": false,
+          "rotation": 0,
+          "alpha": 1,
+          "disposition": -1,
+          "displayBars": 0,
+          "bar1": {
+            "attribute": "hp"
+          },
+          "bar2": {
+            "attribute": null
+          },
+          "light": {
+            "negative": false,
+            "priority": 0,
+            "alpha": 0.5,
+            "angle": 360,
+            "bright": 0,
+            "color": null,
+            "coloration": 1,
+            "dim": 0,
+            "attenuation": 0.5,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": null,
+              "speed": 5,
+              "intensity": 5,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          "sight": {
+            "enabled": false,
+            "range": 0,
+            "angle": 360,
+            "visionMode": "basic",
+            "color": null,
+            "attenuation": 0.1,
+            "brightness": 0,
+            "saturation": 0,
+            "contrast": 0
+          },
+          "detectionModes": [],
+          "occludable": {
+            "radius": 0
+          },
+          "ring": {
+            "enabled": false,
+            "colors": {
+              "ring": null,
+              "background": null
+            },
+            "effects": 0,
+            "subject": {
+              "scale": 1,
+              "texture": null
+            }
+          },
+          "flags": {},
+          "actorId": "PgJp4s3zdIFhLrYC",
+          "hidden": false,
+          "sort": 33,
+          "delta": {
+            "_id": "4w7gDtlPRGignyYG",
+            "system": {},
+            "items": [],
+            "effects": [],
+            "flags": {},
+            "name": null,
+            "type": null,
+            "img": null
+          },
+          "x": 800,
+          "y": 3400,
+          "elevation": 0,
+          "locked": false,
+          "_regions": [],
+          "_id": "2FYj9yiY9dY6b1BQ"
+        },
+        {
+          "name": "Mutant Raider",
+          "displayName": 10,
+          "actorLink": false,
+          "appendNumber": false,
+          "prependAdjective": false,
+          "width": 1,
+          "height": 1,
+          "texture": {
+            "src": "systems/neon-lords/assets/creeps/mutantraider.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "offsetX": 0,
+            "offsetY": 0,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "hexagonalShape": 0,
+          "lockRotation": false,
+          "rotation": 0,
+          "alpha": 1,
+          "disposition": -1,
+          "displayBars": 0,
+          "bar1": {
+            "attribute": "hp"
+          },
+          "bar2": {
+            "attribute": null
+          },
+          "light": {
+            "negative": false,
+            "priority": 0,
+            "alpha": 0.5,
+            "angle": 360,
+            "bright": 0,
+            "color": null,
+            "coloration": 1,
+            "dim": 0,
+            "attenuation": 0.5,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": null,
+              "speed": 5,
+              "intensity": 5,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          "sight": {
+            "enabled": false,
+            "range": 0,
+            "angle": 360,
+            "visionMode": "basic",
+            "color": null,
+            "attenuation": 0.1,
+            "brightness": 0,
+            "saturation": 0,
+            "contrast": 0
+          },
+          "detectionModes": [],
+          "occludable": {
+            "radius": 0
+          },
+          "ring": {
+            "enabled": false,
+            "colors": {
+              "ring": null,
+              "background": null
+            },
+            "effects": 0,
+            "subject": {
+              "scale": 1,
+              "texture": null
+            }
+          },
+          "flags": {},
+          "actorId": "PgJp4s3zdIFhLrYC",
+          "hidden": false,
+          "sort": 33,
+          "delta": {
+            "_id": "4w7gDtlPRGignyYG",
+            "system": {},
+            "items": [],
+            "effects": [],
+            "flags": {},
+            "name": null,
+            "type": null,
+            "img": null
+          },
+          "x": 800,
+          "y": 3800,
+          "elevation": 0,
+          "locked": false,
+          "_regions": [],
+          "_id": "T1GMeqhXcFL4V2SI"
+        },
+        {
+          "name": "Mutant Raider",
+          "displayName": 10,
+          "actorLink": false,
+          "appendNumber": false,
+          "prependAdjective": false,
+          "width": 1,
+          "height": 1,
+          "texture": {
+            "src": "systems/neon-lords/assets/creeps/mutantraider.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "offsetX": 0,
+            "offsetY": 0,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "hexagonalShape": 0,
+          "lockRotation": false,
+          "rotation": 0,
+          "alpha": 1,
+          "disposition": -1,
+          "displayBars": 0,
+          "bar1": {
+            "attribute": "hp"
+          },
+          "bar2": {
+            "attribute": null
+          },
+          "light": {
+            "negative": false,
+            "priority": 0,
+            "alpha": 0.5,
+            "angle": 360,
+            "bright": 0,
+            "color": null,
+            "coloration": 1,
+            "dim": 0,
+            "attenuation": 0.5,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": null,
+              "speed": 5,
+              "intensity": 5,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          "sight": {
+            "enabled": false,
+            "range": 0,
+            "angle": 360,
+            "visionMode": "basic",
+            "color": null,
+            "attenuation": 0.1,
+            "brightness": 0,
+            "saturation": 0,
+            "contrast": 0
+          },
+          "detectionModes": [],
+          "occludable": {
+            "radius": 0
+          },
+          "ring": {
+            "enabled": false,
+            "colors": {
+              "ring": null,
+              "background": null
+            },
+            "effects": 0,
+            "subject": {
+              "scale": 1,
+              "texture": null
+            }
+          },
+          "flags": {},
+          "actorId": "PgJp4s3zdIFhLrYC",
+          "hidden": false,
+          "sort": 33,
+          "delta": {
+            "_id": "4w7gDtlPRGignyYG",
+            "system": {},
+            "items": [],
+            "effects": [],
+            "flags": {},
+            "name": null,
+            "type": null,
+            "img": null
+          },
+          "x": 1000,
+          "y": 4200,
+          "elevation": 0,
+          "locked": false,
+          "_regions": [],
+          "_id": "FcbHmHBeHa5lXkCj"
         }
       ],
       "lights": [
@@ -6183,42 +7308,6 @@
           "hidden": false,
           "flags": {},
           "_id": "f5S8V1KqUWK3snLs"
-        },
-        {
-          "_id": "EcsUpMjFwVnclmGC",
-          "x": 2500,
-          "y": 7300,
-          "elevation": 0,
-          "rotation": 0,
-          "walls": true,
-          "vision": false,
-          "config": {
-            "negative": false,
-            "priority": 0,
-            "alpha": 0.5,
-            "angle": 360,
-            "bright": 2.46,
-            "color": null,
-            "coloration": 1,
-            "dim": 4.92,
-            "attenuation": 0.5,
-            "luminosity": 0.5,
-            "saturation": 0,
-            "contrast": 0,
-            "shadows": 0,
-            "animation": {
-              "type": null,
-              "speed": 5,
-              "intensity": 5,
-              "reverse": false
-            },
-            "darkness": {
-              "min": 0,
-              "max": 1
-            }
-          },
-          "hidden": false,
-          "flags": {}
         }
       ],
       "notes": [
@@ -10241,7 +11330,7 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.9",
     "createdTime": 1743473885701,
-    "modifiedTime": 1745436131087,
+    "modifiedTime": 1745590223609,
     "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "_key": "!adventures!4bOIzuYHWHG3yDf0"
