@@ -1,5 +1,5 @@
 {
-  "name": "Mutant Raider with Slasher",
+  "name": "Mutant Raider",
   "type": "npc",
   "img": "systems/neon-lords/assets/creeps/mutantraider.webp",
   "system": {
@@ -27,7 +27,7 @@
         "value": 13
       }
     },
-    "biography": "<p>Mutated cannibal creeps that want to eat your flesh and harvest your teeth</p>",
+    "biography": "<p>Mutated cannibal creeps that want to eat your flesh and harvest your teeth. Has either a Ripper OR a Slasher.</p>",
     "alignment": "Khaotic",
     "hd": 2,
     "xp": 0,
@@ -127,17 +127,17 @@
   },
   "items": [
     {
-      "name": "Slasher",
+      "name": "Ripper",
       "type": "attack",
       "system": {
         "description": "",
         "bonus": 1,
         "special": "",
-        "damage_roll": "1D8",
+        "damage_roll": "1D6",
         "damage_type": "",
         "firearm": false
       },
-      "_id": "zWgdkCK5iQDXiDDU",
+      "_id": "0kAABNvRjKW24vXc",
       "img": "icons/svg/item-bag.svg",
       "effects": [],
       "folder": null,
@@ -157,7 +157,7 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_key": "!actors.items!ocXJw3EgoTQOBDce.zWgdkCK5iQDXiDDU"
+      "_key": "!actors.items!IBEke4njGAbl5Vlo.0kAABNvRjKW24vXc"
     },
     {
       "name": "Mutoid",
@@ -165,7 +165,7 @@
       "system": {
         "description": "<p>All creeps that would be considered a Mutant gain the Mutoid special ability. No two mutants are the same, appearance and abilities vary so greatly among them. Each mutant rolls on the @UUID[Compendium.neon-lords.tables.RollTable.HyBQa4FGfKxwNOaw]{Minor Mutations} table, unless otherwise stated, or they can forgo and roll on the @UUID[Compendium.neon-lords.tables.RollTable.wWzmjUlTi9EUMRvR]{Mutant Appearance} table.</p><p></p><p></p>"
       },
-      "_id": "kMlRugEi8YBTIwVM",
+      "_id": "jYhyx9QDsG190vdv",
       "img": "icons/svg/item-bag.svg",
       "effects": [],
       "folder": null,
@@ -185,7 +185,40 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_key": "!actors.items!ocXJw3EgoTQOBDce.kMlRugEi8YBTIwVM"
+      "_key": "!actors.items!IBEke4njGAbl5Vlo.jYhyx9QDsG190vdv"
+    },
+    {
+      "name": "Slasher",
+      "type": "attack",
+      "system": {
+        "description": "",
+        "bonus": 1,
+        "damage_roll": "1D8",
+        "damage_type": "",
+        "firearm": false,
+        "special": ""
+      },
+      "_id": "e66fkqoeAvCTssAO",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "x53CwYXR1zhkCDCY": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "neon-lords",
+        "systemVersion": "0.0.10",
+        "createdTime": 1745588622723,
+        "modifiedTime": 1745588637782,
+        "lastModifiedBy": "x53CwYXR1zhkCDCY"
+      },
+      "_key": "!actors.items!IBEke4njGAbl5Vlo.e66fkqoeAvCTssAO"
     }
   ],
   "effects": [],
@@ -196,16 +229,16 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "neon-lords",
-    "systemVersion": "0.0.8",
-    "createdTime": 1742830311238,
-    "modifiedTime": 1742862228931,
-    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+    "systemVersion": "0.0.10",
+    "createdTime": 1742830308969,
+    "modifiedTime": 1745588654395,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
-  "_id": "ocXJw3EgoTQOBDce",
-  "sort": 106250,
+  "_id": "IBEke4njGAbl5Vlo",
+  "sort": 112500,
   "ownership": {
     "default": 0,
     "x53CwYXR1zhkCDCY": 3
   },
-  "_key": "!actors!ocXJw3EgoTQOBDce"
+  "_key": "!actors!IBEke4njGAbl5Vlo"
 }
