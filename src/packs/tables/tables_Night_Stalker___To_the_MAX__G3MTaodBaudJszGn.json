@@ -261,7 +261,7 @@
     },
     {
       "type": "text",
-      "text": "Sudden Death. Masters of Chuck the Night Stalker can kill a target with one slice of the katana or a single ninja throwing star. The target makes a Death Saving Throw. If it is a success, they take normal damage +5. If they fail, they die instantly.",
+      "text": "Sudden Death. Masters of Chuck the Night Stalker can kill a target with one slice of the katana or a single ninja throwing star. The target makes a [[/save death]]. If it is a success, they take normal damage +5. If they fail, they die instantly.",
       "range": [
         18,
         18
@@ -315,8 +315,8 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742156240955,
-    "modifiedTime": 1742433552314,
-    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+    "modifiedTime": 1745592365232,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "formula": "1d20",
   "ownership": {

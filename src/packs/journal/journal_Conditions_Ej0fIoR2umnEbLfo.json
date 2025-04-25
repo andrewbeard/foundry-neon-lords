@@ -163,7 +163,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>A dazed skumdog rolls a Resolve Saving Throw during the next Check Conditions Phase. <span class=\"s1\">If successful, they are no </span>longer dazed and they take their turn as normal.<span class=\"s2\"> If failed they </span>spend the turn seeing stars. This effect only lasts the one turn unless otherwise stated.</p>"
+        "content": "<p>A dazed skumdog rolls a [[/save resolve]] during the next Check Conditions Phase. <span class=\"s1\">If successful, they are no </span>longer dazed and they take their turn as normal.<span class=\"s2\"> If failed they </span>spend the turn seeing stars. This effect only lasts the one turn unless otherwise stated.</p>"
       },
       "video": {
         "controls": true,
@@ -182,8 +182,8 @@
         "systemId": "neon-lords",
         "systemVersion": "0.0.9",
         "createdTime": 1743549947999,
-        "modifiedTime": 1743549965957,
-        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+        "modifiedTime": 1745592593461,
+        "lastModifiedBy": "x53CwYXR1zhkCDCY"
       },
       "_key": "!journal.pages!Ej0fIoR2umnEbLfo.7rsMS8SopLGXIITx"
     },
@@ -385,7 +385,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>A skumdog falls and can’t get up. The condition Prone differs from the missile attack prone in that it is not intentional. As a penalty, they must use an action to get back up. (Sometimes vs an Agility Saving Throw) In addition, the prone skumdog gets a -4 penalty to their AC. This differs from the missile attack prone as that does not cost an action to get back up.</p>"
+        "content": "<p>A skumdog falls and can’t get up. The condition Prone differs from the missile attack prone in that it is not intentional. As a penalty, they must use an action to get back up. (Sometimes vs an [[/save agility]]) In addition, the prone skumdog gets a -4 penalty to their AC. This differs from the missile attack prone as that does not cost an action to get back up.</p>"
       },
       "video": {
         "controls": true,
@@ -404,8 +404,8 @@
         "systemId": "neon-lords",
         "systemVersion": "0.0.9",
         "createdTime": 1743550296248,
-        "modifiedTime": 1743550403085,
-        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+        "modifiedTime": 1745592550407,
+        "lastModifiedBy": "x53CwYXR1zhkCDCY"
       },
       "_key": "!journal.pages!Ej0fIoR2umnEbLfo.Ub7F3RDnX9gdMr8O"
     },
@@ -501,6 +501,6 @@
     "modifiedTime": 1743549539872,
     "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
-  "categories": [],
-  "_key": "!journal!Ej0fIoR2umnEbLfo"
+  "_key": "!journal!Ej0fIoR2umnEbLfo",
+  "categories": []
 }

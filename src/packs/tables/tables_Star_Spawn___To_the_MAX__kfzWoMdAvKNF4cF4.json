@@ -171,7 +171,7 @@
     },
     {
       "type": "text",
-      "text": "Humanoids are such easy prey. The Manifestation deals [[1D6]] additional damage to the target and the same amount to another target Humanoid. On a failed Resolve Saving Throw, the new target takes the full damage, and half on a success.",
+      "text": "Humanoids are such easy prey. The Manifestation deals [[1D6]] additional damage to the target and the same amount to another target Humanoid. On a failed [[/save resolve]], the new target takes the full damage, and half on a success.",
       "range": [
         12,
         12
@@ -291,7 +291,7 @@
     },
     {
       "type": "text",
-      "text": "Extreme cephalic destruction! Each enemy within 10ft of the Star Spawn must make a Saving Throw vs Death. On a failed save, their heads explode, spreading gray matter everywhere.",
+      "text": "Extreme cephalic destruction! Each enemy within 10ft of the Star Spawn must make a [[/save death]]. On a failed save, their heads explode, spreading gray matter everywhere.",
       "range": [
         20,
         20
@@ -315,8 +315,8 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742155927675,
-    "modifiedTime": 1742433603241,
-    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+    "modifiedTime": 1745591988676,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "formula": "1d20",
   "ownership": {

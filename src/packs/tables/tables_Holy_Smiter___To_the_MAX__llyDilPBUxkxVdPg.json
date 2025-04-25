@@ -186,7 +186,7 @@
     },
     {
       "type": "text",
-      "text": "Nose breaker. The Smiter lunges out and bites the face of the enemy, ripping off the flesh of what used to be a nose and dealing an additional [[2D6]] Bleeding damage.",
+      "text": "Nose breaker. The Smiter lunges out and bites the face of the enemy, ripping off the flesh of what used to be a nose and dealing an additional [[2D6]] @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.sk1A640XsLbv0SfC]{Bleeding} damage.",
       "range": [
         13,
         13
@@ -315,8 +315,8 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742156271049,
-    "modifiedTime": 1742433535344,
-    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+    "modifiedTime": 1745595150007,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "formula": "1d20",
   "ownership": {

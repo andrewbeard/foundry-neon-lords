@@ -269,7 +269,7 @@
       },
       "flags": {},
       "_stats": {
-        "compendiumSource": "Actor.HhN9fvciFV7IyeTB",
+        "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.331",
         "systemId": "neon-lords",
@@ -536,7 +536,7 @@
       },
       "flags": {},
       "_stats": {
-        "compendiumSource": "Actor.hiMBdciWDCN0KgUu",
+        "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.331",
         "systemId": "neon-lords",
@@ -717,7 +717,7 @@
       },
       "flags": {},
       "_stats": {
-        "compendiumSource": "Actor.9EjNegTz3a54IrzR",
+        "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.331",
         "systemId": "neon-lords",
@@ -2406,7 +2406,7 @@
         "hd": 1,
         "xp": 0,
         "to_the_max_normal": "The zombie’s teeth sink in a bit deep dealing an additional [[1D4]] damage.",
-        "to_the_max_ouch": "The bite has a bit of toxic saliva in it. The target must make a Resolve Saving throw or become a Zombie.",
+        "to_the_max_ouch": "The bite has a bit of toxic saliva in it. The target must make a [[/save resolve]] or become a Zombie.",
         "spellCheck": {
           "value": 18
         }
@@ -2570,7 +2570,7 @@
         "systemId": "neon-lords",
         "systemVersion": "0.0.10",
         "createdTime": 1745589507542,
-        "modifiedTime": 1745590150647,
+        "modifiedTime": 1745592930180,
         "lastModifiedBy": "x53CwYXR1zhkCDCY"
       },
       "ownership": {
@@ -3088,7 +3088,7 @@
           "image": {},
           "text": {
             "format": 1,
-            "content": "<p class=\"p1\"></p><p class=\"p2\">The room smells like synthetic purple, the only illumination is the torches held by the cultists who are standing in a circle, next to the south wall. 6 cultists and 1 cult leader are preforming a ritual of some sort. The symbol on the wall Thbegins to glow in a purple-ish light. The ground rumbles a bit as the chanting of “oh yeah, oh yeah, oh yeah.” Gets louder and louder. Until the wall explodes killing some of the cultist as a resounding “OOOOOOOOOOHHHH ThYEAHHHHHHH!” is bellowed out. The Drool-Aid man is standing on the rubble of the wall and the bodies of his followers.<span class=\"Apple-converted-space\"> </span></p><ul><li><p class=\"p3\">After the Summoning there are 3 @UUID[Compendium.neon-lords.actors.Actor.qQTwUfbEzr2CrC4m]{Cultists} and the @UUID[Actor.HhN9fvciFV7IyeTB]{Cult Leader}, along with a giant pitcher of drool-aid animated called @UUID[Compendium.neon-lords.actors.Actor.Lf1kVxdLWAU9mq1F]{The Drool-Aid Man} (grape variant)<span class=\"Apple-converted-space\"> </span></p></li><li><p class=\"p3\">If an attempt is made to drink his purple insides, the drinker must make a Resolve Saving Throw or his insides are turned into glittery dust. On a success he rolls on the @UUID[Compendium.neon-lords.tables.RollTable.BIDFFaLxG6ywrUF8]{Drug Effects} table.<span class=\"Apple-converted-space\"> </span></p></li><li><p class=\"p3\">When the fiend is finally slain, and someone searches the dead dude you will find floating around inside of him a skeleton key with a blinking eye on the handle.<span class=\"Apple-converted-space\"> </span></p></li><li><p class=\"p3\">The Cult leader was carrying a scroll with a random level 1 War Wizard spell on it.</p></li></ul>"
+            "content": "<p class=\"p1\"></p><p class=\"p2\">The room smells like synthetic purple, the only illumination is the torches held by the cultists who are standing in a circle, next to the south wall. 6 cultists and 1 cult leader are preforming a ritual of some sort. The symbol on the wall begins to glow in a purple-ish light. The ground rumbles a bit as the chanting of “oh yeah, oh yeah, oh yeah.” Gets louder and louder. Until the wall explodes killing some of the cultist as a resounding “OOOOOOOOOOHHHH ThYEAHHHHHHH!” is bellowed out. The Drool-Aid man is standing on the rubble of the wall and the bodies of his followers.<span class=\"Apple-converted-space\"> </span></p><ul><li><p class=\"p3\">After the Summoning there are 3 @UUID[Compendium.neon-lords.actors.Actor.qQTwUfbEzr2CrC4m]{Cultists} and the @UUID[Actor.HhN9fvciFV7IyeTB]{Cult Leader}, along with a giant pitcher of drool-aid animated called @UUID[Compendium.neon-lords.actors.Actor.Lf1kVxdLWAU9mq1F]{The Drool-Aid Man} (grape variant)<span class=\"Apple-converted-space\"> </span></p></li><li><p class=\"p3\">If an attempt is made to drink his purple insides, the drinker must make a [[/save resolve]] or his insides are turned into glittery dust. On a success he rolls on the @UUID[Compendium.neon-lords.tables.RollTable.BIDFFaLxG6ywrUF8] table.<span class=\"Apple-converted-space\"> </span></p></li><li><p class=\"p3\">When the fiend is finally slain, and someone searches the dead dude you will find floating around inside of him a @UUID[Item.4yoBYoUCS6PLw3yC] with a blinking eye on the handle.<span class=\"Apple-converted-space\"> </span></p></li><li><p class=\"p3\">The Cult leader was carrying a scroll with a random level 1 War Wizard spell on it.</p></li></ul>"
           },
           "video": {
             "controls": true,
@@ -3107,7 +3107,7 @@
             "systemId": "neon-lords",
             "systemVersion": "0.0.9",
             "createdTime": 1745424803714,
-            "modifiedTime": 1745588830612,
+            "modifiedTime": 1745593154628,
             "lastModifiedBy": "x53CwYXR1zhkCDCY"
           }
         },
@@ -10934,48 +10934,6 @@
           "flags": {}
         },
         {
-          "type": "text",
-          "weight": 1,
-          "range": [
-            2,
-            2
-          ],
-          "drawn": false,
-          "_id": "epgcSrswCQhzQoNf",
-          "text": "Rival War Wizard and [[1D4]] Otherworldly Spawn",
-          "img": "icons/svg/d20-black.svg",
-          "documentId": null,
-          "flags": {}
-        },
-        {
-          "type": "text",
-          "weight": 1,
-          "range": [
-            3,
-            3
-          ],
-          "drawn": false,
-          "_id": "70MFWVcd2WXOrPET",
-          "text": "[[2D4]] Mutant Raiders",
-          "img": "icons/svg/d20-black.svg",
-          "documentId": null,
-          "flags": {}
-        },
-        {
-          "type": "text",
-          "weight": 1,
-          "range": [
-            4,
-            4
-          ],
-          "drawn": false,
-          "_id": "9AuynSoARMW1bMQB",
-          "text": "1 Suicide Machine",
-          "img": "icons/svg/d20-black.svg",
-          "documentId": null,
-          "flags": {}
-        },
-        {
           "type": "document",
           "documentCollection": "Actor",
           "weight": 1,
@@ -10991,7 +10949,7 @@
           "flags": {}
         },
         {
-          "type": "document",
+          "type": "text",
           "documentCollection": "Actor",
           "weight": 1,
           "range": [
@@ -10999,45 +10957,75 @@
             2
           ],
           "drawn": false,
+          "_id": "PC3wE7InUpSAknvk",
+          "text": "Rival War Wizard and [[1D4]] Otherworldly Spawn",
+          "img": "icons/svg/d20-black.svg",
+          "documentId": null,
+          "flags": {}
+        },
+        {
+          "type": "pack",
+          "documentCollection": "neon-lords.actors",
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
           "text": "Otherworldly Spawn",
-          "documentId": "Hj0n2qIT74KAsovF",
+          "documentId": "uNeHflrrzIEH4HxO",
           "img": "systems/neon-lords/assets/creeps/otherworldlyspawn.webp",
-          "_id": "uG1tKuhqCFOD2XOC",
+          "_id": "86UXqsw0MLlITMUW",
           "flags": {}
         },
         {
-          "type": "document",
-          "documentCollection": "Actor",
+          "type": "text",
+          "documentCollection": "neon-lords.actors",
           "weight": 1,
           "range": [
             3,
             3
           ],
           "drawn": false,
-          "text": "Mutant Raider with Ripper",
-          "documentId": "UkWUl0OmVws5jajA",
-          "img": "systems/neon-lords/assets/creeps/mutantraider.webp",
-          "_id": "ax1Qi8Z8Fukd8H8o",
+          "_id": "ABO2OmqGDqeCxNml",
+          "text": "[[2D4]] Mutant Raiders",
+          "img": "icons/svg/d20-black.svg",
+          "documentId": null,
           "flags": {}
         },
         {
-          "type": "document",
-          "documentCollection": "Actor",
+          "type": "pack",
+          "documentCollection": "neon-lords.actors",
           "weight": 1,
           "range": [
             3,
             3
           ],
           "drawn": false,
-          "text": "Mutant Raider with Slasher",
-          "documentId": "XS1XGfg5lIafHIcG",
+          "text": "Mutant Raider",
+          "documentId": "IBEke4njGAbl5Vlo",
           "img": "systems/neon-lords/assets/creeps/mutantraider.webp",
-          "_id": "OoQQDzxSwbSZs2Lx",
+          "_id": "SOgUNhDUjsbQ6mm6",
           "flags": {}
         },
         {
-          "type": "document",
-          "documentCollection": "Actor",
+          "type": "text",
+          "documentCollection": "neon-lords.actors",
+          "weight": 1,
+          "range": [
+            4,
+            4
+          ],
+          "drawn": false,
+          "_id": "qdF1XcLQ9boxZbAg",
+          "text": "1 Suicide Machine",
+          "img": "icons/svg/d20-black.svg",
+          "documentId": null,
+          "flags": {}
+        },
+        {
+          "type": "pack",
+          "documentCollection": "neon-lords.actors",
           "weight": 1,
           "range": [
             4,
@@ -11045,9 +11033,9 @@
           ],
           "drawn": false,
           "text": "Suicide Machine",
-          "documentId": "43bUABcI7BMDNDyZ",
+          "documentId": "pu5haGx0RqmuGSHl",
           "img": "systems/neon-lords/assets/creeps/suicidemachine.webp",
-          "_id": "RFxOwmdOerOK885S",
+          "_id": "B0c1C1RhMXwBoyDo",
           "flags": {}
         }
       ],
@@ -11066,7 +11054,7 @@
         "systemId": "neon-lords",
         "systemVersion": "0.0.6",
         "createdTime": 1742576078186,
-        "modifiedTime": 1745421346405,
+        "modifiedTime": 1745590917478,
         "lastModifiedBy": "x53CwYXR1zhkCDCY"
       },
       "formula": "1D4"
@@ -11165,8 +11153,8 @@
           "flags": {}
         },
         {
-          "type": "document",
-          "documentCollection": "Actor",
+          "type": "pack",
+          "documentCollection": "neon-lords.actors",
           "weight": 1,
           "range": [
             4,
@@ -11174,39 +11162,24 @@
           ],
           "drawn": false,
           "text": "Cultist",
-          "documentId": "2mc3MO4aZ53bZrws",
+          "documentId": "qQTwUfbEzr2CrC4m",
           "img": "systems/neon-lords/assets/creeps/cultist.webp",
           "_id": "6xblSrO85WyG6bV6",
           "flags": {}
         },
         {
-          "type": "document",
-          "documentCollection": "Actor",
+          "type": "pack",
+          "documentCollection": "neon-lords.actors",
           "weight": 1,
           "range": [
             1,
             1
           ],
           "drawn": false,
-          "text": "Mutant Raider with Ripper",
-          "documentId": "UkWUl0OmVws5jajA",
+          "text": "Mutant Raider",
+          "documentId": "IBEke4njGAbl5Vlo",
           "img": "systems/neon-lords/assets/creeps/mutantraider.webp",
           "_id": "UrBMThgECOQibmmQ",
-          "flags": {}
-        },
-        {
-          "type": "document",
-          "documentCollection": "Actor",
-          "weight": 1,
-          "range": [
-            1,
-            1
-          ],
-          "drawn": false,
-          "text": "Mutant Raider with Slasher",
-          "documentId": "XS1XGfg5lIafHIcG",
-          "img": "systems/neon-lords/assets/creeps/mutantraider.webp",
-          "_id": "yFF1z4beLb3KbFW9",
           "flags": {}
         }
       ],
@@ -11225,7 +11198,7 @@
         "systemId": "neon-lords",
         "systemVersion": "0.0.6",
         "createdTime": 1742575921592,
-        "modifiedTime": 1745420602627,
+        "modifiedTime": 1745590953679,
         "lastModifiedBy": "x53CwYXR1zhkCDCY"
       },
       "formula": "1D4"
@@ -11330,7 +11303,7 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.9",
     "createdTime": 1743473885701,
-    "modifiedTime": 1745590223609,
+    "modifiedTime": 1745593185633,
     "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "_key": "!adventures!4bOIzuYHWHG3yDf0"

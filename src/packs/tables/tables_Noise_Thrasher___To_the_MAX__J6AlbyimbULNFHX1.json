@@ -299,7 +299,7 @@
       ],
       "drawn": false,
       "_id": "XEyiJlbI9sq8syTN",
-      "text": "ELECTRIC DRAGON 80,000 VOLTS!!!! The Riff is beyond powerful and manifests itself as a Electric Dragon! The massive beast bites the head off the target killing them instantly while shooting lightning bolts up to 30ft away. Any enemy within a 30ft radius of the target must make an Agility Saving Throw or take [[/roll 1D6x6]] damage.",
+      "text": "ELECTRIC DRAGON 80,000 VOLTS!!!! The Riff is beyond powerful and manifests itself as a Electric Dragon! The massive beast bites the head off the target killing them instantly while shooting lightning bolts up to 30ft away. Any enemy within a 30ft radius of the target must make an [[/save agility]] or take [[/roll 1D6x6]] damage.",
       "img": "icons/svg/d20-black.svg",
       "documentId": null,
       "flags": {},
@@ -321,8 +321,8 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.3",
     "createdTime": 1742338833483,
-    "modifiedTime": 1742339330597,
-    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+    "modifiedTime": 1745592871417,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "formula": "1D20",
   "_key": "!tables!J6AlbyimbULNFHX1"

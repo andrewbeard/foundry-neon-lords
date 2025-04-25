@@ -32,7 +32,7 @@
     "hd": 1,
     "xp": 0,
     "to_the_max_normal": "The zombie’s teeth sink in a bit deep dealing an additional [[1D4]] damage.",
-    "to_the_max_ouch": "The bite has a bit of toxic saliva in it. The target must make a Resolve Saving throw or become a Zombie.",
+    "to_the_max_ouch": "The bite has a bit of toxic saliva in it. The target must make a [[/save resolve]] or become a Zombie.",
     "spellCheck": {
       "value": 18
     }
@@ -196,10 +196,10 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "neon-lords",
-    "systemVersion": "0.0.8",
+    "systemVersion": "0.0.10",
     "createdTime": 1742830314855,
-    "modifiedTime": 1742862231320,
-    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+    "modifiedTime": 1745592917831,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "_id": "Jl8B7jbkA0voPPiO",
   "sort": 101563,

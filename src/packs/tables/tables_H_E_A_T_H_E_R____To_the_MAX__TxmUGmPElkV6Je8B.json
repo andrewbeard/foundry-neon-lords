@@ -36,7 +36,7 @@
     },
     {
       "type": "text",
-      "text": "Pack a Punch! Flechette rounds cause all foes that were hit to gain the Bleeding condition for the next [[1D3]] rounds.",
+      "text": "Pack a Punch! Flechette rounds cause all foes that were hit to gain the @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.sk1A640XsLbv0SfC]{Bleeding} condition for the next [[1D3]] rounds.",
       "range": [
         3,
         3
@@ -315,8 +315,8 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742156292354,
-    "modifiedTime": 1742433522648,
-    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+    "modifiedTime": 1745595197711,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "formula": "1d20",
   "ownership": {

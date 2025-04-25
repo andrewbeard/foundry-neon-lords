@@ -33,7 +33,7 @@
     "hd": 1,
     "xp": 0,
     "to_the_max_normal": "The cultist stabs you in the side dealing an additional [[1D4]] @UUID[Compendium.neon-lords.journal.JournalEntry.GolSNvsGoLOK5zXR.JournalEntryPage.5jpPWVVtjusPhEyZ] damage",
-    "to_the_max_ouch": "Blood for the old gods!: Stabs you with a ceremonial dagger as part of a summoning spell. The attack deals normal damage but opens a portal in an open space next to the cultist. An @Actor[Otherworldly Spawn] crawls out and attacks as well.",
+    "to_the_max_ouch": "Blood for the old gods!: Stabs you with a ceremonial dagger as part of a summoning spell. The attack deals normal damage but opens a portal in an open space next to the cultist. An @UUID[Compendium.neon-lords.actors.Actor.uNeHflrrzIEH4HxO]{Otherworldly Spawn} crawls out and attacks as well.",
     "spellCheck": {
       "value": 18
     }
@@ -198,7 +198,7 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.10",
     "createdTime": 1742830288248,
-    "modifiedTime": 1745588399340,
+    "modifiedTime": 1745594110781,
     "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "_id": "qQTwUfbEzr2CrC4m",

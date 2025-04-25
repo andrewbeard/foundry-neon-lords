@@ -231,7 +231,7 @@
     },
     {
       "type": "text",
-      "text": "Clean strike severs your foe's spinal cord, dropping them to the ground paralyzed. You grab the exposed spinal cord, pull it out, and hold it over your head. Each enemy that can see the carnage must make a Resolve Saving Throw or roll on the Fear Table. Add the spinal cord trophy to your equipment.",
+      "text": "Clean strike severs your foe's spinal cord, dropping them to the ground paralyzed. You grab the exposed spinal cord, pull it out, and hold it over your head. Each enemy that can see the carnage must make a [[/save resolve]] or roll on the Fear Table. Add the spinal cord trophy to your equipment.",
       "range": [
         16,
         16
@@ -261,7 +261,7 @@
     },
     {
       "type": "text",
-      "text": "Condemned to death! The Death Bringer underestimates their own strength, crushing their opponent's head and causing the fiend to make a Death Saving Throw or fall dead.",
+      "text": "Condemned to death! The Death Bringer underestimates their own strength, crushing their opponent's head and causing the fiend to make a [[/save death]] or fall dead.",
       "range": [
         18,
         18
@@ -315,8 +315,8 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742156334099,
-    "modifiedTime": 1742433488809,
-    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+    "modifiedTime": 1745591938924,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "formula": "1d20",
   "ownership": {

@@ -13,7 +13,7 @@
       ],
       "drawn": false,
       "_id": "wiHej1WzkK2ZfYJO",
-      "text": "Overdose. The drug is too intense! Make a Death Saving Throw! If you fail, your heart explodes.",
+      "text": "Overdose. The drug is too intense! Make a [[/save death]]! If you fail, your heart explodes.",
       "img": "icons/svg/d20-black.svg",
       "documentId": null,
       "flags": {},
@@ -354,7 +354,7 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.4",
     "createdTime": 1742407582045,
-    "modifiedTime": 1742408079455,
+    "modifiedTime": 1745592114332,
     "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "formula": "1D20",

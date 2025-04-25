@@ -28,9 +28,9 @@
       ],
       "drawn": false,
       "_id": "Ca65lDtnmREyAfjL",
-      "text": "",
-      "img": null,
-      "documentId": null,
+      "text": "Fear",
+      "img": "icons/svg/d20-grey.svg",
+      "documentId": "491tj4A15EvuxWX9",
       "flags": {},
       "documentCollection": "neon-lords.tables",
       "_key": "!tables.results!CB8GTZFkVzVbRpKs.Ca65lDtnmREyAfjL"
@@ -127,7 +127,7 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.4",
     "createdTime": 1742407869774,
-    "modifiedTime": 1742408089133,
+    "modifiedTime": 1745592131287,
     "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "formula": "1D6",

@@ -186,7 +186,7 @@
     },
     {
       "type": "text",
-      "text": "An upload of the media virus turns a target the Skull Jammer can see to stone. On a failed Resolve Saving Throw, the target is turned completely to stone. They take [[1D6]] damage fighting off the cold, creeping stone on a successful save.",
+      "text": "An upload of the media virus turns a target the Skull Jammer can see to stone. On a failed [[/save resolve]], the target is turned completely to stone. They take [[1D6]] damage fighting off the cold, creeping stone on a successful save.",
       "range": [
         13,
         13
@@ -315,8 +315,8 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742156139049,
-    "modifiedTime": 1742433592524,
-    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+    "modifiedTime": 1745591885480,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "formula": "1d20",
   "ownership": {

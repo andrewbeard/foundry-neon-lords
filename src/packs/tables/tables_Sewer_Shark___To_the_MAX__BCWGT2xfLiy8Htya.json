@@ -66,7 +66,7 @@
     },
     {
       "type": "text",
-      "text": "Sweep the leg. Dealing normal damage, the Sewer Shark is able to sweep the legs from the target causing them to fall Prone. They must make an Agility Saving throw in order to get back up.",
+      "text": "Sweep the leg. Dealing normal damage, the Sewer Shark is able to sweep the legs from the target causing them to fall Prone. They must make an [[/save agility]] in order to get back up.",
       "range": [
         5,
         5
@@ -171,7 +171,7 @@
     },
     {
       "type": "text",
-      "text": "FINTASTIC! The attack is brutal dealing an additional [[1D10]] Bleeding damage as the Sewer Shark furiously bites the target.",
+      "text": "FINTASTIC! The attack is brutal dealing an additional [[1D10]] @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.sk1A640XsLbv0SfC]{Bleeding} damage as the Sewer Shark furiously bites the target.",
       "range": [
         12,
         12
@@ -276,7 +276,7 @@
     },
     {
       "type": "text",
-      "text": "SHARK DIVE! Breaking the floor and diving underneath their target the Sewer Shark is able to attack from below opening a sinkhole. The target falls to their death and anything within 5ft must make an Agility Saving Throw or fall in to their deaths as well.",
+      "text": "SHARK DIVE! Breaking the floor and diving underneath their target the Sewer Shark is able to attack from below opening a sinkhole. The target falls to their death and anything within 5ft must make an [[/save agility]] or fall in to their deaths as well.",
       "range": [
         19,
         19
@@ -315,8 +315,8 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742156161319,
-    "modifiedTime": 1742433572511,
-    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+    "modifiedTime": 1745595173507,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "formula": "1d20",
   "ownership": {

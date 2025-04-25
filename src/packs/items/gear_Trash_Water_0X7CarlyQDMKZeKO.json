@@ -5,7 +5,7 @@
   "_id": "0X7CarlyQDMKZeKO",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "<p>Booze made by Street Trash and other nefarious groups out there. Word to the wise: If it’s glowing bright green, you probably shouldn’t drink it. When a shot is taken, the skumdog must make a Grit Save or become @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.tqf12qu9KwS1NONv]{Drunk}. If a skumdog has the Addiction condition for Trash Water, they must consume it once a day.</p>",
+    "description": "<p>Booze made by Street Trash and other nefarious groups out there. Word to the wise: If it’s glowing bright green, you probably shouldn’t drink it. When a shot is taken, the skumdog must make a [[/save grit]] or become @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.tqf12qu9KwS1NONv]. If a skumdog has the Addiction condition for Trash Water, they must consume it once a day.</p>",
     "quantity": 5,
     "slots": 1,
     "value": 3
@@ -22,9 +22,9 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "neon-lords",
-    "systemVersion": "0.0.9",
+    "systemVersion": "0.0.10",
     "createdTime": 1745429271911,
-    "modifiedTime": 1745436454484,
+    "modifiedTime": 1745593331226,
     "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "_key": "!items!0X7CarlyQDMKZeKO"

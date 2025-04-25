@@ -96,7 +96,7 @@
     },
     {
       "type": "text",
-      "text": "A bloody mess. The spell does normal damage, plus an additional [[1D6]]. If the target dies, it explodes while an obscene amount of blood, like more blood than should be contained in a human body, erupts forth, soaking everyone in a 15ft radius of the target. Anyone within this area must make an Agility Saving Throw or fall Prone in the gore.",
+      "text": "A bloody mess. The spell does normal damage, plus an additional [[1D6]]. If the target dies, it explodes while an obscene amount of blood, like more blood than should be contained in a human body, erupts forth, soaking everyone in a 15ft radius of the target. Anyone within this area must make an [[/save agility]] or fall Prone in the gore.",
       "range": [
         7,
         7
@@ -141,7 +141,7 @@
     },
     {
       "type": "text",
-      "text": "Rainbow Death Ray. The spell gets twisted and corrupted by the Radiation and a sickly rainbow spews from the War Wizard, hitting their intended target. The target must make a Death Saving Throw or explode in gore glitter.",
+      "text": "Rainbow Death Ray. The spell gets twisted and corrupted by the Radiation and a sickly rainbow spews from the War Wizard, hitting their intended target. The target must make a [[/save death]] or explode in gore glitter.",
       "range": [
         10,
         10
@@ -246,7 +246,7 @@
     },
     {
       "type": "text",
-      "text": "Your brain on drugs. The spell has a radioactive side effect. Everyone in a 10ft radius of the target must make a Resolve Saving Throw or roll on the Fear table. The target, on the other hand, gets to experience their Brains being fried like an egg, causing immediate death. No Death Save.",
+      "text": "Your brain on drugs. The spell has a radioactive side effect. Everyone in a 10ft radius of the target must make a [[/save resolve]] or roll on the Fear table. The target, on the other hand, gets to experience their Brains being fried like an egg, causing immediate death. No Death Save.",
       "range": [
         17,
         17
@@ -315,8 +315,8 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742155872501,
-    "modifiedTime": 1742433616400,
-    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+    "modifiedTime": 1745592896344,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "formula": "1d20",
   "ownership": {
