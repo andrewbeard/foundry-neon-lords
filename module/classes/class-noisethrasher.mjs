@@ -2,8 +2,8 @@ import NeonLordsClassBase from "./base-class.mjs";
 
 export default class NeonLordsNoiseThrasherClass extends NeonLordsClassBase {
   get name() {
-    return "NoiseThrasher";
-  }
+    return "Noise Thrasher";
+  } 
 
   get classPointName() {
     return "Shred";
