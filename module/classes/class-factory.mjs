@@ -8,6 +8,7 @@ import NeonLordsHEATHERClass from "./class-heather.mjs";
 import NeonLordsHolySmiterClass from "./class-holysmiter.mjs";
 import NeonLordsNightStalkerClass from "./class-nightstalker.mjs";
 import NeonLordsNoiseThrasherClass from "./class-noisethrasher.mjs";
+import NeonLordsSewerSharkClass from "./class-sewershark.mjs";
 import NeonLordsSkullJammerClass from "./class-skulljammer.mjs";
 import NeonLordsStarSpawnClass from "./class-starspawn.mjs";
 import NeonLordsWarWizardClass from "./class-warwizard.mjs";
@@ -35,6 +36,8 @@ export default class NeonLordsClassFactory {
         return new NeonLordsNightStalkerClass();
       case "Noise Thrasher":
         return new NeonLordsNoiseThrasherClass();
+      case "Sewer Shark":
+        return new NeonLordsSewerSharkClass();
       case "Skull Jammer":
         return new NeonLordsSkullJammerClass();
       case "Star Spawn":
