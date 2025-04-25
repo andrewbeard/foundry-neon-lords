@@ -40,8 +40,8 @@
         "alignment": "Khaotic",
         "hd": 3,
         "xp": 0,
-        "to_the_max_normal": "The cultist stabs you in the side dealing an additional [[1D4]] Bleeding damage",
-        "to_the_max_ouch": "BLOOD FOR THE OLD GODS!: Stabs you with a ceremonial Dagger as part of a Summoning spell. The attack deals normal damage but opens a portal in an\nopen space next to the cultist. An @Actor[Otherworldly Spawn]  crawls out and attacks as well.",
+        "to_the_max_normal": "The cultist stabs you in the side dealing an additional [[1D4]] @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.sk1A640XsLbv0SfC]{Bleeding} damage",
+        "to_the_max_ouch": "BLOOD FOR THE OLD GODS!: Stabs you with a ceremonial Dagger as part of a Summoning spell. The attack deals normal damage but opens a portal in an\nopen space next to the cultist. An @UUID[Compendium.neon-lords.actors.Actor.uNeHflrrzIEH4HxO]{Otherworldly Spawn} crawls out and attacks as well.",
         "spellCheck": {
           "value": 18
         }
@@ -273,9 +273,9 @@
         "duplicateSource": null,
         "coreVersion": "12.331",
         "systemId": "neon-lords",
-        "systemVersion": "0.0.9",
+        "systemVersion": "0.0.10",
         "createdTime": 1742575354208,
-        "modifiedTime": 1745590148576,
+        "modifiedTime": 1745594166979,
         "lastModifiedBy": "x53CwYXR1zhkCDCY"
       }
     },
@@ -1516,7 +1516,7 @@
         "hd": 1,
         "xp": 0,
         "to_the_max_normal": "The cultist stabs you in the side dealing an additional [[1D4]] @UUID[Compendium.neon-lords.journal.JournalEntry.GolSNvsGoLOK5zXR.JournalEntryPage.5jpPWVVtjusPhEyZ] damage",
-        "to_the_max_ouch": "Blood for the old gods!: Stabs you with a ceremonial dagger as part of a summoning spell. The attack deals normal damage but opens a portal in an open space next to the cultist. An @Actor[Otherworldly Spawn] crawls out and attacks as well.",
+        "to_the_max_ouch": "Blood for the old gods!: Stabs you with a ceremonial dagger as part of a summoning spell. The attack deals normal damage but opens a portal in an open space next to the cultist. An @UUID[Compendium.neon-lords.actors.Actor.uNeHflrrzIEH4HxO]{Otherworldly Spawn} crawls out and attacks as well.",
         "spellCheck": {
           "value": 18
         }
@@ -1679,7 +1679,7 @@
         "systemId": "neon-lords",
         "systemVersion": "0.0.10",
         "createdTime": 1745589709867,
-        "modifiedTime": 1745590148576,
+        "modifiedTime": 1745594133054,
         "lastModifiedBy": "x53CwYXR1zhkCDCY"
       },
       "ownership": {
@@ -2663,7 +2663,7 @@
       },
       "flags": {},
       "_stats": {
-        "compendiumSource": "Item.4yoBYoUCS6PLw3yC",
+        "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.331",
         "systemId": "neon-lords",
@@ -11303,7 +11303,7 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.9",
     "createdTime": 1743473885701,
-    "modifiedTime": 1745593185633,
+    "modifiedTime": 1745595354783,
     "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "_key": "!adventures!4bOIzuYHWHG3yDf0"
