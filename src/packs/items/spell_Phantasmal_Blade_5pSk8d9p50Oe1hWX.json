@@ -5,7 +5,7 @@
   "_id": "5pSk8d9p50Oe1hWX",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "<p>Channeling pure hatred, the War Wizard conjures up a blade of negative magical energy. The blade’s form is determined @UUID[Compendium.neon-lords.tables.RollTable.yjWloGuZdxPij942]{randomly}.</p><p>The War Wizard cannot score a critical hit with this weapon, nor can it fumble. A die result of 20 or 1 still automatically hits or misses, respectively.</p>",
+    "description": "<p>Channeling pure hatred, the War Wizard conjures up a blade of negative magical energy. The blade's form is determined @UUID[Compendium.neon-lords.tables.RollTable.yjWloGuZdxPij942]{randomly}.</p><p>The War Wizard cannot score a critical hit with this weapon, nor can it fumble. A die result of 20 or 1 still automatically hits or misses, respectively.</p>",
     "spellLevel": 1,
     "duration": "1D4 + Caster Level Rounds",
     "range": "Self",

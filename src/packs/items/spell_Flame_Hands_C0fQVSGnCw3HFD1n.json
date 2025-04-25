@@ -5,7 +5,7 @@
   "_id": "C0fQVSGnCw3HFD1n",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "<p>The War Wizard’s fingers begin to glow like embers in a fire before shooting out small flames, burning anything flammable the caster touches. Paper or a book will be engulfed in flames. Creatures touched take [[/roll 1D6]] Burning damage. The spell’s duration varies. In its basic form, the spell duration is Instant. By spending a Khaos Point, the caster may extend this duration to a Round, adding additional Rounds of duration for each Khaos Point expended.</p>",
+    "description": "<p>The War Wizard's fingers begin to glow like embers in a fire before shooting out small flames, burning anything flammable the caster touches. Paper or a book will be engulfed in flames. Creatures touched take [[/roll 1D6]] Burning damage. The spell’s duration varies. In its basic form, the spell duration is Instant. By spending a Khaos Point, the caster may extend this duration to a Round, adding additional Rounds of duration for each Khaos Point expended.</p>",
     "spellLevel": 1,
     "duration": "See Description",
     "range": "Touch",
