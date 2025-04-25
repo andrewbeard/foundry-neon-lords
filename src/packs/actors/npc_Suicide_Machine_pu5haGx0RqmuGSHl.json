@@ -1,0 +1,244 @@
+{
+  "folder": "389BqvIeJzjVMvm1",
+  "name": "Suicide Machine",
+  "type": "npc",
+  "img": "systems/neon-lords/assets/creeps/suicidemachine.webp",
+  "system": {
+    "hp": {
+      "value": 12,
+      "max": 12
+    },
+    "ac": {
+      "value": 15
+    },
+    "movement": {
+      "value": 35
+    },
+    "spellCheck": {
+      "value": 18
+    },
+    "saves": {
+      "grit": {
+        "value": 17
+      },
+      "agility": {
+        "value": 17
+      },
+      "resolve": {
+        "value": 17
+      },
+      "death": {
+        "value": 10
+      }
+    },
+    "biography": "<p><em>“If you ever see a Suicide Machine.. RUN!”</em></p><p>-Higdor, Dwarfling adventurer.</p><p>Feared by all Humanoids, the Suicide Machine doesn’t discern between friend and foe and will attack everything it comes in contact with. Unrelenting, no emotion, built to destroy everything. Made of random body parts, salvage metal, and weapons then brought back to life by magical means. They are commanded by a War Wizard or a Demonlord.</p>",
+    "alignment": "Khaotic",
+    "hd": 3,
+    "xp": 0,
+    "to_the_max_normal": "Attack deals an additional [[1D6]] damage.",
+    "to_the_max_ouch": "BUZZ-SAW BONANZA - Decapitates the target and the closest party member within 5ft."
+  },
+  "prototypeToken": {
+    "name": "Suicide Machine",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/neon-lords/assets/creeps/suicidemachine.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": "cp"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "Self Destruct Protocol",
+      "type": "feature",
+      "system": {
+        "description": "<p>When a Suicide Machine hits 0 Hit Points there are [[1D4]] turns before they explode dealing [[/roll 1D8]] damage to any creature within 20ft. Any creature may make an [[/save agility]] to avoid the damage.</p>"
+      },
+      "_id": "M0N3kOaCjDCixhNx",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "x53CwYXR1zhkCDCY": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "neon-lords",
+        "systemVersion": "0.0.10",
+        "createdTime": null,
+        "modifiedTime": 1745590632565,
+        "lastModifiedBy": "x53CwYXR1zhkCDCY"
+      },
+      "_key": "!actors.items!pu5haGx0RqmuGSHl.M0N3kOaCjDCixhNx"
+    },
+    {
+      "name": "Buzz-Saw Arm",
+      "type": "attack",
+      "system": {
+        "description": "",
+        "bonus": 0,
+        "damage_roll": "1D6+1",
+        "damage_type": "",
+        "firearm": false,
+        "special": ""
+      },
+      "_id": "139BTqNM7FA4OCO8",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "x53CwYXR1zhkCDCY": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "neon-lords",
+        "systemVersion": "0.0.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!pu5haGx0RqmuGSHl.139BTqNM7FA4OCO8"
+    },
+    {
+      "name": "Pistol Arm",
+      "type": "attack",
+      "system": {
+        "description": "",
+        "bonus": 0,
+        "damage_roll": "1D6",
+        "damage_type": "",
+        "firearm": true,
+        "special": ""
+      },
+      "_id": "uFJgyYCG5x04mbMA",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "x53CwYXR1zhkCDCY": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "neon-lords",
+        "systemVersion": "0.0.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!pu5haGx0RqmuGSHl.uFJgyYCG5x04mbMA"
+    }
+  ],
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.10",
+    "createdTime": 1745588239459,
+    "modifiedTime": 1745588239459,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "_id": "pu5haGx0RqmuGSHl",
+  "sort": 0,
+  "_key": "!actors!pu5haGx0RqmuGSHl"
+}
