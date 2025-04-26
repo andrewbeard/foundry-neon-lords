@@ -283,7 +283,7 @@
       ],
       "drawn": false,
       "_id": "ca7HsetkmAG4RLn5",
-      "text": "Medusa's curse. Gain the Petrified condition.",
+      "text": "Medusa's curse. Gain the @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.wk79mILlDzXEqAEr]{Petrified} condition.",
       "img": "icons/svg/d20-black.svg",
       "documentId": null,
       "flags": {},
@@ -354,7 +354,7 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.4",
     "createdTime": 1742407582045,
-    "modifiedTime": 1745592114332,
+    "modifiedTime": 1745639039651,
     "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "formula": "1D20",
