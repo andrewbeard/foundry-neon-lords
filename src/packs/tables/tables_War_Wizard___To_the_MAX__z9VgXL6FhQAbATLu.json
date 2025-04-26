@@ -201,7 +201,7 @@
     },
     {
       "type": "text",
-      "text": "The spell rips through the target with an extra [[1D10]] Vile damage. Each creature within 5ft must roll on the Minor Mutation table. The creep crumbles into glow-in-the-dark dust at the end of the encounter.",
+      "text": "The spell rips through the target with an extra [[1D10]] @UUID[Compendium.neon-lords.journal.JournalEntry.GolSNvsGoLOK5zXR.JournalEntryPage.LhAmzh45MygNzafA]{Vile} damage. Each creature within 5ft must roll on the @UUID[Compendium.neon-lords.tables.RollTable.HyBQa4FGfKxwNOaw]{Minor Mutations} table. The creep crumbles into glow-in-the-dark dust at the end of the encounter.",
       "range": [
         14,
         14
@@ -315,8 +315,8 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742155872501,
-    "modifiedTime": 1745618820150,
-    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+    "modifiedTime": 1745682791981,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
   "formula": "1d20",
   "ownership": {

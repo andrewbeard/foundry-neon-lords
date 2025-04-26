@@ -291,7 +291,7 @@
     },
     {
       "type": "text",
-      "text": "Fortune favors the bold. Fate herself sways the outcome of the battle. For every Fortune Point you have, you may add [[/roll 1D6]] Spillover damage to the attack.",
+      "text": "Fortune favors the bold. Fate herself sways the outcome of the battle. For every Fortune Point you have, you may add [[/roll 1D6]] @UUID[Compendium.neon-lords.journal.JournalEntry.GolSNvsGoLOK5zXR.JournalEntryPage.9skDCk49uq5QjTMT]{Spillover} damage to the attack.",
       "range": [
         20,
         20
@@ -315,8 +315,8 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742156307362,
-    "modifiedTime": 1745618752553,
-    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+    "modifiedTime": 1745683279263,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
   "formula": "1d20",
   "ownership": {

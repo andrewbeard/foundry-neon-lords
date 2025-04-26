@@ -224,7 +224,7 @@
       ],
       "drawn": false,
       "_id": "6Q9rpuEGFLTPlggi",
-      "text": "RAINBOW RECKONING! A beam of light in the form of a rainbow bursts forth from the Cosmic Barbarian’s weapons, hitting the target for normal damage plus [[2D6]] Spillover damage.",
+      "text": "RAINBOW RECKONING! A beam of light in the form of a rainbow bursts forth from the Cosmic Barbarian’s weapons, hitting the target for normal damage plus [[2D6]] @UUID[Compendium.neon-lords.journal.JournalEntry.GolSNvsGoLOK5zXR.JournalEntryPage.9skDCk49uq5QjTMT]{Spillover} damage.",
       "img": "icons/svg/d20-black.svg",
       "documentId": null,
       "flags": {},
@@ -269,7 +269,7 @@
       ],
       "drawn": false,
       "_id": "ABPIbkIEx5LNpvCL",
-      "text": "LET THE COSMOS ECHO THY FURY! The attack gains Spillover damage and an additional [[3D6x6]] damage.",
+      "text": "LET THE COSMOS ECHO THY FURY! The attack gains @UUID[Compendium.neon-lords.journal.JournalEntry.GolSNvsGoLOK5zXR.JournalEntryPage.9skDCk49uq5QjTMT]{Spillover} damage and an additional [[3D6x6]] damage.",
       "img": "icons/svg/d20-black.svg",
       "documentId": null,
       "flags": {},
@@ -321,8 +321,8 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.11",
     "createdTime": 1745637820832,
-    "modifiedTime": 1745641395978,
-    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+    "modifiedTime": 1745683248898,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
   "formula": "1d20",
   "_key": "!tables!xV91zzpb9LEdgIed"

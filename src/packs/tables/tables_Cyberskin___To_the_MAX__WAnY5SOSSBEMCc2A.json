@@ -186,7 +186,7 @@
     },
     {
       "type": "text",
-      "text": "Freedom Beam! The Data tape in the Cyberskin's chest shoots out a massive beam that hits their enemy for an additional [[1D10]]+Attitude Mod of Patriotic damage.",
+      "text": "Freedom Beam! The Data tape in the Cyberskin's chest shoots out a massive beam that hits their enemy for an additional [[1D10]]+Attitude Mod of @UUID[Compendium.neon-lords.journal.JournalEntry.GolSNvsGoLOK5zXR.JournalEntryPage.u3s2C4sWCZ0ucAyv]{Patriotic} damage.",
       "range": [
         13,
         13
@@ -246,7 +246,7 @@
     },
     {
       "type": "text",
-      "text": "Unleash the Beast! Complete psycho mode on the target the Cyberskin deals [[1D10]] Spillover damage. Completely savage!",
+      "text": "Unleash the Beast! Complete psycho mode on the target the Cyberskin deals [[1D10]] @UUID[Compendium.neon-lords.journal.JournalEntry.GolSNvsGoLOK5zXR.JournalEntryPage.9skDCk49uq5QjTMT]{Spillover} damage. Completely savage!",
       "range": [
         17,
         17
@@ -315,7 +315,7 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742156446243,
-    "modifiedTime": 1742433470329,
+    "modifiedTime": 1745683365699,
     "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
   "formula": "1d20",

@@ -6,7 +6,7 @@
   "results": [
     {
       "type": "text",
-      "text": "The Sewer Shark's attack deals a devastating blow dealing normal damage and causing the target to be Dazed on their next turn.",
+      "text": "The Sewer Shark's attack deals a devastating blow dealing normal damage and causing the target to be @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.7rsMS8SopLGXIITx]{Dazed} on their next turn.",
       "range": [
         1,
         1
@@ -21,7 +21,7 @@
     },
     {
       "type": "text",
-      "text": "Vile Bile. The Sewer Shark's septic lifestyle causes the attack to deal an additional [[1D6]] Vile damage.",
+      "text": "Vile Bile. The Sewer Shark's septic lifestyle causes the attack to deal an additional [[1D6]] @UUID[Compendium.neon-lords.journal.JournalEntry.GolSNvsGoLOK5zXR.JournalEntryPage.LhAmzh45MygNzafA]{Vile} damage.",
       "range": [
         2,
         2
@@ -315,8 +315,8 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742156161319,
-    "modifiedTime": 1745618843425,
-    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+    "modifiedTime": 1745682561330,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
   "formula": "1d20",
   "ownership": {

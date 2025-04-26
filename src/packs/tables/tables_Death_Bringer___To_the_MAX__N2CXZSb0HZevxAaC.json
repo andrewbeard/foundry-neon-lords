@@ -156,7 +156,7 @@
     },
     {
       "type": "text",
-      "text": "Blow to the head leaves the creep seeing stars. You deal normal damage and the fiend becomes Dazed for the next [[1D4]] turns.",
+      "text": "Blow to the head leaves the creep seeing stars. You deal normal damage and the fiend becomes @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.7rsMS8SopLGXIITx]{Dazed} for the next [[1D4]] turns.",
       "range": [
         10,
         11
@@ -315,8 +315,8 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742156334099,
-    "modifiedTime": 1745618876524,
-    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+    "modifiedTime": 1745682914579,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
   "formula": "1d20",
   "ownership": {

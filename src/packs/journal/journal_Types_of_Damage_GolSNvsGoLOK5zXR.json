@@ -77,7 +77,7 @@
       "_key": "!journal.pages!GolSNvsGoLOK5zXR.5jpPWVVtjusPhEyZ"
     },
     {
-      "sort": 300000,
+      "sort": 225000,
       "name": "Blowback",
       "type": "text",
       "_id": "EsSamxdIc90gsyVw",
@@ -108,7 +108,7 @@
         "systemId": "neon-lords",
         "systemVersion": "0.0.9",
         "createdTime": 1743551942119,
-        "modifiedTime": 1743551970904,
+        "modifiedTime": 1745680738334,
         "lastModifiedBy": "l18XFo7VCP3jkSA6"
       },
       "_key": "!journal.pages!GolSNvsGoLOK5zXR.EsSamxdIc90gsyVw"
@@ -149,6 +149,450 @@
         "lastModifiedBy": "x53CwYXR1zhkCDCY"
       },
       "_key": "!journal.pages!GolSNvsGoLOK5zXR.7xLTy155T0Y6m0zl"
+    },
+    {
+      "sort": 150000,
+      "name": "Asphyxiation",
+      "type": "text",
+      "_id": "JIOk0bbMTlQqzmrU",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Damage dealt by a lack of oxygen. Creatures that do not need oxygen are immune to Asphyxiation. If a creature is taking Asphyxiation damage, they must succeed on a [[/save grit]] at the Conditions Check Phase. If the save is failed, the creature takes [[/roll 1D4]] damage on the first failure, [[/roll 1D6]] on the second, and so on up to [[/roll 1D20]] damage. This continues until the affected creature is dead or no longer being Asphyxiated.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "neon-lords",
+        "systemVersion": "0.0.11",
+        "createdTime": 1745680517474,
+        "modifiedTime": 1745680742962,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!journal.pages!GolSNvsGoLOK5zXR.JIOk0bbMTlQqzmrU"
+    },
+    {
+      "sort": 250000,
+      "name": "Burning",
+      "type": "text",
+      "_id": "HrWGoJPjxG9QcCRN",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>If a target is on fire they take damage from the initial burning source and half damage each turn during the Conditions Check Phase until the flame is extinguished.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "neon-lords",
+        "systemVersion": "0.0.11",
+        "createdTime": 1745680700414,
+        "modifiedTime": 1745680732017,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!journal.pages!GolSNvsGoLOK5zXR.HrWGoJPjxG9QcCRN"
+    },
+    {
+      "sort": 500000,
+      "name": "Decrepit Touch",
+      "type": "text",
+      "_id": "5iXWGHlq6hDXVS3a",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>If a creature has Decrepit Touch, they deal damage in the form of ability loss, primarily from their target’s Burliness, but other abilities may be affected instead. If this is the case, the S.T.A.T.S. to be drained will be specified. If an S.T.A.T.S. other than Fortune or Class Points score drops to 0 the skumdog dies.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "neon-lords",
+        "systemVersion": "0.0.11",
+        "createdTime": 1745680788133,
+        "modifiedTime": 1745680828265,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!journal.pages!GolSNvsGoLOK5zXR.5iXWGHlq6hDXVS3a"
+    },
+    {
+      "sort": 600000,
+      "name": "Energy Drain",
+      "type": "text",
+      "_id": "VcDmzhfSvGYgPbt5",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Energy Drain causes skumdogz to lose XP. The amount of XP lost is equal to the damage dealt x100. If a skumdog loses a level in this way, they re-roll Hit Dice and subtract the result from their current max HP. Any abilities or bonuses that were gained from that level are lost, as well. If a skumdog is reduced to level 0, they give up adventuring and go start their exciting new life of farming.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "neon-lords",
+        "systemVersion": "0.0.11",
+        "createdTime": 1745681293304,
+        "modifiedTime": 1745681422368,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!journal.pages!GolSNvsGoLOK5zXR.VcDmzhfSvGYgPbt5"
+    },
+    {
+      "sort": 700000,
+      "name": "Falling",
+      "type": "text",
+      "_id": "KS7c36S2eHBEC3JM",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>When any creature falls, they take [[/roll 1D4]] damage per every 10ft.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "neon-lords",
+        "systemVersion": "0.0.11",
+        "createdTime": 1745681478454,
+        "modifiedTime": 1745681502726,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!journal.pages!GolSNvsGoLOK5zXR.KS7c36S2eHBEC3JM"
+    },
+    {
+      "sort": 800000,
+      "name": "Extreme",
+      "type": "text",
+      "_id": "4pTK5o31606ij18g",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Weapons with Extreme damage have the Extreme Check number listed in the description. When a weapon with Extreme damage \"Hits,\" the user rolls [[/roll 1D20]] vs. the weapon's Extreme Check (roll equal or over). If it is successful, the weapon deals 2x damage. If a 1 is rolled, the weapon is destroyed.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "neon-lords",
+        "systemVersion": "0.0.11",
+        "createdTime": 1745681587052,
+        "modifiedTime": 1745681620877,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!journal.pages!GolSNvsGoLOK5zXR.4pTK5o31606ij18g"
+    },
+    {
+      "sort": 900000,
+      "name": "Patriotic",
+      "type": "text",
+      "_id": "u3s2C4sWCZ0ucAyv",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>An eagle’s screech can be heard every time a patriotic attack lands and deals damage. Patriotic damage also gains an additional bonus equal to the scumdog’s Attitude Mod.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "neon-lords",
+        "systemVersion": "0.0.11",
+        "createdTime": 1745681664424,
+        "modifiedTime": 1745681681974,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!journal.pages!GolSNvsGoLOK5zXR.u3s2C4sWCZ0ucAyv"
+    },
+    {
+      "sort": 1000000,
+      "name": "Poison",
+      "type": "text",
+      "_id": "qQx94ZuiyFAPm5Rc",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>If a skumdog ingests, inhales, gets struck, or otherwise comes into contact with a Poisonous source, they make a [[/save death]]. If the save is successful, the skumdog lives to fight another day. If failed, the skumdog suffers the effects of the Poison, often resulting in death.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "neon-lords",
+        "systemVersion": "0.0.11",
+        "createdTime": 1745681714968,
+        "modifiedTime": 1745681749071,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!journal.pages!GolSNvsGoLOK5zXR.qQx94ZuiyFAPm5Rc"
+    },
+    {
+      "sort": 1100000,
+      "name": "Scatter",
+      "type": "text",
+      "_id": "Qgde8SKWbFdiesd2",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>When a weapon or throw has the scatter keyword roll on the scatter table to determine where the round or item is thrown lands. To determine direction roll two separate [[/roll D4]]. One for the column and one for the row. Consult the table on page 60. For distance roll [[/roll 1D10*5]] ft.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "neon-lords",
+        "systemVersion": "0.0.11",
+        "createdTime": 1745681803974,
+        "modifiedTime": 1745681888115,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!journal.pages!GolSNvsGoLOK5zXR.Qgde8SKWbFdiesd2"
+    },
+    {
+      "sort": 1200000,
+      "name": "Spillover",
+      "type": "text",
+      "_id": "9skDCk49uq5QjTMT",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>When a weapon is so great and the damage it deals is truly godlike, it may have the Spillover scumdogistic. If a creature struck by a weapon with Spillover dies, the remaining damage is applied to the next closest enemy. If that creature manages to die as well the remaining is transferred to another target as long as there is one present. If no target is present for the Spillover damage, it is lost.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "neon-lords",
+        "systemVersion": "0.0.11",
+        "createdTime": 1745681951252,
+        "modifiedTime": 1745681981789,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!journal.pages!GolSNvsGoLOK5zXR.9skDCk49uq5QjTMT"
+    },
+    {
+      "sort": 1300000,
+      "name": "Vile",
+      "type": "text",
+      "_id": "LhAmzh45MygNzafA",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Deals damage in the form of radiation, sending it straight into the bloodstream. On a successful attack, the target takes normal damage and also must make a [[/save grit]] or roll on the @UUID[Compendium.neon-lords.tables.RollTable.HyBQa4FGfKxwNOaw]{Minor Mutations} chart.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "neon-lords",
+        "systemVersion": "0.0.11",
+        "createdTime": 1745682003737,
+        "modifiedTime": 1745682072687,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!journal.pages!GolSNvsGoLOK5zXR.LhAmzh45MygNzafA"
+    },
+    {
+      "sort": 1400000,
+      "name": "Weird",
+      "type": "text",
+      "_id": "hculQxD0qejCLdFB",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>On a successful hit, the target must pass in a [[/save resolve]] or roll on the @UUID[Compendium.neon-lords.tables.RollTable.BIDFFaLxG6ywrUF8]{Drug Effects} Table and suffer the results.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "neon-lords",
+        "systemVersion": "0.0.11",
+        "createdTime": 1745682126575,
+        "modifiedTime": 1745682183615,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!journal.pages!GolSNvsGoLOK5zXR.hculQxD0qejCLdFB"
     }
   ],
   "folder": null,

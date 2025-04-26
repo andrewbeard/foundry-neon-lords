@@ -201,7 +201,7 @@
     },
     {
       "type": "text",
-      "text": "Totally Nuclear! What a wallop of a hit, gaining an additional [[1D10]] Spillover damage!!",
+      "text": "Totally Nuclear! What a wallop of a hit, gaining an additional [[1D10]] @UUID[Compendium.neon-lords.journal.JournalEntry.GolSNvsGoLOK5zXR.JournalEntryPage.9skDCk49uq5QjTMT]{Spillover} damage!!",
       "range": [
         14,
         14
@@ -315,8 +315,8 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742156292354,
-    "modifiedTime": 1745595197711,
-    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+    "modifiedTime": 1745683184610,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
   "formula": "1d20",
   "ownership": {
