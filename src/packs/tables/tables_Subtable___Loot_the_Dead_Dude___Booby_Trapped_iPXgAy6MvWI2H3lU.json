@@ -1,0 +1,136 @@
+{
+  "name": "Subtable - Loot the Dead Dude - Booby Trapped",
+  "_id": "iPXgAy6MvWI2H3lU",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "UbV4HHWFbqLSd1vk",
+      "text": "Finger popper takes off 1 finger.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!iPXgAy6MvWI2H3lU.UbV4HHWFbqLSd1vk"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "V8EgqDTpfmUVLkj4",
+      "text": "Toe popper takes off 1 toe.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!iPXgAy6MvWI2H3lU.V8EgqDTpfmUVLkj4"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "zwjY9SpwmY3wsC5x",
+      "text": "Dud! Re-gain 1 Fortune Point.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!iPXgAy6MvWI2H3lU.zwjY9SpwmY3wsC5x"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "L8snSbWlF8Ym76cZ",
+      "text": "Glitter Bomb! Covers you and anyone within 5 ft in glitter until your next long rest. You cannot surprise anyone or be stealthy in that time.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!iPXgAy6MvWI2H3lU.L8snSbWlF8Ym76cZ"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "yZdQ30ZMh4gWsXV9",
+      "text": "Drug Bomb! Goes off in your face causing you to roll on the Drug Effect Table.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!iPXgAy6MvWI2H3lU.yZdQ30ZMh4gWsXV9"
+    },
+    {
+      "type": "pack",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "HbOwkbp2pqe5wa1f",
+      "text": "Drug Effects",
+      "img": "icons/svg/d20-grey.svg",
+      "documentId": "BIDFFaLxG6ywrUF8",
+      "flags": {},
+      "documentCollection": "neon-lords.tables",
+      "_key": "!tables.results!iPXgAy6MvWI2H3lU.HbOwkbp2pqe5wa1f"
+    },
+    {
+      "type": "text",
+      "documentCollection": "neon-lords.tables",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "wX6XPbmk8uNoABNO",
+      "text": "Suicide Vest. Everyone within 5ft of the body must make an [[/save agility]] or take [[/roll 1D6x6]]{1D6!} Damage from the exploding carcass you thought would be filled like a pinata. Instead of candy it was death.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!iPXgAy6MvWI2H3lU.wX6XPbmk8uNoABNO"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.11",
+    "createdTime": 1745638685448,
+    "modifiedTime": 1745638912017,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "formula": "1d6",
+  "_key": "!tables!iPXgAy6MvWI2H3lU"
+}

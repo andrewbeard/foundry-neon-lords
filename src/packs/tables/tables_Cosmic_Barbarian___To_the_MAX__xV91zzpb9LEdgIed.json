@@ -1,0 +1,329 @@
+{
+  "folder": "6x26CQk5Eov1g1fc",
+  "name": "Cosmic Barbarian - To the MAX!",
+  "_id": "xV91zzpb9LEdgIed",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "xqDLkZ0KiDAS7pjj",
+      "text": "PSYCH! Re-roll on the chart with [[1D20+1D10]] any result over 20 goes to 20.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!xV91zzpb9LEdgIed.xqDLkZ0KiDAS7pjj"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "HG3yphtUpPdW8tQ2",
+      "text": "THOU NEEDETH A WET-NURSE!: The sheer sight of the Cosmic Barbarian’s muscles is enough to make the fiend flee in fear! Attack deals normal damage +3. If the enemy survives, they run away from the battle.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!xV91zzpb9LEdgIed.HG3yphtUpPdW8tQ2"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "06PyQppntBKKf3OC",
+      "text": "FLYING ELBOW DROP: The attack knocks the enemy @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.Ub7F3RDnX9gdMr8O]{Prone}, then the Cosmic Barbarian drops an elbow onto the fallen foe, dealing an additional [[1D4+2]] damage.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!xV91zzpb9LEdgIed.06PyQppntBKKf3OC"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "vOzuGEI7EHGUEWTT",
+      "text": "DESTINED TO BE BEATEN! This mighty blow to your foe adds [[1D6]] additional damage.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!xV91zzpb9LEdgIed.vOzuGEI7EHGUEWTT"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "vO2bjdxc3TGgvwcD",
+      "text": "DIALED IN: Perfect strike hits the foe’s weak points, dealing an additional [[1D8]] damage.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!xV91zzpb9LEdgIed.vO2bjdxc3TGgvwcD"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "ovtuUXZNLcLEohTz",
+      "text": "TOTALLY AMPED! Hyped on battle, the Cosmic Barbarian deals an additional [[1D10]] damage out of pure excitement.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!xV91zzpb9LEdgIed.ovtuUXZNLcLEohTz"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "j4vj3D7h9MTxqKmF",
+      "text": "Strength in battle outweighs skill in this situation, adding your Burliness S.T.A.T.S. score to the damage.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!xV91zzpb9LEdgIed.j4vj3D7h9MTxqKmF"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "nv6GOTG9uDt8dZWm",
+      "text": "CONTACT HIGH: When the attack hits, some cosmic dust makes its way into the foe’s eyes, causing them to roll on the @UUID[Compendium.neon-lords.tables.RollTable.BIDFFaLxG6ywrUF8]{Drug Effects} Table with a 1D6. (Attack deals normal damage).",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!xV91zzpb9LEdgIed.nv6GOTG9uDt8dZWm"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "LngvyXwqKeHWLHd0",
+      "text": "THOU ART NO MATCH! Everyone is weak compared to the Cosmic Barbarian! Add an additional [[2D6]] damage.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!xV91zzpb9LEdgIed.LngvyXwqKeHWLHd0"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "sfS6SkGrf0s1vj66",
+      "text": "DRUG-INDUCED BLOODLUST! Pay 1 Cosmic Point per additional [[/roll 1D4]] damage!",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!xV91zzpb9LEdgIed.sfS6SkGrf0s1vj66"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_id": "x6wbykBexKB1Y7y6",
+      "text": "TWINSANITY!: The cosmic dust manifests into a second Cosmic Barbarian, and he acts and attacks separately from the real one for [[1D3]] turns.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!xV91zzpb9LEdgIed.x6wbykBexKB1Y7y6"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_id": "kLeCjNo4zqZrR8ZX",
+      "text": "BOOMING HEAVENS ROAR: Lord Randy favors the bold and grants double damage for the attack.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!xV91zzpb9LEdgIed.kLeCjNo4zqZrR8ZX"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "_id": "MQZllrI2QtWHGMAQ",
+      "text": "CELESTIAL AID: A prismatic cosmic beam illuminates the Cosmic Barbarian’s weapon, granting them Dazzling damage for [[1D3]] turns, dealing normal damage.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!xV91zzpb9LEdgIed.MQZllrI2QtWHGMAQ"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "_id": "kwPeRRoTrZ0NLEzG",
+      "text": "I LIVE TO GET RADICAL: Attack deals normal damage. The adrenaline rush from the body count gives the Cosmic Barbarian the ability to ignore the cool down for snorting cosmic dust for [[1D6]] turns. AGer the turn or combat has ended, the Cosmic Barbarian takes [[1D4]] damage and gets a nosebleed.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!xV91zzpb9LEdgIed.kwPeRRoTrZ0NLEzG"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "_id": "6Q9rpuEGFLTPlggi",
+      "text": "RAINBOW RECKONING! A beam of light in the form of a rainbow bursts forth from the Cosmic Barbarian’s weapons, hitting the target for normal damage plus [[2D6]] Spillover damage.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!xV91zzpb9LEdgIed.6Q9rpuEGFLTPlggi"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "_id": "unIuvKe3Tr4Kx6qE",
+      "text": "KLATHU’S REVENGE: the patriarch smiles on his follower, granting the attack 3x damage.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!xV91zzpb9LEdgIed.unIuvKe3Tr4Kx6qE"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "_id": "y07ANno2vIX2MtPi",
+      "text": "A resounding “Ooooooooooooooooohhhhhhhhh Yeeeeeahhhhh!” fiunders forth as your colossal strike hits your foe as intended, shattering every bone in their face, dealing an additional [[1D12]] damage. They are left in the dust to contemplate why they would step up to such an adversary. There is a faint smell of beef jerky in the air.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!xV91zzpb9LEdgIed.y07ANno2vIX2MtPi"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "_id": "ABPIbkIEx5LNpvCL",
+      "text": "LET THE COSMOS ECHO THY FURY! The attack gains Spillover damage and an additional [[3D6x6]] damage.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!xV91zzpb9LEdgIed.ABPIbkIEx5LNpvCL"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "_id": "f8oLfr7ggnR37itb",
+      "text": "LORD OF THE SAVAGE!: A frenzy of attacks beyond the speed of any mortal man. Roll damage 4 times.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!xV91zzpb9LEdgIed.f8oLfr7ggnR37itb"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "_id": "D7mZ9tiU48BMi7u3",
+      "text": "COSMIC WAVES OF INSANITY: A cosmic shift in the aether causes the Cosmic Barbarian to enter a frenzy, taking their Brains S.T.A.T.S. down to 1. The remainder of the points become a bonus modifier to attack and damage until the next long rest.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!xV91zzpb9LEdgIed.D7mZ9tiU48BMi7u3"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "x53CwYXR1zhkCDCY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "neon-lords",
+    "systemVersion": "0.0.11",
+    "createdTime": 1745637820832,
+    "modifiedTime": 1745640131215,
+    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+  },
+  "formula": "1d20",
+  "_key": "!tables!xV91zzpb9LEdgIed"
+}
