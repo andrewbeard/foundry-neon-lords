@@ -252,7 +252,7 @@
       ],
       "drawn": false,
       "_id": "oh2GeoPi0YJn2NTv",
-      "text": "Temporal disruption: a rift opens letting out an Otherworldly Spawn which is hostile to everyone around.",
+      "text": "Temporal disruption: a rift opens letting out an @UUID[Compendium.neon-lords.actors.Actor.uNeHflrrzIEH4HxO]{Otherworldly Spawn} which is hostile to everyone around.",
       "img": "icons/svg/d20-black.svg",
       "documentId": null,
       "flags": {},
@@ -374,7 +374,7 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742090821210,
-    "modifiedTime": 1742690757159,
+    "modifiedTime": 1745688672153,
     "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
   "formula": "1D20",

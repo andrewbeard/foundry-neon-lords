@@ -126,7 +126,7 @@
     },
     {
       "type": "text",
-      "text": "Clobberin' time! The Dwarfling grabs their enemy by the head and smashes it into the head of another enemy within 5ft. If no other enemy is close, the wall, floor, pillar, etc. will make an acceptable substitute. The attack deals an additional [[1D8]] damage and the target is knocked Unconscious. If their buddy got smashed, too, the second target must succeed on a Resolve save or fall unconscious as well.",
+      "text": "Clobberin' time! The Dwarfling grabs their enemy by the head and smashes it into the head of another enemy within 5ft. If no other enemy is close, the wall, floor, pillar, etc. will make an acceptable substitute. The attack deals an additional [[1D8]] damage and the target is knocked @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.6sDpAU4V5ND4DCaf]{Unconscious}. If their buddy got smashed, too, the second target must succeed on a [[/save resolve]] or fall @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.6sDpAU4V5ND4DCaf]{Unconscious} as well.",
       "range": [
         9,
         9
@@ -315,7 +315,7 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742156307362,
-    "modifiedTime": 1745683279263,
+    "modifiedTime": 1745688972692,
     "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
   "formula": "1d20",

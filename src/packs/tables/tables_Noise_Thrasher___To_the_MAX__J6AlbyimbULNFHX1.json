@@ -74,7 +74,7 @@
       ],
       "drawn": false,
       "_id": "hti6mcfJd7jSZfmy",
-      "text": "The Riff becomes cosmic and summons [[1D4]] Otherworldly Spawns to do the Noise Thrasher's bidding.",
+      "text": "The Riff becomes cosmic and summons [[1D4]] @UUID[Compendium.neon-lords.actors.Actor.uNeHflrrzIEH4HxO]{Otherworldly Spawns} to do the Noise Thrasher's bidding.",
       "img": "icons/svg/d20-black.svg",
       "documentId": null,
       "flags": {},
@@ -321,8 +321,8 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.3",
     "createdTime": 1742338833483,
-    "modifiedTime": 1745592871417,
-    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+    "modifiedTime": 1745688720163,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
   "formula": "1D20",
   "_key": "!tables!J6AlbyimbULNFHX1"

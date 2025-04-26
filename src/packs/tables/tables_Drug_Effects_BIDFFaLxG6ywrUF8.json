@@ -171,7 +171,7 @@
       ],
       "drawn": false,
       "_id": "nGdQzTFYfm8Xy8EG",
-      "text": "You pass out in deep slumber for [[1D6]] turns, gaining the Unconscious condition.",
+      "text": "You pass out in deep slumber for [[1D6]] turns, gaining the @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.6sDpAU4V5ND4DCaf]{Unconscious} condition.",
       "img": "icons/svg/d20-black.svg",
       "documentId": null,
       "flags": {},
@@ -354,7 +354,7 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.4",
     "createdTime": 1742407582045,
-    "modifiedTime": 1745687742321,
+    "modifiedTime": 1745688891836,
     "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
   "formula": "1D20",
