@@ -112,6 +112,43 @@
         "lastModifiedBy": "l18XFo7VCP3jkSA6"
       },
       "_key": "!journal.pages!GolSNvsGoLOK5zXR.EsSamxdIc90gsyVw"
+    },
+    {
+      "sort": 400000,
+      "name": "Dazzling",
+      "type": "text",
+      "_id": "7xLTy155T0Y6m0zl",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Weapons with dazzling damage glitter in a gleam just bright enough to illuminate a 5-foot area. Equipped dazzling weapons cause enemies to become immune to being surprised. Dazzling damage <span class=\"s1\">deals normal damage </span>+3. Additionally, the target must <span class=\"s2\">make a [[save resolve]]</span> or become @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.7rsMS8SopLGXIITx]{Dazed}.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "x53CwYXR1zhkCDCY": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "neon-lords",
+        "systemVersion": "0.0.11",
+        "createdTime": 1745621414467,
+        "modifiedTime": 1745621567048,
+        "lastModifiedBy": "x53CwYXR1zhkCDCY"
+      },
+      "_key": "!journal.pages!GolSNvsGoLOK5zXR.7xLTy155T0Y6m0zl"
     }
   ],
   "folder": null,
@@ -131,6 +168,6 @@
     "modifiedTime": 1743551711727,
     "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
-  "categories": [],
-  "_key": "!journal!GolSNvsGoLOK5zXR"
+  "_key": "!journal!GolSNvsGoLOK5zXR",
+  "categories": []
 }
