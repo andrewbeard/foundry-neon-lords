@@ -201,7 +201,7 @@
     },
     {
       "type": "text",
-      "text": "Cleanse the body and mind! Granting the DAWN Star's favor, the Smiter blesses the party! The attack deals normal damage and each party member loses one condition or mutation at random, including Paranoia or Fear.",
+      "text": "Cleanse the body and mind! Granting the DAWN Star's favor, the Smiter blesses the party! The attack deals normal damage and each party member loses one condition or mutation at random, including @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.RL4T0Eth5NKK05eJ]{Paranoia} or Fear.",
       "range": [
         14,
         14
@@ -216,7 +216,7 @@
     },
     {
       "type": "text",
-      "text": "Destroy all mutants! The Holy Smiter gains the Bloodlust condition, becoming convinced the enemies are mutants.",
+      "text": "Destroy all mutants! The Holy Smiter gains the @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.iHjm9GxHYgA4lg9s]{Bloodlust} condition, becoming convinced the enemies are mutants.",
       "range": [
         15,
         15
@@ -315,7 +315,7 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742156271049,
-    "modifiedTime": 1745683070677,
+    "modifiedTime": 1745687698626,
     "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
   "formula": "1d20",

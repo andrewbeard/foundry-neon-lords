@@ -139,7 +139,7 @@
       ],
       "drawn": false,
       "_id": "SzAtEO4OAh7SICP2",
-      "text": "You see red! Gain the Bloodlust condition!",
+      "text": "You see red! Gain the @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.iHjm9GxHYgA4lg9s]{Bloodlust} condition!",
       "img": "icons/svg/d20-black.svg",
       "documentId": null,
       "flags": {},
@@ -219,7 +219,7 @@
       ],
       "drawn": false,
       "_id": "zNJFYlSYsij6NSNG",
-      "text": "Psycho-neurotic: Gain one Paranoid condition point. (Star Spawns gain 2)",
+      "text": "Psycho-neurotic: Gain one @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.RL4T0Eth5NKK05eJ]{Paranoia} condition point. (Star Spawns gain 2)",
       "img": "icons/svg/d20-black.svg",
       "documentId": null,
       "flags": {},
@@ -354,8 +354,8 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.4",
     "createdTime": 1742407582045,
-    "modifiedTime": 1745639039651,
-    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+    "modifiedTime": 1745687742321,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
   "formula": "1D20",
   "_key": "!tables!BIDFFaLxG6ywrUF8"

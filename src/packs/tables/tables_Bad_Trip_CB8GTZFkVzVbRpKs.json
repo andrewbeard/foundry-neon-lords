@@ -28,11 +28,11 @@
       ],
       "drawn": false,
       "_id": "Ca65lDtnmREyAfjL",
-      "text": "Fear",
-      "img": "icons/svg/d20-grey.svg",
-      "documentId": "491tj4A15EvuxWX9",
+      "text": "Fear Roll",
+      "img": "icons/svg/dice-target.svg",
+      "documentId": "aQLdqG8uo97mODsu",
       "flags": {},
-      "documentCollection": "neon-lords.tables",
+      "documentCollection": "neon-lords.macros",
       "_key": "!tables.results!CB8GTZFkVzVbRpKs.Ca65lDtnmREyAfjL"
     },
     {
@@ -74,7 +74,7 @@
       ],
       "drawn": false,
       "_id": "9DcHokLYRdIrULGZ",
-      "text": "You gain one Paranoia condition.",
+      "text": "You gain one @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.RL4T0Eth5NKK05eJ]{Paranoia} condition.",
       "img": "icons/svg/d20-black.svg",
       "documentId": null,
       "flags": {},
@@ -127,8 +127,8 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.4",
     "createdTime": 1742407869774,
-    "modifiedTime": 1745592131287,
-    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+    "modifiedTime": 1745688022619,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
   "formula": "1D6",
   "_key": "!tables!CB8GTZFkVzVbRpKs"
