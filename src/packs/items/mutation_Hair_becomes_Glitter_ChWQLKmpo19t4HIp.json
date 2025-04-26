@@ -5,7 +5,7 @@
   "_id": "ChWQLKmpo19t4HIp",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "<p>Hair becomes a different substance or color:</p><p>Glitter (Melee attack do Dazzling damage)</p>"
+    "description": "<p>Hair becomes a different substance or color:</p><p>Glitter (Melee attacks do @UUID[Compendium.neon-lords.journal.JournalEntry.GolSNvsGoLOK5zXR.JournalEntryPage.7xLTy155T0Y6m0zl]{Dazzling} damage)</p>"
   },
   "effects": [],
   "sort": 1000000,
@@ -19,9 +19,9 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "neon-lords",
-    "systemVersion": "0.0.3",
+    "systemVersion": "0.0.11",
     "createdTime": 1742233961375,
-    "modifiedTime": 1742234213701,
+    "modifiedTime": 1745641331750,
     "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "_key": "!items!ChWQLKmpo19t4HIp"

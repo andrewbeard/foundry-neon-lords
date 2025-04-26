@@ -194,7 +194,7 @@
       ],
       "drawn": false,
       "_id": "MQZllrI2QtWHGMAQ",
-      "text": "CELESTIAL AID: A prismatic cosmic beam illuminates the Cosmic Barbarian’s weapon, granting them Dazzling damage for [[1D3]] turns, dealing normal damage.",
+      "text": "CELESTIAL AID: A prismatic cosmic beam illuminates the Cosmic Barbarian’s weapon, granting them @UUID[Compendium.neon-lords.journal.JournalEntry.GolSNvsGoLOK5zXR.JournalEntryPage.7xLTy155T0Y6m0zl]{Dazzling} damage for [[1D3]] turns, dealing normal damage.",
       "img": "icons/svg/d20-black.svg",
       "documentId": null,
       "flags": {},
@@ -321,7 +321,7 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.11",
     "createdTime": 1745637820832,
-    "modifiedTime": 1745640131215,
+    "modifiedTime": 1745641395978,
     "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "formula": "1d20",
