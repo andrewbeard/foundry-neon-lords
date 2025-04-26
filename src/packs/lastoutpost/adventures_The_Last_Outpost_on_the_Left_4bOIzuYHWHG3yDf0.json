@@ -1522,7 +1522,7 @@
         }
       },
       "prototypeToken": {
-        "name": "Drool-Aid Cultist",
+        "name": "Cultist",
         "displayName": 0,
         "actorLink": false,
         "appendNumber": false,
@@ -1552,7 +1552,7 @@
           "attribute": "hp"
         },
         "bar2": {
-          "attribute": "cp"
+          "attribute": null
         },
         "light": {
           "negative": false,
@@ -1600,7 +1600,7 @@
             "ring": null,
             "background": null
           },
-          "effects": 1,
+          "effects": 0,
           "subject": {
             "scale": 1,
             "texture": null
@@ -1679,7 +1679,7 @@
         "systemId": "neon-lords",
         "systemVersion": "0.0.10",
         "createdTime": 1745589709867,
-        "modifiedTime": 1745594133054,
+        "modifiedTime": 1745620642645,
         "lastModifiedBy": "x53CwYXR1zhkCDCY"
       },
       "ownership": {
@@ -3362,112 +3362,6 @@
           "_regions": []
         },
         {
-          "name": "Drool-Aid Cultist",
-          "displayName": 10,
-          "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
-          "width": 1,
-          "height": 1,
-          "texture": {
-            "src": "systems/neon-lords/assets/creeps/cultist.webp",
-            "anchorX": 0.5,
-            "anchorY": 0.5,
-            "offsetX": 0,
-            "offsetY": 0,
-            "fit": "contain",
-            "scaleX": 1,
-            "scaleY": 1,
-            "rotation": 0,
-            "tint": "#ffffff",
-            "alphaThreshold": 0.75
-          },
-          "hexagonalShape": 0,
-          "lockRotation": false,
-          "rotation": 0,
-          "alpha": 1,
-          "disposition": -1,
-          "displayBars": 0,
-          "bar1": {
-            "attribute": "hp"
-          },
-          "bar2": {
-            "attribute": null
-          },
-          "light": {
-            "negative": false,
-            "priority": 0,
-            "alpha": 0.5,
-            "angle": 360,
-            "bright": 0,
-            "color": null,
-            "coloration": 1,
-            "dim": 0,
-            "attenuation": 0.5,
-            "luminosity": 0.5,
-            "saturation": 0,
-            "contrast": 0,
-            "shadows": 0,
-            "animation": {
-              "type": null,
-              "speed": 5,
-              "intensity": 5,
-              "reverse": false
-            },
-            "darkness": {
-              "min": 0,
-              "max": 1
-            }
-          },
-          "sight": {
-            "enabled": false,
-            "range": 0,
-            "angle": 360,
-            "visionMode": "basic",
-            "color": null,
-            "attenuation": 0.1,
-            "brightness": 0,
-            "saturation": 0,
-            "contrast": 0
-          },
-          "detectionModes": [],
-          "occludable": {
-            "radius": 0
-          },
-          "ring": {
-            "enabled": false,
-            "colors": {
-              "ring": null,
-              "background": null
-            },
-            "effects": 0,
-            "subject": {
-              "scale": 1,
-              "texture": null
-            }
-          },
-          "flags": {},
-          "actorId": "2mc3MO4aZ53bZrws",
-          "hidden": false,
-          "sort": 9,
-          "_id": "vBKnXBebU5vuVb6q",
-          "delta": {
-            "_id": "GBQgikF8wWOWBooK",
-            "system": {},
-            "items": [],
-            "effects": [],
-            "flags": {},
-            "name": null,
-            "type": null,
-            "img": null
-          },
-          "x": 2800,
-          "y": 600,
-          "elevation": 0,
-          "locked": false,
-          "_regions": []
-        },
-        {
           "name": "Naked Cyberskin",
           "displayName": 10,
           "actorLink": false,
@@ -3681,7 +3575,7 @@
         },
         {
           "name": "Scientist",
-          "displayName": 0,
+          "displayName": 10,
           "actorLink": false,
           "appendNumber": false,
           "prependAdjective": false,
@@ -3710,7 +3604,7 @@
             "attribute": "hp"
           },
           "bar2": {
-            "attribute": "cp"
+            "attribute": null
           },
           "light": {
             "negative": false,
@@ -3758,7 +3652,7 @@
               "ring": null,
               "background": null
             },
-            "effects": 1,
+            "effects": 0,
             "subject": {
               "scale": 1,
               "texture": null
@@ -3787,7 +3681,7 @@
         },
         {
           "name": "Naked Cyberskin",
-          "displayName": 0,
+          "displayName": 10,
           "actorLink": false,
           "appendNumber": false,
           "prependAdjective": false,
@@ -3998,7 +3892,7 @@
           "_regions": []
         },
         {
-          "name": "Greg",
+          "name": "Cliff",
           "displayName": 10,
           "actorLink": false,
           "appendNumber": false,
@@ -6154,6 +6048,112 @@
           "locked": false,
           "_regions": [],
           "_id": "FcbHmHBeHa5lXkCj"
+        },
+        {
+          "name": "Cultist",
+          "displayName": 10,
+          "actorLink": false,
+          "appendNumber": false,
+          "prependAdjective": false,
+          "width": 1,
+          "height": 1,
+          "texture": {
+            "src": "systems/neon-lords/assets/creeps/cultist.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "offsetX": 0,
+            "offsetY": 0,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "hexagonalShape": 0,
+          "lockRotation": false,
+          "rotation": 0,
+          "alpha": 1,
+          "disposition": -1,
+          "displayBars": 0,
+          "bar1": {
+            "attribute": "hp"
+          },
+          "bar2": {
+            "attribute": null
+          },
+          "light": {
+            "negative": false,
+            "priority": 0,
+            "alpha": 0.5,
+            "angle": 360,
+            "bright": 0,
+            "color": null,
+            "coloration": 1,
+            "dim": 0,
+            "attenuation": 0.5,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": null,
+              "speed": 5,
+              "intensity": 5,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          "sight": {
+            "enabled": false,
+            "range": 0,
+            "angle": 360,
+            "visionMode": "basic",
+            "color": null,
+            "attenuation": 0.1,
+            "brightness": 0,
+            "saturation": 0,
+            "contrast": 0
+          },
+          "detectionModes": [],
+          "occludable": {
+            "radius": 0
+          },
+          "ring": {
+            "enabled": false,
+            "colors": {
+              "ring": null,
+              "background": null
+            },
+            "effects": 0,
+            "subject": {
+              "scale": 1,
+              "texture": null
+            }
+          },
+          "flags": {},
+          "actorId": "dvdCzxYQQeYtUerr",
+          "hidden": false,
+          "sort": 34,
+          "_id": "BA8kjhWbDkeQ8F5z",
+          "delta": {
+            "_id": "k5pntdtI0sqo2dQ8",
+            "system": {},
+            "items": [],
+            "effects": [],
+            "flags": {},
+            "name": null,
+            "type": null,
+            "img": null
+          },
+          "x": 2800,
+          "y": 400,
+          "elevation": 0,
+          "locked": false,
+          "_regions": []
         }
       ],
       "lights": [
@@ -11303,7 +11303,7 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.9",
     "createdTime": 1743473885701,
-    "modifiedTime": 1745618900097,
+    "modifiedTime": 1745640985707,
     "lastModifiedBy": "x53CwYXR1zhkCDCY"
   },
   "_key": "!adventures!4bOIzuYHWHG3yDf0"
