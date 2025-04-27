@@ -22,3 +22,9 @@ The Fear table in Neon Lords is a little more complex than the other tables, as 
 
 ## Roll Modifiers
 Right-click on any element on a character sheet that causes a die roll to pop up a dialog allowing you to add additional modifiers. Use this for applying things like range penalties/bonuses, modifiers from previous To The MAX! results, accounting for relevant mutations, or anything else where you need to change a specific roll. 
+
+## Inline Checks
+There are a couple of inline deferred roll commands implemented that can be used to provide links to players for one-click checks, or to embed in journal entries, table results, item effects, etc.
+
+- Saving Throws `[[/save grit]]`
+- Skill Checks `[[/skill brains]]`
