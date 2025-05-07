@@ -55,18 +55,20 @@ Hooks.once('init', function () {
     spell: models.NeonLordsSpell
   }
 
+  const { Actors, Items } = foundry.documents.collections;
+
   // Active Effects are never copied to the Actor,
   // but will still apply to the Actor from within the Item
   // if the transfer property on the Active Effect is true.
   CONFIG.ActiveEffect.legacyTransferral = false;
 
   // Register sheet application classes
-  Actors.unregisterSheet('core', ActorSheet);
+  Actors.unregisterSheet('core', foundry.appv1.sheets.ActorSheet);
   Actors.registerSheet('neon-lords', NeonLordsActorSheet, {
     makeDefault: true,
     label: 'NEON_LORDS.SheetLabels.Actor',
   });
-  Items.unregisterSheet('core', ItemSheet);
+  Items.unregisterSheet('core', foundry.appv1.sheets.ItemSheet);
   Items.registerSheet('neon-lords', NeonLordsItemSheet, {
     makeDefault: true,
     label: 'NEON_LORDS.SheetLabels.Item',

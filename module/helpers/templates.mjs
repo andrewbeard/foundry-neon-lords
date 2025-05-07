@@ -4,7 +4,7 @@
  * @return {Promise}
  */
 export const preloadHandlebarsTemplates = async function () {
-  return loadTemplates([
+  return foundry.applications.handlebars.loadTemplates([
     // Actor partials.
     'systems/neon-lords/templates/actor/parts/actor-attacks.hbs',
     'systems/neon-lords/templates/actor/parts/actor-effects.hbs',
