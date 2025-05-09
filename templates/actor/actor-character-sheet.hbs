@@ -23,12 +23,11 @@
         <div class="resource flex-group-center">
           <label for="system.alignment" class="resource-label">Alignment</label>
           <div class="resource-content flexrow flex-center flex-between">
-            <input type="text" name="system.alignment" value="{{system.alignment}}" data-dtype="String" list="alignmentlist"/>
-            <datalist id="alignmentlist">
-              <option value="Khaotic">Khaotic</option>
-              <option value="Neutral">Neutral</option>
-              <option value="Lawful">Lawful</option>
-            </datalist>
+            <select name="system.alignment" data-dtype="String" style="width: 148px; text-align-last: center;">
+              <option value="Khaotic" {{#if (eq system.alignment 'Khaotic')}}selected{{/if}}>Khaotic</option>
+              <option value="Neutral" {{#if (eq system.alignment 'Neutral')}}selected{{/if}}>Neutral</option>
+              <option value="Lawful" {{#if (eq system.alignment 'Lawful')}}selected{{/if}}>Lawful</option>
+            </select>
           </div>
         </div>
 
