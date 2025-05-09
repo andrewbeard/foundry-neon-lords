@@ -5,6 +5,8 @@
       <input type="number" name="system.spellCheck.value" value="{{system.spellCheck.value}}" data-dtype="Number" min="1" style="width: 60px;"/>
     </div>
   </div>
+
+  {{#if (eq actor.type 'character')}}
   <div class="resource flex-group-center">
     <label for="system.castAbility" class="resource-label">Casting Attribute</label>
     <div class="resource-content flexrow flex-center flex-between">
@@ -19,6 +21,7 @@
       </select>
     </div>
   </div>
+  {{/if}}
 </div>
 <ol class='items-list'>
   {{#each spells as |spells spellLevel|}}
