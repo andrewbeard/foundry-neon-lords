@@ -1,3 +1,25 @@
+<div class="spell-check-cast-attribute flexrow" style="margin-bottom: 1em; gap: 2em;">
+  <div class="resource flex-group-center">
+    <label for="system.spellCheck.value" class="resource-label">Spell Check</label>
+    <div class="resource-content flexrow flex-center flex-between">
+      <input type="number" name="system.spellCheck.value" value="{{system.spellCheck.value}}" data-dtype="Number" min="1" style="width: 60px;"/>
+    </div>
+  </div>
+  <div class="resource flex-group-center">
+    <label for="system.castAbility" class="resource-label">Casting Attribute</label>
+    <div class="resource-content flexrow flex-center flex-between">
+      <select name="system.castAbility" data-dtype="String">
+        <option value="burliness" {{#if (eq system.castAbility 'burliness')}}selected{{/if}}>Burliness</option>
+        <option value="prowess" {{#if (eq system.castAbility 'prowess')}}selected{{/if}}>Prowess</option>
+        <option value="endurance" {{#if (eq system.castAbility 'endurance')}}selected{{/if}}>Endurance</option>
+        <option value="brains" {{#if (eq system.castAbility 'brains')}}selected{{/if}}>Brains</option>
+        <option value="attitude" {{#if (eq system.castAbility 'attitude')}}selected{{/if}}>Attitude</option>
+        <option value="sleaze" {{#if (eq system.castAbility 'sleaze')}}selected{{/if}}>Sleaze</option>
+        <option value="fortune" {{#if (eq system.castAbility 'fortune')}}selected{{/if}}>Fortune</option>
+      </select>
+    </div>
+  </div>
+</div>
 <ol class='items-list'>
   {{#each spells as |spells spellLevel|}}
     <li class='item flexrow items-header'>
