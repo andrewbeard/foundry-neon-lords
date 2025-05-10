@@ -5,9 +5,9 @@ import {
 
 /**
  * Extend the basic ActorSheet with some very simple modifications
- * @extends {foundry.appv1.sheets.ActorSheet}
+ * @extends ActorSheet
  */
-export class NeonLordsActorSheet extends foundry.appv1.sheets.ActorSheet {
+export class NeonLordsActorSheet extends ActorSheet {
   /** @override */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
@@ -62,7 +62,7 @@ export class NeonLordsActorSheet extends foundry.appv1.sheets.ActorSheet {
 
     // Enrich biography info for display
     // Enrichment turns text like `[[/r 1d20]]` into buttons
-    context.enrichedBiography = await foundry.applications.ux.TextEditor.implementation.enrichHTML(
+    context.enrichedBiography = await TextEditor.enrichHTML(
       this.actor.system.biography,
       {
         // Whether to show secret blocks in the finished html
@@ -368,7 +368,7 @@ export class NeonLordsActorSheet extends foundry.appv1.sheets.ActorSheet {
     } else {
       resultText = `Roll: ${result.total}`;
     }
-    const enrichedResultText = await foundry.applications.ux.TextEditor.implementation.enrichHTML(resultText, {
+    const enrichedResultText = await TextEditor.enrichHTML(resultText, {
       async: true,
       rollData: this.actor.getRollData(),
       relativeTo: this.actor,
