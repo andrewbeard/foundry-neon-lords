@@ -39,7 +39,9 @@ export default class NeonLordsNPC extends NeonLordsActorBase {
   }
 
   async spellcastingTotalBummer() {
-    return this.#totalBummer();
+    const rollTable = await this.getTable("Spell Misfire");
+    const result = await rollTable.draw({displayChat: false});
+    return result.results[0].text;
   }
 
   async #toTheMax() {
