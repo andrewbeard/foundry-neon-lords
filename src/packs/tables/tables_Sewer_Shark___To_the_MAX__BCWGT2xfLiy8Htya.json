@@ -111,7 +111,7 @@
     },
     {
       "type": "text",
-      "text": "BLINDED. The Sewer Shark deals normal damage as they gouge out the target's eyes then shows 'em to the target gaining +1 to their Attitude. The target gains the Blind condition.",
+      "text": "BLINDED. The Sewer Shark deals normal damage as they gouge out the target's eyes then shows 'em to the target gaining +1 to their Attitude. The target gains the @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.LegKo00gEYfyNEJi]{Blind} condition.",
       "range": [
         8,
         8
@@ -315,7 +315,7 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742156161319,
-    "modifiedTime": 1745682561330,
+    "modifiedTime": 1746848327783,
     "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
   "formula": "1d20",

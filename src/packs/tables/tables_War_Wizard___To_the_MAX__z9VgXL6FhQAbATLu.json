@@ -186,7 +186,7 @@
     },
     {
       "type": "text",
-      "text": "The intensity of the spell impacting the target knocks their eyes out of their sockets. The target is Blinded and takes an additional [[1D10]] damage.",
+      "text": "The intensity of the spell impacting the target knocks their eyes out of their sockets. The target is @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.LegKo00gEYfyNEJi]{Blinded} and takes an additional [[1D10]] damage.",
       "range": [
         13,
         13
@@ -315,7 +315,7 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742155872501,
-    "modifiedTime": 1745682791981,
+    "modifiedTime": 1746848261843,
     "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
   "formula": "1d20",

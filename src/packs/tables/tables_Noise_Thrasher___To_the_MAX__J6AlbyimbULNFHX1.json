@@ -194,7 +194,7 @@
       ],
       "drawn": false,
       "_id": "5omlahuqU0LUnDId",
-      "text": "The intensity of the Riff is so gnarly it knocks the eyes out of the target's eye sockets. They are Blinded and take an additional [[1D10]] damage.",
+      "text": "The intensity of the Riff is so gnarly it knocks the eyes out of the target's eye sockets. They are @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.LegKo00gEYfyNEJi]{Blinded} and take an additional [[1D10]] damage.",
       "img": "icons/svg/d20-black.svg",
       "documentId": null,
       "flags": {},
@@ -321,7 +321,7 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.3",
     "createdTime": 1742338833483,
-    "modifiedTime": 1745688720163,
+    "modifiedTime": 1746848306835,
     "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
   "formula": "1D20",

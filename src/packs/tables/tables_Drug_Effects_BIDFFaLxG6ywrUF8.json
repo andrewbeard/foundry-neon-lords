@@ -155,7 +155,7 @@
       ],
       "drawn": false,
       "_id": "5EGBObFDqZPkeO3m",
-      "text": "X-ray vision: The drug deals [[1D4]] damage as your eyes burn. You are Blind for one turn, but afterwards are able to see through walls for [[1D6]] days.",
+      "text": "X-ray vision: The drug deals [[1D4]] damage as your eyes burn. You are @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.LegKo00gEYfyNEJi]{Blind} for one turn, but afterwards are able to see through walls for [[1D6]] days.",
       "img": "icons/svg/d20-black.svg",
       "documentId": null,
       "flags": {},
@@ -354,7 +354,7 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.4",
     "createdTime": 1742407582045,
-    "modifiedTime": 1745688891836,
+    "modifiedTime": 1746848204391,
     "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
   "formula": "1D20",

@@ -126,7 +126,7 @@
     },
     {
       "type": "text",
-      "text": "Cut the feed. Target the Skull Jammer can see goes Blind for the next [[1D6]] turns.",
+      "text": "Cut the feed. Target the Skull Jammer can see goes @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.LegKo00gEYfyNEJi]{Blind} for the next [[1D6]] turns.",
       "range": [
         9,
         9
@@ -315,8 +315,8 @@
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742156139049,
-    "modifiedTime": 1745591885480,
-    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+    "modifiedTime": 1746848357111,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
   "formula": "1d20",
   "ownership": {
