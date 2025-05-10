@@ -100,7 +100,7 @@ export default class NeonLordsActorBase extends NeonLordsDataModel {
   async rollSpellCheck() {
     let rollMod = "";
     if (this.spellCheckMod) {
-        rollMod = ` +$ {this.spellCheckMod}`;
+        rollMod = ` +${this.spellCheckMod}`;
     }
     const roll = new Roll("d20" + rollMod);
     const result = await roll.evaluate();
