@@ -89,9 +89,16 @@ Hooks.on('init', function () {
         enricher: skillRollEnricher,
     });
 
+    const spellRgx = /\[\[\s*\/spell\s*\]\]?/gi;
+    CONFIG.TextEditor.enrichers.push({
+        pattern: spellRgx,
+        enricher: spellRollEnricher,
+    });
+
     const body = $("body");
     body.on("click", "a.inline-save-roll", onRollSaveClick);
     body.on("click", "a.inline-skill-roll", onRollSkillClick);
+    body.on("click", "a.inline-spell-roll", onRollSpellClick);
 });
 
 /* -------------------------------------------- */
@@ -261,6 +268,19 @@ async function onRollSkillClick(event) {
   });
 }
 
+function spellRollEnricher(match, options) {
+  const a = document.createElement("a");
+  a.classList.add("inline-spell-roll");
+  a.innerHTML = `<i class="fas fa-dice-d20"></i>Spell Check`;
+  return a;
+}
+
+async function onRollSpellClick(event) {
+  const actors = getCharacterOrTokens();
+  actors.forEach(async (actor) => {
+    await actor.rollSpellCheck();
+  });
+}
 function capitalizeFirstLetter(val) {
   return String(val).charAt(0).toUpperCase() + String(val).slice(1);
 }
