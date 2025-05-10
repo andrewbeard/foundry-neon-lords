@@ -103,7 +103,7 @@ export default class NeonLordsCharacter extends NeonLordsActorBase {
   }
 
   async spellcastingTotalBummer() {
-    const rollTable = await this.getTable(this.class.spellcastingTotalBummerTable);
+    const rollTable = await this.getTable(this.class.spellcastingBummerTable);
     const result = await rollTable.draw({displayChat: false});
     return result.results[0].text;
   }
