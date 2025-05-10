@@ -315,23 +315,22 @@ export class NeonLordsActorSheet extends ActorSheet {
       return;
     }
 
-    // Handle rolls that supply the formula directly.
-    if (dataset.roll) {
-      let type = dataset.rollCategory ? `[${dataset.rollCategory}] ` : '';
-      let label = dataset.label ? `${type}${dataset.label}` : '';
-      
-      if (dataset.rollCategory === 'STATS' && dataset.label) {
-        // For ability score rolls, roll directly against the ability value (roll under)
-        this.actor.system.rollSkillCheck(dataset.label);
-      } else if (dataset.rollCategory === 'Saving Throw' && dataset.label) {
-        // For saving throws, roll directly against the save value (roll over)
-        this.actor.system.rollSave(dataset.label);
-      } else if (dataset.rollCategory === "Spell Check") {
-        this.actor.system.rollSpellCheck(dataset.label);
-      } else {
-        // For all other rolls (including attacks), just show the result
-        this._handleSimpleRoll(dataset, label);
-      }
+    let type = dataset.rollCategory ? `[${dataset.rollCategory}] ` : '';
+    let label = dataset.label ? `${type}${dataset.label}` : '';
+    
+    if (dataset.rollCategory === 'STATS' && dataset.label) {
+      // For ability score rolls, roll directly against the ability value (roll under)
+      this.actor.system.rollSkillCheck(dataset.label);
+    } else if (dataset.rollCategory === 'Saving Throw' && dataset.label) {
+      // For saving throws, roll directly against the save value (roll over)
+      this.actor.system.rollSave(dataset.label);
+    } else if (dataset.rollCategory === "Spell Check") {
+      this.actor.system.rollSpellCheck();
+    } else if (dataset.roll) {
+      // For all other rolls (including attacks), just show the result
+      this._handleSimpleRoll(dataset, label);
+    } else {
+      console.log('No roll info found');
     }
   }
 
