@@ -47,6 +47,10 @@ export default class NeonLordsActorBase extends NeonLordsDataModel {
   }
 
   getTable(tableName) {
+    if (!tableName) {
+      console.error("Trying to find table with no name!");
+      return;
+    }
     const pack = game.packs.get("neon-lords.tables");
     if (!pack) {
       console.error("Pack table not found!");
@@ -95,11 +99,22 @@ export default class NeonLordsActorBase extends NeonLordsDataModel {
     const roll = new Roll("d20" + rollMod);
     const result = await roll.evaluate();
     const targetNumber = this.spellCheck.value;
-
     const success = result.total >= targetNumber;
-    const resultText = success
-      ? `<span style="color: #009900; font-weight: bold;">✓ Success!</span> (${result.total} ≥ ${targetNumber})`
-      : `<span style="color: #990000; font-weight: bold;">✗ Failure!</span> (${result.total} < ${targetNumber})`;
+    const isFumble = result.terms[0].results[0].result === 1;
+    const isToTheMax = result.terms[0].results[0].result === 20;
+
+    let resultText;
+    if (isFumble) {
+      resultText = `<span style="color: #990000; font-weight: bold;">Fumble!</span> (${result.total})<br><br>`;
+      resultText += await this.spellcastingTotalBummer();
+    } else if (isToTheMax) {
+      resultText = `<span style="color: #009900; font-weight: bold;">TO THE MAX!!</span> (${result.total})<br><br>`;
+      resultText += await this.spellcastingToTheMax();
+    } else if (success) {
+      resultText = `<span style="color: #009900; font-weight: bold;">✓ Success!</span> (${result.total} ≥ ${targetNumber})`;
+    } else {
+      resultText = `<span style="color: #990000; font-weight: bold;">✗ Failure!</span> (${result.total} < ${targetNumber})`;
+    }
 
     roll.toMessage({
       speaker: ChatMessage.getSpeaker({ actor: this }),
