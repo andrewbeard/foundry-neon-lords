@@ -80,9 +80,15 @@ export default class NeonLordsActorBase extends NeonLordsDataModel {
       ? `<span style="color: #009900; font-weight: bold;">✓ Success!</span> (${result.total} ≥ ${targetNumber})`
       : `<span style="color: #990000; font-weight: bold;">✗ Failure!</span> (${result.total} < ${targetNumber})`;
     
+    const enrichedResultText = await TextEditor.enrichHTML(resultText, {
+      async: true,
+      rollData: this.getRollData(),
+      relativeTo: this,
+    });
+
     roll.toMessage({
       speaker: ChatMessage.getSpeaker({ actor: this }),
-      flavor: `${saveType} Saving Throw<br>${resultText}`,
+      flavor: `${saveType} Saving Throw<br>${enrichedResultText}`,
       rollMode: game.settings.get("core", "rollMode")
     });
   }
@@ -116,9 +122,15 @@ export default class NeonLordsActorBase extends NeonLordsDataModel {
       resultText = `<span style="color: #990000; font-weight: bold;">✗ Failure!</span> (${result.total} < ${targetNumber})`;
     }
 
+    const enrichedResultText = await TextEditor.enrichHTML(resultText, {
+      async: true,
+      rollData: this.getRollData(),
+      relativeTo: this,
+    });
+
     roll.toMessage({
       speaker: ChatMessage.getSpeaker({ actor: this }),
-      flavor: `Spell Check<br>${resultText}`,
+      flavor: `Spell Check<br>${enrichedResultText}`,
       rollMode: game.settings.get("core", "rollMode")
     });
     return success;

@@ -149,9 +149,15 @@ export default class NeonLordsCharacter extends NeonLordsActorBase {
       ? `<span style="color: #009900; font-weight: bold;">✓ Success!</span> (${result.total} ≤ ${targetNumber})`
       : `<span style="color: #990000; font-weight: bold;">✗ Failure!</span> (${result.total} > ${targetNumber})`;
     
+    const enrichedResultText = await TextEditor.enrichHTML(resultText, {
+      async: true,
+      rollData: this.getRollData(),
+      relativeTo: this,
+    });
+
     roll.toMessage({
       speaker: ChatMessage.getSpeaker({ actor: this }),
-      flavor: `${stats} Skill Check<br>${resultText}`,
+      flavor: `${stats} Skill Check<br>${enrichedResultText}`,
       rollMode: game.settings.get("core", "rollMode")
     });
   }
