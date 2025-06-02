@@ -65,14 +65,18 @@ export default class NeonLordsActorBase extends NeonLordsDataModel {
     return pack.getDocument(tableObj._id);
   }
 
-  async rollSave(saveType) {
-    const roll = new Roll("d20");
+  async rollSave(rollInfo) {
+    let rollMod = "";
+    if (rollInfo?.modifier) {
+      rollMod += ` +${rollInfo.modifier}`;
+    }
+    const roll = new Roll("d20" + rollMod);
     const result = await roll.evaluate();
 
-    const saveName = saveType.toLowerCase();
+    const saveName = rollInfo.label.toLowerCase();
     const targetNumber = this.saves[saveName]?.value;
     if (!targetNumber) {
-      console.error(saveType + " Saving Throw not found!");
+      console.error(rollInfo.label + " Saving Throw not found!");
       return;
     }
 
@@ -88,7 +92,7 @@ export default class NeonLordsActorBase extends NeonLordsDataModel {
 
     roll.toMessage({
       speaker: ChatMessage.getSpeaker({ actor: this }),
-      flavor: `${saveType} Saving Throw<br>${enrichedResultText}`,
+      flavor: `${rollInfo.label} Saving Throw<br>${enrichedResultText}`,
       rollMode: game.settings.get("core", "rollMode")
     });
   }
@@ -97,10 +101,13 @@ export default class NeonLordsActorBase extends NeonLordsDataModel {
     return 0;
   }
 
-  async rollSpellCheck() {
+  async rollSpellCheck(rollInfo) {
     let rollMod = "";
     if (this.spellCheckMod) {
-        rollMod = ` +${this.spellCheckMod}`;
+        rollMod += ` +${this.spellCheckMod}`;
+    }
+    if (rollInfo?.modifier) {
+      rollMod += ` +${rollInfo.modifier}`;
     }
     const roll = new Roll("d20" + rollMod);
     const result = await roll.evaluate();

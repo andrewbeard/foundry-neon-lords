@@ -134,14 +134,18 @@ export default class NeonLordsCharacter extends NeonLordsActorBase {
     return result.results[0].text;
   }
 
-  async rollSkillCheck(stats) {
-    const roll = new Roll("d20");
+  async rollSkillCheck(rollInfo) {
+    let rollMod = "";
+    if (rollInfo?.modifier) {
+      rollMod += ` +${rollInfo.modifier}`;
+    }
+    const roll = new Roll("d20" + rollMod);
     const result = await roll.evaluate();
 
-    const statsName = stats.toLowerCase();
+    const statsName = rollInfo.label.toLowerCase();
     const targetNumber = this.abilities[statsName]?.value;
     if (!targetNumber) {
-      console.error(statsName + " S.T.A.T.S. not found!");
+      console.error(rollInfo.label + " S.T.A.T.S. not found!");
       return;
     }
 
@@ -157,7 +161,7 @@ export default class NeonLordsCharacter extends NeonLordsActorBase {
 
     roll.toMessage({
       speaker: ChatMessage.getSpeaker({ actor: this }),
-      flavor: `${stats} Skill Check<br>${enrichedResultText}`,
+      flavor: `${rollInfo.label} Skill Check<br>${enrichedResultText}`,
       rollMode: game.settings.get("core", "rollMode")
     });
   }

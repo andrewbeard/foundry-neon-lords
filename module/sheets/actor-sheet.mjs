@@ -236,8 +236,7 @@ export class NeonLordsActorSheet extends ActorSheet {
                 currentTarget: {
                   dataset: {
                     ...rollable.dataset,
-                    roll: `${roll}${modifier >= 0 ? '+' : ''}${modifier}`,
-                    label: `${label}${modifier >= 0 ? '+' : ''}${modifier}`
+                    modifier: modifier,
                   }
                 },
                 preventDefault: () => {}
@@ -320,12 +319,14 @@ export class NeonLordsActorSheet extends ActorSheet {
     
     if (dataset.rollCategory === 'STATS' && dataset.label) {
       // For ability score rolls, roll directly against the ability value (roll under)
-      this.actor.system.rollSkillCheck(dataset.label);
+      this.actor.system.rollSkillCheck(dataset);
     } else if (dataset.rollCategory === 'Saving Throw' && dataset.label) {
       // For saving throws, roll directly against the save value (roll over)
-      this.actor.system.rollSave(dataset.label);
+      this.actor.system.rollSave(dataset);
     } else if (dataset.rollCategory === "Spell Check") {
-      this.actor.system.rollSpellCheck();
+      this.actor.system.rollSpellCheck(dataset);
+    } else if (dataset.rollCategory === "Attack") {
+      this._handleAttackRoll(dataset);
     } else if (dataset.roll) {
       // For all other rolls (including attacks), just show the result
       this._handleSimpleRoll(dataset, label);
@@ -335,19 +336,21 @@ export class NeonLordsActorSheet extends ActorSheet {
   }
 
   /**
-   * Handle a simple roll without target number
+   * Handle an attack roll without target number
    * @param {object} dataset The dataset of the roll
-   * @param {string} label The label of the roll
    * @private
    */
-  async _handleSimpleRoll(dataset, label) {
-    const roll = new Roll(dataset.roll, this.actor.getRollData());
+  async _handleAttackRoll(dataset) {
+    let rollMod = "";
+    if (dataset?.modifier) {
+      rollMod += ` +${dataset.modifier}`;
+    }
+    const roll = new Roll(dataset.roll + rollMod, this.actor.getRollData());
     const result = await roll.evaluate();
     
     // Check for fumble on attack rolls (natural 1)
-    const isAttack = label.includes('[Attack]');
-    const isFumble = isAttack && result.terms[0].results[0].result === 1;
-    const isToTheMax = isAttack && result.terms[0].results[0].result >= this.actor.system.critRange;
+    const isFumble = result.terms[0].results[0].result === 1;
+    const isToTheMax = result.terms[0].results[0].result >= this.actor.system.critRange;
     
     let resultText;
     if (isFumble) {
@@ -375,9 +378,35 @@ export class NeonLordsActorSheet extends ActorSheet {
 
     roll.toMessage({
       speaker: ChatMessage.getSpeaker({ actor: this.actor }),
+      flavor: `[Attack] ${dataset.label}<br>${enrichedResultText}`,
+      rollMode: game.settings.get('core', 'rollMode')
+    });
+  }
+
+  /**
+   * Handle a simple roll without target number
+   * @param {object} dataset The dataset of the roll
+   * @private
+   */
+  async _handleSimpleRoll(dataset, label) {
+    let rollMod = "";
+    if (dataset?.modifier) {
+      rollMod += ` +${dataset.modifier}`;
+    }
+    const roll = new Roll(dataset.roll + rollMod, this.actor.getRollData());
+    const result = await roll.evaluate();
+    
+    const resultText = `Roll: ${result.total}`;
+    const enrichedResultText = await TextEditor.enrichHTML(resultText, {
+      async: true,
+      rollData: this.actor.getRollData(),
+      relativeTo: this.actor,
+    });
+
+    roll.toMessage({
+      speaker: ChatMessage.getSpeaker({ actor: this.actor }),
       flavor: `${label}<br>${enrichedResultText}`,
       rollMode: game.settings.get('core', 'rollMode')
     });
-
   }
 }
