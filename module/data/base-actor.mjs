@@ -102,31 +102,46 @@ export default class NeonLordsActorBase extends NeonLordsDataModel {
   }
 
   async rollSpellCheck(rollInfo) {
-    let rollMod = "";
-    if (this.spellCheckMod) {
-        rollMod += ` +${this.spellCheckMod}`;
-    }
-    if (rollInfo?.modifier) {
-      rollMod += ` +${rollInfo.modifier}`;
-    }
-    const roll = new Roll("d20" + rollMod);
-    const result = await roll.evaluate();
-    const targetNumber = this.spellCheck.value;
-    const success = result.total >= targetNumber;
-    const isFumble = result.terms[0].results[0].result === 1;
-    const isToTheMax = result.terms[0].results[0].result === 20;
+    const spell = this.parent.items.get(rollInfo?.rollItemId);
+    let success = false;
+    let roll = null;
+    let resultText = "";
 
-    let resultText;
-    if (isFumble) {
-      resultText = `<span style="color: #990000; font-weight: bold;">Fumble!</span> (${result.total})<br><br>`;
-      resultText += await this.spellcastingTotalBummer();
-    } else if (isToTheMax) {
-      resultText = `<span style="color: #009900; font-weight: bold;">TO THE MAX!!</span> (${result.total})<br><br>`;
-      resultText += await this.spellcastingToTheMax();
-    } else if (success) {
-      resultText = `<span style="color: #009900; font-weight: bold;">✓ Success!</span> (${result.total} ≥ ${targetNumber})`;
+    const flavor = spell ? `[Spell] ${spell.name}` : 'Spell Check';
+
+    if (spell && !spell.system.spellCheck) {
+      // No spell check, always succeed
+      success = true;
     } else {
-      resultText = `<span style="color: #990000; font-weight: bold;">✗ Failure!</span> (${result.total} < ${targetNumber})`;
+      let rollMod = "";
+      if (this.spellCheckMod) {
+          rollMod += ` +${this.spellCheckMod}`;
+      }
+      if (rollInfo?.modifier) {
+        rollMod += ` +${rollInfo.modifier}`;
+      }
+      roll = new Roll("d20" + rollMod);
+      const result = await roll.evaluate();
+      const targetNumber = this.spellCheck.value;
+      const isFumble = result.terms[0].results[0].result === 1;
+      const isToTheMax = result.terms[0].results[0].result === 20;
+      success = result.total >= targetNumber || isToTheMax;
+
+      if (isFumble) {
+        resultText += `<span style="color: #990000; font-weight: bold;">Fumble!</span> (${result.total})<br><br>`;
+        resultText += await this.spellcastingTotalBummer();
+      } else if (isToTheMax) {
+        resultText += `<span style="color: #009900; font-weight: bold;">TO THE MAX!!</span> (${result.total})<br><br>`;
+        resultText += await this.spellcastingToTheMax();
+      } else if (success) {
+        resultText += `<span style="color: #009900; font-weight: bold;">✓ Success!</span> (${result.total} ≥ ${targetNumber})`;
+      } else {
+        resultText += `<span style="color: #990000; font-weight: bold;">✗ Failure!</span> (${result.total} < ${targetNumber})`;
+      }
+    }
+
+    if (success && spell) {
+      resultText += '<p><b>Effect:</b></p>' + spell.system.description;
     }
 
     const enrichedResultText = await TextEditor.enrichHTML(resultText, {
@@ -135,11 +150,21 @@ export default class NeonLordsActorBase extends NeonLordsDataModel {
       relativeTo: this,
     });
 
-    roll.toMessage({
-      speaker: ChatMessage.getSpeaker({ actor: this }),
-      flavor: `Spell Check<br>${enrichedResultText}`,
-      rollMode: game.settings.get("core", "rollMode")
-    });
+    if (roll) {
+      roll.toMessage({
+        speaker: ChatMessage.getSpeaker({ actor: this }),
+        rollMode: game.settings.get("core", "rollMode"),
+        flavor: flavor,
+        content: enrichedResultText
+      });
+    } else {
+      ChatMessage.create({
+        speaker: ChatMessage.getSpeaker({ actor: this }),
+        rollMode: game.settings.get("core", "rollMode"),
+        flavor: flavor,
+        content: enrichedResultText
+      });
+    }
     return success;
   }
 }

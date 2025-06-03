@@ -232,17 +232,10 @@ function saveRollEnricher(match, options) {
 }
 
 async function onRollSaveClick(event) {
-  const saveType = event.target.dataset.saveType;
-
-  if (game.user.character) {
-    await game.user.character.rollSave(saveType);
-  } else if (canvas.tokens.controlled.length > 0) {
-    canvas.tokens.controlled.forEach(async (token) => {
-      await token.actor.system.rollSave(saveType);
-    });
-  } else {
-    ui.notifications.warn("No character or token selected!");
-  }
+  const actors = getCharacterOrTokens();
+  actors.forEach(async (actor) => {
+    await actor.rollSave(event.target.dataset.saveType);
+  });
 }
 
 function skillRollEnricher(match, options) {
@@ -256,12 +249,10 @@ function skillRollEnricher(match, options) {
 }
 
 async function onRollSkillClick(event) {
-  const stats = event.target.dataset.statsType;
-
   const actors = getCharacterOrTokens();
   actors.forEach(async (actor) => {
     if (typeof actor.rollSkillCheck === 'function') {
-      await actor.rollSkillCheck(stats);
+      await actor.rollSkillCheck(event.target.dataset.statsType);
     } else {
       ui.notifications.warn(`${actor.parent.name} doesn't have S.T.A.T.S.`);
     }
@@ -281,15 +272,13 @@ async function onRollSpellClick(event) {
     await actor.rollSpellCheck();
   });
 }
+
 function capitalizeFirstLetter(val) {
   return String(val).charAt(0).toUpperCase() + String(val).slice(1);
 }
 
 function getCharacterOrTokens() {
-  let actors = game.user.character;
-  if (!actors) {
-    actors = canvas.tokens.controlled.map(t => t.actor.system);
-  }
+  const actors = game.user.character || canvas.tokens.controlled.map(t => t.actor.system);
   if (!actors) {
     ui.notifications.warn("No character or token selected!");
   }
