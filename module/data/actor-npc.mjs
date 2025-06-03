@@ -20,6 +20,13 @@ export default class NeonLordsNPC extends NeonLordsActorBase {
     this.xp = this.hd * 10;
   }
 
+  getRollData() {
+    const data = {};
+    data.lvl = this.hd.value;
+
+    return data
+  }
+
   get critRange() {
     return 20;
   }

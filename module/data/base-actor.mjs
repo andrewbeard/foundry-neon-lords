@@ -65,7 +65,7 @@ export default class NeonLordsActorBase extends NeonLordsDataModel {
     return pack.getDocument(tableObj._id);
   }
 
-  async rollSave(rollInfo) {
+  async rollSave(rollInfo, actor) {
     let rollMod = "";
     if (rollInfo?.modifier) {
       rollMod += ` +${rollInfo.modifier}`;
@@ -91,7 +91,7 @@ export default class NeonLordsActorBase extends NeonLordsDataModel {
     });
 
     roll.toMessage({
-      speaker: ChatMessage.getSpeaker({ actor: this }),
+      speaker: ChatMessage.getSpeaker({ actor: actor }),
       flavor: `${rollInfo.label} Saving Throw<br>${enrichedResultText}`,
       rollMode: game.settings.get("core", "rollMode")
     });
@@ -101,7 +101,7 @@ export default class NeonLordsActorBase extends NeonLordsDataModel {
     return 0;
   }
 
-  async rollSpellCheck(rollInfo) {
+  async rollSpellCheck(rollInfo, actor) {
     const spell = this.parent.items.get(rollInfo?.rollItemId);
     let success = false;
     let roll = null;
@@ -152,14 +152,14 @@ export default class NeonLordsActorBase extends NeonLordsDataModel {
 
     if (roll) {
       roll.toMessage({
-        speaker: ChatMessage.getSpeaker({ actor: this }),
+        speaker: ChatMessage.getSpeaker({ actor: actor }),
         rollMode: game.settings.get("core", "rollMode"),
         flavor: flavor,
         content: enrichedResultText
       });
     } else {
       ChatMessage.create({
-        speaker: ChatMessage.getSpeaker({ actor: this }),
+        speaker: ChatMessage.getSpeaker({ actor: actor }),
         rollMode: game.settings.get("core", "rollMode"),
         flavor: flavor,
         content: enrichedResultText

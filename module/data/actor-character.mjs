@@ -134,7 +134,7 @@ export default class NeonLordsCharacter extends NeonLordsActorBase {
     return result.results[0].text;
   }
 
-  async rollSkillCheck(rollInfo) {
+  async rollSkillCheck(rollInfo, actor) {
     let rollMod = "";
     if (rollInfo?.modifier) {
       rollMod += ` +${rollInfo.modifier}`;
@@ -160,7 +160,7 @@ export default class NeonLordsCharacter extends NeonLordsActorBase {
     });
 
     roll.toMessage({
-      speaker: ChatMessage.getSpeaker({ actor: this }),
+      speaker: ChatMessage.getSpeaker({ actor: actor }),
       flavor: `${rollInfo.label} Skill Check<br>${enrichedResultText}`,
       rollMode: game.settings.get("core", "rollMode")
     });

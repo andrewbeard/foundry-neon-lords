@@ -319,12 +319,12 @@ export class NeonLordsActorSheet extends ActorSheet {
     
     if (dataset.rollCategory === 'STATS' && dataset.label) {
       // For ability score rolls, roll directly against the ability value (roll under)
-      this.actor.system.rollSkillCheck(dataset);
+      this.actor.system.rollSkillCheck(dataset, this.actor);
     } else if (dataset.rollCategory === 'Saving Throw' && dataset.label) {
       // For saving throws, roll directly against the save value (roll over)
-      this.actor.system.rollSave(dataset);
+      this.actor.system.rollSave(dataset, this.actor);
     } else if (dataset.rollCategory === "Spell Check") {
-      this.actor.system.rollSpellCheck(dataset);
+      this.actor.system.rollSpellCheck(dataset, this.actor);
     } else if (dataset.rollCategory === "Attack") {
       this._handleAttackRoll(dataset);
     } else if (dataset.roll) {
