@@ -234,7 +234,7 @@ function saveRollEnricher(match, options) {
 async function onRollSaveClick(event) {
   const actors = getCharacterOrTokens();
   actors.forEach(async (actor) => {
-    await actor.rollSave(event.target.dataset.saveType);
+    await actor.rollSave({label: event.target.dataset.saveType}, actor);
   });
 }
 
@@ -252,7 +252,7 @@ async function onRollSkillClick(event) {
   const actors = getCharacterOrTokens();
   actors.forEach(async (actor) => {
     if (typeof actor.rollSkillCheck === 'function') {
-      await actor.rollSkillCheck(event.target.dataset.statsType);
+      await actor.rollSkillCheck({label: event.target.dataset.statsType}, actor);
     } else {
       ui.notifications.warn(`${actor.parent.name} doesn't have S.T.A.T.S.`);
     }
@@ -269,7 +269,7 @@ function spellRollEnricher(match, options) {
 async function onRollSpellClick(event) {
   const actors = getCharacterOrTokens();
   actors.forEach(async (actor) => {
-    await actor.rollSpellCheck();
+    await actor.rollSpellCheck({}, actor);
   });
 }
 
