@@ -3,11 +3,14 @@ import {
   prepareActiveEffectCategories,
 } from '../helpers/effects.mjs';
 
+const ActorSheetV2 = foundry.applications.sheets.ActorSheetV2;
+const HandlebarsApplicationMixin = foundry.applications.api.HandlebarsApplicationMixin;
+
 /**
  * Extend the basic ActorSheet with some very simple modifications
- * @extends ActorSheet
+ * @extends ActorSheetV2
  */
-export class NeonLordsActorSheet extends foundry.appv1.sheets.ActorSheet {
+export class NeonLordsActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
   /** @override */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
@@ -24,20 +27,22 @@ export class NeonLordsActorSheet extends foundry.appv1.sheets.ActorSheet {
     });
   }
 
-  /** @override */
-  get template() {
-    return `systems/neon-lords/templates/actor/actor-${this.actor.type}-sheet.hbs`;
+  static PARTS = {
+    form: {
+      // template: `systems/neon-lords/templates/actor/actor-${this.actor.type}-sheet.hbs`
+      template: 'systems/neon-lords/templates/actor/actor-character-sheet.hbs'
+    }
   }
 
   /* -------------------------------------------- */
 
   /** @override */
-  async getData() {
+  async _prepareContext(options) {
     // Retrieve the data structure from the base sheet. You can inspect or log
     // the context variable to see the structure, but some key properties for
     // sheets are the actor object, the data object, whether or not it's
     // editable, the items array, and the effects array.
-    const context = super.getData();
+    const context = super._prepareContext(options);
 
     // Use a safe clone of the actor data for further operations.
     const actorData = this.document.toPlainObject();
@@ -103,11 +108,11 @@ export class NeonLordsActorSheet extends foundry.appv1.sheets.ActorSheet {
    */
   _prepareItems(context) {
     // Initialize containers.
-    const attacks = [];
-    const features = [];
-    const gear = [];
-    const mutations = [];
-    const spells = {
+    context.attacks = [];
+    context.features = [];
+    context.gear = [];
+    context.mutations = [];
+    context.spells = {
       1: [],
       2: [],
       3: [],
@@ -118,49 +123,40 @@ export class NeonLordsActorSheet extends foundry.appv1.sheets.ActorSheet {
       8: [],
       9: [],
     };
-    let hairstyle;
 
     // Iterate through items, allocating to containers
-    for (let i of context.items) {
+    for (let i of this.actor.items) {
       i.img = i.img || Item.DEFAULT_ICON;
-      // Append to gear.
       if (i.type === 'gear') {
-        gear.push(i);
+        context.gear.push(i);
       }
       else if (i.type === 'feature') {
-        features.push(i);
+        context.features.push(i);
       }
       else if (i.type === 'attack') {
-        attacks.push(i);
+        context.attacks.push(i);
       }
       else if (i.type === 'mutation') {
-        mutations.push(i);
+        context.mutations.push(i);
       }
       else if (i.type === 'hairstyle') {
-        hairstyle = i;
+        context.hairstyle = i;
       }
       // Append to spells.
       else if (i.type === 'spell') {
         if (i.system.spellLevel != undefined) {
-          spells[i.system.spellLevel].push(i);
+          context.spells[i.system.spellLevel].push(i);
         }
       }
     }
-
-    // Assign and return
-    context.attacks = attacks;
-    context.features = features;
-    context.gear = gear;
-    context.hairstyle = hairstyle;
-    context.mutations = mutations;
-    context.spells = spells;
   }
 
   /* -------------------------------------------- */
 
   /** @override */
-  activateListeners(html) {
-    super.activateListeners(html);
+  _onRender(context, options) {
+    super._onRender(context, options);
+    const html = $(this.element);
 
     // Render the item sheet for viewing/editing prior to the editable check.
     html.on('click', '.item-edit', (ev) => {

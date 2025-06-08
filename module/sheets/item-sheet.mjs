@@ -3,11 +3,14 @@ import {
   prepareActiveEffectCategories,
 } from '../helpers/effects.mjs';
 
+const ItemSheetV2 = foundry.applications.sheets.ItemSheetV2;
+const HandlebarsApplicationMixin = foundry.applications.api.HandlebarsApplicationMixin;
+
 /**
  * Extend the basic ItemSheet with some very simple modifications
- * @extends ItemSheet
+ * @extends ItemSheetV2
  */
-export class NeonLordsItemSheet extends foundry.appv1.sheets.ItemSheet {
+export class NeonLordsItemSheet extends HandlebarsApplicationMixin(ItemSheetV2) {
   /** @override */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
@@ -24,23 +27,18 @@ export class NeonLordsItemSheet extends foundry.appv1.sheets.ItemSheet {
     });
   }
 
-  /** @override */
-  get template() {
-    const path = 'systems/neon-lords/templates/item';
-    // Return a single sheet for all item types.
-    // return `${path}/item-sheet.hbs`;
-
-    // Alternatively, you could use the following return statement to do a
-    // unique item sheet by type, like `weapon-sheet.hbs`.
-    return `${path}/item-${this.item.type}-sheet.hbs`;
+  static PARTS = {
+    form: {
+      // template: `systems/neon-lords/templates/item/item-${this.item.type}-sheet.hbs`
+      template: 'systems/neon-lords/templates/item/item-spell-sheet.hbs'
+    }
   }
 
   /* -------------------------------------------- */
 
-  /** @override */
-  async getData() {
+  async _prepareContext(options) {
     // Retrieve base data structure.
-    const context = super.getData();
+    const context = super._prepareContext(options);
 
     // Use a safe clone of the item data for further operations.
     const itemData = this.document.toPlainObject();
@@ -52,8 +50,6 @@ export class NeonLordsItemSheet extends foundry.appv1.sheets.ItemSheet {
       {
         // Whether to show secret blocks in the finished html
         secrets: this.document.isOwner,
-        // Necessary in v11, can be removed in v12
-        async: true,
         // Data to fill in for inline rolls
         rollData: this.item.getRollData(),
         // Relative UUID resolution
@@ -75,10 +71,8 @@ export class NeonLordsItemSheet extends foundry.appv1.sheets.ItemSheet {
   }
 
   /* -------------------------------------------- */
-
-  /** @override */
-  activateListeners(html) {
-    super.activateListeners(html);
+  _onRender(context, options) {
+    super._onRender(context, options)
 
     // Everything below here is only needed if the sheet is editable
     if (!this.isEditable) return;
@@ -86,7 +80,7 @@ export class NeonLordsItemSheet extends foundry.appv1.sheets.ItemSheet {
     // Roll handlers, click handlers, etc. would go here.
 
     // Active Effect management
-    html.on('click', '.effect-control', (ev) =>
+    this.element.on('click', '.effect-control', (ev) =>
       onManageActiveEffect(ev, this.item)
     );
   }
