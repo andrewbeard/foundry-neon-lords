@@ -60,13 +60,16 @@ Hooks.once('init', function () {
   // if the transfer property on the Active Effect is true.
   CONFIG.ActiveEffect.legacyTransferral = false;
 
+  const Actors = foundry.documents.collections.Actors;
+  const Items = foundry.documents.collections.Items;
+
   // Register sheet application classes
-  Actors.unregisterSheet('core', ActorSheet);
+  Actors.unregisterSheet('core', foundry.appv1.sheets.ActorSheet);
   Actors.registerSheet('neon-lords', NeonLordsActorSheet, {
     makeDefault: true,
     label: 'NEON_LORDS.SheetLabels.Actor',
   });
-  Items.unregisterSheet('core', ItemSheet);
+  Items.unregisterSheet('core', foundry.appv1.sheets.ItemSheet);
   Items.registerSheet('neon-lords', NeonLordsItemSheet, {
     makeDefault: true,
     label: 'NEON_LORDS.SheetLabels.Item',

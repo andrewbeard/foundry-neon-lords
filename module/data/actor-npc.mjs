@@ -34,7 +34,7 @@ export default class NeonLordsNPC extends NeonLordsActorBase {
   async #totalBummer() {
     const rollTable = await this.getTable("Creeps Total Bummer!");
     const result = await rollTable.draw({displayChat: false});
-    return result.results[0].text;
+    return result.results[0].description;
   }
 
   async firearmTotalBummer() {
@@ -48,7 +48,7 @@ export default class NeonLordsNPC extends NeonLordsActorBase {
   async spellcastingTotalBummer() {
     const rollTable = await this.getTable("Spell Misfire");
     const result = await rollTable.draw({displayChat: false});
-    return result.results[0].text;
+    return result.results[0].description;
   }
 
   async #toTheMax() {

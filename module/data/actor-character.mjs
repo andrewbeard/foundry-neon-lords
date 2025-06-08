@@ -93,19 +93,19 @@ export default class NeonLordsCharacter extends NeonLordsActorBase {
   async firearmTotalBummer() {
     const rollTable = await this.getTable("Firearms Total Bummer!");
     const result = await rollTable.draw({displayChat: false});
-    return result.results[0].text;
+    return result.results[0].description;
   }
 
   async meleeTotalBummer() {
     const rollTable = await this.getTable("Total Bummer!");
     const result = await rollTable.draw({displayChat: false});
-    return result.results[0].text;
+    return result.results[0].description;
   }
 
   async spellcastingTotalBummer() {
     const rollTable = await this.getTable(this.class.spellcastingBummerTable);
     const result = await rollTable.draw({displayChat: false});
-    return result.results[0].text;
+    return result.results[0].description;
   }
 
   async firearmToTheMax() {
@@ -115,14 +115,14 @@ export default class NeonLordsCharacter extends NeonLordsActorBase {
     }
     const rollTable = await this.getTable(this.class.firearmToTheMaxTable);
     const result = await rollTable.draw({displayChat: false});
-    return result.results[0].text;
+    return result.results[0].description;
   }
 
   async meleeToTheMax() {
     const rollTable = await this.getTable(this.class.meleeToTheMaxTable);
     const roll = new Roll(this.class.meleeToTheMaxDie, this.getRollData());
     const result = await rollTable.draw({roll: roll, displayChat: false});
-    return result.results[0].text;
+    return result.results[0].description;
   }
 
   async spellcastingToTheMax() {
@@ -131,7 +131,7 @@ export default class NeonLordsCharacter extends NeonLordsActorBase {
     }
     const rollTable = await this.getTable(this.class.spellcastingToTheMaxTable);
     const result = await rollTable.draw({displayChat: false});
-    return result.results[0].text;
+    return result.results[0].description;
   }
 
   async rollSkillCheck(rollInfo, actor) {
@@ -153,7 +153,7 @@ export default class NeonLordsCharacter extends NeonLordsActorBase {
       ? `<span style="color: #009900; font-weight: bold;">✓ Success!</span> (${result.total} ≤ ${targetNumber})`
       : `<span style="color: #990000; font-weight: bold;">✗ Failure!</span> (${result.total} > ${targetNumber})`;
     
-    const enrichedResultText = await TextEditor.enrichHTML(resultText, {
+    const enrichedResultText = await foundry.applications.ux.TextEditor.implementation.enrichHTML(resultText, {
       async: true,
       rollData: this.getRollData(),
       relativeTo: this,

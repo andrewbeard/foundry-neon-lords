@@ -84,7 +84,7 @@ export default class NeonLordsActorBase extends NeonLordsDataModel {
       ? `<span style="color: #009900; font-weight: bold;">✓ Success!</span> (${result.total} ≥ ${targetNumber})`
       : `<span style="color: #990000; font-weight: bold;">✗ Failure!</span> (${result.total} < ${targetNumber})`;
     
-    const enrichedResultText = await TextEditor.enrichHTML(resultText, {
+    const enrichedResultText = await foundry.applications.ux.TextEditor.implementation.enrichHTML(resultText, {
       async: true,
       rollData: this.getRollData(),
       relativeTo: this,
@@ -144,7 +144,7 @@ export default class NeonLordsActorBase extends NeonLordsDataModel {
       resultText += '<p><b>Effect:</b></p>' + spell.system.description;
     }
 
-    const enrichedResultText = await TextEditor.enrichHTML(resultText, {
+    const enrichedResultText = await foundry.applications.ux.TextEditor.implementation.enrichHTML(resultText, {
       async: true,
       rollData: this.getRollData(),
       relativeTo: this,
