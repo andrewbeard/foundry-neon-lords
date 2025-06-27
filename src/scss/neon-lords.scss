@@ -12,6 +12,11 @@
 @import 'global/grid';
 @import 'global/flex';
 
+/* Pause screen background - ensure system logo displays */
+#pause>img {
+  content: url("../assets/neon-lords-logo.webp");
+}
+
 /* Styles limited to neon-lords sheets */
 .neon-lords {
   @import 'components/forms';
