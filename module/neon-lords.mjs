@@ -110,7 +110,7 @@ Hooks.on('init', function () {
 
 // If you need to add Handlebars helpers, here is a useful example:
 Handlebars.registerHelper('toLowerCase', function (str) {
-  return str.toLowerCase();
+    return str.toLowerCase();
 });
 
 Handlebars.registerHelper('capitalizeFirstLetter', function (str) {
