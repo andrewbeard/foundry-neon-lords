@@ -10,6 +10,8 @@ jobs:
     name: Build release artifacts and create a release
     runs-on: ubuntu-24.04
     permissions:
+      id-token: write
+      attestations: write
       contents: write
     steps:
       - name: Checkout code
