@@ -28,6 +28,11 @@ jobs:
           mv packs neon-lords/
           zip -ur neon-lords.zip neon-lords/packs
           rm -rf neon-lords
+      - uses: actions/attest-build-provenance@v2
+        with:
+          subject-path: |
+            neon-lords.zip
+            system.json
       - name: Create release draft
         uses: softprops/action-gh-release@v2
         with:
