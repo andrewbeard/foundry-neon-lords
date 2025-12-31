@@ -22,7 +22,7 @@
   "version": "0.1.0",
   "compatibility": {
     "minimum": 13,
-    "verified": "13.345"
+    "verified": "13.351"
   },
   "esmodules": ["module/neon-lords.mjs"],
   "styles": ["css/neon-lords.css"],
