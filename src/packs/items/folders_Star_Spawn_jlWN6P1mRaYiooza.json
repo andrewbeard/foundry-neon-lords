@@ -1,0 +1,21 @@
+{
+  "type": "Item",
+  "folder": "bsbebkYs3CaxNH1d",
+  "name": "Star Spawn",
+  "color": null,
+  "sorting": "a",
+  "_id": "jlWN6P1mRaYiooza",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "neon-lords",
+    "systemVersion": "0.1.0",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!jlWN6P1mRaYiooza"
+}

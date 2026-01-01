@@ -1,0 +1,29 @@
+{
+  "folder": "jlWN6P1mRaYiooza",
+  "name": "Hidden Agenda",
+  "type": "feature",
+  "_id": "RbKSzINfNl6eWkg4",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>The true nature of the Star Spawn, and why they are on Neo-Terraxx, is anyone’s guess. This is represented on the Star Spawn’s “To the Max!” Table. If the Manifestation is targeting an ally and the check is a critical success, and the roll on the table affects the ally in a negative way, they suffer the effect to show the duality and possible malicious intent of the Star Spawn. Hidden Agenda is an optional rule. Ignore it if you don’t want to play the Star Spawn this way.</p>"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "neon-lords",
+    "systemVersion": "0.1.0",
+    "createdTime": 1767279040406,
+    "modifiedTime": 1767279135141,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "_key": "!items!RbKSzINfNl6eWkg4"
+}

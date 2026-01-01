@@ -1,0 +1,29 @@
+{
+  "folder": "jlWN6P1mRaYiooza",
+  "name": "Homeworld Advantage",
+  "type": "feature",
+  "_id": "nCH6eF5GqfuANzFQ",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Due to Neo-Terraxx not being the Star Spawn’s native planet, they have a general knowledge of all alien technology and weapons, granting them a +1 modifier to any roll involving alien technology and its manipulation. This bonus also applies to alien weapons.</p>"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "neon-lords",
+    "systemVersion": "0.1.0",
+    "createdTime": 1767278919688,
+    "modifiedTime": 1767278937954,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "_key": "!items!nCH6eF5GqfuANzFQ"
+}

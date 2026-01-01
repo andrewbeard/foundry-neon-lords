@@ -1,0 +1,33 @@
+{
+  "folder": "iNivlX1d5SLB3out",
+  "name": "Feel No Pain",
+  "type": "spell",
+  "_id": "mldypjNAQA8Yi2Ei",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Pain don’t hurt. At least that’s what the Star Spawn wants you to think. The Star Spawn can turn off the pain receptors in the brain of a target they can see up to 120ft away. The target rolls a Hit Dice for an extra pool of HP. Once they are depleted, by either taking damage or a long rest, they revert back to their original HP.</p>",
+    "spellLevel": 1,
+    "duration": "Instant",
+    "range": "120 ft",
+    "spellCheck": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "neon-lords",
+    "systemVersion": "0.1.0",
+    "createdTime": 1767279838540,
+    "modifiedTime": 1767279881801,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "_key": "!items!mldypjNAQA8Yi2Ei"
+}

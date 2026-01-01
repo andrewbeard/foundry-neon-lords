@@ -1,0 +1,29 @@
+{
+  "folder": "jlWN6P1mRaYiooza",
+  "name": "Mind Phone (1CP)",
+  "type": "feature",
+  "_id": "0Kp7jwH9k4ITkWmQ",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>The Star Spawn can spend 1 Psychic Point to communicate telepathically with each other or can speak into the mind of any non-telepathic being.</p>"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "neon-lords",
+    "systemVersion": "0.1.0",
+    "createdTime": 1767279177209,
+    "modifiedTime": 1767279201573,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "_key": "!items!0Kp7jwH9k4ITkWmQ"
+}
