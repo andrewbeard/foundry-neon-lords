@@ -1,0 +1,538 @@
+{
+  "folder": "Nn5Yd3VV5YuSdYKa",
+  "name": "Brutacorn 3",
+  "type": "character",
+  "_id": "7R24U16kCB5IIynM",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hp": {
+      "value": 27,
+      "max": 27
+    },
+    "ac": {
+      "value": 13
+    },
+    "movement": {
+      "value": 40
+    },
+    "spellCheck": {
+      "value": 10
+    },
+    "saves": {
+      "grit": {
+        "value": 16
+      },
+      "agility": {
+        "value": 13
+      },
+      "resolve": {
+        "value": 16
+      },
+      "death": {
+        "value": 16
+      }
+    },
+    "biography": "",
+    "alignment": "Neutral",
+    "level": {
+      "value": 3
+    },
+    "xp": {
+      "value": 5000
+    },
+    "abilities": {
+      "burliness": {
+        "value": 12
+      },
+      "prowess": {
+        "value": 12
+      },
+      "endurance": {
+        "value": 16
+      },
+      "brains": {
+        "value": 14
+      },
+      "attitude": {
+        "value": 16
+      },
+      "sleaze": {
+        "value": 10
+      },
+      "fortune": {
+        "value": 11
+      }
+    },
+    "castAbility": "attitude",
+    "className": "Brutacorn",
+    "cp": {
+      "value": 13,
+      "max": 13
+    }
+  },
+  "prototypeToken": {
+    "name": "Brutacorn 3",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": "cp"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [
+    {
+      "folder": "t09UaTrMVwyIafde",
+      "name": "Glorious Mane",
+      "type": "hairstyle",
+      "_id": "aIQEjH2xUJQLP8B1",
+      "img": "systems/neon-lords/assets/hairstyles/gloriousmane.webp",
+      "system": {
+        "description": "<p>Long, epic hair flowing like hot lava down your back. Adds +2 to your starting Class Points score, but if not of equestrian descent, the Mane cannot be tamed and deals 1 damage to you every time you make an attack.</p>"
+      },
+      "effects": [],
+      "sort": 1267188,
+      "ownership": {
+        "default": 0,
+        "x53CwYXR1zhkCDCY": 3,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.neon-lords.items.Item.AOmJoCiVfRyOwl8D",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "neon-lords",
+        "systemVersion": "0.1.0",
+        "createdTime": 1767219781291,
+        "modifiedTime": 1767219781291,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!actors.items!7R24U16kCB5IIynM.aIQEjH2xUJQLP8B1"
+    },
+    {
+      "name": "O.G. Shotgun",
+      "type": "attack",
+      "system": {
+        "description": "<p>Range 30/60/90</p>",
+        "bonus": 1,
+        "damage_roll": "1d8",
+        "damage_type": "Cone",
+        "firearm": true,
+        "special": ""
+      },
+      "_id": "Eb4OGuLi9yKZHFMU",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "neon-lords",
+        "systemVersion": "0.1.0",
+        "createdTime": 1767225558636,
+        "modifiedTime": 1767225614088,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!actors.items!7R24U16kCB5IIynM.Eb4OGuLi9yKZHFMU"
+    },
+    {
+      "name": "Switchblade",
+      "type": "attack",
+      "system": {
+        "description": "<p>Range 10/20/30</p>",
+        "bonus": 1,
+        "damage_roll": "1D4",
+        "damage_type": "",
+        "firearm": false,
+        "special": ""
+      },
+      "_id": "fIDYL4KbA9yn3wi1",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "neon-lords",
+        "systemVersion": "0.1.0",
+        "createdTime": 1767225561595,
+        "modifiedTime": 1767225659300,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!actors.items!7R24U16kCB5IIynM.fIDYL4KbA9yn3wi1"
+    },
+    {
+      "name": "Double Trouble",
+      "type": "attack",
+      "system": {
+        "description": "<p>+4 damage if you have a running start and at leats 15ft to target</p>",
+        "bonus": 1,
+        "damage_roll": "1d6",
+        "damage_type": "",
+        "firearm": false,
+        "special": ""
+      },
+      "_id": "jNt2AC83EsgnRlMM",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "neon-lords",
+        "systemVersion": "0.1.0",
+        "createdTime": 1767225562122,
+        "modifiedTime": 1767226001517,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!actors.items!7R24U16kCB5IIynM.jNt2AC83EsgnRlMM"
+    },
+    {
+      "name": "Studded Leather Armor +1",
+      "type": "gear",
+      "system": {
+        "description": "",
+        "quantity": 1,
+        "slots": 1,
+        "value": 0
+      },
+      "_id": "ZpuT1ckdsNhwZSJh",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "neon-lords",
+        "systemVersion": "0.1.0",
+        "createdTime": 1767225713789,
+        "modifiedTime": 1767225731877,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!actors.items!7R24U16kCB5IIynM.ZpuT1ckdsNhwZSJh"
+    },
+    {
+      "name": "Lazer Fast Reload (1 CP)",
+      "type": "feature",
+      "system": {
+        "description": "<p>A Brutacorn can expend 1 Mythical Point to reload a shotgun as a bonus action.</p>"
+      },
+      "_id": "H8D5HlQeBUXizkFm",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "neon-lords",
+        "systemVersion": "0.1.0",
+        "createdTime": 1767226013995,
+        "modifiedTime": 1767226203352,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!actors.items!7R24U16kCB5IIynM.H8D5HlQeBUXizkFm"
+    },
+    {
+      "name": "Doesn't Skip Leg Day",
+      "type": "feature",
+      "system": {
+        "description": "<p>Due to their ancestry and biological makeup, the Brutacorn packs some serious leg power, giving them the ability to kick down most any non-mega-reinforced doors with great ease. Beware: The great kick makes an awful lot of noise, and whoever or whatever is on the opposite side will hear you coming, and so will his buddies down the hall.</p>"
+      },
+      "_id": "bhDdNnpDm57HsSrV",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "neon-lords",
+        "systemVersion": "0.1.0",
+        "createdTime": 1767226214395,
+        "modifiedTime": 1767226265481,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!actors.items!7R24U16kCB5IIynM.bhDdNnpDm57HsSrV"
+    },
+    {
+      "name": "Mechanical Snarl",
+      "type": "feature",
+      "system": {
+        "description": "<p>Sounds as cool as you think: The Brutacorn gains +[[/roll 1D4]] to any reaction roll involving Attitude.</p>"
+      },
+      "_id": "zXsXAcAXJgwzH7vc",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "neon-lords",
+        "systemVersion": "0.1.0",
+        "createdTime": 1767226403903,
+        "modifiedTime": 1767227993352,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!actors.items!7R24U16kCB5IIynM.zXsXAcAXJgwzH7vc"
+    },
+    {
+      "folder": "o3gHYW7zjvAgPSWI",
+      "name": "Brutal Blast",
+      "type": "spell",
+      "_id": "cgMenLDO41fvc2O3",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "<p>The Brutacorn can shoot a blue blast of energy on their next missile attack with any type of SHOTGUN. Screaming through the air, the blast makes a wicked guitar solo noise until it explodes on impact making a dazzling spectacle of light and sound. The Brutal Blast deals [[/roll 2D6]] <span class=\"s1\">damage.</span></p><p class=\"p2\"><strong>Bonus Action</strong>: Can be cast outside of the Spell Phase.</p><p class=\"p1\"><strong>WARNING!</strong>: If a 12 is rolled for damage the spell deals @UUID[Compendium.neon-lords.journal.JournalEntry.GolSNvsGoLOK5zXR.JournalEntryPage.EsSamxdIc90gsyVw]{Blowback} damage to the Brutacorn instead. Dealing the 6 damage right to their face.</p><p></p>",
+        "spellLevel": 1,
+        "duration": "Instant/Bonus Action",
+        "range": "10 ft",
+        "spellCheck": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.neon-lords.items.Item.AaWRbzB6X63IhW84",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "neon-lords",
+        "systemVersion": "0.1.0",
+        "createdTime": 1767227848917,
+        "modifiedTime": 1767227848917,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!actors.items!7R24U16kCB5IIynM.cgMenLDO41fvc2O3"
+    },
+    {
+      "folder": "o3gHYW7zjvAgPSWI",
+      "name": "Chad Attack",
+      "type": "spell",
+      "_id": "lNTuo263KIDQEHTe",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "<p>The Brutacorn tosses insults and gives a target he can see within range the middle minger. This barrage of expletives and vulgar hand gestures enrages his target and they take -2 to their AC until the start of the Brutacorn’s next spell phase.</p>",
+        "spellLevel": 1,
+        "duration": "1 Turn",
+        "range": "50 ft",
+        "spellCheck": true
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.neon-lords.items.Item.M8744dnalKqkTBvL",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "neon-lords",
+        "systemVersion": "0.1.0",
+        "createdTime": 1767227850975,
+        "modifiedTime": 1767227850975,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!actors.items!7R24U16kCB5IIynM.lNTuo263KIDQEHTe"
+    },
+    {
+      "folder": "o3gHYW7zjvAgPSWI",
+      "name": "Locked On Target",
+      "type": "spell",
+      "_id": "qA0DQisiGTpxnaul",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "<p>Powered by magic, the Brutacorn’s cybernetic eyes can lock onto a target, enhancing their ability to shoot it with their Boomstick, gaining a +3 bonus \"To Hit”.</p><p><span class=\"s1\"><strong>Bonus </strong></span><strong>Action</strong>: Can be cast outside of the Spell Phase.</p>",
+        "spellLevel": 1,
+        "duration": "Instant/Bonus Action",
+        "range": "Self",
+        "spellCheck": true
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.neon-lords.items.Item.LxDjuKspPWgYop2F",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "neon-lords",
+        "systemVersion": "0.1.0",
+        "createdTime": 1767227852199,
+        "modifiedTime": 1767227852199,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!actors.items!7R24U16kCB5IIynM.qA0DQisiGTpxnaul"
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "neon-lords",
+    "systemVersion": "0.1.0",
+    "createdTime": 1767219643292,
+    "modifiedTime": 1767226964598,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "_key": "!actors!7R24U16kCB5IIynM"
+}

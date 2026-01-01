@@ -1,0 +1,29 @@
+{
+  "name": "Lazer Fast Reload (1 CP)",
+  "type": "feature",
+  "system": {
+    "description": "<p>A Brutacorn can expend 1 Mythical Point to reload a shotgun as a bonus action.</p>"
+  },
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "folder": "A7cXnwRnvy2mH5j3",
+  "ownership": {
+    "default": 0,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "neon-lords",
+    "systemVersion": "0.1.0",
+    "createdTime": 1767227291498,
+    "modifiedTime": 1767227298930,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "_id": "meRAQzxnZidZxbpj",
+  "sort": 100000,
+  "_key": "!items!meRAQzxnZidZxbpj"
+}

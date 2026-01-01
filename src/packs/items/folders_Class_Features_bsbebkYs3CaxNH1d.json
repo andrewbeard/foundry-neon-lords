@@ -1,0 +1,23 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Class Features",
+  "color": null,
+  "sorting": "a",
+  "_id": "bsbebkYs3CaxNH1d",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "neon-lords",
+    "systemVersion": "0.1.0",
+    "createdTime": 1767227211345,
+    "modifiedTime": 1767227211345,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "_key": "!folders!bsbebkYs3CaxNH1d"
+}

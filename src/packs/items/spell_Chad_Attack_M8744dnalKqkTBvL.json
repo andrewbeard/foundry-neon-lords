@@ -1,0 +1,33 @@
+{
+  "folder": "o3gHYW7zjvAgPSWI",
+  "name": "Chad Attack",
+  "type": "spell",
+  "_id": "M8744dnalKqkTBvL",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>The Brutacorn tosses insults and gives a target he can see within range the middle minger. This barrage of expletives and vulgar hand gestures enrages his target and they take -2 to their AC until the start of the Brutacorn’s next spell phase.</p>",
+    "spellLevel": 1,
+    "duration": "1 Turn",
+    "range": "50 ft",
+    "spellCheck": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "neon-lords",
+    "systemVersion": "0.1.0",
+    "createdTime": 1767227094006,
+    "modifiedTime": 1767227633846,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "_key": "!items!M8744dnalKqkTBvL"
+}

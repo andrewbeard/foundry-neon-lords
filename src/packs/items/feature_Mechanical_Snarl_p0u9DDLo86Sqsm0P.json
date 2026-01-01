@@ -1,0 +1,29 @@
+{
+  "name": "Mechanical Snarl",
+  "type": "feature",
+  "system": {
+    "description": "<p>Sounds as cool as you think: The Brutacorn gains +1D4 to any reaction roll involving Attitude.</p>"
+  },
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "folder": "A7cXnwRnvy2mH5j3",
+  "ownership": {
+    "default": 0,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "neon-lords",
+    "systemVersion": "0.1.0",
+    "createdTime": 1767227298890,
+    "modifiedTime": 1767227298930,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "_id": "p0u9DDLo86Sqsm0P",
+  "sort": 200000,
+  "_key": "!items!p0u9DDLo86Sqsm0P"
+}

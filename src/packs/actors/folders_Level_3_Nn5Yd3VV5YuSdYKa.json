@@ -1,0 +1,21 @@
+{
+  "type": "Actor",
+  "folder": "KgYyVCleSKDepU45",
+  "name": "Level 3",
+  "color": null,
+  "sorting": "a",
+  "_id": "Nn5Yd3VV5YuSdYKa",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "neon-lords",
+    "systemVersion": "0.1.0",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!Nn5Yd3VV5YuSdYKa"
+}

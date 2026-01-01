@@ -1,0 +1,33 @@
+{
+  "folder": "o3gHYW7zjvAgPSWI",
+  "name": "Locked On Target",
+  "type": "spell",
+  "_id": "LxDjuKspPWgYop2F",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Powered by magic, the Brutacorn’s cybernetic eyes can lock onto a target, enhancing their ability to shoot it with their Boomstick, gaining a +3 bonus \"To Hit”.</p><p><span class=\"s1\"><strong>Bonus </strong></span><strong>Action</strong>: Can be cast outside of the Spell Phase.</p>",
+    "spellLevel": 1,
+    "duration": "Instant/Bonus Action",
+    "range": "Self",
+    "spellCheck": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "neon-lords",
+    "systemVersion": "0.1.0",
+    "createdTime": 1767227549498,
+    "modifiedTime": 1767227609853,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "_key": "!items!LxDjuKspPWgYop2F"
+}

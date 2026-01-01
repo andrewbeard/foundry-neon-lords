@@ -1,0 +1,33 @@
+{
+  "folder": "o3gHYW7zjvAgPSWI",
+  "name": "Brutal Blast",
+  "type": "spell",
+  "_id": "AaWRbzB6X63IhW84",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>The Brutacorn can shoot a blue blast of energy on their next missile attack with any type of SHOTGUN. Screaming through the air, the blast makes a wicked guitar solo noise until it explodes on impact making a dazzling spectacle of light and sound. The Brutal Blast deals [[/roll 2D6]] <span class=\"s1\">damage.</span></p><p class=\"p2\"><strong>Bonus Action</strong>: Can be cast outside of the Spell Phase.</p><p class=\"p1\"><strong>WARNING!</strong>: If a 12 is rolled for damage the spell deals @UUID[Compendium.neon-lords.journal.JournalEntry.GolSNvsGoLOK5zXR.JournalEntryPage.EsSamxdIc90gsyVw]{Blowback} damage to the Brutacorn instead. Dealing the 6 damage right to their face.</p><p></p>",
+    "spellLevel": 1,
+    "duration": "Instant/Bonus Action",
+    "range": "10 ft",
+    "spellCheck": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "neon-lords",
+    "systemVersion": "0.1.0",
+    "createdTime": 1767227359984,
+    "modifiedTime": 1767227786452,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "_key": "!items!AaWRbzB6X63IhW84"
+}
