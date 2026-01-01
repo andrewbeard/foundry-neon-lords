@@ -43,6 +43,10 @@ export default class NeonLordsClassBase {
     return null;
   }
 
+  get spellName() {
+    return "spell";
+  }
+
   get spellPool() {
     return false;
   }

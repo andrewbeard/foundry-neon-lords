@@ -178,7 +178,7 @@ export default class NeonLordsCharacter extends NeonLordsActorBase {
       "system.spellPool.remaining": result.total,
     });
 
-    const resultText = `${result.total} spells for the day`;
+    const resultText = `${result.total} ${this.class.spellName}s for the day`;
     const enrichedResultText = await foundry.applications.ux.TextEditor.implementation.enrichHTML(resultText, {
         async: true,
         rollData: this.getRollData(),

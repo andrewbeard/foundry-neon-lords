@@ -36,4 +36,8 @@ export default class NeonLordsSkullJammerClass extends NeonLordsClassBase {
   get spellcastingToTheMaxTable() {
     return this.name + " - To the MAX!";  
   }
+
+  get spellName() {
+    return "hack";
+  }
 }
