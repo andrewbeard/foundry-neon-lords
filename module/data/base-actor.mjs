@@ -154,15 +154,13 @@ export default class NeonLordsActorBase extends NeonLordsDataModel {
       roll.toMessage({
         speaker: ChatMessage.getSpeaker({ actor: actor }),
         rollMode: game.settings.get("core", "rollMode"),
-        flavor: flavor,
-        content: enrichedResultText
+        flavor: `${flavor}<br>${enrichedResultText}`
       });
     } else {
       ChatMessage.create({
         speaker: ChatMessage.getSpeaker({ actor: actor }),
         rollMode: game.settings.get("core", "rollMode"),
-        flavor: flavor,
-        content: enrichedResultText
+        flavor: `${flavor}<br>${enrichedResultText}`
       });
     }
     return success;
