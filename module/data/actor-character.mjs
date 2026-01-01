@@ -170,6 +170,26 @@ export default class NeonLordsCharacter extends NeonLordsActorBase {
     });
   }
 
+  async rollSpellPool(rollInfo, actor) {
+    let roll = new Roll(this.spellPool.value + "d6cs>=4");
+    const result = await roll.evaluate();
+
+    this.spellPool.remaining = result.total;
+
+    const resultText = `${result.total} spells for the day`;
+    const enrichedResultText = await foundry.applications.ux.TextEditor.implementation.enrichHTML(resultText, {
+        async: true,
+        rollData: this.getRollData(),
+        relativeTo: this,
+      });
+
+    roll.toMessage({
+        speaker: ChatMessage.getSpeaker({ actor: actor }),
+        flavor: `Spell Pool<br>${enrichedResultText}`,
+        rollMode: game.settings.get("core", "rollMode")
+    });
+  }
+
   get spellCheckMod() {
     return this.abilities[this.castAbility]?.mod;
   }

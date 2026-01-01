@@ -325,6 +325,8 @@ export class NeonLordsActorSheet extends foundry.appv1.sheets.ActorSheet {
       this.actor.system.rollSave(dataset, this.actor);
     } else if (dataset.rollCategory === "Spell Check") {
       this.actor.system.rollSpellCheck(dataset, this.actor);
+    } else if (dataset.rollCategory === "Spell Pool") {
+        this.actor.system.rollSpellPool(dataset, this.actor);
     } else if (dataset.rollCategory === "Attack") {
       this._handleAttackRoll(dataset);
     } else if (dataset.roll) {
