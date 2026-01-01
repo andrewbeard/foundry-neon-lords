@@ -24,4 +24,12 @@ export default class NeonLordsHolySmiterClass extends NeonLordsClassBase {
   get spellcastingBummerTable() {
     return "Prayers Total Bummer!";
   }
+
+  get spellPool() {
+    return true;
+  }
+
+  get spellName() {
+    return "prayer";
+  }
 }

@@ -42,4 +42,12 @@ export default class NeonLordsClassBase {
   get spellcastingToTheMaxTable() {
     return null;
   }
+
+  get spellName() {
+    return "spell";
+  }
+
+  get spellPool() {
+    return false;
+  }
 }

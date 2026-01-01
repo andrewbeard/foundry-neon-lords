@@ -36,4 +36,12 @@ export default class NeonLordsWarWizardClass extends NeonLordsClassBase {
   get spellcastingToTheMaxTable() {
     return this.name + " - To the MAX!";  
   }
+
+  get spellName() {
+    return "spell";
+  }
+
+  get spellPool() {
+    return true;
+  }  
 }

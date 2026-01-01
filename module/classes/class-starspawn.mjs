@@ -36,4 +36,12 @@ export default class NeonLordsStarSpawnClass extends NeonLordsClassBase {
   get spellcastingToTheMaxTable() {
     return this.name + " - To the MAX!";  
   }
+
+  get spellName() {
+    return "manifestation";
+  }
+
+  get spellPool() {
+    return true;
+  }  
 }

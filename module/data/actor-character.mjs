@@ -40,6 +40,10 @@ export default class NeonLordsCharacter extends NeonLordsActorBase {
       value: new fields.NumberField({ ...requiredInteger, initial: 10, min: 0 }),
       max: new fields.NumberField({ ...requiredInteger, initial: 10, min:0 }),
     });
+    schema.spellPool = new fields.SchemaField({
+      value: new fields.NumberField({ ...requiredInteger, initial: 0, min: 0 }),
+      remaining: new fields.NumberField({ ...requiredInteger, initial: 0, min: 0 }),
+    });
     return schema;
   }
 
@@ -163,6 +167,28 @@ export default class NeonLordsCharacter extends NeonLordsActorBase {
       speaker: ChatMessage.getSpeaker({ actor: actor }),
       flavor: `${rollInfo.label} Skill Check<br>${enrichedResultText}`,
       rollMode: game.settings.get("core", "rollMode")
+    });
+  }
+
+  async rollSpellPool(rollInfo, actor) {
+    let roll = new Roll(this.spellPool.value + "d6cs>=4");
+    const result = await roll.evaluate();
+
+    await actor.update({
+      "system.spellPool.remaining": result.total,
+    });
+
+    const resultText = `${result.total} ${this.class.spellName}s for the day`;
+    const enrichedResultText = await foundry.applications.ux.TextEditor.implementation.enrichHTML(resultText, {
+        async: true,
+        rollData: this.getRollData(),
+        relativeTo: this,
+      });
+
+    roll.toMessage({
+        speaker: ChatMessage.getSpeaker({ actor: actor }),
+        flavor: `Spell Pool<br>${enrichedResultText}`,
+        rollMode: game.settings.get("core", "rollMode")
     });
   }
 
