@@ -1,0 +1,33 @@
+{
+  "folder": "39fJKG4uuwatHVDN",
+  "name": "Unleash The Bastards",
+  "type": "spell",
+  "_id": "X5xYvrJnz5hLSrWS",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Through the sheer power of the sick instrument playing some of the gnarliest riffs ever the Noise Thrasher has the ability to summon a mosh pit with him in the center. The mosh pit acts as a barrier. Any attack attempts will hit someone in the mosh pit.</p><p class=\"p1\">Any creature that enters the mosh pit makes an [[/save agility]] or take [[/roll 1D6]] damage. If anyone dies in the pit they are trampled to oblivion. The moshing lasts for as long as the Noise Thrasher plays. During the Check Conditions Phase the Noise Thrasher must expend an additional Shred Point to keep playing for the turn. If they don’t the mosh pit dissipates.</p>",
+    "spellLevel": 1,
+    "duration": "See Description",
+    "range": "15 ft",
+    "spellCheck": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "neon-lords",
+    "systemVersion": "0.1.0",
+    "createdTime": 1767232238593,
+    "modifiedTime": 1767232333216,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "_key": "!items!X5xYvrJnz5hLSrWS"
+}

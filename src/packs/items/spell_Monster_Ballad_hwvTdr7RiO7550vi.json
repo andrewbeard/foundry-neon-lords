@@ -1,0 +1,33 @@
+{
+  "folder": "39fJKG4uuwatHVDN",
+  "name": "Monster Ballad",
+  "type": "spell",
+  "_id": "hwvTdr7RiO7550vi",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Playing a chart topper emotional rock song can be advantageous to the skumdog party or downright painful to listen to for baddies. The Noise Thrasher can choose one:</p><ul><li><p>Heals an Ally for [[/roll 1D4]]+Noise Thrasher’s Level of lost HP.</p></li><li><p>Deals [[/roll 1D4]]+Noise Thrasher’s Level to target creature within range.</p></li></ul><p>Note: Does NOT require a Spell Check for damage, only healing</p>",
+    "spellLevel": 1,
+    "duration": "Instant",
+    "range": "40 ft",
+    "spellCheck": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "neon-lords",
+    "systemVersion": "0.1.0",
+    "createdTime": 1767231337235,
+    "modifiedTime": 1767231488428,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "_key": "!items!hwvTdr7RiO7550vi"
+}

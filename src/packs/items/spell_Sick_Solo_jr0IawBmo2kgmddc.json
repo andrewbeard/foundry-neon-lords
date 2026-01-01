@@ -1,0 +1,33 @@
+{
+  "folder": "39fJKG4uuwatHVDN",
+  "name": "Sick Solo",
+  "type": "spell",
+  "_id": "jr0IawBmo2kgmddc",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Being the center of attention is where the Noise Thrasher loves to be. Why not show off them rad skills with a sick instrument. For as long as the Noise Thrasher can keep playing, each enemy within a 40ft radius of the Noise Thrasher stops what they are doing and watches the Noise Thrasher for their action. During the Check Conditions Phase the Noise Thrasher must expend an additional Shred Point to keep playing for the turn. If they don’t the enemies take their turn as normal.</p>",
+    "spellLevel": 1,
+    "duration": "See Description",
+    "range": "40 ft",
+    "spellCheck": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "neon-lords",
+    "systemVersion": "0.1.0",
+    "createdTime": 1767230871621,
+    "modifiedTime": 1767231125229,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "_key": "!items!jr0IawBmo2kgmddc"
+}

@@ -1,0 +1,33 @@
+{
+  "folder": "39fJKG4uuwatHVDN",
+  "name": "Metal Thrashing Mad",
+  "type": "spell",
+  "_id": "oz2e1BVGvmf6IDEE",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>With the intensity of metal riffing, the Noise Thrasher is able to put a target to their boiling point and tips them over the edge. A target within a 40 ft radius of the Noise Thrasher must make a [[/save resolve]] or gain the @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.iHjm9GxHYgA4lg9s]{Bloodlust} condition for [[/roll 1D4]]+Noise Thrasher level turns.</p><p></p><p><strong>Metal Health Will Drive You Mad</strong>: The Noise Thrasher can expend additional Riff Points to target more creatures.</p><p></p>",
+    "spellLevel": 1,
+    "duration": "1D4+Noise Thrasher Level Turns",
+    "range": "40 ft",
+    "spellCheck": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "neon-lords",
+    "systemVersion": "0.1.0",
+    "createdTime": 1767231744119,
+    "modifiedTime": 1767232068398,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "_key": "!items!oz2e1BVGvmf6IDEE"
+}

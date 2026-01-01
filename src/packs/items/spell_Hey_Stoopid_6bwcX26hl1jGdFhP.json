@@ -1,0 +1,33 @@
+{
+  "folder": "39fJKG4uuwatHVDN",
+  "name": "Hey Stoopid",
+  "type": "spell",
+  "_id": "6bwcX26hl1jGdFhP",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>By unleashing an intense string of bad yo momma jokes to music at a creature within the 40ft radius of the Noise Thrasher causes them to make a [[/save resolve]]. On a failed save they must attack with SLUDGE on their next turn.</p>",
+    "spellLevel": 2,
+    "duration": "Insant",
+    "range": "40 ft",
+    "spellCheck": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "neon-lords",
+    "systemVersion": "0.1.0",
+    "createdTime": 1767232406875,
+    "modifiedTime": 1767232717083,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "_key": "!items!6bwcX26hl1jGdFhP"
+}

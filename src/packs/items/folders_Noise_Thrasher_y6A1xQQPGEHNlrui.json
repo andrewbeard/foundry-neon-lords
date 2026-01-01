@@ -1,0 +1,21 @@
+{
+  "type": "Item",
+  "folder": "bsbebkYs3CaxNH1d",
+  "name": "Noise Thrasher",
+  "color": null,
+  "sorting": "a",
+  "_id": "y6A1xQQPGEHNlrui",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "neon-lords",
+    "systemVersion": "0.1.0",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!y6A1xQQPGEHNlrui"
+}

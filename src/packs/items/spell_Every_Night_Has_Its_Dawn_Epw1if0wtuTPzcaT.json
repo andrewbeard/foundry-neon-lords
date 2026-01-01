@@ -1,0 +1,33 @@
+{
+  "folder": "39fJKG4uuwatHVDN",
+  "name": "Every Night Has Its Dawn",
+  "type": "spell",
+  "_id": "Epw1if0wtuTPzcaT",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>After an intense day of non-stop radical action, the Noise Thrasher can entertain the skumdogs with a moving song. During a long rest the Riff enables each member of the party to fully regain all lost HP and Class points.</p>",
+    "spellLevel": 1,
+    "duration": "One Long Rest",
+    "range": "Warparty",
+    "spellCheck": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "neon-lords",
+    "systemVersion": "0.1.0",
+    "createdTime": 1767231660885,
+    "modifiedTime": 1767231725184,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "_key": "!items!Epw1if0wtuTPzcaT"
+}

@@ -1,0 +1,33 @@
+{
+  "folder": "39fJKG4uuwatHVDN",
+  "name": "Meltdown",
+  "type": "spell",
+  "_id": "3ODUUlLiNH33fNhX",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>The Noise Thrasher’s riff becomes nuclear! The Sick Instrument becomes so radioactive it spews out neon ooze hitting a target within the 40ft radius of the Noise Thrasher. The ooze attack deals [[/roll 2D4x4]]{2D4!} @UUID[Compendium.neon-lords.journal.JournalEntry.GolSNvsGoLOK5zXR.JournalEntryPage.LhAmzh45MygNzafA]{Vile} damage with @UUID[Compendium.neon-lords.journal.JournalEntry.GolSNvsGoLOK5zXR.JournalEntryPage.9skDCk49uq5QjTMT]{Spillover}. If the first target dies their meat melts off their bones leaving nothing left but a glow in the dark skeleton.</p><p class=\"p1\"><strong>Mega Meltdown</strong>: The Noise Thrasher can spend additional Shred Points to hit more targets beyond the first.</p>",
+    "spellLevel": 3,
+    "duration": "Instant",
+    "range": "40 ft",
+    "spellCheck": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "neon-lords",
+    "systemVersion": "0.1.0",
+    "createdTime": 1767232745110,
+    "modifiedTime": 1767232997079,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "_key": "!items!3ODUUlLiNH33fNhX"
+}

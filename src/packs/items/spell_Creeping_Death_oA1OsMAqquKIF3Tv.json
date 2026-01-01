@@ -1,0 +1,33 @@
+{
+  "folder": "39fJKG4uuwatHVDN",
+  "name": "Creeping Death",
+  "type": "spell",
+  "_id": "oA1OsMAqquKIF3Tv",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Jammin’ on the sick instrument the Noise Thrasher is able to signal Death itself to come aid the Warparty. Each enemy in a 40ft radius of the Noise Thrasher must make a [[/save resolve]] or suffer -5 to their AC until the end of the next turn.</p><p class=\"p1\"><span class=\"s1\"><strong>DON'T FEAR THE REAPER</strong>:</span> The Noise Thrasher can expend 2 additional Shred Points to keep playin’ causing the Riff to last an additional turn.</p>",
+    "spellLevel": 1,
+    "duration": "1 Turn+",
+    "range": "40 ft",
+    "spellCheck": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "neon-lords",
+    "systemVersion": "0.1.0",
+    "createdTime": 1767231523974,
+    "modifiedTime": 1767231616135,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "_key": "!items!oA1OsMAqquKIF3Tv"
+}
