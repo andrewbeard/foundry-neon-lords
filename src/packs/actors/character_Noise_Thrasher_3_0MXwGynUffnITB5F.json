@@ -3,7 +3,7 @@
   "name": "Noise Thrasher 3",
   "type": "character",
   "_id": "0MXwGynUffnITB5F",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/neon-lords/assets/skumdogs/noisethrasher.webp",
   "system": {
     "hp": {
       "value": 20,
@@ -77,7 +77,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "systems/neon-lords/assets/skumdogs/noisethrasher.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -668,7 +668,7 @@
     "systemId": "neon-lords",
     "systemVersion": "0.1.0",
     "createdTime": 1767229679661,
-    "modifiedTime": 1767230450751,
+    "modifiedTime": 1767278379926,
     "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
   "_key": "!actors!0MXwGynUffnITB5F"
