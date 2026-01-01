@@ -1,0 +1,29 @@
+{
+  "name": "Khaos Conduit (1 CP)",
+  "type": "feature",
+  "system": {
+    "description": "<p>Out of spells for the day and still have a horde of baddies breathing down your neck? Well, spend those Khaos Points in a different way! Your Khaos conduit is a makeshift weapon, expending that Radioactive hate in the form of kinetic energy. One Khaos Point deals [[/roll 1D4]]+Brains Mod+Level damage to any target within 30ft. Each Khaos Point after the 1st spent adds an additional [[/roll 1D4]] damage. Using a Khaos Point when under 6 ignores the Khaos Points Table. Still fires in the Spell Phase.</p>"
+  },
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "folder": "oZxLG1wGBQNeQUR1",
+  "ownership": {
+    "default": 0,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "neon-lords",
+    "systemVersion": "0.1.0",
+    "createdTime": 1767271794271,
+    "modifiedTime": 1767271794271,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "_id": "qlDybL1EDmyvpHzt",
+  "sort": 0,
+  "_key": "!items!qlDybL1EDmyvpHzt"
+}

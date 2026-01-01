@@ -1,0 +1,33 @@
+{
+  "folder": "py3FX06HSFnYpFOd",
+  "name": "Create Minor Illusion",
+  "type": "spell",
+  "_id": "fo16cY7cZfTfl6oX",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Manipulating the Khaos Winds to confuse enemies is the oldest trick in the book. Creating small illusions of objects no bigger than their hand, distant noises, or even foul smells are at the War Wizard’s disposal. The illusion lasts for as long as the War Wizard is focused on it and takes no damage in combat.</p>",
+    "spellLevel": 2,
+    "duration": "Special",
+    "range": "1D10 x caster level ft",
+    "spellCheck": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "neon-lords",
+    "systemVersion": "0.1.0",
+    "createdTime": 1767273621891,
+    "modifiedTime": 1767273697264,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "_key": "!items!fo16cY7cZfTfl6oX"
+}

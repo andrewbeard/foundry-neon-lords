@@ -1,0 +1,33 @@
+{
+  "folder": "py3FX06HSFnYpFOd",
+  "name": "Hate",
+  "type": "spell",
+  "_id": "GSLQ98K4encqlgRP",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>The caster lets out a screeching, high-pitched yell as they point to a target enemy within range. The target must make a [[/save resolve]]. On a failed save, any skumdog attacking the target gains an additional +3 to attack and damage.</p>",
+    "spellLevel": 2,
+    "duration": "Instant",
+    "range": "30 ft",
+    "spellCheck": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "neon-lords",
+    "systemVersion": "0.1.0",
+    "createdTime": 1767272833180,
+    "modifiedTime": 1767273228046,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "_key": "!items!GSLQ98K4encqlgRP"
+}

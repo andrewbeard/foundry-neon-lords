@@ -1,0 +1,33 @@
+{
+  "folder": "py3FX06HSFnYpFOd",
+  "name": "Color Spray",
+  "type": "spell",
+  "_id": "bBf0W6aMEEazLmTW",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A dizzying rainbow of neon colors spews forth from the caster’s eyes and mouth in a 30ft cone. Creatures caught within the cone must make a [[/save resolve]] or fall @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.6sDpAU4V5ND4DCaf]{Unconscious}. On a failed save, there is also a [[/roll 1d100]]{30%} chance the target becomes @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.LegKo00gEYfyNEJi]{Blind}. Even if the save is successful, the target has a [[/roll 1d100]]{5%} chance of hallucinations. Creatures that do not use vision are immune to color spray.</p><p></p><p></p>",
+    "spellLevel": 1,
+    "duration": "Instant",
+    "range": "30 ft",
+    "spellCheck": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "neon-lords",
+    "systemVersion": "0.1.0",
+    "createdTime": 1767272572249,
+    "modifiedTime": 1767272727017,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "_key": "!items!bBf0W6aMEEazLmTW"
+}

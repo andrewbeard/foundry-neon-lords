@@ -1,0 +1,29 @@
+{
+  "name": "With Great Power (All CP)",
+  "type": "feature",
+  "system": {
+    "description": "<p>A War Wizard can sacrifice all of their Khaos Points towards one roll. Treat this roll as a natural 20. This offering to Khaos causes no damage to the War Wizard and ignores rolling on the Khaos Class Points Table for being below 6 points.</p>"
+  },
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "folder": "oZxLG1wGBQNeQUR1",
+  "ownership": {
+    "default": 0,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "neon-lords",
+    "systemVersion": "0.1.0",
+    "createdTime": 1767271785765,
+    "modifiedTime": 1767271791408,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "_id": "gY9sLsNKh8fux1V4",
+  "sort": 100000,
+  "_key": "!items!gY9sLsNKh8fux1V4"
+}

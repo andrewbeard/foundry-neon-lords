@@ -1,0 +1,33 @@
+{
+  "folder": "py3FX06HSFnYpFOd",
+  "name": "Lightning Bolt",
+  "type": "spell",
+  "_id": "r4Um2DkKVJNqG5RS",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A bolt as black as the void itself comes crashing out of the caster’s extended finger, dealing [[/roll 1D12]] damage to any single target within range.</p>",
+    "spellLevel": 2,
+    "duration": "Instant",
+    "range": "30 ft",
+    "spellCheck": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "neon-lords",
+    "systemVersion": "0.1.0",
+    "createdTime": 1767273241516,
+    "modifiedTime": 1767273286880,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "_key": "!items!r4Um2DkKVJNqG5RS"
+}

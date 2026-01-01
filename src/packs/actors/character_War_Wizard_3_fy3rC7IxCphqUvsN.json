@@ -1,0 +1,662 @@
+{
+  "folder": "Nn5Yd3VV5YuSdYKa",
+  "name": "War Wizard 3",
+  "type": "character",
+  "_id": "fy3rC7IxCphqUvsN",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hp": {
+      "value": 8,
+      "max": 8
+    },
+    "ac": {
+      "value": 11
+    },
+    "movement": {
+      "value": 25
+    },
+    "spellCheck": {
+      "value": 11
+    },
+    "saves": {
+      "grit": {
+        "value": 16
+      },
+      "agility": {
+        "value": 16
+      },
+      "resolve": {
+        "value": 14
+      },
+      "death": {
+        "value": 12
+      }
+    },
+    "biography": "",
+    "alignment": "Khaotic",
+    "level": {
+      "value": 3
+    },
+    "xp": {
+      "value": 5000
+    },
+    "abilities": {
+      "burliness": {
+        "value": 15
+      },
+      "prowess": {
+        "value": 11
+      },
+      "endurance": {
+        "value": 10
+      },
+      "brains": {
+        "value": 17
+      },
+      "attitude": {
+        "value": 12
+      },
+      "sleaze": {
+        "value": 11
+      },
+      "fortune": {
+        "value": 14
+      }
+    },
+    "castAbility": "brains",
+    "className": "War Wizard",
+    "cp": {
+      "value": 14,
+      "max": 14
+    }
+  },
+  "prototypeToken": {
+    "name": "War Wizard 3",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": "cp"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [
+    {
+      "name": "Living Metal Cloak",
+      "type": "gear",
+      "system": {
+        "description": "<p>Grants an AC bonus equal to Brains modifier</p>",
+        "quantity": 1,
+        "slots": 1,
+        "value": 0
+      },
+      "_id": "W9Gq8MzEN6kPWLDF",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "neon-lords",
+        "systemVersion": "0.1.0",
+        "createdTime": 1767233907825,
+        "modifiedTime": 1767234160524,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!actors.items!fy3rC7IxCphqUvsN.W9Gq8MzEN6kPWLDF"
+    },
+    {
+      "folder": "t09UaTrMVwyIafde",
+      "name": "Death Metal",
+      "type": "hairstyle",
+      "_id": "zVL0258qpCCoU5Yi",
+      "img": "systems/neon-lords/assets/hairstyles/deathmetal.webp",
+      "system": {
+        "description": "<p>Long and shaggy, hiding one’s face from the cruel, ugly world. When rolling a spell pool for the day you gain an additional dice. Also, it gains you +2 to Sleaze.</p>"
+      },
+      "effects": [],
+      "sort": 1223438,
+      "ownership": {
+        "default": 0,
+        "x53CwYXR1zhkCDCY": 3,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.neon-lords.items.Item.amPw6oN48yjwi1uF",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "neon-lords",
+        "systemVersion": "0.1.0",
+        "createdTime": 1767233941983,
+        "modifiedTime": 1767233941983,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!actors.items!fy3rC7IxCphqUvsN.zVL0258qpCCoU5Yi"
+    },
+    {
+      "name": "Khaos Conduit (melee)",
+      "type": "attack",
+      "system": {
+        "description": "<p>A Staff, scumdog’s choice of design</p>",
+        "bonus": 1,
+        "damage_roll": "1D4",
+        "damage_type": "",
+        "firearm": false,
+        "special": ""
+      },
+      "_id": "eLFeabFScsUA2Ufg",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "neon-lords",
+        "systemVersion": "0.1.0",
+        "createdTime": 1767234107948,
+        "modifiedTime": 1767271629290,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!actors.items!fy3rC7IxCphqUvsN.eLFeabFScsUA2Ufg"
+    },
+    {
+      "name": "Human-hide Spellbook",
+      "type": "gear",
+      "system": {
+        "description": "",
+        "quantity": 1,
+        "slots": 1,
+        "value": 0
+      },
+      "_id": "ojhGt2SBqzpHA2Q5",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "neon-lords",
+        "systemVersion": "0.1.0",
+        "createdTime": 1767234187514,
+        "modifiedTime": 1767234201237,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!actors.items!fy3rC7IxCphqUvsN.ojhGt2SBqzpHA2Q5"
+    },
+    {
+      "name": "Skull",
+      "type": "gear",
+      "system": {
+        "description": "",
+        "quantity": 1,
+        "slots": 1,
+        "value": 0
+      },
+      "_id": "3HqHNYMxgY0emMDZ",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "neon-lords",
+        "systemVersion": "0.1.0",
+        "createdTime": 1767234205949,
+        "modifiedTime": 1767234212979,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!actors.items!fy3rC7IxCphqUvsN.3HqHNYMxgY0emMDZ"
+    },
+    {
+      "name": "With Great Power (All CP)",
+      "type": "feature",
+      "system": {
+        "description": "<p>A War Wizard can sacrifice all of their Khaos Points towards one roll. Treat this roll as a natural 20. This offering to Khaos causes no damage to the War Wizard and ignores rolling on the Khaos Class Points Table for being below 6 points.</p>"
+      },
+      "_id": "a8pcreR8fG2kB13S",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "neon-lords",
+        "systemVersion": "0.1.0",
+        "createdTime": 1767234255812,
+        "modifiedTime": 1767271118979,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!actors.items!fy3rC7IxCphqUvsN.a8pcreR8fG2kB13S"
+    },
+    {
+      "name": "Death Growl (2 CP)",
+      "type": "feature",
+      "system": {
+        "description": "<p>If the War Wizard would go to zero Hit Points, they can spend 2 Khaos Points to go to 1 Hit Point instead. If this causes the War Wizard to roll on the Khaos Ability Table, ignore the roll. The pure hatred that runs through the War Wizard’s veins keeps them alive for perhaps just one more round.</p>"
+      },
+      "_id": "7y9SO0L4DnAnviX0",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "neon-lords",
+        "systemVersion": "0.1.0",
+        "createdTime": 1767271150185,
+        "modifiedTime": 1767271193712,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!actors.items!fy3rC7IxCphqUvsN.7y9SO0L4DnAnviX0"
+    },
+    {
+      "name": "The Devil's Crit",
+      "type": "feature",
+      "system": {
+        "description": "<p>During the spell pool process, if 3 sixes are rolled, then that day they can cast 1 spell for each die in the spell pool.</p>"
+      },
+      "_id": "4UMtLnHkxrPD6BNf",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "neon-lords",
+        "systemVersion": "0.1.0",
+        "createdTime": 1767271321474,
+        "modifiedTime": 1767271341024,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!actors.items!fy3rC7IxCphqUvsN.4UMtLnHkxrPD6BNf"
+    },
+    {
+      "name": "Khaos Conduit (1 CP)",
+      "type": "feature",
+      "system": {
+        "description": "<p>Out of spells for the day and still have a horde of baddies breathing down your neck? Well, spend those Khaos Points in a different way! Your Khaos conduit is a makeshift weapon, expending that Radioactive hate in the form of kinetic energy. One Khaos Point deals [[/roll 1D4]]+Brains Mod+Level damage to any target within 30ft. Each Khaos Point after the 1st spent adds an additional [[/roll 1D4]] damage. Using a Khaos Point when under 6 ignores the Khaos Points Table. Still fires in the Spell Phase.</p>"
+      },
+      "_id": "uw6EKnps772yOMdv",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "neon-lords",
+        "systemVersion": "0.1.0",
+        "createdTime": 1767271397729,
+        "modifiedTime": 1767271489251,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!actors.items!fy3rC7IxCphqUvsN.uw6EKnps772yOMdv"
+    },
+    {
+      "folder": "py3FX06HSFnYpFOd",
+      "name": "Color Spray",
+      "type": "spell",
+      "_id": "QnwvAiqKaDgfaLVH",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "<p>A dizzying rainbow of neon colors spews forth from the caster’s eyes and mouth in a 30ft cone. Creatures caught within the cone must make a [[/save resolve]] or fall @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.6sDpAU4V5ND4DCaf]{Unconscious}. On a failed save, there is also a [[/roll 1d100]]{30%} chance the target becomes @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.LegKo00gEYfyNEJi]{Blind}. Even if the save is successful, the target has a [[/roll 1d100]]{5%} chance of hallucinations. Creatures that do not use vision are immune to color spray.</p><p></p><p></p>",
+        "spellLevel": 1,
+        "duration": "Instant",
+        "range": "30 ft",
+        "spellCheck": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.neon-lords.items.Item.bBf0W6aMEEazLmTW",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "neon-lords",
+        "systemVersion": "0.1.0",
+        "createdTime": 1767273384191,
+        "modifiedTime": 1767273384191,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!actors.items!fy3rC7IxCphqUvsN.QnwvAiqKaDgfaLVH"
+    },
+    {
+      "folder": "py3FX06HSFnYpFOd",
+      "name": "Hate",
+      "type": "spell",
+      "_id": "YkgVrgrX7loGg23M",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "<p>The caster lets out a screeching, high-pitched yell as they point to a target enemy within range. The target must make a [[/save resolve]]. On a failed save, any skumdog attacking the target gains an additional +3 to attack and damage.</p>",
+        "spellLevel": 2,
+        "duration": "Instant",
+        "range": "30 ft",
+        "spellCheck": true
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.neon-lords.items.Item.GSLQ98K4encqlgRP",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "neon-lords",
+        "systemVersion": "0.1.0",
+        "createdTime": 1767273387186,
+        "modifiedTime": 1767273387186,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!actors.items!fy3rC7IxCphqUvsN.YkgVrgrX7loGg23M"
+    },
+    {
+      "folder": "py3FX06HSFnYpFOd",
+      "name": "Lightning Bolt",
+      "type": "spell",
+      "_id": "8JufGAatjZDD3MWI",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "<p>A bolt as black as the void itself comes crashing out of the caster’s extended finger, dealing [[/roll 1D12]] damage to any single target within range.</p>",
+        "spellLevel": 2,
+        "duration": "Instant",
+        "range": "30 ft",
+        "spellCheck": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.neon-lords.items.Item.r4Um2DkKVJNqG5RS",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "neon-lords",
+        "systemVersion": "0.1.0",
+        "createdTime": 1767273388350,
+        "modifiedTime": 1767273388350,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!actors.items!fy3rC7IxCphqUvsN.8JufGAatjZDD3MWI"
+    },
+    {
+      "folder": "py3FX06HSFnYpFOd",
+      "name": "Madballz Missile",
+      "type": "spell",
+      "_id": "M9r3ybfHyVlIuhyx",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "<p>The War Wizard focuses their hatred into ballz of mad evil magic. The missile manifests itself uniquely for each War Wizard. At 1st level, the caster creates 3 balls dealing [[/roll 1D4+1]] damage each. They can choose up to 3 targets. The ballz ignore both cover and armor. The War Wizard may expend additional Khaos Points to manifest more ballz. Two Khaos Points allow for an additional ball, 5 Khaos Points for 2 extra ballz, and 8 Khaos Points for 3 more ballz. Khaos Points can be spent to make the ballz more powerful, as well, with 1 Khaos Points causing each ball to deal [[/roll 1D4+2]] damage, [[/roll 1D6+1]] damage per ball for 2 Khaos Points, and [[/roll 1D8+1]] damage per ball for 3 Khaos Points.</p>",
+        "spellLevel": 1,
+        "duration": "Instant",
+        "range": "120 ft",
+        "spellCheck": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.neon-lords.items.Item.9Clu6Qpy8feW2nTN",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "neon-lords",
+        "systemVersion": "0.1.0",
+        "createdTime": 1767273389687,
+        "modifiedTime": 1767273389687,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!actors.items!fy3rC7IxCphqUvsN.M9r3ybfHyVlIuhyx"
+    },
+    {
+      "folder": "py3FX06HSFnYpFOd",
+      "name": "Necrotic Regurgitation",
+      "type": "spell",
+      "_id": "BivfKpH2EJrpDdEb",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "<p>A sickly green chunky stream of bile comes out of the War Wizard’s mouth in a 10ft line, dealing [[/roll 1D8]] damage on a successful attack. There is a [[/roll 1d100]]{50%} chance the target will lose their actions for the next [[/roll 1D4]] rounds while vomiting uncontrollably. Undead and mechanical creatures are unaffected by the chance of vomiting.</p>",
+        "spellLevel": 1,
+        "duration": "Instant",
+        "range": "10 ft",
+        "spellCheck": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.neon-lords.items.Item.TeiMSZJbAEGIx6ng",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "neon-lords",
+        "systemVersion": "0.1.0",
+        "createdTime": 1767273393308,
+        "modifiedTime": 1767273393308,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!actors.items!fy3rC7IxCphqUvsN.BivfKpH2EJrpDdEb"
+    },
+    {
+      "folder": "py3FX06HSFnYpFOd",
+      "name": "Create Major Illusion",
+      "type": "spell",
+      "_id": "8winzJ8f73DDXFhf",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "<p>Murmur, the Lord of Illusions, revels in deceit and trickery. He grants his followers the ability to create major illusions. The spell does everything @UUID[Compendium.neon-lords.items.Item.fo16cY7cZfTfl6oX]{Create Minor Illusion} does with the addition of the ability to create the illusion <span class=\"s1\">up to 6 cubic feet</span>. If an illusion of a living creature is created, a [[/save resolve]] must be made to determine if it is real or fake.</p><p></p>",
+        "spellLevel": 1,
+        "duration": "Special",
+        "range": "1D10 x caster level ft",
+        "spellCheck": true
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "l18XFo7VCP3jkSA6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.neon-lords.items.Item.b0ZgYWhtIzagiX7r",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "neon-lords",
+        "systemVersion": "0.1.0",
+        "createdTime": 1767273833284,
+        "modifiedTime": 1767273833284,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+      },
+      "_key": "!actors.items!fy3rC7IxCphqUvsN.8winzJ8f73DDXFhf"
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "neon-lords",
+    "systemVersion": "0.1.0",
+    "createdTime": 1767233797276,
+    "modifiedTime": 1767271725253,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "_key": "!actors!fy3rC7IxCphqUvsN"
+}

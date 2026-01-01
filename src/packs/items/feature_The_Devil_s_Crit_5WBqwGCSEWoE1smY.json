@@ -1,0 +1,29 @@
+{
+  "name": "The Devil's Crit",
+  "type": "feature",
+  "system": {
+    "description": "<p>During the spell pool process, if 3 sixes are rolled, then that day they can cast 1 spell for each die in the spell pool.</p>"
+  },
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "folder": "oZxLG1wGBQNeQUR1",
+  "ownership": {
+    "default": 0,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "neon-lords",
+    "systemVersion": "0.1.0",
+    "createdTime": 1767271791359,
+    "modifiedTime": 1767271791408,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "_id": "5WBqwGCSEWoE1smY",
+  "sort": 200000,
+  "_key": "!items!5WBqwGCSEWoE1smY"
+}

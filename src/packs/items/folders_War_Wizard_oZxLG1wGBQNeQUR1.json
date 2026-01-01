@@ -1,0 +1,21 @@
+{
+  "type": "Item",
+  "folder": "bsbebkYs3CaxNH1d",
+  "name": "War Wizard",
+  "color": null,
+  "sorting": "a",
+  "_id": "oZxLG1wGBQNeQUR1",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "neon-lords",
+    "systemVersion": "0.1.0",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!oZxLG1wGBQNeQUR1"
+}

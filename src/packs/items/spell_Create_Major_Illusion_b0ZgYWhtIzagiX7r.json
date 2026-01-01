@@ -1,0 +1,33 @@
+{
+  "folder": "py3FX06HSFnYpFOd",
+  "name": "Create Major Illusion",
+  "type": "spell",
+  "_id": "b0ZgYWhtIzagiX7r",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Murmur, the Lord of Illusions, revels in deceit and trickery. He grants his followers the ability to create major illusions. The spell does everything @UUID[Compendium.neon-lords.items.Item.fo16cY7cZfTfl6oX]{Create Minor Illusion} does with the addition of the ability to create the illusion <span class=\"s1\">up to 6 cubic feet</span>. If an illusion of a living creature is created, a [[/save resolve]] must be made to determine if it is real or fake.</p><p></p>",
+    "spellLevel": 1,
+    "duration": "Special",
+    "range": "1D10 x caster level ft",
+    "spellCheck": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "neon-lords",
+    "systemVersion": "0.1.0",
+    "createdTime": 1767273476553,
+    "modifiedTime": 1767273805521,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "_key": "!items!b0ZgYWhtIzagiX7r"
+}

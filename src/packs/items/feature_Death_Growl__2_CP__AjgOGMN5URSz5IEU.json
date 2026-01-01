@@ -1,0 +1,29 @@
+{
+  "name": "Death Growl (2 CP)",
+  "type": "feature",
+  "system": {
+    "description": "<p>If the War Wizard would go to zero Hit Points, they can spend 2 Khaos Points to go to 1 Hit Point instead. If this causes the War Wizard to roll on the Khaos Ability Table, ignore the roll. The pure hatred that runs through the War Wizard’s veins keeps them alive for perhaps just one more round.</p>"
+  },
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "folder": "oZxLG1wGBQNeQUR1",
+  "ownership": {
+    "default": 0,
+    "l18XFo7VCP3jkSA6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "neon-lords",
+    "systemVersion": "0.1.0",
+    "createdTime": 1767271788689,
+    "modifiedTime": 1767271791408,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+  },
+  "_id": "AjgOGMN5URSz5IEU",
+  "sort": 300000,
+  "_key": "!items!AjgOGMN5URSz5IEU"
+}
