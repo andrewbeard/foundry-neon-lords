@@ -174,7 +174,9 @@ export default class NeonLordsCharacter extends NeonLordsActorBase {
     let roll = new Roll(this.spellPool.value + "d6cs>=4");
     const result = await roll.evaluate();
 
-    this.spellPool.remaining = result.total;
+    await actor.update({
+      "system.spellPool.remaining": result.total,
+    });
 
     const resultText = `${result.total} spells for the day`;
     const enrichedResultText = await foundry.applications.ux.TextEditor.implementation.enrichHTML(resultText, {
