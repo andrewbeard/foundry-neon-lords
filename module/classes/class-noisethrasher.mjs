@@ -36,4 +36,8 @@ export default class NeonLordsNoiseThrasherClass extends NeonLordsClassBase {
   get spellcastingToTheMaxTable() {
     return this.name + " - To the MAX!";  
   }
+
+  get spellPool() {
+    return true;
+  }  
 }

@@ -21,6 +21,20 @@
       </select>
     </div>
   </div>
+  {{#if system.class.spellPool}}
+  <div class="resource flex-group-center">
+    <label for="system.spellPool.value" class="resource-label">Spell Pool</label>
+    <div class="resource-content flexrow flex-center flex-between">
+      <input type="number" name="system.spellPool.value" value="{{system.spellPool.value}}" data-dtype="Number" min="0" style="width: 60px;"/>
+    </div>
+  </div>
+  <div class="resource flex-group-center">
+    <label for="system.spellPool.remaining" class="resource-label">Spells Remaining</label>
+    <div class="resource-content flexrow flex-center flex-between">
+      <input type="number" name="system.spellPool.remaining" value="{{system.spellPool.remaining}}" data-dtype="Number" min="0" style="width: 60px;"/>
+    </div>
+  </div>
+  {{/if}}
   {{/if}}
 </div>
 <ol class='items-list'>
