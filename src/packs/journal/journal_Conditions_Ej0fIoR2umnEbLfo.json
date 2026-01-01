@@ -93,7 +93,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>When a skumdog or creep gains the Bloodlust condition they have zero regard for their own life and the lives of their companions. Everyone is a target and they will fight to the death. While having the Bloodlust condition, the skumdog will never retreat combat and will kill or be killed. This effect lasts 1D6-Brains mod or until he sheds 10HP worth of blood.</p>"
+        "content": "<p>When a skumdog or creep gains the Bloodlust condition they have zero regard for their own life and the lives of their companions. Everyone is a target and they will fight to the death. While having the Bloodlust condition, the skumdog will never retreat combat and will kill or be killed. This effect lasts [[/roll 1D6]]-Brains mod or until he sheds 10HP worth of blood.</p>"
       },
       "video": {
         "controls": true,
@@ -108,11 +108,11 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.344",
+        "coreVersion": "13.351",
         "systemId": "neon-lords",
         "systemVersion": "0.0.9",
         "createdTime": 1743549743993,
-        "modifiedTime": 1743549804136,
+        "modifiedTime": 1767231873999,
         "lastModifiedBy": "l18XFo7VCP3jkSA6",
         "exportSource": null
       },
