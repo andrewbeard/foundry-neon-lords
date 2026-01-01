@@ -5,6 +5,9 @@
  */
 export const preloadHandlebarsTemplates = async function () {
   return foundry.applications.handlebars.loadTemplates([
+    'systems/neon-lords/templates/actor/actor-character-sheet.hbs',
+    'systems/neon-lords/templates/actor/actor-npc-sheet.hbs',
+
     // Actor partials.
     'systems/neon-lords/templates/actor/parts/actor-attacks.hbs',
     'systems/neon-lords/templates/actor/parts/actor-effects.hbs',
