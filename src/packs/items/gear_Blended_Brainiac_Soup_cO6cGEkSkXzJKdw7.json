@@ -5,7 +5,7 @@
   "_id": "cO6cGEkSkXzJKdw7",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "<p>This “refreshing” soup of the brain matter of a brainiac mutant adds an additional +3 to the Brains Ability Score for [[/roll 1D3]] turns. There is however, a side effect: There is a [[/roll 1d100]]{50%} chance the user gains the personality of the brainiac until their next long rest.</p>",
+    "description": "<p>This “refreshing” soup of the brain matter of a brainiac mutant adds an additional +3 to the Brains Ability Score for [[/roll 1D3]] turns. There is however, a side effect: There is a [[/percent 50]] chance the user gains the personality of the brainiac until their next long rest.</p>",
     "quantity": 1,
     "slots": 1,
     "value": 5
@@ -20,12 +20,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.351",
     "systemId": "neon-lords",
-    "systemVersion": "0.0.9",
+    "systemVersion": "0.1.1",
     "createdTime": 1745427914446,
-    "modifiedTime": 1745427985382,
-    "lastModifiedBy": "x53CwYXR1zhkCDCY",
+    "modifiedTime": 1767310349246,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6",
     "exportSource": null
   },
   "_key": "!items!cO6cGEkSkXzJKdw7"

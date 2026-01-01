@@ -5,7 +5,7 @@
   "_id": "ov70ezqZSg1hHQu0",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "<p>All the rage with Goths and Detroit-Prime hipsters. Deals [[/roll 1D4]] damage when used. [[/roll 1d100]]{75%} addiction chance 1st time use. Grants a +1 to Attitude when sucking down these bad boys. If the addiction roll is passed, ignore any Death Sticks addiction rolls.</p>",
+    "description": "<p>All the rage with Goths and Detroit-Prime hipsters. Deals [[/roll 1D4]] damage when used. [[/percent 75]] addiction chance 1st time use. Grants a +1 to Attitude when sucking down these bad boys. If the addiction roll is passed, ignore any Death Sticks addiction rolls.</p>",
     "quantity": 1,
     "slots": 1,
     "value": 5
@@ -20,12 +20,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.351",
     "systemId": "neon-lords",
-    "systemVersion": "0.0.9",
+    "systemVersion": "0.1.1",
     "createdTime": 1745425889515,
-    "modifiedTime": 1745426606756,
-    "lastModifiedBy": "x53CwYXR1zhkCDCY",
+    "modifiedTime": 1767310402230,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6",
     "exportSource": null
   },
   "_key": "!items!ov70ezqZSg1hHQu0"

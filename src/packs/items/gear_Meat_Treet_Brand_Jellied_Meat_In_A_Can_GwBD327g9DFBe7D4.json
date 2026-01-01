@@ -5,7 +5,7 @@
   "_id": "GwBD327g9DFBe7D4",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "<p>Accept no substitutes. Now with 30% more jelly flavor! Primarily Goblinoid bait, but it can be consumed. If eaten, there is a [[/roll 1d100]]{50%} chance it will heal [[/roll 1D4]] Hit Points. If failed, it deals 2 points of damage.</p>",
+    "description": "<p>Accept no substitutes. Now with 30% more jelly flavor! Primarily Goblinoid bait, but it can be consumed. If eaten, there is a [[/percent 50]] chance it will heal [[/roll 1D4]] Hit Points. If failed, it deals 2 points of damage.</p>",
     "quantity": 1,
     "slots": 1,
     "value": 1
@@ -20,12 +20,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.351",
     "systemId": "neon-lords",
-    "systemVersion": "0.0.9",
+    "systemVersion": "0.1.1",
     "createdTime": 1745427752596,
-    "modifiedTime": 1745427884232,
-    "lastModifiedBy": "x53CwYXR1zhkCDCY",
+    "modifiedTime": 1767310800793,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6",
     "exportSource": null
   },
   "_key": "!items!GwBD327g9DFBe7D4"

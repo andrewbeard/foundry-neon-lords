@@ -68,6 +68,9 @@
     "cp": {
       "value": 13,
       "max": 13
+    },
+    "spellPool": {
+      "value": 10
     }
   },
   "prototypeToken": {
@@ -666,9 +669,9 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "neon-lords",
-    "systemVersion": "0.1.0",
+    "systemVersion": "0.1.1",
     "createdTime": 1767229679661,
-    "modifiedTime": 1767278379926,
+    "modifiedTime": 1767309978219,
     "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
   "_key": "!actors!0MXwGynUffnITB5F"

@@ -5,7 +5,7 @@
   "_id": "f4R066bPfCdPuSUX",
   "img": "systems/neon-lords/assets/hairstyles/fawcett.webp",
   "system": {
-    "description": "<p>This anti-gravity hairstyle defies science and is a spectacle to behold, granting you +3 to Attitude and a [[/roll 1d100]]{60%} chance to barter down shop prices.</p>"
+    "description": "<p>This anti-gravity hairstyle defies science and is a spectacle to behold, granting you +3 to Attitude and a [[/percent 60]] chance to barter down shop prices.</p>"
   },
   "effects": [],
   "sort": 600000,
@@ -17,12 +17,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.351",
     "systemId": "neon-lords",
-    "systemVersion": "0.0.10",
+    "systemVersion": "0.1.1",
     "createdTime": 1742392027352,
-    "modifiedTime": 1745521249445,
-    "lastModifiedBy": "x53CwYXR1zhkCDCY",
+    "modifiedTime": 1767310701644,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6",
     "exportSource": null
   },
   "_key": "!items!f4R066bPfCdPuSUX"

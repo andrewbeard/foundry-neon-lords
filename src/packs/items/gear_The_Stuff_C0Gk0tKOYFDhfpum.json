@@ -5,7 +5,7 @@
   "_id": "C0Gk0tKOYFDhfpum",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "<p>This white sentient creme started flowing out of cracks in some random ruins of the forgotten world many years ago. Someone had the smart idea to eat this very toxic goo and realized it’s EFFIN DELICIOUS! This dream goo was devoured by the tubful until the people of Neo-Terraxx ate it almost to extinction. Fortunately some servings have survived the gluttonous impulses of the ancients and they are there for the scarfing-down! When The Stuff is eaten, the skumdog regains [[/roll 1D6]] HP, [[/roll 1D6]] Fortune Points, and [[/roll 1D6]] Class points! Unfortunately there is a [[/roll 1d100]]{35%} chance of addiction per serving and a [[/roll 1d100]]{20%} chance of causing a @UUID[Compendium.neon-lords.tables.RollTable.HyBQa4FGfKxwNOaw]{Minor Mutation}. Both chances are noncumulative.</p>",
+    "description": "<p>This white sentient creme started flowing out of cracks in some random ruins of the forgotten world many years ago. Someone had the smart idea to eat this very toxic goo and realized it’s EFFIN DELICIOUS! This dream goo was devoured by the tubful until the people of Neo-Terraxx ate it almost to extinction. Fortunately some servings have survived the gluttonous impulses of the ancients and they are there for the scarfing-down! When The Stuff is eaten, the skumdog regains [[/roll 1D6]] HP, [[/roll 1D6]] Fortune Points, and [[/roll 1D6]] Class points! Unfortunately there is a [[/percent 35]] chance of addiction per serving and a [[/percent 20]] chance of causing a @UUID[Compendium.neon-lords.tables.RollTable.HyBQa4FGfKxwNOaw]{Minor Mutation}. Both chances are noncumulative.</p>",
     "quantity": 1,
     "slots": 1,
     "value": 325
@@ -20,12 +20,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.351",
     "systemId": "neon-lords",
-    "systemVersion": "0.0.9",
+    "systemVersion": "0.1.1",
     "createdTime": 1745430415485,
-    "modifiedTime": 1745430552681,
-    "lastModifiedBy": "x53CwYXR1zhkCDCY",
+    "modifiedTime": 1767310659534,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6",
     "exportSource": null
   },
   "_key": "!items!C0Gk0tKOYFDhfpum"
