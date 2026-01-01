@@ -13,14 +13,25 @@
       ],
       "drawn": false,
       "_id": "01m7wcrXx4HPqvPY",
-      "text": "Roll on the Fear Table against a random target.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Roll on the Fear Table against a random target.",
+      "name": "",
       "_key": "!tables.results!CB8GTZFkVzVbRpKs.01m7wcrXx4HPqvPY"
     },
     {
-      "type": "pack",
+      "type": "document",
       "weight": 1,
       "range": [
         1,
@@ -28,11 +39,22 @@
       ],
       "drawn": false,
       "_id": "Ca65lDtnmREyAfjL",
-      "text": "Fear Roll",
       "img": "icons/svg/dice-target.svg",
-      "documentId": "aQLdqG8uo97mODsu",
       "flags": {},
-      "documentCollection": "neon-lords.macros",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Fear Roll",
+      "documentUuid": "Compendium.neon-lords.macros.Macro.aQLdqG8uo97mODsu",
+      "description": "",
       "_key": "!tables.results!CB8GTZFkVzVbRpKs.Ca65lDtnmREyAfjL"
     },
     {
@@ -44,10 +66,21 @@
       ],
       "drawn": false,
       "_id": "8qb3qaWTbyR8BfJm",
-      "text": "Attack a random Ally who the skumdog thinks is a mutant.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Attack a random Ally who the skumdog thinks is a mutant.",
+      "name": "",
       "_key": "!tables.results!CB8GTZFkVzVbRpKs.8qb3qaWTbyR8BfJm"
     },
     {
@@ -59,10 +92,21 @@
       ],
       "drawn": false,
       "_id": "Gkdxxm0c4tRz2P4e",
-      "text": "Everything looks like melted ice cream. All rolls get a -3 penalty. This effect lasts until the drug wears off.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Everything looks like melted ice cream. All rolls get a -3 penalty. This effect lasts until the drug wears off.",
+      "name": "",
       "_key": "!tables.results!CB8GTZFkVzVbRpKs.Gkdxxm0c4tRz2P4e"
     },
     {
@@ -74,10 +118,21 @@
       ],
       "drawn": false,
       "_id": "9DcHokLYRdIrULGZ",
-      "text": "You gain one @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.RL4T0Eth5NKK05eJ]{Paranoia} condition.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "You gain one @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.RL4T0Eth5NKK05eJ]{Paranoia} condition.",
+      "name": "",
       "_key": "!tables.results!CB8GTZFkVzVbRpKs.9DcHokLYRdIrULGZ"
     },
     {
@@ -89,10 +144,21 @@
       ],
       "drawn": false,
       "_id": "MGJlqrooc9bXxzD6",
-      "text": "You are a sentient glass of orange juice, don't spill. This effect lasts until the drug wears off. If this is your second time rolling on the OJ glass, you never snap out of it.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "You are a sentient glass of orange juice, don't spill. This effect lasts until the drug wears off. If this is your second time rolling on the OJ glass, you never snap out of it.",
+      "name": "",
       "_key": "!tables.results!CB8GTZFkVzVbRpKs.MGJlqrooc9bXxzD6"
     },
     {
@@ -104,10 +170,21 @@
       ],
       "drawn": false,
       "_id": "P2cLYmS59q0fcJrA",
-      "text": "You think you transform into a creep that must be slayed. Deal normal damage to yourself every turn until the drug wears off.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "You think you transform into a creep that must be slayed. Deal normal damage to yourself every turn until the drug wears off.",
+      "name": "",
       "_key": "!tables.results!CB8GTZFkVzVbRpKs.P2cLYmS59q0fcJrA"
     }
   ],
@@ -123,12 +200,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "neon-lords",
     "systemVersion": "0.0.4",
     "createdTime": 1742407869774,
     "modifiedTime": 1745688022619,
-    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+    "lastModifiedBy": "l18XFo7VCP3jkSA6",
+    "exportSource": null
   },
   "formula": "1D6",
   "_key": "!tables!CB8GTZFkVzVbRpKs"

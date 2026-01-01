@@ -6,67 +6,111 @@
   "description": "",
   "results": [
     {
-      "type": "pack",
-      "documentCollection": "neon-lords.items",
+      "type": "document",
       "weight": 1,
       "range": [
         1,
         1
       ],
       "drawn": false,
-      "text": "Adolescent mutated turtle with attitude",
-      "documentId": "qtGrg2vmGQjFEPXd",
       "img": "icons/svg/item-bag.svg",
       "_id": "YTpTM6wsOaXCFQiI",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Adolescent mutated turtle with attitude",
+      "documentUuid": "Compendium.neon-lords.items.Item.qtGrg2vmGQjFEPXd",
+      "description": "",
       "_key": "!tables.results!eKzA7zQ4outunxuG.YTpTM6wsOaXCFQiI"
     },
     {
-      "type": "pack",
-      "documentCollection": "neon-lords.items",
+      "type": "document",
       "weight": 1,
       "range": [
         2,
         2
       ],
       "drawn": false,
-      "text": "Adolescent mutated salamander with attitude",
-      "documentId": "TNGbEZXTyfsFhhud",
       "img": "icons/svg/item-bag.svg",
       "_id": "ktj7LjcgDVKwnprP",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Adolescent mutated salamander with attitude",
+      "documentUuid": "Compendium.neon-lords.items.Item.TNGbEZXTyfsFhhud",
+      "description": "",
       "_key": "!tables.results!eKzA7zQ4outunxuG.ktj7LjcgDVKwnprP"
     },
     {
-      "type": "pack",
-      "documentCollection": "neon-lords.items",
+      "type": "document",
       "weight": 1,
       "range": [
         3,
         3
       ],
       "drawn": false,
-      "text": "Adolescent mutated frog with attitude",
-      "documentId": "1uE5iKeaUSzJ47Ck",
       "img": "icons/svg/item-bag.svg",
       "_id": "c5hdwz6EuAt2LWZ1",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Adolescent mutated frog with attitude",
+      "documentUuid": "Compendium.neon-lords.items.Item.1uE5iKeaUSzJ47Ck",
+      "description": "",
       "_key": "!tables.results!eKzA7zQ4outunxuG.c5hdwz6EuAt2LWZ1"
     },
     {
-      "type": "pack",
-      "documentCollection": "neon-lords.items",
+      "type": "document",
       "weight": 1,
       "range": [
         4,
         4
       ],
       "drawn": false,
-      "text": "Adolescent mutated toad with attitude",
-      "documentId": "ED0tMp6Bg9dI8gIo",
       "img": "icons/svg/item-bag.svg",
       "_id": "UfxZ3lGgUvTYPbpe",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Adolescent mutated toad with attitude",
+      "documentUuid": "Compendium.neon-lords.items.Item.ED0tMp6Bg9dI8gIo",
+      "description": "",
       "_key": "!tables.results!eKzA7zQ4outunxuG.UfxZ3lGgUvTYPbpe"
     }
   ],
@@ -81,12 +125,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "neon-lords",
     "systemVersion": "0.0.3",
     "createdTime": 1742238532520,
     "modifiedTime": 1742238607753,
-    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+    "lastModifiedBy": "x53CwYXR1zhkCDCY",
+    "exportSource": null
   },
   "formula": "1d4",
   "_key": "!tables!eKzA7zQ4outunxuG"

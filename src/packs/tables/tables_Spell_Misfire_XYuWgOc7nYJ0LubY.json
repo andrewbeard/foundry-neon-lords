@@ -12,10 +12,21 @@
       ],
       "drawn": false,
       "_id": "GAaEajMrr8VAttON",
-      "text": "Catastrophic failure!: The caster drops to 1 HP and casts a spell at random, hitting a random target.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Catastrophic failure!: The caster drops to 1 HP and casts a spell at random, hitting a random target.",
+      "name": "",
       "_key": "!tables.results!XYuWgOc7nYJ0LubY.GAaEajMrr8VAttON"
     },
     {
@@ -27,10 +38,21 @@
       ],
       "drawn": false,
       "_id": "lq3Vd0RQSOyxlePG",
-      "text": "Fireworks dazzle from the caster's fingertips, blinding him for [[1D4]] turns.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Fireworks dazzle from the caster's fingertips, blinding him for [[1D4]] turns.",
+      "name": "",
       "_key": "!tables.results!XYuWgOc7nYJ0LubY.lq3Vd0RQSOyxlePG"
     },
     {
@@ -42,10 +64,21 @@
       ],
       "drawn": false,
       "_id": "ev409D2Qoy4cHUB4",
-      "text": "Instead of the intended spell, green and yellow slime spews from the caster covering everything in a 30ft cone. If a scumdog is within the cone they gain +1 to their Sleaze S.T.A.T.S. score.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Instead of the intended spell, green and yellow slime spews from the caster covering everything in a 30ft cone. If a scumdog is within the cone they gain +1 to their Sleaze S.T.A.T.S. score.",
+      "name": "",
       "_key": "!tables.results!XYuWgOc7nYJ0LubY.ev409D2Qoy4cHUB4"
     },
     {
@@ -57,10 +90,21 @@
       ],
       "drawn": false,
       "_id": "Rsnn1ZqmArW396qG",
-      "text": "The target is healed by [[1D10]] HP.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "The target is healed by [[1D10]] HP.",
+      "name": "",
       "_key": "!tables.results!XYuWgOc7nYJ0LubY.Rsnn1ZqmArW396qG"
     },
     {
@@ -72,10 +116,21 @@
       ],
       "drawn": false,
       "_id": "QXsLxK2jl3UhcMlV",
-      "text": "Radioactive backfire! Roll on the Minor Mutation table.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Radioactive backfire! Roll on the Minor Mutation table.",
+      "name": "",
       "_key": "!tables.results!XYuWgOc7nYJ0LubY.QXsLxK2jl3UhcMlV"
     },
     {
@@ -87,10 +142,21 @@
       ],
       "drawn": false,
       "_id": "Day3KRoBcSPRTNF9",
-      "text": "Misfire turns you into a chicken for [[1D4]] turns. Your AC is now 9 with 1 HP.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Misfire turns you into a chicken for [[1D4]] turns. Your AC is now 9 with 1 HP.",
+      "name": "",
       "_key": "!tables.results!XYuWgOc7nYJ0LubY.Day3KRoBcSPRTNF9"
     },
     {
@@ -102,10 +168,21 @@
       ],
       "drawn": false,
       "_id": "6zXguVoE5D1X39L3",
-      "text": "Toxic fumes engulfs a 30ft radius with the caster in the center for [[1D4]] turns. Each creature in the area suffers from Asphyxiation damage.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Toxic fumes engulfs a 30ft radius with the caster in the center for [[1D4]] turns. Each creature in the area suffers from Asphyxiation damage.",
+      "name": "",
       "_key": "!tables.results!XYuWgOc7nYJ0LubY.6zXguVoE5D1X39L3"
     },
     {
@@ -117,10 +194,21 @@
       ],
       "drawn": false,
       "_id": "7Ie7WAf6LYGubVq3",
-      "text": "Nothing happens",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Nothing happens",
+      "name": "",
       "_key": "!tables.results!XYuWgOc7nYJ0LubY.7Ie7WAf6LYGubVq3"
     },
     {
@@ -132,10 +220,21 @@
       ],
       "drawn": false,
       "_id": "lNdr6HY3tCeZfwZX",
-      "text": "Turns the caster inside out exposing his vital organs until his next turn. If the caster takes damage it will kill him.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Turns the caster inside out exposing his vital organs until his next turn. If the caster takes damage it will kill him.",
+      "name": "",
       "_key": "!tables.results!XYuWgOc7nYJ0LubY.lNdr6HY3tCeZfwZX"
     },
     {
@@ -147,10 +246,21 @@
       ],
       "drawn": false,
       "_id": "6aVujU5XHed3WtR2",
-      "text": "Cast as intended just hits a random target within eyesight of the caster.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Cast as intended just hits a random target within eyesight of the caster.",
+      "name": "",
       "_key": "!tables.results!XYuWgOc7nYJ0LubY.6aVujU5XHed3WtR2"
     },
     {
@@ -162,10 +272,21 @@
       ],
       "drawn": false,
       "_id": "THHGuWcJVy7cylbP",
-      "text": "Brain fart: forget the spell until the caster's next long rest.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Brain fart: forget the spell until the caster's next long rest.",
+      "name": "",
       "_key": "!tables.results!XYuWgOc7nYJ0LubY.THHGuWcJVy7cylbP"
     },
     {
@@ -177,10 +298,21 @@
       ],
       "drawn": false,
       "_id": "18YxCLns07sdV6M9",
-      "text": "Ignore the misfire and re-roll the Spell Check. If another misfire is rolled the caster takes [[2D10]] damage.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Ignore the misfire and re-roll the Spell Check. If another misfire is rolled the caster takes [[2D10]] damage.",
+      "name": "",
       "_key": "!tables.results!XYuWgOc7nYJ0LubY.18YxCLns07sdV6M9"
     },
     {
@@ -192,10 +324,21 @@
       ],
       "drawn": false,
       "_id": "RbVfQTkph3Rp1hEb",
-      "text": "Transmogrify into your target. Each creature must make a save vs Resolve to tell the difference between you and the real creep. This effects last for [[1D8]] turns.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Transmogrify into your target. Each creature must make a save vs Resolve to tell the difference between you and the real creep. This effects last for [[1D8]] turns.",
+      "name": "",
       "_key": "!tables.results!XYuWgOc7nYJ0LubY.RbVfQTkph3Rp1hEb"
     },
     {
@@ -207,10 +350,21 @@
       ],
       "drawn": false,
       "_id": "XYokGooul12HFNkn",
-      "text": "Radiation wave deals [[1D6]] damage to everyone in a 15ft radius from the caster.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Radiation wave deals [[1D6]] damage to everyone in a 15ft radius from the caster.",
+      "name": "",
       "_key": "!tables.results!XYuWgOc7nYJ0LubY.XYokGooul12HFNkn"
     },
     {
@@ -222,10 +376,21 @@
       ],
       "drawn": false,
       "_id": "2f8VRPUkUs7qvvcn",
-      "text": "Lasers shoot out of the caster's eyes hitting [[1D4]] random targets up to 120ft for [[2D6x6]] damage divided among all the targets.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Lasers shoot out of the caster's eyes hitting [[1D4]] random targets up to 120ft for [[2D6x6]] damage divided among all the targets.",
+      "name": "",
       "_key": "!tables.results!XYuWgOc7nYJ0LubY.2f8VRPUkUs7qvvcn"
     },
     {
@@ -237,10 +402,21 @@
       ],
       "drawn": false,
       "_id": "RNrnxDpBbF6zp3Js",
-      "text": "Spell clones target for [[1D4]]+caster's level turns.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Spell clones target for [[1D4]]+caster's level turns.",
+      "name": "",
       "_key": "!tables.results!XYuWgOc7nYJ0LubY.RNrnxDpBbF6zp3Js"
     },
     {
@@ -252,10 +428,21 @@
       ],
       "drawn": false,
       "_id": "oh2GeoPi0YJn2NTv",
-      "text": "Temporal disruption: a rift opens letting out an @UUID[Compendium.neon-lords.actors.Actor.uNeHflrrzIEH4HxO]{Otherworldly Spawn} which is hostile to everyone around.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Temporal disruption: a rift opens letting out an @UUID[Compendium.neon-lords.actors.Actor.uNeHflrrzIEH4HxO]{Otherworldly Spawn} which is hostile to everyone around.",
+      "name": "",
       "_key": "!tables.results!XYuWgOc7nYJ0LubY.oh2GeoPi0YJn2NTv"
     },
     {
@@ -267,14 +454,25 @@
       ],
       "drawn": false,
       "_id": "YeqKEsrPgWNjQb35",
-      "text": "Major meltdown! Roll 2 times on the Minor Mutation table.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Major meltdown! Roll 2 times on the Minor Mutation table.",
+      "name": "",
       "_key": "!tables.results!XYuWgOc7nYJ0LubY.YeqKEsrPgWNjQb35"
     },
     {
-      "type": "pack",
+      "type": "document",
       "weight": 1,
       "range": [
         18,
@@ -282,15 +480,26 @@
       ],
       "drawn": false,
       "_id": "63vUOjfBIR8zQH3l",
-      "text": "Minor Mutations",
       "img": "icons/svg/d20-grey.svg",
-      "documentId": "HyBQa4FGfKxwNOaw",
       "flags": {},
-      "documentCollection": "neon-lords.tables",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Minor Mutations",
+      "documentUuid": "Compendium.neon-lords.tables.RollTable.HyBQa4FGfKxwNOaw",
+      "description": "",
       "_key": "!tables.results!XYuWgOc7nYJ0LubY.63vUOjfBIR8zQH3l"
     },
     {
-      "type": "pack",
+      "type": "document",
       "weight": 1,
       "range": [
         18,
@@ -298,11 +507,22 @@
       ],
       "drawn": false,
       "_id": "BEjyoyddaDdDsjyr",
-      "text": "Minor Mutations",
       "img": "icons/svg/d20-grey.svg",
-      "documentId": "HyBQa4FGfKxwNOaw",
       "flags": {},
-      "documentCollection": "neon-lords.tables",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Minor Mutations",
+      "documentUuid": "Compendium.neon-lords.tables.RollTable.HyBQa4FGfKxwNOaw",
+      "description": "",
       "_key": "!tables.results!XYuWgOc7nYJ0LubY.BEjyoyddaDdDsjyr"
     },
     {
@@ -314,10 +534,21 @@
       ],
       "drawn": false,
       "_id": "UKxjjqgyJbgJmi3v",
-      "text": "Cast as intended, just hits the caster himself.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Cast as intended, just hits the caster himself.",
+      "name": "",
       "_key": "!tables.results!XYuWgOc7nYJ0LubY.UKxjjqgyJbgJmi3v"
     },
     {
@@ -329,14 +560,25 @@
       ],
       "drawn": false,
       "_id": "UnCSSNCS5CyM3lMb",
-      "text": "Mind wipe: the caster forgets the spell permanently.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Mind wipe: the caster forgets the spell permanently.",
+      "name": "",
       "_key": "!tables.results!XYuWgOc7nYJ0LubY.UnCSSNCS5CyM3lMb"
     },
     {
-      "type": "pack",
+      "type": "document",
       "weight": 1,
       "range": [
         5,
@@ -344,11 +586,22 @@
       ],
       "drawn": false,
       "_id": "9vyZ6NRDYwRpaWBh",
-      "text": "Minor Mutations",
       "img": "icons/svg/d20-grey.svg",
-      "documentId": "HyBQa4FGfKxwNOaw",
       "flags": {},
-      "documentCollection": "neon-lords.tables",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Minor Mutations",
+      "documentUuid": "Compendium.neon-lords.tables.RollTable.HyBQa4FGfKxwNOaw",
+      "description": "",
       "_key": "!tables.results!XYuWgOc7nYJ0LubY.9vyZ6NRDYwRpaWBh"
     }
   ],
@@ -359,23 +612,23 @@
     "default": 0,
     "l18XFo7VCP3jkSA6": 3
   },
-  "flags": {
-    "exportSource": {
-      "world": "test",
-      "system": "neon-lords",
-      "coreVersion": "12.331",
-      "systemVersion": "0.0.2"
-    }
-  },
+  "flags": {},
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742090821210,
     "modifiedTime": 1745688672153,
-    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+    "lastModifiedBy": "l18XFo7VCP3jkSA6",
+    "exportSource": {
+      "worldId": "test",
+      "uuid": null,
+      "coreVersion": "12.331",
+      "systemId": "neon-lords",
+      "systemVersion": "0.0.2"
+    }
   },
   "formula": "1D20",
   "_id": "XYuWgOc7nYJ0LubY",

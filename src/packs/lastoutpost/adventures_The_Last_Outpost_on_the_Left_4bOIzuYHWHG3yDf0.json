@@ -67,7 +67,6 @@
           "tint": "#ffffff",
           "alphaThreshold": 0.75
         },
-        "hexagonalShape": 0,
         "lockRotation": false,
         "rotation": 0,
         "alpha": 1,
@@ -132,7 +131,14 @@
           }
         },
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null
       },
       "items": [
         {
@@ -159,12 +165,13 @@
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.344",
             "systemId": "neon-lords",
             "systemVersion": "0.0.9",
             "createdTime": 1742575407355,
             "modifiedTime": 1745435528223,
-            "lastModifiedBy": "x53CwYXR1zhkCDCY"
+            "lastModifiedBy": "x53CwYXR1zhkCDCY",
+            "exportSource": null
           }
         },
         {
@@ -190,12 +197,13 @@
           "_stats": {
             "compendiumSource": "Compendium.neon-lords.items.Item.C0fQVSGnCw3HFD1n",
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.344",
             "systemId": "neon-lords",
             "systemVersion": "0.0.9",
             "createdTime": 1745435066179,
             "modifiedTime": 1745435066179,
-            "lastModifiedBy": "x53CwYXR1zhkCDCY"
+            "lastModifiedBy": "x53CwYXR1zhkCDCY",
+            "exportSource": null
           }
         },
         {
@@ -221,12 +229,13 @@
           "_stats": {
             "compendiumSource": "Compendium.neon-lords.items.Item.H6dqWXQuwStx5U90",
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.344",
             "systemId": "neon-lords",
             "systemVersion": "0.0.9",
             "createdTime": 1745435072475,
             "modifiedTime": 1745435072475,
-            "lastModifiedBy": "x53CwYXR1zhkCDCY"
+            "lastModifiedBy": "x53CwYXR1zhkCDCY",
+            "exportSource": null
           }
         },
         {
@@ -252,12 +261,13 @@
           "_stats": {
             "compendiumSource": "Compendium.neon-lords.items.Item.5pSk8d9p50Oe1hWX",
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.344",
             "systemId": "neon-lords",
             "systemVersion": "0.0.9",
             "createdTime": 1745435074870,
             "modifiedTime": 1745435074870,
-            "lastModifiedBy": "x53CwYXR1zhkCDCY"
+            "lastModifiedBy": "x53CwYXR1zhkCDCY",
+            "exportSource": null
           }
         }
       ],
@@ -271,12 +281,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.344",
         "systemId": "neon-lords",
         "systemVersion": "0.0.10",
         "createdTime": 1742575354208,
         "modifiedTime": 1745594166979,
-        "lastModifiedBy": "x53CwYXR1zhkCDCY"
+        "lastModifiedBy": "x53CwYXR1zhkCDCY",
+        "exportSource": null
       }
     },
     {
@@ -341,7 +352,6 @@
           "tint": "#ffffff",
           "alphaThreshold": 0.75
         },
-        "hexagonalShape": 0,
         "lockRotation": false,
         "rotation": 0,
         "alpha": 1,
@@ -406,7 +416,14 @@
           }
         },
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null
       },
       "items": [
         {
@@ -433,12 +450,13 @@
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.344",
             "systemId": "neon-lords",
             "systemVersion": "0.0.9",
             "createdTime": 1742574998882,
             "modifiedTime": 1745435435658,
-            "lastModifiedBy": "x53CwYXR1zhkCDCY"
+            "lastModifiedBy": "x53CwYXR1zhkCDCY",
+            "exportSource": null
           }
         },
         {
@@ -465,12 +483,13 @@
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.344",
             "systemId": "neon-lords",
             "systemVersion": "0.0.9",
             "createdTime": 1742574999342,
             "modifiedTime": 1745435444384,
-            "lastModifiedBy": "x53CwYXR1zhkCDCY"
+            "lastModifiedBy": "x53CwYXR1zhkCDCY",
+            "exportSource": null
           }
         },
         {
@@ -492,12 +511,13 @@
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.344",
             "systemId": "neon-lords",
             "systemVersion": "0.0.9",
             "createdTime": 1745435446687,
             "modifiedTime": 1745435457035,
-            "lastModifiedBy": "x53CwYXR1zhkCDCY"
+            "lastModifiedBy": "x53CwYXR1zhkCDCY",
+            "exportSource": null
           }
         },
         {
@@ -519,12 +539,13 @@
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.344",
             "systemId": "neon-lords",
             "systemVersion": "0.0.9",
             "createdTime": 1745435459772,
             "modifiedTime": 1745435496391,
-            "lastModifiedBy": "x53CwYXR1zhkCDCY"
+            "lastModifiedBy": "x53CwYXR1zhkCDCY",
+            "exportSource": null
           }
         }
       ],
@@ -538,12 +559,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.344",
         "systemId": "neon-lords",
         "systemVersion": "0.0.9",
         "createdTime": 1742574954141,
         "modifiedTime": 1745590148576,
-        "lastModifiedBy": "x53CwYXR1zhkCDCY"
+        "lastModifiedBy": "x53CwYXR1zhkCDCY",
+        "exportSource": null
       }
     },
     {
@@ -608,7 +630,6 @@
           "tint": "#ffffff",
           "alphaThreshold": 0.75
         },
-        "hexagonalShape": 0,
         "lockRotation": false,
         "rotation": 0,
         "alpha": 1,
@@ -673,7 +694,14 @@
           }
         },
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null
       },
       "items": [
         {
@@ -700,12 +728,13 @@
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.344",
             "systemId": "neon-lords",
             "systemVersion": "0.0.9",
             "createdTime": 1742580440247,
             "modifiedTime": 1745435679318,
-            "lastModifiedBy": "x53CwYXR1zhkCDCY"
+            "lastModifiedBy": "x53CwYXR1zhkCDCY",
+            "exportSource": null
           }
         }
       ],
@@ -719,12 +748,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.344",
         "systemId": "neon-lords",
         "systemVersion": "0.0.9",
         "createdTime": 1742580423289,
         "modifiedTime": 1745590148576,
-        "lastModifiedBy": "x53CwYXR1zhkCDCY"
+        "lastModifiedBy": "x53CwYXR1zhkCDCY",
+        "exportSource": null
       }
     },
     {
@@ -789,7 +819,6 @@
           "tint": "#ffffff",
           "alphaThreshold": 0.75
         },
-        "hexagonalShape": 0,
         "lockRotation": false,
         "rotation": 0,
         "alpha": 1,
@@ -854,7 +883,14 @@
           }
         },
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null
       },
       "items": [
         {
@@ -881,12 +917,13 @@
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.344",
             "systemId": "neon-lords",
             "systemVersion": "0.0.9",
             "createdTime": 1742575258788,
             "modifiedTime": 1745435556234,
-            "lastModifiedBy": "x53CwYXR1zhkCDCY"
+            "lastModifiedBy": "x53CwYXR1zhkCDCY",
+            "exportSource": null
           }
         }
       ],
@@ -900,12 +937,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.344",
         "systemId": "neon-lords",
         "systemVersion": "0.0.6",
         "createdTime": 1742575219673,
         "modifiedTime": 1745590148576,
-        "lastModifiedBy": "x53CwYXR1zhkCDCY"
+        "lastModifiedBy": "x53CwYXR1zhkCDCY",
+        "exportSource": null
       }
     },
     {
@@ -970,7 +1008,6 @@
           "tint": "#ffffff",
           "alphaThreshold": 0.75
         },
-        "hexagonalShape": 0,
         "lockRotation": false,
         "rotation": 0,
         "alpha": 1,
@@ -1035,7 +1072,14 @@
           }
         },
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null
       },
       "items": [
         {
@@ -1062,12 +1106,13 @@
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.344",
             "systemId": "neon-lords",
             "systemVersion": "0.0.9",
             "createdTime": 1742583205825,
             "modifiedTime": 1745432108494,
-            "lastModifiedBy": "x53CwYXR1zhkCDCY"
+            "lastModifiedBy": "x53CwYXR1zhkCDCY",
+            "exportSource": null
           }
         }
       ],
@@ -1081,12 +1126,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.344",
         "systemId": "neon-lords",
         "systemVersion": "0.0.6",
         "createdTime": 1742583194747,
         "modifiedTime": 1745590148576,
-        "lastModifiedBy": "x53CwYXR1zhkCDCY"
+        "lastModifiedBy": "x53CwYXR1zhkCDCY",
+        "exportSource": null
       }
     },
     {
@@ -1151,7 +1197,6 @@
           "tint": "#ffffff",
           "alphaThreshold": 0.75
         },
-        "hexagonalShape": 0,
         "lockRotation": false,
         "rotation": 0,
         "alpha": 1,
@@ -1216,7 +1261,14 @@
           }
         },
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null
       },
       "items": [
         {
@@ -1243,12 +1295,13 @@
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.344",
             "systemId": "neon-lords",
             "systemVersion": "0.0.9",
             "createdTime": 1745424484876,
             "modifiedTime": 1745424495968,
-            "lastModifiedBy": "x53CwYXR1zhkCDCY"
+            "lastModifiedBy": "x53CwYXR1zhkCDCY",
+            "exportSource": null
           }
         }
       ],
@@ -1262,12 +1315,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.344",
         "systemId": "neon-lords",
         "systemVersion": "0.0.9",
         "createdTime": 1745422274000,
         "modifiedTime": 1745590148576,
-        "lastModifiedBy": "x53CwYXR1zhkCDCY"
+        "lastModifiedBy": "x53CwYXR1zhkCDCY",
+        "exportSource": null
       }
     },
     {
@@ -1332,7 +1386,6 @@
           "tint": "#ffffff",
           "alphaThreshold": 0.75
         },
-        "hexagonalShape": 0,
         "lockRotation": false,
         "rotation": 0,
         "alpha": 1,
@@ -1397,7 +1450,14 @@
           }
         },
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null
       },
       "items": [
         {
@@ -1424,12 +1484,13 @@
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.344",
             "systemId": "neon-lords",
             "systemVersion": "0.0.9",
             "createdTime": 1745422238424,
             "modifiedTime": 1745422253219,
-            "lastModifiedBy": "x53CwYXR1zhkCDCY"
+            "lastModifiedBy": "x53CwYXR1zhkCDCY",
+            "exportSource": null
           }
         },
         {
@@ -1454,12 +1515,13 @@
           "_stats": {
             "compendiumSource": "Item.93ifydR5IIuy6bjV",
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.344",
             "systemId": "neon-lords",
             "systemVersion": "0.0.9",
             "createdTime": 1745424192335,
             "modifiedTime": 1745424192335,
-            "lastModifiedBy": "x53CwYXR1zhkCDCY"
+            "lastModifiedBy": "x53CwYXR1zhkCDCY",
+            "exportSource": null
           }
         }
       ],
@@ -1473,12 +1535,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.344",
         "systemId": "neon-lords",
         "systemVersion": "0.0.9",
         "createdTime": 1745422226545,
         "modifiedTime": 1745590148576,
-        "lastModifiedBy": "x53CwYXR1zhkCDCY"
+        "lastModifiedBy": "x53CwYXR1zhkCDCY",
+        "exportSource": null
       }
     },
     {
@@ -1542,7 +1605,6 @@
           "tint": "#ffffff",
           "alphaThreshold": 0.75
         },
-        "hexagonalShape": 0,
         "lockRotation": false,
         "rotation": 0,
         "alpha": 1,
@@ -1607,7 +1669,14 @@
           }
         },
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null
       },
       "items": [
         {
@@ -1634,12 +1703,13 @@
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.344",
             "systemId": "neon-lords",
             "systemVersion": "0.0.10",
             "createdTime": null,
             "modifiedTime": null,
-            "lastModifiedBy": null
+            "lastModifiedBy": null,
+            "exportSource": null
           }
         },
         {
@@ -1661,12 +1731,13 @@
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.344",
             "systemId": "neon-lords",
             "systemVersion": "0.0.10",
             "createdTime": null,
             "modifiedTime": null,
-            "lastModifiedBy": null
+            "lastModifiedBy": null,
+            "exportSource": null
           }
         }
       ],
@@ -1675,12 +1746,13 @@
       "_stats": {
         "compendiumSource": "Compendium.neon-lords.actors.Actor.qQTwUfbEzr2CrC4m",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.344",
         "systemId": "neon-lords",
         "systemVersion": "0.0.10",
         "createdTime": 1745589709867,
         "modifiedTime": 1745620642645,
-        "lastModifiedBy": "x53CwYXR1zhkCDCY"
+        "lastModifiedBy": "x53CwYXR1zhkCDCY",
+        "exportSource": null
       },
       "ownership": {
         "default": 0,
@@ -1749,7 +1821,6 @@
           "tint": "#ffffff",
           "alphaThreshold": 0.75
         },
-        "hexagonalShape": 0,
         "lockRotation": false,
         "rotation": 0,
         "alpha": 1,
@@ -1814,7 +1885,14 @@
           }
         },
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null
       },
       "items": [
         {
@@ -1841,12 +1919,13 @@
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.344",
             "systemId": "neon-lords",
             "systemVersion": "0.0.10",
             "createdTime": null,
             "modifiedTime": null,
-            "lastModifiedBy": null
+            "lastModifiedBy": null,
+            "exportSource": null
           }
         },
         {
@@ -1868,12 +1947,13 @@
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.344",
             "systemId": "neon-lords",
             "systemVersion": "0.0.10",
             "createdTime": null,
             "modifiedTime": null,
-            "lastModifiedBy": null
+            "lastModifiedBy": null,
+            "exportSource": null
           }
         },
         {
@@ -1895,12 +1975,13 @@
           "_stats": {
             "compendiumSource": "Actor.6vHDGtxnIeYaaUiD.Item.dpF65Rzvn4Xvkelj",
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.344",
             "systemId": "neon-lords",
             "systemVersion": "0.0.10",
             "createdTime": null,
             "modifiedTime": null,
-            "lastModifiedBy": null
+            "lastModifiedBy": null,
+            "exportSource": null
           }
         }
       ],
@@ -1914,12 +1995,13 @@
       "_stats": {
         "compendiumSource": "Compendium.neon-lords.actors.Actor.Lf1kVxdLWAU9mq1F",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.344",
         "systemId": "neon-lords",
         "systemVersion": "0.0.10",
         "createdTime": 1745589558766,
         "modifiedTime": 1745590148576,
-        "lastModifiedBy": "x53CwYXR1zhkCDCY"
+        "lastModifiedBy": "x53CwYXR1zhkCDCY",
+        "exportSource": null
       },
       "_id": "BAV2NrPlVZeOKnnd",
       "sort": 900000
@@ -1984,7 +2066,6 @@
           "tint": "#ffffff",
           "alphaThreshold": 0.75
         },
-        "hexagonalShape": 0,
         "lockRotation": false,
         "rotation": 0,
         "alpha": 1,
@@ -2049,7 +2130,14 @@
           }
         },
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null
       },
       "items": [
         {
@@ -2076,12 +2164,13 @@
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.344",
             "systemId": "neon-lords",
             "systemVersion": "0.0.10",
             "createdTime": null,
             "modifiedTime": null,
-            "lastModifiedBy": null
+            "lastModifiedBy": null,
+            "exportSource": null
           }
         },
         {
@@ -2103,12 +2192,13 @@
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.344",
             "systemId": "neon-lords",
             "systemVersion": "0.0.10",
             "createdTime": null,
             "modifiedTime": null,
-            "lastModifiedBy": null
+            "lastModifiedBy": null,
+            "exportSource": null
           }
         }
       ],
@@ -2118,12 +2208,13 @@
       "_stats": {
         "compendiumSource": "Compendium.neon-lords.actors.Actor.0ZTQCHyNCMmiSWdv",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.344",
         "systemId": "neon-lords",
         "systemVersion": "0.0.10",
         "createdTime": 1745589896276,
         "modifiedTime": 1745590148576,
-        "lastModifiedBy": "x53CwYXR1zhkCDCY"
+        "lastModifiedBy": "x53CwYXR1zhkCDCY",
+        "exportSource": null
       },
       "ownership": {
         "default": 0,
@@ -2192,7 +2283,6 @@
           "tint": "#ffffff",
           "alphaThreshold": 0.75
         },
-        "hexagonalShape": 0,
         "lockRotation": false,
         "rotation": 0,
         "alpha": 1,
@@ -2257,7 +2347,14 @@
           }
         },
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null
       },
       "items": [
         {
@@ -2284,12 +2381,13 @@
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.344",
             "systemId": "neon-lords",
             "systemVersion": "0.0.10",
             "createdTime": null,
             "modifiedTime": null,
-            "lastModifiedBy": null
+            "lastModifiedBy": null,
+            "exportSource": null
           }
         },
         {
@@ -2311,12 +2409,13 @@
           "_stats": {
             "compendiumSource": "Actor.NGrD9qq3zOhNhwJM.Item.qFfggQMyhEly1ibW",
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.344",
             "systemId": "neon-lords",
             "systemVersion": "0.0.10",
             "createdTime": null,
             "modifiedTime": null,
-            "lastModifiedBy": null
+            "lastModifiedBy": null,
+            "exportSource": null
           }
         },
         {
@@ -2343,12 +2442,13 @@
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.344",
             "systemId": "neon-lords",
             "systemVersion": "0.0.10",
             "createdTime": null,
             "modifiedTime": null,
-            "lastModifiedBy": null
+            "lastModifiedBy": null,
+            "exportSource": null
           }
         }
       ],
@@ -2358,12 +2458,13 @@
       "_stats": {
         "compendiumSource": "Compendium.neon-lords.actors.Actor.IBEke4njGAbl5Vlo",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.344",
         "systemId": "neon-lords",
         "systemVersion": "0.0.10",
         "createdTime": 1745590097123,
         "modifiedTime": 1745618365664,
-        "lastModifiedBy": "x53CwYXR1zhkCDCY"
+        "lastModifiedBy": "x53CwYXR1zhkCDCY",
+        "exportSource": null
       },
       "ownership": {
         "default": 0,
@@ -2432,7 +2533,6 @@
           "tint": "#ffffff",
           "alphaThreshold": 0.75
         },
-        "hexagonalShape": 0,
         "lockRotation": false,
         "rotation": 0,
         "alpha": 1,
@@ -2497,7 +2597,14 @@
           }
         },
         "flags": {},
-        "randomImg": false
+        "randomImg": false,
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null
       },
       "items": [
         {
@@ -2524,12 +2631,13 @@
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.344",
             "systemId": "neon-lords",
             "systemVersion": "0.0.10",
             "createdTime": null,
             "modifiedTime": null,
-            "lastModifiedBy": null
+            "lastModifiedBy": null,
+            "exportSource": null
           }
         },
         {
@@ -2551,12 +2659,13 @@
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.344",
             "systemId": "neon-lords",
             "systemVersion": "0.0.10",
             "createdTime": null,
             "modifiedTime": null,
-            "lastModifiedBy": null
+            "lastModifiedBy": null,
+            "exportSource": null
           }
         }
       ],
@@ -2566,12 +2675,13 @@
       "_stats": {
         "compendiumSource": "Compendium.neon-lords.actors.Actor.Jl8B7jbkA0voPPiO",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.344",
         "systemId": "neon-lords",
         "systemVersion": "0.0.10",
         "createdTime": 1745589507542,
         "modifiedTime": 1745592930180,
-        "lastModifiedBy": "x53CwYXR1zhkCDCY"
+        "lastModifiedBy": "x53CwYXR1zhkCDCY",
+        "exportSource": null
       },
       "ownership": {
         "default": 0,
@@ -2605,12 +2715,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.344",
         "systemId": "neon-lords",
         "systemVersion": "0.0.9",
         "createdTime": 1745427140174,
         "modifiedTime": 1745427227483,
-        "lastModifiedBy": "x53CwYXR1zhkCDCY"
+        "lastModifiedBy": "x53CwYXR1zhkCDCY",
+        "exportSource": null
       }
     },
     {
@@ -2635,12 +2746,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.344",
         "systemId": "neon-lords",
         "systemVersion": "0.0.9",
         "createdTime": 1745423033510,
         "modifiedTime": 1745423397938,
-        "lastModifiedBy": "x53CwYXR1zhkCDCY"
+        "lastModifiedBy": "x53CwYXR1zhkCDCY",
+        "exportSource": null
       }
     },
     {
@@ -2665,12 +2777,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.344",
         "systemId": "neon-lords",
         "systemVersion": "0.0.10",
         "createdTime": 1745588874754,
         "modifiedTime": 1745589172769,
-        "lastModifiedBy": "x53CwYXR1zhkCDCY"
+        "lastModifiedBy": "x53CwYXR1zhkCDCY",
+        "exportSource": null
       }
     }
   ],
@@ -2707,13 +2820,15 @@
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.344",
             "systemId": "neon-lords",
             "systemVersion": "0.0.9",
             "createdTime": 1745420035439,
             "modifiedTime": 1745588484492,
-            "lastModifiedBy": "x53CwYXR1zhkCDCY"
-          }
+            "lastModifiedBy": "x53CwYXR1zhkCDCY",
+            "exportSource": null
+          },
+          "category": null
         },
         {
           "sort": 200000,
@@ -2743,13 +2858,15 @@
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.344",
             "systemId": "neon-lords",
             "systemVersion": "0.0.9",
             "createdTime": 1745420299731,
             "modifiedTime": 1745424731179,
-            "lastModifiedBy": "x53CwYXR1zhkCDCY"
-          }
+            "lastModifiedBy": "x53CwYXR1zhkCDCY",
+            "exportSource": null
+          },
+          "category": null
         },
         {
           "sort": 400000,
@@ -2779,13 +2896,15 @@
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.344",
             "systemId": "neon-lords",
             "systemVersion": "0.0.9",
             "createdTime": 1745421513922,
             "modifiedTime": 1745588507405,
-            "lastModifiedBy": "x53CwYXR1zhkCDCY"
-          }
+            "lastModifiedBy": "x53CwYXR1zhkCDCY",
+            "exportSource": null
+          },
+          "category": null
         },
         {
           "sort": 500000,
@@ -2815,13 +2934,15 @@
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.344",
             "systemId": "neon-lords",
             "systemVersion": "0.0.9",
             "createdTime": 1745421706187,
             "modifiedTime": 1745421799840,
-            "lastModifiedBy": "x53CwYXR1zhkCDCY"
-          }
+            "lastModifiedBy": "x53CwYXR1zhkCDCY",
+            "exportSource": null
+          },
+          "category": null
         },
         {
           "sort": 600000,
@@ -2851,13 +2972,15 @@
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.344",
             "systemId": "neon-lords",
             "systemVersion": "0.0.9",
             "createdTime": 1745421848484,
             "modifiedTime": 1745588685035,
-            "lastModifiedBy": "x53CwYXR1zhkCDCY"
-          }
+            "lastModifiedBy": "x53CwYXR1zhkCDCY",
+            "exportSource": null
+          },
+          "category": null
         },
         {
           "sort": 700000,
@@ -2887,13 +3010,15 @@
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.344",
             "systemId": "neon-lords",
             "systemVersion": "0.0.9",
             "createdTime": 1745424741174,
             "modifiedTime": 1745431315995,
-            "lastModifiedBy": "x53CwYXR1zhkCDCY"
-          }
+            "lastModifiedBy": "x53CwYXR1zhkCDCY",
+            "exportSource": null
+          },
+          "category": null
         },
         {
           "sort": 800000,
@@ -2923,13 +3048,15 @@
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.344",
             "systemId": "neon-lords",
             "systemVersion": "0.0.9",
             "createdTime": 1745424751716,
             "modifiedTime": 1745426933466,
-            "lastModifiedBy": "x53CwYXR1zhkCDCY"
-          }
+            "lastModifiedBy": "x53CwYXR1zhkCDCY",
+            "exportSource": null
+          },
+          "category": null
         },
         {
           "sort": 900000,
@@ -2959,13 +3086,15 @@
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.344",
             "systemId": "neon-lords",
             "systemVersion": "0.0.9",
             "createdTime": 1745424759655,
             "modifiedTime": 1745431369702,
-            "lastModifiedBy": "x53CwYXR1zhkCDCY"
-          }
+            "lastModifiedBy": "x53CwYXR1zhkCDCY",
+            "exportSource": null
+          },
+          "category": null
         },
         {
           "sort": 1000000,
@@ -2995,13 +3124,15 @@
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.344",
             "systemId": "neon-lords",
             "systemVersion": "0.0.9",
             "createdTime": 1745424769756,
             "modifiedTime": 1745588774558,
-            "lastModifiedBy": "x53CwYXR1zhkCDCY"
-          }
+            "lastModifiedBy": "x53CwYXR1zhkCDCY",
+            "exportSource": null
+          },
+          "category": null
         },
         {
           "sort": 1100000,
@@ -3031,13 +3162,15 @@
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.344",
             "systemId": "neon-lords",
             "systemVersion": "0.0.9",
             "createdTime": 1745424781344,
             "modifiedTime": 1745431755850,
-            "lastModifiedBy": "x53CwYXR1zhkCDCY"
-          }
+            "lastModifiedBy": "x53CwYXR1zhkCDCY",
+            "exportSource": null
+          },
+          "category": null
         },
         {
           "sort": 1200000,
@@ -3067,13 +3200,15 @@
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.344",
             "systemId": "neon-lords",
             "systemVersion": "0.0.9",
             "createdTime": 1745424791417,
             "modifiedTime": 1745432586781,
-            "lastModifiedBy": "x53CwYXR1zhkCDCY"
-          }
+            "lastModifiedBy": "x53CwYXR1zhkCDCY",
+            "exportSource": null
+          },
+          "category": null
         },
         {
           "sort": 1300000,
@@ -3103,13 +3238,15 @@
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.344",
             "systemId": "neon-lords",
             "systemVersion": "0.0.9",
             "createdTime": 1745424803714,
             "modifiedTime": 1745593154628,
-            "lastModifiedBy": "x53CwYXR1zhkCDCY"
-          }
+            "lastModifiedBy": "x53CwYXR1zhkCDCY",
+            "exportSource": null
+          },
+          "category": null
         },
         {
           "sort": 1150000,
@@ -3139,13 +3276,15 @@
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.344",
             "systemId": "neon-lords",
             "systemVersion": "0.0.9",
             "createdTime": 1745424823518,
             "modifiedTime": 1745431869919,
-            "lastModifiedBy": "x53CwYXR1zhkCDCY"
-          }
+            "lastModifiedBy": "x53CwYXR1zhkCDCY",
+            "exportSource": null
+          },
+          "category": null
         }
       ],
       "folder": null,
@@ -3158,13 +3297,15 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.344",
         "systemId": "neon-lords",
         "systemVersion": "0.0.9",
         "createdTime": 1745419986083,
         "modifiedTime": 1745433390064,
-        "lastModifiedBy": "x53CwYXR1zhkCDCY"
-      }
+        "lastModifiedBy": "x53CwYXR1zhkCDCY",
+        "exportSource": null
+      },
+      "categories": []
     }
   ],
   "scenes": [
@@ -3259,8 +3400,6 @@
           "name": "Mutant Brute",
           "displayName": 10,
           "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
           "width": 1,
           "height": 1,
           "texture": {
@@ -3276,7 +3415,6 @@
             "tint": "#ffffff",
             "alphaThreshold": 0.75
           },
-          "hexagonalShape": 0,
           "lockRotation": false,
           "rotation": 0,
           "alpha": 1,
@@ -3353,20 +3491,28 @@
             "flags": {},
             "name": null,
             "type": null,
-            "img": null
+            "img": null,
+            "ownership": null
           },
           "x": 1000,
           "y": 3800,
           "elevation": 0,
           "locked": false,
-          "_regions": []
+          "_regions": [],
+          "shape": 4,
+          "turnMarker": {
+            "mode": 1,
+            "animation": null,
+            "src": null,
+            "disposition": false
+          },
+          "movementAction": null,
+          "_movementHistory": []
         },
         {
           "name": "Naked Cyberskin",
           "displayName": 10,
           "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
           "width": 1,
           "height": 1,
           "texture": {
@@ -3382,7 +3528,6 @@
             "tint": "#ffffff",
             "alphaThreshold": 0.75
           },
-          "hexagonalShape": 0,
           "lockRotation": false,
           "rotation": 0,
           "alpha": 1,
@@ -3459,20 +3604,28 @@
             "flags": {},
             "name": null,
             "type": null,
-            "img": "systems/neon-lords/assets/lastoutpost/nakedcyberskin.webp"
+            "img": "systems/neon-lords/assets/lastoutpost/nakedcyberskin.webp",
+            "ownership": null
           },
           "x": 2400,
           "y": 2400,
           "elevation": 0,
           "locked": false,
-          "_regions": []
+          "_regions": [],
+          "shape": 4,
+          "turnMarker": {
+            "mode": 1,
+            "animation": null,
+            "src": null,
+            "disposition": false
+          },
+          "movementAction": null,
+          "_movementHistory": []
         },
         {
           "name": "Naked Cyberskin",
           "displayName": 10,
           "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
           "width": 1,
           "height": 1,
           "texture": {
@@ -3488,7 +3641,6 @@
             "tint": "#ffffff",
             "alphaThreshold": 0.75
           },
-          "hexagonalShape": 0,
           "lockRotation": false,
           "rotation": 0,
           "alpha": 1,
@@ -3564,21 +3716,29 @@
             "flags": {},
             "name": null,
             "type": null,
-            "img": "systems/neon-lords/assets/lastoutpost/nakedcyberskin.webp"
+            "img": "systems/neon-lords/assets/lastoutpost/nakedcyberskin.webp",
+            "ownership": null
           },
           "x": 3800,
           "y": 3400,
           "elevation": 0,
           "locked": false,
           "_regions": [],
-          "_id": "xalU3uCVXCM7ADsC"
+          "_id": "xalU3uCVXCM7ADsC",
+          "shape": 4,
+          "turnMarker": {
+            "mode": 1,
+            "animation": null,
+            "src": null,
+            "disposition": false
+          },
+          "movementAction": null,
+          "_movementHistory": []
         },
         {
           "name": "Scientist",
           "displayName": 10,
           "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
           "width": 1,
           "height": 1,
           "texture": {
@@ -3594,7 +3754,6 @@
             "tint": "#ffffff",
             "alphaThreshold": 0.75
           },
-          "hexagonalShape": 0,
           "lockRotation": false,
           "rotation": 0,
           "alpha": 1,
@@ -3671,20 +3830,28 @@
             "flags": {},
             "name": null,
             "type": null,
-            "img": null
+            "img": null,
+            "ownership": null
           },
           "x": 2800,
           "y": 5400,
           "elevation": 0,
           "locked": false,
-          "_regions": []
+          "_regions": [],
+          "shape": 4,
+          "turnMarker": {
+            "mode": 1,
+            "animation": null,
+            "src": null,
+            "disposition": false
+          },
+          "movementAction": null,
+          "_movementHistory": []
         },
         {
           "name": "Naked Cyberskin",
           "displayName": 10,
           "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
           "width": 1,
           "height": 1,
           "texture": {
@@ -3700,7 +3867,6 @@
             "tint": "#ffffff",
             "alphaThreshold": 0.75
           },
-          "hexagonalShape": 0,
           "lockRotation": false,
           "rotation": 0,
           "alpha": 1,
@@ -3777,20 +3943,28 @@
             "flags": {},
             "name": null,
             "type": null,
-            "img": null
+            "img": null,
+            "ownership": null
           },
           "x": 1800,
           "y": 5400,
           "elevation": 0,
           "locked": false,
-          "_regions": []
+          "_regions": [],
+          "shape": 4,
+          "turnMarker": {
+            "mode": 1,
+            "animation": null,
+            "src": null,
+            "disposition": false
+          },
+          "movementAction": null,
+          "_movementHistory": []
         },
         {
           "name": "Doug",
           "displayName": 10,
           "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
           "width": 1,
           "height": 1,
           "texture": {
@@ -3806,7 +3980,6 @@
             "tint": "#ffffff",
             "alphaThreshold": 0.75
           },
-          "hexagonalShape": 0,
           "lockRotation": false,
           "rotation": 0,
           "alpha": 1,
@@ -3883,20 +4056,28 @@
             "flags": {},
             "name": null,
             "type": null,
-            "img": null
+            "img": null,
+            "ownership": null
           },
           "x": 1400,
           "y": 3400,
           "elevation": 0,
           "locked": false,
-          "_regions": []
+          "_regions": [],
+          "shape": 4,
+          "turnMarker": {
+            "mode": 1,
+            "animation": null,
+            "src": null,
+            "disposition": false
+          },
+          "movementAction": null,
+          "_movementHistory": []
         },
         {
           "name": "Cliff",
           "displayName": 10,
           "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
           "width": 1,
           "height": 1,
           "texture": {
@@ -3912,7 +4093,6 @@
             "tint": "#ffffff",
             "alphaThreshold": 0.75
           },
-          "hexagonalShape": 0,
           "lockRotation": false,
           "rotation": 0,
           "alpha": 1,
@@ -3989,20 +4169,28 @@
             "flags": {},
             "name": null,
             "type": null,
-            "img": null
+            "img": null,
+            "ownership": null
           },
           "x": 1400,
           "y": 3600,
           "elevation": 0,
           "locked": false,
-          "_regions": []
+          "_regions": [],
+          "shape": 4,
+          "turnMarker": {
+            "mode": 1,
+            "animation": null,
+            "src": null,
+            "disposition": false
+          },
+          "movementAction": null,
+          "_movementHistory": []
         },
         {
           "name": "Drool-Aid Cult Leader",
           "displayName": 10,
           "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
           "width": 1,
           "height": 1,
           "texture": {
@@ -4018,7 +4206,6 @@
             "tint": "#ffffff",
             "alphaThreshold": 0.75
           },
-          "hexagonalShape": 0,
           "lockRotation": false,
           "rotation": 0,
           "alpha": 1,
@@ -4120,12 +4307,13 @@
                 "_stats": {
                   "compendiumSource": null,
                   "duplicateSource": null,
-                  "coreVersion": "12.331",
+                  "coreVersion": "13.344",
                   "systemId": "neon-lords",
                   "systemVersion": "0.0.9",
                   "createdTime": 1742575407355,
                   "modifiedTime": 1745434379468,
-                  "lastModifiedBy": "x53CwYXR1zhkCDCY"
+                  "lastModifiedBy": "x53CwYXR1zhkCDCY",
+                  "exportSource": null
                 }
               }
             ],
@@ -4133,20 +4321,28 @@
             "flags": {},
             "name": null,
             "type": null,
-            "img": null
+            "img": null,
+            "ownership": null
           },
           "x": 2800,
           "y": 6600,
           "elevation": 0,
           "locked": false,
-          "_regions": []
+          "_regions": [],
+          "shape": 4,
+          "turnMarker": {
+            "mode": 1,
+            "animation": null,
+            "src": null,
+            "disposition": false
+          },
+          "movementAction": null,
+          "_movementHistory": []
         },
         {
           "name": "Gene-Slammed Lobster Man",
           "displayName": 0,
           "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
           "width": 1,
           "height": 1,
           "texture": {
@@ -4162,7 +4358,6 @@
             "tint": "#ffffff",
             "alphaThreshold": 0.75
           },
-          "hexagonalShape": 0,
           "lockRotation": false,
           "rotation": 0,
           "alpha": 1,
@@ -4239,20 +4434,28 @@
             "flags": {},
             "name": null,
             "type": null,
-            "img": null
+            "img": null,
+            "ownership": null
           },
           "x": 3200,
           "y": 5400,
           "elevation": 0,
           "locked": false,
-          "_regions": []
+          "_regions": [],
+          "shape": 4,
+          "turnMarker": {
+            "mode": 1,
+            "animation": null,
+            "src": null,
+            "disposition": false
+          },
+          "movementAction": null,
+          "_movementHistory": []
         },
         {
           "name": "Zombie",
           "displayName": 10,
           "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
           "width": 1,
           "height": 1,
           "texture": {
@@ -4268,7 +4471,6 @@
             "tint": "#ffffff",
             "alphaThreshold": 0.75
           },
-          "hexagonalShape": 0,
           "lockRotation": false,
           "rotation": 0,
           "alpha": 1,
@@ -4345,20 +4547,28 @@
             "flags": {},
             "name": null,
             "type": null,
-            "img": null
+            "img": null,
+            "ownership": null
           },
           "x": 400,
           "y": 6800,
           "elevation": 0,
           "locked": false,
-          "_regions": []
+          "_regions": [],
+          "shape": 4,
+          "turnMarker": {
+            "mode": 1,
+            "animation": null,
+            "src": null,
+            "disposition": false
+          },
+          "movementAction": null,
+          "_movementHistory": []
         },
         {
           "name": "Drool-Aid Man",
           "displayName": 10,
           "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
           "width": 1,
           "height": 1,
           "texture": {
@@ -4374,7 +4584,6 @@
             "tint": "#ffffff",
             "alphaThreshold": 0.75
           },
-          "hexagonalShape": 0,
           "lockRotation": false,
           "rotation": 0,
           "alpha": 1,
@@ -4451,20 +4660,28 @@
             "flags": {},
             "name": null,
             "type": null,
-            "img": null
+            "img": null,
+            "ownership": null
           },
           "x": 2800,
           "y": 7200,
           "elevation": 0,
           "locked": false,
-          "_regions": []
+          "_regions": [],
+          "shape": 4,
+          "turnMarker": {
+            "mode": 1,
+            "animation": null,
+            "src": null,
+            "disposition": false
+          },
+          "movementAction": null,
+          "_movementHistory": []
         },
         {
           "name": "Drool-Aid Cultist",
           "displayName": 10,
           "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
           "width": 1,
           "height": 1,
           "texture": {
@@ -4480,7 +4697,6 @@
             "tint": "#ffffff",
             "alphaThreshold": 0.75
           },
-          "hexagonalShape": 0,
           "lockRotation": false,
           "rotation": 0,
           "alpha": 1,
@@ -4557,20 +4773,28 @@
             "flags": {},
             "name": null,
             "type": null,
-            "img": null
+            "img": null,
+            "ownership": null
           },
           "x": 2400,
           "y": 7200,
           "elevation": 0,
           "locked": false,
-          "_regions": []
+          "_regions": [],
+          "shape": 4,
+          "turnMarker": {
+            "mode": 1,
+            "animation": null,
+            "src": null,
+            "disposition": false
+          },
+          "movementAction": null,
+          "_movementHistory": []
         },
         {
           "name": "Drool-Aid Cultist",
           "displayName": 10,
           "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
           "width": 1,
           "height": 1,
           "texture": {
@@ -4586,7 +4810,6 @@
             "tint": "#ffffff",
             "alphaThreshold": 0.75
           },
-          "hexagonalShape": 0,
           "lockRotation": false,
           "rotation": 0,
           "alpha": 1,
@@ -4662,21 +4885,29 @@
             "flags": {},
             "name": null,
             "type": null,
-            "img": null
+            "img": null,
+            "ownership": null
           },
           "x": 2600,
           "y": 6800,
           "elevation": 0,
           "locked": false,
           "_regions": [],
-          "_id": "Hz0fnvYkM12tNDMH"
+          "_id": "Hz0fnvYkM12tNDMH",
+          "shape": 4,
+          "turnMarker": {
+            "mode": 1,
+            "animation": null,
+            "src": null,
+            "disposition": false
+          },
+          "movementAction": null,
+          "_movementHistory": []
         },
         {
           "name": "Drool-Aid Cultist",
           "displayName": 10,
           "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
           "width": 1,
           "height": 1,
           "texture": {
@@ -4692,7 +4923,6 @@
             "tint": "#ffffff",
             "alphaThreshold": 0.75
           },
-          "hexagonalShape": 0,
           "lockRotation": false,
           "rotation": 0,
           "alpha": 1,
@@ -4768,21 +4998,29 @@
             "flags": {},
             "name": null,
             "type": null,
-            "img": null
+            "img": null,
+            "ownership": null
           },
           "x": 2400,
           "y": 7000,
           "elevation": 0,
           "locked": false,
           "_regions": [],
-          "_id": "bPgSthVvTIK4rEwK"
+          "_id": "bPgSthVvTIK4rEwK",
+          "shape": 4,
+          "turnMarker": {
+            "mode": 1,
+            "animation": null,
+            "src": null,
+            "disposition": false
+          },
+          "movementAction": null,
+          "_movementHistory": []
         },
         {
           "name": "Drool-Aid Cultist",
           "displayName": 10,
           "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
           "width": 1,
           "height": 1,
           "texture": {
@@ -4798,7 +5036,6 @@
             "tint": "#ffffff",
             "alphaThreshold": 0.75
           },
-          "hexagonalShape": 0,
           "lockRotation": false,
           "rotation": 0,
           "alpha": 1,
@@ -4874,21 +5111,29 @@
             "flags": {},
             "name": null,
             "type": null,
-            "img": null
+            "img": null,
+            "ownership": null
           },
           "x": 3000,
           "y": 6800,
           "elevation": 0,
           "locked": false,
           "_regions": [],
-          "_id": "8uKmfWxpxk92576h"
+          "_id": "8uKmfWxpxk92576h",
+          "shape": 4,
+          "turnMarker": {
+            "mode": 1,
+            "animation": null,
+            "src": null,
+            "disposition": false
+          },
+          "movementAction": null,
+          "_movementHistory": []
         },
         {
           "name": "Drool-Aid Cultist",
           "displayName": 10,
           "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
           "width": 1,
           "height": 1,
           "texture": {
@@ -4904,7 +5149,6 @@
             "tint": "#ffffff",
             "alphaThreshold": 0.75
           },
-          "hexagonalShape": 0,
           "lockRotation": false,
           "rotation": 0,
           "alpha": 1,
@@ -4980,21 +5224,29 @@
             "flags": {},
             "name": null,
             "type": null,
-            "img": null
+            "img": null,
+            "ownership": null
           },
           "x": 3200,
           "y": 7200,
           "elevation": 0,
           "locked": false,
           "_regions": [],
-          "_id": "ywTFh8DSzYIjuChk"
+          "_id": "ywTFh8DSzYIjuChk",
+          "shape": 4,
+          "turnMarker": {
+            "mode": 1,
+            "animation": null,
+            "src": null,
+            "disposition": false
+          },
+          "movementAction": null,
+          "_movementHistory": []
         },
         {
           "name": "Drool-Aid Cultist",
           "displayName": 10,
           "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
           "width": 1,
           "height": 1,
           "texture": {
@@ -5010,7 +5262,6 @@
             "tint": "#ffffff",
             "alphaThreshold": 0.75
           },
-          "hexagonalShape": 0,
           "lockRotation": false,
           "rotation": 0,
           "alpha": 1,
@@ -5086,21 +5337,29 @@
             "flags": {},
             "name": null,
             "type": null,
-            "img": null
+            "img": null,
+            "ownership": null
           },
           "x": 3200,
           "y": 7000,
           "elevation": 0,
           "locked": false,
           "_regions": [],
-          "_id": "prkB2ErObwPZ9dzH"
+          "_id": "prkB2ErObwPZ9dzH",
+          "shape": 4,
+          "turnMarker": {
+            "mode": 1,
+            "animation": null,
+            "src": null,
+            "disposition": false
+          },
+          "movementAction": null,
+          "_movementHistory": []
         },
         {
           "name": "Zombie",
           "displayName": 10,
           "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
           "width": 1,
           "height": 1,
           "texture": {
@@ -5116,7 +5375,6 @@
             "tint": "#ffffff",
             "alphaThreshold": 0.75
           },
-          "hexagonalShape": 0,
           "lockRotation": false,
           "rotation": 0,
           "alpha": 1,
@@ -5192,21 +5450,29 @@
             "flags": {},
             "name": null,
             "type": null,
-            "img": null
+            "img": null,
+            "ownership": null
           },
           "x": 1200,
           "y": 6600,
           "elevation": 0,
           "locked": false,
           "_regions": [],
-          "_id": "gfflTLWx4KkOTDCY"
+          "_id": "gfflTLWx4KkOTDCY",
+          "shape": 4,
+          "turnMarker": {
+            "mode": 1,
+            "animation": null,
+            "src": null,
+            "disposition": false
+          },
+          "movementAction": null,
+          "_movementHistory": []
         },
         {
           "name": "Zombie",
           "displayName": 10,
           "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
           "width": 1,
           "height": 1,
           "texture": {
@@ -5222,7 +5488,6 @@
             "tint": "#ffffff",
             "alphaThreshold": 0.75
           },
-          "hexagonalShape": 0,
           "lockRotation": false,
           "rotation": 0,
           "alpha": 1,
@@ -5298,21 +5563,29 @@
             "flags": {},
             "name": null,
             "type": null,
-            "img": null
+            "img": null,
+            "ownership": null
           },
           "x": 800,
           "y": 7000,
           "elevation": 0,
           "locked": false,
           "_regions": [],
-          "_id": "6YOSk9XmlDBosDSM"
+          "_id": "6YOSk9XmlDBosDSM",
+          "shape": 4,
+          "turnMarker": {
+            "mode": 1,
+            "animation": null,
+            "src": null,
+            "disposition": false
+          },
+          "movementAction": null,
+          "_movementHistory": []
         },
         {
           "name": "Mutant Gunner",
           "displayName": 10,
           "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
           "width": 1,
           "height": 1,
           "texture": {
@@ -5328,7 +5601,6 @@
             "tint": "#ffffff",
             "alphaThreshold": 0.75
           },
-          "hexagonalShape": 0,
           "lockRotation": false,
           "rotation": 0,
           "alpha": 1,
@@ -5405,20 +5677,28 @@
             "flags": {},
             "name": null,
             "type": null,
-            "img": null
+            "img": null,
+            "ownership": null
           },
           "x": 200,
           "y": 5600,
           "elevation": 0,
           "locked": false,
-          "_regions": []
+          "_regions": [],
+          "shape": 4,
+          "turnMarker": {
+            "mode": 1,
+            "animation": null,
+            "src": null,
+            "disposition": false
+          },
+          "movementAction": null,
+          "_movementHistory": []
         },
         {
           "name": "Mutant Gunner",
           "displayName": 10,
           "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
           "width": 1,
           "height": 1,
           "texture": {
@@ -5434,7 +5714,6 @@
             "tint": "#ffffff",
             "alphaThreshold": 0.75
           },
-          "hexagonalShape": 0,
           "lockRotation": false,
           "rotation": 0,
           "alpha": 1,
@@ -5510,21 +5789,29 @@
             "flags": {},
             "name": null,
             "type": null,
-            "img": null
+            "img": null,
+            "ownership": null
           },
           "x": 600,
           "y": 5600,
           "elevation": 0,
           "locked": false,
           "_regions": [],
-          "_id": "DA4A0lgszRzl0N2w"
+          "_id": "DA4A0lgszRzl0N2w",
+          "shape": 4,
+          "turnMarker": {
+            "mode": 1,
+            "animation": null,
+            "src": null,
+            "disposition": false
+          },
+          "movementAction": null,
+          "_movementHistory": []
         },
         {
           "name": "Mutant Raider",
           "displayName": 10,
           "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
           "width": 1,
           "height": 1,
           "texture": {
@@ -5540,7 +5827,6 @@
             "tint": "#ffffff",
             "alphaThreshold": 0.75
           },
-          "hexagonalShape": 0,
           "lockRotation": false,
           "rotation": 0,
           "alpha": 1,
@@ -5617,20 +5903,28 @@
             "flags": {},
             "name": null,
             "type": null,
-            "img": null
+            "img": null,
+            "ownership": null
           },
           "x": 3400,
           "y": 400,
           "elevation": 0,
           "locked": false,
-          "_regions": []
+          "_regions": [],
+          "shape": 4,
+          "turnMarker": {
+            "mode": 1,
+            "animation": null,
+            "src": null,
+            "disposition": false
+          },
+          "movementAction": null,
+          "_movementHistory": []
         },
         {
           "name": "Mutant Raider",
           "displayName": 10,
           "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
           "width": 1,
           "height": 1,
           "texture": {
@@ -5646,7 +5940,6 @@
             "tint": "#ffffff",
             "alphaThreshold": 0.75
           },
-          "hexagonalShape": 0,
           "lockRotation": false,
           "rotation": 0,
           "alpha": 1,
@@ -5722,21 +6015,29 @@
             "flags": {},
             "name": null,
             "type": null,
-            "img": null
+            "img": null,
+            "ownership": null
           },
           "x": 3600,
           "y": 1200,
           "elevation": 0,
           "locked": false,
           "_regions": [],
-          "_id": "sy0oJFCPgzmEIB7g"
+          "_id": "sy0oJFCPgzmEIB7g",
+          "shape": 4,
+          "turnMarker": {
+            "mode": 1,
+            "animation": null,
+            "src": null,
+            "disposition": false
+          },
+          "movementAction": null,
+          "_movementHistory": []
         },
         {
           "name": "Mutant Raider",
           "displayName": 10,
           "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
           "width": 1,
           "height": 1,
           "texture": {
@@ -5752,7 +6053,6 @@
             "tint": "#ffffff",
             "alphaThreshold": 0.75
           },
-          "hexagonalShape": 0,
           "lockRotation": false,
           "rotation": 0,
           "alpha": 1,
@@ -5828,21 +6128,29 @@
             "flags": {},
             "name": null,
             "type": null,
-            "img": null
+            "img": null,
+            "ownership": null
           },
           "x": 800,
           "y": 3400,
           "elevation": 0,
           "locked": false,
           "_regions": [],
-          "_id": "2FYj9yiY9dY6b1BQ"
+          "_id": "2FYj9yiY9dY6b1BQ",
+          "shape": 4,
+          "turnMarker": {
+            "mode": 1,
+            "animation": null,
+            "src": null,
+            "disposition": false
+          },
+          "movementAction": null,
+          "_movementHistory": []
         },
         {
           "name": "Mutant Raider",
           "displayName": 10,
           "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
           "width": 1,
           "height": 1,
           "texture": {
@@ -5858,7 +6166,6 @@
             "tint": "#ffffff",
             "alphaThreshold": 0.75
           },
-          "hexagonalShape": 0,
           "lockRotation": false,
           "rotation": 0,
           "alpha": 1,
@@ -5934,21 +6241,29 @@
             "flags": {},
             "name": null,
             "type": null,
-            "img": null
+            "img": null,
+            "ownership": null
           },
           "x": 800,
           "y": 3800,
           "elevation": 0,
           "locked": false,
           "_regions": [],
-          "_id": "T1GMeqhXcFL4V2SI"
+          "_id": "T1GMeqhXcFL4V2SI",
+          "shape": 4,
+          "turnMarker": {
+            "mode": 1,
+            "animation": null,
+            "src": null,
+            "disposition": false
+          },
+          "movementAction": null,
+          "_movementHistory": []
         },
         {
           "name": "Mutant Raider",
           "displayName": 10,
           "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
           "width": 1,
           "height": 1,
           "texture": {
@@ -5964,7 +6279,6 @@
             "tint": "#ffffff",
             "alphaThreshold": 0.75
           },
-          "hexagonalShape": 0,
           "lockRotation": false,
           "rotation": 0,
           "alpha": 1,
@@ -6040,21 +6354,29 @@
             "flags": {},
             "name": null,
             "type": null,
-            "img": null
+            "img": null,
+            "ownership": null
           },
           "x": 1000,
           "y": 4200,
           "elevation": 0,
           "locked": false,
           "_regions": [],
-          "_id": "FcbHmHBeHa5lXkCj"
+          "_id": "FcbHmHBeHa5lXkCj",
+          "shape": 4,
+          "turnMarker": {
+            "mode": 1,
+            "animation": null,
+            "src": null,
+            "disposition": false
+          },
+          "movementAction": null,
+          "_movementHistory": []
         },
         {
           "name": "Cultist",
           "displayName": 10,
           "actorLink": false,
-          "appendNumber": false,
-          "prependAdjective": false,
           "width": 1,
           "height": 1,
           "texture": {
@@ -6070,7 +6392,6 @@
             "tint": "#ffffff",
             "alphaThreshold": 0.75
           },
-          "hexagonalShape": 0,
           "lockRotation": false,
           "rotation": 0,
           "alpha": 1,
@@ -6147,13 +6468,23 @@
             "flags": {},
             "name": null,
             "type": null,
-            "img": null
+            "img": null,
+            "ownership": null
           },
           "x": 2800,
           "y": 400,
           "elevation": 0,
           "locked": false,
-          "_regions": []
+          "_regions": [],
+          "shape": 4,
+          "turnMarker": {
+            "mode": 1,
+            "animation": null,
+            "src": null,
+            "disposition": false
+          },
+          "movementAction": null,
+          "_movementHistory": []
         }
       ],
       "lights": [
@@ -7728,7 +8059,8 @@
           "dir": 0,
           "door": 0,
           "ds": 0,
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -7751,7 +8083,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -7774,7 +8107,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -7797,7 +8131,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -7820,7 +8155,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -7843,7 +8179,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -7866,7 +8203,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -7889,7 +8227,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -7912,7 +8251,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -7935,7 +8275,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -7958,7 +8299,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -7981,7 +8323,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -8004,7 +8347,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -8027,7 +8371,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -8050,7 +8395,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -8073,7 +8419,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -8096,7 +8443,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -8119,7 +8467,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -8142,7 +8491,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -8165,7 +8515,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -8188,7 +8539,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -8211,7 +8563,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -8234,7 +8587,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -8257,7 +8611,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -8280,7 +8635,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -8303,7 +8659,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -8326,7 +8683,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -8349,7 +8707,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -8372,7 +8731,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -8395,7 +8755,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -8418,7 +8779,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -8441,7 +8803,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -8464,7 +8827,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -8487,7 +8851,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -8510,7 +8875,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -8533,7 +8899,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 0,
@@ -8556,7 +8923,8 @@
           "dir": 0,
           "door": 0,
           "ds": 0,
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 0,
@@ -8579,7 +8947,8 @@
           "dir": 0,
           "door": 0,
           "ds": 0,
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 0,
@@ -8602,7 +8971,8 @@
           "dir": 0,
           "door": 0,
           "ds": 0,
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 0,
@@ -8625,7 +8995,8 @@
           "dir": 0,
           "door": 0,
           "ds": 0,
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 0,
@@ -8648,7 +9019,8 @@
           "dir": 0,
           "door": 0,
           "ds": 0,
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 0,
@@ -8671,7 +9043,8 @@
           "dir": 0,
           "door": 0,
           "ds": 0,
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -8694,7 +9067,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -8717,7 +9091,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -8740,7 +9115,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -8763,7 +9139,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -8786,7 +9163,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -8809,7 +9187,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -8832,7 +9211,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -8855,7 +9235,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -8878,7 +9259,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -8901,7 +9283,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -8924,7 +9307,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -8947,7 +9331,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -8970,7 +9355,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -8993,7 +9379,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 0,
@@ -9016,7 +9403,8 @@
           "dir": 0,
           "door": 0,
           "ds": 0,
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -9039,7 +9427,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -9062,7 +9451,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -9085,7 +9475,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -9108,7 +9499,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -9131,7 +9523,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -9154,7 +9547,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -9177,7 +9571,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -9200,7 +9595,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -9223,7 +9619,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -9246,7 +9643,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -9269,7 +9667,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -9292,7 +9691,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 0,
@@ -9315,7 +9715,8 @@
           "dir": 0,
           "door": 0,
           "ds": 0,
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -9338,7 +9739,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -9361,7 +9763,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -9384,7 +9787,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -9407,7 +9811,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -9430,7 +9835,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -9453,7 +9859,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -9476,7 +9883,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -9499,7 +9907,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -9522,7 +9931,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -9545,7 +9955,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -9568,7 +9979,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -9591,7 +10003,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -9614,7 +10027,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -9637,7 +10051,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -9660,7 +10075,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -9683,7 +10099,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -9706,7 +10123,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -9729,7 +10147,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -9752,7 +10171,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -9775,7 +10195,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -9798,7 +10219,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -9821,7 +10243,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -9844,7 +10267,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -9867,7 +10291,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -9890,7 +10315,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -9913,7 +10339,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -9936,7 +10363,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -9959,7 +10387,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -9982,7 +10411,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -10005,7 +10435,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -10028,7 +10459,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -10051,7 +10483,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -10074,7 +10507,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -10097,7 +10531,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -10120,7 +10555,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -10143,7 +10579,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -10166,7 +10603,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -10189,7 +10627,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -10212,7 +10651,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -10235,7 +10675,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -10258,7 +10699,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -10281,7 +10723,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -10304,7 +10747,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -10327,7 +10771,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -10350,7 +10795,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -10373,7 +10819,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -10396,7 +10843,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -10419,7 +10867,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -10442,7 +10891,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -10465,7 +10915,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -10488,7 +10939,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -10511,7 +10963,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -10534,7 +10987,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -10557,7 +11011,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -10580,7 +11035,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -10603,7 +11059,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -10626,7 +11083,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -10649,7 +11107,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 20,
@@ -10672,7 +11131,8 @@
             "sound": null,
             "attenuation": false
           },
-          "flags": {}
+          "flags": {},
+          "animation": null
         },
         {
           "light": 0,
@@ -10696,7 +11156,8 @@
             "attenuation": false
           },
           "flags": {},
-          "doorSound": ""
+          "doorSound": "",
+          "animation": null
         },
         {
           "light": 0,
@@ -10720,7 +11181,8 @@
             "attenuation": false
           },
           "flags": {},
-          "doorSound": ""
+          "doorSound": "",
+          "animation": null
         },
         {
           "light": 0,
@@ -10744,7 +11206,8 @@
             "attenuation": false
           },
           "flags": {},
-          "doorSound": ""
+          "doorSound": "",
+          "animation": null
         }
       ],
       "playlist": null,
@@ -10762,12 +11225,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.344",
         "systemId": "neon-lords",
         "systemVersion": "0.0.6",
         "createdTime": 1742497717492,
         "modifiedTime": 1745424539900,
-        "lastModifiedBy": "x53CwYXR1zhkCDCY"
+        "lastModifiedBy": "x53CwYXR1zhkCDCY",
+        "exportSource": null
       }
     }
   ],
@@ -10788,10 +11252,21 @@
           ],
           "drawn": false,
           "_id": "Oy688VIUxXlKwhua",
-          "text": "The outpost burnt to the ground There are no survivors.",
           "img": "icons/svg/d20-black.svg",
-          "documentId": null,
-          "flags": {}
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.344",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "description": "The outpost burnt to the ground There are no survivors.",
+          "name": ""
         },
         {
           "type": "text",
@@ -10802,10 +11277,21 @@
           ],
           "drawn": false,
           "_id": "7tvS3bMHB0jzlkEV",
-          "text": "Mutiny! The guards have taken control of the outpost.",
           "img": "icons/svg/d20-black.svg",
-          "documentId": null,
-          "flags": {}
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.344",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "description": "Mutiny! The guards have taken control of the outpost.",
+          "name": ""
         },
         {
           "type": "text",
@@ -10816,10 +11302,21 @@
           ],
           "drawn": false,
           "_id": "RA0ddMMIftCc2aTy",
-          "text": "They are holding hostages in one of the rooms.",
           "img": "icons/svg/d20-black.svg",
-          "documentId": null,
-          "flags": {}
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.344",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "description": "They are holding hostages in one of the rooms.",
+          "name": ""
         },
         {
           "type": "text",
@@ -10830,10 +11327,21 @@
           ],
           "drawn": false,
           "_id": "bchynsFg72JAYhhW",
-          "text": "A portal to HELLWORLD has been opened.",
           "img": "icons/svg/d20-black.svg",
-          "documentId": null,
-          "flags": {}
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.344",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "description": "A portal to HELLWORLD has been opened.",
+          "name": ""
         },
         {
           "type": "text",
@@ -10844,10 +11352,21 @@
           ],
           "drawn": false,
           "_id": "BM81YUDb4yWJBfvg",
-          "text": "The outpost is a front for a secret Lab.",
           "img": "icons/svg/d20-black.svg",
-          "documentId": null,
-          "flags": {}
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.344",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "description": "The outpost is a front for a secret Lab.",
+          "name": ""
         },
         {
           "type": "text",
@@ -10858,10 +11377,21 @@
           ],
           "drawn": false,
           "_id": "8YJmSgOdJutV7oOw",
-          "text": "Hidden beneath the outpost is a cache of exotic weapons and fantastical items.",
           "img": "icons/svg/d20-black.svg",
-          "documentId": null,
-          "flags": {}
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.344",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "description": "Hidden beneath the outpost is a cache of exotic weapons and fantastical items.",
+          "name": ""
         },
         {
           "type": "text",
@@ -10872,10 +11402,21 @@
           ],
           "drawn": false,
           "_id": "lkE0mXtLZ7ovdYen",
-          "text": "In a foot locker is hidden a can of Glug-Chug.",
           "img": "icons/svg/d20-black.svg",
-          "documentId": null,
-          "flags": {}
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.344",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "description": "In a foot locker is hidden a can of Glug-Chug.",
+          "name": ""
         },
         {
           "type": "text",
@@ -10886,10 +11427,21 @@
           ],
           "drawn": false,
           "_id": "HKzDDrizgliH1Jdx",
-          "text": "Part of the Drool-Aid Cult is using the outpost to summon the Drool-Aid man.",
           "img": "icons/svg/d20-black.svg",
-          "documentId": null,
-          "flags": {}
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.344",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "description": "Part of the Drool-Aid Cult is using the outpost to summon the Drool-Aid man.",
+          "name": ""
         }
       ],
       "replacement": true,
@@ -10903,12 +11455,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.344",
         "systemId": "neon-lords",
         "systemVersion": "0.0.6",
         "createdTime": 1742575663659,
         "modifiedTime": 1742575885190,
-        "lastModifiedBy": "x53CwYXR1zhkCDCY"
+        "lastModifiedBy": "x53CwYXR1zhkCDCY",
+        "exportSource": null
       },
       "formula": "1D8"
     },
@@ -10928,29 +11481,50 @@
           ],
           "drawn": false,
           "_id": "wVd5Hx8qqU0b0Iwj",
-          "text": "[[1D4]] Mutant Brutes",
           "img": "icons/svg/d20-black.svg",
-          "documentId": null,
-          "flags": {}
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.344",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "description": "[[1D4]] Mutant Brutes",
+          "name": ""
         },
         {
           "type": "document",
-          "documentCollection": "Actor",
           "weight": 1,
           "range": [
             1,
             1
           ],
           "drawn": false,
-          "text": "Mutant Brute",
-          "documentId": "9EjNegTz3a54IrzR",
           "img": "systems/neon-lords/assets/creeps/mutantbrute.webp",
           "_id": "kUOCgWmDq3X1jKxR",
-          "flags": {}
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.344",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "name": "Mutant Brute",
+          "documentUuid": "Actor.9EjNegTz3a54IrzR",
+          "description": ""
         },
         {
           "type": "text",
-          "documentCollection": "Actor",
           "weight": 1,
           "range": [
             2,
@@ -10958,29 +11532,50 @@
           ],
           "drawn": false,
           "_id": "PC3wE7InUpSAknvk",
-          "text": "Rival War Wizard and [[1D4]] Otherworldly Spawn",
           "img": "icons/svg/d20-black.svg",
-          "documentId": null,
-          "flags": {}
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.344",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "description": "Rival War Wizard and [[1D4]] Otherworldly Spawn",
+          "name": ""
         },
         {
-          "type": "pack",
-          "documentCollection": "neon-lords.actors",
+          "type": "document",
           "weight": 1,
           "range": [
             2,
             2
           ],
           "drawn": false,
-          "text": "Otherworldly Spawn",
-          "documentId": "uNeHflrrzIEH4HxO",
           "img": "systems/neon-lords/assets/creeps/otherworldlyspawn.webp",
           "_id": "86UXqsw0MLlITMUW",
-          "flags": {}
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.344",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "name": "Otherworldly Spawn",
+          "documentUuid": "Compendium.neon-lords.actors.Actor.uNeHflrrzIEH4HxO",
+          "description": ""
         },
         {
           "type": "text",
-          "documentCollection": "neon-lords.actors",
           "weight": 1,
           "range": [
             3,
@@ -10988,29 +11583,50 @@
           ],
           "drawn": false,
           "_id": "ABO2OmqGDqeCxNml",
-          "text": "[[2D4]] Mutant Raiders",
           "img": "icons/svg/d20-black.svg",
-          "documentId": null,
-          "flags": {}
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.344",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "description": "[[2D4]] Mutant Raiders",
+          "name": ""
         },
         {
-          "type": "pack",
-          "documentCollection": "neon-lords.actors",
+          "type": "document",
           "weight": 1,
           "range": [
             3,
             3
           ],
           "drawn": false,
-          "text": "Mutant Raider",
-          "documentId": "IBEke4njGAbl5Vlo",
           "img": "systems/neon-lords/assets/creeps/mutantraider.webp",
           "_id": "SOgUNhDUjsbQ6mm6",
-          "flags": {}
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.344",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "name": "Mutant Raider",
+          "documentUuid": "Compendium.neon-lords.actors.Actor.IBEke4njGAbl5Vlo",
+          "description": ""
         },
         {
           "type": "text",
-          "documentCollection": "neon-lords.actors",
           "weight": 1,
           "range": [
             4,
@@ -11018,25 +11634,47 @@
           ],
           "drawn": false,
           "_id": "qdF1XcLQ9boxZbAg",
-          "text": "1 Suicide Machine",
           "img": "icons/svg/d20-black.svg",
-          "documentId": null,
-          "flags": {}
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.344",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "description": "1 Suicide Machine",
+          "name": ""
         },
         {
-          "type": "pack",
-          "documentCollection": "neon-lords.actors",
+          "type": "document",
           "weight": 1,
           "range": [
             4,
             4
           ],
           "drawn": false,
-          "text": "Suicide Machine",
-          "documentId": "pu5haGx0RqmuGSHl",
           "img": "systems/neon-lords/assets/creeps/suicidemachine.webp",
           "_id": "B0c1C1RhMXwBoyDo",
-          "flags": {}
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.344",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "name": "Suicide Machine",
+          "documentUuid": "Compendium.neon-lords.actors.Actor.pu5haGx0RqmuGSHl",
+          "description": ""
         }
       ],
       "replacement": true,
@@ -11050,12 +11688,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.344",
         "systemId": "neon-lords",
         "systemVersion": "0.0.6",
         "createdTime": 1742576078186,
         "modifiedTime": 1745590917478,
-        "lastModifiedBy": "x53CwYXR1zhkCDCY"
+        "lastModifiedBy": "x53CwYXR1zhkCDCY",
+        "exportSource": null
       },
       "formula": "1D4"
     },
@@ -11075,10 +11714,21 @@
           ],
           "drawn": false,
           "_id": "MURc61tUv0a5qufU",
-          "text": "[[1D4]] Mutant Raiders",
           "img": "icons/svg/d20-black.svg",
-          "documentId": null,
-          "flags": {}
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.344",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "description": "[[1D4]] Mutant Raiders",
+          "name": ""
         },
         {
           "type": "text",
@@ -11089,10 +11739,21 @@
           ],
           "drawn": false,
           "_id": "L1XCwRyeoHeXW1Bc",
-          "text": "2 Mutant Brutes fighting over half of a guardsmen",
           "img": "icons/svg/d20-black.svg",
-          "documentId": null,
-          "flags": {}
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.344",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "description": "2 Mutant Brutes fighting over half of a guardsmen",
+          "name": ""
         },
         {
           "type": "text",
@@ -11103,10 +11764,21 @@
           ],
           "drawn": false,
           "_id": "BXhEFTbGw5JdzhHf",
-          "text": "Naked Cyberskin, naked and has blood-lust in his robot eyes",
           "img": "icons/svg/d20-black.svg",
-          "documentId": null,
-          "flags": {}
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.344",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "description": "Naked Cyberskin, naked and has blood-lust in his robot eyes",
+          "name": ""
         },
         {
           "type": "text",
@@ -11117,70 +11789,125 @@
           ],
           "drawn": false,
           "_id": "NDmtZdYRjKCXXUEN",
-          "text": "[[1D4]] Mutant Cultists",
           "img": "icons/svg/d20-black.svg",
-          "documentId": null,
-          "flags": {}
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.344",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "description": "[[1D4]] Mutant Cultists",
+          "name": ""
         },
         {
           "type": "document",
-          "documentCollection": "Actor",
           "weight": 1,
           "range": [
             2,
             2
           ],
           "drawn": false,
-          "text": "Mutant Brute",
-          "documentId": "9EjNegTz3a54IrzR",
           "img": "systems/neon-lords/assets/creeps/mutantbrute.webp",
           "_id": "TZTEwWEW9PkQ4zYM",
-          "flags": {}
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.344",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "name": "Mutant Brute",
+          "documentUuid": "Actor.9EjNegTz3a54IrzR",
+          "description": ""
         },
         {
           "type": "document",
-          "documentCollection": "Actor",
           "weight": 1,
           "range": [
             3,
             3
           ],
           "drawn": false,
-          "text": "Naked Cyberskin",
-          "documentId": "T46xeMMgOmcUrcvD",
           "img": "systems/neon-lords/assets/creeps/nakedcyberskin.webp",
           "_id": "7Zc23ng6Tz8gqnow",
-          "flags": {}
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.344",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "name": "Naked Cyberskin",
+          "documentUuid": "Actor.T46xeMMgOmcUrcvD",
+          "description": ""
         },
         {
-          "type": "pack",
-          "documentCollection": "neon-lords.actors",
+          "type": "document",
           "weight": 1,
           "range": [
             4,
             4
           ],
           "drawn": false,
-          "text": "Cultist",
-          "documentId": "qQTwUfbEzr2CrC4m",
           "img": "systems/neon-lords/assets/creeps/cultist.webp",
           "_id": "6xblSrO85WyG6bV6",
-          "flags": {}
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.344",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "name": "Cultist",
+          "documentUuid": "Compendium.neon-lords.actors.Actor.qQTwUfbEzr2CrC4m",
+          "description": ""
         },
         {
-          "type": "pack",
-          "documentCollection": "neon-lords.actors",
+          "type": "document",
           "weight": 1,
           "range": [
             1,
             1
           ],
           "drawn": false,
-          "text": "Mutant Raider",
-          "documentId": "IBEke4njGAbl5Vlo",
           "img": "systems/neon-lords/assets/creeps/mutantraider.webp",
           "_id": "UrBMThgECOQibmmQ",
-          "flags": {}
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.344",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "name": "Mutant Raider",
+          "documentUuid": "Compendium.neon-lords.actors.Actor.IBEke4njGAbl5Vlo",
+          "description": ""
         }
       ],
       "replacement": true,
@@ -11194,12 +11921,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.344",
         "systemId": "neon-lords",
         "systemVersion": "0.0.6",
         "createdTime": 1742575921592,
         "modifiedTime": 1745590953679,
-        "lastModifiedBy": "x53CwYXR1zhkCDCY"
+        "lastModifiedBy": "x53CwYXR1zhkCDCY",
+        "exportSource": null
       },
       "formula": "1D4"
     }
@@ -11221,12 +11949,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.344",
         "systemId": "neon-lords",
         "systemVersion": "0.0.6",
         "createdTime": 1742574579942,
         "modifiedTime": 1742574579942,
-        "lastModifiedBy": "x53CwYXR1zhkCDCY"
+        "lastModifiedBy": "x53CwYXR1zhkCDCY",
+        "exportSource": null
       }
     },
     {
@@ -11242,12 +11971,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.344",
         "systemId": "neon-lords",
         "systemVersion": "0.0.6",
         "createdTime": 1742575653952,
         "modifiedTime": 1742575653952,
-        "lastModifiedBy": "x53CwYXR1zhkCDCY"
+        "lastModifiedBy": "x53CwYXR1zhkCDCY",
+        "exportSource": null
       }
     },
     {
@@ -11263,12 +11993,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.344",
         "systemId": "neon-lords",
         "systemVersion": "0.0.9",
         "createdTime": 1743473867085,
         "modifiedTime": 1743473867085,
-        "lastModifiedBy": "x53CwYXR1zhkCDCY"
+        "lastModifiedBy": "x53CwYXR1zhkCDCY",
+        "exportSource": null
       }
     },
     {
@@ -11284,12 +12015,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.344",
         "systemId": "neon-lords",
         "systemVersion": "0.0.9",
         "createdTime": 1745423021081,
         "modifiedTime": 1745423021081,
-        "lastModifiedBy": "x53CwYXR1zhkCDCY"
+        "lastModifiedBy": "x53CwYXR1zhkCDCY",
+        "exportSource": null
       }
     }
   ],
@@ -11299,12 +12031,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "neon-lords",
     "systemVersion": "0.0.9",
     "createdTime": 1743473885701,
     "modifiedTime": 1745640985707,
-    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+    "lastModifiedBy": "x53CwYXR1zhkCDCY",
+    "exportSource": null
   },
   "_key": "!adventures!4bOIzuYHWHG3yDf0"
 }

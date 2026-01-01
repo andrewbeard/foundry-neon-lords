@@ -14,12 +14,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "neon-lords",
     "systemVersion": "0.0.6",
     "createdTime": 1742438363766,
     "modifiedTime": 1743905465364,
-    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+    "lastModifiedBy": "l18XFo7VCP3jkSA6",
+    "exportSource": null
   },
   "_id": "aQLdqG8uo97mODsu",
   "sort": 0,

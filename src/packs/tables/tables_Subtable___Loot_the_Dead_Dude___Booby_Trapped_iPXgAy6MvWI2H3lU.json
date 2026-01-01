@@ -13,10 +13,21 @@
       ],
       "drawn": false,
       "_id": "UbV4HHWFbqLSd1vk",
-      "text": "Finger popper takes off 1 finger.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Finger popper takes off 1 finger.",
+      "name": "",
       "_key": "!tables.results!iPXgAy6MvWI2H3lU.UbV4HHWFbqLSd1vk"
     },
     {
@@ -28,10 +39,21 @@
       ],
       "drawn": false,
       "_id": "V8EgqDTpfmUVLkj4",
-      "text": "Toe popper takes off 1 toe.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Toe popper takes off 1 toe.",
+      "name": "",
       "_key": "!tables.results!iPXgAy6MvWI2H3lU.V8EgqDTpfmUVLkj4"
     },
     {
@@ -43,10 +65,21 @@
       ],
       "drawn": false,
       "_id": "zwjY9SpwmY3wsC5x",
-      "text": "Dud! Re-gain 1 Fortune Point.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Dud! Re-gain 1 Fortune Point.",
+      "name": "",
       "_key": "!tables.results!iPXgAy6MvWI2H3lU.zwjY9SpwmY3wsC5x"
     },
     {
@@ -58,10 +91,21 @@
       ],
       "drawn": false,
       "_id": "L8snSbWlF8Ym76cZ",
-      "text": "Glitter Bomb! Covers you and anyone within 5 ft in glitter until your next long rest. You cannot surprise anyone or be stealthy in that time.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Glitter Bomb! Covers you and anyone within 5 ft in glitter until your next long rest. You cannot surprise anyone or be stealthy in that time.",
+      "name": "",
       "_key": "!tables.results!iPXgAy6MvWI2H3lU.L8snSbWlF8Ym76cZ"
     },
     {
@@ -73,14 +117,25 @@
       ],
       "drawn": false,
       "_id": "yZdQ30ZMh4gWsXV9",
-      "text": "Drug Bomb! Goes off in your face causing you to roll on the Drug Effect Table.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Drug Bomb! Goes off in your face causing you to roll on the Drug Effect Table.",
+      "name": "",
       "_key": "!tables.results!iPXgAy6MvWI2H3lU.yZdQ30ZMh4gWsXV9"
     },
     {
-      "type": "pack",
+      "type": "document",
       "weight": 1,
       "range": [
         5,
@@ -88,16 +143,26 @@
       ],
       "drawn": false,
       "_id": "HbOwkbp2pqe5wa1f",
-      "text": "Drug Effects",
       "img": "icons/svg/d20-grey.svg",
-      "documentId": "BIDFFaLxG6ywrUF8",
       "flags": {},
-      "documentCollection": "neon-lords.tables",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Drug Effects",
+      "documentUuid": "Compendium.neon-lords.tables.RollTable.BIDFFaLxG6ywrUF8",
+      "description": "",
       "_key": "!tables.results!iPXgAy6MvWI2H3lU.HbOwkbp2pqe5wa1f"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.tables",
       "weight": 1,
       "range": [
         6,
@@ -105,10 +170,21 @@
       ],
       "drawn": false,
       "_id": "wX6XPbmk8uNoABNO",
-      "text": "Suicide Vest. Everyone within 5ft of the body must make an [[/save agility]] or take [[/roll 1D6x6]]{1D6!} Damage from the exploding carcass you thought would be filled like a pinata. Instead of candy it was death.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Suicide Vest. Everyone within 5ft of the body must make an [[/save agility]] or take [[/roll 1D6x6]]{1D6!} Damage from the exploding carcass you thought would be filled like a pinata. Instead of candy it was death.",
+      "name": "",
       "_key": "!tables.results!iPXgAy6MvWI2H3lU.wX6XPbmk8uNoABNO"
     }
   ],
@@ -124,12 +200,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "neon-lords",
     "systemVersion": "0.0.11",
     "createdTime": 1745638685448,
     "modifiedTime": 1745638912017,
-    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+    "lastModifiedBy": "x53CwYXR1zhkCDCY",
+    "exportSource": null
   },
   "formula": "1d6",
   "_key": "!tables!iPXgAy6MvWI2H3lU"

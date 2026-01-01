@@ -14,10 +14,21 @@
       ],
       "drawn": false,
       "_id": "50zPDUR0vASYsk1t",
-      "text": "Grasshopper Head",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Grasshopper Head",
+      "name": "",
       "_key": "!tables.results!vpVNsDT4HasNANkE.50zPDUR0vASYsk1t"
     },
     {
@@ -29,10 +40,21 @@
       ],
       "drawn": false,
       "_id": "Wv9dUFPPdbwzTD7q",
-      "text": "Ant Head",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Ant Head",
+      "name": "",
       "_key": "!tables.results!vpVNsDT4HasNANkE.Wv9dUFPPdbwzTD7q"
     },
     {
@@ -44,10 +66,21 @@
       ],
       "drawn": false,
       "_id": "owYkPlzBoqvu7RqV",
-      "text": "Cockroach Head",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Cockroach Head",
+      "name": "",
       "_key": "!tables.results!vpVNsDT4HasNANkE.owYkPlzBoqvu7RqV"
     },
     {
@@ -59,10 +92,21 @@
       ],
       "drawn": false,
       "_id": "5fb2Peg9xVItmeJc",
-      "text": "Beetle Head",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Beetle Head",
+      "name": "",
       "_key": "!tables.results!vpVNsDT4HasNANkE.5fb2Peg9xVItmeJc"
     }
   ],
@@ -77,12 +121,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "neon-lords",
     "systemVersion": "0.0.8",
     "createdTime": 1742824633440,
     "modifiedTime": 1742825111025,
-    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+    "lastModifiedBy": "x53CwYXR1zhkCDCY",
+    "exportSource": null
   },
   "formula": "1D4",
   "_key": "!tables!vpVNsDT4HasNANkE"

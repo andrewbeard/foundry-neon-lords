@@ -13,10 +13,21 @@
       ],
       "drawn": false,
       "_id": "wiHej1WzkK2ZfYJO",
-      "text": "Overdose. The drug is too intense! Make a [[/save death]]! If you fail, your heart explodes.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Overdose. The drug is too intense! Make a [[/save death]]! If you fail, your heart explodes.",
+      "name": "",
       "_key": "!tables.results!BIDFFaLxG6ywrUF8.wiHej1WzkK2ZfYJO"
     },
     {
@@ -28,10 +39,21 @@
       ],
       "drawn": false,
       "_id": "xcNTAV1QeDzVyP3x",
-      "text": "Adverse reaction: The drug deals [[1D6]] damage and causes you to wretchedly grasp your insides while in the fetal position for 4 turns.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Adverse reaction: The drug deals [[1D6]] damage and causes you to wretchedly grasp your insides while in the fetal position for 4 turns.",
+      "name": "",
       "_key": "!tables.results!BIDFFaLxG6ywrUF8.xcNTAV1QeDzVyP3x"
     },
     {
@@ -43,14 +65,25 @@
       ],
       "drawn": false,
       "_id": "IDAnbMJyGGtKaTES",
-      "text": "I'm freaking out man! Roll on the Bad Trip table.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "I'm freaking out man! Roll on the Bad Trip table.",
+      "name": "",
       "_key": "!tables.results!BIDFFaLxG6ywrUF8.IDAnbMJyGGtKaTES"
     },
     {
-      "type": "pack",
+      "type": "document",
       "weight": 1,
       "range": [
         3,
@@ -58,16 +91,26 @@
       ],
       "drawn": false,
       "_id": "nqC3WlNOkI3JqyNg",
-      "text": "Bad Trip",
       "img": "icons/svg/d20-grey.svg",
-      "documentId": "CB8GTZFkVzVbRpKs",
       "flags": {},
-      "documentCollection": "neon-lords.tables",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Bad Trip",
+      "documentUuid": "Compendium.neon-lords.tables.RollTable.CB8GTZFkVzVbRpKs",
+      "description": "",
       "_key": "!tables.results!BIDFFaLxG6ywrUF8.nqC3WlNOkI3JqyNg"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.tables",
       "weight": 1,
       "range": [
         4,
@@ -75,15 +118,25 @@
       ],
       "drawn": false,
       "_id": "3n3XUI4teLXNAyi7",
-      "text": "Super Strength: You gain +[[1D10]] to your Burliness S.T.A.T.S. for [[1D10]] turns.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Super Strength: You gain +[[1D10]] to your Burliness S.T.A.T.S. for [[1D10]] turns.",
+      "name": "",
       "_key": "!tables.results!BIDFFaLxG6ywrUF8.3n3XUI4teLXNAyi7"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.tables",
       "weight": 1,
       "range": [
         5,
@@ -91,15 +144,25 @@
       ],
       "drawn": false,
       "_id": "YBnq301rFIxzhvIz",
-      "text": "Meiosis: It appears the scumdog's body splits into two separate beings.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Meiosis: It appears the scumdog's body splits into two separate beings.",
+      "name": "",
       "_key": "!tables.results!BIDFFaLxG6ywrUF8.YBnq301rFIxzhvIz"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.tables",
       "weight": 1,
       "range": [
         6,
@@ -107,15 +170,25 @@
       ],
       "drawn": false,
       "_id": "yahvedkqZj26v53u",
-      "text": "Moment of clarity: The good stuff grants you +[[1D4]] to all your S.T.A.T.S. for [[1D4]] turns.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Moment of clarity: The good stuff grants you +[[1D4]] to all your S.T.A.T.S. for [[1D4]] turns.",
+      "name": "",
       "_key": "!tables.results!BIDFFaLxG6ywrUF8.yahvedkqZj26v53u"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.tables",
       "weight": 1,
       "range": [
         7,
@@ -123,15 +196,25 @@
       ],
       "drawn": false,
       "_id": "wSjael03iL7MJIxg",
-      "text": "You got ripped off!! Its just candy with pressurized carbon dioxide gas bubbles embedded inside, creating a small popping reaction when it dissolves in one's mouth. 1 pack of Crackle Rox.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "You got ripped off!! Its just candy with pressurized carbon dioxide gas bubbles embedded inside, creating a small popping reaction when it dissolves in one's mouth. 1 pack of Crackle Rox.",
+      "name": "",
       "_key": "!tables.results!BIDFFaLxG6ywrUF8.wSjael03iL7MJIxg"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.tables",
       "weight": 1,
       "range": [
         8,
@@ -139,15 +222,25 @@
       ],
       "drawn": false,
       "_id": "SzAtEO4OAh7SICP2",
-      "text": "You see red! Gain the @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.iHjm9GxHYgA4lg9s]{Bloodlust} condition!",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "You see red! Gain the @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.iHjm9GxHYgA4lg9s]{Bloodlust} condition!",
+      "name": "",
       "_key": "!tables.results!BIDFFaLxG6ywrUF8.SzAtEO4OAh7SICP2"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.tables",
       "weight": 1,
       "range": [
         9,
@@ -155,15 +248,25 @@
       ],
       "drawn": false,
       "_id": "5EGBObFDqZPkeO3m",
-      "text": "X-ray vision: The drug deals [[1D4]] damage as your eyes burn. You are @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.LegKo00gEYfyNEJi]{Blind} for one turn, but afterwards are able to see through walls for [[1D6]] days.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "X-ray vision: The drug deals [[1D4]] damage as your eyes burn. You are @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.LegKo00gEYfyNEJi]{Blind} for one turn, but afterwards are able to see through walls for [[1D6]] days.",
+      "name": "",
       "_key": "!tables.results!BIDFFaLxG6ywrUF8.5EGBObFDqZPkeO3m"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.tables",
       "weight": 1,
       "range": [
         10,
@@ -171,15 +274,25 @@
       ],
       "drawn": false,
       "_id": "nGdQzTFYfm8Xy8EG",
-      "text": "You pass out in deep slumber for [[1D6]] turns, gaining the @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.6sDpAU4V5ND4DCaf]{Unconscious} condition.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "You pass out in deep slumber for [[1D6]] turns, gaining the @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.6sDpAU4V5ND4DCaf]{Unconscious} condition.",
+      "name": "",
       "_key": "!tables.results!BIDFFaLxG6ywrUF8.nGdQzTFYfm8Xy8EG"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.tables",
       "weight": 1,
       "range": [
         11,
@@ -187,15 +300,25 @@
       ],
       "drawn": false,
       "_id": "HA9PyxRhGLJaNDjt",
-      "text": "[[1D4]] doubles of everything you see. Gotta must concentrate to see straight, causing you to roll with Sludge until the drugs wear off.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "[[1D4]] doubles of everything you see. Gotta must concentrate to see straight, causing you to roll with Sludge until the drugs wear off.",
+      "name": "",
       "_key": "!tables.results!BIDFFaLxG6ywrUF8.HA9PyxRhGLJaNDjt"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.tables",
       "weight": 1,
       "range": [
         12,
@@ -203,15 +326,25 @@
       ],
       "drawn": false,
       "_id": "j8muFFAiss89k6VH",
-      "text": "Powerful hallucinations that are perceived to be real for [[1D4]] turns.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Powerful hallucinations that are perceived to be real for [[1D4]] turns.",
+      "name": "",
       "_key": "!tables.results!BIDFFaLxG6ywrUF8.j8muFFAiss89k6VH"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.tables",
       "weight": 1,
       "range": [
         13,
@@ -219,15 +352,25 @@
       ],
       "drawn": false,
       "_id": "zNJFYlSYsij6NSNG",
-      "text": "Psycho-neurotic: Gain one @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.RL4T0Eth5NKK05eJ]{Paranoia} condition point. (Star Spawns gain 2)",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Psycho-neurotic: Gain one @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.RL4T0Eth5NKK05eJ]{Paranoia} condition point. (Star Spawns gain 2)",
+      "name": "",
       "_key": "!tables.results!BIDFFaLxG6ywrUF8.zNJFYlSYsij6NSNG"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.tables",
       "weight": 1,
       "range": [
         14,
@@ -235,15 +378,25 @@
       ],
       "drawn": false,
       "_id": "3hgA1yQWlNaU1kof",
-      "text": "Space and time tear open in your mind's eye, showing you the true nature of Khaos. Your alignment becomes Khaotic and you gain an insatiable appetite for esoteric knowledge. You can never take a Long Rest until you gain some sort of Khaotic knowledge.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Space and time tear open in your mind's eye, showing you the true nature of Khaos. Your alignment becomes Khaotic and you gain an insatiable appetite for esoteric knowledge. You can never take a Long Rest until you gain some sort of Khaotic knowledge.",
+      "name": "",
       "_key": "!tables.results!BIDFFaLxG6ywrUF8.3hgA1yQWlNaU1kof"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.tables",
       "weight": 1,
       "range": [
         15,
@@ -251,15 +404,25 @@
       ],
       "drawn": false,
       "_id": "8e1B6IswTAkwgBYY",
-      "text": "Hyper healing: return to max HP. For [[1D4]] turns regain max HP at the end of the turn.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Hyper healing: return to max HP. For [[1D4]] turns regain max HP at the end of the turn.",
+      "name": "",
       "_key": "!tables.results!BIDFFaLxG6ywrUF8.8e1B6IswTAkwgBYY"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.tables",
       "weight": 1,
       "range": [
         16,
@@ -267,15 +430,25 @@
       ],
       "drawn": false,
       "_id": "bwe4brw1PmUFlJpN",
-      "text": "Fortune points regained to starting amount.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Fortune points regained to starting amount.",
+      "name": "",
       "_key": "!tables.results!BIDFFaLxG6ywrUF8.bwe4brw1PmUFlJpN"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.tables",
       "weight": 1,
       "range": [
         17,
@@ -283,15 +456,25 @@
       ],
       "drawn": false,
       "_id": "ca7HsetkmAG4RLn5",
-      "text": "Medusa's curse. Gain the @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.wk79mILlDzXEqAEr]{Petrified} condition.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Medusa's curse. Gain the @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.wk79mILlDzXEqAEr]{Petrified} condition.",
+      "name": "",
       "_key": "!tables.results!BIDFFaLxG6ywrUF8.ca7HsetkmAG4RLn5"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.tables",
       "weight": 1,
       "range": [
         18,
@@ -299,15 +482,25 @@
       ],
       "drawn": false,
       "_id": "6WzFjXcgD6Ot0tzZ",
-      "text": "Surf the cosmos! Cast the Astral Project spell.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Surf the cosmos! Cast the Astral Project spell.",
+      "name": "",
       "_key": "!tables.results!BIDFFaLxG6ywrUF8.6WzFjXcgD6Ot0tzZ"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.tables",
       "weight": 1,
       "range": [
         19,
@@ -315,15 +508,25 @@
       ],
       "drawn": false,
       "_id": "O7FjWNXMha9tnr9N",
-      "text": "Mind Mystic: unlocking the road map that is a squishy Humanoid brain to reach it's true potential. While under the effects of the drug, you gain the ability to cast 1 random spell [[1D4]] levels above your current level (any class).",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Mind Mystic: unlocking the road map that is a squishy Humanoid brain to reach it's true potential. While under the effects of the drug, you gain the ability to cast 1 random spell [[1D4]] levels above your current level (any class).",
+      "name": "",
       "_key": "!tables.results!BIDFFaLxG6ywrUF8.O7FjWNXMha9tnr9N"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.tables",
       "weight": 1,
       "range": [
         20,
@@ -331,10 +534,21 @@
       ],
       "drawn": false,
       "_id": "WPrL1wmNuCQY163X",
-      "text": "Cosmic Overlord: grants the same abilities as Mind Mystic (19 on this chart) but in addition you gain Truesight, permanently.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Cosmic Overlord: grants the same abilities as Mind Mystic (19 on this chart) but in addition you gain Truesight, permanently.",
+      "name": "",
       "_key": "!tables.results!BIDFFaLxG6ywrUF8.WPrL1wmNuCQY163X"
     }
   ],
@@ -350,12 +564,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "neon-lords",
     "systemVersion": "0.0.4",
     "createdTime": 1742407582045,
     "modifiedTime": 1746848204391,
-    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+    "lastModifiedBy": "l18XFo7VCP3jkSA6",
+    "exportSource": null
   },
   "formula": "1D20",
   "_key": "!tables!BIDFFaLxG6ywrUF8"

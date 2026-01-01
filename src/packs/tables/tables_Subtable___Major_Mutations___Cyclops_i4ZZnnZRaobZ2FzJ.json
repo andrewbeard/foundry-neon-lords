@@ -6,67 +6,111 @@
   "description": "",
   "results": [
     {
-      "type": "pack",
-      "documentCollection": "neon-lords.items",
+      "type": "document",
       "weight": 1,
       "range": [
         1,
         1
       ],
       "drawn": false,
-      "text": "Cyclops with X-ray vision",
-      "documentId": "MyZzntMnJbsUjPxa",
       "img": "icons/svg/item-bag.svg",
       "_id": "EjvvPI4D8jLgWZX9",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Cyclops with X-ray vision",
+      "documentUuid": "Compendium.neon-lords.items.Item.MyZzntMnJbsUjPxa",
+      "description": "",
       "_key": "!tables.results!i4ZZnnZRaobZ2FzJ.EjvvPI4D8jLgWZX9"
     },
     {
-      "type": "pack",
-      "documentCollection": "neon-lords.items",
+      "type": "document",
       "weight": 1,
       "range": [
         2,
         2
       ],
       "drawn": false,
-      "text": "Cyclops with Infravision",
-      "documentId": "H5IkJbbsyJ6nLHJL",
       "img": "icons/svg/item-bag.svg",
       "_id": "u6w31RVa9BALwJdC",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Cyclops with Infravision",
+      "documentUuid": "Compendium.neon-lords.items.Item.H5IkJbbsyJ6nLHJL",
+      "description": "",
       "_key": "!tables.results!i4ZZnnZRaobZ2FzJ.u6w31RVa9BALwJdC"
     },
     {
-      "type": "pack",
-      "documentCollection": "neon-lords.items",
+      "type": "document",
       "weight": 1,
       "range": [
         3,
         3
       ],
       "drawn": false,
-      "text": "Cyclops with Magical sight",
-      "documentId": "ouRjTRplLmTzJc8n",
       "img": "icons/svg/item-bag.svg",
       "_id": "5sIvDxtdmgLHTn18",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Cyclops with Magical sight",
+      "documentUuid": "Compendium.neon-lords.items.Item.ouRjTRplLmTzJc8n",
+      "description": "",
       "_key": "!tables.results!i4ZZnnZRaobZ2FzJ.5sIvDxtdmgLHTn18"
     },
     {
-      "type": "pack",
-      "documentCollection": "neon-lords.items",
+      "type": "document",
       "weight": 1,
       "range": [
         4,
         4
       ],
       "drawn": false,
-      "text": "Cyclops with Smell-o-vision",
-      "documentId": "h3hwlz5xakDtVzTA",
       "img": "icons/svg/item-bag.svg",
       "_id": "XWy7BK6GCGv57uL7",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Cyclops with Smell-o-vision",
+      "documentUuid": "Compendium.neon-lords.items.Item.h3hwlz5xakDtVzTA",
+      "description": "",
       "_key": "!tables.results!i4ZZnnZRaobZ2FzJ.XWy7BK6GCGv57uL7"
     }
   ],
@@ -81,12 +125,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "neon-lords",
     "systemVersion": "0.0.3",
     "createdTime": 1742238459700,
     "modifiedTime": 1742239156913,
-    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+    "lastModifiedBy": "x53CwYXR1zhkCDCY",
+    "exportSource": null
   },
   "formula": "1d4",
   "_key": "!tables!i4ZZnnZRaobZ2FzJ"

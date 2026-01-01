@@ -5,7 +5,7 @@
   "description": "",
   "results": [
     {
-      "type": "pack",
+      "type": "document",
       "weight": 1,
       "range": [
         1,
@@ -13,15 +13,26 @@
       ],
       "drawn": false,
       "_id": "rSUZOjc04Q6vVyQG",
-      "text": "Eyes change to Milked Over",
       "img": "icons/svg/item-bag.svg",
-      "documentId": "i1psNfmVdFefjHF4",
       "flags": {},
-      "documentCollection": "neon-lords.items",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Eyes change to Milked Over",
+      "documentUuid": "Compendium.neon-lords.items.Item.i1psNfmVdFefjHF4",
+      "description": "",
       "_key": "!tables.results!OsRmhRSyrZ80s1vF.rSUZOjc04Q6vVyQG"
     },
     {
-      "type": "pack",
+      "type": "document",
       "weight": 1,
       "range": [
         2,
@@ -29,15 +40,26 @@
       ],
       "drawn": false,
       "_id": "oBIQpiVVssTN1i4W",
-      "text": "Eyes change to All Pupil",
       "img": "icons/svg/item-bag.svg",
-      "documentId": "GL0tdGjQb8t2rJVz",
       "flags": {},
-      "documentCollection": "neon-lords.items",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Eyes change to All Pupil",
+      "documentUuid": "Compendium.neon-lords.items.Item.GL0tdGjQb8t2rJVz",
+      "description": "",
       "_key": "!tables.results!OsRmhRSyrZ80s1vF.oBIQpiVVssTN1i4W"
     },
     {
-      "type": "pack",
+      "type": "document",
       "weight": 1,
       "range": [
         3,
@@ -45,15 +67,26 @@
       ],
       "drawn": false,
       "_id": "JUszlEl8BqqncjwU",
-      "text": "Eyes change to No Pupil",
       "img": "icons/svg/item-bag.svg",
-      "documentId": "4au6RiOc260s0HSB",
       "flags": {},
-      "documentCollection": "neon-lords.items",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Eyes change to No Pupil",
+      "documentUuid": "Compendium.neon-lords.items.Item.4au6RiOc260s0HSB",
+      "description": "",
       "_key": "!tables.results!OsRmhRSyrZ80s1vF.JUszlEl8BqqncjwU"
     },
     {
-      "type": "pack",
+      "type": "document",
       "weight": 1,
       "range": [
         4,
@@ -61,11 +94,22 @@
       ],
       "drawn": false,
       "_id": "Bx97rh6sBC2L4xpr",
-      "text": "Eyes change to Meat-Vision",
       "img": "icons/svg/item-bag.svg",
-      "documentId": "WO3x7Ngpu6nlBUhG",
       "flags": {},
-      "documentCollection": "neon-lords.items",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Eyes change to Meat-Vision",
+      "documentUuid": "Compendium.neon-lords.items.Item.WO3x7Ngpu6nlBUhG",
+      "description": "",
       "_key": "!tables.results!OsRmhRSyrZ80s1vF.Bx97rh6sBC2L4xpr"
     }
   ],
@@ -81,12 +125,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742094056760,
     "modifiedTime": 1742234882705,
-    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+    "lastModifiedBy": "x53CwYXR1zhkCDCY",
+    "exportSource": null
   },
   "formula": "1d4",
   "_key": "!tables!OsRmhRSyrZ80s1vF"

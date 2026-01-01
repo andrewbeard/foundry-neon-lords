@@ -6,302 +6,522 @@
   "results": [
     {
       "type": "text",
-      "text": "A karate kick to the head. A swift kick after a normal attack dealing an additional [[1D6]] damage.",
       "range": [
         1,
         1
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "h2J5W9YM1RbiwRKq",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "A karate kick to the head. A swift kick after a normal attack dealing an additional [[1D6]] damage.",
+      "name": "",
       "_key": "!tables.results!G3MTaodBaudJszGn.h2J5W9YM1RbiwRKq"
     },
     {
       "type": "text",
-      "text": "The Judo Chop from Hell. After the normal attack, the Night Stalker follows up with a blow to the neck region of his target dealing [[1D6]] damage and knocking them unconscious.",
       "range": [
         2,
         2
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "9nzqlOcyXtwGs9Hu",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "The Judo Chop from Hell. After the normal attack, the Night Stalker follows up with a blow to the neck region of his target dealing [[1D6]] damage and knocking them unconscious.",
+      "name": "",
       "_key": "!tables.results!G3MTaodBaudJszGn.9nzqlOcyXtwGs9Hu"
     },
     {
       "type": "text",
-      "text": "Slice and Dice. Throw a well-placed ninja star after a normal attack. The ninja star deals normal damage. Grants the Night Stalker an additional +2 to their Attitude score.",
       "range": [
         3,
         3
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "1X5wY0sRFH7RYT4E",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Slice and Dice. Throw a well-placed ninja star after a normal attack. The ninja star deals normal damage. Grants the Night Stalker an additional +2 to their Attitude score.",
+      "name": "",
       "_key": "!tables.results!G3MTaodBaudJszGn.1X5wY0sRFH7RYT4E"
     },
     {
       "type": "text",
-      "text": "Shuriken Madness! In addition to the attack, the Night Stalker throws 3 ninja throwing stars at a target other than the original target. These stars auto-hit. If only one target is available, the 3 ninja stars hit the original target.",
       "range": [
         4,
         4
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "3R0YpFbyOOYJECr1",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Shuriken Madness! In addition to the attack, the Night Stalker throws 3 ninja throwing stars at a target other than the original target. These stars auto-hit. If only one target is available, the 3 ninja stars hit the original target.",
+      "name": "",
       "_key": "!tables.results!G3MTaodBaudJszGn.3R0YpFbyOOYJECr1"
     },
     {
       "type": "text",
-      "text": "Fear of the Dark. Hiding in the shadows, the Night Stalker waits for the perfect time to strike—out of the dark, a flash of steel deals an additional +3 damage, and any other enemies that can see the attack roll on the Fear Table.",
       "range": [
         5,
         5
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "vh1yAO7maWo956Rs",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Fear of the Dark. Hiding in the shadows, the Night Stalker waits for the perfect time to strike—out of the dark, a flash of steel deals an additional +3 damage, and any other enemies that can see the attack roll on the Fear Table.",
+      "name": "",
       "_key": "!tables.results!G3MTaodBaudJszGn.vh1yAO7maWo956Rs"
     },
     {
       "type": "text",
-      "text": "Lightning-fast reflexes enable the Night Stalker to deal additional damage with the weapon they are using. Roll a number of D6s equal to the Night Stalker's Prowess S.T.A.T.S. Modifier and add the total to the damage.",
       "range": [
         6,
         6
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "DCgnVJhYXTZTPBxg",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Lightning-fast reflexes enable the Night Stalker to deal additional damage with the weapon they are using. Roll a number of D6s equal to the Night Stalker's Prowess S.T.A.T.S. Modifier and add the total to the damage.",
+      "name": "",
       "_key": "!tables.results!G3MTaodBaudJszGn.DCgnVJhYXTZTPBxg"
     },
     {
       "type": "text",
-      "text": "Flying Dragon Punch. A blue spectral fist hits the target, dealing [[1D8]] damage on top of the normal attack.",
       "range": [
         7,
         7
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "C7aJZp9preJ73qqh",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Flying Dragon Punch. A blue spectral fist hits the target, dealing [[1D8]] damage on top of the normal attack.",
+      "name": "",
       "_key": "!tables.results!G3MTaodBaudJszGn.C7aJZp9preJ73qqh"
     },
     {
       "type": "text",
-      "text": "Blood on the Blade. Through the carnage and bloodshed the Night Stalker is able to regain health equal to damage dealt this turn. In addition, the attack deals an additional +3 damage.",
       "range": [
         8,
         8
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "CdXuZId1uBYK7aVG",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Blood on the Blade. Through the carnage and bloodshed the Night Stalker is able to regain health equal to damage dealt this turn. In addition, the attack deals an additional +3 damage.",
+      "name": "",
       "_key": "!tables.results!G3MTaodBaudJszGn.CdXuZId1uBYK7aVG"
     },
     {
       "type": "text",
-      "text": "Extensive battle experience and the Art of Chuck unlocks the ability to cast Charm on a target the Night Stalker can see. This attack deals an additional +3 damage as well.",
       "range": [
         9,
         9
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "N9ypJv0l4dnwwQRA",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Extensive battle experience and the Art of Chuck unlocks the ability to cast Charm on a target the Night Stalker can see. This attack deals an additional +3 damage as well.",
+      "name": "",
       "_key": "!tables.results!G3MTaodBaudJszGn.N9ypJv0l4dnwwQRA"
     },
     {
       "type": "text",
-      "text": "Fingers for Spears. In addition to the normal attack, the Night Stalker makes an unarmed strike with two fingers extended that deals [[2D6]] damage to the target.",
       "range": [
         10,
         10
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "NOMFgmwcgeIXC212",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Fingers for Spears. In addition to the normal attack, the Night Stalker makes an unarmed strike with two fingers extended that deals [[2D6]] damage to the target.",
+      "name": "",
       "_key": "!tables.results!G3MTaodBaudJszGn.NOMFgmwcgeIXC212"
     },
     {
       "type": "text",
-      "text": "Mirror Match. Splitting into two Night Stalkers, they both deal the same amount of damage to the target.",
       "range": [
         11,
         11
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "SHCmMhGHHq0SzmUd",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Mirror Match. Splitting into two Night Stalkers, they both deal the same amount of damage to the target.",
+      "name": "",
       "_key": "!tables.results!G3MTaodBaudJszGn.SHCmMhGHHq0SzmUd"
     },
     {
       "type": "text",
-      "text": "Ghost Assassin. Deep meditation in the art of Chuck causes the Night Stalker to become a vapor-walker (able to walk through walls and be undetected by normal vision) for [[1D4]] turns; each attack gains an additional +4 damage.",
       "range": [
         12,
         12
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "3UzH9wuNuPt0su4E",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Ghost Assassin. Deep meditation in the art of Chuck causes the Night Stalker to become a vapor-walker (able to walk through walls and be undetected by normal vision) for [[1D4]] turns; each attack gains an additional +4 damage.",
+      "name": "",
       "_key": "!tables.results!G3MTaodBaudJszGn.3UzH9wuNuPt0su4E"
     },
     {
       "type": "text",
-      "text": "The true art of Chuck comes to the mind's eye of the Night Stalker, granting them an additional attack this turn.",
       "range": [
         13,
         13
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "8BwgjvZTOTucTg5P",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "The true art of Chuck comes to the mind's eye of the Night Stalker, granting them an additional attack this turn.",
+      "name": "",
       "_key": "!tables.results!G3MTaodBaudJszGn.8BwgjvZTOTucTg5P"
     },
     {
       "type": "text",
-      "text": "A barrage of kicks and punches follow up the attack, making the Night Stalker a true karate commando! [[1D10]] attacks hit for [[/roll 1D4]] damage each.",
       "range": [
         14,
         14
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "ACJzt2UNO5riBEeA",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "A barrage of kicks and punches follow up the attack, making the Night Stalker a true karate commando! [[1D10]] attacks hit for [[/roll 1D4]] damage each.",
+      "name": "",
       "_key": "!tables.results!G3MTaodBaudJszGn.ACJzt2UNO5riBEeA"
     },
     {
       "type": "text",
-      "text": "No Surrender. The fight rages on and the only thing the Night Stalker needs is the sheer will and dedication to the art of Chuck to ensure a speedy victory. Harnessing battle meditation, the Night Stalker regains all lost Stealth Points.",
       "range": [
         15,
         15
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "uih9lBlxhlt0sxPz",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "No Surrender. The fight rages on and the only thing the Night Stalker needs is the sheer will and dedication to the art of Chuck to ensure a speedy victory. Harnessing battle meditation, the Night Stalker regains all lost Stealth Points.",
+      "name": "",
       "_key": "!tables.results!G3MTaodBaudJszGn.uih9lBlxhlt0sxPz"
     },
     {
       "type": "text",
-      "text": "Dragon blade technique. Art of an ancient dragon appears on your weapon of choice, granting the ability to deal an additional [[/roll 1D6]] damage with the said weapon until the Night Stalker takes damage.",
       "range": [
         16,
         16
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "XpFeYvOZnUA2UuHi",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Dragon blade technique. Art of an ancient dragon appears on your weapon of choice, granting the ability to deal an additional [[/roll 1D6]] damage with the said weapon until the Night Stalker takes damage.",
+      "name": "",
       "_key": "!tables.results!G3MTaodBaudJszGn.XpFeYvOZnUA2UuHi"
     },
     {
       "type": "text",
-      "text": "Ninja Storm! Allies from the Night Stalker's Chuck Dojo come to aid them in the battle! [[1D6]] Night Stalkers attack from the shadows, each dealing [[/roll 1D6]] damage to the target.",
       "range": [
         17,
         17
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "WolT8bNfBpoJkkzZ",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Ninja Storm! Allies from the Night Stalker's Chuck Dojo come to aid them in the battle! [[1D6]] Night Stalkers attack from the shadows, each dealing [[/roll 1D6]] damage to the target.",
+      "name": "",
       "_key": "!tables.results!G3MTaodBaudJszGn.WolT8bNfBpoJkkzZ"
     },
     {
       "type": "text",
-      "text": "Sudden Death. Masters of Chuck the Night Stalker can kill a target with one slice of the katana or a single ninja throwing star. The target makes a [[/save death]]. If it is a success, they take normal damage +5. If they fail, they die instantly.",
       "range": [
         18,
         18
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "bLJKTs3SH7BNcXdg",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Sudden Death. Masters of Chuck the Night Stalker can kill a target with one slice of the katana or a single ninja throwing star. The target makes a [[/save death]]. If it is a success, they take normal damage +5. If they fail, they die instantly.",
+      "name": "",
       "_key": "!tables.results!G3MTaodBaudJszGn.bLJKTs3SH7BNcXdg"
     },
     {
       "type": "text",
-      "text": "Time Stasis Meditation. Chuck speaks to the Night Stalker directly, showing them the true way and enabling them to take an additional turn after this one.",
       "range": [
         19,
         19
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "f4SC6PrZxaF2nTDj",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Time Stasis Meditation. Chuck speaks to the Night Stalker directly, showing them the true way and enabling them to take an additional turn after this one.",
+      "name": "",
       "_key": "!tables.results!G3MTaodBaudJszGn.f4SC6PrZxaF2nTDj"
     },
     {
       "type": "text",
-      "text": "Shuriken Storm. In a flurry of attack, the Night Stalker throws an absurd amount of ninja stars in addition to the attack. [[5D20]]] Stars are tossed at the target at lightning-fast speed.",
       "range": [
         20,
         20
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "H8SVOordaQwIrAAb",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Shuriken Storm. In a flurry of attack, the Night Stalker throws an absurd amount of ninja stars in addition to the attack. [[5D20]]] Stars are tossed at the target at lightning-fast speed.",
+      "name": "",
       "_key": "!tables.results!G3MTaodBaudJszGn.H8SVOordaQwIrAAb"
     }
   ],
@@ -311,12 +531,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742156240955,
     "modifiedTime": 1745592365232,
-    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+    "lastModifiedBy": "x53CwYXR1zhkCDCY",
+    "exportSource": null
   },
   "formula": "1d20",
   "ownership": {

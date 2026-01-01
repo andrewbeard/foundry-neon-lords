@@ -60,7 +60,6 @@
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
-    "hexagonalShape": 0,
     "lockRotation": false,
     "rotation": 0,
     "alpha": 1,
@@ -125,7 +124,14 @@
       }
     },
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "items": [
     {
@@ -152,12 +158,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.344",
         "systemId": "neon-lords",
         "systemVersion": "0.0.8",
         "createdTime": 1742862942303,
         "modifiedTime": 1742863251744,
-        "lastModifiedBy": "l18XFo7VCP3jkSA6"
+        "lastModifiedBy": "l18XFo7VCP3jkSA6",
+        "exportSource": null
       },
       "_key": "!actors.items!DtUtViOFDJLKnJp5.KEHMxybZ7gF55hZH"
     }
@@ -172,12 +179,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "neon-lords",
     "systemVersion": "0.0.8",
     "createdTime": 1742862870829,
     "modifiedTime": 1742862930743,
-    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+    "lastModifiedBy": "l18XFo7VCP3jkSA6",
+    "exportSource": null
   },
   "_key": "!actors!DtUtViOFDJLKnJp5"
 }

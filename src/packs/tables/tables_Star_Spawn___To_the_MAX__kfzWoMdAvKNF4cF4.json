@@ -6,302 +6,522 @@
   "results": [
     {
       "type": "text",
-      "text": "Bend the knee! Through sheer mind power, the Star Spawn makes their enemy kneel before them, gaining the upper hand and dealing an additional melee strike.",
       "range": [
         1,
         1
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "r72zGOiCebtuBKoP",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Bend the knee! Through sheer mind power, the Star Spawn makes their enemy kneel before them, gaining the upper hand and dealing an additional melee strike.",
+      "name": "",
       "_key": "!tables.results!kfzWoMdAvKNF4cF4.r72zGOiCebtuBKoP"
     },
     {
       "type": "text",
-      "text": "Eardrums smashed. The target's eardrums rupture from the intense Manifestation, causing them to become permanently deaf.",
       "range": [
         2,
         2
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "LCvT1KWOxYJa180D",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Eardrums smashed. The target's eardrums rupture from the intense Manifestation, causing them to become permanently deaf.",
+      "name": "",
       "_key": "!tables.results!kfzWoMdAvKNF4cF4.LCvT1KWOxYJa180D"
     },
     {
       "type": "text",
-      "text": "Bloody tears. The Manifestation was too strong, dealing an additional [[1D6]] damage and causing the target to begin crying blood.",
       "range": [
         3,
         3
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "JRbGgLCVeYJ8ZJNK",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Bloody tears. The Manifestation was too strong, dealing an additional [[1D6]] damage and causing the target to begin crying blood.",
+      "name": "",
       "_key": "!tables.results!kfzWoMdAvKNF4cF4.JRbGgLCVeYJ8ZJNK"
     },
     {
       "type": "text",
-      "text": "Freaky Friday! Along with the Manifestation, the consciousness of two separate targets switch bodies for [[1D4]] turns.",
       "range": [
         4,
         4
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "dRzGsStf0qKBELiq",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Freaky Friday! Along with the Manifestation, the consciousness of two separate targets switch bodies for [[1D4]] turns.",
+      "name": "",
       "_key": "!tables.results!kfzWoMdAvKNF4cF4.dRzGsStf0qKBELiq"
     },
     {
       "type": "text",
-      "text": "Weak wills make easy targets. In addition to the Manifestation, the Star Spawn causes a target they can see to receive -2 to all their rolls for the next [[1D4]] turns.",
       "range": [
         5,
         5
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "wswTXKRrNlLn6Ls6",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Weak wills make easy targets. In addition to the Manifestation, the Star Spawn causes a target they can see to receive -2 to all their rolls for the next [[1D4]] turns.",
+      "name": "",
       "_key": "!tables.results!kfzWoMdAvKNF4cF4.wswTXKRrNlLn6Ls6"
     },
     {
       "type": "text",
-      "text": "Super Rad energy leaks out of the Star Spawn's mind and finds its way to any target. This Radness grants the target an additional [[1D6]] to their next roll.",
       "range": [
         6,
         6
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "bOYI2KaAo0rl6qpo",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Super Rad energy leaks out of the Star Spawn's mind and finds its way to any target. This Radness grants the target an additional [[1D6]] to their next roll.",
+      "name": "",
       "_key": "!tables.results!kfzWoMdAvKNF4cF4.bOYI2KaAo0rl6qpo"
     },
     {
       "type": "text",
-      "text": "Domination will be easy! An enemy the Star Spawn can see deals damage to a target within range of them.",
       "range": [
         7,
         7
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "dFNAKdctMRcE5gWF",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Domination will be easy! An enemy the Star Spawn can see deals damage to a target within range of them.",
+      "name": "",
       "_key": "!tables.results!kfzWoMdAvKNF4cF4.dFNAKdctMRcE5gWF"
     },
     {
       "type": "text",
-      "text": "Explosive feedback. The last damage dealt to the Star Spawn is retroactively dealt back to the target that hit 'em. The Manifestation goes off without a hitch, too.",
       "range": [
         8,
         8
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "aXcHNO6LWtgcZn93",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Explosive feedback. The last damage dealt to the Star Spawn is retroactively dealt back to the target that hit 'em. The Manifestation goes off without a hitch, too.",
+      "name": "",
       "_key": "!tables.results!kfzWoMdAvKNF4cF4.aXcHNO6LWtgcZn93"
     },
     {
       "type": "text",
-      "text": "Advice from the cosmos. The Manifestation acts as a beacon to some distant hive mind who, collectively, sends back some insight to the Star Spawn gaining a pool of 3D6. These dice can be rolled to aid any rolls the Star Spawn wishes. This insight lasts until the Star Spawn's next long rest.",
       "range": [
         9,
         9
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "2mf2AB700Psu2dr9",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Advice from the cosmos. The Manifestation acts as a beacon to some distant hive mind who, collectively, sends back some insight to the Star Spawn gaining a pool of 3D6. These dice can be rolled to aid any rolls the Star Spawn wishes. This insight lasts until the Star Spawn's next long rest.",
+      "name": "",
       "_key": "!tables.results!kfzWoMdAvKNF4cF4.2mf2AB700Psu2dr9"
     },
     {
       "type": "text",
-      "text": "Such a puny brain! The Star Spawn takes over any target that they can see next turn. This can also be an Ally.",
       "range": [
         10,
         10
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "ip14uhW2toSthPXF",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Such a puny brain! The Star Spawn takes over any target that they can see next turn. This can also be an Ally.",
+      "name": "",
       "_key": "!tables.results!kfzWoMdAvKNF4cF4.ip14uhW2toSthPXF"
     },
     {
       "type": "text",
-      "text": "Lazer eyes! Every psychic needs to shoot lazers out of their eyes, right? The Star Spawn deals [[1D6]] damage to a target they can see. (Obviously.)",
       "range": [
         11,
         11
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "URaUnZzoAe8dc8If",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Lazer eyes! Every psychic needs to shoot lazers out of their eyes, right? The Star Spawn deals [[1D6]] damage to a target they can see. (Obviously.)",
+      "name": "",
       "_key": "!tables.results!kfzWoMdAvKNF4cF4.URaUnZzoAe8dc8If"
     },
     {
       "type": "text",
-      "text": "Humanoids are such easy prey. The Manifestation deals [[1D6]] additional damage to the target and the same amount to another target Humanoid. On a failed [[/save resolve]], the new target takes the full damage, and half on a success.",
       "range": [
         12,
         12
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "ZA4UcgQ1QpwRz43F",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Humanoids are such easy prey. The Manifestation deals [[1D6]] additional damage to the target and the same amount to another target Humanoid. On a failed [[/save resolve]], the new target takes the full damage, and half on a success.",
+      "name": "",
       "_key": "!tables.results!kfzWoMdAvKNF4cF4.ZA4UcgQ1QpwRz43F"
     },
     {
       "type": "text",
-      "text": "Nullify! The next action that targets the Star Spawn is negated. Their would-be Attacker stands and drools instead.",
       "range": [
         13,
         13
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "fjXE7YpZGftMKrm8",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Nullify! The next action that targets the Star Spawn is negated. Their would-be Attacker stands and drools instead.",
+      "name": "",
       "_key": "!tables.results!kfzWoMdAvKNF4cF4.fjXE7YpZGftMKrm8"
     },
     {
       "type": "text",
-      "text": "The Flesh is weaker than the mind! The Manifestation causes the target to mutate! Roll on the Major Mutation table and deal an additional [[1D6]] damage.",
       "range": [
         14,
         14
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "b4BxdvV1Q4nJwwar",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "The Flesh is weaker than the mind! The Manifestation causes the target to mutate! Roll on the Major Mutation table and deal an additional [[1D6]] damage.",
+      "name": "",
       "_key": "!tables.results!kfzWoMdAvKNF4cF4.b4BxdvV1Q4nJwwar"
     },
     {
       "type": "text",
-      "text": "I like to watch you suffer! The Star Spawn forces a target they can see to deal damage to themselves with whatever weapon they are wielding. The target can be the same one the Manifestation is initially targeting.",
       "range": [
         15,
         15
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "7vOargmde9Ts0ktI",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "I like to watch you suffer! The Star Spawn forces a target they can see to deal damage to themselves with whatever weapon they are wielding. The target can be the same one the Manifestation is initially targeting.",
+      "name": "",
       "_key": "!tables.results!kfzWoMdAvKNF4cF4.7vOargmde9Ts0ktI"
     },
     {
       "type": "text",
-      "text": "Do what THEY say! The Star Spawn's mental prowess is too powerful for their foe, giving them complete mind domination for [[1D4]]+Star Spawn Level of turns.",
       "range": [
         16,
         16
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "IyJfmIIVM2GbOTiM",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Do what THEY say! The Star Spawn's mental prowess is too powerful for their foe, giving them complete mind domination for [[1D4]]+Star Spawn Level of turns.",
+      "name": "",
       "_key": "!tables.results!kfzWoMdAvKNF4cF4.IyJfmIIVM2GbOTiM"
     },
     {
       "type": "text",
-      "text": "Mind Bullets!! A side effect of the successful Manifestation! It's as if you are holding a Mac-Daddy in your Xeno grip, spitting ammo at a target within range, auto-hitting and dealing [[3D6]] damage.",
       "range": [
         17,
         17
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "FIPcE9uiuzs5l6PH",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Mind Bullets!! A side effect of the successful Manifestation! It's as if you are holding a Mac-Daddy in your Xeno grip, spitting ammo at a target within range, auto-hitting and dealing [[3D6]] damage.",
+      "name": "",
       "_key": "!tables.results!kfzWoMdAvKNF4cF4.FIPcE9uiuzs5l6PH"
     },
     {
       "type": "text",
-      "text": "Rewind time. The Manifestation rips a hole in the time space continuum enabling the Star Spawn to take an additional entire turn. (movement and action)",
       "range": [
         18,
         18
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "egnSOcr4qBocvZS4",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Rewind time. The Manifestation rips a hole in the time space continuum enabling the Star Spawn to take an additional entire turn. (movement and action)",
+      "name": "",
       "_key": "!tables.results!kfzWoMdAvKNF4cF4.egnSOcr4qBocvZS4"
     },
     {
       "type": "text",
-      "text": "MIND SLAVE! Complete mind domination of a target until the Star Spawn or target dies.",
       "range": [
         19,
         19
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "bhT1EAShfTaMvP1H",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "MIND SLAVE! Complete mind domination of a target until the Star Spawn or target dies.",
+      "name": "",
       "_key": "!tables.results!kfzWoMdAvKNF4cF4.bhT1EAShfTaMvP1H"
     },
     {
       "type": "text",
-      "text": "Extreme cephalic destruction! Each enemy within 10ft of the Star Spawn must make a [[/save death]]. On a failed save, their heads explode, spreading gray matter everywhere.",
       "range": [
         20,
         20
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "N3vpkhTmRZhr5maZ",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Extreme cephalic destruction! Each enemy within 10ft of the Star Spawn must make a [[/save death]]. On a failed save, their heads explode, spreading gray matter everywhere.",
+      "name": "",
       "_key": "!tables.results!kfzWoMdAvKNF4cF4.N3vpkhTmRZhr5maZ"
     }
   ],
@@ -311,12 +531,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742155927675,
     "modifiedTime": 1745591988676,
-    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+    "lastModifiedBy": "x53CwYXR1zhkCDCY",
+    "exportSource": null
   },
   "formula": "1d20",
   "ownership": {

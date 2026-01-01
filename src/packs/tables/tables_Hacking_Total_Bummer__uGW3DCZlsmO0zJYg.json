@@ -13,10 +13,21 @@
       ],
       "drawn": false,
       "_id": "MaisHI6nWcxfhCtD",
-      "text": "Very underwhelming. Nothing happens, at all.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Very underwhelming. Nothing happens, at all.",
+      "name": "",
       "_key": "!tables.results!uGW3DCZlsmO0zJYg.MaisHI6nWcxfhCtD"
     },
     {
@@ -28,10 +39,21 @@
       ],
       "drawn": false,
       "_id": "0oupXKldHc97GqL7",
-      "text": "The hack is successful but hits a random target (including yourself).",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "The hack is successful but hits a random target (including yourself).",
+      "name": "",
       "_key": "!tables.results!uGW3DCZlsmO0zJYg.0oupXKldHc97GqL7"
     },
     {
@@ -43,10 +65,21 @@
       ],
       "drawn": false,
       "_id": "TouosMaapEaCe69b",
-      "text": "Pain reverberation. The hack was unsuccessful and deals [[1D4]] damage to you.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Pain reverberation. The hack was unsuccessful and deals [[1D4]] damage to you.",
+      "name": "",
       "_key": "!tables.results!uGW3DCZlsmO0zJYg.TouosMaapEaCe69b"
     },
     {
@@ -58,10 +91,21 @@
       ],
       "drawn": false,
       "_id": "mhmpta1JmyckKgRX",
-      "text": "Radiation wave deals [[1D6]] damage to everyone in a 15ft radius of the caster.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Radiation wave deals [[1D6]] damage to everyone in a 15ft radius of the caster.",
+      "name": "",
       "_key": "!tables.results!uGW3DCZlsmO0zJYg.mhmpta1JmyckKgRX"
     },
     {
@@ -73,14 +117,25 @@
       ],
       "drawn": false,
       "_id": "BPKiCpbiPzJFlEJf",
-      "text": "Major meltdown! Roll 2 times on the minor mutation chart.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Major meltdown! Roll 2 times on the minor mutation chart.",
+      "name": "",
       "_key": "!tables.results!uGW3DCZlsmO0zJYg.BPKiCpbiPzJFlEJf"
     },
     {
-      "type": "pack",
+      "type": "document",
       "weight": 1,
       "range": [
         5,
@@ -88,15 +143,26 @@
       ],
       "drawn": false,
       "_id": "f8uGlRxvzl9EnUUJ",
-      "text": "Minor Mutations",
       "img": "icons/svg/d20-grey.svg",
-      "documentId": "HyBQa4FGfKxwNOaw",
       "flags": {},
-      "documentCollection": "neon-lords.tables",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Minor Mutations",
+      "documentUuid": "Compendium.neon-lords.tables.RollTable.HyBQa4FGfKxwNOaw",
+      "description": "",
       "_key": "!tables.results!uGW3DCZlsmO0zJYg.f8uGlRxvzl9EnUUJ"
     },
     {
-      "type": "pack",
+      "type": "document",
       "weight": 1,
       "range": [
         5,
@@ -104,16 +170,26 @@
       ],
       "drawn": false,
       "_id": "lxQ3oEvPouqgi8IN",
-      "text": "Minor Mutations",
       "img": "icons/svg/d20-grey.svg",
-      "documentId": "HyBQa4FGfKxwNOaw",
       "flags": {},
-      "documentCollection": "neon-lords.tables",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Minor Mutations",
+      "documentUuid": "Compendium.neon-lords.tables.RollTable.HyBQa4FGfKxwNOaw",
+      "description": "",
       "_key": "!tables.results!uGW3DCZlsmO0zJYg.lxQ3oEvPouqgi8IN"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.tables",
       "weight": 1,
       "range": [
         6,
@@ -121,15 +197,25 @@
       ],
       "drawn": false,
       "_id": "EQLbgkkYv2hYRdU1",
-      "text": "A Ghost in the Machine. The Hack manifests into a Cyber Specter (See “Stuff to Slay”).",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "A Ghost in the Machine. The Hack manifests into a Cyber Specter (See “Stuff to Slay”).",
+      "name": "",
       "_key": "!tables.results!uGW3DCZlsmO0zJYg.EQLbgkkYv2hYRdU1"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.tables",
       "weight": 1,
       "range": [
         7,
@@ -137,15 +223,25 @@
       ],
       "drawn": false,
       "_id": "OfiM6O3Mv1eN5cxi",
-      "text": "Lazers shoot out of the Tape Deck hitting [[1D4]] random targets for [[2D6x6]] damage divided among all the targets.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Lazers shoot out of the Tape Deck hitting [[1D4]] random targets for [[2D6x6]] damage divided among all the targets.",
+      "name": "",
       "_key": "!tables.results!uGW3DCZlsmO0zJYg.OfiM6O3Mv1eN5cxi"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.tables",
       "weight": 1,
       "range": [
         8,
@@ -153,15 +249,25 @@
       ],
       "drawn": false,
       "_id": "PJfCwVmIjsn6zWXf",
-      "text": "Mainframe disruption, Hack goes of normally but overheats the deck. Deck must cool down for [[1D4]] turns. No Hacks can be cast during this time.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Mainframe disruption, Hack goes of normally but overheats the deck. Deck must cool down for [[1D4]] turns. No Hacks can be cast during this time.",
+      "name": "",
       "_key": "!tables.results!uGW3DCZlsmO0zJYg.PJfCwVmIjsn6zWXf"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.tables",
       "weight": 1,
       "range": [
         9,
@@ -169,15 +275,25 @@
       ],
       "drawn": false,
       "_id": "21Bde6skw3IZeu8J",
-      "text": "The Hack goes off but hits a random Ally (If an attack, if not then it hits a random target).",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "The Hack goes off but hits a random Ally (If an attack, if not then it hits a random target).",
+      "name": "",
       "_key": "!tables.results!uGW3DCZlsmO0zJYg.21Bde6skw3IZeu8J"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.tables",
       "weight": 1,
       "range": [
         10,
@@ -185,10 +301,21 @@
       ],
       "drawn": false,
       "_id": "ygUdv1jNHHuHj3YY",
-      "text": "DIGITAL BURN! The Hack burns through the data tape, melting it and losing all the Hacks saved on it.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "DIGITAL BURN! The Hack burns through the data tape, melting it and losing all the Hacks saved on it.",
+      "name": "",
       "_key": "!tables.results!uGW3DCZlsmO0zJYg.ygUdv1jNHHuHj3YY"
     }
   ],
@@ -204,12 +331,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "neon-lords",
     "systemVersion": "0.0.3",
     "createdTime": 1742312573819,
     "modifiedTime": 1742312784558,
-    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+    "lastModifiedBy": "x53CwYXR1zhkCDCY",
+    "exportSource": null
   },
   "formula": "1D10",
   "_key": "!tables!uGW3DCZlsmO0zJYg"

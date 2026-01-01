@@ -14,10 +14,21 @@
       ],
       "drawn": false,
       "_id": "ODgp7vz1xLjk6yxC",
-      "text": "Your folly shall be inscribed in the halls of fools for all of eternity. Lose 2 Fortune Points, and everyone treats you like a simpleton.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Your folly shall be inscribed in the halls of fools for all of eternity. Lose 2 Fortune Points, and everyone treats you like a simpleton.",
+      "name": "",
       "_key": "!tables.results!ZtCzqURFMvZ3bOKw.ODgp7vz1xLjk6yxC"
     },
     {
@@ -29,10 +40,21 @@
       ],
       "drawn": false,
       "_id": "84HBYuH70FlBBpSI",
-      "text": "You stumble and step on your enemy's toes. They let out a bellow, alerting their companions. [[1D6]] reinforcements arrive.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "You stumble and step on your enemy's toes. They let out a bellow, alerting their companions. [[1D6]] reinforcements arrive.",
+      "name": "",
       "_key": "!tables.results!ZtCzqURFMvZ3bOKw.84HBYuH70FlBBpSI"
     },
     {
@@ -44,10 +66,21 @@
       ],
       "drawn": false,
       "_id": "uTz8iZWw0UyikicH",
-      "text": "Your strike meets the edge of your opponent's weapon, leaving you vulnerable for a counterattack. Suffer a -3 penalty to your AC until your next turn.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Your strike meets the edge of your opponent's weapon, leaving you vulnerable for a counterattack. Suffer a -3 penalty to your AC until your next turn.",
+      "name": "",
       "_key": "!tables.results!ZtCzqURFMvZ3bOKw.uTz8iZWw0UyikicH"
     },
     {
@@ -59,10 +92,21 @@
       ],
       "drawn": false,
       "_id": "KES0AN0EiEjVifb5",
-      "text": "In the ruckus, you manage to drop your weapon before making an attack. Spend the next round picking up your weapon or readying a new weapon.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "In the ruckus, you manage to drop your weapon before making an attack. Spend the next round picking up your weapon or readying a new weapon.",
+      "name": "",
       "_key": "!tables.results!ZtCzqURFMvZ3bOKw.KES0AN0EiEjVifb5"
     },
     {
@@ -74,10 +118,21 @@
       ],
       "drawn": false,
       "_id": "MoglW7YnUIQD4Viu",
-      "text": "You trip and fall with a hard thud, taking [[1D4]] damage. In the fall, your weapon flies out of your hand. (20% percent chance it comes back down and lands in your body; you take the full damage from it). Spend the next round standing up and picking up your weapon or readying a new one.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "You trip and fall with a hard thud, taking [[1D4]] damage. In the fall, your weapon flies out of your hand. (20% percent chance it comes back down and lands in your body; you take the full damage from it). Spend the next round standing up and picking up your weapon or readying a new one.",
+      "name": "",
       "_key": "!tables.results!ZtCzqURFMvZ3bOKw.MoglW7YnUIQD4Viu"
     },
     {
@@ -89,10 +144,21 @@
       ],
       "drawn": false,
       "_id": "av3TeDGdvTqBqW5K",
-      "text": "The rigors of the battle have loosened your armor straps. Spend the next turn tightening it up. Until the armor is righted, you suffer a -5 penalty to your AC.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "The rigors of the battle have loosened your armor straps. Spend the next turn tightening it up. Until the armor is righted, you suffer a -5 penalty to your AC.",
+      "name": "",
       "_key": "!tables.results!ZtCzqURFMvZ3bOKw.av3TeDGdvTqBqW5K"
     },
     {
@@ -104,10 +170,21 @@
       ],
       "drawn": false,
       "_id": "Drkd7AcbiLp99N72",
-      "text": "Your weapon hits against your foe's armor and becomes damaged. (Missile weapons jam, or bow breaks). It is useless until it's repaired out of battle.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Your weapon hits against your foe's armor and becomes damaged. (Missile weapons jam, or bow breaks). It is useless until it's repaired out of battle.",
+      "name": "",
       "_key": "!tables.results!ZtCzqURFMvZ3bOKw.Drkd7AcbiLp99N72"
     },
     {
@@ -119,10 +196,21 @@
       ],
       "drawn": false,
       "_id": "ue2SfezqvxpdzxVG",
-      "text": "Your onslaught fails as your enemy simply sidesteps, leaving you open for an attack. Suffer a -6 penalty to your AC.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Your onslaught fails as your enemy simply sidesteps, leaving you open for an attack. Suffer a -6 penalty to your AC.",
+      "name": "",
       "_key": "!tables.results!ZtCzqURFMvZ3bOKw.ue2SfezqvxpdzxVG"
     },
     {
@@ -134,10 +222,21 @@
       ],
       "drawn": false,
       "_id": "FUsiZgKVyBnLFXd9",
-      "text": "Too much blood and gore on your weapon making it slip right out of your hands, while you try to land an attack. The weapon goes 15ft in a random direction.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Too much blood and gore on your weapon making it slip right out of your hands, while you try to land an attack. The weapon goes 15ft in a random direction.",
+      "name": "",
       "_key": "!tables.results!ZtCzqURFMvZ3bOKw.FUsiZgKVyBnLFXd9"
     },
     {
@@ -149,10 +248,21 @@
       ],
       "drawn": false,
       "_id": "a6dhPW3tlnT2Tyhy",
-      "text": "The gods of battle smile upon you on this day. Re-roll the attack, ignoring the fumble.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "The gods of battle smile upon you on this day. Re-roll the attack, ignoring the fumble.",
+      "name": "",
       "_key": "!tables.results!ZtCzqURFMvZ3bOKw.a6dhPW3tlnT2Tyhy"
     },
     {
@@ -164,10 +274,21 @@
       ],
       "drawn": false,
       "_id": "WsOOovMOGucmYCmX",
-      "text": "Your fanny pack rips, spilling all your hard-earned tokenz! Spend the next [[1D4]] rounds picking them back up. Suffer a -7 penality to your AC until all the tokenz are picked up.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Your fanny pack rips, spilling all your hard-earned tokenz! Spend the next [[1D4]] rounds picking them back up. Suffer a -7 penality to your AC until all the tokenz are picked up.",
+      "name": "",
       "_key": "!tables.results!ZtCzqURFMvZ3bOKw.WsOOovMOGucmYCmX"
     },
     {
@@ -179,10 +300,21 @@
       ],
       "drawn": false,
       "_id": "HY20a6Rsm3VTN6fV",
-      "text": "You haphazardly strike one randomly determined ally within range. Make an attack roll against that them, dealing normal damage.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "You haphazardly strike one randomly determined ally within range. Make an attack roll against that them, dealing normal damage.",
+      "name": "",
       "_key": "!tables.results!ZtCzqURFMvZ3bOKw.HY20a6Rsm3VTN6fV"
     },
     {
@@ -194,10 +326,21 @@
       ],
       "drawn": false,
       "_id": "DSQWBambhj9SlCo5",
-      "text": "Your thunderous blow hits the wall or other hard surface. The weapon is utterly destroyed. All mundane weapons are demolished, and metal shrapnel explodes in every direction. 2 random targets take [[/roll 1D4]] damage. If it was a magical weapon, it has a 30 percent chance of destruction. If destroyed, the magical power surges out in a violent display of colors and sparkles. 4 Madballz Missile darts hit 4 random targets dealing [[/roll 1D4+1]].",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Your thunderous blow hits the wall or other hard surface. The weapon is utterly destroyed. All mundane weapons are demolished, and metal shrapnel explodes in every direction. 2 random targets take [[/roll 1D4]] damage. If it was a magical weapon, it has a 30 percent chance of destruction. If destroyed, the magical power surges out in a violent display of colors and sparkles. 4 Madballz Missile darts hit 4 random targets dealing [[/roll 1D4+1]].",
+      "name": "",
       "_key": "!tables.results!ZtCzqURFMvZ3bOKw.DSQWBambhj9SlCo5"
     },
     {
@@ -209,10 +352,21 @@
       ],
       "drawn": false,
       "_id": "K7X1F0tmuXcSqAk9",
-      "text": "<b>IF attack IS MELEE</b>: Winding up for a mighty attack, your opponent anticipates it and turns your helmet backwards (pulls robe over your eyes, armor up over head... depending on the situation). They manage to disarm you and throw your weapon [[2D10]] ft in a random direction. Spend the next turn picking up your weapon or readying a new weapon.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<b>IF attack IS MELEE</b>: Winding up for a mighty attack, your opponent anticipates it and turns your helmet backwards (pulls robe over your eyes, armor up over head... depending on the situation). They manage to disarm you and throw your weapon [[2D10]] ft in a random direction. Spend the next turn picking up your weapon or readying a new weapon.",
+      "name": "",
       "_key": "!tables.results!ZtCzqURFMvZ3bOKw.K7X1F0tmuXcSqAk9"
     },
     {
@@ -224,10 +378,21 @@
       ],
       "drawn": false,
       "_id": "njkP4qIG6bCS4de1",
-      "text": "<b>IF attack IS MISSILE</b>: Pulling back on your bow with too much gusto or the recoil of the weapon was too much, causing your weapon to fly out of your hands in a random direction [[2D10]] ft away. Spend the next turn picking up your weapon or readying a new weapon.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<b>IF attack IS MISSILE</b>: Pulling back on your bow with too much gusto or the recoil of the weapon was too much, causing your weapon to fly out of your hands in a random direction [[2D10]] ft away. Spend the next turn picking up your weapon or readying a new weapon.",
+      "name": "",
       "_key": "!tables.results!ZtCzqURFMvZ3bOKw.njkP4qIG6bCS4de1"
     },
     {
@@ -239,10 +404,21 @@
       ],
       "drawn": false,
       "_id": "6xwx1j5LY3GCubaC",
-      "text": "<b>If attack IS SPELL</b>: You fall flat on your back from the sheer Khaotic force of the spell. The spell goes wild; [[1D4]]: 1- spell hits random target 2- spell hits you on the way down 3- misfire 4- spell hits intended target.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<b>If attack IS SPELL</b>: You fall flat on your back from the sheer Khaotic force of the spell. The spell goes wild; [[1D4]]: 1- spell hits random target 2- spell hits you on the way down 3- misfire 4- spell hits intended target.",
+      "name": "",
       "_key": "!tables.results!ZtCzqURFMvZ3bOKw.6xwx1j5LY3GCubaC"
     },
     {
@@ -254,10 +430,21 @@
       ],
       "drawn": false,
       "_id": "VCCQRdoBXdI6YXtb",
-      "text": "Wild swing comes back and you manage to strike yourself, dealing normal damage, and losing 1 Fortune Point.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Wild swing comes back and you manage to strike yourself, dealing normal damage, and losing 1 Fortune Point.",
+      "name": "",
       "_key": "!tables.results!ZtCzqURFMvZ3bOKw.VCCQRdoBXdI6YXtb"
     },
     {
@@ -269,10 +456,21 @@
       ],
       "drawn": false,
       "_id": "472jJBzksDKq0Hlt",
-      "text": "The cowardice of the degenerate enemy is shown. They dodge your volley and call for their bros. [[1D12]] Reinforcements arrive at half HP.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "The cowardice of the degenerate enemy is shown. They dodge your volley and call for their bros. [[1D12]] Reinforcements arrive at half HP.",
+      "name": "",
       "_key": "!tables.results!ZtCzqURFMvZ3bOKw.472jJBzksDKq0Hlt"
     },
     {
@@ -284,10 +482,21 @@
       ],
       "drawn": false,
       "_id": "CvGw8BMk1xmybmmc",
-      "text": "You see fear in your adversary's eyes as your weapon comes up over your head. The power surges through you, knowing this is the end of this fiend. Unfortunately, a nearby ally steps in the way as your weapon comes crashing down. Roll on the To The Max! table against them.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "You see fear in your adversary's eyes as your weapon comes up over your head. The power surges through you, knowing this is the end of this fiend. Unfortunately, a nearby ally steps in the way as your weapon comes crashing down. Roll on the To The Max! table against them.",
+      "name": "",
       "_key": "!tables.results!ZtCzqURFMvZ3bOKw.CvGw8BMk1xmybmmc"
     },
     {
@@ -299,10 +508,21 @@
       ],
       "drawn": false,
       "_id": "pQVgFraATFqz8dD0",
-      "text": "Your enemy has exploited a weakness in your armor and deals normal damage to you.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Your enemy has exploited a weakness in your armor and deals normal damage to you.",
+      "name": "",
       "_key": "!tables.results!ZtCzqURFMvZ3bOKw.pQVgFraATFqz8dD0"
     },
     {
@@ -314,10 +534,21 @@
       ],
       "drawn": false,
       "_id": "V3ujosww6osoZYcH",
-      "text": "Death blow. A madcap attack leaves your back exposed to your opponent's vicious attack. Your foe strikes and auto-crits.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Death blow. A madcap attack leaves your back exposed to your opponent's vicious attack. Your foe strikes and auto-crits.",
+      "name": "",
       "_key": "!tables.results!ZtCzqURFMvZ3bOKw.V3ujosww6osoZYcH"
     },
     {
@@ -329,10 +560,21 @@
       ],
       "drawn": false,
       "_id": "3jAn1BSfO6tDkoQW",
-      "text": "The gods hate you and want you dead. Deal double max damage to yourself.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "The gods hate you and want you dead. Deal double max damage to yourself.",
+      "name": "",
       "_key": "!tables.results!ZtCzqURFMvZ3bOKw.3jAn1BSfO6tDkoQW"
     }
   ],
@@ -347,12 +589,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "neon-lords",
     "systemVersion": "0.0.7",
     "createdTime": 1742617855853,
     "modifiedTime": 1742618436205,
-    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+    "lastModifiedBy": "l18XFo7VCP3jkSA6",
+    "exportSource": null
   },
   "formula": "1D20",
   "_key": "!tables!ZtCzqURFMvZ3bOKw"

@@ -14,10 +14,21 @@
       ],
       "drawn": false,
       "_id": "mSFNYWQqZhWF90MT",
-      "text": "Personal Vendetta! This one deserved it as the Riff deals an additional [[1D4]] damage.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Personal Vendetta! This one deserved it as the Riff deals an additional [[1D4]] damage.",
+      "name": "",
       "_key": "!tables.results!J6AlbyimbULNFHX1.mSFNYWQqZhWF90MT"
     },
     {
@@ -29,10 +40,21 @@
       ],
       "drawn": false,
       "_id": "Lj4wz7mgb600lPH7",
-      "text": "Songs of Healing. The Riff heals the party for [[/roll 1D4]] lost HP per Ally.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Songs of Healing. The Riff heals the party for [[/roll 1D4]] lost HP per Ally.",
+      "name": "",
       "_key": "!tables.results!J6AlbyimbULNFHX1.Lj4wz7mgb600lPH7"
     },
     {
@@ -44,10 +66,21 @@
       ],
       "drawn": false,
       "_id": "i2Cl88CZdV8AFHcj",
-      "text": "Holy Metal! The pureness of the Riff is recognized by higher lifeforms. In addition to playing the riff, the Noise Thrasher casts the Holy Smiter prayer Make A Stand at the same time.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Holy Metal! The pureness of the Riff is recognized by higher lifeforms. In addition to playing the riff, the Noise Thrasher casts the Holy Smiter prayer Make A Stand at the same time.",
+      "name": "",
       "_key": "!tables.results!J6AlbyimbULNFHX1.i2Cl88CZdV8AFHcj"
     },
     {
@@ -59,10 +92,21 @@
       ],
       "drawn": false,
       "_id": "kvBupTYNXxgfftHK",
-      "text": "Calling Hell World Collect. The darkness of the Riff taps into the Khaos winds granting the Noise Thrasher the ability to cast a War Wizard Level 1 spell at random.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Calling Hell World Collect. The darkness of the Riff taps into the Khaos winds granting the Noise Thrasher the ability to cast a War Wizard Level 1 spell at random.",
+      "name": "",
       "_key": "!tables.results!J6AlbyimbULNFHX1.kvBupTYNXxgfftHK"
     },
     {
@@ -74,10 +118,21 @@
       ],
       "drawn": false,
       "_id": "hti6mcfJd7jSZfmy",
-      "text": "The Riff becomes cosmic and summons [[1D4]] @UUID[Compendium.neon-lords.actors.Actor.uNeHflrrzIEH4HxO]{Otherworldly Spawns} to do the Noise Thrasher's bidding.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "The Riff becomes cosmic and summons [[1D4]] @UUID[Compendium.neon-lords.actors.Actor.uNeHflrrzIEH4HxO]{Otherworldly Spawns} to do the Noise Thrasher's bidding.",
+      "name": "",
       "_key": "!tables.results!J6AlbyimbULNFHX1.hti6mcfJd7jSZfmy"
     },
     {
@@ -89,10 +144,21 @@
       ],
       "drawn": false,
       "_id": "blDhHggs8437n3cE",
-      "text": "Anthem! The Riff is the skumdog Party's favorite jam! Granting allies a +3 to attack and Damage on their next turn.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Anthem! The Riff is the skumdog Party's favorite jam! Granting allies a +3 to attack and Damage on their next turn.",
+      "name": "",
       "_key": "!tables.results!J6AlbyimbULNFHX1.blDhHggs8437n3cE"
     },
     {
@@ -104,10 +170,21 @@
       ],
       "drawn": false,
       "_id": "RBHtdE8CHtkzvB6g",
-      "text": "Double The Pain. The Riff is cast flawlessly and deals 2 times the damage. If no damage is dealt with the riff, the duration is doubled without the need to spend any additional Riff Points.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Double The Pain. The Riff is cast flawlessly and deals 2 times the damage. If no damage is dealt with the riff, the duration is doubled without the need to spend any additional Riff Points.",
+      "name": "",
       "_key": "!tables.results!J6AlbyimbULNFHX1.RBHtdE8CHtkzvB6g"
     },
     {
@@ -119,10 +196,21 @@
       ],
       "drawn": false,
       "_id": "vVqtUWdjA99sOCy2",
-      "text": "Double The Pleasure. The Riff goes off without a hitch. So well in fact it heals the party for the amount of damage dealt times 2.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Double The Pleasure. The Riff goes off without a hitch. So well in fact it heals the party for the amount of damage dealt times 2.",
+      "name": "",
       "_key": "!tables.results!J6AlbyimbULNFHX1.vVqtUWdjA99sOCy2"
     },
     {
@@ -134,10 +222,21 @@
       ],
       "drawn": false,
       "_id": "cMfk42dDbjx2znY0",
-      "text": "Air Guitar Madness. Mimicking the Riff while playing it, the Noise Thrasher unlocks their mind's eye casting a random level 1 Psychic Manifestation at the same time.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Air Guitar Madness. Mimicking the Riff while playing it, the Noise Thrasher unlocks their mind's eye casting a random level 1 Psychic Manifestation at the same time.",
+      "name": "",
       "_key": "!tables.results!J6AlbyimbULNFHX1.cMfk42dDbjx2znY0"
     },
     {
@@ -149,10 +248,21 @@
       ],
       "drawn": false,
       "_id": "KwsvwlqrPZ1iVwQq",
-      "text": "Synth-Metal Hybrid attack! As the Riff is played, it harmonizes with the computer waves casting a random level 1 Hack at the same time.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Synth-Metal Hybrid attack! As the Riff is played, it harmonizes with the computer waves casting a random level 1 Hack at the same time.",
+      "name": "",
       "_key": "!tables.results!J6AlbyimbULNFHX1.KwsvwlqrPZ1iVwQq"
     },
     {
@@ -164,10 +274,21 @@
       ],
       "drawn": false,
       "_id": "2ZG5apFaS8roYEZC",
-      "text": "Freedom Fireworks. The Riff is sounding like the Detroit-Prime Anthem as it spews Madballz Missiles out of the Sick Instrument. 6 Madballz Missiles shoot out hitting any target the Noise Thrasher chooses dealing [[/roll 1D4]] per dart.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Freedom Fireworks. The Riff is sounding like the Detroit-Prime Anthem as it spews Madballz Missiles out of the Sick Instrument. 6 Madballz Missiles shoot out hitting any target the Noise Thrasher chooses dealing [[/roll 1D4]] per dart.",
+      "name": "",
       "_key": "!tables.results!J6AlbyimbULNFHX1.2ZG5apFaS8roYEZC"
     },
     {
@@ -179,10 +300,21 @@
       ],
       "drawn": false,
       "_id": "v7EPKZDBtIdZI9xh",
-      "text": "Extreme Noise Terror! A sound screeches out of the Sick Instrument. It's loud and annoying and all enemies within earshot (100ft) must roll on the Fear Table against the Noise Thrasher.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Extreme Noise Terror! A sound screeches out of the Sick Instrument. It's loud and annoying and all enemies within earshot (100ft) must roll on the Fear Table against the Noise Thrasher.",
+      "name": "",
       "_key": "!tables.results!J6AlbyimbULNFHX1.v7EPKZDBtIdZI9xh"
     },
     {
@@ -194,10 +326,21 @@
       ],
       "drawn": false,
       "_id": "5omlahuqU0LUnDId",
-      "text": "The intensity of the Riff is so gnarly it knocks the eyes out of the target's eye sockets. They are @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.LegKo00gEYfyNEJi]{Blinded} and take an additional [[1D10]] damage.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "The intensity of the Riff is so gnarly it knocks the eyes out of the target's eye sockets. They are @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.LegKo00gEYfyNEJi]{Blinded} and take an additional [[1D10]] damage.",
+      "name": "",
       "_key": "!tables.results!J6AlbyimbULNFHX1.5omlahuqU0LUnDId"
     },
     {
@@ -209,10 +352,21 @@
       ],
       "drawn": false,
       "_id": "bV4R5dqdMf5O4wbG",
-      "text": "Napalm Death. The Riff is cast and deals an additional [[/roll 2D6]] Burning damage to the target and any other enemies within 10ft of the original target. Burning their insides to a crisp.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Napalm Death. The Riff is cast and deals an additional [[/roll 2D6]] Burning damage to the target and any other enemies within 10ft of the original target. Burning their insides to a crisp.",
+      "name": "",
       "_key": "!tables.results!J6AlbyimbULNFHX1.bV4R5dqdMf5O4wbG"
     },
     {
@@ -224,10 +378,21 @@
       ],
       "drawn": false,
       "_id": "OLKEVsS9ZwXzJIwU",
-      "text": "Quantum Overload. The sick instrument itself magnifies the damage dealing 3 times the pain! If the riff does no damage, extend the duration to 3 turns without having to pay any additional Riff Points.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Quantum Overload. The sick instrument itself magnifies the damage dealing 3 times the pain! If the riff does no damage, extend the duration to 3 turns without having to pay any additional Riff Points.",
+      "name": "",
       "_key": "!tables.results!J6AlbyimbULNFHX1.OLKEVsS9ZwXzJIwU"
     },
     {
@@ -239,10 +404,21 @@
       ],
       "drawn": false,
       "_id": "fe2DdiIXn3C9TbBI",
-      "text": "Mega Sonic Echo. It's as if the Riff is played twice making a copy of itself, and the Noise Thrasher can choose a new target for the copy! (Or send 'em both straight at the first target).",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Mega Sonic Echo. It's as if the Riff is played twice making a copy of itself, and the Noise Thrasher can choose a new target for the copy! (Or send 'em both straight at the first target).",
+      "name": "",
       "_key": "!tables.results!J6AlbyimbULNFHX1.fe2DdiIXn3C9TbBI"
     },
     {
@@ -254,10 +430,21 @@
       ],
       "drawn": false,
       "_id": "OBS5uJwuZoy3albH",
-      "text": "Ultimate Morale Boost! The Riff is so sick that it pumps the skumdog party up so much that they all regain [[/roll 1D8]] lost Class Points.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Ultimate Morale Boost! The Riff is so sick that it pumps the skumdog party up so much that they all regain [[/roll 1D8]] lost Class Points.",
+      "name": "",
       "_key": "!tables.results!J6AlbyimbULNFHX1.OBS5uJwuZoy3albH"
     },
     {
@@ -269,10 +456,21 @@
       ],
       "drawn": false,
       "_id": "Zh4SNlrf3o9N5X3E",
-      "text": "Sick Sax Solo. Accompanied with the Riff is a ethereal out of body Sax Solo that pierces the target's ear drums in such an intense manner it blows their mind dealing an additional [[1D8]] damage.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Sick Sax Solo. Accompanied with the Riff is a ethereal out of body Sax Solo that pierces the target's ear drums in such an intense manner it blows their mind dealing an additional [[1D8]] damage.",
+      "name": "",
       "_key": "!tables.results!J6AlbyimbULNFHX1.Zh4SNlrf3o9N5X3E"
     },
     {
@@ -284,10 +482,21 @@
       ],
       "drawn": false,
       "_id": "k3K6RlYCcZDKQbR9",
-      "text": "Black Metal Veins. The Riff from Hell World. As it's played it casts three Level 4 War Wizard spells at the same time. Spells chosen by the Noise Thrasher.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Black Metal Veins. The Riff from Hell World. As it's played it casts three Level 4 War Wizard spells at the same time. Spells chosen by the Noise Thrasher.",
+      "name": "",
       "_key": "!tables.results!J6AlbyimbULNFHX1.k3K6RlYCcZDKQbR9"
     },
     {
@@ -299,10 +508,21 @@
       ],
       "drawn": false,
       "_id": "XEyiJlbI9sq8syTN",
-      "text": "ELECTRIC DRAGON 80,000 VOLTS!!!! The Riff is beyond powerful and manifests itself as a Electric Dragon! The massive beast bites the head off the target killing them instantly while shooting lightning bolts up to 30ft away. Any enemy within a 30ft radius of the target must make an [[/save agility]] or take [[/roll 1D6x6]] damage.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "ELECTRIC DRAGON 80,000 VOLTS!!!! The Riff is beyond powerful and manifests itself as a Electric Dragon! The massive beast bites the head off the target killing them instantly while shooting lightning bolts up to 30ft away. Any enemy within a 30ft radius of the target must make an [[/save agility]] or take [[/roll 1D6x6]] damage.",
+      "name": "",
       "_key": "!tables.results!J6AlbyimbULNFHX1.XEyiJlbI9sq8syTN"
     }
   ],
@@ -317,12 +537,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "neon-lords",
     "systemVersion": "0.0.3",
     "createdTime": 1742338833483,
     "modifiedTime": 1746848306835,
-    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+    "lastModifiedBy": "l18XFo7VCP3jkSA6",
+    "exportSource": null
   },
   "formula": "1D20",
   "_key": "!tables!J6AlbyimbULNFHX1"

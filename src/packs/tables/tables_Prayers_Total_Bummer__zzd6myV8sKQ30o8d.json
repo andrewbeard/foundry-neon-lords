@@ -14,10 +14,21 @@
       ],
       "drawn": false,
       "_id": "diAdrDqk2Yjdv9JT",
-      "text": "Your god is gracious toward your incompetence. Must be your lucky day! Ignore the fumble and lose -5 Sleaze.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Your god is gracious toward your incompetence. Must be your lucky day! Ignore the fumble and lose -5 Sleaze.",
+      "name": "",
       "_key": "!tables.results!zzd6myV8sKQ30o8d.diAdrDqk2Yjdv9JT"
     },
     {
@@ -29,10 +40,21 @@
       ],
       "drawn": false,
       "_id": "bdP5CNfewyXEEHn2",
-      "text": "Divine backlash! The failure of the prayer deals [[1D4]] damage to you.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Divine backlash! The failure of the prayer deals [[1D4]] damage to you.",
+      "name": "",
       "_key": "!tables.results!zzd6myV8sKQ30o8d.bdP5CNfewyXEEHn2"
     },
     {
@@ -44,10 +66,21 @@
       ],
       "drawn": false,
       "_id": "KSiPCKeq4LvT22wV",
-      "text": "Not today! Your God must be on vacation, 'cause no one answered. You gain +1 to your Sleaze score.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Not today! Your God must be on vacation, 'cause no one answered. You gain +1 to your Sleaze score.",
+      "name": "",
       "_key": "!tables.results!zzd6myV8sKQ30o8d.KSiPCKeq4LvT22wV"
     },
     {
@@ -59,10 +92,21 @@
       ],
       "drawn": false,
       "_id": "qEWAO85yHbXbZiGD",
-      "text": "How dare you! Failure means punishment, dealing [[1D6]] damage to you.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "How dare you! Failure means punishment, dealing [[1D6]] damage to you.",
+      "name": "",
       "_key": "!tables.results!zzd6myV8sKQ30o8d.qEWAO85yHbXbZiGD"
     },
     {
@@ -74,10 +118,21 @@
       ],
       "drawn": false,
       "_id": "P3PgGkDq2vKmHfvz",
-      "text": "Unholy Favors go unnoticed. Your god is unimpressed, gaining you +2 to your Sleaze score.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Unholy Favors go unnoticed. Your god is unimpressed, gaining you +2 to your Sleaze score.",
+      "name": "",
       "_key": "!tables.results!zzd6myV8sKQ30o8d.P3PgGkDq2vKmHfvz"
     },
     {
@@ -89,10 +144,21 @@
       ],
       "drawn": false,
       "_id": "PLn3wGS2gLEAAx14",
-      "text": "Loss of devotion, gain +3 to your Sleaze Score and start the process on becoming a Fallen Smiter",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Loss of devotion, gain +3 to your Sleaze Score and start the process on becoming a Fallen Smiter",
+      "name": "",
       "_key": "!tables.results!zzd6myV8sKQ30o8d.PLn3wGS2gLEAAx14"
     }
   ],
@@ -107,12 +173,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "neon-lords",
     "systemVersion": "0.0.3",
     "createdTime": 1742312830476,
     "modifiedTime": 1742312892368,
-    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+    "lastModifiedBy": "x53CwYXR1zhkCDCY",
+    "exportSource": null
   },
   "formula": "1D6",
   "_key": "!tables!zzd6myV8sKQ30o8d"

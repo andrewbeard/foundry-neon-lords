@@ -13,14 +13,25 @@
       ],
       "drawn": false,
       "_id": "lnztEqMc9K28hGgw",
-      "text": "Booby Trapped!!!!",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Booby Trapped!!!!",
+      "name": "",
       "_key": "!tables.results!q9H4gHpgrEkq3jZ6.lnztEqMc9K28hGgw"
     },
     {
-      "type": "pack",
+      "type": "document",
       "weight": 1,
       "range": [
         11,
@@ -28,16 +39,26 @@
       ],
       "drawn": false,
       "_id": "QL8SPUm1g5EY1OuW",
-      "text": "Subtable - Loot the Dead Dude - Booby Trapped",
       "img": "icons/svg/d20-grey.svg",
-      "documentId": "iPXgAy6MvWI2H3lU",
       "flags": {},
-      "documentCollection": "neon-lords.tables",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Subtable - Loot the Dead Dude - Booby Trapped",
+      "documentUuid": "Compendium.neon-lords.tables.RollTable.iPXgAy6MvWI2H3lU",
+      "description": "",
       "_key": "!tables.results!q9H4gHpgrEkq3jZ6.QL8SPUm1g5EY1OuW"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.tables",
       "weight": 1,
       "range": [
         12,
@@ -45,15 +66,25 @@
       ],
       "drawn": false,
       "_id": "cxDr4TfSaxG7kCYS",
-      "text": "[[1D4]] Dusty Vials Of A Murky Brown Liquid",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "[[1D4]] Dusty Vials Of A Murky Brown Liquid",
+      "name": "",
       "_key": "!tables.results!q9H4gHpgrEkq3jZ6.cxDr4TfSaxG7kCYS"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.tables",
       "weight": 1,
       "range": [
         13,
@@ -61,15 +92,25 @@
       ],
       "drawn": false,
       "_id": "2KXDWaN4PXXQ0vg4",
-      "text": "A Metallic Puzzle Cube",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "A Metallic Puzzle Cube",
+      "name": "",
       "_key": "!tables.results!q9H4gHpgrEkq3jZ6.2KXDWaN4PXXQ0vg4"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.tables",
       "weight": 1,
       "range": [
         14,
@@ -77,15 +118,25 @@
       ],
       "drawn": false,
       "_id": "w8D9zBBL4DZzYOmV",
-      "text": "A Small Finger-Shaped Sponge Cake With A White Synthetic Cream Filling",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "A Small Finger-Shaped Sponge Cake With A White Synthetic Cream Filling",
+      "name": "",
       "_key": "!tables.results!q9H4gHpgrEkq3jZ6.w8D9zBBL4DZzYOmV"
     },
     {
-      "type": "pack",
-      "documentCollection": "neon-lords.items",
+      "type": "document",
       "weight": 1,
       "range": [
         15,
@@ -93,15 +144,26 @@
       ],
       "drawn": false,
       "_id": "WX4QxkMdiRiiNnTe",
-      "text": "Meat Treet Brand Jellied Meat In A Can",
       "img": "icons/svg/item-bag.svg",
-      "documentId": "GwBD327g9DFBe7D4",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Meat Treet Brand Jellied Meat In A Can",
+      "documentUuid": "Compendium.neon-lords.items.Item.GwBD327g9DFBe7D4",
+      "description": "",
       "_key": "!tables.results!q9H4gHpgrEkq3jZ6.WX4QxkMdiRiiNnTe"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.items",
       "weight": 1,
       "range": [
         16,
@@ -109,15 +171,25 @@
       ],
       "drawn": false,
       "_id": "jefJfsy5kekNp4PQ",
-      "text": "A Bottle Of Milk (Laced With Combat Enhancement Drugs)",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "A Bottle Of Milk (Laced With Combat Enhancement Drugs)",
+      "name": "",
       "_key": "!tables.results!q9H4gHpgrEkq3jZ6.jefJfsy5kekNp4PQ"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.items",
       "weight": 1,
       "range": [
         21,
@@ -125,15 +197,25 @@
       ],
       "drawn": false,
       "_id": "BlyCzk03lEcaAr8I",
-      "text": "[[1D4]] Gold Pieces",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "[[1D4]] Gold Pieces",
+      "name": "",
       "_key": "!tables.results!q9H4gHpgrEkq3jZ6.BlyCzk03lEcaAr8I"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.items",
       "weight": 1,
       "range": [
         22,
@@ -141,15 +223,25 @@
       ],
       "drawn": false,
       "_id": "1nMYvozaENfPmQH3",
-      "text": "Haphazardly Built Lazer Pistol (Breaks After 1st Shot)",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Haphazardly Built Lazer Pistol (Breaks After 1st Shot)",
+      "name": "",
       "_key": "!tables.results!q9H4gHpgrEkq3jZ6.1nMYvozaENfPmQH3"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.items",
       "weight": 1,
       "range": [
         23,
@@ -157,15 +249,25 @@
       ],
       "drawn": false,
       "_id": "OYWAFckN0JdfBEMu",
-      "text": "Small Baggie Of Rainbow Powder",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Small Baggie Of Rainbow Powder",
+      "name": "",
       "_key": "!tables.results!q9H4gHpgrEkq3jZ6.OYWAFckN0JdfBEMu"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.items",
       "weight": 1,
       "range": [
         24,
@@ -173,15 +275,25 @@
       ],
       "drawn": false,
       "_id": "Bz8zCEkxsu4Q6pRT",
-      "text": "Random 1st Level War Wizard Spell Inscribed On A Chunk Of Humanoid Skin",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Random 1st Level War Wizard Spell Inscribed On A Chunk Of Humanoid Skin",
+      "name": "",
       "_key": "!tables.results!q9H4gHpgrEkq3jZ6.Bz8zCEkxsu4Q6pRT"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.items",
       "weight": 1,
       "range": [
         25,
@@ -189,15 +301,25 @@
       ],
       "drawn": false,
       "_id": "Vn7BnWZIGQdsJI6y",
-      "text": "4 Human Teeth",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "4 Human Teeth",
+      "name": "",
       "_key": "!tables.results!q9H4gHpgrEkq3jZ6.Vn7BnWZIGQdsJI6y"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.items",
       "weight": 1,
       "range": [
         26,
@@ -205,15 +327,25 @@
       ],
       "drawn": false,
       "_id": "m58oxd7y4ToqGhyH",
-      "text": "[[1D4]] Vitality Sticks",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "[[1D4]] Vitality Sticks",
+      "name": "",
       "_key": "!tables.results!q9H4gHpgrEkq3jZ6.m58oxd7y4ToqGhyH"
     },
     {
-      "type": "pack",
-      "documentCollection": "neon-lords.items",
+      "type": "document",
       "weight": 1,
       "range": [
         26,
@@ -221,15 +353,26 @@
       ],
       "drawn": false,
       "_id": "sJlPGKva7ZZl81JE",
-      "text": "Vitality Stick",
       "img": "icons/svg/item-bag.svg",
-      "documentId": "HERjzAfL3k3davBz",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Vitality Stick",
+      "documentUuid": "Compendium.neon-lords.items.Item.HERjzAfL3k3davBz",
+      "description": "",
       "_key": "!tables.results!q9H4gHpgrEkq3jZ6.sJlPGKva7ZZl81JE"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.items",
       "weight": 1,
       "range": [
         31,
@@ -237,15 +380,25 @@
       ],
       "drawn": false,
       "_id": "z7AReGwHXU22z4Tr",
-      "text": "[[1D3]] Ninja Throwing Stars",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "[[1D3]] Ninja Throwing Stars",
+      "name": "",
       "_key": "!tables.results!q9H4gHpgrEkq3jZ6.z7AReGwHXU22z4Tr"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.items",
       "weight": 1,
       "range": [
         32,
@@ -253,15 +406,25 @@
       ],
       "drawn": false,
       "_id": "CYJPBrBMEtE4UT23",
-      "text": "A Pair Of Big Fuzzy Dice",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "A Pair Of Big Fuzzy Dice",
+      "name": "",
       "_key": "!tables.results!q9H4gHpgrEkq3jZ6.CYJPBrBMEtE4UT23"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.items",
       "weight": 1,
       "range": [
         33,
@@ -269,15 +432,25 @@
       ],
       "drawn": false,
       "_id": "QpRQ7OElsQec3PoT",
-      "text": "Booby Trapped!!!!",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Booby Trapped!!!!",
+      "name": "",
       "_key": "!tables.results!q9H4gHpgrEkq3jZ6.QpRQ7OElsQec3PoT"
     },
     {
-      "type": "pack",
-      "documentCollection": "neon-lords.tables",
+      "type": "document",
       "weight": 1,
       "range": [
         33,
@@ -285,15 +458,26 @@
       ],
       "drawn": false,
       "_id": "BcvcHKVZooOVYLmD",
-      "text": "Subtable - Loot the Dead Dude - Booby Trapped",
       "img": "icons/svg/d20-grey.svg",
-      "documentId": "iPXgAy6MvWI2H3lU",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Subtable - Loot the Dead Dude - Booby Trapped",
+      "documentUuid": "Compendium.neon-lords.tables.RollTable.iPXgAy6MvWI2H3lU",
+      "description": "",
       "_key": "!tables.results!q9H4gHpgrEkq3jZ6.BcvcHKVZooOVYLmD"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.tables",
       "weight": 1,
       "range": [
         34,
@@ -301,15 +485,25 @@
       ],
       "drawn": false,
       "_id": "vKtKW0U5zHb0GGph",
-      "text": "[[2D4]] Gold Pieces",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "[[2D4]] Gold Pieces",
+      "name": "",
       "_key": "!tables.results!q9H4gHpgrEkq3jZ6.vKtKW0U5zHb0GGph"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.tables",
       "weight": 1,
       "range": [
         35,
@@ -317,15 +511,25 @@
       ],
       "drawn": false,
       "_id": "RcVwnX5yz9fHTePc",
-      "text": "[[1D6]] Death Sticks",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "[[1D6]] Death Sticks",
+      "name": "",
       "_key": "!tables.results!q9H4gHpgrEkq3jZ6.RcVwnX5yz9fHTePc"
     },
     {
-      "type": "pack",
-      "documentCollection": "neon-lords.items",
+      "type": "document",
       "weight": 1,
       "range": [
         35,
@@ -333,15 +537,26 @@
       ],
       "drawn": false,
       "_id": "2BHBHSg2BFPz88MA",
-      "text": "Death Sticks",
       "img": "icons/svg/item-bag.svg",
-      "documentId": "ov70ezqZSg1hHQu0",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Death Sticks",
+      "documentUuid": "Compendium.neon-lords.items.Item.ov70ezqZSg1hHQu0",
+      "description": "",
       "_key": "!tables.results!q9H4gHpgrEkq3jZ6.2BHBHSg2BFPz88MA"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.items",
       "weight": 1,
       "range": [
         36,
@@ -349,15 +564,25 @@
       ],
       "drawn": false,
       "_id": "jok9QlfZ8O6QWx34",
-      "text": "Trucker Hat With A Mudflap Girl Patch Stitched On",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Trucker Hat With A Mudflap Girl Patch Stitched On",
+      "name": "",
       "_key": "!tables.results!q9H4gHpgrEkq3jZ6.jok9QlfZ8O6QWx34"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.items",
       "weight": 1,
       "range": [
         41,
@@ -365,15 +590,25 @@
       ],
       "drawn": false,
       "_id": "JeTVIdmZ32ijDZ1c",
-      "text": "Brass Knuckles",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Brass Knuckles",
+      "name": "",
       "_key": "!tables.results!q9H4gHpgrEkq3jZ6.JeTVIdmZ32ijDZ1c"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.items",
       "weight": 1,
       "range": [
         42,
@@ -381,15 +616,25 @@
       ],
       "drawn": false,
       "_id": "jMQOH4ogREsJCCel",
-      "text": "A Mix-Tape Called “Mutated Mash-Up”",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "A Mix-Tape Called “Mutated Mash-Up”",
+      "name": "",
       "_key": "!tables.results!q9H4gHpgrEkq3jZ6.jMQOH4ogREsJCCel"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.items",
       "weight": 1,
       "range": [
         43,
@@ -397,15 +642,25 @@
       ],
       "drawn": false,
       "_id": "p6XW9OqtWykIOu7t",
-      "text": "Mummified Finger",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Mummified Finger",
+      "name": "",
       "_key": "!tables.results!q9H4gHpgrEkq3jZ6.p6XW9OqtWykIOu7t"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.items",
       "weight": 1,
       "range": [
         44,
@@ -413,15 +668,25 @@
       ],
       "drawn": false,
       "_id": "LjO1HM3PX5q40dS1",
-      "text": "Booby Trapped!!!!",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Booby Trapped!!!!",
+      "name": "",
       "_key": "!tables.results!q9H4gHpgrEkq3jZ6.LjO1HM3PX5q40dS1"
     },
     {
-      "type": "pack",
-      "documentCollection": "neon-lords.tables",
+      "type": "document",
       "weight": 1,
       "range": [
         44,
@@ -429,15 +694,26 @@
       ],
       "drawn": false,
       "_id": "Dp9Lb2uk9hzFcQwI",
-      "text": "Subtable - Loot the Dead Dude - Booby Trapped",
       "img": "icons/svg/d20-grey.svg",
-      "documentId": "iPXgAy6MvWI2H3lU",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Subtable - Loot the Dead Dude - Booby Trapped",
+      "documentUuid": "Compendium.neon-lords.tables.RollTable.iPXgAy6MvWI2H3lU",
+      "description": "",
       "_key": "!tables.results!q9H4gHpgrEkq3jZ6.Dp9Lb2uk9hzFcQwI"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.tables",
       "weight": 1,
       "range": [
         45,
@@ -445,15 +721,25 @@
       ],
       "drawn": false,
       "_id": "vmsqS67W0TVAS2BL",
-      "text": "Trash Water, Flask",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Trash Water, Flask",
+      "name": "",
       "_key": "!tables.results!q9H4gHpgrEkq3jZ6.vmsqS67W0TVAS2BL"
     },
     {
-      "type": "pack",
-      "documentCollection": "neon-lords.items",
+      "type": "document",
       "weight": 1,
       "range": [
         45,
@@ -461,15 +747,26 @@
       ],
       "drawn": false,
       "_id": "hnohdYMB30lSmkGZ",
-      "text": "Trash Water",
       "img": "icons/svg/item-bag.svg",
-      "documentId": "0X7CarlyQDMKZeKO",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Trash Water",
+      "documentUuid": "Compendium.neon-lords.items.Item.0X7CarlyQDMKZeKO",
+      "description": "",
       "_key": "!tables.results!q9H4gHpgrEkq3jZ6.hnohdYMB30lSmkGZ"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.items",
       "weight": 1,
       "range": [
         46,
@@ -477,47 +774,79 @@
       ],
       "drawn": false,
       "_id": "GRmmzMApPNRRtMVx",
-      "text": "Yellow Key Card",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Yellow Key Card",
+      "name": "",
       "_key": "!tables.results!q9H4gHpgrEkq3jZ6.GRmmzMApPNRRtMVx"
     },
     {
-      "type": "pack",
-      "documentCollection": "neon-lords.items",
+      "type": "document",
       "weight": 1,
       "range": [
         51,
         51
       ],
       "drawn": false,
-      "text": "Glug-Chug Zero",
-      "documentId": "n2JzZJAZMyfhFSq1",
       "img": "systems/neon-lords/assets/gear/glugchug.webp",
       "_id": "qYLL2d0CSO1zuLNj",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Glug-Chug Zero",
+      "documentUuid": "Compendium.neon-lords.items.Item.n2JzZJAZMyfhFSq1",
+      "description": "",
       "_key": "!tables.results!q9H4gHpgrEkq3jZ6.qYLL2d0CSO1zuLNj"
     },
     {
-      "type": "pack",
-      "documentCollection": "neon-lords.items",
+      "type": "document",
       "weight": 1,
       "range": [
         52,
         52
       ],
       "drawn": false,
-      "text": "Sluggo Brand Neon Apple Snack Fruit Pie",
-      "documentId": "2ULMfGcfLP4NYH0F",
       "img": "icons/svg/item-bag.svg",
       "_id": "OpxiaCWnxMVFPVY3",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Sluggo Brand Neon Apple Snack Fruit Pie",
+      "documentUuid": "Compendium.neon-lords.items.Item.2ULMfGcfLP4NYH0F",
+      "description": "",
       "_key": "!tables.results!q9H4gHpgrEkq3jZ6.OpxiaCWnxMVFPVY3"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.items",
       "weight": 1,
       "range": [
         53,
@@ -525,15 +854,25 @@
       ],
       "drawn": false,
       "_id": "csYwz3vFVnKbavPK",
-      "text": "Smoke 'Nade",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Smoke 'Nade",
+      "name": "",
       "_key": "!tables.results!q9H4gHpgrEkq3jZ6.csYwz3vFVnKbavPK"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.items",
       "weight": 1,
       "range": [
         54,
@@ -541,15 +880,25 @@
       ],
       "drawn": false,
       "_id": "cB8GemJkc8sBo2s8",
-      "text": "Mega Fizz 3 Liter (Flavor Blast Extreme)",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Mega Fizz 3 Liter (Flavor Blast Extreme)",
+      "name": "",
       "_key": "!tables.results!q9H4gHpgrEkq3jZ6.cB8GemJkc8sBo2s8"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.items",
       "weight": 1,
       "range": [
         55,
@@ -557,15 +906,25 @@
       ],
       "drawn": false,
       "_id": "Y1QPZon2ojCRcj05",
-      "text": "Booby Trapped!!!!",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Booby Trapped!!!!",
+      "name": "",
       "_key": "!tables.results!q9H4gHpgrEkq3jZ6.Y1QPZon2ojCRcj05"
     },
     {
-      "type": "pack",
-      "documentCollection": "neon-lords.tables",
+      "type": "document",
       "weight": 1,
       "range": [
         55,
@@ -573,15 +932,26 @@
       ],
       "drawn": false,
       "_id": "1SAxBxuJI7XycRoA",
-      "text": "Subtable - Loot the Dead Dude - Booby Trapped",
       "img": "icons/svg/d20-grey.svg",
-      "documentId": "iPXgAy6MvWI2H3lU",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Subtable - Loot the Dead Dude - Booby Trapped",
+      "documentUuid": "Compendium.neon-lords.tables.RollTable.iPXgAy6MvWI2H3lU",
+      "description": "",
       "_key": "!tables.results!q9H4gHpgrEkq3jZ6.1SAxBxuJI7XycRoA"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.tables",
       "weight": 1,
       "range": [
         56,
@@ -589,31 +959,52 @@
       ],
       "drawn": false,
       "_id": "N9SL7QDY6d27tvvd",
-      "text": "Lord Randy Action Figure",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Lord Randy Action Figure",
+      "name": "",
       "_key": "!tables.results!q9H4gHpgrEkq3jZ6.N9SL7QDY6d27tvvd"
     },
     {
-      "type": "pack",
-      "documentCollection": "neon-lords.items",
+      "type": "document",
       "weight": 1,
       "range": [
         61,
         61
       ],
       "drawn": false,
-      "text": "Sprayed Stuff Unisex Hairspray For Men",
-      "documentId": "zdPgEzqeRMx6qFrE",
       "img": "icons/svg/item-bag.svg",
       "_id": "O8sTzZ1gjP3JFXeY",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Sprayed Stuff Unisex Hairspray For Men",
+      "documentUuid": "Compendium.neon-lords.items.Item.zdPgEzqeRMx6qFrE",
+      "description": "",
       "_key": "!tables.results!q9H4gHpgrEkq3jZ6.O8sTzZ1gjP3JFXeY"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.items",
       "weight": 1,
       "range": [
         62,
@@ -621,15 +1012,25 @@
       ],
       "drawn": false,
       "_id": "ZlfHv2RRe9KyV7aM",
-      "text": "[[2D8x8]] Gold Pieces",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "[[2D8x8]] Gold Pieces",
+      "name": "",
       "_key": "!tables.results!q9H4gHpgrEkq3jZ6.ZlfHv2RRe9KyV7aM"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.items",
       "weight": 1,
       "range": [
         63,
@@ -637,15 +1038,25 @@
       ],
       "drawn": false,
       "_id": "0giqfOksUFGJbW6s",
-      "text": "Lazer Lance",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Lazer Lance",
+      "name": "",
       "_key": "!tables.results!q9H4gHpgrEkq3jZ6.0giqfOksUFGJbW6s"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.items",
       "weight": 1,
       "range": [
         64,
@@ -653,15 +1064,25 @@
       ],
       "drawn": false,
       "_id": "Fr4cle2n0ofD8KKt",
-      "text": "Sick Shades",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Sick Shades",
+      "name": "",
       "_key": "!tables.results!q9H4gHpgrEkq3jZ6.Fr4cle2n0ofD8KKt"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.items",
       "weight": 1,
       "range": [
         65,
@@ -669,26 +1090,48 @@
       ],
       "drawn": false,
       "_id": "LGsUtUbnRoFpebXf",
-      "text": "Lightning Brass Knuckles",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Lightning Brass Knuckles",
+      "name": "",
       "_key": "!tables.results!q9H4gHpgrEkq3jZ6.LGsUtUbnRoFpebXf"
     },
     {
-      "type": "pack",
-      "documentCollection": "neon-lords.items",
+      "type": "document",
       "weight": 1,
       "range": [
         66,
         66
       ],
       "drawn": false,
-      "text": "High Octane Freedom Potion",
-      "documentId": "lXVH9dy3CfdA96zu",
       "img": "icons/svg/item-bag.svg",
       "_id": "rb3spLVNgQb7raiq",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "High Octane Freedom Potion",
+      "documentUuid": "Compendium.neon-lords.items.Item.lXVH9dy3CfdA96zu",
+      "description": "",
       "_key": "!tables.results!q9H4gHpgrEkq3jZ6.rb3spLVNgQb7raiq"
     }
   ],
@@ -704,12 +1147,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "neon-lords",
     "systemVersion": "0.0.11",
     "createdTime": 1745638598039,
     "modifiedTime": 1745640043788,
-    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+    "lastModifiedBy": "x53CwYXR1zhkCDCY",
+    "exportSource": null
   },
   "formula": "1d6*10 + 1d6",
   "_key": "!tables!q9H4gHpgrEkq3jZ6"

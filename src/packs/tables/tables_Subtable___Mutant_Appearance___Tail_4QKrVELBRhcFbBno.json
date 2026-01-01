@@ -14,10 +14,21 @@
       ],
       "drawn": false,
       "_id": "1Ij0yXad0A5cs51U",
-      "text": "Lizard Tail",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Lizard Tail",
+      "name": "",
       "_key": "!tables.results!4QKrVELBRhcFbBno.1Ij0yXad0A5cs51U"
     },
     {
@@ -29,10 +40,21 @@
       ],
       "drawn": false,
       "_id": "BzXJQIzsv8zKdm88",
-      "text": "Scorpion Tail ([[/roll 1D6]] tail attack)",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Scorpion Tail ([[/roll 1D6]] tail attack)",
+      "name": "",
       "_key": "!tables.results!4QKrVELBRhcFbBno.BzXJQIzsv8zKdm88"
     },
     {
@@ -44,10 +66,21 @@
       ],
       "drawn": false,
       "_id": "mIRvFqh9WaW738LP",
-      "text": "Monkey Tail",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Monkey Tail",
+      "name": "",
       "_key": "!tables.results!4QKrVELBRhcFbBno.mIRvFqh9WaW738LP"
     },
     {
@@ -59,10 +92,21 @@
       ],
       "drawn": false,
       "_id": "Efv8KR2GiUrIDSEO",
-      "text": "Rat Tail",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Rat Tail",
+      "name": "",
       "_key": "!tables.results!4QKrVELBRhcFbBno.Efv8KR2GiUrIDSEO"
     }
   ],
@@ -77,12 +121,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "neon-lords",
     "systemVersion": "0.0.8",
     "createdTime": 1742824698984,
     "modifiedTime": 1742825148538,
-    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+    "lastModifiedBy": "x53CwYXR1zhkCDCY",
+    "exportSource": null
   },
   "formula": "1D4",
   "_key": "!tables!4QKrVELBRhcFbBno"

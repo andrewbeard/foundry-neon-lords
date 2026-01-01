@@ -13,10 +13,21 @@
       ],
       "drawn": false,
       "_id": "x5fCedJ8hWizwPAr",
-      "text": "Nothing Happens.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Nothing Happens.",
+      "name": "",
       "_key": "!tables.results!wWlK2fOLN8A6FakM.x5fCedJ8hWizwPAr"
     },
     {
@@ -28,10 +39,21 @@
       ],
       "drawn": false,
       "_id": "I3cyK7IaegG1SsfK",
-      "text": "Out of the reader's fingers @UUID[Compendium.neon-lords.items.Item.9Clu6Qpy8feW2nTN]{Madballz Missile} is cast hitting a random target.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Out of the reader's fingers @UUID[Compendium.neon-lords.items.Item.9Clu6Qpy8feW2nTN]{Madballz Missile} is cast hitting a random target.",
+      "name": "",
       "_key": "!tables.results!wWlK2fOLN8A6FakM.I3cyK7IaegG1SsfK"
     },
     {
@@ -43,10 +65,21 @@
       ],
       "drawn": false,
       "_id": "zsQSafqg2dwHhjH6",
-      "text": "Reader rolls on the Minor Mutation Table.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Reader rolls on the Minor Mutation Table.",
+      "name": "",
       "_key": "!tables.results!wWlK2fOLN8A6FakM.zsQSafqg2dwHhjH6"
     },
     {
@@ -58,10 +91,21 @@
       ],
       "drawn": false,
       "_id": "bO7QoveGcZioJY3v",
-      "text": "Reader gains a @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.MP8G8pm2rVgrwPf3]{Madness} Point.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Reader gains a @UUID[Compendium.neon-lords.journal.JournalEntry.Ej0fIoR2umnEbLfo.JournalEntryPage.MP8G8pm2rVgrwPf3]{Madness} Point.",
+      "name": "",
       "_key": "!tables.results!wWlK2fOLN8A6FakM.bO7QoveGcZioJY3v"
     },
     {
@@ -73,10 +117,21 @@
       ],
       "drawn": false,
       "_id": "NGQjFMjJ6b2HV05z",
-      "text": "[[1D4]]+Reader's Brain Mod @UUID[Compendium.neon-lords.actors.Actor.uNeHflrrzIEH4HxO]{Otherworldly Spawns} are summoned.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "[[1D4]]+Reader's Brain Mod @UUID[Compendium.neon-lords.actors.Actor.uNeHflrrzIEH4HxO]{Otherworldly Spawns} are summoned.",
+      "name": "",
       "_key": "!tables.results!wWlK2fOLN8A6FakM.NGQjFMjJ6b2HV05z"
     },
     {
@@ -88,14 +143,25 @@
       ],
       "drawn": false,
       "_id": "K0BbjYrbheo95SbK",
-      "text": "A Mammoth Space God is summoned. Appease the god or they will devour the planet.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "A Mammoth Space God is summoned. Appease the god or they will devour the planet.",
+      "name": "",
       "_key": "!tables.results!wWlK2fOLN8A6FakM.K0BbjYrbheo95SbK"
     },
     {
-      "type": "pack",
+      "type": "document",
       "weight": 1,
       "range": [
         9,
@@ -103,11 +169,22 @@
       ],
       "drawn": false,
       "_id": "1myrza2Zm0XeNrla",
-      "text": "Minor Mutations",
       "img": "icons/svg/d20-grey.svg",
-      "documentId": "HyBQa4FGfKxwNOaw",
       "flags": {},
-      "documentCollection": "neon-lords.tables",
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Minor Mutations",
+      "documentUuid": "Compendium.neon-lords.tables.RollTable.HyBQa4FGfKxwNOaw",
+      "description": "",
       "_key": "!tables.results!wWlK2fOLN8A6FakM.1myrza2Zm0XeNrla"
     }
   ],
@@ -123,12 +200,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742093222099,
     "modifiedTime": 1745688377522,
-    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+    "lastModifiedBy": "l18XFo7VCP3jkSA6",
+    "exportSource": null
   },
   "formula": "1D12",
   "_key": "!tables!wWlK2fOLN8A6FakM"

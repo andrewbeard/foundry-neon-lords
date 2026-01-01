@@ -5,302 +5,522 @@
   "results": [
     {
       "type": "text",
-      "text": "YOU MAD BRO? The attack deals an additional [[1D4]] damage and pisses off the target, giving them a -2 penalty to their AC until the end of the turn.",
       "range": [
         1,
         1
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "bDPkTf3bHmoayFGo",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "YOU MAD BRO? The attack deals an additional [[1D4]] damage and pisses off the target, giving them a -2 penalty to their AC until the end of the turn.",
+      "name": "",
       "_key": "!tables.results!9EuCyDFm1DG1ruYj.bDPkTf3bHmoayFGo"
     },
     {
       "type": "text",
-      "text": "Hey, man, I'm the one pointing the gun! Taunting all the enemies, they attack you if able until the end of your next turn. This taunt gives you an advantage, granting you an additional +2 to hit and +2 to damage these fools until the end of your next turn.",
       "range": [
         2,
         2
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "UpRrOt7EvRUbdC9x",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Hey, man, I'm the one pointing the gun! Taunting all the enemies, they attack you if able until the end of your next turn. This taunt gives you an advantage, granting you an additional +2 to hit and +2 to damage these fools until the end of your next turn.",
+      "name": "",
       "_key": "!tables.results!9EuCyDFm1DG1ruYj.UpRrOt7EvRUbdC9x"
     },
     {
       "type": "text",
-      "text": "Whatever you say, Daddy-O! A stylish trick shot, dealing an additional +[[1D4]] damage and gaining you +[[1D4]] to your Attitude.",
       "range": [
         3,
         3
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "qZHtFAfB1A60wT6u",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Whatever you say, Daddy-O! A stylish trick shot, dealing an additional +[[1D4]] damage and gaining you +[[1D4]] to your Attitude.",
+      "name": "",
       "_key": "!tables.results!9EuCyDFm1DG1ruYj.qZHtFAfB1A60wT6u"
     },
     {
       "type": "text",
-      "text": "Total Kyle! Your bi-corns glow, manifesting a can of Glug-chug Zero in your hand! Crack and chug it as a bonus action.",
       "range": [
         4,
         4
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "6GohjqASerKbQBll",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Total Kyle! Your bi-corns glow, manifesting a can of Glug-chug Zero in your hand! Crack and chug it as a bonus action.",
+      "name": "",
       "_key": "!tables.results!9EuCyDFm1DG1ruYj.6GohjqASerKbQBll"
     },
     {
       "type": "text",
-      "text": "No Pain, No Gain! The attack deals normal damage, but you regain the amount back in Mythical Points.",
       "range": [
         5,
         5
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "BDAA2mZciFe67PZJ",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "No Pain, No Gain! The attack deals normal damage, but you regain the amount back in Mythical Points.",
+      "name": "",
       "_key": "!tables.results!9EuCyDFm1DG1ruYj.BDAA2mZciFe67PZJ"
     },
     {
       "type": "text",
-      "text": "Thunderstruck! The attack deals normal damage but the blast is magically louder than normal, casting the “Dubstep Thunder” spell in addition to the attack.",
       "range": [
         6,
         6
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "MyP2mu6C2ZGaqne4",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Thunderstruck! The attack deals normal damage but the blast is magically louder than normal, casting the “Dubstep Thunder” spell in addition to the attack.",
+      "name": "",
       "_key": "!tables.results!9EuCyDFm1DG1ruYj.MyP2mu6C2ZGaqne4"
     },
     {
       "type": "text",
-      "text": "I am a rock! The attack deals an additional [[1D6]] damage and you gain that amount to your AC until the end of the next turn.",
       "range": [
         7,
         7
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "KKNndIiDGwSdKvTx",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "I am a rock! The attack deals an additional [[1D6]] damage and you gain that amount to your AC until the end of the next turn.",
+      "name": "",
       "_key": "!tables.results!9EuCyDFm1DG1ruYj.KKNndIiDGwSdKvTx"
     },
     {
       "type": "text",
-      "text": "Armor Piercing Rounds! Found a stash of AP rounds in your fanny pack, bag, or backpack! All shotty attacks (including this one) for the next [[1D4]] turns gain the armor-piercing damage type.",
       "range": [
         8,
         8
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "c3Zz8uwJC7m5Nxt2",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Armor Piercing Rounds! Found a stash of AP rounds in your fanny pack, bag, or backpack! All shotty attacks (including this one) for the next [[1D4]] turns gain the armor-piercing damage type.",
+      "name": "",
       "_key": "!tables.results!9EuCyDFm1DG1ruYj.c3Zz8uwJC7m5Nxt2"
     },
     {
       "type": "text",
-      "text": "Peachy-Keen! The attack hits for normal damage but you regain the amount of damage dealt, back in either Mythical Points or Hit Points (your choice).",
       "range": [
         9,
         9
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "pvxsV3QJ6vd60hAb",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Peachy-Keen! The attack hits for normal damage but you regain the amount of damage dealt, back in either Mythical Points or Hit Points (your choice).",
+      "name": "",
       "_key": "!tables.results!9EuCyDFm1DG1ruYj.pvxsV3QJ6vd60hAb"
     },
     {
       "type": "text",
-      "text": "Spartan Kick a freaking hole in their chest! The attack is a kick instead of the intended attack, dealing [[1D12]] damage and pushing them back 15ft. (If not in range, gallop up, snarl, kick, and move back to where you were.)",
       "range": [
         10,
         10
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "wP2atelDAuksDrYD",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Spartan Kick a freaking hole in their chest! The attack is a kick instead of the intended attack, dealing [[1D12]] damage and pushing them back 15ft. (If not in range, gallop up, snarl, kick, and move back to where you were.)",
+      "name": "",
       "_key": "!tables.results!9EuCyDFm1DG1ruYj.wP2atelDAuksDrYD"
     },
     {
       "type": "text",
-      "text": "Tex-Hex! Might be the Glug-Chug Zero tall boy talkin' or your ancient ancestors aiding you in battle, but you know how to cast a random 1st-level War Wizard spell. This spell is slung at any target with the normal attack.",
       "range": [
         10,
         11
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "n3TCRhSibzUkJY2D",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Tex-Hex! Might be the Glug-Chug Zero tall boy talkin' or your ancient ancestors aiding you in battle, but you know how to cast a random 1st-level War Wizard spell. This spell is slung at any target with the normal attack.",
+      "name": "",
       "_key": "!tables.results!9EuCyDFm1DG1ruYj.n3TCRhSibzUkJY2D"
     },
     {
       "type": "text",
-      "text": "Crack Shot! Call the target and deal damage to that specific area from the 'Lasting Injuries Table.'",
       "range": [
         12,
         12
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "syZsXJMfynOzAPg2",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Crack Shot! Call the target and deal damage to that specific area from the 'Lasting Injuries Table.'",
+      "name": "",
       "_key": "!tables.results!9EuCyDFm1DG1ruYj.syZsXJMfynOzAPg2"
     },
     {
       "type": "text",
-      "text": "Beyond Brutal! The attack deals an additional [[1D8]] damage, total massacre!",
       "range": [
         13,
         13
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "p2cIrQkIC3zD05pY",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Beyond Brutal! The attack deals an additional [[1D8]] damage, total massacre!",
+      "name": "",
       "_key": "!tables.results!9EuCyDFm1DG1ruYj.p2cIrQkIC3zD05pY"
     },
     {
       "type": "text",
-      "text": "Time to do some stompin'. Mechanical legs have their advantages! This attack kicks them into next week, dealing an additional [[1D8]] damage and pushing them back 10ft. (If not in kicking range, move that distance then kick away!).",
       "range": [
         14,
         14
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "ALGPjRygQAu4JG3P",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Time to do some stompin'. Mechanical legs have their advantages! This attack kicks them into next week, dealing an additional [[1D8]] damage and pushing them back 10ft. (If not in kicking range, move that distance then kick away!).",
+      "name": "",
       "_key": "!tables.results!9EuCyDFm1DG1ruYj.ALGPjRygQAu4JG3P"
     },
     {
       "type": "text",
-      "text": "Mega Lock! They can't hide from your super vision, granting you the ability to auto-hit the target until the end of your next turn. Deals an additional [[/roll 1D8]] this turn and the next.",
       "range": [
         15,
         15
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "2th4JnlZX6G6ekcd",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Mega Lock! They can't hide from your super vision, granting you the ability to auto-hit the target until the end of your next turn. Deals an additional [[/roll 1D8]] this turn and the next.",
+      "name": "",
       "_key": "!tables.results!9EuCyDFm1DG1ruYj.2th4JnlZX6G6ekcd"
     },
     {
       "type": "text",
-      "text": "Slugslinger! Using speed loading and precise shots, you are able to make 3 blasts with your shotgun. If it's a melee attack, the first one deals normal damage, then you pull out the shotty to finish them off (blasting them 2 times after the melee attack).",
       "range": [
         16,
         16
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "HwS0fBNOrcU9qhop",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Slugslinger! Using speed loading and precise shots, you are able to make 3 blasts with your shotgun. If it's a melee attack, the first one deals normal damage, then you pull out the shotty to finish them off (blasting them 2 times after the melee attack).",
+      "name": "",
       "_key": "!tables.results!9EuCyDFm1DG1ruYj.HwS0fBNOrcU9qhop"
     },
     {
       "type": "text",
-      "text": "NAPALM ROUNDS! Load that bad boy up with some napalm, dealing an additional [[1D6]] damage and [[/roll 1D4]] damage at the conditions check phase for 2 turns.",
       "range": [
         17,
         17
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "VfFCWcuaI1PnlZzy",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "NAPALM ROUNDS! Load that bad boy up with some napalm, dealing an additional [[1D6]] damage and [[/roll 1D4]] damage at the conditions check phase for 2 turns.",
+      "name": "",
       "_key": "!tables.results!9EuCyDFm1DG1ruYj.VfFCWcuaI1PnlZzy"
     },
     {
       "type": "text",
-      "text": "Ancestors, heed my cries! [[1D4]] celestial unicorns come to your aid, charging at the target, each dealing [[/roll1D8]] damage. If a target dies, the next unicorn moves onto the next available target.",
       "range": [
         18,
         18
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "9g7ZxrP2zlajNv1X",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Ancestors, heed my cries! [[1D4]] celestial unicorns come to your aid, charging at the target, each dealing [[/roll1D8]] damage. If a target dies, the next unicorn moves onto the next available target.",
+      "name": "",
       "_key": "!tables.results!9EuCyDFm1DG1ruYj.9g7ZxrP2zlajNv1X"
     },
     {
       "type": "text",
-      "text": "Wig-Chop Express! They didn't ask for a haircut, but you gave 'em one anyway, real close like, knocking their head clean off in a spectacle of arterial spray. (If the target has no real 'head,' assume shot hits somewhere lethal and bloody.)",
       "range": [
         19,
         19
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "K3ymJPkEkCTkhRa1",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Wig-Chop Express! They didn't ask for a haircut, but you gave 'em one anyway, real close like, knocking their head clean off in a spectacle of arterial spray. (If the target has no real 'head,' assume shot hits somewhere lethal and bloody.)",
+      "name": "",
       "_key": "!tables.results!9EuCyDFm1DG1ruYj.K3ymJPkEkCTkhRa1"
     },
     {
       "type": "text",
-      "text": "Magical Shotgun Blast of Radiant Explosiveness! The mythical meets the machine, and your Bicorn glows until it blasts pure magical energy into the attack, dealing [[1D20]] @UUID[Compendium.neon-lords.journal.JournalEntry.GolSNvsGoLOK5zXR.JournalEntryPage.9skDCk49uq5QjTMT]{Spillover} damage. Anything that dies from this attack explodes into glitter.",
       "range": [
         20,
         20
       ],
       "img": "icons/svg/d20-black.svg",
       "_id": "1XkkMMC9zKayvSm6",
-      "documentId": null,
       "weight": 1,
       "drawn": false,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Magical Shotgun Blast of Radiant Explosiveness! The mythical meets the machine, and your Bicorn glows until it blasts pure magical energy into the attack, dealing [[1D20]] @UUID[Compendium.neon-lords.journal.JournalEntry.GolSNvsGoLOK5zXR.JournalEntryPage.9skDCk49uq5QjTMT]{Spillover} damage. Anything that dies from this attack explodes into glitter.",
+      "name": "",
       "_key": "!tables.results!9EuCyDFm1DG1ruYj.1XkkMMC9zKayvSm6"
     }
   ],
@@ -311,12 +531,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "neon-lords",
     "systemVersion": "0.0.2",
     "createdTime": 1742156665341,
     "modifiedTime": 1745683104731,
-    "lastModifiedBy": "l18XFo7VCP3jkSA6"
+    "lastModifiedBy": "l18XFo7VCP3jkSA6",
+    "exportSource": null
   },
   "formula": "1d20",
   "ownership": {

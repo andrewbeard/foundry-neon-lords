@@ -6,56 +6,88 @@
   "description": "<p>Things are starting to heat up to a radioactive level!</p><p class=\"p1\">Major mutations alter the frail Humanoid body in ways only the mad or a mutie would love.</p>",
   "results": [
     {
-      "type": "pack",
-      "documentCollection": "neon-lords.items",
+      "type": "document",
       "weight": 1,
       "range": [
         1,
         1
       ],
       "drawn": false,
-      "text": "Pointy ears with elf-like appearance",
-      "documentId": "TOzjs6Aje80gJFqw",
       "img": "icons/svg/item-bag.svg",
       "_id": "CQgFJvbcvlKjWO1Y",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Pointy ears with elf-like appearance",
+      "documentUuid": "Compendium.neon-lords.items.Item.TOzjs6Aje80gJFqw",
+      "description": "",
       "_key": "!tables.results!dxroduQNRO4YNCPD.CQgFJvbcvlKjWO1Y"
     },
     {
-      "type": "pack",
-      "documentCollection": "neon-lords.items",
+      "type": "document",
       "weight": 1,
       "range": [
         2,
         2
       ],
       "drawn": false,
-      "text": "Mawg",
-      "documentId": "z5huOCfYFf0b1tAu",
       "img": "icons/svg/item-bag.svg",
       "_id": "qbtyo6R2LPgKybWV",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Mawg",
+      "documentUuid": "Compendium.neon-lords.items.Item.z5huOCfYFf0b1tAu",
+      "description": "",
       "_key": "!tables.results!dxroduQNRO4YNCPD.qbtyo6R2LPgKybWV"
     },
     {
-      "type": "pack",
-      "documentCollection": "neon-lords.items",
+      "type": "document",
       "weight": 1,
       "range": [
         3,
         3
       ],
       "drawn": false,
-      "text": "Iron guts",
-      "documentId": "SEl6nhWtOl6EySaD",
       "img": "icons/svg/item-bag.svg",
       "_id": "RmIJviYAmOT2FGcy",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Iron guts",
+      "documentUuid": "Compendium.neon-lords.items.Item.SEl6nhWtOl6EySaD",
+      "description": "",
       "_key": "!tables.results!dxroduQNRO4YNCPD.RmIJviYAmOT2FGcy"
     },
     {
-      "type": "pack",
-      "documentCollection": "neon-lords.tables",
+      "type": "document",
       "weight": 1,
       "range": [
         4,
@@ -63,79 +95,134 @@
       ],
       "drawn": false,
       "_id": "JbTaUezErofobWZJ",
-      "text": "Subtable - Major Mutations - Cyclops",
       "img": "icons/svg/d20-grey.svg",
-      "documentId": "i4ZZnnZRaobZ2FzJ",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Subtable - Major Mutations - Cyclops",
+      "documentUuid": "Compendium.neon-lords.tables.RollTable.i4ZZnnZRaobZ2FzJ",
+      "description": "",
       "_key": "!tables.results!dxroduQNRO4YNCPD.JbTaUezErofobWZJ"
     },
     {
-      "type": "pack",
-      "documentCollection": "neon-lords.items",
+      "type": "document",
       "weight": 1,
       "range": [
         5,
         5
       ],
       "drawn": false,
-      "text": "Baby arm",
-      "documentId": "wjg8MJKDp6QGiSxJ",
       "img": "icons/svg/item-bag.svg",
       "_id": "QNMnRLpVZyzciwLl",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Baby arm",
+      "documentUuid": "Compendium.neon-lords.items.Item.wjg8MJKDp6QGiSxJ",
+      "description": "",
       "_key": "!tables.results!dxroduQNRO4YNCPD.QNMnRLpVZyzciwLl"
     },
     {
-      "type": "pack",
-      "documentCollection": "neon-lords.items",
+      "type": "document",
       "weight": 1,
       "range": [
         6,
         6
       ],
       "drawn": false,
-      "text": "Literally a caveman",
-      "documentId": "K8Q6JeGtL3UkuCK2",
       "img": "icons/svg/item-bag.svg",
       "_id": "ZSHSJVTRJd56hjyn",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Literally a caveman",
+      "documentUuid": "Compendium.neon-lords.items.Item.K8Q6JeGtL3UkuCK2",
+      "description": "",
       "_key": "!tables.results!dxroduQNRO4YNCPD.ZSHSJVTRJd56hjyn"
     },
     {
-      "type": "pack",
-      "documentCollection": "neon-lords.items",
+      "type": "document",
       "weight": 1,
       "range": [
         7,
         7
       ],
       "drawn": false,
-      "text": "Bulletproof",
-      "documentId": "SA7SEnpF0ib0E5Dl",
       "img": "icons/svg/item-bag.svg",
       "_id": "4GqTQ3jcWU9S3lUt",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Bulletproof",
+      "documentUuid": "Compendium.neon-lords.items.Item.SA7SEnpF0ib0E5Dl",
+      "description": "",
       "_key": "!tables.results!dxroduQNRO4YNCPD.4GqTQ3jcWU9S3lUt"
     },
     {
-      "type": "pack",
-      "documentCollection": "neon-lords.items",
+      "type": "document",
       "weight": 1,
       "range": [
         8,
         8
       ],
       "drawn": false,
-      "text": "Wasteland adept",
-      "documentId": "cYyWlpGq5jRP3ASJ",
       "img": "icons/svg/item-bag.svg",
       "_id": "Ln9gKZHQBc0Ag3wh",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Wasteland adept",
+      "documentUuid": "Compendium.neon-lords.items.Item.cYyWlpGq5jRP3ASJ",
+      "description": "",
       "_key": "!tables.results!dxroduQNRO4YNCPD.Ln9gKZHQBc0Ag3wh"
     },
     {
-      "type": "pack",
-      "documentCollection": "neon-lords.tables",
+      "type": "document",
       "weight": 1,
       "range": [
         9,
@@ -143,79 +230,134 @@
       ],
       "drawn": false,
       "_id": "w74OGKRbqTykUAQW",
-      "text": "Subtable - Major Mutations - Adolescent mutated amphibians with attitude",
       "img": "icons/svg/d20-grey.svg",
-      "documentId": "eKzA7zQ4outunxuG",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Subtable - Major Mutations - Adolescent mutated amphibians with attitude",
+      "documentUuid": "Compendium.neon-lords.tables.RollTable.eKzA7zQ4outunxuG",
+      "description": "",
       "_key": "!tables.results!dxroduQNRO4YNCPD.w74OGKRbqTykUAQW"
     },
     {
-      "type": "pack",
-      "documentCollection": "neon-lords.items",
+      "type": "document",
       "weight": 1,
       "range": [
         10,
         10
       ],
       "drawn": false,
-      "text": "Brainiac",
-      "documentId": "O31Ldar3d5R2ET3D",
       "img": "icons/svg/item-bag.svg",
       "_id": "nMRizSC24PosgAZa",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Brainiac",
+      "documentUuid": "Compendium.neon-lords.items.Item.O31Ldar3d5R2ET3D",
+      "description": "",
       "_key": "!tables.results!dxroduQNRO4YNCPD.nMRizSC24PosgAZa"
     },
     {
-      "type": "pack",
-      "documentCollection": "neon-lords.items",
+      "type": "document",
       "weight": 1,
       "range": [
         11,
         11
       ],
       "drawn": false,
-      "text": "Brawniac",
-      "documentId": "IM8VjAbSqfzzLsGJ",
       "img": "icons/svg/item-bag.svg",
       "_id": "qC7Xd071ntSl7TAw",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Brawniac",
+      "documentUuid": "Compendium.neon-lords.items.Item.IM8VjAbSqfzzLsGJ",
+      "description": "",
       "_key": "!tables.results!dxroduQNRO4YNCPD.qC7Xd071ntSl7TAw"
     },
     {
-      "type": "pack",
-      "documentCollection": "neon-lords.items",
+      "type": "document",
       "weight": 1,
       "range": [
         12,
         12
       ],
       "drawn": false,
-      "text": "Phantom limbs",
-      "documentId": "VPL6UDmP5yEWq6Hr",
       "img": "icons/svg/item-bag.svg",
       "_id": "PnYI5viHaJdNb9iU",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Phantom limbs",
+      "documentUuid": "Compendium.neon-lords.items.Item.VPL6UDmP5yEWq6Hr",
+      "description": "",
       "_key": "!tables.results!dxroduQNRO4YNCPD.PnYI5viHaJdNb9iU"
     },
     {
-      "type": "pack",
-      "documentCollection": "neon-lords.items",
+      "type": "document",
       "weight": 1,
       "range": [
         13,
         13
       ],
       "drawn": false,
-      "text": "Tunnel rat",
-      "documentId": "9QWq1jHauNCUkcbS",
       "img": "icons/svg/item-bag.svg",
       "_id": "NvPDauJe2Zsp5LpK",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Tunnel rat",
+      "documentUuid": "Compendium.neon-lords.items.Item.9QWq1jHauNCUkcbS",
+      "description": "",
       "_key": "!tables.results!dxroduQNRO4YNCPD.NvPDauJe2Zsp5LpK"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.items",
       "weight": 1,
       "range": [
         14,
@@ -223,95 +365,160 @@
       ],
       "drawn": false,
       "_id": "kj9ga1no47CFxYoz",
-      "text": "Tri-clops",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Tri-clops",
+      "name": "",
       "_key": "!tables.results!dxroduQNRO4YNCPD.kj9ga1no47CFxYoz"
     },
     {
-      "type": "pack",
-      "documentCollection": "neon-lords.items",
+      "type": "document",
       "weight": 1,
       "range": [
         15,
         15
       ],
       "drawn": false,
-      "text": "Two heads",
-      "documentId": "8l6JVE4BVJW3xIbC",
       "img": "icons/svg/item-bag.svg",
       "_id": "VLHnC3bORfG0p1Ru",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Two heads",
+      "documentUuid": "Compendium.neon-lords.items.Item.8l6JVE4BVJW3xIbC",
+      "description": "",
       "_key": "!tables.results!dxroduQNRO4YNCPD.VLHnC3bORfG0p1Ru"
     },
     {
-      "type": "pack",
-      "documentCollection": "neon-lords.items",
+      "type": "document",
       "weight": 1,
       "range": [
         16,
         16
       ],
       "drawn": false,
-      "text": "Body flipped inside out!",
-      "documentId": "FuSeWv8DY0jJEBRi",
       "img": "icons/svg/item-bag.svg",
       "_id": "vqlRHH0bi4TFBe6Y",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Body flipped inside out!",
+      "documentUuid": "Compendium.neon-lords.items.Item.FuSeWv8DY0jJEBRi",
+      "description": "",
       "_key": "!tables.results!dxroduQNRO4YNCPD.vqlRHH0bi4TFBe6Y"
     },
     {
-      "type": "pack",
-      "documentCollection": "neon-lords.items",
+      "type": "document",
       "weight": 1,
       "range": [
         17,
         17
       ],
       "drawn": false,
-      "text": "Harness the power of sound!",
-      "documentId": "Vk5dgCEaqu9qeJHL",
       "img": "icons/svg/item-bag.svg",
       "_id": "ZpErNlTWPQQeorMq",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Harness the power of sound!",
+      "documentUuid": "Compendium.neon-lords.items.Item.Vk5dgCEaqu9qeJHL",
+      "description": "",
       "_key": "!tables.results!dxroduQNRO4YNCPD.ZpErNlTWPQQeorMq"
     },
     {
-      "type": "pack",
-      "documentCollection": "neon-lords.items",
+      "type": "document",
       "weight": 1,
       "range": [
         18,
         18
       ],
       "drawn": false,
-      "text": "Super lucky",
-      "documentId": "hMVDKs2KMkzcymOL",
       "img": "icons/svg/item-bag.svg",
       "_id": "KMFCxaEa7veaYnXV",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Super lucky",
+      "documentUuid": "Compendium.neon-lords.items.Item.hMVDKs2KMkzcymOL",
+      "description": "",
       "_key": "!tables.results!dxroduQNRO4YNCPD.KMFCxaEa7veaYnXV"
     },
     {
-      "type": "pack",
-      "documentCollection": "neon-lords.items",
+      "type": "document",
       "weight": 1,
       "range": [
         19,
         19
       ],
       "drawn": false,
-      "text": "Spell tumor",
-      "documentId": "DqubaaTaFRPpoCZs",
       "img": "icons/svg/item-bag.svg",
       "_id": "gxbK1hKLRovNzElu",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Spell tumor",
+      "documentUuid": "Compendium.neon-lords.items.Item.DqubaaTaFRPpoCZs",
+      "description": "",
       "_key": "!tables.results!dxroduQNRO4YNCPD.gxbK1hKLRovNzElu"
     },
     {
       "type": "text",
-      "documentCollection": "neon-lords.items",
       "weight": 1,
       "range": [
         20,
@@ -319,26 +526,48 @@
       ],
       "drawn": false,
       "_id": "96jDPSoogcrRrQ6m",
-      "text": "Mega ultimate meltdown! Roll on the Mega Mutation Table.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Mega ultimate meltdown! Roll on the Mega Mutation Table.",
+      "name": "",
       "_key": "!tables.results!dxroduQNRO4YNCPD.96jDPSoogcrRrQ6m"
     },
     {
-      "type": "pack",
-      "documentCollection": "neon-lords.tables",
+      "type": "document",
       "weight": 1,
       "range": [
         20,
         20
       ],
       "drawn": false,
-      "text": "Mega Mutations",
-      "documentId": "iCUsFjnnwbFv2Jv1",
       "img": "icons/svg/d20-grey.svg",
       "_id": "N0l20SAFELGAyZI3",
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Mega Mutations",
+      "documentUuid": "Compendium.neon-lords.tables.RollTable.iCUsFjnnwbFv2Jv1",
+      "description": "",
       "_key": "!tables.results!dxroduQNRO4YNCPD.N0l20SAFELGAyZI3"
     }
   ],
@@ -353,12 +582,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.344",
     "systemId": "neon-lords",
     "systemVersion": "0.0.3",
     "createdTime": 1742236823034,
     "modifiedTime": 1742239236134,
-    "lastModifiedBy": "x53CwYXR1zhkCDCY"
+    "lastModifiedBy": "x53CwYXR1zhkCDCY",
+    "exportSource": null
   },
   "formula": "1D20",
   "_key": "!tables!dxroduQNRO4YNCPD"
