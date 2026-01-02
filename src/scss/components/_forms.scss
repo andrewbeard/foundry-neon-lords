@@ -4,7 +4,7 @@
 
 .sheet-header {
   flex: 0 auto;
-  overflow: hidden;
+  overflow: visible;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -38,7 +38,11 @@
   flex: 0;
 }
 
-.sheet-body,
+.sheet-body {
+  flex: 1 1 auto;
+  min-height: 0;
+}
+
 .sheet-body .tab,
 .sheet-body .tab .editor {
   height: 100%;

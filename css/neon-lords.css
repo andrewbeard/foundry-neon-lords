@@ -4,11 +4,6 @@
   font-family: "Roboto", sans-serif;
 }
 
-/* Pause screen background - ensure system logo displays */
-#pause>img {
-  content: url("../assets/neon-lords-logo.webp");
-}
-
 .rollable:hover, .rollable:focus {
   color: #000;
   text-shadow: 0 0 10px red;
@@ -208,13 +203,18 @@
   text-align: center;
 }
 
+/* Pause screen background - ensure system logo displays */
+#pause > img {
+  content: url("../assets/neon-lords-logo.webp");
+}
+
 /* Styles limited to neon-lords sheets */
 .neon-lords .item-form {
   font-family: "Roboto", sans-serif;
 }
 .neon-lords .sheet-header {
   flex: 0 auto;
-  overflow: hidden;
+  overflow: visible;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -243,7 +243,10 @@
 .neon-lords .sheet-tabs {
   flex: 0;
 }
-.neon-lords .sheet-body,
+.neon-lords .sheet-body {
+  flex: 1 1 auto;
+  min-height: 0;
+}
 .neon-lords .sheet-body .tab,
 .neon-lords .sheet-body .tab .editor {
   height: 100%;
@@ -368,74 +371,4 @@
 }
 .neon-lords .effects .item .effect-controls {
   border: none;
-}
-
-.neon-lords .tab.tothemax .flex-shrink {
-  flex: 0 0 80px;  /* Don't grow, don't shrink, fixed width of 80px */
-  margin-right: 10px;
-  padding-top: 15px;  /* Add padding to vertically center with textarea */
-}
-
-.neon-lords .tab.tothemax .flex-grow {
-  flex: 1;  /* Grow to take up remaining space */
-}
-
-.neon-lords .tab.tothemax .flexrow {
-  margin-bottom: 10px;
-  align-items: flex-start;  /* Keep items aligned to top */
-}
-
-.neon-lords .tab.tothemax textarea {
-  width: 100%;
-  min-height: 60px;
-  resize: vertical;
-  background: rgba(0, 0, 0, 0.05);
-  border: 1px solid #7a7971;
-  border-radius: 3px;
-  padding: 5px;
-  font-family: inherit;
-  line-height: 1.4;  /* Add consistent line height */
-}
-
-.neon-lords .tab.tothemax textarea:focus {
-  outline: none;
-  box-shadow: 0 0 5px #ff6400;
-  border-color: #ff6400;
-}
-
-.neon-lords .resource {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2px;
-}
-
-.neon-lords .resource .flexrow {
-  display: flex;
-  align-items: center;
-  gap: 2px;
-}
-
-.neon-lords .resource .resource-label {
-  margin: 0;
-  padding: 0;
-}
-
-.neon-lords .resource .rollable {
-  margin-left: 2px;
-  font-size: 1.2em;
-  color: #7a7971;
-  transition: color 0.2s ease;
-}
-
-.neon-lords .resource .rollable:hover {
-  color: #ff6400;
-  text-shadow: none;
-}
-
-.neon-lords .resource .rollable i {
-  width: 20px;
-  height: 20px;
-  line-height: 20px;
-  text-align: center;
 }

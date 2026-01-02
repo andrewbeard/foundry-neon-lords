@@ -64,12 +64,12 @@ Hooks.once('init', function () {
   const Items = foundry.documents.collections.Items;
 
   // Register sheet application classes
-  Actors.unregisterSheet('core', foundry.appv1.sheets.ActorSheet);
+  Actors.unregisterSheet('core', foundry.applications.sheets.ActorSheet);
   Actors.registerSheet('neon-lords', NeonLordsActorSheet, {
     makeDefault: true,
     label: 'NEON_LORDS.SheetLabels.Actor',
   });
-  Items.unregisterSheet('core', foundry.appv1.sheets.ItemSheet);
+  Items.unregisterSheet('core', foundry.applications.sheets.ItemSheet);
   Items.registerSheet('neon-lords', NeonLordsItemSheet, {
     makeDefault: true,
     label: 'NEON_LORDS.SheetLabels.Item',

@@ -7,40 +7,69 @@ import {
  * Extend the basic ActorSheet with some very simple modifications
  * @extends ActorSheet
  */
-export class NeonLordsActorSheet extends foundry.appv1.sheets.ActorSheet {
-  /** @override */
-  static get defaultOptions() {
-    return foundry.utils.mergeObject(super.defaultOptions, {
-      classes: ['neon-lords', 'sheet', 'actor'],
+export class NeonLordsActorSheet extends foundry.applications.api.HandlebarsApplicationMixin(
+  foundry.applications.sheets.ActorSheet
+) {
+  static DEFAULT_OPTIONS = foundry.utils.mergeObject(super.DEFAULT_OPTIONS, {
+    classes: ['neon-lords', 'sheet', 'actor'],
+    position: {
       width: 600,
       height: 600,
+    },
+    window: {
+      resizable: true,
+    },
+  });
+
+  static PARTS = {
+    sheet: {
+      template: '',
+      root: true,
+    },
+  };
+
+  static TABS = {
+    primary: {
       tabs: [
-        {
-          navSelector: '.sheet-tabs',
-          contentSelector: '.sheet-body',
-          initial: 'attributes',
-        },
+        { id: 'attributes' },
+        { id: 'description' },
+        { id: 'tothemax' },
+        { id: 'gear' },
+        { id: 'spells' },
+        { id: 'effects' },
       ],
-    });
+      initial: 'attributes',
+    },
+  };
+
+  _configureRenderParts(options) {
+    const parts = super._configureRenderParts(options);
+    parts.sheet.template = `systems/neon-lords/templates/actor/actor-${this.document.type}-sheet.hbs`;
+    return parts;
   }
 
-  /** @override */
-  get template() {
-    return `systems/neon-lords/templates/actor/actor-${this.actor.type}-sheet.hbs`;
+  async _onRender(context, options) {
+    await super._onRender(context, options);
+    if (this.tabGroups.primary) {
+      this.changeTab(this.tabGroups.primary, 'primary', {
+        force: true,
+        updatePosition: false,
+      });
+    }
   }
 
   /* -------------------------------------------- */
 
-  /** @override */
-  async getData() {
-    // Retrieve the data structure from the base sheet. You can inspect or log
-    // the context variable to see the structure, but some key properties for
-    // sheets are the actor object, the data object, whether or not it's
-    // editable, the items array, and the effects array.
-    const context = super.getData();
+  async _prepareContext(options) {
+    const context = await super._prepareContext(options);
+    const actor = this.document;
 
     // Use a safe clone of the actor data for further operations.
-    const actorData = this.document.toPlainObject();
+    const actorData = actor.toPlainObject();
+
+    // Ensure expected core references exist in the context.
+    context.actor = actor;
+    context.items = actor.items.map((item) => item.toObject());
 
     // Add the actor's data to context.data for easier access, as well as flags.
     context.system = actorData.system;
@@ -63,16 +92,15 @@ export class NeonLordsActorSheet extends foundry.appv1.sheets.ActorSheet {
     // Enrich biography info for display
     // Enrichment turns text like `[[/r 1d20]]` into buttons
     context.enrichedBiography = await foundry.applications.ux.TextEditor.implementation.enrichHTML(
-      this.actor.system.biography,
+      actor.system.biography,
       {
         // Whether to show secret blocks in the finished html
-        secrets: this.document.isOwner,
-        // Necessary in v11, can be removed in v12
+        secrets: actor.isOwner,
         async: true,
         // Data to fill in for inline rolls
-        rollData: this.actor.getRollData(),
+        rollData: actor.getRollData(),
         // Relative UUID resolution
-        relativeTo: this.actor,
+        relativeTo: actor,
       }
     );
 
@@ -80,7 +108,7 @@ export class NeonLordsActorSheet extends foundry.appv1.sheets.ActorSheet {
     context.effects = prepareActiveEffectCategories(
       // A generator that returns all effects stored on the actor
       // as well as any items
-      this.actor.allApplicableEffects()
+      actor.allApplicableEffects()
     );
 
     return context;
@@ -158,14 +186,14 @@ export class NeonLordsActorSheet extends foundry.appv1.sheets.ActorSheet {
 
   /* -------------------------------------------- */
 
-  /** @override */
-  activateListeners(html) {
-    super.activateListeners(html);
+  _activateListeners(html) {
+    super._activateListeners(html);
+    const $html = html instanceof HTMLElement ? $(html) : html;
 
     // Render the item sheet for viewing/editing prior to the editable check.
-    html.on('click', '.item-edit', (ev) => {
+    $html.on('click', '.item-edit', (ev) => {
       const li = $(ev.currentTarget).parents('.item');
-      const item = this.actor.items.get(li.data('itemId'));
+      const item = this.document.items.get(li.data('itemId'));
       item.sheet.render(true);
     });
 
@@ -174,33 +202,33 @@ export class NeonLordsActorSheet extends foundry.appv1.sheets.ActorSheet {
     if (!this.isEditable) return;
 
     // Add Inventory Item
-    html.on('click', '.item-create', this._onItemCreate.bind(this));
+    $html.on('click', '.item-create', this._onItemCreate.bind(this));
 
     // Delete Inventory Item
-    html.on('click', '.item-delete', (ev) => {
+    $html.on('click', '.item-delete', (ev) => {
       const li = $(ev.currentTarget).parents('.item');
-      const item = this.actor.items.get(li.data('itemId'));
+      const item = this.document.items.get(li.data('itemId'));
       item.delete();
       li.slideUp(200, () => this.render(false));
     });
 
     // Active Effect management
-    html.on('click', '.effect-control', (ev) => {
+    $html.on('click', '.effect-control', (ev) => {
       const row = ev.currentTarget.closest('li');
       const document =
-        row.dataset.parentId === this.actor.id
-          ? this.actor
-          : this.actor.items.get(row.dataset.parentId);
+        row.dataset.parentId === this.document.id
+          ? this.document
+          : this.document.items.get(row.dataset.parentId);
       onManageActiveEffect(ev, document);
     });
 
     // Rollable abilities.
-    html.on('click', '.rollable', this._onRoll.bind(this));
+    $html.on('click', '.rollable', this._onRoll.bind(this));
 
     // Drag events for macros.
-    if (this.actor.isOwner) {
+    if (this.document.isOwner) {
       let handler = (ev) => this._onDragStart(ev);
-      html.find('li.item').each((i, li) => {
+      $html.find('li.item').each((i, li) => {
         if (li.classList.contains('inventory-header')) return;
         li.setAttribute('draggable', true);
         li.addEventListener('dragstart', handler, false);
@@ -208,7 +236,7 @@ export class NeonLordsActorSheet extends foundry.appv1.sheets.ActorSheet {
     }
 
     // Add context menu for rollable links
-    html.find('.rollable').contextmenu(ev => {
+    $html.find('.rollable').contextmenu(ev => {
       ev.preventDefault();
       const rollable = ev.currentTarget;
       const roll = rollable.dataset.roll;
@@ -279,7 +307,7 @@ export class NeonLordsActorSheet extends foundry.appv1.sheets.ActorSheet {
     delete itemData.system['type'];
 
     // Finally, create the item!
-    return await Item.create(itemData, { parent: this.actor });
+    return await Item.create(itemData, { parent: this.document });
   }
 
   /**
@@ -296,7 +324,7 @@ export class NeonLordsActorSheet extends foundry.appv1.sheets.ActorSheet {
     if (dataset.rollType) {
       if (dataset.rollType == 'item') {
         const itemId = element.closest('.item').dataset.itemId;
-        const item = this.actor.items.get(itemId);
+        const item = this.document.items.get(itemId);
         if (item) return item.roll();
       }
     }
@@ -306,7 +334,7 @@ export class NeonLordsActorSheet extends foundry.appv1.sheets.ActorSheet {
       const roll = new Roll(dataset.roll);
       roll.evaluate().then(result => {
         // Update the HP value with the roll result
-        this.actor.update({
+        this.document.update({
           'system.hp.value': result.total,
           'system.hp.max': result.total
         });
@@ -319,14 +347,14 @@ export class NeonLordsActorSheet extends foundry.appv1.sheets.ActorSheet {
     
     if (dataset.rollCategory === 'STATS' && dataset.label) {
       // For ability score rolls, roll directly against the ability value (roll under)
-      this.actor.system.rollSkillCheck(dataset, this.actor);
+      this.document.system.rollSkillCheck(dataset, this.document);
     } else if (dataset.rollCategory === 'Saving Throw' && dataset.label) {
       // For saving throws, roll directly against the save value (roll over)
-      this.actor.system.rollSave(dataset, this.actor);
+      this.document.system.rollSave(dataset, this.document);
     } else if (dataset.rollCategory === "Spell Check") {
-      this.actor.system.rollSpellCheck(dataset, this.actor);
+      this.document.system.rollSpellCheck(dataset, this.document);
     } else if (dataset.rollCategory === "Spell Pool") {
-        this.actor.system.rollSpellPool(dataset, this.actor);
+        this.document.system.rollSpellPool(dataset, this.document);
     } else if (dataset.rollCategory === "Attack") {
       this._handleAttackRoll(dataset);
     } else if (dataset.roll) {
@@ -347,39 +375,39 @@ export class NeonLordsActorSheet extends foundry.appv1.sheets.ActorSheet {
     if (dataset?.modifier) {
       rollMod += ` +${dataset.modifier}`;
     }
-    const roll = new Roll(dataset.roll + rollMod, this.actor.getRollData());
+    const roll = new Roll(dataset.roll + rollMod, this.document.getRollData());
     const result = await roll.evaluate();
     
     // Check for fumble on attack rolls (natural 1)
     const isFumble = result.terms[0].results[0].result === 1;
-    const isToTheMax = result.terms[0].results[0].result >= this.actor.system.critRange;
+    const isToTheMax = result.terms[0].results[0].result >= this.document.system.critRange;
     
     let resultText;
     if (isFumble) {
       resultText = `<span style="color: #990000; font-weight: bold;">Fumble!</span> (${result.total})<br><br>`;
       if (dataset.firearm === "true") {
-        resultText += await this.actor.system.firearmTotalBummer();
+        resultText += await this.document.system.firearmTotalBummer();
       } else {
-        resultText += await this.actor.system.meleeTotalBummer();
+        resultText += await this.document.system.meleeTotalBummer();
       }
     } else if (isToTheMax) {
       resultText = `<span style="color: #009900; font-weight: bold;">TO THE MAX!!</span> (${result.total})<br><br>`;
       if (dataset.firearm === "true") {
-        resultText += await this.actor.system.firearmToTheMax();
+        resultText += await this.document.system.firearmToTheMax();
       } else {
-        resultText += await this.actor.system.meleeToTheMax();
+        resultText += await this.document.system.meleeToTheMax();
       }
     } else {
       resultText = `Roll: ${result.total}`;
     }
     const enrichedResultText = await foundry.applications.ux.TextEditor.implementation.enrichHTML(resultText, {
       async: true,
-      rollData: this.actor.getRollData(),
-      relativeTo: this.actor,
+      rollData: this.document.getRollData(),
+      relativeTo: this.document,
     });
 
     roll.toMessage({
-      speaker: ChatMessage.getSpeaker({ actor: this.actor }),
+      speaker: ChatMessage.getSpeaker({ actor: this.document }),
       flavor: `[Attack] ${dataset.label}<br>${enrichedResultText}`,
       rollMode: game.settings.get('core', 'rollMode')
     });
@@ -395,18 +423,18 @@ export class NeonLordsActorSheet extends foundry.appv1.sheets.ActorSheet {
     if (dataset?.modifier) {
       rollMod += ` +${dataset.modifier}`;
     }
-    const roll = new Roll(dataset.roll + rollMod, this.actor.getRollData());
+    const roll = new Roll(dataset.roll + rollMod, this.document.getRollData());
     const result = await roll.evaluate();
     
     const resultText = `Roll: ${result.total}`;
     const enrichedResultText = await foundry.applications.ux.TextEditor.implementation.enrichHTML(resultText, {
       async: true,
-      rollData: this.actor.getRollData(),
-      relativeTo: this.actor,
+      rollData: this.document.getRollData(),
+      relativeTo: this.document,
     });
 
     roll.toMessage({
-      speaker: ChatMessage.getSpeaker({ actor: this.actor }),
+      speaker: ChatMessage.getSpeaker({ actor: this.document }),
       flavor: `${label}<br>${enrichedResultText}`,
       rollMode: game.settings.get('core', 'rollMode')
     });
