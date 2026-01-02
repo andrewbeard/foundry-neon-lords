@@ -106,8 +106,9 @@
 
     {{!-- Description Tab --}}
     <div class="tab biography" data-group="primary" data-tab="description">
-      {{!-- Editors must receive enriched text data from getData to properly handle rolls --}}
-      {{editor enrichedBiography target="system.biography" engine="prosemirror" button=true editable=editable}}
+      <prose-mirror name="system.biography" value="{{system.biography}}" data-document-uuid="{{actor.uuid}}" toggled>
+        {{{enrichedBiography}}}
+      </prose-mirror>
     </div>
 
     {{!-- To the MAX! Tab --}}
@@ -143,4 +144,3 @@
 
   </section>
 </form>
-
