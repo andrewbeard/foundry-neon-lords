@@ -54,6 +54,7 @@ export class NeonLordsItemSheet extends foundry.applications.api.HandlebarsAppli
         updatePosition: false,
       });
     }
+    this._activateListeners(this.window?.content ?? this.element);
   }
 
   /* -------------------------------------------- */
@@ -99,7 +100,6 @@ export class NeonLordsItemSheet extends foundry.applications.api.HandlebarsAppli
   /* -------------------------------------------- */
 
   _activateListeners(html) {
-    super._activateListeners(html);
     const $html = html instanceof HTMLElement ? $(html) : html;
 
     // Everything below here is only needed if the sheet is editable

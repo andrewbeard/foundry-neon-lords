@@ -56,6 +56,7 @@ export class NeonLordsActorSheet extends foundry.applications.api.HandlebarsAppl
         updatePosition: false,
       });
     }
+    this._activateListeners(this.window?.content ?? this.element);
   }
 
   /* -------------------------------------------- */
@@ -187,7 +188,6 @@ export class NeonLordsActorSheet extends foundry.applications.api.HandlebarsAppl
   /* -------------------------------------------- */
 
   _activateListeners(html) {
-    super._activateListeners(html);
     const $html = html instanceof HTMLElement ? $(html) : html;
 
     // Render the item sheet for viewing/editing prior to the editable check.
