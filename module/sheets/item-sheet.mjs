@@ -16,6 +16,9 @@ export class NeonLordsItemSheet extends foundry.applications.api.HandlebarsAppli
       width: 520,
       height: 480,
     },
+    form: {
+      submitOnChange: true,
+    },
     window: {
       resizable: true,
     },

@@ -16,6 +16,9 @@ export class NeonLordsActorSheet extends foundry.applications.api.HandlebarsAppl
       width: 600,
       height: 600,
     },
+    form: {
+      submitOnChange: true,
+    },
     window: {
       resizable: true,
     },
@@ -191,6 +194,7 @@ export class NeonLordsActorSheet extends foundry.applications.api.HandlebarsAppl
     const $html = html instanceof HTMLElement ? $(html) : html;
 
     // Render the item sheet for viewing/editing prior to the editable check.
+    $html.off('click', '.item-edit');
     $html.on('click', '.item-edit', (ev) => {
       const li = $(ev.currentTarget).parents('.item');
       const item = this.document.items.get(li.data('itemId'));
@@ -202,9 +206,11 @@ export class NeonLordsActorSheet extends foundry.applications.api.HandlebarsAppl
     if (!this.isEditable) return;
 
     // Add Inventory Item
+    $html.off('click', '.item-create');
     $html.on('click', '.item-create', this._onItemCreate.bind(this));
 
     // Delete Inventory Item
+    $html.off('click', '.item-delete');
     $html.on('click', '.item-delete', (ev) => {
       const li = $(ev.currentTarget).parents('.item');
       const item = this.document.items.get(li.data('itemId'));
@@ -213,6 +219,7 @@ export class NeonLordsActorSheet extends foundry.applications.api.HandlebarsAppl
     });
 
     // Active Effect management
+    $html.off('click', '.effect-control');
     $html.on('click', '.effect-control', (ev) => {
       const row = ev.currentTarget.closest('li');
       const document =
@@ -223,6 +230,7 @@ export class NeonLordsActorSheet extends foundry.applications.api.HandlebarsAppl
     });
 
     // Rollable abilities.
+    $html.off('click', '.rollable');
     $html.on('click', '.rollable', this._onRoll.bind(this));
 
     // Drag events for macros.
@@ -236,6 +244,7 @@ export class NeonLordsActorSheet extends foundry.applications.api.HandlebarsAppl
     }
 
     // Add context menu for rollable links
+    $html.find('.rollable').off('contextmenu');
     $html.find('.rollable').contextmenu(ev => {
       ev.preventDefault();
       const rollable = ev.currentTarget;
