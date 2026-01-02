@@ -41,6 +41,11 @@
 .sheet-body {
   flex: 1 1 auto;
   min-height: 0;
+  overflow: hidden;
+}
+
+.sheet-body .tab.active {
+  overflow: auto;
 }
 
 .sheet-body .tab,
