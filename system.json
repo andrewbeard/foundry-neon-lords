@@ -24,6 +24,20 @@
     "minimum": 13,
     "verified": "13.351"
   },
+  "documentTypes": {
+    "Actor": {
+      "character": {},
+      "npc": {}
+    },
+    "Item": {
+      "attack": {},
+      "feature": {},
+      "gear": {},
+      "hairstyle": {},
+      "mutation": {},
+      "spell": {}
+    }
+  },
   "esmodules": ["module/neon-lords.mjs"],
   "styles": ["css/neon-lords.css"],
   "languages": [
