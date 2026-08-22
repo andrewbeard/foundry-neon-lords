@@ -5,7 +5,7 @@
   "_id": "TeiMSZJbAEGIx6ng",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "<p>A sickly green chunky stream of bile comes out of the War Wizard’s mouth in a 10ft line, dealing [[/roll 1D8]] damage on a successful attack. There is a [[/roll 1d100]]{50%} chance the target will lose their actions for the next [[/roll 1D4]] rounds while vomiting uncontrollably. Undead and mechanical creatures are unaffected by the chance of vomiting.</p>",
+    "description": "<p>A sickly green chunky stream of bile comes out of the War Wizard’s mouth in a 10ft line, dealing [[/roll 1D8]] damage on a successful attack. There is a [[/percent 50]] chance the target will lose their actions for the next [[/roll 1D4]] rounds while vomiting uncontrollably. Undead and mechanical creatures are unaffected by the chance of vomiting.</p>",
     "spellLevel": 1,
     "duration": "Instant",
     "range": "10 ft",
@@ -24,9 +24,9 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "neon-lords",
-    "systemVersion": "0.1.0",
+    "systemVersion": "0.1.1",
     "createdTime": 1767272167522,
-    "modifiedTime": 1767272520140,
+    "modifiedTime": 1767310473545,
     "lastModifiedBy": "l18XFo7VCP3jkSA6"
   },
   "_key": "!items!TeiMSZJbAEGIx6ng"

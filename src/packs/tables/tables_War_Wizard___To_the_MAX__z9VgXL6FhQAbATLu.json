@@ -120,18 +120,19 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "13.344",
+        "coreVersion": "13.351",
         "systemId": null,
         "systemVersion": null,
         "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
+        "modifiedTime": 1767311038885,
+        "lastModifiedBy": "l18XFo7VCP3jkSA6",
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null
       },
-      "description": "Amplified by cosmic rays, the spell does an additional [[1D6]] damage and sends a magical beacon deep into space. There is a 10% ([[1D100]]) chance an old god notices and responds.",
+      "description": "<p>Amplified by cosmic rays, the spell does an additional [[1D6]] damage and sends a magical beacon deep into space. There is a [[/percent 10]] chance an old god notices and responds.</p>",
       "name": "",
+      "documentUuid": null,
       "_key": "!tables.results!z9VgXL6FhQAbATLu.5wzfvBJNypJccZNc"
     },
     {
