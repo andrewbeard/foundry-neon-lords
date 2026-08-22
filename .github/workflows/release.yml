@@ -15,7 +15,7 @@ jobs:
       contents: write
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
       - name: Install Dependencies
         run: npm ci
       - name: Build Packs
@@ -30,13 +30,13 @@ jobs:
           mv packs neon-lords/
           zip -ur neon-lords.zip neon-lords/packs
           rm -rf neon-lords
-      - uses: actions/attest-build-provenance@v2
+      - uses: actions/attest-build-provenance@v4
         with:
           subject-path: |
             neon-lords.zip
             system.json
       - name: Create release draft
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           files: |
             neon-lords.zip
