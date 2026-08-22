@@ -80,6 +80,12 @@ Hooks.once('init', function () {
 });  
 
 Hooks.on('init', function () {
+    const percentRgx = /\[\[\s*\/percent\s+(\d+)\]\]?/gi;
+    CONFIG.TextEditor.enrichers.push({
+        pattern: percentRgx,
+        enricher: percentRollEnricher,
+    });
+
     const saveRgx = /\[\[\s*\/save\s+(\w+)\]\]?/gi;
     CONFIG.TextEditor.enrichers.push({
         pattern: saveRgx,
@@ -99,6 +105,7 @@ Hooks.on('init', function () {
     });
 
     const body = $("body");
+    body.on("click", "a.inline-percent-roll", onRollPercentClick);
     body.on("click", "a.inline-save-roll", onRollSaveClick);
     body.on("click", "a.inline-skill-roll", onRollSkillClick);
     body.on("click", "a.inline-spell-roll", onRollSpellClick);
@@ -224,6 +231,60 @@ function rollItemMacro(itemUuid) {
   });
 }
 
+function percentRollEnricher(match, options) {
+  const percent = parseInt(match[1]);
+
+  const a = document.createElement("a");
+  a.classList.add("inline-percent-roll");
+  a.dataset.percent = percent;
+  a.innerHTML = `<i class="fas fa-dice-d20"></i>${percent}%`;
+  return a;
+}
+
+async function rollPercent(rollInfo, actor = null) {
+  let rollMod = "";
+  if (rollInfo?.modifier) {
+    rollMod += ` +${rollInfo.modifier}`;
+  }
+  const roll = new Roll("d100");
+  const result = await roll.evaluate();
+
+  const resultText = result.total <= rollInfo.label 
+    ? `<span style="color: #009900; font-weight: bold;">✓ Success!</span> (${result.total} < ${rollInfo.label})`
+    : `<span style="color: #990000; font-weight: bold;">✗ Failure!</span> (${result.total} ≥ ${rollInfo.label})`;
+
+  const enrichedResultText = await foundry.applications.ux.TextEditor.implementation.enrichHTML(resultText, {
+    async: true,
+    rollData: actor ? this.getRollData() : null,
+    relativeTo: this,
+  });
+
+  if (actor) {
+    roll.toMessage({
+      speaker: ChatMessage.getSpeaker({ actor: actor }),
+      flavor: `${rollInfo.label}%<br>${enrichedResultText}`,
+      rollMode: game.settings.get("core", "rollMode")
+    });
+  } else {
+    roll.toMessage({
+      flavor: `${rollInfo.label}%<br>${enrichedResultText}`,
+      rollMode: game.settings.get("core", "rollMode")
+    });
+  }
+}
+
+async function onRollPercentClick(event) {
+  const actors = getCharacterOrTokens();
+  if (actors.length) {
+    actors.forEach(async (actor) => {
+      await rollPercent({label: event.target.dataset.percent}, actor);
+    });
+  }
+  else {
+    await rollPercent({label: event.target.dataset.percent});
+  }
+}
+
 function saveRollEnricher(match, options) {
   const saveType = capitalizeFirstLetter(match[1].toLowerCase());
 
@@ -280,9 +341,9 @@ function capitalizeFirstLetter(val) {
   return String(val).charAt(0).toUpperCase() + String(val).slice(1);
 }
 
-function getCharacterOrTokens() {
+function getCharacterOrTokens(warn = true) {
   const actors = game.user.character || canvas.tokens.controlled.map(t => t.actor.system);
-  if (!actors) {
+  if (warn && !actors) {
     ui.notifications.warn("No character or token selected!");
   }
   return actors;

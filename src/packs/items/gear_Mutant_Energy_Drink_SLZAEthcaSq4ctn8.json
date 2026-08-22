@@ -5,7 +5,7 @@
   "_id": "SLZAEthcaSq4ctn8",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "<p>Slime-City’s biggest import can be found all over the planet. Grants an additional action on the next turn. There's a slight side effect: This stuff is radioactive! Every time one is drank, there is a [[/roll 1d100]]{50%} chance of a @UUID[Compendium.neon-lords.tables.RollTable.dxroduQNRO4YNCPD]{Major Mutation}. In addition, the turn after the additional action turn, the skumdog suffers a -2 to attack rolls and to their AC.</p>",
+    "description": "<p>Slime-City’s biggest import can be found all over the planet. Grants an additional action on the next turn. There's a slight side effect: This stuff is radioactive! Every time one is drank, there is a [[/percent 50]] chance of a @UUID[Compendium.neon-lords.tables.RollTable.dxroduQNRO4YNCPD]{Major Mutation}. In addition, the turn after the additional action turn, the skumdog suffers a -2 to attack rolls and to their AC.</p>",
     "quantity": 1,
     "slots": 1,
     "value": 15
@@ -20,12 +20,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.351",
     "systemId": "neon-lords",
-    "systemVersion": "0.0.9",
+    "systemVersion": "0.1.1",
     "createdTime": 1745428034537,
-    "modifiedTime": 1745428175616,
-    "lastModifiedBy": "x53CwYXR1zhkCDCY",
+    "modifiedTime": 1767310750299,
+    "lastModifiedBy": "l18XFo7VCP3jkSA6",
     "exportSource": null
   },
   "_key": "!items!SLZAEthcaSq4ctn8"
