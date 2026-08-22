@@ -1,4 +1,4 @@
-<form class='{{cssClass}}' autocomplete='off'>
+<div class='sheet-content flexcol'>
   <header class='sheet-header'>
     <img
       class='profile-img'
@@ -56,13 +56,13 @@
     {{! Description Tab }}
     <div class='tab' data-group='primary' data-tab='description'>
       {{! Editors must receive enriched text data from getData to properly handle rolls }}
-      {{editor
-        enrichedDescription
-        target='system.description'
-        engine='prosemirror'
-        button=true
-        editable=editable
-      }}
+      {{#if editable}}
+        <prose-mirror name='system.description' button='true' editable='{{editable}}' value='{{system.description}}'>
+          {{{enrichedDescription}}}
+        </prose-mirror>
+      {{else}}
+        {{{enrichedDescription}}}
+      {{/if}}
     </div>
   </section>
-</form>
+</div>

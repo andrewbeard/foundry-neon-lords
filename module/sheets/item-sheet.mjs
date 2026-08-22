@@ -3,47 +3,64 @@ import {
   prepareActiveEffectCategories,
 } from '../helpers/effects.mjs';
 
+const { HandlebarsApplicationMixin } = foundry.applications.api;
+const { ItemSheetV2 } = foundry.applications.sheets;
+
 /**
- * Extend the basic ItemSheet with some very simple modifications
- * @extends ItemSheet
+ * Extend the base ItemSheetV2 with some very simple modifications
+ * @extends ItemSheetV2
  */
-export class NeonLordsItemSheet extends foundry.appv1.sheets.ItemSheet {
+export class NeonLordsItemSheet extends HandlebarsApplicationMixin(
+  ItemSheetV2
+) {
   /** @override */
-  static get defaultOptions() {
-    return foundry.utils.mergeObject(super.defaultOptions, {
-      classes: ['neon-lords', 'sheet', 'item'],
+  static DEFAULT_OPTIONS = {
+    classes: ['neon-lords', 'sheet', 'item'],
+    tag: 'form',
+    position: {
       width: 520,
       height: 480,
-      tabs: [
-        {
-          navSelector: '.sheet-tabs',
-          contentSelector: '.sheet-body',
-          initial: 'description',
-        },
-      ],
-    });
-  }
+    },
+    window: {
+      resizable: true,
+    },
+    form: {
+      submitOnChange: true,
+      closeOnSubmit: false,
+    },
+  };
 
   /** @override */
-  get template() {
+  static PARTS = {
+    form: {
+      template: 'systems/neon-lords/templates/item/item-sheet.hbs',
+    },
+  };
+
+  /** @override */
+  _configureRenderParts(options) {
+    const parts = super._configureRenderParts(options);
     const path = 'systems/neon-lords/templates/item';
     // Return a single sheet for all item types.
-    // return `${path}/item-sheet.hbs`;
+    // parts.form = { template: `${path}/item-sheet.hbs` };
 
-    // Alternatively, you could use the following return statement to do a
-    // unique item sheet by type, like `weapon-sheet.hbs`.
-    return `${path}/item-${this.item.type}-sheet.hbs`;
+    // Alternatively, use the following to do a unique item sheet by type,
+    // like `item-weapon-sheet.hbs`.
+    parts.form = { template: `${path}/item-${this.item.type}-sheet.hbs` };
+    return parts;
   }
 
   /* -------------------------------------------- */
 
   /** @override */
-  async getData() {
+  async _prepareContext(options) {
     // Retrieve base data structure.
-    const context = super.getData();
+    const context = await super._prepareContext(options);
 
     // Use a safe clone of the item data for further operations.
     const itemData = this.document.toPlainObject();
+
+    context.editable = this.isEditable;
 
     // Enrich description info for display
     // Enrichment turns text like `[[/r 1d20]]` into buttons
@@ -52,8 +69,6 @@ export class NeonLordsItemSheet extends foundry.appv1.sheets.ItemSheet {
       {
         // Whether to show secret blocks in the finished html
         secrets: this.document.isOwner,
-        // Necessary in v11, can be removed in v12
-        async: true,
         // Data to fill in for inline rolls
         rollData: this.item.getRollData(),
         // Relative UUID resolution
@@ -77,17 +92,49 @@ export class NeonLordsItemSheet extends foundry.appv1.sheets.ItemSheet {
   /* -------------------------------------------- */
 
   /** @override */
-  activateListeners(html) {
-    super.activateListeners(html);
+  _onRender(context, options) {
+    super._onRender(context, options);
+
+    const html = this.element;
+    html.setAttribute('autocomplete', 'off');
+
+    // Tab navigation (DOM-based replacement for the old jQuery Tabs helper)
+    this._tabs ??= new foundry.applications.ux.Tabs({
+      navSelector: '.sheet-tabs',
+      contentSelector: '.sheet-body',
+      initial: 'description',
+    });
+    this._tabs.bind(html);
+
+    // Image edit (portrait)
+    html.querySelectorAll('img[data-edit]').forEach((img) => {
+      img.addEventListener('click', (ev) => this._onEditImage(ev));
+    });
 
     // Everything below here is only needed if the sheet is editable
     if (!this.isEditable) return;
 
-    // Roll handlers, click handlers, etc. would go here.
-
     // Active Effect management
-    html.on('click', '.effect-control', (ev) =>
-      onManageActiveEffect(ev, this.item)
-    );
+    html.querySelectorAll('.effect-control').forEach((el) => {
+      el.addEventListener('click', (ev) => onManageActiveEffect(ev, this.item));
+    });
+  }
+
+  /**
+   * Handle the item image being clicked to open the file picker.
+   * @param {Event} event   The originating click event
+   * @private
+   */
+  _onEditImage(event) {
+    const attr = event.currentTarget.dataset.edit;
+    const current = foundry.utils.getProperty(this.document, attr);
+    const fp = new FilePicker({
+      type: 'image',
+      current,
+      callback: (path) => this.document.update({ [attr]: path }),
+      top: this.position.top + 40,
+      left: this.position.left + 10,
+    });
+    return fp.browse();
   }
 }

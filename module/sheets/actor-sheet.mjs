@@ -3,48 +3,69 @@ import {
   prepareActiveEffectCategories,
 } from '../helpers/effects.mjs';
 
+const { HandlebarsApplicationMixin } = foundry.applications.api;
+const { ActorSheetV2 } = foundry.applications.sheets;
+
 /**
- * Extend the basic ActorSheet with some very simple modifications
- * @extends ActorSheet
+ * Extend the base ActorSheetV2 with some very simple modifications
+ * @extends ActorSheetV2
  */
-export class NeonLordsActorSheet extends foundry.appv1.sheets.ActorSheet {
+export class NeonLordsActorSheet extends HandlebarsApplicationMixin(
+  ActorSheetV2
+) {
   /** @override */
-  static get defaultOptions() {
-    return foundry.utils.mergeObject(super.defaultOptions, {
-      classes: ['neon-lords', 'sheet', 'actor'],
+  static DEFAULT_OPTIONS = {
+    classes: ['neon-lords', 'sheet', 'actor'],
+    tag: 'form',
+    position: {
       width: 600,
       height: 600,
-      tabs: [
-        {
-          navSelector: '.sheet-tabs',
-          contentSelector: '.sheet-body',
-          initial: 'attributes',
-        },
-      ],
-    });
-  }
+    },
+    window: {
+      resizable: true,
+    },
+    form: {
+      submitOnChange: true,
+      closeOnSubmit: false,
+    },
+  };
 
   /** @override */
-  get template() {
-    return `systems/neon-lords/templates/actor/actor-${this.actor.type}-sheet.hbs`;
+  static PARTS = {
+    form: {
+      template: 'systems/neon-lords/templates/actor/actor-character-sheet.hbs',
+    },
+  };
+
+  /** @override */
+  _configureRenderParts(options) {
+    const parts = super._configureRenderParts(options);
+    parts.form = {
+      template: `systems/neon-lords/templates/actor/actor-${this.actor.type}-sheet.hbs`,
+    };
+    return parts;
   }
 
   /* -------------------------------------------- */
 
   /** @override */
-  async getData() {
+  async _prepareContext(options) {
     // Retrieve the data structure from the base sheet. You can inspect or log
     // the context variable to see the structure, but some key properties for
     // sheets are the actor object, the data object, whether or not it's
     // editable, the items array, and the effects array.
-    const context = super.getData();
+    const context = await super._prepareContext(options);
 
     // Use a safe clone of the actor data for further operations.
     const actorData = this.document.toPlainObject();
 
+    context.actor = this.actor;
+    context.editable = this.isEditable;
+
     // Add the actor's data to context.data for easier access, as well as flags.
     context.system = actorData.system;
     context.flags = actorData.flags;
+    context.items = actorData.items;
 
     // Adding a pointer to CONFIG.NEON_LORDS
     context.config = CONFIG.NEON_LORDS;
@@ -67,8 +88,6 @@ export class NeonLordsActorSheet extends foundry.appv1.sheets.ActorSheet {
       {
         // Whether to show secret blocks in the finished html
         secrets: this.document.isOwner,
-        // Necessary in v11, can be removed in v12
-        async: true,
         // Data to fill in for inline rolls
         rollData: this.actor.getRollData(),
         // Relative UUID resolution
@@ -159,14 +178,32 @@ export class NeonLordsActorSheet extends foundry.appv1.sheets.ActorSheet {
   /* -------------------------------------------- */
 
   /** @override */
-  activateListeners(html) {
-    super.activateListeners(html);
+  _onRender(context, options) {
+    super._onRender(context, options);
+
+    const html = this.element;
+    html.setAttribute('autocomplete', 'off');
+
+    // Tab navigation (DOM-based replacement for the old jQuery Tabs helper)
+    this._tabs ??= new foundry.applications.ux.Tabs({
+      navSelector: '.sheet-tabs',
+      contentSelector: '.sheet-body',
+      initial: 'attributes',
+    });
+    this._tabs.bind(html);
 
     // Render the item sheet for viewing/editing prior to the editable check.
-    html.on('click', '.item-edit', (ev) => {
-      const li = $(ev.currentTarget).parents('.item');
-      const item = this.actor.items.get(li.data('itemId'));
-      item.sheet.render(true);
+    html.querySelectorAll('.item-edit').forEach((el) => {
+      el.addEventListener('click', (ev) => {
+        const li = ev.currentTarget.closest('.item');
+        const item = this.actor.items.get(li.dataset.itemId);
+        item?.sheet.render(true);
+      });
+    });
+
+    // Image edit (portrait)
+    html.querySelectorAll('img[data-edit]').forEach((img) => {
+      img.addEventListener('click', (ev) => this._onEditImage(ev));
     });
 
     // -------------------------------------------------------------
@@ -174,85 +211,115 @@ export class NeonLordsActorSheet extends foundry.appv1.sheets.ActorSheet {
     if (!this.isEditable) return;
 
     // Add Inventory Item
-    html.on('click', '.item-create', this._onItemCreate.bind(this));
+    html.querySelectorAll('.item-create').forEach((el) => {
+      el.addEventListener('click', this._onItemCreate.bind(this));
+    });
 
     // Delete Inventory Item
-    html.on('click', '.item-delete', (ev) => {
-      const li = $(ev.currentTarget).parents('.item');
-      const item = this.actor.items.get(li.data('itemId'));
-      item.delete();
-      li.slideUp(200, () => this.render(false));
+    html.querySelectorAll('.item-delete').forEach((el) => {
+      el.addEventListener('click', (ev) => {
+        const li = ev.currentTarget.closest('.item');
+        const item = this.actor.items.get(li.dataset.itemId);
+        item?.delete();
+      });
     });
 
     // Active Effect management
-    html.on('click', '.effect-control', (ev) => {
-      const row = ev.currentTarget.closest('li');
-      const document =
-        row.dataset.parentId === this.actor.id
-          ? this.actor
-          : this.actor.items.get(row.dataset.parentId);
-      onManageActiveEffect(ev, document);
+    html.querySelectorAll('.effect-control').forEach((el) => {
+      el.addEventListener('click', (ev) => {
+        const row = ev.currentTarget.closest('li');
+        const document =
+          row.dataset.parentId === this.actor.id
+            ? this.actor
+            : this.actor.items.get(row.dataset.parentId);
+        onManageActiveEffect(ev, document);
+      });
     });
 
     // Rollable abilities.
-    html.on('click', '.rollable', this._onRoll.bind(this));
+    html.querySelectorAll('.rollable').forEach((el) => {
+      el.addEventListener('click', this._onRoll.bind(this));
+      // Add context menu for rollable links
+      el.addEventListener('contextmenu', (ev) => this._onRollContextMenu(ev));
+    });
 
     // Drag events for macros.
     if (this.actor.isOwner) {
-      let handler = (ev) => this._onDragStart(ev);
-      html.find('li.item').each((i, li) => {
+      html.querySelectorAll('li.item').forEach((li) => {
         if (li.classList.contains('inventory-header')) return;
         li.setAttribute('draggable', true);
-        li.addEventListener('dragstart', handler, false);
+        li.addEventListener('dragstart', this._onDragStart.bind(this), false);
       });
     }
+  }
 
-    // Add context menu for rollable links
-    html.find('.rollable').contextmenu(ev => {
-      ev.preventDefault();
-      const rollable = ev.currentTarget;
-      const roll = rollable.dataset.roll;
-      const label = rollable.dataset.label || 'Roll';
-      
-      // Create and show dialog
-      new Dialog({
-        title: `Add Modifier to ${label}`,
-        content: `
-          <form>
-            <div class="form-group">
-              <label>Modifier:</label>
-              <input type="number" name="modifier" value="0" step="1">
-            </div>
-          </form>
-        `,
-        buttons: {
-          roll: {
-            icon: '<i class="fas fa-dice"></i>',
-            label: 'Roll',
-            callback: (html) => {
-              const modifier = parseInt(html.find('input[name="modifier"]').val()) || 0;
-              // Create a synthetic event with the modified roll
-              const modifiedEvent = {
-                currentTarget: {
-                  dataset: {
-                    ...rollable.dataset,
-                    modifier: modifier,
-                  }
-                },
-                preventDefault: () => {}
-              };
-              // Trigger the roll using the existing _onRoll method
-              this._onRoll(modifiedEvent);
-            }
-          },
-          cancel: {
-            icon: '<i class="fas fa-times"></i>',
-            label: 'Cancel'
+  /**
+   * Handle the right-click "add modifier" popup for rollable elements.
+   * @param {Event} event   The originating contextmenu event
+   * @private
+   */
+  _onRollContextMenu(event) {
+    event.preventDefault();
+    const rollable = event.currentTarget;
+    const roll = rollable.dataset.roll;
+    const label = rollable.dataset.label || 'Roll';
+
+    // Create and show dialog
+    new Dialog({
+      title: `Add Modifier to ${label}`,
+      content: `
+        <form>
+          <div class="form-group">
+            <label>Modifier:</label>
+            <input type="number" name="modifier" value="0" step="1">
+          </div>
+        </form>
+      `,
+      buttons: {
+        roll: {
+          icon: '<i class="fas fa-dice"></i>',
+          label: 'Roll',
+          callback: (html) => {
+            const modifier = parseInt(html.find('input[name="modifier"]').val()) || 0;
+            // Create a synthetic event with the modified roll
+            const modifiedEvent = {
+              currentTarget: {
+                dataset: {
+                  ...rollable.dataset,
+                  modifier: modifier,
+                }
+              },
+              preventDefault: () => {}
+            };
+            // Trigger the roll using the existing _onRoll method
+            this._onRoll(modifiedEvent);
           }
         },
-        default: 'roll'
-      }).render(true);
+        cancel: {
+          icon: '<i class="fas fa-times"></i>',
+          label: 'Cancel'
+        }
+      },
+      default: 'roll'
+    }).render(true);
+  }
+
+  /**
+   * Handle the portrait image being clicked to open the file picker.
+   * @param {Event} event   The originating click event
+   * @private
+   */
+  _onEditImage(event) {
+    const attr = event.currentTarget.dataset.edit;
+    const current = foundry.utils.getProperty(this.document, attr);
+    const fp = new FilePicker({
+      type: 'image',
+      current,
+      callback: (path) => this.document.update({ [attr]: path }),
+      top: this.position.top + 40,
+      left: this.position.left + 10,
     });
+    return fp.browse();
   }
 
   /**
@@ -316,7 +383,7 @@ export class NeonLordsActorSheet extends foundry.appv1.sheets.ActorSheet {
 
     let type = dataset.rollCategory ? `[${dataset.rollCategory}] ` : '';
     let label = dataset.label ? `${type}${dataset.label}` : '';
-    
+
     if (dataset.rollCategory === 'STATS' && dataset.label) {
       // For ability score rolls, roll directly against the ability value (roll under)
       this.actor.system.rollSkillCheck(dataset, this.actor);
@@ -349,11 +416,11 @@ export class NeonLordsActorSheet extends foundry.appv1.sheets.ActorSheet {
     }
     const roll = new Roll(dataset.roll + rollMod, this.actor.getRollData());
     const result = await roll.evaluate();
-    
+
     // Check for fumble on attack rolls (natural 1)
     const isFumble = result.terms[0].results[0].result === 1;
     const isToTheMax = result.terms[0].results[0].result >= this.actor.system.critRange;
-    
+
     let resultText;
     if (isFumble) {
       resultText = `<span style="color: #990000; font-weight: bold;">Fumble!</span> (${result.total})<br><br>`;
@@ -397,7 +464,7 @@ export class NeonLordsActorSheet extends foundry.appv1.sheets.ActorSheet {
     }
     const roll = new Roll(dataset.roll + rollMod, this.actor.getRollData());
     const result = await roll.evaluate();
-    
+
     const resultText = `Roll: ${result.total}`;
     const enrichedResultText = await foundry.applications.ux.TextEditor.implementation.enrichHTML(resultText, {
       async: true,
